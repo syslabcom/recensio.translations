@@ -1,0 +1,287 @@
+##############################################################################
+#
+# Copyright (c) 2003-2004 Zope Corporation and Contributors.
+# All Rights Reserved.
+#
+# This software is subject to the provisions of the Zope Public License,
+# Version 2.1 (ZPL).  A copy of the ZPL should accompany this distribution.
+# THIS SOFTWARE IS PROVIDED "AS IS" AND ANY AND ALL EXPRESS OR IMPLIED
+# WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+# WARRANTIES OF TITLE, MERCHANTABILITY, AGAINST INFRINGEMENT, AND FITNESS
+# FOR A PARTICULAR PURPOSE.
+#
+##############################################################################
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"POT-Creation-Date: Wed Aug 25 14:49:40 2010\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: zope/app/locales/extract.py\n"
+
+#: recensio.contenttypes:/browser/review.py:34
+msgid "Publication Title"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.py:35
+msgid "Volume Title"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.py:36
+msgid "Issue Title"
+msgstr ""
+
+#: recensio.contenttypes:/content/presentationarticlereview.py:32
+msgid "Title Journal"
+msgstr ""
+
+#: recensio.contenttypes:/content/presentationarticlereview.py:41
+msgid "Volume"
+msgstr ""
+
+#: recensio.contenttypes:/content/presentationarticlereview.py:49
+msgid "Issue"
+msgstr ""
+
+#: recensio.contenttypes:/content/presentationcollection.py:35
+msgid "Title Collected Edition"
+msgstr ""
+
+#: recensio.contenttypes:/content/presentationcollection.py:46
+msgid "Editor(s) Collected Edition"
+msgstr ""
+
+#: recensio.contenttypes:/content/presentationcollection.py:47
+#: recensio.contenttypes:/content/presentationonlineresource.py:34
+#: recensio.contenttypes:/content/schemata.py:28
+#: recensio.contenttypes:/content/schemata.py:52
+#: recensio.contenttypes:/content/schemata.py:158
+msgid "Lastname"
+msgstr ""
+
+#: recensio.contenttypes:/content/presentationcollection.py:48
+#: recensio.contenttypes:/content/presentationonlineresource.py:35
+#: recensio.contenttypes:/content/schemata.py:29
+#: recensio.contenttypes:/content/schemata.py:53
+#: recensio.contenttypes:/content/schemata.py:166
+msgid "Firstname"
+msgstr ""
+
+#: recensio.contenttypes:/content/presentationmonograph.py:38
+msgid "Existing online reviews"
+msgstr ""
+
+#: recensio.contenttypes:/content/presentationmonograph.py:39
+msgid "Name of the Journal"
+msgstr ""
+
+#: recensio.contenttypes:/content/presentationmonograph.py:40
+msgid "URL"
+msgstr ""
+
+#: recensio.contenttypes:/content/presentationmonograph.py:49
+msgid "Published Reviews"
+msgstr ""
+
+#: recensio.contenttypes:/content/presentationmonograph.py:57
+msgid "Autor(en) der pr\303\244sentierten Monographie"
+msgstr ""
+
+#: recensio.contenttypes:/content/presentationonlineresource.py:32
+#: recensio.contenttypes:/content/presentationonlineresource.py:33
+msgid "Institution"
+msgstr ""
+
+#: recensio.contenttypes:/content/presentationonlineresource.py:44
+msgid "Organisations"
+msgstr ""
+
+#: recensio.contenttypes:/content/presentationonlineresource.py:53
+msgid "Web Services and Communication"
+msgstr ""
+
+#: recensio.contenttypes:/content/presentationonlineresource.py:62
+msgid "Factual Reference Works"
+msgstr ""
+
+#: recensio.contenttypes:/content/presentationonlineresource.py:71
+msgid "Bibliographies, Catalogues, Directories"
+msgstr ""
+
+#: recensio.contenttypes:/content/presentationonlineresource.py:80
+msgid "Fulltexts (public domain)"
+msgstr ""
+
+#: recensio.contenttypes:/content/presentationonlineresource.py:89
+msgid "Periodicals (Journals, Magazines)"
+msgstr ""
+
+#: recensio.contenttypes:/content/publication.py:24
+msgid "Beschreibung"
+msgstr ""
+
+#: recensio.contenttypes:/content/reviewjournal.py:27
+msgid "Editor"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:104
+msgid "Page number (start)"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:111
+msgid "Page number (end)"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:121
+msgid "Pages"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:131
+msgid "Reihe"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:138
+msgid "Reihenvolume"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:150
+msgid "Honorific Title"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:182
+msgid "Textsprache der Pr\303\244sentation"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:191
+msgid "Textsprache der pr\303\244sentierten Schrift"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:199
+msgid "Recensio ID"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:208
+msgid "Generated Pdf"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:217
+msgid "PDF"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:226
+msgid "Word Document"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:234
+msgid "Review"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:242
+msgid "Citation"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:243
+msgid "A default citation is generated automatically. To use a custom citation instead, add the required text here"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:253
+msgid "URN"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:264
+msgid "ddc raum"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:27
+msgid "Authors"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:273
+msgid "ddc sach"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:283
+msgid "ddc zeit"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:294
+msgid "Untertitel"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:302
+msgid "Erscheinungsjahr"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:309
+msgid "Erscheinungsort"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:316
+msgid "Verlag"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:323
+msgid "Verbund ID"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:332
+msgid "Zitation"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:346
+msgid "ISBN"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:350
+msgid "Autor des Buchs"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:361
+msgid "Shortname (Journal)"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:368
+msgid "ISSN"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:375
+msgid "Gez\303\244hltes Jahr"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:379
+msgid "Autor des Aufsatzes"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:40
+msgid "Cover picture"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:51
+msgid "Reference Authors"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:54
+#: recensio.contenttypes:/content/schemata.py:174
+msgid "Email"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:55
+msgid "Address"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:56
+msgid "Phone"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:73
+msgid "All submitted reviews must be published under the CC-BY licence."
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:82
+msgid "Ich bin damit einverstanden, dass meine Pr\303\244sentation von recensio.netunter der Creative-Commons-Lizenz Namensnennung-Keine kommerzielle Nutzung-Keine Bearbeitung (CC-BY-NC-ND) publiziert wird. Sie darfunter diesen Bedingungen von Plattformnutzern elektronischbenutzt, \303\274bermittelt, ausgedruckt und zum Download bereitgestelltwerden."
+msgstr ""
+
