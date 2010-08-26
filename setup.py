@@ -25,7 +25,7 @@ setup(name='recensio.translations',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          # -*- Extra requirements: -*-
+          'infrae.i18nextract',
       ],
       entry_points="""
       # -*- Entry points: -*-
