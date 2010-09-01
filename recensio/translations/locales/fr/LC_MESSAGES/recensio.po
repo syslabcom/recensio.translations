@@ -23,6 +23,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: zope/app/locales/extract.py\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language-Code: fr\n"
+"Domain: recensio\n"
 
 #: recensio.contenttypes:/browser/review.py:34
 msgid "Publication Title"
