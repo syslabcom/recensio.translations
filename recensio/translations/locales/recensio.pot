@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Mon Aug 30 13:17:30 2010\n"
+"POT-Creation-Date: Tue Aug 31 12:11:48 2010\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
@@ -129,11 +129,15 @@ msgid "text_presentation_of"
 msgstr ""
 
 #: recensio.contenttypes:/content/review.py:64
+msgid "text_in"
+msgstr ""
+
+#: recensio.contenttypes:/content/review.py:65
 msgid "text_review_of"
 msgstr ""
 
-#: recensio.contenttypes:/content/review.py:64
-msgid "text_in"
+#: recensio.contenttypes:/content/review.py:65
+msgid "text_pages"
 msgstr ""
 
 #: recensio.contenttypes:/content/reviewjournal.py:27

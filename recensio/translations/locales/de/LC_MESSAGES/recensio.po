@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Mon Aug 30 13:17:30 2010\n"
+"POT-Creation-Date: Tue Aug 31 12:11:48 2010\n"
 "PO-Revision-Date: 2010-08-25 16:49+0200\n"
 "Last-Translator: Cillian de Roiste <deroiste@syslab.com>\n"
 "Language-Team: German\n"
@@ -127,15 +127,19 @@ msgstr ""
 
 #: recensio.contenttypes:/content/review.py:64
 msgid "text_presentation_of"
-msgstr ""
-
-#: recensio.contenttypes:/content/review.py:64
-msgid "text_review_of"
-msgstr ""
+msgstr "Präsentation von:"
 
 #: recensio.contenttypes:/content/review.py:64
 msgid "text_in"
-msgstr ""
+msgstr "in:"
+
+#: recensio.contenttypes:/content/review.py:65
+msgid "text_review_of"
+msgstr "Rezension von:"
+
+#: recensio.contenttypes:/content/review.py:65
+msgid "text_pages"
+msgstr "S."
 
 #: recensio.contenttypes:/content/reviewjournal.py:27
 msgid "Editor"
