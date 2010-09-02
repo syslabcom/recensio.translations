@@ -129,19 +129,19 @@ msgstr ""
 
 #: recensio.contenttypes:/content/review.py:64
 msgid "text_presentation_of"
-msgstr ""
+msgstr "presentation of:"
 
 #: recensio.contenttypes:/content/review.py:64
 msgid "text_in"
-msgstr ""
+msgstr "in:"
 
 #: recensio.contenttypes:/content/review.py:65
 msgid "text_review_of"
-msgstr ""
+msgstr "review of:"
 
 #: recensio.contenttypes:/content/review.py:65
 msgid "text_pages"
-msgstr ""
+msgstr "p."
 
 #: recensio.contenttypes:/content/reviewjournal.py:27
 msgid "Editor"
