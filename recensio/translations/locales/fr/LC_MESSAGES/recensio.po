@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Tue Aug 31 12:11:48 2010\n"
+"POT-Creation-Date: Thu Sep  2 09:51:06 2010\n"
 "PO-Revision-Date: 2010-08-25 16:47+0200\n"
 "Last-Translator: Cillian de Roiste <deroiste@syslab.com>\n"
 "Language-Team: French\n"
@@ -136,12 +136,12 @@ msgid "text_in"
 msgstr "in :"
 
 #: recensio.contenttypes:/content/review.py:65
-msgid "text_review_of"
-msgstr "recension de :"
-
-#: recensio.contenttypes:/content/review.py:65
 msgid "text_pages"
 msgstr "p."
+
+#: recensio.contenttypes:/content/review.py:65
+msgid "text_review_of"
+msgstr "recension de :"
 
 #: recensio.contenttypes:/content/reviewjournal.py:27
 msgid "Editor"
@@ -229,51 +229,51 @@ msgstr ""
 msgid "ddc zeit"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:294
+#: recensio.contenttypes:/content/schemata.py:295
 msgid "Untertitel"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:302
+#: recensio.contenttypes:/content/schemata.py:303
 msgid "Erscheinungsjahr"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:309
+#: recensio.contenttypes:/content/schemata.py:310
 msgid "Erscheinungsort"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:316
+#: recensio.contenttypes:/content/schemata.py:317
 msgid "Verlag"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:323
+#: recensio.contenttypes:/content/schemata.py:324
 msgid "Verbund ID"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:332
+#: recensio.contenttypes:/content/schemata.py:333
 msgid "Zitation"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:346
+#: recensio.contenttypes:/content/schemata.py:347
 msgid "ISBN"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:350
+#: recensio.contenttypes:/content/schemata.py:351
 msgid "Autor des Buchs"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:361
+#: recensio.contenttypes:/content/schemata.py:362
 msgid "Shortname (Journal)"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:368
+#: recensio.contenttypes:/content/schemata.py:369
 msgid "ISSN"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:375
+#: recensio.contenttypes:/content/schemata.py:376
 msgid "Gezähltes Jahr"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:379
+#: recensio.contenttypes:/content/schemata.py:380
 msgid "Autor des Aufsatzes"
 msgstr ""
 
@@ -309,4 +309,250 @@ msgid ""
 "Bearbeitung (CC-BY-NC-ND) publiziert wird. Sie darfunter diesen Bedingungen "
 "von Plattformnutzern elektronischbenutzt, übermittelt, ausgedruckt und zum "
 "Download bereitgestelltwerden."
+msgstr ""
+
+#. Default: "Recensio settings"
+#: recensio.policy:/browser/controlpanel.py:15
+msgid "label_recensio_settings"
+msgstr ""
+
+#. Default: "Below are some options for configuring the recensio portal."
+#: recensio.policy:/browser/controlpanel.py:16
+msgid "description_recensio_setings"
+msgstr ""
+
+#: recensio.policy:/browser/email.py:109
+msgid "Newsletter settings"
+msgstr ""
+
+#: recensio.policy:/browser/email.py:110
+msgid ""
+"This is a technical configuration panel for newsletter settings.\n"
+"The templates can access any object of a catalog result, but dates have been "
+"preformatted."
+msgstr ""
+
+#: recensio.policy:/browser/email.py:33
+msgid "You are not logged in"
+msgstr ""
+
+#: recensio.policy:/browser/email.py:39
+msgid "Plone site is not configured"
+msgstr ""
+
+#: recensio.policy:/browser/email.py:43
+msgid "You did not provide an e-mail address in your profile"
+msgstr ""
+
+#: recensio.policy:/browser/email.py:48
+msgid "Mailsettings not configured"
+msgstr ""
+
+#. Default: "Content was submitted"
+#: recensio.policy:/browser/workflow.py:51
+msgid "label_item_submitted"
+msgstr ""
+
+#. Default: "Your item has been published"
+#: recensio.policy:/browser/workflow.py:64
+msgid "label_item_published"
+msgstr ""
+
+#. Default: "E-mail address for submitted reviews."
+#: recensio.policy:/interfaces.py:107
+msgid "label_review_submitted_email"
+msgstr ""
+
+#. Default: "Enter an e-mail address to which notifications will be sent, if a user submits a review for publication."
+#: recensio.policy:/interfaces.py:109
+msgid "description_review_submitted_email"
+msgstr ""
+
+#. Default: "Available languages for content in the site."
+#: recensio.policy:/interfaces.py:117
+msgid "label_available_content_languages"
+msgstr ""
+
+#. Default: "Enter one language (2 letter code) per line. These languages will be used for the fields \"Language of Presentation\" and \"Language of reviewed text\"."
+#: recensio.policy:/interfaces.py:119
+msgid "description_available_content_languages"
+msgstr ""
+
+#: recensio.policy:/interfaces.py:40
+msgid "Mail Template"
+msgstr ""
+
+#: recensio.policy:/interfaces.py:41
+msgid ""
+"The container for the complete template, Variable expansion will be applied. "
+"Provide the following slots: a b c"
+msgstr ""
+
+#: recensio.policy:/interfaces.py:62
+msgid "Subject"
+msgstr ""
+
+#: recensio.policy:/interfaces.py:63
+msgid ""
+"The subject of the e-mail. Thats what the user sees first when receiving the "
+"mail"
+msgstr ""
+
+#: recensio.policy:/interfaces.py:64
+msgid "Recensio Newsletter"
+msgstr ""
+
+#: recensio.policy:/interfaces.py:65
+msgid "Date Format"
+msgstr ""
+
+#: recensio.policy:/interfaces.py:66
+msgid ""
+"strftime compatible date format specification, see http://docs.python.org/"
+"library/time.html#time.strftime"
+msgstr ""
+
+#: recensio.policy:/interfaces.py:68
+msgid "Review template"
+msgstr ""
+
+#: recensio.policy:/interfaces.py:69
+msgid ""
+"%(Title)s (%(getURL)s)\n"
+"\n"
+"%(Description)s\n"
+"\n"
+"Created on: %(created)s\n"
+"--------------------------------------------\n"
+msgstr ""
+
+#: recensio.policy:/interfaces.py:78
+msgid "Review template for Discussion based searches"
+msgstr ""
+
+#: recensio.policy:/interfaces.py:79
+msgid ""
+"%(Title)s (%(getURL)s)\n"
+"\n"
+"%(Description)s\n"
+"\n"
+"Last discussed on: %(last_comment_date)s\n"
+"--------------------------------------------\n"
+msgstr ""
+
+#: recensio.policy:/interfaces.py:87
+msgid "Separator"
+msgstr ""
+
+#: recensio.policy:/interfaces.py:88
+msgid ""
+"The separator will be used to separate sections of the email from each other."
+msgstr ""
+
+#. Default: "Academic title"
+#: recensio.policy:/userdataschema.py:31
+msgid "label_academic_title"
+msgstr ""
+
+#. Default: ""
+#: recensio.policy:/userdataschema.py:32
+msgid "help_academic_title"
+msgstr ""
+
+#. Default: "Preferred language"
+#: recensio.policy:/userdataschema.py:39
+msgid "label_preferred_language"
+msgstr ""
+
+#. Default: "What language do you prefer for receiving e-mails from us?"
+#: recensio.policy:/userdataschema.py:40
+msgid "description_preferred_language"
+msgstr ""
+
+#. Default: "Declaration of identity"
+#: recensio.policy:/userdataschema.py:48
+msgid "label_declaration_of_identity"
+msgstr ""
+
+#. Default: "I declare that I am indeed the person identified by the entries above."
+#: recensio.policy:/userdataschema.py:49
+msgid "help_declaration_of_identity"
+msgstr ""
+
+#: recensio.policy:/userdataschema.py:57
+msgid "Type the code"
+msgstr ""
+
+#: recensio.policy:/userdataschema.py:58
+msgid "Type the code from the picture shown below or from the audio."
+msgstr ""
+
+#. Default: "citation style"
+#: recensio.theme:/browser/pdfgen.py:87
+msgid "label_citation_style"
+msgstr ""
+
+#. Default: "Sie finden hier die Autorinnen und Autoren von auf recensio.net publizierten Rezensionen, Pr\303\244sentationen (Aufs\303\244tze, Monographien, Internetressourcen) und Kommentaren sowie die Autoren von hier rezensierten Werken. Jedem der drei Genres ist ein Icon zugeordnet, das vor dem Namen des jeweiligen Autors deutlich macht, welche Textart(en) dieser verfasst hat."
+#: recensio.theme:/browser/templates/authorsearch.pt:18
+msgid "description_authorsearch_1"
+msgstr ""
+
+#. Default: "Mit einem Klick auf den Autornamen erhalten Sie alle von einem Autor publizierten Texte. Der Klick auf ein spezielles Icon zeigt Ihnen gezielt die Treffer eines Genres an."
+#: recensio.theme:/browser/templates/authorsearch.pt:24
+msgid "description_authorsearch_2"
+msgstr ""
+
+#: recensio.theme:/browser/templates/authorsearch.pt:31
+msgid "Search"
+msgstr ""
+
+#. Default: "All presentations"
+#: recensio.theme:/browser/templates/authorsearch.pt:35
+#: recensio.theme:/browser/templates/authorsearch.pt:37
+#: recensio.theme:/browser/templates/authorsearch.pt:38
+#, fuzzy
+msgid "label_all_presentations"
+msgstr "présentation de :"
+
+#. Default: "All reviews"
+#: recensio.theme:/browser/templates/authorsearch.pt:42
+#: recensio.theme:/browser/templates/authorsearch.pt:44
+#: recensio.theme:/browser/templates/authorsearch.pt:45
+msgid "label_all_reviews"
+msgstr ""
+
+#. Default: "All comments"
+#: recensio.theme:/browser/templates/authorsearch.pt:49
+#: recensio.theme:/browser/templates/authorsearch.pt:51
+#: recensio.theme:/browser/templates/authorsearch.pt:52
+msgid "label_all_comments"
+msgstr ""
+
+#. Default: "Es wurden keine Autoren gefunden die ihren Kriterien entsprechen"
+#: recensio.theme:/browser/templates/authorsearch.pt:60
+msgid "label_no_authors_found"
+msgstr ""
+
+#. Default: "All presentations of this author"
+#: recensio.theme:/browser/templates/authorsearch.pt:70
+#: recensio.theme:/browser/templates/authorsearch.pt:71
+#, fuzzy
+msgid "label_all_presentations_author"
+msgstr "présentation de :"
+
+#. Default: "All reviews of this author"
+#: recensio.theme:/browser/templates/authorsearch.pt:75
+#: recensio.theme:/browser/templates/authorsearch.pt:76
+msgid "label_all_reviews_author"
+msgstr ""
+
+#. Default: "All comments of this author"
+#: recensio.theme:/browser/templates/authorsearch.pt:80
+#: recensio.theme:/browser/templates/authorsearch.pt:81
+msgid "label_all_comments_author"
+msgstr ""
+
+#. Default: "All items of this author"
+#: recensio.theme:/browser/templates/authorsearch.pt:85
+msgid "label_all_items_author"
 msgstr ""
