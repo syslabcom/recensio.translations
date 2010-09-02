@@ -510,9 +510,8 @@ msgstr ""
 #: recensio.theme:/browser/templates/authorsearch.pt:35
 #: recensio.theme:/browser/templates/authorsearch.pt:37
 #: recensio.theme:/browser/templates/authorsearch.pt:38
-#, fuzzy
 msgid "label_all_presentations"
-msgstr "presentation of:"
+msgstr ""
 
 #. Default: "All reviews"
 #: recensio.theme:/browser/templates/authorsearch.pt:42
@@ -536,9 +535,8 @@ msgstr ""
 #. Default: "All presentations of this author"
 #: recensio.theme:/browser/templates/authorsearch.pt:70
 #: recensio.theme:/browser/templates/authorsearch.pt:71
-#, fuzzy
 msgid "label_all_presentations_author"
-msgstr "presentation of:"
+msgstr ""
 
 #. Default: "All reviews of this author"
 #: recensio.theme:/browser/templates/authorsearch.pt:75
