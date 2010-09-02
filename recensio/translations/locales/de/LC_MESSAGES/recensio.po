@@ -490,69 +490,68 @@ msgstr ""
 #. Default: "citation style"
 #: recensio.theme:/browser/pdfgen.py:87
 msgid "label_citation_style"
-msgstr ""
+msgstr "Zitierhinweise"
 
 #. Default: "Sie finden hier die Autorinnen und Autoren von auf recensio.net publizierten Rezensionen, Pr\303\244sentationen (Aufs\303\244tze, Monographien, Internetressourcen) und Kommentaren sowie die Autoren von hier rezensierten Werken. Jedem der drei Genres ist ein Icon zugeordnet, das vor dem Namen des jeweiligen Autors deutlich macht, welche Textart(en) dieser verfasst hat."
 #: recensio.theme:/browser/templates/authorsearch.pt:18
 msgid "description_authorsearch_1"
-msgstr ""
+msgstr "Sie finden hier die Autorinnen und Autoren von auf recensio.net publizierten Rezensionen, Präsentationen (Aufsäze, Monographien, Internetressourcen) und Kommentaren sowie die Autoren von hier rezensierten Werken. Jedem der drei Genres ist ein Icon zugeordnet, das vor dem Namen des jeweiligen Autors deutlich macht, welche Textart(en) dieser verfasst hat."
 
 #. Default: "Mit einem Klick auf den Autornamen erhalten Sie alle von einem Autor publizierten Texte. Der Klick auf ein spezielles Icon zeigt Ihnen gezielt die Treffer eines Genres an."
 #: recensio.theme:/browser/templates/authorsearch.pt:24
 msgid "description_authorsearch_2"
-msgstr ""
+msgstr "Mit einem Klick auf den Autornamen erhalten Sie alle von einem Autor publizierten Texte. Der Klick auf ein spezielles Icon zeigt Ihnen gezielt die Treffer eines Genres an."
 
 #: recensio.theme:/browser/templates/authorsearch.pt:31
 msgid "Search"
-msgstr ""
+msgstr "Suche"
 
 #. Default: "All presentations"
 #: recensio.theme:/browser/templates/authorsearch.pt:35
 #: recensio.theme:/browser/templates/authorsearch.pt:37
 #: recensio.theme:/browser/templates/authorsearch.pt:38
-#, fuzzy
 msgid "label_all_presentations"
-msgstr "Präsentation von:"
+msgstr "Alle Präsentationen"
 
 #. Default: "All reviews"
 #: recensio.theme:/browser/templates/authorsearch.pt:42
 #: recensio.theme:/browser/templates/authorsearch.pt:44
 #: recensio.theme:/browser/templates/authorsearch.pt:45
 msgid "label_all_reviews"
-msgstr ""
+msgstr "Alle Rezensionen"
 
 #. Default: "All comments"
 #: recensio.theme:/browser/templates/authorsearch.pt:49
 #: recensio.theme:/browser/templates/authorsearch.pt:51
 #: recensio.theme:/browser/templates/authorsearch.pt:52
 msgid "label_all_comments"
-msgstr ""
+msgstr "Alle Kommentare"
 
 #. Default: "Es wurden keine Autoren gefunden die ihren Kriterien entsprechen"
 #: recensio.theme:/browser/templates/authorsearch.pt:60
 msgid "label_no_authors_found"
-msgstr ""
+msgstr "Es wurden keine Autoren gefunden die ihren Kriterien entsprechen"
 
 #. Default: "All presentations of this author"
 #: recensio.theme:/browser/templates/authorsearch.pt:70
 #: recensio.theme:/browser/templates/authorsearch.pt:71
 #, fuzzy
 msgid "label_all_presentations_author"
-msgstr "Präsentation von:"
+msgstr "Alle Präsentationen des Autors"
 
 #. Default: "All reviews of this author"
 #: recensio.theme:/browser/templates/authorsearch.pt:75
 #: recensio.theme:/browser/templates/authorsearch.pt:76
 msgid "label_all_reviews_author"
-msgstr ""
+msgstr "Alle Rezensionen des Autors"
 
 #. Default: "All comments of this author"
 #: recensio.theme:/browser/templates/authorsearch.pt:80
 #: recensio.theme:/browser/templates/authorsearch.pt:81
 msgid "label_all_comments_author"
-msgstr ""
+msgstr "Alle Kommentare des Autors"
 
 #. Default: "All items of this author"
 #: recensio.theme:/browser/templates/authorsearch.pt:85
 msgid "label_all_items_author"
-msgstr ""
+msgstr "Alle Artikel des Autors"
