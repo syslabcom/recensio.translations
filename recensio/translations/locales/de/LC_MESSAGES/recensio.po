@@ -503,19 +503,19 @@ msgstr "Suche"
 #: recensio.theme:/browser/templates/authorsearch.pt:35
 #: recensio.theme:/browser/templates/authorsearch.pt:37
 msgid "label_all_presentations"
-msgstr "Alle Präsentationen"
+msgstr "Alle Präsentationen eines Autors"
 
 #. Default: "All reviews"
 #: recensio.theme:/browser/templates/authorsearch.pt:41
 #: recensio.theme:/browser/templates/authorsearch.pt:43
 msgid "label_all_reviews"
-msgstr "Alle Rezensionen"
+msgstr "Alle Rezensionen eines Autors"
 
 #. Default: "All comments"
 #: recensio.theme:/browser/templates/authorsearch.pt:47
 #: recensio.theme:/browser/templates/authorsearch.pt:49
 msgid "label_all_comments"
-msgstr "Alle Kommentare"
+msgstr "Alle Kommentare einers Autors"
 
 #. Default: "Es wurden keine Autoren gefunden die ihren Kriterien entsprechen"
 #: recensio.theme:/browser/templates/authorsearch.pt:57
