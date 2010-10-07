@@ -474,11 +474,14 @@ msgstr ""
 #: recensio.theme:/browser/templates/authorsearch.pt:18
 msgid "description_authorsearch_1"
 msgstr ""
+"Nous vous proposons ici un index des auteurs des recensions, des présentations (d’articles, de monographies et ressources Internet) et des commentaires publiés sur <i>recensio.net</i>, ainsi que les auteurs des travaux commentés sur la plateforme."
+"Chaque type de document est représenté par un icône, placé devant le nom de l’auteur, afin de préciser le type d’ouvrage qu'il a écrit."
 
 #. Default: "Mit einem Klick auf den Autornamen erhalten Sie alle von einem Autor publizierten Texte. Der Klick auf ein spezielles Icon zeigt Ihnen gezielt die Treffer eines Genres an."
 #: recensio.theme:/browser/templates/authorsearch.pt:24
 msgid "description_authorsearch_2"
 msgstr ""
+"En cliquant sur le nom d’un auteur, vous pourrez également voir tous les textes et commentaires qu’il a publiés sur recensio.net. Un clic sur l’une des icônes vous permettra d’obtenir tous les documents du même type par auteur."
 
 #: recensio.theme:/browser/templates/authorsearch.pt:31
 msgid "Search"
