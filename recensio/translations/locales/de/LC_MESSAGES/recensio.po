@@ -611,22 +611,22 @@ msgstr "Benachrichtigung über Kommentareingang"
 
 #: recensio.policy:/browser/email.py:188
 msgid "mail_new_comment_body"
-msgstr "Sehr geehrte/r %(author)s,\n\
-\n\
-Sie haben am %(date)s Ihre Schrift\n\
-    %(title)s\n\
-\n\
-auf recensio.net präsentiert. %(commenter)s hat am %(commentdate)s Ihre Präsentation kommentiert. Sie haben hier die Gelegenheit, den Kommentar zu lesen und ggf. darauf zu reagieren:\n\
-\n\
-%(url)s\n\
-\n\
-Sollten Sie künftig keine Benachrichtigungen über den Eingang oder das Ausbleiben von Kommentaren zu Ihren Präsentationen erhalten wollen, klicken Sie bitte auf folgenden Link: [Link]\n\
-\n\
-Für Rückfragen steht Ihnen die recensio.net-Redaktion gern zur Verfügung: %(mail_from)s.\n\
-\n\
-Mit freundlichen Grüßen,\n\
-\n\
-       Ihr Rezensio.net Team"
+msgstr "Sehr geehrte/r %(author)s,\n"
+"\n"
+"Sie haben am %(date)s Ihre Schrift\n"
+"    %(title)s\n"
+"\n"
+"auf recensio.net präsentiert. %(commenter)s hat am %(commentdate)s Ihre Präsentation kommentiert. Sie haben hier die Gelegenheit, den Kommentar zu lesen und ggf. darauf zu reagieren:\n"
+"\n"
+"%(url)s\n"
+"\n"
+"Sollten Sie künftig keine Benachrichtigungen über den Eingang oder das Ausbleiben von Kommentaren zu Ihren Präsentationen erhalten wollen, klicken Sie bitte auf folgenden Link: [Link]\n"
+"\n"
+"Für Rückfragen steht Ihnen die recensio.net-Redaktion gern zur Verfügung: %(mail_from)s.\n"
+"\n"
+"Mit freundlichen Grüßen,\n"
+"\n"
+"       Ihr Rezensio.net Team"
 
 #: recensio.policy:/browser/email.py:239
 msgid "mail_new_publication_subject"
@@ -634,25 +634,26 @@ msgstr "Es wurde eine neue Rezension ihres Werkes %s veröffentlicht!"
 
 #: recensio.policy:/browser/email.py:239
 msgid "mail_new_publication_body"
-msgstr "Liebe Redaktion,\n\
-Die folgende Mail wurde generiert zur Benachrichtigung von %(reviewed_author)s. Bitte prüfen Sie sie und leiten sie ggf. weiter an\n\
-\n\
-%(reviewed_author)s <%(mail_to)s>\n\
-\n\
-**********\n\
-\n\
-Sehr geehrter Herr %(reviewed_author)s,\n\
-\n\
-vor Kurzem ist eine Schrift zum Thema %(title)s %(subtitle)s erschienen. Der Autor %(review_author)s hat diese Schrift auf der Rezensionsplattform recensio.net präsentiert und gibt an, sich mit Ihren Forschungen auseinandergesetzt zu haben.\n\
-\n\
-Sie können die Präsentation hier einsehen und haben zugleich die Gelegenheit, die präsentierten Thesen zu kommentieren. Dafür ist eine kurze, kostenlose Registrierung mit Namen und E-Mail-Adresse notwendig, die lediglich dazu dient, Missbrauch der Kommentarfunktion zu verhindern und den wissenschaftlichen Anspruch der Plattform zu wahren.\n\
-\n\
-Für Rückfragen steht Ihnen die recensio.net-Redaktion gern zur Verfügung: %(mail_from)s.\n\
-\n\
-Mit freundlichen Grüßen,\n\
-Ihr recensio.net-Team\n\
-\n\
-recensio.net ist ein DFG-gefördertes Angebot der Bayerischen Staatsbibliothek, des Deutschen Historischen Instituts Paris und des Instituts für Europäische Geschichte Mainz. Weitere Informationen finden Sie unter %(concept_url)s"
+msgstr ""
+"Liebe Redaktion,\n"
+"Die folgende Mail wurde generiert zur Benachrichtigung von %(reviewed_author)s. Bitte prüfen Sie sie und leiten sie ggf. weiter an\n"
+"\n"
+"%(reviewed_author)s <%(mail_to)s>\n"
+"\n"
+"**********\n"
+"\n"
+"Sehr geehrter Herr %(reviewed_author)s,\n"
+"\n"
+"vor Kurzem ist eine Schrift zum Thema %(title)s %(subtitle)s erschienen. Der Autor %(review_author)s hat diese Schrift auf der Rezensionsplattform recensio.net präsentiert und gibt an, sich mit Ihren Forschungen auseinandergesetzt zu haben.\n"
+"\n"
+"Sie können die Präsentation hier einsehen und haben zugleich die Gelegenheit, die präsentierten Thesen zu kommentieren. Dafür ist eine kurze, kostenlose Registrierung mit Namen und E-Mail-Adresse notwendig, die lediglich dazu dient, Missbrauch der Kommentarfunktion zu verhindern und den wissenschaftlichen Anspruch der Plattform zu wahren.\n"
+"\n"
+"Für Rückfragen steht Ihnen die recensio.net-Redaktion gern zur Verfügung: %(mail_from)s.\n"
+"\n"
+"Mit freundlichen Grüßen,\n"
+"Ihr recensio.net-Team\n"
+"\n"
+"recensio.net ist ein DFG-gefördertes Angebot der Bayerischen Staatsbibliothek, des Deutschen Historischen Instituts Paris und des Instituts für Europäische Geschichte Mainz. Weitere Informationen finden Sie unter %(concept_url)s"
 
 #: recensio.policy:/browser/email.py
 msgid "mail_uncommented_subject"
@@ -660,19 +661,20 @@ msgstr "Ihre Rezension auf Rezensio.net"
 
 #: recensio.policy:/browser/email.py:283
 msgid "mail_uncommented_body"
-msgstr "Sehr geehrte/r Frau/Herr %(name)s,\n\
-\n\
-Sie haben am %(date)s Ihre Schrift\n\
-    %(title)s\n\
-    \n\
-    auf recensio.net präsentiert. Bisher liegen keine Kommentare vor. Sie haben hier die Gelegenheit, Ihre Präsentation zu modifizieren: Sie könnten die Thesenformulierung bearbeiten oder auch die Zahl der aufgeführten Bezugsautoren erweitern. In der Regel werden diese von der recensio.net-Redaktion kontaktiert, was erheblich zur Sichtbarkeit einer Präsentation beiträgt. Wenn noch nicht geschehen, haben Sie zusätzlich die Möglichkeit, Coverbilder und Inhaltsverzeichnisse beizufügen (im Fall von Präsentationen von Monographien).\n\
-    \n\
-    Sollten Sie künftig keine Benachrichtigungen über den Eingang oder das Ausbleiben von Kommentaren zu Ihren Präsentationen erhalten wollen, klicken Sie bitte auf folgenden Link: [Link]\n\
-    \n\
-    Für Rückfragen steht Ihnen die recensio.net-Redaktion gern zur Verfügung: %(mail_from)s.\n\
-    \n\
-    Mit freundlichen Grüßen,\n\
-    Ihr recensio.net-Team"
+msgstr ""
+"Sehr geehrte/r Frau/Herr %(name)s,\n"
+"\n"
+"Sie haben am %(date)s Ihre Schrift\n"
+"    %(title)s\n"
+"    \n"
+"    auf recensio.net präsentiert. Bisher liegen keine Kommentare vor. Sie haben hier die Gelegenheit, Ihre Präsentation zu modifizieren: Sie könnten die Thesenformulierung bearbeiten oder auch die Zahl der aufgeführten Bezugsautoren erweitern. In der Regel werden diese von der recensio.net-Redaktion kontaktiert, was erheblich zur Sichtbarkeit einer Präsentation beiträgt. Wenn noch nicht geschehen, haben Sie zusätzlich die Möglichkeit, Coverbilder und Inhaltsverzeichnisse beizufügen (im Fall von Präsentationen von Monographien).\n"
+"    \n"
+"    Sollten Sie künftig keine Benachrichtigungen über den Eingang oder das Ausbleiben von Kommentaren zu Ihren Präsentationen erhalten wollen, klicken Sie bitte auf folgenden Link: [Link]\n"
+"    \n"
+"    Für Rückfragen steht Ihnen die recensio.net-Redaktion gern zur Verfügung: %(mail_from)s.\n"
+"    \n"
+"    Mit freundlichen Grüßen,\n"
+"    Ihr recensio.net-Team"
 
 #: recensio.policy:/browser/email.py:222
 msgid "no_mail_address_available"

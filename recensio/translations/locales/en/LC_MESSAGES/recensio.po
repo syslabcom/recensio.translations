@@ -536,26 +536,30 @@ msgstr ""
 msgid "mail_sending_prepared"
 msgstr "Mail sending will be prepared. Mail will be sent to %s"
 
-#: recensio.policy:/browser/email.py:239
+#: recensio.policy:/browser/email.py
 msgid "mail_new_publication_subject"
-msgstr "Liebe Redaktion,\n\
-Die folgende Mail wurde generiert zur Benachrichtigung von %(reviewed_author)s. Bitte prüfen Sie sie und leiten sie ggf. weiter an\n\
-\n\
-%(reviewed_author)s <%(mail_to)s>\n\
-\n\
-**********\n\
-\n\
-Dear Mr %(reviewed_author)s,\n\
-\n\
-Recently a text on the topic %(title)s %(subtitle)s was published.\n\
-Its author %(review_author)s has presented the text on the review platform recensio.net and states that he/she has dealt with your research.\n\
-\n\
-Here you can take a look at the presentation and comment on the presented statements. You will only need to register first (fast and free of charge) with your name and e-mail-address. This is necessary to prevent any misuse of the comment function and to maintain the platform’s scholarly claim.\n\
-\n\
-For any further information/questions please feel free to contact the recensio.net editorial team:\n\
-%(mail_from)s.\n\
-\n\
-Yours sincerely\n\
-The recensio.net editorial team\n\
-\n\
-recensio.net is a joint project of the Bavarian State Library (BSB) Munich, the German Historical Institute Paris (DHIP) and the Institute for European History (IEG) Mainz – funded by the German Research Foundation (DFG). Further information %(concept_url)s"
+msgstr "A new review of your work %s has been published!"
+
+#: recensio.policy:/browser/email.py:239
+msgid "mail_new_publication_body"
+msgstr "Liebe Redaktion,"
+"Die folgende Mail wurde generiert zur Benachrichtigung von %(reviewed_author)s. Bitte prüfen Sie sie und leiten sie ggf. weiter an"
+""
+"%(reviewed_author)s <%(mail_to)s>"
+""
+"**********"
+""
+"Dear Mr %(reviewed_author)s,"
+""
+"Recently a text on the topic %(title)s %(subtitle)s was published."
+"Its author %(review_author)s has presented the text on the review platform recensio.net and states that he/she has dealt with your research."
+""
+"Here you can take a look at the presentation and comment on the presented statements. You will only need to register first (fast and free of charge) with your name and e-mail-address. This is necessary to prevent any misuse of the comment function and to maintain the platform’s scholarly claim."
+""
+"For any further information/questions please feel free to contact the recensio.net editorial team:"
+"%(mail_from)s."
+""
+"Yours sincerely"
+"The recensio.net editorial team"
+""
+"recensio.net is a joint project of the Bavarian State Library (BSB) Munich, the German Historical Institute Paris (DHIP) and the Institute for European History (IEG) Mainz – funded by the German Research Foundation (DFG). Further information %(concept_url)s"
