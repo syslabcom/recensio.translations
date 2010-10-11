@@ -579,7 +579,7 @@ msgstr ""
 
 #: recensio.policy:/browser/email.py:52
 msgid "more_results_here"
-msgstr "Weitere Ergebnisse finden Sie hier:\n    %s"
+msgstr "Weitere Ergebnisse finden Sie hier:"
 
 #: recensio.policy:/browser/email.py:63
 msgid "comment"
@@ -619,8 +619,6 @@ msgstr "Sehr geehrte/r %(author)s,\n"
 "auf recensio.net präsentiert. %(commenter)s hat am %(commentdate)s Ihre Präsentation kommentiert. Sie haben hier die Gelegenheit, den Kommentar zu lesen und ggf. darauf zu reagieren:\n"
 "\n"
 "%(url)s\n"
-"\n"
-"Sollten Sie künftig keine Benachrichtigungen über den Eingang oder das Ausbleiben von Kommentaren zu Ihren Präsentationen erhalten wollen, klicken Sie bitte auf folgenden Link: [Link]\n"
 "\n"
 "Für Rückfragen steht Ihnen die recensio.net-Redaktion gern zur Verfügung: %(mail_from)s.\n"
 "\n"
@@ -669,8 +667,6 @@ msgstr ""
 "    \n"
 "    auf recensio.net präsentiert. Bisher liegen keine Kommentare vor. Sie haben hier die Gelegenheit, Ihre Präsentation zu modifizieren: Sie könnten die Thesenformulierung bearbeiten oder auch die Zahl der aufgeführten Bezugsautoren erweitern. In der Regel werden diese von der recensio.net-Redaktion kontaktiert, was erheblich zur Sichtbarkeit einer Präsentation beiträgt. Wenn noch nicht geschehen, haben Sie zusätzlich die Möglichkeit, Coverbilder und Inhaltsverzeichnisse beizufügen (im Fall von Präsentationen von Monographien).\n"
 "    \n"
-"    Sollten Sie künftig keine Benachrichtigungen über den Eingang oder das Ausbleiben von Kommentaren zu Ihren Präsentationen erhalten wollen, klicken Sie bitte auf folgenden Link: [Link]\n"
-"    \n"
 "    Für Rückfragen steht Ihnen die recensio.net-Redaktion gern zur Verfügung: %(mail_from)s.\n"
 "    \n"
 "    Mit freundlichen Grüßen,\n"
@@ -685,3 +681,11 @@ msgstr "Keine Email-Adresse hinterlegt"
 msgid "mail_no_recipients"
 msgstr "Es wurde keine Email-Adresse angegeben! Mail wurde nicht versendet"
 
+#: recensio.contenttypes:/profiles/default/types/Presentation_Monograph.xml:5
+msgid "title_presentation_monograph"
+msgstr "Präsentation einer Monographie"
+
+#: recensio.contenttypes:/profiles/default/types/Presentation_Monograph.xml:7
+msgid "description_presentation_monograph"
+msgstr "Um Ihre Monographie auf recensio.net zu präsentieren, füllen Sie bitte das nachfolgende Formular aus. Die mit * gekennzeichneten Felder sind Pflichtfelder. Bitte beachten Sie, dass eine Präsentation Ihrer Thesen zwar in nahezu allen europäischen Sprachen möglich ist, wir Ihnen jedoch empfehlen, eine der großen Wissenschaftssprachen zu wählen. Sie verleihen Ihrer Präsentation so größtmöglichste Aufmerksamkeit und erhöhen die Wahrscheinlichkeit einer Diskussion Ihrer Thesen.\n"
+"Sie können alle Angaben zu einem späteren Zeitpunkt verändern oder ergänzen."
