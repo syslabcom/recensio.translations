@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Mon Oct 11 17:15:54 2010\n"
+"POT-Creation-Date: Tue Oct 12 12:45:38 2010\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
@@ -23,52 +23,189 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: zope/app/locales/extract.py\n"
 
-#: recensio.contenttypes:/browser/review.pt:101
+#: recensio.contenttypes:/browser/review.pt:104
 #. Default: "Reference Authors"
 msgid "reference_authors"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.pt:110
+#: recensio.contenttypes:/browser/review.pt:113
 #. Default: "Zitierhinweise"
 msgid "citation_note"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.pt:118
+#: recensio.contenttypes:/browser/review.pt:115
+#. Default: "URL"
+msgid "url"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:121
 #. Default: "Lizenzhinweis:"
 msgid "license-note-heading"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.pt:119
+#: recensio.contenttypes:/browser/review.pt:122
 #. Default: "Dieser Beitrag unterliegt der Creative-Commons-Lizenz Namensnennung-Keine kommerzielle Nutzung-Keine Bearbeitung (CC-BY-NC-ND), darf also unter diesen Bedingungen elektronisch benutzt, \303\274bermittelt, ausgedruckt und zum Download bereitgestellt werden. Den Text der Lizenz erreichen Sie hier:"
 msgid "license-note"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.pt:132
+#: recensio.contenttypes:/browser/review.pt:135
 #. Default: "Download as <strong>PDF</strong><br /> <em class=\"discrete\">(${DYNAMIC_CONTENT} kb)</em>"
 msgid "download_as"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.pt:77
+#: recensio.contenttypes:/browser/review.pt:148
+#. Default: "Metadata"
+msgid "metadata"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:152
+#. Default: "Publications"
+msgid "metadata_publications"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:157
+#. Default: "Publication Title"
+msgid "publication_title"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:162
+#. Default: "Volume Title"
+msgid "volume_title"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:167
+#. Default: "Autor des Aufsatzes"
+msgid "autor_des_aufsatzes"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:172
+#. Default: "Shortname (Journal)"
+msgid "shortname_journal"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:177
+#. Default: "Erscheinungsjahr"
+msgid "erscheinungsjahr"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:182
+#. Default: "Gez\303\244hltes Jahr"
+msgid "gezaehltes_jahr"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:187
+#. Default: "Issue Title"
+msgid "issue_title"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:192
+#. Default: "Erscheinungsort"
+msgid "erscheinungsort"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:197
+#. Default: "Verlag"
+msgid "verlag"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:202
+#. Default: "ISSN"
+msgid "issn"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:211
+#. Default: "Others"
+msgid "metadata_others"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:215
+#. Default: "Textsprache der pr\303\244sentierten Schrift"
+msgid "textsprache_der_praesentierten_schrift"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:220
+#. Default: "Textsprache der Pr\303\244sentation"
+msgid "textsprache_der_praesentation"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:225
+#: recensio.theme:/skins/recensio_theme/search_form.pt:712
+#: recensio.theme:/skins/recensio_theme/search_form.pt:716
+#. Default: "Recensio ID"
+msgid "label_recensio_id"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:230
+#. Default: "Verbund ID"
+msgid "verbund_id"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:235
+#. Default: "ddc sach"
+msgid "ddc_subject"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:240
+#. Default: "ddc zeit"
+msgid "ddc_time"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:245
+#. Default: "ddc raum"
+msgid "ddc_place"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:250
+#. Default: "Stichworte"
+msgid "tags"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:262
+#. Default: "Zitation"
+msgid "citation"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:61
+#. Default: "Review page 1"
+msgid "review_page_1"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:66
+#. Default: "Review page 2"
+msgid "review_page_2"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:72
+#. Default: "Review page 3"
+msgid "review_page_3"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:80
 #. Default: "About"
 msgid "about"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.pt:81
+#: recensio.contenttypes:/browser/review.pt:84
 #. Default: "Author"
 msgid "author"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.pt:84
+#: recensio.contenttypes:/browser/review.pt:87
 #. Default: "Authors"
 msgid "authors"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.pt:93
+#: recensio.contenttypes:/browser/review.pt:94
+#. Default: "URI"
+msgid "uri"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:96
 #. Default: "Published"
 msgid "published"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.pt:96
+#: recensio.contenttypes:/browser/review.pt:99
 msgid "by"
 msgstr ""
 
@@ -660,6 +797,59 @@ msgstr ""
 msgid "presentations_of_online_resources"
 msgstr ""
 
+#: recensio.policy:/browser/templates/comments.pt:110
+#: recensio.theme:/skins/recensio_theme/search_form.pt:146
+#: recensio.theme:/skins/recensio_theme/search_form.pt:356
+#: recensio.theme:/skins/recensio_theme/search_form.pt:463
+msgid "${DYNAMIC_CONTENT}"
+msgstr ""
+
+#: recensio.policy:/browser/templates/comments.pt:116
+#. Default: "Notify portal owner about this comment"
+msgid "notify_portal_owner"
+msgstr ""
+
+#: recensio.policy:/browser/templates/comments.pt:126
+#. Default: "Reply"
+msgid "label_reply"
+msgstr ""
+
+#: recensio.policy:/browser/templates/comments.pt:152
+#. Default: "Add comment"
+msgid "label_add_comment"
+msgstr ""
+
+#: recensio.policy:/browser/templates/comments.pt:153
+#. Default: "You can add a comment by filling out the form below. Plain text formatting."
+msgid "description_add_comment"
+msgstr ""
+
+#: recensio.policy:/browser/templates/comments.pt:163
+#. Default: "Kommentieren"
+msgid "heading_commenting_explanation"
+msgstr ""
+
+#: recensio.policy:/browser/templates/comments.pt:166
+#. Default: "Benutzerrichtlinien"
+msgid "benutzerrichtlinien"
+msgstr ""
+
+#: recensio.policy:/browser/templates/comments.pt:169
+#. Default: "Sie haben hier die Gelegenheit, die Rezension/Pr\303\244sentation zu kommentieren. Daf\303\274r ist eine kurze, kostenlose Registrierung mit Namen und E-Mail-Adresse notwendig, die lediglich dazu dient, Missbrauch der Kommentarfunktion zu verhindern und den wissenschaftlichen Anspruch der Plattform zu wahren. <br /> Bitte beachten Sie, dass eingehende Kommentare vor der Ver\303\266ffentlichung auf die Einhaltung der ${benutzerrichtlinien} gepr\303\274ft werden. Aus diesem Grund k\303\266nnen 1 bis 3 Werktage vergehen, bis Ihr Kommentar auf recensio.net sichtbar wird. Dar\303\274ber hinaus gibt es die M\303\266glichkeit, der Redaktion als problematisch empfundene \303\204u\303\237erungen \303\274ber einen neben Kommentaren befindlichen Button zu melden. <br /> F\303\274r R\303\274ckfragen steht Ihnen die recensio.net-Redaktion jederzeit zur Verf\303\274gung:<br /> ${contact_addr}."
+msgid "commenting_explanation"
+msgstr ""
+
+#: recensio.policy:/browser/templates/comments.pt:17
+#: recensio.policy:/browser/templates/comments.pt:139
+#. Default: "Log in to add comments"
+msgid "label_login_to_add_comments"
+msgstr ""
+
+#: recensio.policy:/browser/templates/comments.pt:92
+#. Default: "Delete"
+msgid "label_delete"
+msgstr ""
+
 #: recensio.policy:/browser/workflow.py:51
 #. Default: "Content was submitted"
 msgid "label_item_submitted"
@@ -940,12 +1130,6 @@ msgstr ""
 msgid "help_search_item_type"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:146
-#: recensio.theme:/skins/recensio_theme/search_form.pt:356
-#: recensio.theme:/skins/recensio_theme/search_form.pt:463
-msgid "${DYNAMIC_CONTENT}"
-msgstr ""
-
 #: recensio.theme:/skins/recensio_theme/search_form.pt:16
 #. Default: "Erweiterte Suche"
 msgid "heading_advanced_search"
@@ -1206,16 +1390,6 @@ msgstr ""
 #: recensio.theme:/skins/recensio_theme/search_form.pt:70
 #. Default: "Return items matching some or all of these tags. Multiple words may be found by pressing <strong>Ctrl</strong> (or <strong>Apple</strong> key on Mac) while clicking the keywords."
 msgid "help_search_tags"
-msgstr ""
-
-#: recensio.theme:/skins/recensio_theme/search_form.pt:712
-#. Default: "recensio-ID"
-msgid "recensio_id"
-msgstr ""
-
-#: recensio.theme:/skins/recensio_theme/search_form.pt:716
-#. Default: "recensio-ID"
-msgid "label_recensio_id"
 msgstr ""
 
 #: recensio.theme:/skins/recensio_theme/search_form.pt:720
