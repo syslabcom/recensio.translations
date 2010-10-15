@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Tue Oct 12 12:45:38 2010\n"
+"POT-Creation-Date: Fri Oct 15 13:50:14 2010\n"
 "PO-Revision-Date: 2010-08-25 16:49+0200\n"
 "Last-Translator: Manuel Reinhardt <reinhardtsyslab.com>\n"
 "Language-Team: English\n"
@@ -40,7 +40,7 @@ msgstr ""
 #. Default: "Zitierhinweise"
 #: recensio.contenttypes:/browser/review.pt:113
 msgid "citation_note"
-msgstr ""
+msgstr "Citation rules"
 
 #. Default: "URL"
 #: recensio.contenttypes:/browser/review.pt:115
@@ -50,12 +50,12 @@ msgstr ""
 #. Default: "Lizenzhinweis:"
 #: recensio.contenttypes:/browser/review.pt:121
 msgid "license-note-heading"
-msgstr ""
+msgstr "Terms of licence:"
 
 #. Default: "Dieser Beitrag unterliegt der Creative-Commons-Lizenz Namensnennung-Keine kommerzielle Nutzung-Keine Bearbeitung (CC-BY-NC-ND), darf also unter diesen Bedingungen elektronisch benutzt, \303\274bermittelt, ausgedruckt und zum Download bereitgestellt werden. Den Text der Lizenz erreichen Sie hier:"
 #: recensio.contenttypes:/browser/review.pt:122
 msgid "license-note"
-msgstr ""
+msgstr "This text is subject to the creative-commons-licence Attribution-NonCommercial-NoDerivs (CC-BY-NC-ND), which means that it may under these conditions be used electronically, distributed, printed, and provided for download. Here you can read the licence’s text:"
 
 #. Default: "Download as <strong>PDF</strong><br /> <em class=\"discrete\">(${DYNAMIC_CONTENT} kb)</em>"
 #: recensio.contenttypes:/browser/review.pt:135
@@ -1172,7 +1172,7 @@ msgstr ""
 
 #: recensio.theme:/browser/templates/authorsearch.pt:18
 msgid "Autorensuche"
-msgstr ""
+msgstr "Authors"
 
 #. Default: "Sie finden hier die Autorinnen und Autoren von auf recensio.net publizierten Rezensionen, Pr\303\244sentationen (Aufs\303\244tze, Monographien, Internetressourcen) und Kommentaren sowie die Autoren von hier rezensierten Werken. Jedem der drei Genres ist ein Icon zugeordnet, das vor dem Namen des jeweiligen Autors deutlich macht, welche Textart(en) dieser verfasst hat."
 #: recensio.theme:/browser/templates/authorsearch.pt:19
@@ -1239,48 +1239,82 @@ msgstr ""
 msgid "label_all_comments"
 msgstr ""
 
-#. Default: "Edit your search options"
-#: recensio.theme:/skins/recensio_theme/search.pt:101
-msgid "edit_your_search_options"
+#. Default: "Neueste Rezensionsteile online"
+#: recensio.theme:/browser/templates/homepage.pt:18
+msgid "label_latest_review_journals"
+msgstr "latest review sectons online"
+
+#: recensio.theme:/browser/templates/homepage.pt:21
+msgid "in"
+msgstr ""
+
+#. Default: "Neueste Pr\303\244sentationen von Monographien und Aufs\303\244tzen"
+#: recensio.theme:/browser/templates/homepage.pt:28
+msgid "label_latest_monographies"
+msgstr "latest presentations of monographs and articles"
+
+#. Default: "Neueste Rezensionen online"
+#: recensio.theme:/browser/templates/homepage.pt:41
+msgid "label_latest_reviews"
+msgstr "latest reviews online"
+
+#. Default: "Neueste Pr\303\244sentationen von Internetressourcen"
+#: recensio.theme:/browser/templates/homepage.pt:59
+msgid "label_latest_internet_resources"
+msgstr "latest presentations of online resources"
+
+#. Default: "Teilnehmende Zeitschriften"
+#: recensio.theme:/browser/templates/homepage.pt:70
+msgid "heading_participating_publications"
+msgstr "Participating journals"
+
+#. Default: "Publications"
+#: recensio.theme:/browser/templates/publications.pt:17
+msgid "heading_publications"
+msgstr "Journals/Partners"
+
+#. Default: ""
+#: recensio.theme:/browser/templates/publications.pt:18
+msgid "description_publications"
 msgstr ""
 
 #. Default: "Search results"
-#: recensio.theme:/skins/recensio_theme/search.pt:128
+#: recensio.theme:/skins/recensio_theme/search.pt:125
 msgid "heading_search_results"
 msgstr ""
 
 #. Default: "${number} items matching"
-#: recensio.theme:/skins/recensio_theme/search.pt:134
+#: recensio.theme:/skins/recensio_theme/search.pt:131
 msgid "batch_x_items_matching_your_criteria"
 msgstr ""
 
 #. Default: "Subscribe to an always-updated feed of these search terms"
-#: recensio.theme:/skins/recensio_theme/search.pt:144
+#: recensio.theme:/skins/recensio_theme/search.pt:141
 msgid "title_rss_feed"
 msgstr ""
 
 #. Default: "No results were found."
-#: recensio.theme:/skins/recensio_theme/search.pt:152
+#: recensio.theme:/skins/recensio_theme/search.pt:149
 msgid "description_no_results_found"
 msgstr ""
 
 #. Default: "by ${author}"
-#: recensio.theme:/skins/recensio_theme/search.pt:196
+#: recensio.theme:/skins/recensio_theme/search.pt:189
 msgid "label_by_author"
 msgstr ""
 
 #. Default: "last modified"
-#: recensio.theme:/skins/recensio_theme/search.pt:208
+#: recensio.theme:/skins/recensio_theme/search.pt:201
 msgid "box_last_modified"
 msgstr ""
 
 #. Default: "Filed under:"
-#: recensio.theme:/skins/recensio_theme/search.pt:220
+#: recensio.theme:/skins/recensio_theme/search.pt:213
 msgid "label_filed_under"
 msgstr ""
 
 #. Default: "Relevance: ${percentage}%"
-#: recensio.theme:/skins/recensio_theme/search.pt:237
+#: recensio.theme:/skins/recensio_theme/search.pt:230
 msgid "label_relevance_percentage"
 msgstr ""
 
@@ -1301,16 +1335,21 @@ msgstr ""
 #. Default: "Did you not find what you were looking for? Try the ${advanced_search} to refine your search."
 #: recensio.theme:/skins/recensio_theme/search.pt:75
 msgid "search_results_advanced"
-msgstr ""
+msgstr "For more precise search options use the ${advanced_search}."
 
 #. Default: "Advanced Search"
 #: recensio.theme:/skins/recensio_theme/search.pt:76
 msgid "search_results_advanced_link"
-msgstr ""
+msgstr "advanced search"
 
 #. Default: "Hide the search form"
-#: recensio.theme:/skins/recensio_theme/search.pt:92
+#: recensio.theme:/skins/recensio_theme/search.pt:89
 msgid "hide_the_search_form"
+msgstr ""
+
+#. Default: "Edit your search options"
+#: recensio.theme:/skins/recensio_theme/search.pt:98
+msgid "edit_your_search_options"
 msgstr ""
 
 #. Default: "Match all"
@@ -1365,12 +1404,7 @@ msgstr ""
 #: recensio.theme:/skins/recensio_theme/search_form.pt:19
 #, fuzzy
 msgid "description_advanced_search"
-msgstr ""
-"Here you can find the authors of reviews, presentations (articles, "
-"monographs, online resources) and comments published on <i>recensio.net</i> "
-"as well as the authors of works reviewed here. Each of the three genres is "
-"assigned to an icon indicating in front of the respective author’s name "
-"which type of text he/she has written."
+msgstr "Using the following categories you can search and filter the entire platform (including the full texts of all reviews provided as pdf)"
 
 #. Default: "Last week"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:193
@@ -1577,7 +1611,7 @@ msgstr ""
 #. Default: "Epoche"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:649
 msgid "label_epoch"
-msgstr ""
+msgstr "Period"
 
 #. Default: ""
 #: recensio.theme:/skins/recensio_theme/search_form.pt:653
@@ -1684,11 +1718,43 @@ msgstr ""
 "assigned to an icon indicating in front of the respective author’s name "
 "which type of text he/she has written."
 
+#. Default: "Konzept"
+#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:16
+msgid "label_secondary_nav_concept"
+msgstr "Concept"
+
+#. Default: "Kontakt"
+#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:22
+msgid "label_secondary_nav_contact"
+msgstr "Contact"
+
+#. Default: "Benutzerrichtlinien"
+#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:30
+msgid "label_secondary_nav_user_guidelines"
+msgstr "User Guidelines"
+
+#. Default: "Copyright"
+#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:38
+msgid "label_secondary_nav_copyright"
+msgstr "Copyright"
+
+#~ msgid "Import"
+#~ msgstr "Import"
+
+#~ msgid "Cut PDF"
+#~ msgstr "Cut PDF"
+
+#~ msgid "Themes"
+#~ msgstr "Content Browsing"
+
+#~ msgid "About us"
+#~ msgstr "About us"
+
 #~ msgid "description_presentation_monograph"
 #~ msgstr ""
-#~ "___Please fill in the following form in order to present your monograph "
-#~ "on recensio.net. All fields marked with * are required. Please keep in "
-#~ "mind that you may present your core statements in nearly all European "
+#~ "Please fill in the following form in order to present your monograph on "
+#~ "recensio.net. All fields marked with * are required. Please keep in mind "
+#~ "that you may present your core statements in nearly all European "
 #~ "languages but that we would advise you to choose one of the main academic "
 #~ "languages. This way your presentation will attract much more attention "
 #~ "and discussion of your statements is much more likely.\n"

@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Tue Oct 12 12:45:38 2010\n"
+"POT-Creation-Date: Fri Oct 15 13:50:14 2010\n"
 "PO-Revision-Date: 2010-08-25 16:47+0200\n"
 "Last-Translator: Cillian de Roiste <deroiste@syslab.com>\n"
 "Language-Team: French\n"
@@ -459,7 +459,7 @@ msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:116
 msgid "Authors"
-msgstr ""
+msgstr "Auteurs"
 
 #. Default: "All submitted reviews must be published under the CC-BY licence."
 #: recensio.contenttypes:/content/schemata.py:136
@@ -1055,48 +1055,82 @@ msgstr ""
 msgid "label_all_comments"
 msgstr ""
 
-#. Default: "Edit your search options"
-#: recensio.theme:/skins/recensio_theme/search.pt:101
-msgid "edit_your_search_options"
+#. Default: "Neueste Rezensionsteile online"
+#: recensio.theme:/browser/templates/homepage.pt:18
+msgid "label_latest_review_journals"
+msgstr ""
+
+#: recensio.theme:/browser/templates/homepage.pt:21
+msgid "in"
+msgstr ""
+
+#. Default: "Neueste Pr\303\244sentationen von Monographien und Aufs\303\244tzen"
+#: recensio.theme:/browser/templates/homepage.pt:28
+msgid "label_latest_monographies"
+msgstr ""
+
+#. Default: "Neueste Rezensionen online"
+#: recensio.theme:/browser/templates/homepage.pt:41
+msgid "label_latest_reviews"
+msgstr ""
+
+#. Default: "Neueste Pr\303\244sentationen von Internetressourcen"
+#: recensio.theme:/browser/templates/homepage.pt:59
+msgid "label_latest_internet_resources"
+msgstr ""
+
+#. Default: "Teilnehmende Zeitschriften"
+#: recensio.theme:/browser/templates/homepage.pt:70
+msgid "heading_participating_publications"
+msgstr ""
+
+#. Default: "Publications"
+#: recensio.theme:/browser/templates/publications.pt:17
+msgid "heading_publications"
+msgstr ""
+
+#. Default: ""
+#: recensio.theme:/browser/templates/publications.pt:18
+msgid "description_publications"
 msgstr ""
 
 #. Default: "Search results"
-#: recensio.theme:/skins/recensio_theme/search.pt:128
+#: recensio.theme:/skins/recensio_theme/search.pt:125
 msgid "heading_search_results"
 msgstr ""
 
 #. Default: "${number} items matching"
-#: recensio.theme:/skins/recensio_theme/search.pt:134
+#: recensio.theme:/skins/recensio_theme/search.pt:131
 msgid "batch_x_items_matching_your_criteria"
 msgstr ""
 
 #. Default: "Subscribe to an always-updated feed of these search terms"
-#: recensio.theme:/skins/recensio_theme/search.pt:144
+#: recensio.theme:/skins/recensio_theme/search.pt:141
 msgid "title_rss_feed"
 msgstr ""
 
 #. Default: "No results were found."
-#: recensio.theme:/skins/recensio_theme/search.pt:152
+#: recensio.theme:/skins/recensio_theme/search.pt:149
 msgid "description_no_results_found"
 msgstr ""
 
 #. Default: "by ${author}"
-#: recensio.theme:/skins/recensio_theme/search.pt:196
+#: recensio.theme:/skins/recensio_theme/search.pt:189
 msgid "label_by_author"
 msgstr ""
 
 #. Default: "last modified"
-#: recensio.theme:/skins/recensio_theme/search.pt:208
+#: recensio.theme:/skins/recensio_theme/search.pt:201
 msgid "box_last_modified"
 msgstr ""
 
 #. Default: "Filed under:"
-#: recensio.theme:/skins/recensio_theme/search.pt:220
+#: recensio.theme:/skins/recensio_theme/search.pt:213
 msgid "label_filed_under"
 msgstr ""
 
 #. Default: "Relevance: ${percentage}%"
-#: recensio.theme:/skins/recensio_theme/search.pt:237
+#: recensio.theme:/skins/recensio_theme/search.pt:230
 msgid "label_relevance_percentage"
 msgstr ""
 
@@ -1125,8 +1159,13 @@ msgid "search_results_advanced_link"
 msgstr ""
 
 #. Default: "Hide the search form"
-#: recensio.theme:/skins/recensio_theme/search.pt:92
+#: recensio.theme:/skins/recensio_theme/search.pt:89
 msgid "hide_the_search_form"
+msgstr ""
+
+#. Default: "Edit your search options"
+#: recensio.theme:/skins/recensio_theme/search.pt:98
+msgid "edit_your_search_options"
 msgstr ""
 
 #. Default: "Match all"
@@ -1479,3 +1518,23 @@ msgstr ""
 #: recensio.theme:/skins/recensio_theme/search_form.pt:98
 msgid "description_subject_or"
 msgstr ""
+
+#. Default: "Konzept"
+#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:16
+msgid "label_secondary_nav_concept"
+msgstr "Concept"
+
+#. Default: "Kontakt"
+#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:22
+msgid "label_secondary_nav_contact"
+msgstr "Contact"
+
+#. Default: "Benutzerrichtlinien"
+#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:30
+msgid "label_secondary_nav_user_guidelines"
+msgstr "Conditions D’Utilisation"
+
+#. Default: "Copyright"
+#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:38
+msgid "label_secondary_nav_copyright"
+msgstr "Droits D’Auteur"
