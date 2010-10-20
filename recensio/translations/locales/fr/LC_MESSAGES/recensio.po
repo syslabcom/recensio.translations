@@ -1538,3 +1538,20 @@ msgstr "Conditions D’Utilisation"
 #: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:38
 msgid "label_secondary_nav_copyright"
 msgstr "Droits D’Auteur"
+
+
+#. Default: "Review"
+#: portal_actions
+msgid "label_reviews"
+msgstr "Review"
+
+#. Default: "Presentations"
+#: portal_actions
+msgid "label_presentations"
+msgstr "Presentations"
+
+#. Default: "join recensio.net"
+#: portal_actions
+msgid "label_participate"
+msgstr "join recensio.net"
+

@@ -1634,6 +1634,23 @@ msgstr "Benutzerrichtlinien"
 msgid "label_secondary_nav_copyright"
 msgstr "Copyright"
 
+#. Default: "Review"
+#: portal_actions
+msgid "label_reviews"
+msgstr "Rezensionen"
+
+#. Default: "Presentations"
+#: portal_actions
+msgid "label_presentations"
+msgstr "Präsentationen"
+
+#. Default: "join recensio.net"
+#: portal_actions
+msgid "label_participate"
+msgstr "mitmachen bei recensio.net"
+
+
+
 #~ msgid "Import"
 #~ msgstr "Import"
 
