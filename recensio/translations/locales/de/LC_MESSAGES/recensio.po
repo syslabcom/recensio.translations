@@ -29,17 +29,17 @@ msgstr ""
 #. Default: "Reference Authors"
 #: recensio.contenttypes:/browser/review.pt:104
 msgid "reference_authors"
-msgstr ""
+msgstr "Referenzautoren"
 
 #. Default: "Zitierhinweise"
 #: recensio.contenttypes:/browser/review.pt:113
 msgid "citation_note"
-msgstr ""
+msgstr "Zitierhinweise"
 
 #. Default: "URL"
 #: recensio.contenttypes:/browser/review.pt:115
 msgid "url"
-msgstr ""
+msgstr "URL"
 
 #. Default: "Lizenzhinweis:"
 #: recensio.contenttypes:/browser/review.pt:121
@@ -55,10 +55,10 @@ msgstr ""
 "Bedingungen elektronisch benutzt, übermittelt, ausgedruckt und zum Download "
 "bereitgestellt werden. Den Text der Lizenz erreichen Sie hier:"
 
-#. Default: "Download as <strong>PDF</strong><br /> <em class=\"discrete\">(${DYNAMIC_CONTENT} kb)</em>"
+#. Default: "Download as <strong>PDF</strong><br /> <em class=\"discrete\">(${download_size} kb)</em>"
 #: recensio.contenttypes:/browser/review.pt:135
 msgid "download_as"
-msgstr ""
+msgstr "Als <strong>PDF</strong> herunterladen<br /> <em class=\"discrete\">(${download_size} kb)</em>"
 
 #. Default: "Metadata"
 #: recensio.contenttypes:/browser/review.pt:148
@@ -210,11 +210,11 @@ msgstr ""
 #. Default: "Published"
 #: recensio.contenttypes:/browser/review.pt:96
 msgid "published"
-msgstr ""
+msgstr "Veröffentlicht"
 
 #: recensio.contenttypes:/browser/review.pt:99
 msgid "by"
-msgstr ""
+msgstr "von"
 
 #: recensio.contenttypes:/browser/review.py:24
 msgid "Publication Title"
@@ -888,22 +888,22 @@ msgstr ""
 #. Default: "Notify portal owner about this comment"
 #: recensio.policy:/browser/templates/comments.pt:116
 msgid "notify_portal_owner"
-msgstr ""
+msgstr "Seitenbetreiber zu diesem Kommentar benachrichtigen"
 
 #. Default: "Reply"
 #: recensio.policy:/browser/templates/comments.pt:126
 msgid "label_reply"
-msgstr ""
+msgstr "Antworten"
 
 #. Default: "Add comment"
 #: recensio.policy:/browser/templates/comments.pt:152
 msgid "label_add_comment"
-msgstr ""
+msgstr "Kommentar hinzufügen"
 
 #. Default: "You can add a comment by filling out the form below. Plain text formatting."
 #: recensio.policy:/browser/templates/comments.pt:153
 msgid "description_add_comment"
-msgstr ""
+msgstr "Sie können einen Kommentar hinzufügen, indem sie das Formular unten ausfüllen. Formatierung als reiner Text."
 
 #. Default: "Kommentieren"
 #: recensio.policy:/browser/templates/comments.pt:163
@@ -939,12 +939,12 @@ msgstr ""
 #: recensio.policy:/browser/templates/comments.pt:17
 #: recensio.policy:/browser/templates/comments.pt:139
 msgid "label_login_to_add_comments"
-msgstr ""
+msgstr "Einloggen um zu kommentieren"
 
 #. Default: "Delete"
 #: recensio.policy:/browser/templates/comments.pt:92
 msgid "label_delete"
-msgstr ""
+msgstr "Löschen"
 
 #. Default: "Content was submitted"
 #: recensio.policy:/browser/workflow.py:51
@@ -1651,41 +1651,41 @@ msgstr "mitmachen bei recensio.net"
 
 
 
-#~ msgid "Import"
-#~ msgstr "Import"
+msgid "Import"
+msgstr "Import"
 
-#~ msgid "Cut PDF"
-#~ msgstr "PDF ausschneiden"
+msgid "Cut PDF"
+msgstr "PDF ausschneiden"
 
-#~ msgid "Themes"
-#~ msgstr "Themenbrowsing"
+msgid "Themes"
+msgstr "Themenbrowsing"
 
-#~ msgid "About us"
-#~ msgstr "Über uns"
+msgid "About us"
+msgstr "Über uns"
 
-#~ msgid "Review"
-#~ msgstr ""
-#~ "Bitte formulieren Sie hier kurz und übersichtlich die von Ihnen "
-#~ "erarbeiteten Thesen, Ihre Methodik und/oder Ihre Auseinandersetzung mit "
-#~ "bestehenden Forschungsansätzen.Durch das Kommentieren einer bereits "
-#~ "vorhandenen Rezension/Präsentation auf recensio.net erhöhen Sie die für "
-#~ "Ihre eigene Präsentation zur Verfügung stehende Zeichenzahl von 2000 auf "
-#~ "3000.Bitte beachten Sie, dass sowohl Kommentare als auch Präsentationen "
-#~ "vor ihrer Publikation durch die Redaktion geprüft werden, um Missbrauch "
-#~ "zu verhindern. Dadurch sind die Texte frühestens nach 3 Werktagen "
-#~ "öffentlich einsehbar."
+msgid "Review"
+msgstr ""
+"Bitte formulieren Sie hier kurz und übersichtlich die von Ihnen "
+"erarbeiteten Thesen, Ihre Methodik und/oder Ihre Auseinandersetzung mit "
+"bestehenden Forschungsansätzen.Durch das Kommentieren einer bereits "
+"vorhandenen Rezension/Präsentation auf recensio.net erhöhen Sie die für "
+"Ihre eigene Präsentation zur Verfügung stehende Zeichenzahl von 2000 auf "
+"3000.Bitte beachten Sie, dass sowohl Kommentare als auch Präsentationen "
+"vor ihrer Publikation durch die Redaktion geprüft werden, um Missbrauch "
+"zu verhindern. Dadurch sind die Texte frühestens nach 3 Werktagen "
+"öffentlich einsehbar."
 
-#~ msgid "title_presentation_monograph"
-#~ msgstr "Präsentation einer Monographie"
+msgid "title_presentation_monograph"
+msgstr "Präsentation einer Monographie"
 
-#~ msgid "description_presentation_monograph"
-#~ msgstr ""
-#~ "Um Ihre Monographie auf recensio.net zu präsentieren, füllen Sie bitte "
-#~ "das nachfolgende Formular aus. Die mit * gekennzeichneten Felder sind "
-#~ "Pflichtfelder. Bitte beachten Sie, dass eine Präsentation Ihrer Thesen "
-#~ "zwar in nahezu allen europäischen Sprachen möglich ist, wir Ihnen jedoch "
-#~ "empfehlen, eine der großen Wissenschaftssprachen zu wählen. Sie verleihen "
-#~ "Ihrer Präsentation so größtmöglichste Aufmerksamkeit und erhöhen die "
-#~ "Wahrscheinlichkeit einer Diskussion Ihrer Thesen.\n"
-#~ "Sie können alle Angaben zu einem späteren Zeitpunkt verändern oder "
-#~ "ergänzen."
+msgid "description_presentation_monograph"
+msgstr ""
+"Um Ihre Monographie auf recensio.net zu präsentieren, füllen Sie bitte "
+"das nachfolgende Formular aus. Die mit * gekennzeichneten Felder sind "
+"Pflichtfelder. Bitte beachten Sie, dass eine Präsentation Ihrer Thesen "
+"zwar in nahezu allen europäischen Sprachen möglich ist, wir Ihnen jedoch "
+"empfehlen, eine der großen Wissenschaftssprachen zu wählen. Sie verleihen "
+"Ihrer Präsentation so größtmöglichste Aufmerksamkeit und erhöhen die "
+"Wahrscheinlichkeit einer Diskussion Ihrer Thesen.\n"
+"Sie können alle Angaben zu einem späteren Zeitpunkt verändern oder "
+"ergänzen."

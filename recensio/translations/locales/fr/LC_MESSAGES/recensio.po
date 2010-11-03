@@ -51,7 +51,7 @@ msgstr ""
 msgid "license-note"
 msgstr ""
 
-#. Default: "Download as <strong>PDF</strong><br /> <em class=\"discrete\">(${DYNAMIC_CONTENT} kb)</em>"
+#. Default: "Download as <strong>PDF</strong><br /> <em class=\"discrete\">(${download_size} kb)</em>"
 #: recensio.contenttypes:/browser/review.pt:135
 msgid "download_as"
 msgstr ""
