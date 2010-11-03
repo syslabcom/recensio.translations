@@ -236,7 +236,7 @@ msgstr ""
 #: recensio.contenttypes:/content/presentationarticlereview.py:35
 #: recensio.theme:/skins/recensio_theme/search_form.pt:804
 msgid "Title"
-msgstr ""
+msgstr "Titel"
 
 #. Default: "Information on the journal"
 #: recensio.contenttypes:/content/presentationarticlereview.py:36
@@ -245,12 +245,18 @@ msgstr ""
 
 #: recensio.contenttypes:/content/presentationarticlereview.py:45
 msgid "Volume"
-msgstr ""
+msgstr "Band"
 
 #: recensio.contenttypes:/content/presentationarticlereview.py:46
 #: recensio.contenttypes:/content/schemata.py:590
 msgid "Number"
-msgstr ""
+msgstr "Nummer"
+
+msgid "Issue"
+msgstr "Ausgabe"
+
+msgid "Publication"
+msgstr "Publikation"
 
 #. Default: "Which scholarly author's work have you mainly engaged with in your article? Please give us the most detailed information possible on the &raquo;contemporary&laquo; names amongst them as the recensio.net editorial team will usually try to inform these authors of the existence of your article, your presentation, and the chance to comment on it. Only the reference author's name will be visible to the public. Please name historical reference authors (e.g. Aristotle, Charles de Gaulle) further below as subject heading."
 #: recensio.contenttypes:/content/presentationarticlereview.py:47
@@ -275,19 +281,19 @@ msgstr ""
 
 #: recensio.contenttypes:/content/presentationcollection.py:51
 msgid "Editor(s)"
-msgstr ""
+msgstr "Herausgeber"
 
 #: recensio.contenttypes:/content/presentationcollection.py:52
 #: recensio.contenttypes:/content/presentationonlineresource.py:38
 #: recensio.contenttypes:/content/schemata.py:117
 msgid "Last name"
-msgstr ""
+msgstr "Nachname"
 
 #: recensio.contenttypes:/content/presentationcollection.py:53
 #: recensio.contenttypes:/content/presentationonlineresource.py:39
 #: recensio.contenttypes:/content/schemata.py:118
 msgid "First name"
-msgstr ""
+msgstr "Vorname"
 
 #. Default: "Author(s) of presented article"
 #: recensio.contenttypes:/content/presentationcollection.py:60
@@ -1198,17 +1204,17 @@ msgstr ""
 #. Default: "Subscribe to an always-updated feed of these search terms"
 #: recensio.theme:/skins/recensio_theme/search.pt:141
 msgid "title_rss_feed"
-msgstr ""
+msgstr "Abonnieren Sie einen stets aktuellen RSS-Feed aus diesen Suchresultaten"
 
 #. Default: "No results were found."
 #: recensio.theme:/skins/recensio_theme/search.pt:149
 msgid "description_no_results_found"
-msgstr ""
+msgstr "Keine Suchergebnisse."
 
 #. Default: "by ${author}"
 #: recensio.theme:/skins/recensio_theme/search.pt:189
 msgid "label_by_author"
-msgstr ""
+msgstr "von ${author}"
 
 #. Default: "last modified"
 #: recensio.theme:/skins/recensio_theme/search.pt:201
@@ -1257,7 +1263,7 @@ msgstr ""
 #. Default: "Edit your search options"
 #: recensio.theme:/skins/recensio_theme/search.pt:98
 msgid "edit_your_search_options"
-msgstr ""
+msgstr "Suchoptionen bearbeiten"
 
 #. Default: "Match all"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:109
@@ -1341,72 +1347,72 @@ msgstr ""
 #. Default: "Modified items since"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:220
 msgid "label_modified_items_since"
-msgstr ""
+msgstr "Geänderte Artikel seit"
 
 #. Default: "Return items modified since you were last logged on, the last week, etc."
 #: recensio.theme:/skins/recensio_theme/search_form.pt:225
 msgid "help_search_modified_items_since"
-msgstr ""
+msgstr "Findet Artikel, die igeändert wurden, seitdem Sie das letzte Mal angemeldet waren, seit einer Woche, etc."
 
 #. Default: "Language of the Review or Presentation"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:271
 msgid "label_recension_language"
-msgstr ""
+msgstr "Sprache der Rezension oder Präsentation"
 
 #. Default: "Return items in selected languages."
 #: recensio.theme:/skins/recensio_theme/search_form.pt:276
 msgid "help_search_recension_language"
-msgstr ""
+msgstr "Findet Artikel in den gewählten Sprachen"
 
 #. Default: "Language of the Reviewed Works"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:297
 msgid "label_works_language"
-msgstr ""
+msgstr "Sprache des rezensierten Werkes"
 
 #. Default: "Return items that review works in selected the languages."
 #: recensio.theme:/skins/recensio_theme/search_form.pt:302
 msgid "help_search_works_language"
-msgstr ""
+msgstr "Findet Artikel, die Werke in den gewählten Sprachen rezensieren."
 
 #. Default: "Review status"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:326
 msgid "label_review_status"
-msgstr ""
+msgstr "Revisionsstatus"
 
 #. Default: "You may search for items based on their review state. If you wish to constrain results to items in certain states, select them from this list."
 #: recensio.theme:/skins/recensio_theme/search_form.pt:338
 msgid "help_search_review_status"
-msgstr ""
+msgstr "Als Redakteur können Sie nach Artikeln suchen, die einen bestimmten Revisionsstatus haben. Wählen Sie aus dieser Liste aus, um ausschließlich Artikel mit einem bestimmten Revisionsstatus zu finden."
 
-#. Default: "Autor/Editor"
+#. Default: "Autor/Herausgeber"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:370
 msgid "label_review_autor"
-msgstr ""
+msgstr "Autor/Herausgeber"
 
-#. Default: "Autor von Monographie/Aufsatz/Kommentar oder Editor des Sammelbandes"
+#. Default: "Autor von Monographie/Aufsatz/Kommentar oder Herausgeber des Sammelbandes"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:374
 msgid "help_review_autor"
-msgstr ""
+msgstr "Autor von Monographie/Aufsatz/Kommentar oder Herausgeber des Sammelbandes"
 
 #. Default: "Creator"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:389
 msgid "label_author"
-msgstr ""
+msgstr "Autor"
 
 #. Default: "Return items created by a particular person."
 #: recensio.theme:/skins/recensio_theme/search_form.pt:394
 msgid "help_search_author"
-msgstr ""
+msgstr "Findet Artikel, die von einer bestimmten Person erstellt wurden."
 
 #. Default: "Any Creator"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:403
 msgid "label_any_author"
-msgstr ""
+msgstr "Jeder"
 
 #. Default: "Zeitschriften"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:426
 msgid "label_magazines"
-msgstr ""
+msgstr "Zeitschriften"
 
 #. Default: "Findet Artikel, die in einer der ausgew\303\244hlten Zeitschrift erschienen sind."
 #: recensio.theme:/skins/recensio_theme/search_form.pt:430
@@ -1416,7 +1422,7 @@ msgstr ""
 #. Default: "Select All/None"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:444
 msgid "label_toggle"
-msgstr ""
+msgstr "Alle/Keine auswählen"
 
 #. Default: "Search text"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:47
@@ -1450,35 +1456,35 @@ msgstr ""
 msgid "label_year"
 msgstr "Jahr"
 
-#. Default: "Erscheinungsyear oder gez\303\244hltes Jahr"
+#. Default: "Erscheinungsjahr oder gez\303\244hltes Jahr"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:513
 msgid "help_year"
-msgstr ""
+msgstr "Erscheinungsjahr oder gezähltes Jahr"
 
 #. Default: "Ort"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:528
 msgid "label_place"
-msgstr ""
+msgstr "Ort"
 
 #. Default: "Erscheinungsort"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:532
 msgid "help_place"
-msgstr ""
+msgstr "Erscheinungsort"
 
 #. Default: "Verlag"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:547
 msgid "label_publisher"
-msgstr ""
+msgstr "Verlag"
 
 #. Default: "Verlag, in dem das Buch/die Zeitschrift erschienen ist"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:551
 msgid "help_publisher"
-msgstr ""
+msgstr "Verlag, in dem das Buch/die Zeitschrift erschienen ist"
 
 #. Default: "Reihe"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:566
 msgid "label_series"
-msgstr ""
+msgstr "Reihe"
 
 #. Default: ""
 #: recensio.theme:/skins/recensio_theme/search_form.pt:570
@@ -1490,7 +1496,7 @@ msgstr ""
 msgid "label_isbn"
 msgstr ""
 
-#. Default: "Internationale Standardbuchvolume"
+#. Default: "Internationale Standardbuchnummer"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:589
 msgid "help_isbn"
 msgstr ""
@@ -1567,35 +1573,35 @@ msgstr ""
 
 #: recensio.theme:/skins/recensio_theme/search_form.pt:782
 msgid "Display options"
-msgstr ""
+msgstr "Anzeigeoptionen"
 
 #: recensio.theme:/skins/recensio_theme/search_form.pt:786
 msgid "Sort results"
-msgstr ""
+msgstr "Suchergebnisse"
 
 #: recensio.theme:/skins/recensio_theme/search_form.pt:788
 msgid "Sort the Search Results based on the selected criterion"
-msgstr ""
+msgstr "Suchergebnisse anhand des ausgewählten Kriteriums sortieren"
 
 #: recensio.theme:/skins/recensio_theme/search_form.pt:795
 msgid "Creation Date"
-msgstr ""
+msgstr "Erstellungsdatum"
 
 #: recensio.theme:/skins/recensio_theme/search_form.pt:798
 msgid "Relevance"
-msgstr ""
+msgstr "Relevanz"
 
 #: recensio.theme:/skins/recensio_theme/search_form.pt:801
 msgid "Modification Date"
-msgstr ""
+msgstr "Änderungszeitpunkt"
 
 #: recensio.theme:/skins/recensio_theme/search_form.pt:813
 msgid "Results per page"
-msgstr ""
+msgstr "Ergebnisse pro Seite"
 
 #: recensio.theme:/skins/recensio_theme/search_form.pt:815
 msgid "The number of results that is displayed on one page."
-msgstr ""
+msgstr "Die Zahl der Ergebnisse, die auf einer Seite angezeigt werden."
 
 #: recensio.theme:/skins/recensio_theme/search_form.pt:822
 msgid "30"
@@ -1613,6 +1619,14 @@ msgstr ""
 #: recensio.theme:/skins/recensio_theme/search_form.pt:98
 msgid "description_subject_or"
 msgstr ""
+
+#: recensio.theme:/skins/recensio_theme/search_form.pt:812
+msgid "label_results_per_page"
+msgstr "Ergebnisse pro Seite"
+
+#: recensio.theme:/skins/recensio_theme/search_form.pt:812
+msgid "description_results_per_page"
+msgstr "Die Anzahl Ergebnisse, die auf einer Seite angezeigt wird."
 
 #. Default: "Konzept"
 #: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:16
@@ -1689,3 +1703,53 @@ msgstr ""
 "Wahrscheinlichkeit einer Diskussion Ihrer Thesen.\n"
 "Sie können alle Angaben zu einem späteren Zeitpunkt verändern oder "
 "ergänzen."
+
+msgid "Presentation Online Resource"
+msgstr "Präsentation (Internetressource)"
+
+msgid "Presentation Article in Journal"
+msgstr "Präsentation (Aufsatz Zeitschrift)"
+
+msgid "Presentation Article edited Volume"
+msgstr "Präsentation (Aufsatz Sammelband)"
+
+msgid "Presentation Monograph"
+msgstr "Präsentation (Monographie)"
+
+msgid "Review Journal"
+msgstr "Rezension (Zeitschrift)"
+
+msgid "Review Monograph"
+msgstr "Rezension (Monographie)"
+
+msgid "Epoch"
+msgstr "Epoche"
+
+msgid "Region"
+msgstr "Region"
+
+msgid "Topic"
+msgstr "Thema"
+
+#. Default: "Pending"
+#: workflow state defined in plone_workflow - id pending
+msgid "Pending"
+msgstr "Wartend"
+
+#. Default: "Pending review"
+msgid "Pending review"
+msgstr "Zur Redaktion eingereicht"
+
+#. Default: "Private"
+msgid "Private"
+msgstr "Privat"
+
+#. Default: "Published"
+msgid "Published"
+msgstr "Veröffentlicht"
+
+#. Default: "Folder"
+#: CMFPlone/profiles/default/types/Folder.xml
+msgid "Folder"
+msgstr "Ordner"
+
