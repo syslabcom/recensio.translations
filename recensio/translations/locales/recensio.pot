@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Thu Nov  4 11:22:25 2010\n"
+"POT-Creation-Date: Thu Nov  4 18:04:46 2010\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
@@ -707,6 +707,9 @@ msgid "presentations_of_online_resources"
 msgstr ""
 
 #: recensio.policy:/browser/templates/comments.pt:110
+#: recensio.theme:/browser/topical.pt:85
+#: recensio.theme:/browser/topical.pt:184
+#: recensio.theme:/skins/recensio_theme/search.pt:169
 #: recensio.theme:/skins/recensio_theme/search_form.pt:145
 #: recensio.theme:/skins/recensio_theme/search_form.pt:355
 #: recensio.theme:/skins/recensio_theme/search_form.pt:462
@@ -1068,14 +1071,56 @@ msgstr ""
 msgid "description_publications"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search.pt:124
-#. Default: "Search results"
-msgid "heading_search_results"
+#: recensio.theme:/browser/topical.pt:156
+#. Default: "Browsing"
+msgid "heading_browsing_results"
 msgstr ""
 
+#: recensio.theme:/browser/topical.pt:162
 #: recensio.theme:/skins/recensio_theme/search.pt:130
 #. Default: "${number} items matching"
 msgid "batch_x_items_matching_your_criteria"
+msgstr ""
+
+#: recensio.theme:/browser/topical.pt:191
+#: recensio.theme:/skins/recensio_theme/search.pt:176
+#. Default: "(reviewed by ${review_author_firstname} ${review_author_lastname})"
+msgid "reviewed_by"
+msgstr ""
+
+#: recensio.theme:/browser/topical.pt:203
+#: recensio.theme:/skins/recensio_theme/search.pt:188
+#. Default: "by ${author}"
+msgid "label_by_author"
+msgstr ""
+
+#: recensio.theme:/browser/topical.pt:215
+#: recensio.theme:/skins/recensio_theme/search.pt:200
+#. Default: "last modified"
+msgid "box_last_modified"
+msgstr ""
+
+#: recensio.theme:/browser/topical.pt:227
+#: recensio.theme:/skins/recensio_theme/search.pt:212
+#. Default: "Filed under:"
+msgid "label_filed_under"
+msgstr ""
+
+#: recensio.theme:/browser/topical.pt:244
+#: recensio.theme:/skins/recensio_theme/search.pt:229
+#. Default: "Relevance: ${percentage}%"
+msgid "label_relevance_percentage"
+msgstr ""
+
+#: recensio.theme:/browser/topical.pt:90
+#: recensio.theme:/browser/topical.pt:113
+#: recensio.theme:/browser/topical.pt:134
+msgid "Remove this selection"
+msgstr ""
+
+#: recensio.theme:/skins/recensio_theme/search.pt:124
+#. Default: "Search results"
+msgid "heading_search_results"
 msgstr ""
 
 #: recensio.theme:/skins/recensio_theme/search.pt:140
@@ -1086,31 +1131,6 @@ msgstr ""
 #: recensio.theme:/skins/recensio_theme/search.pt:148
 #. Default: "No results were found."
 msgid "description_no_results_found"
-msgstr ""
-
-#: recensio.theme:/skins/recensio_theme/search.pt:176
-#. Default: "(reviewed by ${review_author_firstname} ${review_author_lastname})"
-msgid "reviewed_by"
-msgstr ""
-
-#: recensio.theme:/skins/recensio_theme/search.pt:188
-#. Default: "by ${author}"
-msgid "label_by_author"
-msgstr ""
-
-#: recensio.theme:/skins/recensio_theme/search.pt:200
-#. Default: "last modified"
-msgid "box_last_modified"
-msgstr ""
-
-#: recensio.theme:/skins/recensio_theme/search.pt:212
-#. Default: "Filed under:"
-msgid "label_filed_under"
-msgstr ""
-
-#: recensio.theme:/skins/recensio_theme/search.pt:229
-#. Default: "Relevance: ${percentage}%"
-msgid "label_relevance_percentage"
 msgstr ""
 
 #: recensio.theme:/skins/recensio_theme/search.pt:58
