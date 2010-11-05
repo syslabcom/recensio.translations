@@ -1708,6 +1708,9 @@ msgstr "Präsentationen"
 msgid "label_participate"
 msgstr "mitmachen bei recensio.net"
 
+msgid "label_press"
+msgstr "Presse"
+
 msgid "Import"
 msgstr "Import"
 

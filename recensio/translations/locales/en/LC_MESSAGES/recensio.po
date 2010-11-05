@@ -940,17 +940,17 @@ msgstr ""
 #: recensio.policy:/browser/templates/comments.pt:92
 #, fuzzy
 msgid "label_delete"
-msgstr "review of:"
+msgstr "Löschen"
 
 #. Default: "Pr\303\244sentationen"
 #: recensio.policy:/browser/templates/footer.pt:17
 msgid "presentations"
-msgstr ""
+msgstr "Presentations"
 
 #. Default: "Monographien"
 #: recensio.policy:/browser/templates/footer.pt:19
 msgid "monographs"
-msgstr ""
+msgstr "Monographs"
 
 #. Default: "grafisches Element"
 #: recensio.policy:/browser/templates/footer.pt:2
@@ -960,62 +960,62 @@ msgstr ""
 #. Default: "Aufs\303\244tze"
 #: recensio.policy:/browser/templates/footer.pt:20
 msgid "articles"
-msgstr ""
+msgstr "Articles"
 
 #. Default: "Internetressourcen"
 #: recensio.policy:/browser/templates/footer.pt:21
 msgid "online_resources"
-msgstr ""
+msgstr "Online Resources"
 
 #. Default: "Themenbrowsing"
 #: recensio.policy:/browser/templates/footer.pt:25
 msgid "browse_topics"
-msgstr ""
+msgstr "Content Browsing"
 
 #. Default: "mitmachen bei recensio.net"
 #: recensio.policy:/browser/templates/footer.pt:35
 msgid "participating_in_recensio_net"
-msgstr ""
+msgstr "join recensio.net"
 
 #. Default: "Manage your presentations"
 #: recensio.policy:/browser/templates/footer.pt:39
 msgid "manage_presentations"
-msgstr ""
+msgstr "Manage your presentations"
 
 #. Default: "Rezensionen"
 #: recensio.policy:/browser/templates/footer.pt:4
 msgid "reviews"
-msgstr ""
+msgstr "Reviews"
 
 #. Default: "Create new presentation"
 #: recensio.policy:/browser/templates/footer.pt:43
 msgid "create_presentation"
-msgstr ""
+msgstr "Create new presentation"
 
 #. Default: "Register and create new presentations"
 #: recensio.policy:/browser/templates/footer.pt:47
 msgid "register_and_create_presentations"
-msgstr ""
+msgstr "Register and create new presentations"
 
 #. Default: "RSS feeds"
 #: recensio.policy:/browser/templates/footer.pt:55
 msgid "rss_feeds"
-msgstr ""
+msgstr "RSS feeds"
 
 #. Default: "Neue Rezensionen"
 #: recensio.policy:/browser/templates/footer.pt:61
 msgid "new_reviews"
-msgstr ""
+msgstr "New Reviews"
 
 #. Default: "Neue Pr\303\244sentationen"
 #: recensio.policy:/browser/templates/footer.pt:67
 msgid "new_presentations"
-msgstr ""
+msgstr "New Presentations"
 
 #. Default: "Neue Diskussionen"
 #: recensio.policy:/browser/templates/footer.pt:73
 msgid "new_discussions"
-msgstr ""
+msgstr "New Discussions"
 
 #. Default: "Content was submitted"
 #: recensio.policy:/browser/workflow.py:51
@@ -1424,13 +1424,13 @@ msgstr ""
 #: recensio.theme:/skins/recensio_theme/search_form.pt:369
 #, fuzzy
 msgid "label_review_autor"
-msgstr "review of:"
+msgstr "Author/Editor"
 
 #. Default: "Autor von Monographie/Aufsatz/Kommentar oder Herausgeber des Sammelbandes"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:373
 #, fuzzy
 msgid "help_review_autor"
-msgstr "review of:"
+msgstr "Author of monograph/article/comment or editor of edited volume"
 
 #. Default: "Creator"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:388
@@ -1450,12 +1450,12 @@ msgstr ""
 #. Default: "Zeitschriften"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:425
 msgid "label_magazines"
-msgstr ""
+msgstr "Magazines"
 
 #. Default: "Findet Artikel, die in einer der ausgew\303\244hlten Zeitschrift erschienen sind."
 #: recensio.theme:/skins/recensio_theme/search_form.pt:429
 msgid "help_search_magazines"
-msgstr ""
+msgstr "Returns items published in one of the selected magazines."
 
 #. Default: "Select All/None"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:443
@@ -1475,52 +1475,52 @@ msgstr ""
 #. Default: "Buch/Aufsatz/Zeitschrift"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:485
 msgid "book_essay_magazine"
-msgstr ""
+msgstr "Monograph/article/magazine"
 
 #. Default: "Titel (Buch, Aufsatz, Zeitschrift)"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:489
 msgid "label_titleOrShortname"
-msgstr ""
+msgstr "Title (monograph, article, magazine)"
 
 #. Default: "Titel des rezensierten Buches, des Aufsatzes oder der Zeitschrift, in der die Review erschienen ist"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:493
 msgid "help_titleOrShortname"
-msgstr ""
+msgstr "Title of the reviewed monograph, the article or the magazine in which the review has been published"
 
 #. Default: "Jahr"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:508
 msgid "label_year"
-msgstr ""
+msgstr "Year"
 
 #. Default: "Erscheinungsjahr oder gez\303\244hltes Jahr"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:512
 msgid "help_year"
-msgstr ""
+msgstr "Year of publication or official year of publication"
 
 #. Default: "Ort"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:527
 msgid "label_place"
-msgstr ""
+msgstr "Place"
 
 #. Default: "Erscheinungsort"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:531
 msgid "help_place"
-msgstr ""
+msgstr "Place of publication"
 
 #. Default: "Verlag"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:546
 msgid "label_publisher"
-msgstr ""
+msgstr "Publisher"
 
 #. Default: "Verlag, in dem das Buch/die Zeitschrift erschienen ist"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:550
 msgid "help_publisher"
-msgstr ""
+msgstr "Publisher of the monograph/magazine"
 
 #. Default: "Reihe"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:565
 msgid "label_series"
-msgstr ""
+msgstr "Series"
 
 #. Default: ""
 #: recensio.theme:/skins/recensio_theme/search_form.pt:569
@@ -1530,22 +1530,22 @@ msgstr ""
 #. Default: "ISBN"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:584
 msgid "label_isbn"
-msgstr ""
+msgstr "ISBN"
 
 #. Default: "Internationale Standardbuchnummer"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:588
 msgid "help_isbn"
-msgstr ""
+msgstr "International Standard Book Number"
 
 #. Default: "Thematische Suche"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:611
 msgid "thematic_search"
-msgstr ""
+msgstr "Thematic search"
 
 #. Default: "Region"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:619
 msgid "label_region"
-msgstr ""
+msgstr "Region"
 
 #. Default: ""
 #: recensio.theme:/skins/recensio_theme/search_form.pt:623
@@ -1570,7 +1570,7 @@ msgstr ""
 #. Default: "Thema"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:677
 msgid "label_topic"
-msgstr ""
+msgstr "Topic"
 
 #. Default: ""
 #: recensio.theme:/skins/recensio_theme/search_form.pt:681
@@ -1730,6 +1730,9 @@ msgstr "Presentations"
 
 msgid "label_participate"
 msgstr "join recensio.net"
+
+msgid "label_press"
+msgstr "Press"
 
 msgid "Import"
 msgstr "Import"
