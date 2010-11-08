@@ -816,7 +816,9 @@ msgid ""
 "This is a technical configuration panel for newsletter settings.\n"
 "The templates can access any object of a catalog result, but dates have been "
 "preformatted."
-msgstr ""
+msgstr "Dies ist ein technisches Konfigurationsfeld für Newsletter-Einstellungen.\n"
+"Die Vorlagen können auf jedes Objekt eines Katalogsuchergebnisses zugreifen, "
+"aber Datumsangaben liegen vorformatiert vor."
 
 #: recensio.policy:/browser/email.py:52 recensio.policy:/browser/email.py:98
 msgid "more_results_here"
@@ -1035,7 +1037,8 @@ msgstr "E-Mail-Vorlage"
 #. Default: "The container for the complete template, Variable expansion will be applied. Provide the following slots: a b c"
 #: recensio.policy:/interfaces.py:41
 msgid "description_mailsettings_mail_template"
-msgstr ""
+msgstr "Dies enthält die gesamte Vorlage, Variablen werden expandiert. "
+"Stellen Sie folgende Slots zur Verfügung: a b c"
 
 #: recensio.policy:/interfaces.py:74
 msgid "Subject"
@@ -1063,11 +1066,11 @@ msgstr ""
 
 #: recensio.policy:/interfaces.py:80
 msgid "Review template"
-msgstr ""
+msgstr "Vorlage Rezensionen"
 
 #: recensio.policy:/interfaces.py:90
 msgid "Review template for Discussion based searches"
-msgstr ""
+msgstr "Vorlage Rezensionen für diskussionsbasierte Suche"
 
 #: recensio.policy:/interfaces.py:99
 msgid "Separator"
@@ -1730,7 +1733,7 @@ msgstr ""
 "bestehenden Forschungsansätzen.Durch das Kommentieren einer bereits "
 "vorhandenen Rezension/Präsentation auf recensio.net erhöhen Sie die für "
 "Ihre eigene Präsentation zur Verfügung stehende Zeichenzahl von 2000 auf "
-"3000.Bitte beachten Sie, dass sowohl Kommentare als auch Präsentationen "
+"3000. Bitte beachten Sie, dass sowohl Kommentare als auch Präsentationen "
 "vor ihrer Publikation durch die Redaktion geprüft werden, um Missbrauch "
 "zu verhindern. Dadurch sind die Texte frühestens nach 3 Werktagen "
 "öffentlich einsehbar."

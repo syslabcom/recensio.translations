@@ -1516,3 +1516,6 @@ msgstr "Presentations"
 
 msgid "label_participate"
 msgstr "join recensio.net"
+
+msgid "label_press"
+msgstr "Presse"
