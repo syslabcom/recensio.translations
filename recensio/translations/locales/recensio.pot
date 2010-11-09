@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Thu Nov  4 18:04:46 2010\n"
+"POT-Creation-Date: Tue Nov  9 14:03:32 2010\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
@@ -619,96 +619,98 @@ msgstr ""
 msgid "description_recensio_setings"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:111
+#: recensio.policy:/browser/email.py:114
 msgid "You are not logged in"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:117
+#: recensio.policy:/browser/email.py:120
 msgid "Plone site is not configured"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:121
+#: recensio.policy:/browser/email.py:124
 msgid "You did not provide an e-mail address in your profile"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:133
+#: recensio.policy:/browser/email.py:137
 msgid "Mailsettings not configured"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:159
+#: recensio.policy:/browser/email.py:202
 msgid "mail_sending_prepared"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:188
+#: recensio.policy:/browser/email.py:231
 msgid "mail_new_comment_subject"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:190
+#: recensio.policy:/browser/email.py:233
 msgid "mail_new_comment_body"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:200
+#: recensio.policy:/browser/email.py:243
 msgid "mail_no_recipients"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:231
+#: recensio.policy:/browser/email.py:274
 msgid "no_mail_address_available"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:237
+#: recensio.policy:/browser/email.py:280
 msgid "mail_new_publication_subject"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:238
+#: recensio.policy:/browser/email.py:281
 msgid "mail_new_publication_body"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:265
+#: recensio.policy:/browser/email.py:308
 msgid "mail_uncommented_subject"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:275
+#: recensio.policy:/browser/email.py:318
 msgid "mail_uncommented_body"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:298
+#: recensio.policy:/browser/email.py:341
 msgid "Newsletter settings"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:299
+#: recensio.policy:/browser/email.py:342
 msgid ""
 "This is a technical configuration panel for newsletter settings.\n"
 "The templates can access any object of a catalog result, but dates have been preformatted."
 msgstr ""
 
-#: recensio.policy:/browser/email.py:52
-#: recensio.policy:/browser/email.py:98
+#: recensio.policy:/browser/email.py:53
+#: recensio.policy:/browser/email.py:101
 msgid "more_results_here"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:63
+#: recensio.policy:/browser/email.py:64
 msgid "comments"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:64
+#: recensio.policy:/browser/email.py:65
 msgid "comment"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:68
+#: recensio.policy:/browser/email.py:71
 msgid "presentations_of_monographs"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:69
+#: recensio.policy:/browser/email.py:72
 msgid "presentations_of_articles"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:70
+#: recensio.policy:/browser/email.py:73
 msgid "presentations_of_online_resources"
 msgstr ""
 
 #: recensio.policy:/browser/templates/comments.pt:110
 #: recensio.theme:/browser/topical.pt:85
-#: recensio.theme:/browser/topical.pt:184
+#: recensio.theme:/browser/topical.pt:128
+#: recensio.theme:/browser/topical.pt:132
+#: recensio.theme:/browser/topical.pt:186
 #: recensio.theme:/skins/recensio_theme/search.pt:169
 #: recensio.theme:/skins/recensio_theme/search_form.pt:145
 #: recensio.theme:/skins/recensio_theme/search_form.pt:355
@@ -837,6 +839,26 @@ msgstr ""
 msgid "new_discussions"
 msgstr ""
 
+#: recensio.policy:/browser/templates/pdf_cut.pt:13
+msgid "page"
+msgstr ""
+
+#: recensio.policy:/browser/templates/pdf_cut.pt:13
+msgid "pages"
+msgstr ""
+
+#: recensio.policy:/browser/templates/pdf_cut.pt:14
+msgid "The PDF attached to this document has ${DYNAMIC_CONTENT} ${page}${pages}. The document says, that the relevant pages start at page ${start_page} and end at page ${end_page}."
+msgstr ""
+
+#: recensio.policy:/browser/templates/pdf_cut.pt:17
+msgid "Do you really want to cut the pdf?"
+msgstr ""
+
+#: recensio.policy:/browser/templates/pdf_cut.pt:18
+msgid "Yes"
+msgstr ""
+
 #: recensio.policy:/browser/workflow.py:51
 #. Default: "Content was submitted"
 msgid "label_item_submitted"
@@ -847,26 +869,73 @@ msgstr ""
 msgid "label_item_published"
 msgstr ""
 
-#: recensio.policy:/interfaces.py:100
+#: recensio.policy:/interfaces.py:111
+msgid "Subject"
+msgstr ""
+
+#: recensio.policy:/interfaces.py:112
+#. Default: "The subject of the e-mail. Thats what the user sees first when receiving the mail"
+msgid "description_mailsettings_subject"
+msgstr ""
+
+#: recensio.policy:/interfaces.py:113
+msgid "Recensio Newsletter"
+msgstr ""
+
+#: recensio.policy:/interfaces.py:114
+msgid "Date Format"
+msgstr ""
+
+#: recensio.policy:/interfaces.py:115
+#. Default: "strftime compatible date format specification, see http://docs.python.org/library/time.html#time.strftime"
+msgid "description_mailsettings_date_format"
+msgstr ""
+
+#: recensio.policy:/interfaces.py:117
+msgid "Review template"
+msgstr ""
+
+#: recensio.policy:/interfaces.py:126
+msgid "Review template for Discussion based searches"
+msgstr ""
+
+#: recensio.policy:/interfaces.py:134
+msgid "Separator"
+msgstr ""
+
+#: recensio.policy:/interfaces.py:135
 msgid "The separator will be used to separate sections of the email from each other."
 msgstr ""
 
-#: recensio.policy:/interfaces.py:119
+#: recensio.policy:/interfaces.py:140
+msgid "Archive Folder"
+msgstr ""
+
+#: recensio.policy:/interfaces.py:141
+#. Default: "The path of the folder where newsletter mails will be saved after they have been sent. Will be created when needed if it does not exist."
+msgid "description_mailsettings_archive_folder"
+msgstr ""
+
+#: recensio.policy:/interfaces.py:142
+msgid "/recensio/newsletter/archiv"
+msgstr ""
+
+#: recensio.policy:/interfaces.py:157
 #. Default: "E-mail address for submitted reviews."
 msgid "label_review_submitted_email"
 msgstr ""
 
-#: recensio.policy:/interfaces.py:121
+#: recensio.policy:/interfaces.py:159
 #. Default: "Enter an e-mail address to which notifications will be sent, if a user submits a review for publication."
 msgid "description_review_submitted_email"
 msgstr ""
 
-#: recensio.policy:/interfaces.py:129
+#: recensio.policy:/interfaces.py:167
 #. Default: "Available languages for content in the site."
 msgid "label_available_content_languages"
 msgstr ""
 
-#: recensio.policy:/interfaces.py:131
+#: recensio.policy:/interfaces.py:169
 #. Default: "Enter one language (2 letter code) per line. These languages will be used for the fields \"Language of Presentation\" and \"Language of reviewed text\"."
 msgid "description_available_content_languages"
 msgstr ""
@@ -878,40 +947,6 @@ msgstr ""
 #: recensio.policy:/interfaces.py:41
 #. Default: "The container for the complete template, Variable expansion will be applied. Provide the following slots: a b c"
 msgid "description_mailsettings_mail_template"
-msgstr ""
-
-#: recensio.policy:/interfaces.py:74
-msgid "Subject"
-msgstr ""
-
-#: recensio.policy:/interfaces.py:75
-#. Default: "The subject of the e-mail. Thats what the user sees first when receiving the mail"
-msgid "description_mailsettings_subject"
-msgstr ""
-
-#: recensio.policy:/interfaces.py:76
-msgid "Recensio Newsletter"
-msgstr ""
-
-#: recensio.policy:/interfaces.py:77
-msgid "Date Format"
-msgstr ""
-
-#: recensio.policy:/interfaces.py:78
-#. Default: "strftime compatible date format specification, see http://docs.python.org/library/time.html#time.strftime"
-msgid "description_mailsettings_date_format"
-msgstr ""
-
-#: recensio.policy:/interfaces.py:80
-msgid "Review template"
-msgstr ""
-
-#: recensio.policy:/interfaces.py:90
-msgid "Review template for Discussion based searches"
-msgstr ""
-
-#: recensio.policy:/interfaces.py:99
-msgid "Separator"
 msgstr ""
 
 #: recensio.policy:/userdataschema.py:36
@@ -1071,42 +1106,42 @@ msgstr ""
 msgid "description_publications"
 msgstr ""
 
-#: recensio.theme:/browser/topical.pt:156
+#: recensio.theme:/browser/topical.pt:158
 #. Default: "Browsing"
 msgid "heading_browsing_results"
 msgstr ""
 
-#: recensio.theme:/browser/topical.pt:162
+#: recensio.theme:/browser/topical.pt:164
 #: recensio.theme:/skins/recensio_theme/search.pt:130
 #. Default: "${number} items matching"
 msgid "batch_x_items_matching_your_criteria"
 msgstr ""
 
-#: recensio.theme:/browser/topical.pt:191
+#: recensio.theme:/browser/topical.pt:193
 #: recensio.theme:/skins/recensio_theme/search.pt:176
 #. Default: "(reviewed by ${review_author_firstname} ${review_author_lastname})"
 msgid "reviewed_by"
 msgstr ""
 
-#: recensio.theme:/browser/topical.pt:203
+#: recensio.theme:/browser/topical.pt:205
 #: recensio.theme:/skins/recensio_theme/search.pt:188
 #. Default: "by ${author}"
 msgid "label_by_author"
 msgstr ""
 
-#: recensio.theme:/browser/topical.pt:215
+#: recensio.theme:/browser/topical.pt:217
 #: recensio.theme:/skins/recensio_theme/search.pt:200
 #. Default: "last modified"
 msgid "box_last_modified"
 msgstr ""
 
-#: recensio.theme:/browser/topical.pt:227
+#: recensio.theme:/browser/topical.pt:229
 #: recensio.theme:/skins/recensio_theme/search.pt:212
 #. Default: "Filed under:"
 msgid "label_filed_under"
 msgstr ""
 
-#: recensio.theme:/browser/topical.pt:244
+#: recensio.theme:/browser/topical.pt:246
 #: recensio.theme:/skins/recensio_theme/search.pt:229
 #. Default: "Relevance: ${percentage}%"
 msgid "label_relevance_percentage"
@@ -1114,7 +1149,7 @@ msgstr ""
 
 #: recensio.theme:/browser/topical.pt:90
 #: recensio.theme:/browser/topical.pt:113
-#: recensio.theme:/browser/topical.pt:134
+#: recensio.theme:/browser/topical.pt:136
 msgid "Remove this selection"
 msgstr ""
 
@@ -1494,3 +1529,98 @@ msgstr ""
 msgid "label_secondary_nav_latest_reviews"
 msgstr ""
 
+msgid "Issue"
+msgstr ""
+
+msgid "Publication"
+msgstr ""
+
+msgid "Results per page"
+msgstr ""
+
+msgid "The number of results that is displayed on one page."
+msgstr ""
+
+msgid "label_reviews"
+msgstr ""
+
+msgid "label_presentations"
+msgstr ""
+
+msgid "label_participate"
+msgstr ""
+
+msgid "label_press"
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+msgid "Cut PDF"
+msgstr ""
+
+msgid "Themes"
+msgstr ""
+
+msgid "About us"
+msgstr ""
+
+msgid "Review"
+msgstr ""
+
+msgid "title_presentation_monograph"
+msgstr ""
+
+msgid "description_presentation_monograph"
+msgstr ""
+
+msgid "Presentation Online Resource"
+msgstr ""
+
+msgid "Presentation Article Review"
+msgstr ""
+
+msgid "Presentation Collection"
+msgstr ""
+
+msgid "Presentation Monograph"
+msgstr ""
+
+msgid "Review Journal"
+msgstr ""
+
+msgid "Review Monograph"
+msgstr ""
+
+msgid "Epoch"
+msgstr ""
+
+msgid "Region"
+msgstr ""
+
+msgid "Topic"
+msgstr ""
+
+msgid "Pending"
+msgstr ""
+
+msgid "Pending review"
+msgstr ""
+
+msgid "Private"
+msgstr ""
+
+msgid "Published"
+msgstr ""
+
+msgid "Folder"
+msgstr ""
+
+msgid "Listen to audio for this captcha"
+msgstr ""
+
+msgid "Presentation Article in Journal"
+msgstr ""
+
+msgid "Presentation Article edited Volume"
+msgstr ""
