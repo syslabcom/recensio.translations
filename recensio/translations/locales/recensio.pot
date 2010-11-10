@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Wed Nov 10 11:55:18 2010\n"
+"POT-Creation-Date: Wed Nov 10 14:50:57 2010\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
@@ -651,31 +651,31 @@ msgstr ""
 msgid "mail_no_recipients"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:274
+#: recensio.policy:/browser/email.py:271
 msgid "no_mail_address_available"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:280
+#: recensio.policy:/browser/email.py:277
 msgid "mail_new_publication_subject"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:281
+#: recensio.policy:/browser/email.py:278
 msgid "mail_new_publication_body"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:308
+#: recensio.policy:/browser/email.py:305
 msgid "mail_uncommented_subject"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:318
+#: recensio.policy:/browser/email.py:315
 msgid "mail_uncommented_body"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:341
+#: recensio.policy:/browser/email.py:338
 msgid "Newsletter settings"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:342
+#: recensio.policy:/browser/email.py:339
 msgid ""
 "This is a technical configuration panel for newsletter settings.\n"
 "The templates can access any object of a catalog result, but dates have been preformatted."
@@ -751,8 +751,8 @@ msgstr ""
 #: recensio.theme:/browser/topical.pt:85
 #: recensio.theme:/browser/topical.pt:128
 #: recensio.theme:/browser/topical.pt:132
-#: recensio.theme:/browser/topical.pt:186
-#: recensio.theme:/skins/recensio_theme/search.pt:169
+#: recensio.theme:/browser/topical.pt:187
+#: recensio.theme:/skins/recensio_theme/search.pt:170
 #: recensio.theme:/skins/recensio_theme/search_form.pt:145
 #: recensio.theme:/skins/recensio_theme/search_form.pt:355
 #: recensio.theme:/skins/recensio_theme/search_form.pt:462
@@ -1117,32 +1117,32 @@ msgstr ""
 msgid "batch_x_items_matching_your_criteria"
 msgstr ""
 
-#: recensio.theme:/browser/topical.pt:193
-#: recensio.theme:/skins/recensio_theme/search.pt:176
+#: recensio.theme:/browser/topical.pt:194
+#: recensio.theme:/skins/recensio_theme/search.pt:177
 #. Default: "(reviewed by ${review_author_firstname} ${review_author_lastname})"
 msgid "reviewed_by"
 msgstr ""
 
-#: recensio.theme:/browser/topical.pt:205
-#: recensio.theme:/skins/recensio_theme/search.pt:188
-#. Default: "by ${author}"
-msgid "label_by_author"
+#: recensio.theme:/browser/topical.pt:195
+#: recensio.theme:/skins/recensio_theme/search.pt:178
+#. Default: "(presented by ${review_author_firstname} ${review_author_lastname})"
+msgid "presented_by"
 msgstr ""
 
-#: recensio.theme:/browser/topical.pt:217
-#: recensio.theme:/skins/recensio_theme/search.pt:200
+#: recensio.theme:/browser/topical.pt:204
+#: recensio.theme:/skins/recensio_theme/search.pt:187
 #. Default: "last modified"
 msgid "box_last_modified"
 msgstr ""
 
-#: recensio.theme:/browser/topical.pt:229
-#: recensio.theme:/skins/recensio_theme/search.pt:212
+#: recensio.theme:/browser/topical.pt:216
+#: recensio.theme:/skins/recensio_theme/search.pt:199
 #. Default: "Filed under:"
 msgid "label_filed_under"
 msgstr ""
 
-#: recensio.theme:/browser/topical.pt:246
-#: recensio.theme:/skins/recensio_theme/search.pt:229
+#: recensio.theme:/browser/topical.pt:233
+#: recensio.theme:/skins/recensio_theme/search.pt:216
 #. Default: "Relevance: ${percentage}%"
 msgid "label_relevance_percentage"
 msgstr ""

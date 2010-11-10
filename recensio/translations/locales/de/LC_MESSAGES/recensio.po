@@ -1314,6 +1314,13 @@ msgstr "${number} Artikel gefunden."
 msgid "reviewed_by"
 msgstr "(rezensiert von ${review_author_firstname} ${review_author_lastname})"
 
+#: recensio.theme:/browser/topical.pt:195
+#: recensio.theme:/skins/recensio_theme/search.pt:178
+#. Default: "(presented by ${review_author_firstname} ${review_author_lastname})"
+msgid "presented_by"
+msgstr "(präsentiert von ${review_author_firstname} ${review_author_lastname})"
+
+#: recensio.theme:/browser/topical.pt:204
 #. Default: "by ${author}"
 #: recensio.theme:/browser/topical.pt:205
 #: recensio.theme:/skins/recensio_theme/search.pt:188
