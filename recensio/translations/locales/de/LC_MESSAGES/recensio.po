@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Tue Nov  9 14:03:32 2010\n"
+"POT-Creation-Date: Wed Nov 10 11:55:18 2010\n"
 "PO-Revision-Date: 2010-08-25 16:49+0200\n"
 "Last-Translator: Manuel Reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: German\n"
@@ -845,58 +845,35 @@ msgstr "Präsentationen von Aufsätzen"
 msgid "presentations_of_online_resources"
 msgstr "Präsentationen von Internetressourcen"
 
-#: recensio.policy:/browser/templates/comments.pt:110
-#: recensio.theme:/browser/topical.pt:85
-#: recensio.theme:/browser/topical.pt:128
-#: recensio.theme:/browser/topical.pt:132
-#: recensio.theme:/browser/topical.pt:186
-#: recensio.theme:/skins/recensio_theme/search.pt:169
-#: recensio.theme:/skins/recensio_theme/search_form.pt:145
-#: recensio.theme:/skins/recensio_theme/search_form.pt:355
-#: recensio.theme:/skins/recensio_theme/search_form.pt:462
-msgid "${DYNAMIC_CONTENT}"
-msgstr "${DYNAMIC_CONTENT}"
-
-#. Default: "Notify portal owner about this comment"
-#: recensio.policy:/browser/templates/comments.pt:117
-msgid "notify_portal_owner"
-msgstr "Seitenbetreiber zu diesem Kommentar benachrichtigen"
-
 #. Default: "Reply"
-#: recensio.policy:/browser/templates/comments.pt:128
+#: recensio.policy:/browser/templates/comments.pt:108
 msgid "label_reply"
 msgstr "Antworten"
 
 #. Default: "Add comment"
-#: recensio.policy:/browser/templates/comments.pt:154
+#: recensio.policy:/browser/templates/comments.pt:134
 msgid "label_add_comment"
 msgstr "Kommentar hinzufügen"
 
 #. Default: "You can add a comment by filling out the form below. Plain text formatting."
-#: recensio.policy:/browser/templates/comments.pt:155
+#: recensio.policy:/browser/templates/comments.pt:135
 msgid "description_add_comment"
 msgstr ""
 "Sie können einen Kommentar hinzufügen, indem sie das Formular unten "
 "ausfüllen. Formatierung als reiner Text."
 
 #. Default: "Kommentieren"
-#: recensio.policy:/browser/templates/comments.pt:165
+#: recensio.policy:/browser/templates/comments.pt:145
 msgid "heading_commenting_explanation"
 msgstr "Kommentieren"
 
 #. Default: "Benutzerrichtlinien"
-#: recensio.policy:/browser/templates/comments.pt:168
+#: recensio.policy:/browser/templates/comments.pt:148
 msgid "benutzerrichtlinien"
 msgstr "Benutzerrichtlinien"
 
-#. Default: "Log in to add comments"
-#: recensio.policy:/browser/templates/comments.pt:17
-#: recensio.policy:/browser/templates/comments.pt:141
-msgid "label_login_to_add_comments"
-msgstr "Einloggen um zu kommentieren"
-
 #. Default: "Sie haben hier die Gelegenheit, die Rezension/Pr\303\244sentation zu kommentieren. Daf\303\274r ist eine kurze, kostenlose Registrierung mit Namen und E-Mail-Adresse notwendig, die lediglich dazu dient, Missbrauch der Kommentarfunktion zu verhindern und den wissenschaftlichen Anspruch der Plattform zu wahren. <br /> Bitte beachten Sie, dass eingehende Kommentare vor der Ver\303\266ffentlichung auf die Einhaltung der ${benutzerrichtlinien} gepr\303\274ft werden. Aus diesem Grund k\303\266nnen 1 bis 3 Werktage vergehen, bis Ihr Kommentar auf recensio.net sichtbar wird. Dar\303\274ber hinaus gibt es die M\303\266glichkeit, der Redaktion als problematisch empfundene \303\204u\303\237erungen \303\274ber einen neben Kommentaren befindlichen Button zu melden. <br /> F\303\274r R\303\274ckfragen steht Ihnen die recensio.net-Redaktion jederzeit zur Verf\303\274gung:<br /> ${contact_addr}."
-#: recensio.policy:/browser/templates/comments.pt:171
+#: recensio.policy:/browser/templates/comments.pt:151
 msgid "commenting_explanation"
 msgstr ""
 "Sie haben hier die Gelegenheit, die Rezension/Präsentation zu kommentieren. "
@@ -915,10 +892,33 @@ msgstr ""
 "Verfügung:<br />\n"
 "${contact_addr}."
 
+#. Default: "Log in to add comments"
+#: recensio.policy:/browser/templates/comments.pt:17
+#: recensio.policy:/browser/templates/comments.pt:121
+msgid "label_login_to_add_comments"
+msgstr "Einloggen um zu kommentieren"
+
 #. Default: "Delete"
-#: recensio.policy:/browser/templates/comments.pt:92
+#: recensio.policy:/browser/templates/comments.pt:72
 msgid "label_delete"
 msgstr "Löschen"
+
+#: recensio.policy:/browser/templates/comments.pt:90
+#: recensio.theme:/browser/topical.pt:85
+#: recensio.theme:/browser/topical.pt:128
+#: recensio.theme:/browser/topical.pt:132
+#: recensio.theme:/browser/topical.pt:186
+#: recensio.theme:/skins/recensio_theme/search.pt:169
+#: recensio.theme:/skins/recensio_theme/search_form.pt:145
+#: recensio.theme:/skins/recensio_theme/search_form.pt:355
+#: recensio.theme:/skins/recensio_theme/search_form.pt:462
+msgid "${DYNAMIC_CONTENT}"
+msgstr "${DYNAMIC_CONTENT}"
+
+#. Default: "Notify portal owner about this comment"
+#: recensio.policy:/browser/templates/comments.pt:97
+msgid "notify_portal_owner"
+msgstr "Seitenbetreiber zu diesem Kommentar benachrichtigen"
 
 #. Default: "Pr\303\244sentationen"
 #: recensio.policy:/browser/templates/footer.pt:17
@@ -1008,8 +1008,9 @@ msgid ""
 "The PDF attached to this document has ${DYNAMIC_CONTENT} ${page}${pages}. "
 "The document says, that the relevant pages start at page ${start_page} and "
 "end at page ${end_page}."
-msgstr "Das an dieses Dokument angehängte PDF hat ${DYNAMIC_CONTENT} "
-"${page}${pages}. Laut dem Dokument beginnen die relevanten Seiten auf Seite "
+msgstr ""
+"Das an dieses Dokument angehängte PDF hat ${DYNAMIC_CONTENT} ${page}"
+"${pages}. Laut dem Dokument beginnen die relevanten Seiten auf Seite "
 "${start_page} und enden auf Seite ${end_page}."
 
 #: recensio.policy:/browser/templates/pdf_cut.pt:17
@@ -1052,7 +1053,9 @@ msgstr "Datumsformat"
 #. Default: "strftime compatible date format specification, see http://docs.python.org/library/time.html#time.strftime"
 #: recensio.policy:/interfaces.py:115
 msgid "description_mailsettings_date_format"
-msgstr "strftime-kompatible Datumsformat-Spezifikation, siehe http://docs.python.org/library/time.html#time.strftime"
+msgstr ""
+"strftime-kompatible Datumsformat-Spezifikation, siehe http://docs.python.org/"
+"library/time.html#time.strftime"
 
 #: recensio.policy:/interfaces.py:117
 msgid "Review template"
@@ -1079,7 +1082,9 @@ msgstr "Archiv-Ordner"
 #. Default: "The path of the folder where newsletter mails will be saved after they have been sent. Will be created when needed if it does not exist."
 #: recensio.policy:/interfaces.py:141
 msgid "description_mailsettings_archive_folder"
-msgstr "Pfad des Ordners, in dem Newsletter-Mails gespeichert werden, nachdem sie versendet wurden. Wird erstellt wenn er nicht existiert."
+msgstr ""
+"Pfad des Ordners, in dem Newsletter-Mails gespeichert werden, nachdem sie "
+"versendet wurden. Wird erstellt wenn er nicht existiert."
 
 #: recensio.policy:/interfaces.py:142
 msgid "/recensio/newsletter/archiv"
@@ -1105,7 +1110,10 @@ msgstr "Verfügbare Sprachen für Inhalt auf der Webseite."
 #. Default: "Enter one language (2 letter code) per line. These languages will be used for the fields \"Language of Presentation\" and \"Language of reviewed text\"."
 #: recensio.policy:/interfaces.py:169
 msgid "description_available_content_languages"
-msgstr "Geben Sie eine Sprache (2 Buchstaben) pro Zeile ein. Diese Sprachen werden für die Felder \"Sprache der Präsentation\" und \"Sprache des rezensierten Werks\" verwendet."
+msgstr ""
+"Geben Sie eine Sprache (2 Buchstaben) pro Zeile ein. Diese Sprachen werden "
+"für die Felder \"Sprache der Präsentation\" und \"Sprache des rezensierten "
+"Werks\" verwendet."
 
 #: recensio.policy:/interfaces.py:40
 msgid "Mail Template"
@@ -1119,52 +1127,52 @@ msgstr ""
 "folgende Slots zur Verfügung: a b c"
 
 #. Default: "Academic title"
-#: recensio.policy:/userdataschema.py:36
+#: recensio.policy:/userdataschema.py:38
 msgid "label_academic_title"
 msgstr "Akademischer Titel"
 
 #. Default: ""
-#: recensio.policy:/userdataschema.py:37
+#: recensio.policy:/userdataschema.py:39
 msgid "help_academic_title"
 msgstr ""
 
 #. Default: "First name"
-#: recensio.policy:/userdataschema.py:43
+#: recensio.policy:/userdataschema.py:45
 msgid "label_firstname"
 msgstr "Vorname"
 
 #. Default: "Last name"
-#: recensio.policy:/userdataschema.py:48
+#: recensio.policy:/userdataschema.py:50
 msgid "label_lastname"
 msgstr "Nachname"
 
 #. Default: "Preferred language"
-#: recensio.policy:/userdataschema.py:54
+#: recensio.policy:/userdataschema.py:56
 msgid "label_preferred_language"
 msgstr "Bevorzugte Sprache"
 
 #. Default: "What language do you prefer for receiving e-mails from us?"
-#: recensio.policy:/userdataschema.py:55
+#: recensio.policy:/userdataschema.py:57
 msgid "description_preferred_language"
 msgstr "In welcher Sprache möchten Sie Emails von uns erhalten?"
 
 #. Default: "Declaration of identity"
-#: recensio.policy:/userdataschema.py:63
+#: recensio.policy:/userdataschema.py:65
 msgid "label_declaration_of_identity"
 msgstr "Identitätserklärung"
 
 #. Default: "I declare that I am indeed the person identified by the entries above."
-#: recensio.policy:/userdataschema.py:64
+#: recensio.policy:/userdataschema.py:66
 msgid "help_declaration_of_identity"
 msgstr ""
 "Hiermit erkläre ich, dass ich tatsächlich die durch die obigen Angaben "
 "identifizierte Person bin."
 
-#: recensio.policy:/userdataschema.py:72
+#: recensio.policy:/userdataschema.py:74
 msgid "Type the code"
 msgstr "Code eingeben"
 
-#: recensio.policy:/userdataschema.py:73
+#: recensio.policy:/userdataschema.py:75
 msgid "Type the code from the picture shown below or from the audio."
 msgstr ""
 "Geben Sie den Code ein, den sie im Bild unten sehen bzw. in der Audiodatei "
@@ -1702,6 +1710,11 @@ msgstr "90"
 msgid "description_subject_or"
 msgstr "Artikel finden, die mindestens eines der Stichwörter enthalten"
 
+#. Default: "Internetressourcen"
+#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:101
+msgid "label_secondary_nav_internetressourcen"
+msgstr ""
+
 #. Default: "Konzept"
 #: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:16
 msgid "label_secondary_nav_concept"
@@ -1722,15 +1735,30 @@ msgstr "Benutzerrichtlinien"
 msgid "label_secondary_nav_copyright"
 msgstr "Copyright"
 
+#. Default: "Datenschutz"
+#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:47
+msgid "label_secondary_nav_datenschutz"
+msgstr ""
+
 #. Default: "Zeitschriften"
-#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:54
+#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:63
 msgid "label_secondary_nav_journals"
 msgstr "Zeitschriften"
 
 #. Default: "Neueste Rezensionen"
-#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:62
+#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:71
 msgid "label_secondary_nav_latest_reviews"
 msgstr "Neueste Rezensionen"
+
+#. Default: "Monographien"
+#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:87
+msgid "label_secondary_nav_monographien"
+msgstr ""
+
+#. Default: "Aufs\303\244tze"
+#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:93
+msgid "label_secondary_nav_aufsaetze"
+msgstr ""
 
 msgid "Issue"
 msgstr "Ausgabe"
@@ -1770,28 +1798,30 @@ msgstr "Über uns"
 
 msgid "Review"
 msgstr ""
-"Bitte formulieren Sie hier kurz und übersichtlich die von Ihnen erarbeiteten "
-"Thesen, Ihre Methodik und/oder Ihre Auseinandersetzung mit bestehenden "
-"Forschungsansätzen.Durch das Kommentieren einer bereits vorhandenen "
-"Rezension/Präsentation auf recensio.net erhöhen Sie die für Ihre eigene "
-"Präsentation zur Verfügung stehende Zeichenzahl von 2000 auf 3000. Bitte "
-"beachten Sie, dass sowohl Kommentare als auch Präsentationen vor ihrer "
-"Publikation durch die Redaktion geprüft werden, um Missbrauch zu verhindern. "
-"Dadurch sind die Texte frühestens nach 3 Werktagen öffentlich einsehbar."
+"Bitte formulieren Sie hier kurz und übersichtlich die von Ihnen "
+"erarbeiteten Thesen, Ihre Methodik und/oder Ihre Auseinandersetzung mit "
+"bestehenden Forschungsansätzen.Durch das Kommentieren einer bereits "
+"vorhandenen Rezension/Präsentation auf recensio.net erhöhen Sie die für "
+"Ihre eigene Präsentation zur Verfügung stehende Zeichenzahl von 2000 auf "
+"3000. Bitte beachten Sie, dass sowohl Kommentare als auch Präsentationen "
+"vor ihrer Publikation durch die Redaktion geprüft werden, um Missbrauch "
+"zu verhindern. Dadurch sind die Texte frühestens nach 3 Werktagen "
+"öffentlich einsehbar."
 
 msgid "title_presentation_monograph"
 msgstr "Präsentation einer Monographie"
 
 msgid "description_presentation_monograph"
 msgstr ""
-"Um Ihre Monographie auf recensio.net zu präsentieren, füllen Sie bitte das "
-"nachfolgende Formular aus. Die mit * gekennzeichneten Felder sind "
-"Pflichtfelder. Bitte beachten Sie, dass eine Präsentation Ihrer Thesen zwar "
-"in nahezu allen europäischen Sprachen möglich ist, wir Ihnen jedoch "
+"Um Ihre Monographie auf recensio.net zu präsentieren, füllen Sie bitte "
+"das nachfolgende Formular aus. Die mit * gekennzeichneten Felder sind "
+"Pflichtfelder. Bitte beachten Sie, dass eine Präsentation Ihrer Thesen "
+"zwar in nahezu allen europäischen Sprachen möglich ist, wir Ihnen jedoch "
 "empfehlen, eine der großen Wissenschaftssprachen zu wählen. Sie verleihen "
 "Ihrer Präsentation so größtmöglichste Aufmerksamkeit und erhöhen die "
 "Wahrscheinlichkeit einer Diskussion Ihrer Thesen.\n"
-"Sie können alle Angaben zu einem späteren Zeitpunkt verändern oder ergänzen."
+"Sie können alle Angaben zu einem späteren Zeitpunkt verändern oder "
+"ergänzen."
 
 msgid "Presentation Online Resource"
 msgstr "Präsentation (Internetressource)"

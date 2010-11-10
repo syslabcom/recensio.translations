@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Tue Nov  9 14:03:32 2010\n"
+"POT-Creation-Date: Wed Nov 10 11:55:18 2010\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
@@ -706,7 +706,48 @@ msgstr ""
 msgid "presentations_of_online_resources"
 msgstr ""
 
-#: recensio.policy:/browser/templates/comments.pt:110
+#: recensio.policy:/browser/templates/comments.pt:108
+#. Default: "Reply"
+msgid "label_reply"
+msgstr ""
+
+#: recensio.policy:/browser/templates/comments.pt:134
+#. Default: "Add comment"
+msgid "label_add_comment"
+msgstr ""
+
+#: recensio.policy:/browser/templates/comments.pt:135
+#. Default: "You can add a comment by filling out the form below. Plain text formatting."
+msgid "description_add_comment"
+msgstr ""
+
+#: recensio.policy:/browser/templates/comments.pt:145
+#. Default: "Kommentieren"
+msgid "heading_commenting_explanation"
+msgstr ""
+
+#: recensio.policy:/browser/templates/comments.pt:148
+#. Default: "Benutzerrichtlinien"
+msgid "benutzerrichtlinien"
+msgstr ""
+
+#: recensio.policy:/browser/templates/comments.pt:151
+#. Default: "Sie haben hier die Gelegenheit, die Rezension/Pr\303\244sentation zu kommentieren. Daf\303\274r ist eine kurze, kostenlose Registrierung mit Namen und E-Mail-Adresse notwendig, die lediglich dazu dient, Missbrauch der Kommentarfunktion zu verhindern und den wissenschaftlichen Anspruch der Plattform zu wahren. <br /> Bitte beachten Sie, dass eingehende Kommentare vor der Ver\303\266ffentlichung auf die Einhaltung der ${benutzerrichtlinien} gepr\303\274ft werden. Aus diesem Grund k\303\266nnen 1 bis 3 Werktage vergehen, bis Ihr Kommentar auf recensio.net sichtbar wird. Dar\303\274ber hinaus gibt es die M\303\266glichkeit, der Redaktion als problematisch empfundene \303\204u\303\237erungen \303\274ber einen neben Kommentaren befindlichen Button zu melden. <br /> F\303\274r R\303\274ckfragen steht Ihnen die recensio.net-Redaktion jederzeit zur Verf\303\274gung:<br /> ${contact_addr}."
+msgid "commenting_explanation"
+msgstr ""
+
+#: recensio.policy:/browser/templates/comments.pt:17
+#: recensio.policy:/browser/templates/comments.pt:121
+#. Default: "Log in to add comments"
+msgid "label_login_to_add_comments"
+msgstr ""
+
+#: recensio.policy:/browser/templates/comments.pt:72
+#. Default: "Delete"
+msgid "label_delete"
+msgstr ""
+
+#: recensio.policy:/browser/templates/comments.pt:90
 #: recensio.theme:/browser/topical.pt:85
 #: recensio.theme:/browser/topical.pt:128
 #: recensio.theme:/browser/topical.pt:132
@@ -718,50 +759,9 @@ msgstr ""
 msgid "${DYNAMIC_CONTENT}"
 msgstr ""
 
-#: recensio.policy:/browser/templates/comments.pt:117
+#: recensio.policy:/browser/templates/comments.pt:97
 #. Default: "Notify portal owner about this comment"
 msgid "notify_portal_owner"
-msgstr ""
-
-#: recensio.policy:/browser/templates/comments.pt:128
-#. Default: "Reply"
-msgid "label_reply"
-msgstr ""
-
-#: recensio.policy:/browser/templates/comments.pt:154
-#. Default: "Add comment"
-msgid "label_add_comment"
-msgstr ""
-
-#: recensio.policy:/browser/templates/comments.pt:155
-#. Default: "You can add a comment by filling out the form below. Plain text formatting."
-msgid "description_add_comment"
-msgstr ""
-
-#: recensio.policy:/browser/templates/comments.pt:165
-#. Default: "Kommentieren"
-msgid "heading_commenting_explanation"
-msgstr ""
-
-#: recensio.policy:/browser/templates/comments.pt:168
-#. Default: "Benutzerrichtlinien"
-msgid "benutzerrichtlinien"
-msgstr ""
-
-#: recensio.policy:/browser/templates/comments.pt:17
-#: recensio.policy:/browser/templates/comments.pt:141
-#. Default: "Log in to add comments"
-msgid "label_login_to_add_comments"
-msgstr ""
-
-#: recensio.policy:/browser/templates/comments.pt:171
-#. Default: "Sie haben hier die Gelegenheit, die Rezension/Pr\303\244sentation zu kommentieren. Daf\303\274r ist eine kurze, kostenlose Registrierung mit Namen und E-Mail-Adresse notwendig, die lediglich dazu dient, Missbrauch der Kommentarfunktion zu verhindern und den wissenschaftlichen Anspruch der Plattform zu wahren. <br /> Bitte beachten Sie, dass eingehende Kommentare vor der Ver\303\266ffentlichung auf die Einhaltung der ${benutzerrichtlinien} gepr\303\274ft werden. Aus diesem Grund k\303\266nnen 1 bis 3 Werktage vergehen, bis Ihr Kommentar auf recensio.net sichtbar wird. Dar\303\274ber hinaus gibt es die M\303\266glichkeit, der Redaktion als problematisch empfundene \303\204u\303\237erungen \303\274ber einen neben Kommentaren befindlichen Button zu melden. <br /> F\303\274r R\303\274ckfragen steht Ihnen die recensio.net-Redaktion jederzeit zur Verf\303\274gung:<br /> ${contact_addr}."
-msgid "commenting_explanation"
-msgstr ""
-
-#: recensio.policy:/browser/templates/comments.pt:92
-#. Default: "Delete"
-msgid "label_delete"
 msgstr ""
 
 #: recensio.policy:/browser/templates/footer.pt:17
@@ -949,51 +949,51 @@ msgstr ""
 msgid "description_mailsettings_mail_template"
 msgstr ""
 
-#: recensio.policy:/userdataschema.py:36
+#: recensio.policy:/userdataschema.py:38
 #. Default: "Academic title"
 msgid "label_academic_title"
 msgstr ""
 
-#: recensio.policy:/userdataschema.py:37
+#: recensio.policy:/userdataschema.py:39
 #. Default: ""
 msgid "help_academic_title"
 msgstr ""
 
-#: recensio.policy:/userdataschema.py:43
+#: recensio.policy:/userdataschema.py:45
 #. Default: "First name"
 msgid "label_firstname"
 msgstr ""
 
-#: recensio.policy:/userdataschema.py:48
+#: recensio.policy:/userdataschema.py:50
 #. Default: "Last name"
 msgid "label_lastname"
 msgstr ""
 
-#: recensio.policy:/userdataschema.py:54
+#: recensio.policy:/userdataschema.py:56
 #. Default: "Preferred language"
 msgid "label_preferred_language"
 msgstr ""
 
-#: recensio.policy:/userdataschema.py:55
+#: recensio.policy:/userdataschema.py:57
 #. Default: "What language do you prefer for receiving e-mails from us?"
 msgid "description_preferred_language"
 msgstr ""
 
-#: recensio.policy:/userdataschema.py:63
+#: recensio.policy:/userdataschema.py:65
 #. Default: "Declaration of identity"
 msgid "label_declaration_of_identity"
 msgstr ""
 
-#: recensio.policy:/userdataschema.py:64
+#: recensio.policy:/userdataschema.py:66
 #. Default: "I declare that I am indeed the person identified by the entries above."
 msgid "help_declaration_of_identity"
 msgstr ""
 
-#: recensio.policy:/userdataschema.py:72
+#: recensio.policy:/userdataschema.py:74
 msgid "Type the code"
 msgstr ""
 
-#: recensio.policy:/userdataschema.py:73
+#: recensio.policy:/userdataschema.py:75
 msgid "Type the code from the picture shown below or from the audio."
 msgstr ""
 
@@ -1499,6 +1499,11 @@ msgstr ""
 msgid "description_subject_or"
 msgstr ""
 
+#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:101
+#. Default: "Internetressourcen"
+msgid "label_secondary_nav_internetressourcen"
+msgstr ""
+
 #: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:16
 #. Default: "Konzept"
 msgid "label_secondary_nav_concept"
@@ -1519,108 +1524,28 @@ msgstr ""
 msgid "label_secondary_nav_copyright"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:54
+#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:47
+#. Default: "Datenschutz"
+msgid "label_secondary_nav_datenschutz"
+msgstr ""
+
+#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:63
 #. Default: "Zeitschriften"
 msgid "label_secondary_nav_journals"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:62
+#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:71
 #. Default: "Neueste Rezensionen"
 msgid "label_secondary_nav_latest_reviews"
 msgstr ""
 
-msgid "Issue"
+#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:87
+#. Default: "Monographien"
+msgid "label_secondary_nav_monographien"
 msgstr ""
 
-msgid "Publication"
+#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:93
+#. Default: "Aufs\303\244tze"
+msgid "label_secondary_nav_aufsaetze"
 msgstr ""
 
-msgid "Results per page"
-msgstr ""
-
-msgid "The number of results that is displayed on one page."
-msgstr ""
-
-msgid "label_reviews"
-msgstr ""
-
-msgid "label_presentations"
-msgstr ""
-
-msgid "label_participate"
-msgstr ""
-
-msgid "label_press"
-msgstr ""
-
-msgid "Import"
-msgstr ""
-
-msgid "Cut PDF"
-msgstr ""
-
-msgid "Themes"
-msgstr ""
-
-msgid "About us"
-msgstr ""
-
-msgid "Review"
-msgstr ""
-
-msgid "title_presentation_monograph"
-msgstr ""
-
-msgid "description_presentation_monograph"
-msgstr ""
-
-msgid "Presentation Online Resource"
-msgstr ""
-
-msgid "Presentation Article Review"
-msgstr ""
-
-msgid "Presentation Collection"
-msgstr ""
-
-msgid "Presentation Monograph"
-msgstr ""
-
-msgid "Review Journal"
-msgstr ""
-
-msgid "Review Monograph"
-msgstr ""
-
-msgid "Epoch"
-msgstr ""
-
-msgid "Region"
-msgstr ""
-
-msgid "Topic"
-msgstr ""
-
-msgid "Pending"
-msgstr ""
-
-msgid "Pending review"
-msgstr ""
-
-msgid "Private"
-msgstr ""
-
-msgid "Published"
-msgstr ""
-
-msgid "Folder"
-msgstr ""
-
-msgid "Listen to audio for this captcha"
-msgstr ""
-
-msgid "Presentation Article in Journal"
-msgstr ""
-
-msgid "Presentation Article edited Volume"
-msgstr ""
