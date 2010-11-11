@@ -459,7 +459,7 @@ msgstr "Format de citation (optionel)"
 #           different from the platform's"
 #: recensio.contenttypes:/content/schemata.py:229
 msgid "description_custom_citation"
-msgstr "
+msgstr ""
 "Please fill in only if you wish to use a citation format different "
 "from the platform’s"
 
