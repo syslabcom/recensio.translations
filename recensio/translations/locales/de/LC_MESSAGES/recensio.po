@@ -400,7 +400,7 @@ msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:175
 msgid "Cover picture"
-msgstr "Titelbild"
+msgstr "Coverbild"
 
 #. Default: "Reference Authors (email address, postal address and phone number are not publicly visible)"
 #: recensio.contenttypes:/content/schemata.py:187
@@ -439,14 +439,14 @@ msgstr "Word-Dokument"
 
 #: recensio.contenttypes:/content/schemata.py:228
 msgid "Optional citation format"
-msgstr "Optionales Zitierformat"
+msgstr "Optionales Zitierschema"
 
 #. Default: "Please fill in only if you wish to use a citation format different from the platform's"
 #: recensio.contenttypes:/content/schemata.py:229
 msgid "description_custom_citation"
 msgstr ""
-"Bitte füllen Sie dies nur aus, wenn Sie ein vom Plattformstandard "
-"abweichendes Zitierformat verwenden möchten"
+"Bitte nur ausfüllen, wenn Sie ein von der Plattform-Zitierweise "
+"abweichendes Schema wünschen"
 
 #: recensio.contenttypes:/content/schemata.py:247
 msgid "Honorific Title"
@@ -489,21 +489,22 @@ msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:314
 msgid "Page number (start)"
-msgstr "Seitenzahl (Anfang)"
+msgstr "Seitenzahl Beginn"
 
 #. Default: "Please fill in only if the review is part of a larger pdf-file"
 #: recensio.contenttypes:/content/schemata.py:315
 msgid "description_page_number"
 msgstr ""
-"Bitte nur ausfüllen, wenn die Rezension Teil einer größeren PDF-Datei ist"
+"Bitte nur ausfüllen, wenn die Rezension Teil einer größere PDF-Datei ist"
+
 
 #: recensio.contenttypes:/content/schemata.py:327
 msgid "Page number (end)"
-msgstr "Seitenzahl (Ende)"
+msgstr "Seitenzahl Ende"
 
 #: recensio.contenttypes:/content/schemata.py:338
 msgid "Pages"
-msgstr "Seiten"
+msgstr "Seitenzahl"
 
 #: recensio.contenttypes:/content/schemata.py:349
 msgid "Series"
@@ -523,7 +524,7 @@ msgstr "Vorname Autor"
 
 #: recensio.contenttypes:/content/schemata.py:390
 msgid "Language(s) (review)"
-msgstr "Sprache(n) (Rezension)"
+msgstr "Textsprache(n) (Rezension)"
 
 #: recensio.contenttypes:/content/schemata.py:400
 msgid "Language(s) (text)"
@@ -544,7 +545,8 @@ msgstr "Partner-URL"
 #. Default: "Please fill in only after consultation with the recensio.net team"
 #: recensio.contenttypes:/content/schemata.py:439
 msgid "description_uri"
-msgstr "Bitte nur nach Absprache mit dem Recensio.net-Team ausfüllen"
+msgstr ""
+"Bitte nur nach Absprache ausfüllen (m Normalfall freilassen)"
 
 #: recensio.contenttypes:/content/schemata.py:450
 msgid "Subject heading"

@@ -458,10 +458,9 @@ msgstr "Format de citation (optionel)"
 #. Default: "Please fill in only if you wish to use a citation format
 #           different from the platform's"
 #: recensio.contenttypes:/content/schemata.py:229
+# TODO
 msgid "description_custom_citation"
 msgstr ""
-"Please fill in only if you wish to use a citation format different "
-"from the platform’s"
 
 #: recensio.contenttypes:/content/schemata.py:247
 msgid "Honorific Title"
@@ -525,6 +524,7 @@ msgstr "Numéro de page (début)"
 #: recensio.contenttypes:/content/schemata.py:315
 msgid "description_page_number"
 msgstr ""
+"Uniquement si la recension est incluse dans un plus gros fichier pdf."
 
 #: recensio.contenttypes:/content/schemata.py:327
 msgid "Page number (end)"
@@ -544,11 +544,11 @@ msgstr "Volume"
 
 #: recensio.contenttypes:/content/schemata.py:372
 msgid "Last name author"
-msgstr "Nom"
+msgstr "Nom de l'auteur"
 
 #: recensio.contenttypes:/content/schemata.py:381
 msgid "First name author"
-msgstr "Prénom"
+msgstr "Prénom de l'auteur"
 
 #: recensio.contenttypes:/content/schemata.py:390
 msgid "Language(s) (review)"
@@ -598,7 +598,7 @@ msgstr "Sous-titre"
 
 #: recensio.contenttypes:/content/schemata.py:504
 msgid "Year of publication"
-msgstr "Date de publication"
+msgstr "Année de publication"
 
 #: recensio.contenttypes:/content/schemata.py:512
 msgid "Place of publication"
@@ -606,7 +606,7 @@ msgstr "Lieu de publication"
 
 #: recensio.contenttypes:/content/schemata.py:520
 msgid "Publisher"
-msgstr "Éditeur"
+msgstr "Maison d'édition"
 
 #: recensio.contenttypes:/content/schemata.py:54
 msgid "presented resource"
@@ -626,6 +626,7 @@ msgstr ""
 
 
 #: recensio.contenttypes:/content/schemata.py:552
+# TODO
 msgid "Author (monograph)"
 msgstr ""
 
