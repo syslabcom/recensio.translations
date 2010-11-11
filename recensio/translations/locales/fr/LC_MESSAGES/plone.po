@@ -29,7 +29,7 @@ msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:207
 msgid "label_schema_review"
-msgstr ""
+msgstr "Recension"
 
 #: recensio.contenttypes:/content/reviewjournal.py:30
 #: recensio.contenttypes:/content/schemata.py:346
