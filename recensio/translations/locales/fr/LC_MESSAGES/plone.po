@@ -28,17 +28,17 @@ msgstr ""
 
 
 #: recensio.contenttypes:/content/schemata.py:207
-msgid "review"
+msgid "label_schema_review"
 msgstr ""
 
 #: recensio.contenttypes:/content/reviewjournal.py:30
 #: recensio.contenttypes:/content/schemata.py:346
 #: recensio.contenttypes:/content/schemata.py:447
 #: recensio.contenttypes:/content/schemata.py:449
-msgid "reviewed text"
+msgid "label_schema_reviewed_text"
 msgstr ""
 
 #: recensio.contenttypes:/content/presentationcollection.py:33
 #: recensio.contenttypes:/content/schemata.py:52
-msgid "presented text"
+msgid "label_schema_presented_text"
 msgstr ""
