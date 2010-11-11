@@ -1707,6 +1707,11 @@ msgstr "Concept"
 msgid "label_secondary_nav_contact"
 msgstr "Contact"
 
+#. Default: "Zitierhinweise"
+#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:30
+msgid "label_secondary_nav_zitierhinweise"
+msgstr "Citation rules"
+
 #. Default: "Benutzerrichtlinien"
 #: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:30
 msgid "label_secondary_nav_user_guidelines"
@@ -1777,4 +1782,4 @@ msgstr ""
 "You can make changes or additions to all data at a later date."
 
 msgid "Presentation Collection"
-msgstr "Presentation (Article in Edited Volume)"
+msgstr "Presentation Article in Edited Volume"
