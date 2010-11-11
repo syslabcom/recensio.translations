@@ -473,12 +473,22 @@ msgstr "Adresse email (non publiée)"
 
 #: recensio.contenttypes:/content/schemata.py:266
 msgid "Personal webpage"
-msgstr ""
+msgstr "URL"
 
-#. Default: "Here you can link to your personal website (e.g. within a network of historians, a university or research institution). It should preferably be persistent or be corrected by you in case of changes (e.g. change of university)."
+#. Default: "Here you can link to your personal website (e.g. within a
+#           network of historians, a university or research
+#           institution). It should preferably be persistent or be
+#           corrected by you in case of changes (e.g. change of
+#           university)."
 #: recensio.contenttypes:/content/schemata.py:267
 msgid "description_personal_webpage"
-msgstr "URL"
+msgstr ""
+"Vous avez ici la possibilité d’insérer un lien vers votre site "
+"personnel (site d’un réseau d’historiens, d’une université ou d’une "
+"institution de recherche par exemple). Dans la mesure du possible, "
+"cette adresse doit être durable, ou modifiée par vos soins, en cas de "
+"changement d’université."
+
 
 #: recensio.contenttypes:/content/schemata.py:284
 msgid "Licence Agreement"
