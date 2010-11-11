@@ -1,0 +1,45 @@
+# #############################################################################
+#
+# Copyright (c) 2003-2004 Zope Corporation and Contributors.
+# All Rights Reserved.
+#
+# This software is subject to the provisions of the Zope Public License,
+# Version 2.1 (ZPL).  A copy of the ZPL should accompany this distribution.
+# THIS SOFTWARE IS PROVIDED "AS IS" AND ANY AND ALL EXPRESS OR IMPLIED
+# WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+# WARRANTIES OF TITLE, MERCHANTABILITY, AGAINST INFRINGEMENT, AND FITNESS
+# FOR A PARTICULAR PURPOSE.
+#
+# #############################################################################
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"POT-Creation-Date: Wed Nov 10 11:55:18 2010\n"
+"PO-Revision-Date: 2010-08-25 16:49+0200\n"
+"Last-Translator: Manuel Reinhardt <reinhardtsyslab.com>\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: zope/app/locales/extract.py\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Code: en\n"
+"Domain: recensio\n"
+
+#: recensio.contenttypes:/content/schemata.py:207
+msgid "review"
+msgstr "Review"
+
+#: recensio.contenttypes:/content/reviewjournal.py:30
+#: recensio.contenttypes:/content/schemata.py:346
+#: recensio.contenttypes:/content/schemata.py:447
+#: recensio.contenttypes:/content/schemata.py:449
+msgid "reviewed text"
+msgstr ""
+
+#: recensio.contenttypes:/content/presentationcollection.py:33
+#: recensio.contenttypes:/content/schemata.py:52
+msgid "presented text"
+msgstr ""
+
+

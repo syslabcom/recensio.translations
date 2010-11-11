@@ -153,11 +153,6 @@ msgstr ""
 msgid "description_reference_authors"
 msgstr ""
 
-#: recensio.contenttypes:/content/presentationcollection.py:33
-#: recensio.contenttypes:/content/schemata.py:52
-msgid "presented text"
-msgstr ""
-
 #: recensio.contenttypes:/content/presentationcollection.py:37
 msgid "Title / Subtitle"
 msgstr ""
@@ -336,13 +331,6 @@ msgstr "p."
 msgid "text_review_of"
 msgstr "recension de :"
 
-#: recensio.contenttypes:/content/reviewjournal.py:30
-#: recensio.contenttypes:/content/schemata.py:346
-#: recensio.contenttypes:/content/schemata.py:447
-#: recensio.contenttypes:/content/schemata.py:449
-msgid "reviewed text"
-msgstr ""
-
 #: recensio.contenttypes:/content/reviewjournal.py:33
 msgid "Editor (name or institution)"
 msgstr ""
@@ -404,10 +392,6 @@ msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:197
 msgid "Phone"
-msgstr ""
-
-#: recensio.contenttypes:/content/schemata.py:207
-msgid "review"
 msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:210

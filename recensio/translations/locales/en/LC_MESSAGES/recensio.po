@@ -439,11 +439,6 @@ msgstr ""
 msgid "Phone"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:207
-#, fuzzy
-msgid "review"
-msgstr "review of:"
-
 #: recensio.contenttypes:/content/schemata.py:210
 msgid "PDF"
 msgstr ""
