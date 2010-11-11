@@ -727,7 +727,7 @@ msgstr "Keine Email-Adresse hinterlegt"
 
 #: recensio.policy:/browser/email.py:280
 msgid "mail_new_publication_subject"
-msgstr "Es wurde eine neue Rezension ihres Werkes %s veröffentlicht!"
+msgstr "Es wurde eine Rezension von %s veröffentlicht"
 
 #: recensio.policy:/browser/email.py:281
 msgid "mail_new_publication_body"
@@ -752,6 +752,8 @@ msgstr ""
 "kostenlose Registrierung mit Namen und E-Mail-Adresse notwendig, die "
 "lediglich dazu dient, Missbrauch der Kommentarfunktion zu verhindern und den "
 "wissenschaftlichen Anspruch der Plattform zu wahren.\n"
+"\n"
+"%(context_url)s\n"
 "\n"
 "Für Rückfragen steht Ihnen die recensio.net-Redaktion gern zur Verfügung: %"
 "(mail_from)s.\n"

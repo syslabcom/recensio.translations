@@ -774,7 +774,7 @@ msgstr ""
 #: recensio.policy:/browser/email.py:308
 #, fuzzy
 msgid "mail_uncommented_subject"
-msgstr "A new review of your work %s has been published!"
+msgstr "A review of %s has been published"
 
 #: recensio.policy:/browser/email.py:318
 #, fuzzy
@@ -798,6 +798,8 @@ msgstr ""
 "statements. You will only need to register first (fast and free of charge) "
 "with your name and e-mail-address. This is necessary to prevent any misuse "
 "of the comment function and to maintain the platform’s scholarly claim.\n"
+"\n"
+"%(context_url)s\n"
 "\n"
 "For any further information/questions please feel free to contact the "
 "recensio.net editorial team:\n"
