@@ -528,7 +528,7 @@ msgstr "Textsprache(n) (Rezension)"
 
 #: recensio.contenttypes:/content/schemata.py:400
 msgid "Language(s) (text)"
-msgstr "Sprache(n) (Text)"
+msgstr "Textsprache(n) (der rezensierten Schrift)"
 
 #: recensio.contenttypes:/content/schemata.py:416
 msgid "Generated Pdf"
@@ -612,11 +612,11 @@ msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:577
 msgid "Shortname"
-msgstr "Kurzname"
+msgstr "Kürzel Zeitschrift"
 
 #: recensio.contenttypes:/content/schemata.py:585
 msgid "Vol."
-msgstr "Nr."
+msgstr "Nummer"
 
 #: recensio.contenttypes:/content/schemata.py:601
 msgid "Official year of publication (if different)"

@@ -388,7 +388,7 @@ msgstr "Titre de la revue"
 
 #: recensio.contenttypes:/content/reviewjournal.py:41
 msgid "Subtitle (journal)"
-msgstr "Sous-titre titre de la revue"
+msgstr "Sous-titre de la revue"
 
 #: recensio.contenttypes:/content/schemata.py:103
 msgid "Language(s) of presentation"
@@ -556,7 +556,7 @@ msgstr "Langue (de la recension)"
 
 #: recensio.contenttypes:/content/schemata.py:400
 msgid "Language(s) (text)"
-msgstr "Langue"
+msgstr "langue (de la revue)"
 
 #: recensio.contenttypes:/content/schemata.py:416
 msgid "Generated Pdf"
