@@ -46,3 +46,26 @@ msgstr ""
 # TODO
 msgid "label_schema_presented_text"
 msgstr ""
+
+msgid "description_presentation_monograph"
+msgstr ""
+"Afin de présenter votre monographie sur recensio.net, veuillez remplir le formulaire suivant. Les champs marqué d’un astérisque (*) sont obligatoires. Bien que la présentation de vos thèses puisse être proposée dans toute langue européenne, nous vous conseillons cependant d’utiliser de préférence l’une des langues les plus usitées dans le dialogue scientifique actuel. Vous conférerez ainsi une plus grande visibilité à votre présentation et celle-ci sera plus susceptible d’être commentée. Vous avez également la possibilité d’ajouter ou de modifier des informations ultérieurement."
+
+msgid "description_presentation_collection"
+msgstr ""
+"Afin de présenter votre article de recueil sur recensio.net, veuillez remplir le formulaire suivant. Les champs marqué d’un astérisque (*) sont obligatoires. Bien que la présentation de vos thèses puisse être proposée dans toute langue européenne, nous vous conseillons cependant d’utiliser de préférence l’une des langues les plus usitées dans le dialogue scientifique actuel. Vous conférerez ainsi une plus grande visibilité à votre présentation et celle-ci sera plus susceptible d’être commentée. Vous avez également la possibilité d’ajouter ou de modifier des informations ultérieurement."
+
+msgid "description_presentation_online_resource"
+msgstr ""
+"Afin de présenter une ressource Internet présentant un intérêt pour la recherche en histoire, veuillez remplir le formulaire suivant. Les champs marqués d’un astérisque (*) sont obligatoires. Bien que la présentation être proposée dans toute langue européenne, nous vous conseillons cependant d’utiliser de préférence l’une des langues les plus usitées dans le dialogue scientifique actuel. Vous conférerez ainsi une plus grande visibilité à votre présentation et celle-ci sera plus susceptible d’être commentée. Vous avez également la possibilité d’ajouter ou de modifier des informations ultérieurement."
+
+msgid "description_presentation_article"
+msgstr ""
+"Afin de présenter votre article de revue sur recensio.net, veuillez remplir le formulaire suivant. Les champs marqué d’un astérisque (*) sont obligatoires. Bien que la présentation de vos thèses puisse être proposée dans toute langue européenne, nous vous conseillons cependant d’utiliser de préférence l’une des langues les plus usitées dans le dialogue scientifique actuel. Vous conférerez ainsi une plus grande visibilité à votre présentation et celle-ci sera plus susceptible d’être commentée. Vous avez également la possibilité d’ajouter ou de modifier des informations ultérieurement."
+
+msgid "description_review_journal"
+msgstr ""
+
+msgid "description_review_monograph"
+msgstr ""
+
