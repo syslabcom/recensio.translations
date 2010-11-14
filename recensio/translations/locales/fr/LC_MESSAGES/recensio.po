@@ -506,6 +506,7 @@ msgstr ""
 "durable, ou modifiée par vos soins, en cas de changement d’université."
 
 #: recensio.contenttypes:/content/schemata.py:301
+# TODO
 msgid "Licence Agreement"
 msgstr ""
 
