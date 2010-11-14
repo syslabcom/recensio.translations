@@ -189,7 +189,7 @@ msgstr ""
 
 #: recensio.contenttypes:/content/presentationcollection.py:38
 msgid "Title / Subtitle"
-msgstr "Titel / Untertitel"
+msgstr "Haupttitel / Untertitel"
 
 #. Default: "Information on the associated edited volume"
 #: recensio.contenttypes:/content/presentationcollection.py:39
@@ -214,7 +214,7 @@ msgstr "Vorname"
 
 #. Default: "Author(s) of presented article"
 #: recensio.contenttypes:/content/presentationcollection.py:61
-msgid "label_presentation_collection_authors"
+msgid "label_presentation_article_authors"
 msgstr "Autor(en) des präsentierten Aufsatzes"
 
 #: recensio.contenttypes:/content/presentationmonograph.py:39
@@ -506,7 +506,7 @@ msgstr "Lizenzvereinbarung"
 msgid "description_ccby_licence_approval"
 msgstr ""
 "Ich bin damit einverstanden, dass meine Präsentation von recensio.net unter "
-"der <a href='http://creativecommons.org/licenses/by-nc-nd/2.0/deed.en' "
+"der <a href='http://creativecommons.org/licenses/by-nc-nd/2.0/deed.de' "
 "target='_blank'>Creative-Commons-Lizenz Namensnennung-Keine kommerzielle "
 "Nutzung-Keine Bearbeitung (CC-BY-NC-ND)</a> publiziert wird. Sie darf unter "
 "diesen Bedingungen von Plattformnutzern elektronisch benutzt, übermittelt, "
@@ -633,7 +633,7 @@ msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:594
 msgid "Shortname"
-msgstr "Kürzel Zeitschrift"
+msgstr "Kürzel"
 
 #: recensio.contenttypes:/content/schemata.py:602
 msgid "Vol."

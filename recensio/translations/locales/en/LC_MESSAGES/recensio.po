@@ -236,7 +236,7 @@ msgstr ""
 
 #. Default: "Author(s) of presented article"
 #: recensio.contenttypes:/content/presentationcollection.py:61
-msgid "label_presentation_collection_authors"
+msgid "label_presentation_article_authors"
 msgstr ""
 
 #: recensio.contenttypes:/content/presentationmonograph.py:39
@@ -300,7 +300,7 @@ msgstr ""
 
 #: recensio.contenttypes:/content/presentationonlineresource.py:117
 msgid "Fulltexts (public domain)"
-msgstr ""
+msgstr "Full texts and multimedia data (public domain)"
 
 #. Default: "Describe here (if applicable) the full texts and data supplied."
 #: recensio.contenttypes:/content/presentationonlineresource.py:118

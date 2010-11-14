@@ -208,7 +208,7 @@ msgstr "Prénom"
 
 #. Default: "Author(s) of presented article"
 #: recensio.contenttypes:/content/presentationcollection.py:61
-msgid "label_presentation_collection_authors"
+msgid "label_presentation_article_authors"
 msgstr "Auteur(s) de l'article présenté"
 
 #: recensio.contenttypes:/content/presentationmonograph.py:39
@@ -510,6 +510,7 @@ msgstr ""
 msgid "Licence Agreement"
 msgstr ""
 
+#. Default: "I agree that my presentation will be published by 
 #           recensio.net under the <a
 #           href='http://creativecommons.org/licenses/by-nc-nd/2.0/deed.en'
 #           target='_blank'>creative-commons-licence
@@ -519,13 +520,14 @@ msgstr ""
 #           provide it for download. The editorial team reserves its
 #           right to change incoming posts (see our user guidelines to
 #           this)."
-#. Default: "I agree that my presentation will be published by recensio.net under the <a href='http://creativecommons.org/licenses/by-nc-nd/2.0/deed.en' target='_blank'>creative-commons-licence Attribution-NonCommercial-NoDerivs (CC-BY-NC-ND)</a>. Under these conditions, platform users may use it electronically, distribute it, print it and provide it for download. The editorial team reserves its right to change incoming posts (see our user guidelines to this)."
 #: recensio.contenttypes:/content/schemata.py:302
 msgid "description_ccby_licence_approval"
 msgstr ""
 "Je suis d’accord pour que ma présentation soit publiée par recensio.net sous "
-"licence Creative Commons paternité – pas d’utilisation commerciale – pas de "
-"modification (CC-BY-NC-ND). J’autorise donc son utilisation, sa diffusion, "
+"licence <a href='http://creativecommons.org/licenses/by-nc-nd/2.0/deed.fr' "
+"target='_blank'>Creative Commons paternité – pas d’utilisation commerciale "
+"– pas de modification (CC-BY-NC-ND)</a>. "
+"J’autorise donc son utilisation, sa diffusion, "
 "son impression et son téléchargement par les utilisateurs de la plateforme.  "
 "La rédaction se réserve le droit de modifier le texte selon les conditions "
 "d’utilisation."
@@ -690,7 +692,7 @@ msgstr "Informations sur l’ouvrage présenté"
 #: recensio.contenttypes:/content/schemata.py:78
 msgid "description_presentation_html"
 msgstr ""
-"Principales thèses développées.  Veuillez ici formuler de manière succincte "
+"Veuillez ici formuler de manière succincte "
 "les principales thèses développées dans votre ouvrage, votre méthodologie et/"
 "ou votre point de vue sur les approches de recherches actuelles. Veuillez "
 "éviter le simple copier/coller de la table des matières et n’ayez pas peur "
@@ -705,7 +707,7 @@ msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:97
 msgid "URL/URN"
-msgstr "URL"
+msgstr "URL/URN"
 
 #: recensio.contenttypes:/content/schemata.py:99
 msgid "Subject classification"
