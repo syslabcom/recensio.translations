@@ -238,12 +238,13 @@ msgstr "Name der Zeitschrift/Zeitung/Jahrbuch"
 msgid "URL"
 msgstr "URL"
 
-#. Default: "Name of journal/newspaper/yearbook with volume, year and number of pages"
+#. Default: "Name of journal/newspaper/yearbook with volume, year and
+#           number of pages"
 #: recensio.contenttypes:/content/presentationmonograph.py:67
 msgid "label_published_reviews"
 msgstr ""
-"Name der Zeitschrift/der Zeitung/des Jahrbuches mit Heftnummer, Jahr und "
-"Seitenzahl"
+"Name der Zeitschrift/Zeitung/Jahrbuch mit Band, Jahr und "
+"Seitenangaben"
 
 #. Default: "Insert here the place of publication of reviews on your text that have already been published in print."
 #: recensio.contenttypes:/content/presentationmonograph.py:72
@@ -254,12 +255,12 @@ msgstr ""
 
 #: recensio.contenttypes:/content/presentationmonograph.py:83
 msgid "Author(s) of presented monograph"
-msgstr "Autor(en) des präsentierten Buchs"
+msgstr "Autor(en) der präsentierten Monographie"
 
 #. Default: "Author(s) of presented monograph"
 #: recensio.contenttypes:/content/presentationmonograph.py:85
 msgid "description_presentation_monograph_authors"
-msgstr "Autor(en) des präsentierten Buchs"
+msgstr "Autor(en) der präsentierten Monographie"
 
 #. Default: "Is the monograph you are presenting available free of charge online?"
 #: recensio.contenttypes:/content/presentationmonograph.py:89
@@ -424,7 +425,7 @@ msgstr "Coverbild"
 #: recensio.contenttypes:/content/schemata.py:204
 msgid "label_reference_authors"
 msgstr ""
-"Referenzautoren (E-Mail-Adresse, Postadresse und Telefonnummer sind nicht "
+"Bezugsautoren (E-Mail-Adresse, Postadresse und Telefonnummer sind nicht "
 "öffentlich sichtbar)"
 
 #: recensio.contenttypes:/content/schemata.py:210
@@ -445,7 +446,7 @@ msgstr "Adresse"
 
 #: recensio.contenttypes:/content/schemata.py:214
 msgid "Phone"
-msgstr "Telefon"
+msgstr "Telefonnummer"
 
 #: recensio.contenttypes:/content/schemata.py:224
 msgid "review"
@@ -648,21 +649,35 @@ msgstr "Erscheinungsjahr"
 msgid "description_presentation_title"
 msgstr "Angaben zum präsentierten Werk"
 
-#. Default: "Please give a brief and clear outline of your thesis statements, your methodology and/or your discussion of existing research approaches. We would kindly ask you to avoid a mere summary of your text. Don't be shy, however, of wording your statements in a provocative way. By separating out paragraphs you will make your statement more readable. You can increase the number of characters available for your own presentation from 4000 to 6000 by commenting on an already existing review/presentation on recensio.net. Please note that both comments and presentations will be checked by the editorial team before being published in order to prevent misuse. Because of this texts will be available online at the earliest after three working days."
+#. Default: "Please give a brief and clear outline of your thesis
+#           statements, your methodology and/or your discussion of
+#           existing research approaches. We would kindly ask you to
+#           avoid a mere summary of your text. Don't be shy, however,
+#           of wording your statements in a provocative way. By
+#           separating out paragraphs you will make your statement
+#           more readable. You can increase the number of characters
+#           available for your own presentation from 4000 to 6000 by
+#           commenting on an already existing review/presentation on
+#           recensio.net. Please note that both comments and
+#           presentations will be checked by the editorial team before
+#           being published in order to prevent misuse. Because of
+#           this texts will be available online at the earliest after
+#           three working days."
 #: recensio.contenttypes:/content/schemata.py:78
 msgid "description_presentation_html"
 msgstr ""
-"Bitte formulieren Sie hier kurz und übersichtlich die von Ihnen erarbeiteten "
-"Thesen, Ihre Methodik und/oder Ihre Auseinandersetzung mit bestehenden "
-"Forschungsansätzen. Vermeiden Sie dabei bitte bloße Inhaltsangaben und "
-"scheuen Sie sich nicht, Ihre Thesen provokant zu formulieren. Das Einfügen "
-"von Absätzen macht Ihre Ausführungen leichter lesbar. Durch das Kommentieren "
-"einer bereits vorhandenen Rezension/Präsentation auf recensio.net erhöhen "
-"Sie die für Ihre eigene Präsentation zur Verfügung stehende Zeichenzahl von "
-"4000 auf 6000. Bitte beachten Sie, dass sowohl Kommentare als auch "
-"Präsentationen vor ihrer Publikation durch die Redaktion geprüft werden, um "
-"Missbrauch zu verhindern. Dadurch sind die Texte frühestens nach 3 Werktagen "
-"öffentlich einsehbar."
+"Bitte formulieren Sie hier kurz und übersichtlich die von Ihnen "
+"erarbeiteten Thesen, Ihre Methodik und/oder Ihre Auseinandersetzung "
+"mit bestehenden Forschungsansätzen. Vermeiden Sie dabei bitte bloße "
+"Inhaltsangaben und scheuen Sie sich nicht, Ihre Thesen provokant zu "
+"formulieren.  Das Einfügen von Absätzen macht Ihre Ausführungen "
+"leichter lesbar.  Durch das Kommentieren einer bereits vorhandenen "
+"Rezension/Präsentation auf recensio.net erhöhen Sie die für Ihre "
+"eigene Präsentation zur Verfügung stehende Zeichenzahl von 4000 auf "
+"6000.  Bitte beachten Sie, dass sowohl Kommentare als auch "
+"Präsentationen vor ihrer Publikation durch die Redaktion geprüft "
+"werden, um Missbrauch zu verhindern. Dadurch sind die Texte frühestens "
+"nach 3 Werktagen öffentlich einsehbar."
 
 #: recensio.contenttypes:/content/schemata.py:97
 msgid "URL/URN"

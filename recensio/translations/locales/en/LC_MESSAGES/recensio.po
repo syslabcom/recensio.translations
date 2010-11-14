@@ -443,7 +443,7 @@ msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:214
 msgid "Phone"
-msgstr ""
+msgstr "Phone number"
 
 #: recensio.contenttypes:/content/schemata.py:224
 msgid "review"
@@ -468,7 +468,7 @@ msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:264
 msgid "Honorific Title"
-msgstr ""
+msgstr "Title"
 
 #: recensio.contenttypes:/content/schemata.py:274
 msgid "Email address (not publicly visible)"

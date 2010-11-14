@@ -238,12 +238,15 @@ msgstr "URL"
 #: recensio.contenttypes:/content/presentationmonograph.py:67
 msgid "label_published_reviews"
 msgstr ""
+"Nom de la revue/journal/annuaire, volume, année et nombre de pages"
 
+#. Default: "Insert here the place of publication of reviews on your
 #           text that have already been published in print."
-#. Default: "Insert here the place of publication of reviews on your text that have already been published in print."
-#: recensio.contenttypes:/content/presentationmonograph.py:72
+#: recensio.contenttypes:/content/presentationmonograph.py:70
 msgid "description_pubished_reviews"
 msgstr ""
+"Veuillez insérer le lieu de publication d’éventuelles recensions de "
+"vos travaux, publiées en version papier."
 
 #: recensio.contenttypes:/content/presentationmonograph.py:83
 msgid "Author(s) of presented monograph"
@@ -399,7 +402,7 @@ msgstr "Espace"
 
 #: recensio.contenttypes:/content/schemata.py:105
 msgid "Language(s) of presentation"
-msgstr "Langue"
+msgstr "Langue de la présentation"
 
 #: recensio.contenttypes:/content/schemata.py:106
 msgid "Language(s) of presented work"
