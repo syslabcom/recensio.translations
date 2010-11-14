@@ -466,6 +466,10 @@ msgstr ""
 msgid "description_custom_citation"
 msgstr ""
 
+#. Default: "Author of presentation"
+msgid "label_presentation_author"
+msgstr "Author of presentation"
+
 #: recensio.contenttypes:/content/schemata.py:264
 msgid "Honorific Title"
 msgstr "Title"

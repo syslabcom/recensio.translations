@@ -469,12 +469,16 @@ msgstr "Doc"
 msgid "Optional citation format"
 msgstr "Format de citation (optionel)"
 
+#. Default: "Please fill in only if you wish to use a citation format 
 #           different from the platform's"
-# TODO
-#. Default: "Please fill in only if you wish to use a citation format different from the platform's"
 #: recensio.contenttypes:/content/schemata.py:246
+# TODO
 msgid "description_custom_citation"
 msgstr ""
+
+#. Default: "Author of presentation"
+msgid "label_presentation_author"
+msgstr "Auteur de la présentation"
 
 #: recensio.contenttypes:/content/schemata.py:264
 msgid "Honorific Title"
@@ -488,11 +492,11 @@ msgstr "Adresse email (non publiée)"
 msgid "Personal webpage"
 msgstr "URL"
 
+#. Default: "Here you can link to your personal website (e.g. within a 
 #           network of historians, a university or research
 #           institution). It should preferably be persistent or be
 #           corrected by you in case of changes (e.g. change of
 #           university)."
-#. Default: "Here you can link to your personal website (e.g. within a network of historians, a university or research institution). It should preferably be persistent or be corrected by you in case of changes (e.g. change of university)."
 #: recensio.contenttypes:/content/schemata.py:284
 msgid "description_personal_webpage"
 msgstr ""
