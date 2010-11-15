@@ -216,11 +216,12 @@ msgid "Table of contents of monograph you are presenting"
 msgstr "Table des matières de la monographie présentée"
 
 #: recensio.contenttypes:/content/presentationmonograph.py:50
+# TODO
 msgid "Existing online reviews"
 msgstr ""
 
+#. Default: "Are there reviews on your text which are already
 #           available online?"
-#. Default: "Are there reviews on your text which are already available online?"
 #: recensio.contenttypes:/content/presentationmonograph.py:51
 msgid "description_existing_online_reviews"
 msgstr "Des recensions de votre ouvrage sont-elles disponibles en ligne?"
@@ -233,8 +234,8 @@ msgstr "Nom de la revue/journal/annuaire"
 msgid "URL"
 msgstr "URL"
 
+#. Default: "Name of journal/newspaper/yearbook with volume, year and 
 #           number of pages"
-#. Default: "Name of journal/newspaper/yearbook with volume, year and number of pages"
 #: recensio.contenttypes:/content/presentationmonograph.py:67
 msgid "label_published_reviews"
 msgstr ""
