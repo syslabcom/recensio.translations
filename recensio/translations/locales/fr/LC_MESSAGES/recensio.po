@@ -1060,7 +1060,7 @@ msgstr ""
 #. Default: "Academic title"
 #: recensio.policy:/userdataschema.py:38
 msgid "label_academic_title"
-msgstr ""
+msgstr "Titre"
 
 #. Default: ""
 #: recensio.policy:/userdataschema.py:39
@@ -1070,40 +1070,46 @@ msgstr ""
 #. Default: "First name"
 #: recensio.policy:/userdataschema.py:45
 msgid "label_firstname"
-msgstr ""
+msgstr "Prénom"
 
 #. Default: "Last name"
 #: recensio.policy:/userdataschema.py:50
 msgid "label_lastname"
-msgstr ""
+msgstr "Nom"
 
 #. Default: "Preferred language"
 #: recensio.policy:/userdataschema.py:56
 msgid "label_preferred_language"
-msgstr ""
+msgstr "Choix de la langue"
 
 #. Default: "What language do you prefer for receiving e-mails from us?"
 #: recensio.policy:/userdataschema.py:57
 msgid "description_preferred_language"
-msgstr ""
+msgstr "Dans quelle langue souhaitez-vous être tenu informé?"
 
 #. Default: "Declaration of identity"
 #: recensio.policy:/userdataschema.py:65
 msgid "label_declaration_of_identity"
-msgstr ""
+msgstr "Confirmation d'identité"
 
-#. Default: "I declare that I am indeed the person identified by the entries above."
+#. Default: "I declare that I am indeed the person identified by the
+#           entries above."
 #: recensio.policy:/userdataschema.py:66
 msgid "help_declaration_of_identity"
 msgstr ""
+"Je certifie être la personne dont j'ai fourni les informations "
+"ci-dessus."
 
 #: recensio.policy:/userdataschema.py:74
 msgid "Type the code"
-msgstr ""
+msgstr "Code de sécurité"
 
 #: recensio.policy:/userdataschema.py:75
 msgid "Type the code from the picture shown below or from the audio."
 msgstr ""
+"Veuillez taper le code contenu dans l'image ci-dessous ou dans le "
+"fichier audio."
+
 
 #. Default: "citation style"
 #: recensio.theme:/browser/pdfgen.py:101
@@ -1118,7 +1124,13 @@ msgstr ""
 msgid "Autorensuche"
 msgstr ""
 
-#. Default: "Sie finden hier die Autorinnen und Autoren von auf recensio.net publizierten Rezensionen, Pr\303\244sentationen (Aufs\303\244tze, Monographien, Internetressourcen) und Kommentaren sowie die Autoren von hier rezensierten Werken. Jedem der drei Genres ist ein Icon zugeordnet, das vor dem Namen des jeweiligen Autors deutlich macht, welche Textart(en) dieser verfasst hat."
+#. Default: "Sie finden hier die Autorinnen und Autoren von auf
+#           recensio.net publizierten Rezensionen,
+#           Pr\303\244sentationen (Aufs\303\244tze, Monographien,
+#           Internetressourcen) und Kommentaren sowie die Autoren von
+#           hier rezensierten Werken. Jedem der drei Genres ist ein
+#           Icon zugeordnet, das vor dem Namen des jeweiligen Autors
+#           deutlich macht, welche Textart(en) dieser verfasst hat."
 #: recensio.theme:/browser/templates/authorsearch.pt:19
 msgid "description_authorsearch_1"
 msgstr ""
@@ -1129,7 +1141,10 @@ msgstr ""
 "par un icône, placé devant le nom de l’auteur, afin de préciser le type "
 "d’ouvrage qu'il a écrit."
 
-#. Default: "Mit einem Klick auf den Autornamen erhalten Sie alle von einem Autor publizierten Texte. Der Klick auf ein spezielles Icon zeigt Ihnen gezielt die Treffer eines Genres an."
+#. Default: "Mit einem Klick auf den Autornamen erhalten Sie alle von
+#           einem Autor publizierten Texte. Der Klick auf ein
+#           spezielles Icon zeigt Ihnen gezielt die Treffer eines
+#           Genres an."
 #: recensio.theme:/browser/templates/authorsearch.pt:25
 msgid "description_authorsearch_2"
 msgstr ""
