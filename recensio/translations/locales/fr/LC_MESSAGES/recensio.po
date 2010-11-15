@@ -379,8 +379,8 @@ msgstr ""
 #: recensio.contenttypes:/content/reviewjournal.py:274
 #: recensio.contenttypes:/content/reviewmonograph.py:275
 msgid "license-note-review"
-msgstr "Cet article peut être téléchargé et/ou imprimé à des fins privées. 
-Toute autre reproduction ou représentation, intégrale ou substantielle de son contenu, doit faire l'objet d'une autorisation (§§ 44a-63a UrhG / German Copyright Act)."
+msgstr "Cet article peut être téléchargé et/ou imprimé à des fins privées.\n"
+"Toute autre reproduction ou représentation, intégrale ou substantielle de son contenu, doit faire l'objet d'une autorisation (§§ 44a-63a UrhG / German Copyright Act)."
 
 #: recensio.contenttypes:/content/reviewjournal.py:35
 msgid "Editor (name or institution)"
