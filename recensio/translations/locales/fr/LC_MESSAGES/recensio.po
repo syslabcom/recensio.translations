@@ -766,6 +766,9 @@ msgstr ""
 msgid "mail_new_publication_subject"
 msgstr ""
 
+msgid "mail_new_publication_intro"
+msgstr ""
+
 #: recensio.policy:/browser/email.py:279
 msgid "mail_new_publication_body"
 msgstr ""

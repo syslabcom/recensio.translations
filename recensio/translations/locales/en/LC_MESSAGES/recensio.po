@@ -756,19 +756,22 @@ msgstr ""
 
 #: recensio.policy:/browser/email.py:278
 msgid "mail_new_publication_subject"
-msgstr "A new review of your work %s has been published!"
+msgstr "A new review of %s has been published"
 
-#: recensio.policy:/browser/email.py:279
-msgid "mail_new_publication_body"
+msgid "mail_new_publication_intro"
 msgstr ""
 "Liebe Redaktion,\n"
 "Die folgende Mail wurde generiert zur Benachrichtigung von %(reviewed_author)"
 "s. Bitte prüfen Sie sie und leiten sie ggf. weiter an\n"
 "\n"
-"%(reviewed_author)s <%(mail_to)s>\n"
+"%(reviewed_author)s\n"
 "\n"
 "**********\n"
 "\n"
+
+#: recensio.policy:/browser/email.py:279
+msgid "mail_new_publication_body"
+msgstr ""
 "Dear Mr %(reviewed_author)s,\n"
 "\n"
 "Recently a text on the topic %(title)s %(subtitle)s was published.\n"

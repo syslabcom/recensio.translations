@@ -755,17 +755,20 @@ msgstr "Keine Email-Adresse hinterlegt"
 msgid "mail_new_publication_subject"
 msgstr "Es wurde eine Rezension von %s veröffentlicht"
 
-#: recensio.policy:/browser/email.py:279
-msgid "mail_new_publication_body"
+msgid "mail_new_publication_intro"
 msgstr ""
 "Liebe Redaktion,\n"
 "Die folgende Mail wurde generiert zur Benachrichtigung von %(reviewed_author)"
 "s. Bitte prüfen Sie sie und leiten sie ggf. weiter an\n"
 "\n"
-"%(reviewed_author)s <%(mail_to)s>\n"
+"%(reviewed_author)s\n"
 "\n"
 "**********\n"
 "\n"
+
+#: recensio.policy:/browser/email.py:279
+msgid "mail_new_publication_body"
+msgstr ""
 "Sehr geehrter Herr %(reviewed_author)s,\n"
 "\n"
 "vor Kurzem ist eine Schrift zum Thema %(title)s %(subtitle)s erschienen. Der "
