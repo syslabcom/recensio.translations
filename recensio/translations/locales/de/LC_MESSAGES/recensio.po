@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Mon Nov 15 17:37:24 2010\n"
+"POT-Creation-Date: Tue Nov 16 11:52:11 2010\n"
 "PO-Revision-Date: 2010-08-25 16:49+0200\n"
 "Last-Translator: Manuel Reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: German\n"
@@ -747,26 +747,7 @@ msgstr ""
 msgid "mail_no_recipients"
 msgstr "Es wurde keine Email-Adresse angegeben! Mail wurde nicht versendet"
 
-#: recensio.policy:/browser/email.py:271
-msgid "no_mail_address_available"
-msgstr "Keine Email-Adresse hinterlegt"
-
-#: recensio.policy:/browser/email.py:278
-msgid "mail_new_publication_subject"
-msgstr "Es wurde eine Rezension von %s veröffentlicht"
-
-msgid "mail_new_publication_intro"
-msgstr ""
-"Liebe Redaktion,\n"
-"Die folgende Mail wurde generiert zur Benachrichtigung von %(reviewed_author)"
-"s. Bitte prüfen Sie sie und leiten sie ggf. weiter an\n"
-"\n"
-"%(reviewed_author)s\n"
-"\n"
-"**********\n"
-"\n"
-
-#: recensio.policy:/browser/email.py:279
+#: recensio.policy:/browser/email.py:271 recensio.policy:/browser/email.py:274
 msgid "mail_new_publication_body"
 msgstr ""
 "Sehr geehrter Herr %(reviewed_author)s,\n"
@@ -795,11 +776,27 @@ msgstr ""
 "Instituts für Europäische Geschichte Mainz. Weitere Informationen finden Sie "
 "unter %(concept_url)s"
 
-#: recensio.policy:/browser/email.py:306
+#: recensio.policy:/browser/email.py:274
+msgid "mail_new_publication_intro"
+msgstr ""
+"Liebe Redaktion,\n"
+"Die folgende Mail wurde generiert zur Benachrichtigung von %(reviewed_author)"
+"s. Bitte prüfen Sie sie und leiten sie ggf. weiter an\n"
+"\n"
+"%(reviewed_author)s\n"
+"\n"
+"**********\n"
+"\n"
+
+#: recensio.policy:/browser/email.py:280
+msgid "mail_new_publication_subject"
+msgstr "Es wurde eine Rezension von %s veröffentlicht"
+
+#: recensio.policy:/browser/email.py:307
 msgid "mail_uncommented_subject"
 msgstr "Ihre Rezension auf Rezensio.net"
 
-#: recensio.policy:/browser/email.py:316
+#: recensio.policy:/browser/email.py:317
 msgid "mail_uncommented_body"
 msgstr ""
 "Sehr geehrte/r Frau/Herr %(name)s,\n"
@@ -822,11 +819,11 @@ msgstr ""
 "    Mit freundlichen Grüßen,\n"
 "    Ihr recensio.net-Team"
 
-#: recensio.policy:/browser/email.py:339
+#: recensio.policy:/browser/email.py:340
 msgid "Newsletter settings"
 msgstr "Newsletter-Einstellungen"
 
-#: recensio.policy:/browser/email.py:340
+#: recensio.policy:/browser/email.py:341
 msgid ""
 "This is a technical configuration panel for newsletter settings.\n"
 "The templates can access any object of a catalog result, but dates have been "
@@ -1326,15 +1323,27 @@ msgstr "Präsentierter Text-"
 #: recensio.policy:/missing_18n_labels.py:68
 msgid "description_presentation_collection"
 msgstr ""
-"Um Ihren Sammelbandeintrag auf recensio.net zu präsentieren, füllen Sie bitte das nachfolgende Formular aus. Die mit * gekennzeichneten Felder sind Pflichtfelder. Bitte beachten Sie, dass eine Präsentation Ihrer Thesen zwar in nahezu allen europäischen Sprachen möglich ist, wir Ihnen jedoch empfehlen, eine der großen Wissenschaftssprachen zu wählen. Sie verleihen Ihrer Präsentation so größtmöglichste Aufmerksamkeit und erhöhen die Wahrscheinlichkeit einer Diskussion Ihrer Thesen.\n"
+"Um Ihren Sammelbandeintrag auf recensio.net zu präsentieren, füllen Sie "
+"bitte das nachfolgende Formular aus. Die mit * gekennzeichneten Felder sind "
+"Pflichtfelder. Bitte beachten Sie, dass eine Präsentation Ihrer Thesen zwar "
+"in nahezu allen europäischen Sprachen möglich ist, wir Ihnen jedoch "
+"empfehlen, eine der großen Wissenschaftssprachen zu wählen. Sie verleihen "
+"Ihrer Präsentation so größtmöglichste Aufmerksamkeit und erhöhen die "
+"Wahrscheinlichkeit einer Diskussion Ihrer Thesen.\n"
 "Sie können alle Angaben zu einem späteren Zeitpunkt verändern oder ergänzen."
-
 
 #: recensio.policy:/missing_18n_labels.py:49
 #: recensio.policy:/missing_18n_labels.py:69
 msgid "description_presentation_online_resource"
 msgstr ""
-"Um eine für die Arbeit von Historikern relevante Internetressource auf recensio.net zu präsentieren, füllen Sie bitte das nachfolgende Formular aus. Die mit * gekennzeichneten Felder sind Pflichtfelder. Bitte beachten Sie, dass eine Präsentation Ihrer Thesen zwar in nahezu allen europäischen Sprachen möglich ist, wir Ihnen jedoch empfehlen, eine der großen Wissenschaftssprachen zu wählen. Sie verleihen Ihrer Präsentation so größtmöglichste Aufmerksamkeit und erhöhen die Wahrscheinlichkeit einer Diskussion Ihrer Thesen.\n"
+"Um eine für die Arbeit von Historikern relevante Internetressource auf "
+"recensio.net zu präsentieren, füllen Sie bitte das nachfolgende Formular "
+"aus. Die mit * gekennzeichneten Felder sind Pflichtfelder. Bitte beachten "
+"Sie, dass eine Präsentation Ihrer Thesen zwar in nahezu allen europäischen "
+"Sprachen möglich ist, wir Ihnen jedoch empfehlen, eine der großen "
+"Wissenschaftssprachen zu wählen. Sie verleihen Ihrer Präsentation so "
+"größtmöglichste Aufmerksamkeit und erhöhen die Wahrscheinlichkeit einer "
+"Diskussion Ihrer Thesen.\n"
 "Sie können alle Angaben zu einem späteren Zeitpunkt verändern oder ergänzen."
 
 #: recensio.policy:/missing_18n_labels.py:5
@@ -1350,9 +1359,14 @@ msgstr ""
 #: recensio.policy:/missing_18n_labels.py:70
 msgid "description_presentation_article"
 msgstr ""
-"Um Ihren Zeitschriftenbeitrag auf recensio.net zu präsentieren, füllen Sie bitte das nachfolgende Formular aus. Die mit * gekennzeichneten Felder sind Pflichtfelder. Bitte beachten Sie, dass eine Präsentation Ihrer Thesen zwar in nahezu allen europäischen Sprachen möglich ist, wir Ihnen jedoch empfehlen, eine der großen Wissenschaftssprachen zu wählen. Sie verleihen Ihrer Präsentation so größtmöglichste Aufmerksamkeit und erhöhen die Wahrscheinlichkeit einer Diskussion Ihrer Thesen.\n"
+"Um Ihren Zeitschriftenbeitrag auf recensio.net zu präsentieren, füllen Sie "
+"bitte das nachfolgende Formular aus. Die mit * gekennzeichneten Felder sind "
+"Pflichtfelder. Bitte beachten Sie, dass eine Präsentation Ihrer Thesen zwar "
+"in nahezu allen europäischen Sprachen möglich ist, wir Ihnen jedoch "
+"empfehlen, eine der großen Wissenschaftssprachen zu wählen. Sie verleihen "
+"Ihrer Präsentation so größtmöglichste Aufmerksamkeit und erhöhen die "
+"Wahrscheinlichkeit einer Diskussion Ihrer Thesen.\n"
 "Sie können alle Angaben zu einem späteren Zeitpunkt verändern oder ergänzen."
-
 
 #: recensio.policy:/missing_18n_labels.py:6
 #: recensio.policy:/missing_18n_labels.py:52
@@ -2016,6 +2030,9 @@ msgstr "Neueste Rezensionen"
 #: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:96
 msgid "label_secondary_nav_monographien"
 msgstr ""
+
+#~ msgid "no_mail_address_available"
+#~ msgstr "Keine Email-Adresse hinterlegt"
 
 #~ msgid "metadata_publications"
 #~ msgstr "Publikationen"

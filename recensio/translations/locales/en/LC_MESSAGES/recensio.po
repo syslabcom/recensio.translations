@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Mon Nov 15 17:37:24 2010\n"
+"POT-Creation-Date: Tue Nov 16 11:52:11 2010\n"
 "PO-Revision-Date: 2010-08-25 16:49+0200\n"
 "Last-Translator: Manuel Reinhardt <reinhardtsyslab.com>\n"
 "Language-Team: English\n"
@@ -750,26 +750,7 @@ msgstr ""
 msgid "mail_no_recipients"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:271
-msgid "no_mail_address_available"
-msgstr ""
-
-#: recensio.policy:/browser/email.py:278
-msgid "mail_new_publication_subject"
-msgstr "A new review of %s has been published"
-
-msgid "mail_new_publication_intro"
-msgstr ""
-"Liebe Redaktion,\n"
-"Die folgende Mail wurde generiert zur Benachrichtigung von %(reviewed_author)"
-"s. Bitte prüfen Sie sie und leiten sie ggf. weiter an\n"
-"\n"
-"%(reviewed_author)s\n"
-"\n"
-"**********\n"
-"\n"
-
-#: recensio.policy:/browser/email.py:279
+#: recensio.policy:/browser/email.py:271 recensio.policy:/browser/email.py:274
 msgid "mail_new_publication_body"
 msgstr ""
 "Dear Mr %(reviewed_author)s,\n"
@@ -797,12 +778,28 @@ msgstr ""
 "History (IEG) Mainz – funded by the German Research Foundation (DFG). "
 "Further information %(concept_url)s"
 
-#: recensio.policy:/browser/email.py:306
+#: recensio.policy:/browser/email.py:274
+msgid "mail_new_publication_intro"
+msgstr ""
+"Liebe Redaktion,\n"
+"Die folgende Mail wurde generiert zur Benachrichtigung von %(reviewed_author)"
+"s. Bitte prüfen Sie sie und leiten sie ggf. weiter an\n"
+"\n"
+"%(reviewed_author)s\n"
+"\n"
+"**********\n"
+"\n"
+
+#: recensio.policy:/browser/email.py:280
+msgid "mail_new_publication_subject"
+msgstr "A new review of %s has been published"
+
+#: recensio.policy:/browser/email.py:307
 #, fuzzy
 msgid "mail_uncommented_subject"
 msgstr "A review of %s has been published"
 
-#: recensio.policy:/browser/email.py:316
+#: recensio.policy:/browser/email.py:317
 #, fuzzy
 msgid "mail_uncommented_body"
 msgstr ""
@@ -839,11 +836,11 @@ msgstr ""
 "History (IEG) Mainz – funded by the German Research Foundation (DFG). "
 "Further information %(concept_url)s"
 
-#: recensio.policy:/browser/email.py:339
+#: recensio.policy:/browser/email.py:340
 msgid "Newsletter settings"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:340
+#: recensio.policy:/browser/email.py:341
 msgid ""
 "This is a technical configuration panel for newsletter settings.\n"
 "The templates can access any object of a catalog result, but dates have been "
@@ -1320,18 +1317,26 @@ msgstr "Presented text"
 #: recensio.policy:/missing_18n_labels.py:68
 msgid "description_presentation_collection"
 msgstr ""
-"Please fill in the following form in order to present your contribution to an edited volume on recensio.net. All fields marked with * are required.\n"
-"Please keep in mind that you may present your core statements in nearly all European languages but that we would advise you to choose one of the main academic languages. This way your presentation will attract much more attention and discussion of your statements is much more likely.\n"
+"Please fill in the following form in order to present your contribution to "
+"an edited volume on recensio.net. All fields marked with * are required.\n"
+"Please keep in mind that you may present your core statements in nearly all "
+"European languages but that we would advise you to choose one of the main "
+"academic languages. This way your presentation will attract much more "
+"attention and discussion of your statements is much more likely.\n"
 "You can make changes or additions to all data at a later date."
 
 #: recensio.policy:/missing_18n_labels.py:49
 #: recensio.policy:/missing_18n_labels.py:69
 msgid "description_presentation_online_resource"
 msgstr ""
-"Please fill in the following form in order to present an online resource relevant to historians on recensio.net. All fields marked with * are required.\n"
-"Please keep in mind that you may present your core statements in nearly all European languages but that we would advise you to choose one of the main academic languages. This way your presentation will attract much more attention and discussion of your statements is much more likely.\n"
+"Please fill in the following form in order to present an online resource "
+"relevant to historians on recensio.net. All fields marked with * are "
+"required.\n"
+"Please keep in mind that you may present your core statements in nearly all "
+"European languages but that we would advise you to choose one of the main "
+"academic languages. This way your presentation will attract much more "
+"attention and discussion of your statements is much more likely.\n"
 "You can make changes or additions to all data at a later date."
-
 
 #: recensio.policy:/missing_18n_labels.py:5
 #: recensio.policy:/missing_18n_labels.py:51
@@ -1346,10 +1351,13 @@ msgstr ""
 #: recensio.policy:/missing_18n_labels.py:70
 msgid "description_presentation_article"
 msgstr ""
-"Please fill in the following form in order to present your article on recensio.net. All fields marked with * are required.\n"
-"Please keep in mind that you may present your core statements in nearly all European languages but that we would advise you to choose one of the main academic languages. This way your presentation will attract much more attention and discussion of your statements is much more likely.\n"
+"Please fill in the following form in order to present your article on "
+"recensio.net. All fields marked with * are required.\n"
+"Please keep in mind that you may present your core statements in nearly all "
+"European languages but that we would advise you to choose one of the main "
+"academic languages. This way your presentation will attract much more "
+"attention and discussion of your statements is much more likely.\n"
 "You can make changes or additions to all data at a later date."
-
 
 #: recensio.policy:/missing_18n_labels.py:6
 #: recensio.policy:/missing_18n_labels.py:52
