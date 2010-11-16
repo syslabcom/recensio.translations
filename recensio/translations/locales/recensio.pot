@@ -1758,3 +1758,5 @@ msgstr ""
 msgid "label_secondary_nav_monographien"
 msgstr ""
 
+msgid "mail_new_publication_intro"
+msgstr ""
