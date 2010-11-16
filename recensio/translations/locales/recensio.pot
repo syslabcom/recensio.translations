@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Mon Nov 15 17:37:24 2010\n"
+"POT-Creation-Date: Tue Nov 16 11:52:11 2010\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
@@ -645,30 +645,31 @@ msgid "mail_no_recipients"
 msgstr ""
 
 #: recensio.policy:/browser/email.py:271
-msgid "no_mail_address_available"
-msgstr ""
-
-#: recensio.policy:/browser/email.py:278
-msgid "mail_new_publication_subject"
-msgstr ""
-
-#: recensio.policy:/browser/email.py:279
+#: recensio.policy:/browser/email.py:274
 msgid "mail_new_publication_body"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:306
+#: recensio.policy:/browser/email.py:274
+msgid "mail_new_publication_intro"
+msgstr ""
+
+#: recensio.policy:/browser/email.py:280
+msgid "mail_new_publication_subject"
+msgstr ""
+
+#: recensio.policy:/browser/email.py:307
 msgid "mail_uncommented_subject"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:316
+#: recensio.policy:/browser/email.py:317
 msgid "mail_uncommented_body"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:339
+#: recensio.policy:/browser/email.py:340
 msgid "Newsletter settings"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:340
+#: recensio.policy:/browser/email.py:341
 msgid ""
 "This is a technical configuration panel for newsletter settings.\n"
 "The templates can access any object of a catalog result, but dates have been preformatted."
@@ -1758,5 +1759,3 @@ msgstr ""
 msgid "label_secondary_nav_monographien"
 msgstr ""
 
-msgid "mail_new_publication_intro"
-msgstr ""
