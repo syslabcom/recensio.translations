@@ -39,3 +39,6 @@ msgstr ""
 msgid "presented text"
 msgstr ""
 
+msgid "help_location"
+msgstr ""
+
