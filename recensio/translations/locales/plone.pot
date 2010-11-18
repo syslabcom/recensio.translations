@@ -23,22 +23,30 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: zope/app/locales/extract.py\n"
 
-#: recensio.contenttypes:/content/schemata.py:207
-msgid "review"
-msgstr ""
-
-#: recensio.contenttypes:/content/reviewjournal.py:30
-#: recensio.contenttypes:/content/schemata.py:346
-#: recensio.contenttypes:/content/schemata.py:447
-#: recensio.contenttypes:/content/schemata.py:449
-msgid "reviewed text"
-msgstr ""
-
-#: recensio.contenttypes:/content/presentationcollection.py:33
-#: recensio.contenttypes:/content/schemata.py:52
-msgid "presented text"
-msgstr ""
-
 msgid "help_location"
+msgstr ""
+
+msgid "help_preferred_language"
+msgstr ""
+
+msgid "label_schema_review"
+msgstr ""
+
+msgid "label_schema_reviewed_text"
+msgstr ""
+
+msgid "label_schema_presented_text"
+msgstr ""
+
+msgid "description_presentation_monograph"
+msgstr ""
+
+msgid "description_presentation_collection"
+msgstr ""
+
+msgid "description_presentation_online_resource"
+msgstr ""
+
+msgid "description_presentation_article"
 msgstr ""
 
