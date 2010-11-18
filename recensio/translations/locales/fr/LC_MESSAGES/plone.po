@@ -42,10 +42,12 @@ msgid "label_schema_review"
 msgstr "Recension"
 
 #. Default: "Reviewed text"
+# TODO
 msgid "label_schema_reviewed_text"
 msgstr ""
 
 #. Default: "Presented text"
+# TODO
 msgid "label_schema_presented_text"
 msgstr ""
 
