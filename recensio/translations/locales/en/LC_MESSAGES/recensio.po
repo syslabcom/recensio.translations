@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Tue Nov 16 11:52:11 2010\n"
+"POT-Creation-Date: Thu Nov 18 12:46:06 2010\n"
 "PO-Revision-Date: 2010-08-25 16:49+0200\n"
 "Last-Translator: Manuel Reinhardt <reinhardtsyslab.com>\n"
 "Language-Team: English\n"
@@ -28,27 +28,27 @@ msgstr ""
 "Domain: recensio\n"
 
 #. Default: "Zitierhinweise"
-#: recensio.contenttypes:/browser/review.pt:106
+#: recensio.contenttypes:/browser/review.pt:109
 msgid "citation_note"
 msgstr "Citation rules"
 
 #. Default: "URL"
-#: recensio.contenttypes:/browser/review.pt:108
+#: recensio.contenttypes:/browser/review.pt:111
 msgid "url"
 msgstr ""
 
 #. Default: "Lizenzhinweis:"
-#: recensio.contenttypes:/browser/review.pt:114
+#: recensio.contenttypes:/browser/review.pt:117
 msgid "license-note-heading"
 msgstr "Terms of licence:"
 
 #. Default: "Download as <strong>PDF</strong><br /> <em class=\"discrete\">(${download_size} kb)</em>"
-#: recensio.contenttypes:/browser/review.pt:133
+#: recensio.contenttypes:/browser/review.pt:136
 msgid "download_as"
 msgstr ""
 
 #. Default: "Metadata"
-#: recensio.contenttypes:/browser/review.pt:150
+#: recensio.contenttypes:/browser/review.pt:153
 msgid "metadata"
 msgstr ""
 
@@ -179,7 +179,7 @@ msgid "Volume"
 msgstr ""
 
 #: recensio.contenttypes:/content/presentationarticlereview.py:50
-#: recensio.contenttypes:/content/schemata.py:623
+#: recensio.contenttypes:/content/schemata.py:632
 msgid "Number"
 msgstr ""
 
@@ -192,7 +192,7 @@ msgstr ""
 #           the public. Please name historical reference authors
 #           (e.g. Aristotle, Charles de Gaulle) further below as
 #           subject heading."
-#. Default: "Which scholarly author's work have you mainly engaged with in your article? Please give us the most detailed information possible on the &raquo;contemporary&laquo; names amongst them as the recensio.net editorial team will usually try to inform these authors of the existence of your article, your presentation, and the chance to comment on it. Only the reference author's name will be visible to the public. Please name historical reference authors (e.g. Aristotle, Charles de Gaulle) further below as subject heading."
+#. Default: "Which scholarly author's work have you mainly engaged with in your monograph? Please give us the most detailed information possible on the &raquo;contemporary&laquo; names amongst them as the recensio.net editorial team will usually try to inform these authors of the existence of your monograph, your presentation, and the chance to comment on it. Only the reference author's name will be visible to the public. Please name historical reference authors (e.g. Aristotle, Charles de Gaulle) further below as subject heading."
 #: recensio.contenttypes:/content/presentationarticlereview.py:51
 #: recensio.contenttypes:/content/presentationcollection.py:64
 #: recensio.contenttypes:/content/presentationmonograph.py:96
@@ -406,102 +406,102 @@ msgid "Authors"
 msgstr ""
 
 #. Default: "All submitted reviews must be published under the CC-BY licence."
-#: recensio.contenttypes:/content/schemata.py:137
+#: recensio.contenttypes:/content/schemata.py:139
 msgid "message_ccby_license"
 msgstr "All submitted reviews must be published under the CC-BY licence."
 
 #. Default: "You have exceeded the maximum number of characters you are permitted to use."
-#: recensio.contenttypes:/content/schemata.py:173
+#: recensio.contenttypes:/content/schemata.py:180
 msgid "message_characters_exceeded"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:188
+#: recensio.contenttypes:/content/schemata.py:196
 msgid "Cover picture"
 msgstr ""
 
 #. Default: "Reference Authors (email address, postal address and phone number are not publicly visible)"
-#: recensio.contenttypes:/content/schemata.py:200
+#: recensio.contenttypes:/content/schemata.py:208
 msgid "label_reference_authors"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:206
+#: recensio.contenttypes:/content/schemata.py:214
 msgid "Lastname"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:207
+#: recensio.contenttypes:/content/schemata.py:215
 msgid "Firstname"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:208
+#: recensio.contenttypes:/content/schemata.py:216
 msgid "Email address"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:209
+#: recensio.contenttypes:/content/schemata.py:217
 msgid "Address"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:210
+#: recensio.contenttypes:/content/schemata.py:218
 msgid "Phone"
 msgstr "Phone number"
 
-#: recensio.contenttypes:/content/schemata.py:220
+#: recensio.contenttypes:/content/schemata.py:228
 msgid "review"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:223
+#: recensio.contenttypes:/content/schemata.py:231
 msgid "PDF"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:233
+#: recensio.contenttypes:/content/schemata.py:241
 msgid "Word Document"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:241
+#: recensio.contenttypes:/content/schemata.py:249
 msgid "Optional citation format"
 msgstr ""
 
 #. Default: "Please fill in only if you wish to use a citation format different from the platform's"
-#: recensio.contenttypes:/content/schemata.py:242
+#: recensio.contenttypes:/content/schemata.py:250
 msgid "description_custom_citation"
 msgstr ""
 
 #. Default: ""
-#: recensio.contenttypes:/content/schemata.py:257
+#: recensio.contenttypes:/content/schemata.py:265
 msgid "label_presentation_author"
 msgstr "Author of presentation"
 
-#: recensio.contenttypes:/content/schemata.py:270
+#: recensio.contenttypes:/content/schemata.py:278
 msgid "Honorific Title"
 msgstr "Title"
 
-#: recensio.contenttypes:/content/schemata.py:280
+#: recensio.contenttypes:/content/schemata.py:288
 msgid "Email address (not publicly visible)"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:289
+#: recensio.contenttypes:/content/schemata.py:297
 msgid "Personal webpage"
 msgstr ""
 
 #. Default: "Here you can link to your personal website (e.g. within a network of historians, a university or research institution). It should preferably be persistent or be corrected by you in case of changes (e.g. change of university)."
-#: recensio.contenttypes:/content/schemata.py:290
+#: recensio.contenttypes:/content/schemata.py:298
 msgid "description_personal_webpage"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:307
+#: recensio.contenttypes:/content/schemata.py:315
 msgid "Licence Agreement"
 msgstr ""
 
 #. Default: "I agree that my presentation will be published by recensio.net under the <a href='http://creativecommons.org/licenses/by-nc-nd/2.0/deed.en' target='_blank'>creative-commons-licence Attribution-NonCommercial-NoDerivs (CC-BY-NC-ND)</a>. Under these conditions, platform users may use it electronically, distribute it, print it and provide it for download. The editorial team reserves its right to change incoming posts (see our user guidelines to this)."
-#: recensio.contenttypes:/content/schemata.py:308
+#: recensio.contenttypes:/content/schemata.py:316
 msgid "description_ccby_licence_approval"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:337
+#: recensio.contenttypes:/content/schemata.py:345
 msgid "Page number (start)"
 msgstr ""
 
 #. Default: "Please fill in only if the review is part of a larger pdf-file"
-#: recensio.contenttypes:/content/schemata.py:345
+#: recensio.contenttypes:/content/schemata.py:346
 #, fuzzy
 msgid "description_page_number"
 msgstr ""
@@ -515,48 +515,48 @@ msgstr ""
 msgid "Page number (end)"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:368
+#: recensio.contenttypes:/content/schemata.py:377
 msgid "Pages"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:379
+#: recensio.contenttypes:/content/schemata.py:388
 msgid "Series"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:387
+#: recensio.contenttypes:/content/schemata.py:396
 msgid "Series (vol.)"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:402
+#: recensio.contenttypes:/content/schemata.py:411
 msgid "Last name author"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:411
+#: recensio.contenttypes:/content/schemata.py:420
 msgid "First name author"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:420
+#: recensio.contenttypes:/content/schemata.py:429
 msgid "Language(s) (review)"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:430
+#: recensio.contenttypes:/content/schemata.py:439
 msgid "Language(s) (text)"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:446
+#: recensio.contenttypes:/content/schemata.py:455
 msgid "Generated Pdf"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:458
+#: recensio.contenttypes:/content/schemata.py:467
 msgid "HTML"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:468
+#: recensio.contenttypes:/content/schemata.py:477
 msgid "Partner URL"
 msgstr ""
 
 #. Default: "Please fill in only after consultation with the recensio.net team"
-#: recensio.contenttypes:/content/schemata.py:469
+#: recensio.contenttypes:/content/schemata.py:478
 #, fuzzy
 msgid "description_uri"
 msgstr ""
@@ -566,44 +566,44 @@ msgstr ""
 "assigned to an icon indicating in front of the respective author’s name "
 "which type of text he/she has written."
 
-#: recensio.contenttypes:/content/schemata.py:480
+#: recensio.contenttypes:/content/schemata.py:489
 msgid "Subject heading"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:491
+#: recensio.contenttypes:/content/schemata.py:500
 msgid "ddc subject"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:502
+#: recensio.contenttypes:/content/schemata.py:511
 msgid "ddc time"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:512
+#: recensio.contenttypes:/content/schemata.py:521
 msgid "ddc place"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:525
+#: recensio.contenttypes:/content/schemata.py:534
 msgid "Subtitle"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:534
+#: recensio.contenttypes:/content/schemata.py:543
 msgid "Year of publication"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:542
+#: recensio.contenttypes:/content/schemata.py:551
 msgid "Place of publication"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:550
+#: recensio.contenttypes:/content/schemata.py:559
 msgid "Publisher"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:573
+#: recensio.contenttypes:/content/schemata.py:582
 msgid "ISBN"
 msgstr ""
 
 #. Default: "With or without hyphens. In case of several numbers please choose the hard cover edition."
-#: recensio.contenttypes:/content/schemata.py:574
+#: recensio.contenttypes:/content/schemata.py:583
 #, fuzzy
 msgid "description_isbn"
 msgstr ""
@@ -613,16 +613,16 @@ msgstr ""
 "assigned to an icon indicating in front of the respective author’s name "
 "which type of text he/she has written."
 
-#: recensio.contenttypes:/content/schemata.py:582
+#: recensio.contenttypes:/content/schemata.py:591
 msgid "Author (monograph)"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:592
+#: recensio.contenttypes:/content/schemata.py:601
 msgid "ISSN"
 msgstr ""
 
 #. Default: "With or without hyphens. In case of several numbers please choose the hard cover edition."
-#: recensio.contenttypes:/content/schemata.py:593
+#: recensio.contenttypes:/content/schemata.py:602
 #, fuzzy
 msgid "description_issn"
 msgstr ""
@@ -632,19 +632,19 @@ msgstr ""
 "assigned to an icon indicating in front of the respective author’s name "
 "which type of text he/she has written."
 
-#: recensio.contenttypes:/content/schemata.py:607
+#: recensio.contenttypes:/content/schemata.py:616
 msgid "Shortname"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:615
+#: recensio.contenttypes:/content/schemata.py:624
 msgid "Vol."
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:631
+#: recensio.contenttypes:/content/schemata.py:640
 msgid "Official year of publication (if different)"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:636
+#: recensio.contenttypes:/content/schemata.py:645
 msgid "Actual year of publication"
 msgstr ""
 
@@ -937,10 +937,10 @@ msgid "label_delete"
 msgstr "Löschen"
 
 #: recensio.policy:/browser/templates/comments.pt:90
-#: recensio.theme:/skins/recensio_theme/search.pt:169
 #: recensio.theme:/skins/recensio_theme/search_form.pt:145
 #: recensio.theme:/skins/recensio_theme/search_form.pt:355
 #: recensio.theme:/skins/recensio_theme/search_form.pt:462
+#: recensio.theme:/skins/recensio_theme/search.pt:169
 #: recensio.theme:/browser/topical.pt:85
 #: recensio.theme:/browser/topical.pt:128
 #: recensio.theme:/browser/topical.pt:132
@@ -1412,7 +1412,9 @@ msgstr ""
 #. Default: "What language do you prefer for receiving e-mails from us?"
 #: recensio.policy:/userdataschema.py:57
 msgid "description_preferred_language"
-msgstr "What language would you prefer for receiving information from us (about comments on your contributions)?"
+msgstr ""
+"What language would you prefer for receiving information from us (about "
+"comments on your contributions)?"
 
 #. Default: "Declaration of identity"
 #: recensio.policy:/userdataschema.py:65
@@ -1616,15 +1618,6 @@ msgstr ""
 msgid "title_search_title"
 msgstr ""
 
-#. Default: "Search"
-#: recensio.theme:/skins/recensio_theme/search.pt:66
-#: recensio.theme:/skins/recensio_theme/search_form.pt:475
-#: recensio.theme:/skins/recensio_theme/search_form.pt:602
-#: recensio.theme:/skins/recensio_theme/search_form.pt:702
-#: recensio.theme:/skins/recensio_theme/search_form.pt:837
-msgid "label_search"
-msgstr ""
-
 #. Default: "Did you not find what you were looking for? Try the ${advanced_search} to refine your search."
 #: recensio.theme:/skins/recensio_theme/search.pt:74
 msgid "search_results_advanced"
@@ -1751,6 +1744,15 @@ msgstr ""
 #. Default: "Search text"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:46
 msgid "label_search_text"
+msgstr ""
+
+#. Default: "Search"
+#: recensio.theme:/skins/recensio_theme/search_form.pt:475
+#: recensio.theme:/skins/recensio_theme/search_form.pt:602
+#: recensio.theme:/skins/recensio_theme/search_form.pt:702
+#: recensio.theme:/skins/recensio_theme/search_form.pt:837
+#: recensio.theme:/skins/recensio_theme/search.pt:66
+msgid "label_search"
 msgstr ""
 
 #. Default: "For a full text search, enter your search term here. Multiple words may be found by combining them with <strong>AND</strong> and <strong>OR</strong>."
