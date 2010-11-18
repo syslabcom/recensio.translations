@@ -27,23 +27,29 @@ msgstr ""
 "Language-Code: fr\n"
 "Domain: recensio\n"
 
+#. Default: Your location (city and country)
 msgid "help_location"
 msgstr "Votre localisation (ville et pays)"
 
+#. Default: "What language would you prefer for receiving information
 msgid "help_preferred_language"
 msgstr ""
 "Dans quelle langue préferez-vous être informé de l'entrée de nouveaux "
 "commentaires?"
 
+#. Default: "Review"
 msgid "label_schema_review"
 msgstr "Recension"
 
+#. Default: "Reviewed text"
 msgid "label_schema_reviewed_text"
 msgstr ""
 
+#. Default: "Presented text"
 msgid "label_schema_presented_text"
 msgstr ""
 
+#. Default: "Please fill in the following form in order to present
 msgid "description_presentation_monograph"
 msgstr ""
 "Afin de présenter votre monographie sur recensio.net, veuillez remplir le "
@@ -55,6 +61,7 @@ msgstr ""
 "celle-ci sera plus susceptible d’être commentée. Vous avez également la "
 "possibilité d’ajouter ou de modifier des informations ultérieurement."
 
+#. Default: "Please fill in the following form in order to present
 msgid "description_presentation_collection"
 msgstr ""
 "Afin de présenter votre article de recueil sur recensio.net, veuillez "
@@ -67,6 +74,7 @@ msgstr ""
 "également la possibilité d’ajouter ou de modifier des informations "
 "ultérieurement."
 
+#. Default: "Please fill in the following form in order to present an
 msgid "description_presentation_online_resource"
 msgstr ""
 "Afin de présenter une ressource Internet présentant un intérêt pour la "
@@ -79,6 +87,7 @@ msgstr ""
 "avez également la possibilité d’ajouter ou de modifier des informations "
 "ultérieurement."
 
+#. Default: "Please fill in the following form in order to present
 msgid "description_presentation_article"
 msgstr ""
 "Afin de présenter votre article de revue sur recensio.net, veuillez remplir "

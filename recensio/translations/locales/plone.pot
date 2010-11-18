@@ -23,30 +23,76 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: zope/app/locales/extract.py\n"
 
+#. Default: Your location (city and country)
 msgid "help_location"
 msgstr ""
 
+#. Default: "What language would you prefer for receiving information
+#           from us (about comments on your contributions)?"  
 msgid "help_preferred_language"
 msgstr ""
 
+#. Default: "Review"
 msgid "label_schema_review"
 msgstr ""
 
+#. Default: "Reviewed text"
 msgid "label_schema_reviewed_text"
 msgstr ""
 
+#. Default: "Presented text"
 msgid "label_schema_presented_text"
 msgstr ""
 
+#. Default: "Please fill in the following form in order to present
+#           your monograph on recensio.net. All fields marked with *
+#           are required.\n Please keep in mind that you may present
+#           your core statements in nearly all European languages but
+#           that we would advise you to choose one of the main
+#           academic languages. This way your presentation will
+#           attract much more attention and discussion of your
+#           statements is much more likely.\n You can make changes or
+#           additions to all data at a later date."
 msgid "description_presentation_monograph"
 msgstr ""
 
+
+#. Default: "Please fill in the following form in order to present
+#           your contribution to an edited volume on recensio.net. All
+#           fields marked with * are required.\n Please keep in mind
+#           that you may present your core statements in nearly all
+#           European languages but that we would advise you to choose
+#           one of the main academic languages. This way your
+#           presentation will attract much more attention and
+#           discussion of your statements is much more likely.\n You
+#           can make changes or additions to all data at a later date."
 msgid "description_presentation_collection"
 msgstr ""
 
+
+#. Default: "Please fill in the following form in order to present an
+#           online resource relevant to historians on
+#           recensio.net. All fields marked with * are required.\n
+#           Please keep in mind that you may present your core
+#           statements in nearly all European languages but that we
+#           would advise you to choose one of the main academic
+#           languages. This way your presentation will attract much
+#           more attention and discussion of your statements is much
+#           more likely.\n You can make changes or additions to all
+#           data at a later date."
 msgid "description_presentation_online_resource"
 msgstr ""
 
+
+
+#. Default: "Please fill in the following form in order to present
+#           your article on recensio.net. All fields marked with *
+#           are required.\nPlease keep in mind that you may present
+#           your core statements in nearly all European languages
+#           but that we would advise you to choose one of the main
+#           academic languages. This way your presentation will
+#           attract much more attention and discussion of your
+#           statements is much more likely.\nYou can make changes
+#           or additions to all data at a later date."
 msgid "description_presentation_article"
 msgstr ""
-
