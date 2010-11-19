@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Fri Nov 19 15:51:10 2010\n"
+"POT-Creation-Date: Fri Nov 19 18:13:31 2010\n"
 "PO-Revision-Date: 2010-08-25 16:47+0200\n"
 "Last-Translator: Cillian de Roiste <deroiste@syslab.com>\n"
 "Language-Team: French\n"
@@ -113,15 +113,37 @@ msgstr ""
 msgid "Issue Title"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:56
-msgid "label_review_type_code"
+#: recensio.contenttypes:/browser/review.py:74
+#: recensio.contenttypes:/browser/review.py:87
+msgid "metadata_review_author"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.py:77
+msgid "metadata_authors"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.py:80
+msgid "metadata_review_type_code"
 msgstr "Type de document"
 
-#: recensio.contenttypes:/browser/review.py:60
-#: recensio.theme:/skins/recensio_theme/search_form.pt:711
-#: recensio.theme:/skins/recensio_theme/search_form.pt:715
-msgid "label_recensio_id"
+#: recensio.contenttypes:/browser/review.py:83
+msgid "metadata_recensio_id"
 msgstr "ID-recension"
+
+#: recensio.contenttypes:/browser/review.py:89
+#: recensio.contenttypes:/content/schemata.py:95
+msgid "Subject classification"
+msgstr "Thème"
+
+#: recensio.contenttypes:/browser/review.py:91
+#: recensio.contenttypes:/content/schemata.py:96
+msgid "Time classification"
+msgstr "Période"
+
+#: recensio.contenttypes:/browser/review.py:93
+#: recensio.contenttypes:/content/schemata.py:97
+msgid "Regional classification"
+msgstr "Espace"
 
 #. Default: "use this data"
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:9
@@ -672,18 +694,6 @@ msgstr ""
 #: recensio.contenttypes:/content/schemata.py:93
 msgid "URL/URN"
 msgstr "URL/URN"
-
-#: recensio.contenttypes:/content/schemata.py:95
-msgid "Subject classification"
-msgstr "Thème"
-
-#: recensio.contenttypes:/content/schemata.py:96
-msgid "Time classification"
-msgstr "Période"
-
-#: recensio.contenttypes:/content/schemata.py:97
-msgid "Regional classification"
-msgstr "Espace"
 
 #. Default: "Recensio settings"
 #: recensio.policy:/browser/controlpanel.py:15
@@ -1851,6 +1861,12 @@ msgstr ""
 #. Default: "Return items matching some or all of these tags. Multiple words may be found by pressing <strong>Ctrl</strong> (or <strong>Apple</strong> key on Mac) while clicking the keywords."
 #: recensio.theme:/skins/recensio_theme/search_form.pt:69
 msgid "help_search_tags"
+msgstr ""
+
+#. Default: "recensio-ID"
+#: recensio.theme:/skins/recensio_theme/search_form.pt:711
+#: recensio.theme:/skins/recensio_theme/search_form.pt:715
+msgid "label_recensio_id"
 msgstr ""
 
 #. Default: ""
