@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Thu Nov 18 12:46:06 2010\n"
+"POT-Creation-Date: Fri Nov 19 15:51:10 2010\n"
 "PO-Revision-Date: 2010-08-25 16:47+0200\n"
 "Last-Translator: Cillian de Roiste <deroiste@syslab.com>\n"
 "Language-Team: French\n"
@@ -112,6 +112,16 @@ msgstr ""
 #: recensio.contenttypes:/browser/review.py:26
 msgid "Issue Title"
 msgstr ""
+
+#: recensio.contenttypes:/browser/review.py:56
+msgid "label_review_type_code"
+msgstr "Type de document"
+
+#: recensio.contenttypes:/browser/review.py:60
+#: recensio.theme:/skins/recensio_theme/search_form.pt:711
+#: recensio.theme:/skins/recensio_theme/search_form.pt:715
+msgid "label_recensio_id"
+msgstr "ID-recension"
 
 #. Default: "use this data"
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:9
@@ -368,7 +378,7 @@ msgstr ""
 "répertoire."
 
 #: recensio.contenttypes:/content/reviewjournal.py:277
-#: recensio.contenttypes:/content/reviewmonograph.py:278
+#: recensio.contenttypes:/content/reviewmonograph.py:279
 msgid "license-note-review"
 msgstr ""
 "Cet article peut être téléchargé et/ou imprimé à des fins privées.\n"
@@ -459,8 +469,8 @@ msgstr "Format de citation (optionel)"
 #: recensio.contenttypes:/content/schemata.py:250
 msgid "description_custom_citation"
 msgstr ""
-"Format de citation (si vous souhaitez utiliser un autre format que "
-"celui généré automatiquement par la plateforme)"
+"Format de citation (si vous souhaitez utiliser un autre format que celui "
+"généré automatiquement par la plateforme)"
 
 #. Default: ""
 #: recensio.contenttypes:/content/schemata.py:265
@@ -1023,8 +1033,52 @@ msgstr ""
 msgid "presented resource"
 msgstr ""
 
+#: recensio.policy:/missing_18n_labels.py:100
+msgid "Polish"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:101
+msgid "Portuguese"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:102
+msgid "Romanian"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:103
+msgid "Russian"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:104
+msgid "Serbian"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:105
+msgid "Slovak"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:106
+msgid "Slovenian"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:107
+msgid "Spanish"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:108
+msgid "Swedish"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:109
+msgid "Turkish"
+msgstr ""
+
 #: recensio.policy:/missing_18n_labels.py:11
 msgid "label_by_author"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:110
+msgid "Ukrainian"
 msgstr ""
 
 #: recensio.policy:/missing_18n_labels.py:12
@@ -1216,17 +1270,101 @@ msgstr "présentation de :"
 msgid "text_in"
 msgstr "in :"
 
+#: recensio.policy:/missing_18n_labels.py:79
+msgid "Albanian"
+msgstr ""
+
 #: recensio.policy:/missing_18n_labels.py:8
 #: recensio.policy:/missing_18n_labels.py:54
 #: recensio.policy:/missing_18n_labels.py:73
 msgid "text_pages"
 msgstr "p."
 
+#: recensio.policy:/missing_18n_labels.py:80
+msgid "Armenian"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:81
+msgid "Azerbaijani"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:82
+msgid "Bulgarian"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:83
+msgid "Catalan"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:84
+msgid "Croatian"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:85
+msgid "Czech"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:86
+msgid "Danish"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:87
+msgid "Dutch"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:88
+msgid "English"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:89
+msgid "Estonian"
+msgstr ""
+
 #: recensio.policy:/missing_18n_labels.py:9
 #: recensio.policy:/missing_18n_labels.py:55
 #: recensio.policy:/missing_18n_labels.py:74
 msgid "text_review_of"
 msgstr "recension de :"
+
+#: recensio.policy:/missing_18n_labels.py:90
+msgid "Finnish"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:91
+msgid "French"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:92
+msgid "Georgian"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:93
+msgid "German"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:94
+msgid "Greek"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:95
+msgid "Hungarian"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:96
+msgid "Italian"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:97
+msgid "Latvian"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:98
+msgid "Lithuanian"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:99
+msgid "Norwegian"
+msgstr ""
 
 #. Default: "Academic title"
 #: recensio.policy:/userdataschema.py:38
@@ -1280,6 +1418,10 @@ msgid "Type the code from the picture shown below or from the audio."
 msgstr ""
 "Veuillez taper le code contenu dans l'image ci-dessous ou dans le fichier "
 "audio."
+
+#: recensio.policy:/vocabularies.py:55
+msgid "name"
+msgstr ""
 
 #. Default: "citation style"
 #: recensio.theme:/browser/pdfgen.py:106
@@ -1709,12 +1851,6 @@ msgstr ""
 #. Default: "Return items matching some or all of these tags. Multiple words may be found by pressing <strong>Ctrl</strong> (or <strong>Apple</strong> key on Mac) while clicking the keywords."
 #: recensio.theme:/skins/recensio_theme/search_form.pt:69
 msgid "help_search_tags"
-msgstr ""
-
-#. Default: "recensio-ID"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:711
-#: recensio.theme:/skins/recensio_theme/search_form.pt:715
-msgid "label_recensio_id"
 msgstr ""
 
 #. Default: ""
