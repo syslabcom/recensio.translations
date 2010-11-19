@@ -215,10 +215,9 @@ msgstr "Prénom"
 msgid "Table of contents of monograph you are presenting"
 msgstr "Table des matières de la monographie présentée"
 
-# TODO
 #: recensio.contenttypes:/content/presentationmonograph.py:50
 msgid "Existing online reviews"
-msgstr ""
+msgstr "Recensions en ligne existantes"
 
 #           available online?"
 #. Default: "Are there reviews on your text which are already available online?"
@@ -234,13 +233,11 @@ msgstr "Nom de la revue/journal/annuaire"
 msgid "URL"
 msgstr "URL"
 
-#           number of pages"
 #. Default: "Name of journal/newspaper/yearbook with volume, year and number of pages"
 #: recensio.contenttypes:/content/presentationmonograph.py:67
 msgid "label_published_reviews"
 msgstr "Nom de la revue/journal/annuaire, volume, année et nombre de pages"
 
-#           text that have already been published in print."
 #. Default: "Insert here the place of publication of reviews on your text that have already been published in print."
 #: recensio.contenttypes:/content/presentationmonograph.py:72
 msgid "description_pubished_reviews"
@@ -257,7 +254,6 @@ msgstr "Auteur(s) de la monographie présentée"
 msgid "description_presentation_monograph_authors"
 msgstr ""
 
-#           charge online?"
 #. Default: "Is the monograph you are presenting available free of charge online?"
 #: recensio.contenttypes:/content/presentationmonograph.py:89
 msgid "description_presentation_uri"
@@ -334,8 +330,6 @@ msgstr "Institution"
 msgid "description_institution"
 msgstr "Éditeur du site (nom/institution)"
 
-#           and services of the resource. In each menu you can choose
-#           several categories."
 #. Default: "Please use the following menu to describe the contents and services of the resource. In each menu you can choose several categories."
 #: recensio.contenttypes:/content/presentationonlineresource.py:47
 msgid "label_online_resource_categories"
@@ -347,7 +341,6 @@ msgstr ""
 msgid "Institutions"
 msgstr "Institutions"
 
-#           the resource"
 #. Default: "Classify here (if applicable) the institution supplying the resource"
 #: recensio.contenttypes:/content/presentationonlineresource.py:61
 msgid "description_documenttypes_institution"
@@ -367,7 +360,6 @@ msgstr "Type de la ressource présentée"
 msgid "Factual Reference Works"
 msgstr "Ouvrages de référence"
 
-#           supplied."
 #. Default: "Choose here (if applicable) the type of reference works supplied."
 #: recensio.contenttypes:/content/presentationonlineresource.py:90
 msgid "description_documenttypes_referenceworks"
@@ -408,7 +400,6 @@ msgstr "Langue"
 msgid "Authors"
 msgstr "Auteurs"
 
-#           licence."
 #. Default: "All submitted reviews must be published under the CC-BY licence."
 #: recensio.contenttypes:/content/schemata.py:139
 msgid "message_ccby_license"
@@ -423,7 +414,6 @@ msgstr ""
 msgid "Cover picture"
 msgstr "Couverture"
 
-#           phone number are not publicly visible)"
 #. Default: "Reference Authors (email address, postal address and phone number are not publicly visible)"
 #: recensio.contenttypes:/content/schemata.py:208
 msgid "label_reference_authors"
@@ -465,12 +455,12 @@ msgstr "Doc"
 msgid "Optional citation format"
 msgstr "Format de citation (optionel)"
 
-#           different from the platform's"
-# TODO
 #. Default: "Please fill in only if you wish to use a citation format different from the platform's"
 #: recensio.contenttypes:/content/schemata.py:250
 msgid "description_custom_citation"
 msgstr ""
+"Format de citation (si vous souhaitez utiliser un autre format que "
+"celui généré automatiquement par la plateforme)"
 
 #. Default: ""
 #: recensio.contenttypes:/content/schemata.py:265
@@ -489,10 +479,6 @@ msgstr "Adresse email (non publiée)"
 msgid "Personal webpage"
 msgstr "URL"
 
-#           network of historians, a university or research
-#           institution). It should preferably be persistent or be
-#           corrected by you in case of changes (e.g. change of
-#           university)."
 #. Default: "Here you can link to your personal website (e.g. within a network of historians, a university or research institution). It should preferably be persistent or be corrected by you in case of changes (e.g. change of university)."
 #: recensio.contenttypes:/content/schemata.py:298
 msgid "description_personal_webpage"
@@ -502,20 +488,10 @@ msgstr ""
 "recherche par exemple). Dans la mesure du possible, cette adresse doit être "
 "durable, ou modifiée par vos soins, en cas de changement d’université."
 
-# TODO
 #: recensio.contenttypes:/content/schemata.py:315
 msgid "Licence Agreement"
-msgstr ""
+msgstr "Accord d'utilisation"
 
-#           recensio.net under the <a
-#           href='http://creativecommons.org/licenses/by-nc-nd/2.0/deed.en'
-#           target='_blank'>creative-commons-licence
-#           Attribution-NonCommercial-NoDerivs
-#           (CC-BY-NC-ND)</a>. Under these conditions, platform users
-#           may use it electronically, distribute it, print it and
-#           provide it for download. The editorial team reserves its
-#           right to change incoming posts (see our user guidelines to
-#           this)."
 #. Default: "I agree that my presentation will be published by recensio.net under the <a href='http://creativecommons.org/licenses/by-nc-nd/2.0/deed.en' target='_blank'>creative-commons-licence Attribution-NonCommercial-NoDerivs (CC-BY-NC-ND)</a>. Under these conditions, platform users may use it electronically, distribute it, print it and provide it for download. The editorial team reserves its right to change incoming posts (see our user guidelines to this)."
 #: recensio.contenttypes:/content/schemata.py:316
 msgid "description_ccby_licence_approval"
@@ -532,7 +508,6 @@ msgstr ""
 msgid "Page number (start)"
 msgstr "Numéro de page (début)"
 
-#            pdf-file"
 #. Default: "Please fill in only if the review is part of a larger pdf-file"
 #: recensio.contenttypes:/content/schemata.py:346
 msgid "description_page_number"
@@ -582,7 +557,6 @@ msgstr "HTML"
 msgid "Partner URL"
 msgstr "URL correspondante"
 
-#           recensio.net team"
 #. Default: "Please fill in only after consultation with the recensio.net team"
 #: recensio.contenttypes:/content/schemata.py:478
 msgid "description_uri"
@@ -624,7 +598,6 @@ msgstr "Maison d'édition"
 msgid "ISBN"
 msgstr "ISBN"
 
-#           please choose the hard cover edition."
 #. Default: "With or without hyphens. In case of several numbers please choose the hard cover edition."
 #: recensio.contenttypes:/content/schemata.py:583
 msgid "description_isbn"
@@ -632,10 +605,9 @@ msgstr ""
 "Avec ou sans tiret. En cas de plusieurs ISBNs veuillez choisir celui de "
 "l’édition grand format."
 
-# TODO
 #: recensio.contenttypes:/content/schemata.py:591
 msgid "Author (monograph)"
-msgstr ""
+msgstr "Auteur (monographie)"
 
 #: recensio.contenttypes:/content/schemata.py:601
 msgid "ISSN"
@@ -670,19 +642,6 @@ msgstr "Date rélle de publication"
 msgid "description_presentation_title"
 msgstr "Informations sur l’ouvrage présenté"
 
-#           statements, your methodology and/or your discussion of
-#           existing research approaches. We would kindly ask you to
-#           avoid a mere summary of your text. Don't be shy, however,
-#           of wording your statements in a provocative way. By
-#           separating out paragraphs you will make your statement
-#           more readable. You can increase the number of characters
-#           available for your own presentation from 4000 to 6000 by
-#           commenting on an already existing review/presentation on
-#           recensio.net. Please note that both comments and
-#           presentations will be checked by the editorial team before
-#           being published in order to prevent misuse. Because of
-#           this texts will be available online at the earliest after
-#           three working days."
 #. Default: "Please give a brief and clear outline of your thesis statements, your methodology and/or your discussion of existing research approaches. We would kindly ask you to avoid a mere summary of your text. Don't be shy, however, of wording your statements in a provocative way. By separating out paragraphs you will make your statement more readable. You can increase the number of characters available for your own presentation from 4000 to 6000 by commenting on an already existing review/presentation on recensio.net. Please note that both comments and presentations will be checked by the editorial team before being published in order to prevent misuse. Because of this texts will be available online at the earliest after three working days."
 #: recensio.contenttypes:/content/schemata.py:74
 msgid "description_presentation_html"
@@ -1306,7 +1265,6 @@ msgstr ""
 msgid "label_declaration_of_identity"
 msgstr "Confirmation d'identité"
 
-#           entries above."
 #. Default: "I declare that I am indeed the person identified by the entries above."
 #: recensio.policy:/userdataschema.py:66
 msgid "help_declaration_of_identity"
@@ -1336,12 +1294,6 @@ msgstr ""
 msgid "Autorensuche"
 msgstr ""
 
-#           recensio.net publizierten Rezensionen,
-#           Pr\303\244sentationen (Aufs\303\244tze, Monographien,
-#           Internetressourcen) und Kommentaren sowie die Autoren von
-#           hier rezensierten Werken. Jedem der drei Genres ist ein
-#           Icon zugeordnet, das vor dem Namen des jeweiligen Autors
-#           deutlich macht, welche Textart(en) dieser verfasst hat."
 #. Default: "Sie finden hier die Autorinnen und Autoren von auf recensio.net publizierten Rezensionen, Pr\303\244sentationen (Aufs\303\244tze, Monographien, Internetressourcen) und Kommentaren sowie die Autoren von hier rezensierten Werken. Jedem der drei Genres ist ein Icon zugeordnet, das vor dem Namen des jeweiligen Autors deutlich macht, welche Textart(en) dieser verfasst hat."
 #: recensio.theme:/browser/templates/authorsearch.pt:19
 msgid "description_authorsearch_1"
@@ -1353,9 +1305,6 @@ msgstr ""
 "par un icône, placé devant le nom de l’auteur, afin de préciser le type "
 "d’ouvrage qu'il a écrit."
 
-#           einem Autor publizierten Texte. Der Klick auf ein
-#           spezielles Icon zeigt Ihnen gezielt die Treffer eines
-#           Genres an."
 #. Default: "Mit einem Klick auf den Autornamen erhalten Sie alle von einem Autor publizierten Texte. Der Klick auf ein spezielles Icon zeigt Ihnen gezielt die Treffer eines Genres an."
 #: recensio.theme:/browser/templates/authorsearch.pt:25
 msgid "description_authorsearch_2"

@@ -44,12 +44,11 @@ msgstr "Recension"
 #. Default: "Reviewed text"
 # TODO
 msgid "label_schema_reviewed_text"
-msgstr ""
+msgstr "Texte présenté"
 
 #. Default: "Presented text"
-# TODO
 msgid "label_schema_presented_text"
-msgstr ""
+msgstr "Texte commenté"
 
 #. Default: "Please fill in the following form in order to present
 msgid "description_presentation_monograph"
