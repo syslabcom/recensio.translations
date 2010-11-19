@@ -117,7 +117,7 @@ msgstr "Titel der Ausgabe"
 
 #: recensio.contenttypes:/browser/review.py:56
 msgid "label_review_type_code"
-msgstr "Type"
+msgstr "Dokumenttyp"
 
 #: recensio.contenttypes:/browser/review.py:60
 #: recensio.theme:/skins/recensio_theme/search_form.pt:711
