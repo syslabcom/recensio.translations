@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Fri Nov 19 18:13:31 2010\n"
+"POT-Creation-Date: Sat Nov 20 00:41:51 2010\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
@@ -141,9 +141,44 @@ msgstr ""
 msgid "Regional classification"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:9
-#. Default: "use this data"
-msgid "button_use_this_data"
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:28
+msgid "Language"
+msgstr ""
+
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:3
+msgid "Loading..."
+msgstr ""
+
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:4
+msgid "No results found"
+msgstr ""
+
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:40
+msgid "DDC"
+msgstr ""
+
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:48
+msgid "Location"
+msgstr ""
+
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:66
+msgid "Year"
+msgstr ""
+
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:72
+msgid "Recensio does not know how to safe these categories. We attach them to the document below. Please try to find matching categories. The hints below will be removed when you reload or safe the page."
+msgstr ""
+
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:78
+msgid "Take it over"
+msgstr ""
+
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:82
+msgid "We were unable to select some of the classifications, would you mind to find the most appropriate once and select them manually?"
+msgstr ""
+
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:83
+msgid "Thank you!"
 msgstr ""
 
 #: recensio.contenttypes:/content/presentationarticlereview.py:290
@@ -168,6 +203,7 @@ msgid "license-note-presentation-url-url"
 msgstr ""
 
 #: recensio.contenttypes:/content/presentationarticlereview.py:36
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:10
 #: recensio.theme:/skins/recensio_theme/search_form.pt:803
 msgid "Title"
 msgstr ""
@@ -195,7 +231,7 @@ msgstr ""
 #: recensio.contenttypes:/content/presentationarticlereview.py:51
 #: recensio.contenttypes:/content/presentationcollection.py:64
 #: recensio.contenttypes:/content/presentationmonograph.py:96
-#. Default: "Which scholarly author's work have you mainly engaged with in your monograph? Please give us the most detailed information possible on the &raquo;contemporary&laquo; names amongst them as the recensio.net editorial team will usually try to inform these authors of the existence of your monograph, your presentation, and the chance to comment on it. Only the reference author's name will be visible to the public. Please name historical reference authors (e.g. Aristotle, Charles de Gaulle) further below as subject heading."
+#. Default: "Which scholarly author's work have you mainly engaged with in your article? Please give us the most detailed information possible on the &raquo;contemporary&laquo; names amongst them as the recensio.net editorial team will usually try to inform these authors of the existence of your article, your presentation, and the chance to comment on it. Only the reference author's name will be visible to the public. Please name historical reference authors (e.g. Aristotle, Charles de Gaulle) further below as subject heading."
 msgid "description_reference_authors"
 msgstr ""
 
@@ -386,6 +422,7 @@ msgid "Language(s) of presented work"
 msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:117
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:22
 msgid "Authors"
 msgstr ""
 
@@ -494,6 +531,7 @@ msgid "Page number (end)"
 msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:377
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:60
 msgid "Pages"
 msgstr ""
 
@@ -555,6 +593,7 @@ msgid "ddc place"
 msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:534
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:16
 msgid "Subtitle"
 msgstr ""
 
@@ -567,10 +606,12 @@ msgid "Place of publication"
 msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:559
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:54
 msgid "Publisher"
 msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:582
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:34
 msgid "ISBN"
 msgstr ""
 
@@ -762,11 +803,11 @@ msgid "label_delete"
 msgstr ""
 
 #: recensio.policy:/browser/templates/comments.pt:90
+#: recensio.theme:/skins/recensio_theme/search.pt:169
+#: recensio.theme:/skins/recensio_theme/search.pt:169
 #: recensio.theme:/skins/recensio_theme/search_form.pt:145
 #: recensio.theme:/skins/recensio_theme/search_form.pt:355
 #: recensio.theme:/skins/recensio_theme/search_form.pt:462
-#: recensio.theme:/skins/recensio_theme/search.pt:169
-#: recensio.theme:/skins/recensio_theme/search.pt:169
 #: recensio.theme:/browser/topical.pt:85
 #: recensio.theme:/browser/topical.pt:128
 #: recensio.theme:/browser/topical.pt:132
@@ -1530,6 +1571,15 @@ msgstr ""
 msgid "title_search_title"
 msgstr ""
 
+#: recensio.theme:/skins/recensio_theme/search.pt:66
+#: recensio.theme:/skins/recensio_theme/search_form.pt:475
+#: recensio.theme:/skins/recensio_theme/search_form.pt:602
+#: recensio.theme:/skins/recensio_theme/search_form.pt:702
+#: recensio.theme:/skins/recensio_theme/search_form.pt:837
+#. Default: "Search"
+msgid "label_search"
+msgstr ""
+
 #: recensio.theme:/skins/recensio_theme/search.pt:74
 #. Default: "Did you not find what you were looking for? Try the ${advanced_search} to refine your search."
 msgid "search_results_advanced"
@@ -1648,15 +1698,6 @@ msgstr ""
 #: recensio.theme:/skins/recensio_theme/search_form.pt:46
 #. Default: "Search text"
 msgid "label_search_text"
-msgstr ""
-
-#: recensio.theme:/skins/recensio_theme/search_form.pt:475
-#: recensio.theme:/skins/recensio_theme/search_form.pt:602
-#: recensio.theme:/skins/recensio_theme/search_form.pt:702
-#: recensio.theme:/skins/recensio_theme/search_form.pt:837
-#: recensio.theme:/skins/recensio_theme/search.pt:66
-#. Default: "Search"
-msgid "label_search"
 msgstr ""
 
 #: recensio.theme:/skins/recensio_theme/search_form.pt:48
