@@ -2146,10 +2146,6 @@ msgstr "Relevanz"
 msgid "Modification Date"
 msgstr "Änderungszeitpunkt"
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:803
-msgid "Title"
-msgstr "Titel"
-
 #. Default: "Results per page"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:812
 msgid "label_results_per_page"
