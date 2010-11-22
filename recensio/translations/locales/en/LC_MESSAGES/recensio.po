@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Sat Nov 20 00:41:51 2010\n"
+"POT-Creation-Date: Mon Nov 22 15:57:56 2010\n"
 "PO-Revision-Date: 2010-08-25 16:49+0200\n"
 "Last-Translator: Manuel Reinhardt <reinhardtsyslab.com>\n"
 "Language-Team: English\n"
@@ -48,7 +48,7 @@ msgid "download_as"
 msgstr ""
 
 #. Default: "Metadata"
-#: recensio.contenttypes:/browser/review.pt:153
+#: recensio.contenttypes:/browser/review.pt:152
 msgid "metadata"
 msgstr ""
 
@@ -73,11 +73,6 @@ msgstr "review of:"
 #. Default: "About"
 #: recensio.contenttypes:/browser/review.pt:72
 msgid "about"
-msgstr ""
-
-#. Default: "Author"
-#: recensio.contenttypes:/browser/review.pt:76
-msgid "author"
 msgstr ""
 
 #. Default: "Authors"
@@ -123,12 +118,8 @@ msgid "Issue Title"
 msgstr ""
 
 #: recensio.contenttypes:/browser/review.py:74
-#: recensio.contenttypes:/browser/review.py:87
-msgid "metadata_review_author"
-msgstr ""
-
-#: recensio.contenttypes:/browser/review.py:77
-msgid "metadata_authors"
+#: recensio.contenttypes:/browser/review.pt:76
+msgid "author"
 msgstr ""
 
 #: recensio.contenttypes:/browser/review.py:80
@@ -139,17 +130,17 @@ msgstr "Document type"
 msgid "metadata_recensio_id"
 msgstr "recensio-ID"
 
-#: recensio.contenttypes:/browser/review.py:89
+#: recensio.contenttypes:/browser/review.py:87
 #: recensio.contenttypes:/content/schemata.py:95
 msgid "Subject classification"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:91
+#: recensio.contenttypes:/browser/review.py:89
 #: recensio.contenttypes:/content/schemata.py:96
 msgid "Time classification"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:93
+#: recensio.contenttypes:/browser/review.py:91
 #: recensio.contenttypes:/content/schemata.py:97
 msgid "Regional classification"
 msgstr ""
@@ -199,9 +190,10 @@ msgstr ""
 msgid "Thank you!"
 msgstr ""
 
-#: recensio.contenttypes:/content/presentationarticlereview.py:290
-#: recensio.contenttypes:/content/presentationcollection.py:314
-#: recensio.contenttypes:/content/presentationmonograph.py:337
+#: recensio.contenttypes:/content/presentationarticlereview.py:295
+#: recensio.contenttypes:/content/presentationcollection.py:317
+#: recensio.contenttypes:/content/presentationmonograph.py:340
+
 #: recensio.contenttypes:/content/presentationonlineresource.py:329
 msgid "license-note-presentation"
 msgstr ""
@@ -210,28 +202,31 @@ msgstr ""
 "conditions be used electronically, distributed, printed, and provided for "
 "download. Here you can read the licence’s text:"
 
-#: recensio.contenttypes:/content/presentationarticlereview.py:294
-#: recensio.contenttypes:/content/presentationcollection.py:318
-#: recensio.contenttypes:/content/presentationmonograph.py:341
+#: recensio.contenttypes:/content/presentationarticlereview.py:299
+#: recensio.contenttypes:/content/presentationcollection.py:321
+#: recensio.contenttypes:/content/presentationmonograph.py:344
 #: recensio.contenttypes:/content/presentationonlineresource.py:333
 msgid "license-note-presentation-url-text"
 msgstr "http://creativecommons.org/licenses/by-nc-nd/3.0/de/deed.en"
 
-#: recensio.contenttypes:/content/presentationarticlereview.py:295
-#: recensio.contenttypes:/content/presentationcollection.py:319
-#: recensio.contenttypes:/content/presentationmonograph.py:342
+#: recensio.contenttypes:/content/presentationarticlereview.py:300
+#: recensio.contenttypes:/content/presentationcollection.py:322
+#: recensio.contenttypes:/content/presentationmonograph.py:345
 #: recensio.contenttypes:/content/presentationonlineresource.py:334
 msgid "license-note-presentation-url-url"
 msgstr "http://creativecommons.org/licenses/by-nc-nd/3.0/de/deed.en"
 
+#. Default: "Title (Journal)"
 #: recensio.contenttypes:/content/presentationarticlereview.py:36
+msgid "title_journal"
+
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:10
 #: recensio.theme:/skins/recensio_theme/search_form.pt:803
 msgid "Title"
 msgstr ""
 
 #. Default: "Information on the journal"
-#: recensio.contenttypes:/content/presentationarticlereview.py:37
+#: recensio.contenttypes:/content/presentationarticlereview.py:40
 #, fuzzy
 msgid "description_title_journal"
 msgstr ""
@@ -242,16 +237,16 @@ msgstr ""
 "which type of text he/she has written."
 
 #. Default: "Author(s) of presented article"
-#: recensio.contenttypes:/content/presentationarticlereview.py:46
+#: recensio.contenttypes:/content/presentationarticlereview.py:49
 #: recensio.contenttypes:/content/presentationcollection.py:61
 msgid "label_presentation_article_authors"
 msgstr ""
 
-#: recensio.contenttypes:/content/presentationarticlereview.py:49
+#: recensio.contenttypes:/content/presentationarticlereview.py:52
 msgid "Volume"
 msgstr ""
 
-#: recensio.contenttypes:/content/presentationarticlereview.py:50
+#: recensio.contenttypes:/content/presentationarticlereview.py:53
 #: recensio.contenttypes:/content/schemata.py:632
 msgid "Number"
 msgstr ""
@@ -266,7 +261,7 @@ msgstr ""
 #           (e.g. Aristotle, Charles de Gaulle) further below as
 #           subject heading."
 #. Default: "Which scholarly author's work have you mainly engaged with in your article? Please give us the most detailed information possible on the &raquo;contemporary&laquo; names amongst them as the recensio.net editorial team will usually try to inform these authors of the existence of your article, your presentation, and the chance to comment on it. Only the reference author's name will be visible to the public. Please name historical reference authors (e.g. Aristotle, Charles de Gaulle) further below as subject heading."
-#: recensio.contenttypes:/content/presentationarticlereview.py:51
+#: recensio.contenttypes:/content/presentationarticlereview.py:54
 #: recensio.contenttypes:/content/presentationcollection.py:64
 #: recensio.contenttypes:/content/presentationmonograph.py:96
 #, fuzzy
@@ -446,8 +441,8 @@ msgstr ""
 msgid "description_documenttypes_referenceworks"
 msgstr ""
 
-#: recensio.contenttypes:/content/reviewjournal.py:277
-#: recensio.contenttypes:/content/reviewmonograph.py:279
+#: recensio.contenttypes:/content/reviewjournal.py:279
+#: recensio.contenttypes:/content/reviewmonograph.py:280
 msgid "license-note-review"
 msgstr ""
 "This article may be downloaded and/or used within the private copying "
@@ -2123,6 +2118,10 @@ msgstr ""
 
 #: recensio.theme:/skins/recensio_theme/search_form.pt:800
 msgid "Modification Date"
+msgstr ""
+
+#: recensio.theme:/skins/recensio_theme/search_form.pt:803
+msgid "Title"
 msgstr ""
 
 #. Default: "Results per page"
