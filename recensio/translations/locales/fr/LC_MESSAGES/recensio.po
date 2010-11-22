@@ -14,14 +14,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Mon Nov 22 15:57:56 2010\n"
+"POT-Creation-Date: Mon Nov 22 16:33:57 2010\n"
 "PO-Revision-Date: 2010-08-25 16:47+0200\n"
 "Last-Translator: Cillian de Roiste <deroiste@syslab.com>\n"
 "Language-Team: French\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "Generated-By: zope/app/locales/extract.py\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Language-Code: fr\n"
@@ -136,6 +136,11 @@ msgstr "Période"
 msgid "Regional classification"
 msgstr "Espace"
 
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:10
+#: recensio.theme:/skins/recensio_theme/search_form.pt:803
+msgid "Title"
+msgstr ""
+
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:28
 msgid "Language"
 msgstr ""
@@ -184,7 +189,7 @@ msgstr ""
 #: recensio.contenttypes:/content/presentationarticlereview.py:295
 #: recensio.contenttypes:/content/presentationcollection.py:317
 #: recensio.contenttypes:/content/presentationmonograph.py:340
-#: recensio.contenttypes:/content/presentationonlineresource.py:329
+#: recensio.contenttypes:/content/presentationonlineresource.py:330
 msgid "license-note-presentation"
 msgstr ""
 "Ce texte est placé sous licence Creative Commons paternité – pas "
@@ -195,27 +200,21 @@ msgstr ""
 #: recensio.contenttypes:/content/presentationarticlereview.py:299
 #: recensio.contenttypes:/content/presentationcollection.py:321
 #: recensio.contenttypes:/content/presentationmonograph.py:344
-#: recensio.contenttypes:/content/presentationonlineresource.py:333
+#: recensio.contenttypes:/content/presentationonlineresource.py:334
 msgid "license-note-presentation-url-text"
 msgstr "http://creativecommons.org/licenses/by-nc-nd/3.0/deed.fr"
 
 #: recensio.contenttypes:/content/presentationarticlereview.py:300
 #: recensio.contenttypes:/content/presentationcollection.py:322
 #: recensio.contenttypes:/content/presentationmonograph.py:345
-#: recensio.contenttypes:/content/presentationonlineresource.py:334
+#: recensio.contenttypes:/content/presentationonlineresource.py:335
 msgid "license-note-presentation-url-url"
 msgstr "http://creativecommons.org/licenses/by-nc-nd/3.0/deed.fr"
 
 #. Default: "Title (Journal)"
 #: recensio.contenttypes:/content/presentationarticlereview.py:36
-
 msgid "title_journal"
 msgstr "Titre de la revu"
-
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:10
-#: recensio.theme:/skins/recensio_theme/search_form.pt:803
-msgid "Title"
-msgstr ""
 
 #. Default: "Information on the journal"
 #: recensio.contenttypes:/content/presentationarticlereview.py:40
@@ -237,7 +236,7 @@ msgstr "Volume"
 msgid "Number"
 msgstr "Numéro"
 
-#. Default: "Which scholarly author's work have you mainly engaged with in your article? Please give us the most detailed information possible on the &raquo;contemporary&laquo; names amongst them as the recensio.net editorial team will usually try to inform these authors of the existence of your article, your presentation, and the chance to comment on it. Only the reference author's name will be visible to the public. Please name historical reference authors (e.g. Aristotle, Charles de Gaulle) further below as subject heading."
+#. Default: "Which scholarly author's work have you mainly engaged with in your monograph? Please give us the most detailed information possible on the &raquo;contemporary&laquo; names amongst them as the recensio.net editorial team will usually try to inform these authors of the existence of your monograph, your presentation, and the chance to comment on it. Only the reference author's name will be visible to the public. Please name historical reference authors (e.g. Aristotle, Charles de Gaulle) further below as subject heading."
 #: recensio.contenttypes:/content/presentationarticlereview.py:54
 #: recensio.contenttypes:/content/presentationcollection.py:64
 #: recensio.contenttypes:/content/presentationmonograph.py:96
@@ -876,10 +875,10 @@ msgid "label_delete"
 msgstr ""
 
 #: recensio.policy:/browser/templates/comments.pt:90
-#: recensio.theme:/skins/recensio_theme/search.pt:169
 #: recensio.theme:/skins/recensio_theme/search_form.pt:145
 #: recensio.theme:/skins/recensio_theme/search_form.pt:355
 #: recensio.theme:/skins/recensio_theme/search_form.pt:462
+#: recensio.theme:/skins/recensio_theme/search.pt:169
 #: recensio.theme:/browser/topical.pt:85
 #: recensio.theme:/browser/topical.pt:128
 #: recensio.theme:/browser/topical.pt:132
@@ -1661,15 +1660,6 @@ msgstr ""
 msgid "title_search_title"
 msgstr ""
 
-#. Default: "Search"
-#: recensio.theme:/skins/recensio_theme/search.pt:66
-#: recensio.theme:/skins/recensio_theme/search_form.pt:475
-#: recensio.theme:/skins/recensio_theme/search_form.pt:602
-#: recensio.theme:/skins/recensio_theme/search_form.pt:702
-#: recensio.theme:/skins/recensio_theme/search_form.pt:837
-msgid "label_search"
-msgstr ""
-
 #. Default: "Did you not find what you were looking for? Try the ${advanced_search} to refine your search."
 #: recensio.theme:/skins/recensio_theme/search.pt:74
 msgid "search_results_advanced"
@@ -1788,6 +1778,15 @@ msgstr ""
 #. Default: "Search text"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:46
 msgid "label_search_text"
+msgstr ""
+
+#. Default: "Search"
+#: recensio.theme:/skins/recensio_theme/search_form.pt:475
+#: recensio.theme:/skins/recensio_theme/search_form.pt:602
+#: recensio.theme:/skins/recensio_theme/search_form.pt:702
+#: recensio.theme:/skins/recensio_theme/search_form.pt:837
+#: recensio.theme:/skins/recensio_theme/search.pt:66
+msgid "label_search"
 msgstr ""
 
 #. Default: "For a full text search, enter your search term here. Multiple words may be found by combining them with <strong>AND</strong> and <strong>OR</strong>."
