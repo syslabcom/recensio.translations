@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Mon Nov 22 16:33:57 2010\n"
+"POT-Creation-Date: Tue Nov 23 16:42:35 2010\n"
 "PO-Revision-Date: 2010-08-25 16:49+0200\n"
 "Last-Translator: Manuel Reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: German\n"
@@ -920,34 +920,22 @@ msgid "presentations_of_online_resources"
 msgstr "Präsentationen von Internetressourcen"
 
 #. Default: "Reply"
-#: recensio.policy:/browser/templates/comments.pt:108
+#: recensio.policy:/browser/templates/comments.pt:105
 msgid "label_reply"
 msgstr "Antworten"
 
-#. Default: "Add comment"
-#: recensio.policy:/browser/templates/comments.pt:134
-msgid "label_add_comment"
-msgstr "Kommentar hinzufügen"
-
-#. Default: "You can add a comment by filling out the form below. Plain text formatting."
-#: recensio.policy:/browser/templates/comments.pt:135
-msgid "description_add_comment"
-msgstr ""
-"Sie können einen Kommentar hinzufügen, indem sie das Formular unten "
-"ausfüllen. Formatierung als reiner Text."
-
 #. Default: "Kommentieren"
-#: recensio.policy:/browser/templates/comments.pt:145
+#: recensio.policy:/browser/templates/comments.pt:129
 msgid "heading_commenting_explanation"
 msgstr "Kommentieren"
 
 #. Default: "Benutzerrichtlinien"
-#: recensio.policy:/browser/templates/comments.pt:148
+#: recensio.policy:/browser/templates/comments.pt:132
 msgid "benutzerrichtlinien"
 msgstr "Benutzerrichtlinien"
 
 #. Default: "Sie haben hier die Gelegenheit, die Rezension/Pr\303\244sentation zu kommentieren. Daf\303\274r ist eine kurze, kostenlose Registrierung mit Namen und E-Mail-Adresse notwendig, die lediglich dazu dient, Missbrauch der Kommentarfunktion zu verhindern und den wissenschaftlichen Anspruch der Plattform zu wahren. <br /> Bitte beachten Sie, dass eingehende Kommentare vor der Ver\303\266ffentlichung auf die Einhaltung der ${benutzerrichtlinien} gepr\303\274ft werden. Aus diesem Grund k\303\266nnen 1 bis 3 Werktage vergehen, bis Ihr Kommentar auf recensio.net sichtbar wird. Dar\303\274ber hinaus gibt es die M\303\266glichkeit, der Redaktion als problematisch empfundene \303\204u\303\237erungen \303\274ber einen neben Kommentaren befindlichen Button zu melden. <br /> F\303\274r R\303\274ckfragen steht Ihnen die recensio.net-Redaktion jederzeit zur Verf\303\274gung:<br /> ${contact_addr}."
-#: recensio.policy:/browser/templates/comments.pt:151
+#: recensio.policy:/browser/templates/comments.pt:135
 msgid "commenting_explanation"
 msgstr ""
 "Sie haben hier die Gelegenheit, die Rezension/Präsentation zu kommentieren. "
@@ -966,18 +954,30 @@ msgstr ""
 "Verfügung:<br />\n"
 "${contact_addr}."
 
+#. Default: "Add comment"
+#: recensio.policy:/browser/templates/comments.pt:139
+msgid "label_add_comment"
+msgstr "Kommentar hinzufügen"
+
+#. Default: "You can add a comment by filling out the form below. Plain text formatting."
+#: recensio.policy:/browser/templates/comments.pt:140
+msgid "description_add_comment"
+msgstr ""
+"Sie können einen Kommentar hinzufügen, indem sie das Formular unten "
+"ausfüllen. Formatierung als reiner Text."
+
 #. Default: "Log in to add comments"
 #: recensio.policy:/browser/templates/comments.pt:17
-#: recensio.policy:/browser/templates/comments.pt:121
+#: recensio.policy:/browser/templates/comments.pt:118
 msgid "label_login_to_add_comments"
 msgstr "Einloggen um zu kommentieren"
 
 #. Default: "Delete"
-#: recensio.policy:/browser/templates/comments.pt:72
+#: recensio.policy:/browser/templates/comments.pt:70
 msgid "label_delete"
 msgstr "Löschen"
 
-#: recensio.policy:/browser/templates/comments.pt:90
+#: recensio.policy:/browser/templates/comments.pt:87
 #: recensio.theme:/skins/recensio_theme/search_form.pt:145
 #: recensio.theme:/skins/recensio_theme/search_form.pt:355
 #: recensio.theme:/skins/recensio_theme/search_form.pt:462
@@ -990,82 +990,77 @@ msgid "${DYNAMIC_CONTENT}"
 msgstr "${DYNAMIC_CONTENT}"
 
 #. Default: "Notify portal owner about this comment"
-#: recensio.policy:/browser/templates/comments.pt:97
+#: recensio.policy:/browser/templates/comments.pt:94
 msgid "notify_portal_owner"
 msgstr "Seitenbetreiber zu diesem Kommentar benachrichtigen"
 
 #. Default: "Pr\303\244sentationen"
-#: recensio.policy:/browser/templates/footer.pt:17
+#: recensio.policy:/browser/templates/footer.pt:16
 msgid "presentations"
 msgstr "Präsentationen"
 
 #. Default: "Monographien"
-#: recensio.policy:/browser/templates/footer.pt:19
+#: recensio.policy:/browser/templates/footer.pt:18
 msgid "monographs"
 msgstr "Monographien"
 
-#. Default: "grafisches Element"
-#: recensio.policy:/browser/templates/footer.pt:2
-msgid "graphical_element"
-msgstr "grafisches Element"
-
 #. Default: "Aufs\303\244tze"
-#: recensio.policy:/browser/templates/footer.pt:20
+#: recensio.policy:/browser/templates/footer.pt:19
 msgid "articles"
 msgstr "Aufsätze"
 
 #. Default: "Internetressourcen"
-#: recensio.policy:/browser/templates/footer.pt:21
+#: recensio.policy:/browser/templates/footer.pt:20
 msgid "online_resources"
 msgstr "Internetressourcen"
 
 #. Default: "Themenbrowsing"
-#: recensio.policy:/browser/templates/footer.pt:25
+#: recensio.policy:/browser/templates/footer.pt:24
 msgid "browse_topics"
 msgstr "Themenbrowsing"
 
+#. Default: "Rezensionen"
+#: recensio.policy:/browser/templates/footer.pt:3
+msgid "reviews"
+msgstr "Rezensionen"
+
 #. Default: "mitmachen bei recensio.net"
-#: recensio.policy:/browser/templates/footer.pt:35
+#: recensio.policy:/browser/templates/footer.pt:34
 msgid "participating_in_recensio_net"
 msgstr "mitmachen bei recensio.net"
 
 #. Default: "Manage your presentations"
-#: recensio.policy:/browser/templates/footer.pt:39
+#: recensio.policy:/browser/templates/footer.pt:38
 msgid "manage_presentations"
 msgstr "Ihre Präsentationen verwalten"
 
-#. Default: "Rezensionen"
-#: recensio.policy:/browser/templates/footer.pt:4
-msgid "reviews"
-msgstr "Rezensionen"
-
 #. Default: "Create new presentation"
-#: recensio.policy:/browser/templates/footer.pt:43
+#: recensio.policy:/browser/templates/footer.pt:42
 msgid "create_presentation"
 msgstr "Neue Präsentation erstellen"
 
 #. Default: "Register and create new presentations"
-#: recensio.policy:/browser/templates/footer.pt:47
+#: recensio.policy:/browser/templates/footer.pt:46
 msgid "register_and_create_presentations"
 msgstr "Registrieren und neue Präsentationen erstellen"
 
 #. Default: "RSS feeds"
-#: recensio.policy:/browser/templates/footer.pt:55
+#: recensio.policy:/browser/templates/footer.pt:54
 msgid "rss_feeds"
 msgstr "RSS-Feeds"
 
 #. Default: "Neue Rezensionen"
-#: recensio.policy:/browser/templates/footer.pt:61
+#: recensio.policy:/browser/templates/footer.pt:60
 msgid "new_reviews"
 msgstr "Neue Rezensionen"
 
 #. Default: "Neue Pr\303\244sentationen"
-#: recensio.policy:/browser/templates/footer.pt:67
+#: recensio.policy:/browser/templates/footer.pt:66
 msgid "new_presentations"
 msgstr "Neue Präsentationen"
 
 #. Default: "Neue Diskussionen"
-#: recensio.policy:/browser/templates/footer.pt:73
+#: recensio.policy:/browser/templates/footer.pt:72
 msgid "new_discussions"
 msgstr "Neue Diskussionen"
 
@@ -1651,6 +1646,21 @@ msgstr ""
 "Erstellung des PDF fehlgeschlagen! Bitte versuchen Sie es noch einmal oder "
 "bitten Sie um Unterstützung"
 
+#. Default: "All presentations of an author"
+#: recensio.theme:/browser/templates/authorsearch.pt:101
+msgid "label_all_presentations"
+msgstr "Alle Präsentationen eines Autors"
+
+#. Default: "All reviews of an author"
+#: recensio.theme:/browser/templates/authorsearch.pt:105
+msgid "label_all_reviews"
+msgstr "Alle Rezensionen eines Autors"
+
+#. Default: "All comments of an author"
+#: recensio.theme:/browser/templates/authorsearch.pt:109
+msgid "label_all_comments"
+msgstr "Alle Kommentare einers Autors"
+
 #: recensio.theme:/browser/templates/authorsearch.pt:18
 msgid "Autorensuche"
 msgstr "Autoren"
@@ -1666,59 +1676,44 @@ msgstr ""
 "deutlich macht, welche Textart(en) dieser verfasst hat."
 
 #. Default: "Mit einem Klick auf den Autornamen erhalten Sie alle von einem Autor publizierten Texte. Der Klick auf ein spezielles Icon zeigt Ihnen gezielt die Treffer eines Genres an."
-#: recensio.theme:/browser/templates/authorsearch.pt:25
+#: recensio.theme:/browser/templates/authorsearch.pt:28
 msgid "description_authorsearch_2"
 msgstr ""
 "Mit einem Klick auf den Autornamen erhalten Sie alle von einem Autor "
 "publizierten Texte. Der Klick auf ein spezielles Icon zeigt Ihnen gezielt "
 "die Treffer eines Genres an."
 
-#: recensio.theme:/browser/templates/authorsearch.pt:32
+#: recensio.theme:/browser/templates/authorsearch.pt:36
 msgid "Search"
 msgstr "Suche"
 
 #. Default: "Es wurden keine Autoren gefunden die ihren Kriterien entsprechen"
-#: recensio.theme:/browser/templates/authorsearch.pt:36
+#: recensio.theme:/browser/templates/authorsearch.pt:39
 msgid "label_no_authors_found"
 msgstr "Es wurden keine Autoren gefunden die ihren Kriterien entsprechen"
 
 #. Default: "All presentations of this author"
-#: recensio.theme:/browser/templates/authorsearch.pt:46
-#: recensio.theme:/browser/templates/authorsearch.pt:47
+#: recensio.theme:/browser/templates/authorsearch.pt:48
+#: recensio.theme:/browser/templates/authorsearch.pt:52
 msgid "label_all_presentations_author"
 msgstr "Alle Präsentationen des Autors"
 
 #. Default: "All reviews of this author"
-#: recensio.theme:/browser/templates/authorsearch.pt:51
-#: recensio.theme:/browser/templates/authorsearch.pt:52
+#: recensio.theme:/browser/templates/authorsearch.pt:58
+#: recensio.theme:/browser/templates/authorsearch.pt:62
 msgid "label_all_reviews_author"
 msgstr "Alle Rezensionen des Autors"
 
 #. Default: "All comments of this author"
-#: recensio.theme:/browser/templates/authorsearch.pt:56
-#: recensio.theme:/browser/templates/authorsearch.pt:57
+#: recensio.theme:/browser/templates/authorsearch.pt:68
+#: recensio.theme:/browser/templates/authorsearch.pt:72
 msgid "label_all_comments_author"
 msgstr "Alle Kommentare des Autors"
 
 #. Default: "All items of this author"
-#: recensio.theme:/browser/templates/authorsearch.pt:61
+#: recensio.theme:/browser/templates/authorsearch.pt:78
 msgid "label_all_items_author"
 msgstr "Alle Artikel des Autors"
-
-#. Default: "All presentations of an author"
-#: recensio.theme:/browser/templates/authorsearch.pt:80
-msgid "label_all_presentations"
-msgstr "Alle Präsentationen eines Autors"
-
-#. Default: "All reviews of an author"
-#: recensio.theme:/browser/templates/authorsearch.pt:83
-msgid "label_all_reviews"
-msgstr "Alle Rezensionen eines Autors"
-
-#. Default: "All comments of an author"
-#: recensio.theme:/browser/templates/authorsearch.pt:86
-msgid "label_all_comments"
-msgstr "Alle Kommentare einers Autors"
 
 #. Default: "Neueste Rezensionsteile online"
 #: recensio.theme:/browser/templates/homepage.pt:18
@@ -2226,6 +2221,9 @@ msgstr "Neueste Rezensionen"
 #: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:96
 msgid "label_secondary_nav_monographien"
 msgstr ""
+
+#~ msgid "graphical_element"
+#~ msgstr "grafisches Element"
 
 #~ msgid "button_use_this_data"
 #~ msgstr "diese Daten benutzen"
