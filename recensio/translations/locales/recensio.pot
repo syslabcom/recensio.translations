@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Wed Nov 24 16:15:47 2010\n"
+"POT-Creation-Date: Wed Nov 24 18:05:15 2010\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -23,29 +23,29 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: zope/app/locales/extract.py\n"
 
-#: recensio.contenttypes:/browser/review.pt:109
-#. Default: "Zitierhinweise"
-msgid "citation_note"
-msgstr ""
-
-#: recensio.contenttypes:/browser/review.pt:111
-#. Default: "URL"
-msgid "url"
-msgstr ""
-
-#: recensio.contenttypes:/browser/review.pt:117
-#. Default: "Lizenzhinweis:"
-msgid "license-note-heading"
-msgstr ""
-
-#: recensio.contenttypes:/browser/review.pt:136
+#: recensio.contenttypes:/browser/review.pt:122
 #. Default: "Download as <strong>PDF</strong><br /> <em class=\"discrete\">(${download_size} kb)</em>"
 msgid "download_as"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.pt:152
+#: recensio.contenttypes:/browser/review.pt:138
 #. Default: "Metadata"
 msgid "metadata"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:171
+#. Default: "Zitierhinweise"
+msgid "citation_note"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:177
+#. Default: "URL"
+msgid "url"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.pt:185
+#. Default: "Lizenzhinweis:"
+msgid "license-note-heading"
 msgstr ""
 
 #: recensio.contenttypes:/browser/review.pt:53
