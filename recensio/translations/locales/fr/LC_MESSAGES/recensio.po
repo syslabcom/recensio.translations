@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Wed Nov 24 15:37:56 2010\n"
+"POT-Creation-Date: Wed Nov 24 16:15:47 2010\n"
 "PO-Revision-Date: 2010-08-25 16:47+0200\n"
 "Last-Translator: Cillian de Roiste <deroiste@syslab.com>\n"
 "Language-Team: French\n"
@@ -882,7 +882,7 @@ msgstr ""
 #: recensio.theme:/browser/topical.pt:86
 #: recensio.theme:/browser/topical.pt:131
 #: recensio.theme:/browser/topical.pt:135
-#: recensio.theme:/browser/topical.pt:190
+#: recensio.theme:/browser/topical.pt:192
 msgid "${DYNAMIC_CONTENT}"
 msgstr ""
 
@@ -1622,31 +1622,31 @@ msgstr ""
 
 #. Default: "(reviewed by ${review_author_firstname} ${review_author_lastname})"
 #: recensio.theme:/skins/recensio_theme/search.pt:182
-#: recensio.theme:/browser/topical.pt:209
+#: recensio.theme:/browser/topical.pt:221
 msgid "reviewed_by"
 msgstr ""
 
 #. Default: "(presented by ${review_author_firstname} ${review_author_lastname})"
 #: recensio.theme:/skins/recensio_theme/search.pt:183
-#: recensio.theme:/browser/topical.pt:210
+#: recensio.theme:/browser/topical.pt:223
 msgid "presented_by"
 msgstr ""
 
 #. Default: "last modified"
 #: recensio.theme:/skins/recensio_theme/search.pt:192
-#: recensio.theme:/browser/topical.pt:217
+#: recensio.theme:/browser/topical.pt:230
 msgid "box_last_modified"
 msgstr ""
 
 #. Default: "Filed under:"
 #: recensio.theme:/skins/recensio_theme/search.pt:204
-#: recensio.theme:/browser/topical.pt:228
+#: recensio.theme:/browser/topical.pt:241
 msgid "label_filed_under"
 msgstr ""
 
 #. Default: "Relevance: ${percentage}%"
 #: recensio.theme:/skins/recensio_theme/search.pt:221
-#: recensio.theme:/browser/topical.pt:245
+#: recensio.theme:/browser/topical.pt:258
 msgid "label_relevance_percentage"
 msgstr ""
 
