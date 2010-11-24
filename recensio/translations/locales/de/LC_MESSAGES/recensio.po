@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Tue Nov 23 16:42:35 2010\n"
+"POT-Creation-Date: Wed Nov 24 15:37:56 2010\n"
 "PO-Revision-Date: 2010-08-25 16:49+0200\n"
 "Last-Translator: Manuel Reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: German\n"
@@ -982,10 +982,10 @@ msgstr "Löschen"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:355
 #: recensio.theme:/skins/recensio_theme/search_form.pt:462
 #: recensio.theme:/skins/recensio_theme/search.pt:169
-#: recensio.theme:/browser/topical.pt:85
-#: recensio.theme:/browser/topical.pt:128
-#: recensio.theme:/browser/topical.pt:132
-#: recensio.theme:/browser/topical.pt:186
+#: recensio.theme:/browser/topical.pt:86
+#: recensio.theme:/browser/topical.pt:131
+#: recensio.theme:/browser/topical.pt:135
+#: recensio.theme:/browser/topical.pt:190
 msgid "${DYNAMIC_CONTENT}"
 msgstr "${DYNAMIC_CONTENT}"
 
@@ -1646,27 +1646,36 @@ msgstr ""
 "Erstellung des PDF fehlgeschlagen! Bitte versuchen Sie es noch einmal oder "
 "bitten Sie um Unterstützung"
 
+#. Default: "All items of this author"
+#: recensio.theme:/browser/templates/authorsearch.pt:109
+msgid "label_all_items_author"
+msgstr "Alle Artikel des Autors"
+
+#: recensio.theme:/browser/templates/authorsearch.pt:24
+msgid "Search"
+msgstr "Suche"
+
 #. Default: "All presentations of an author"
-#: recensio.theme:/browser/templates/authorsearch.pt:101
+#: recensio.theme:/browser/templates/authorsearch.pt:31
 msgid "label_all_presentations"
 msgstr "Alle Präsentationen eines Autors"
 
 #. Default: "All reviews of an author"
-#: recensio.theme:/browser/templates/authorsearch.pt:105
+#: recensio.theme:/browser/templates/authorsearch.pt:35
 msgid "label_all_reviews"
 msgstr "Alle Rezensionen eines Autors"
 
 #. Default: "All comments of an author"
-#: recensio.theme:/browser/templates/authorsearch.pt:109
+#: recensio.theme:/browser/templates/authorsearch.pt:39
 msgid "label_all_comments"
 msgstr "Alle Kommentare einers Autors"
 
-#: recensio.theme:/browser/templates/authorsearch.pt:18
+#: recensio.theme:/browser/templates/authorsearch.pt:47
 msgid "Autorensuche"
 msgstr "Autoren"
 
 #. Default: "Sie finden hier die Autorinnen und Autoren von auf recensio.net publizierten Rezensionen, Pr\303\244sentationen (Aufs\303\244tze, Monographien, Internetressourcen) und Kommentaren sowie die Autoren von hier rezensierten Werken. Jedem der drei Genres ist ein Icon zugeordnet, das vor dem Namen des jeweiligen Autors deutlich macht, welche Textart(en) dieser verfasst hat."
-#: recensio.theme:/browser/templates/authorsearch.pt:19
+#: recensio.theme:/browser/templates/authorsearch.pt:48
 msgid "description_authorsearch_1"
 msgstr ""
 "Sie finden hier die Autorinnen und Autoren von auf recensio.net publizierten "
@@ -1676,44 +1685,35 @@ msgstr ""
 "deutlich macht, welche Textart(en) dieser verfasst hat."
 
 #. Default: "Mit einem Klick auf den Autornamen erhalten Sie alle von einem Autor publizierten Texte. Der Klick auf ein spezielles Icon zeigt Ihnen gezielt die Treffer eines Genres an."
-#: recensio.theme:/browser/templates/authorsearch.pt:28
+#: recensio.theme:/browser/templates/authorsearch.pt:57
 msgid "description_authorsearch_2"
 msgstr ""
 "Mit einem Klick auf den Autornamen erhalten Sie alle von einem Autor "
 "publizierten Texte. Der Klick auf ein spezielles Icon zeigt Ihnen gezielt "
 "die Treffer eines Genres an."
 
-#: recensio.theme:/browser/templates/authorsearch.pt:36
-msgid "Search"
-msgstr "Suche"
-
 #. Default: "Es wurden keine Autoren gefunden die ihren Kriterien entsprechen"
-#: recensio.theme:/browser/templates/authorsearch.pt:39
+#: recensio.theme:/browser/templates/authorsearch.pt:70
 msgid "label_no_authors_found"
 msgstr "Es wurden keine Autoren gefunden die ihren Kriterien entsprechen"
 
 #. Default: "All presentations of this author"
-#: recensio.theme:/browser/templates/authorsearch.pt:48
-#: recensio.theme:/browser/templates/authorsearch.pt:52
+#: recensio.theme:/browser/templates/authorsearch.pt:79
+#: recensio.theme:/browser/templates/authorsearch.pt:83
 msgid "label_all_presentations_author"
 msgstr "Alle Präsentationen des Autors"
 
 #. Default: "All reviews of this author"
-#: recensio.theme:/browser/templates/authorsearch.pt:58
-#: recensio.theme:/browser/templates/authorsearch.pt:62
+#: recensio.theme:/browser/templates/authorsearch.pt:89
+#: recensio.theme:/browser/templates/authorsearch.pt:93
 msgid "label_all_reviews_author"
 msgstr "Alle Rezensionen des Autors"
 
 #. Default: "All comments of this author"
-#: recensio.theme:/browser/templates/authorsearch.pt:68
-#: recensio.theme:/browser/templates/authorsearch.pt:72
+#: recensio.theme:/browser/templates/authorsearch.pt:99
+#: recensio.theme:/browser/templates/authorsearch.pt:103
 msgid "label_all_comments_author"
 msgstr "Alle Kommentare des Autors"
-
-#. Default: "All items of this author"
-#: recensio.theme:/browser/templates/authorsearch.pt:78
-msgid "label_all_items_author"
-msgstr "Alle Artikel des Autors"
 
 #. Default: "Neueste Rezensionsteile online"
 #: recensio.theme:/browser/templates/homepage.pt:18
@@ -1755,13 +1755,13 @@ msgid "description_publications"
 msgstr ""
 
 #. Default: "Browsing"
-#: recensio.theme:/browser/topical.pt:158
+#: recensio.theme:/browser/topical.pt:161
 msgid "heading_browsing_results"
 msgstr "Themenbrowsing"
 
-#: recensio.theme:/browser/topical.pt:90
-#: recensio.theme:/browser/topical.pt:113
-#: recensio.theme:/browser/topical.pt:136
+#: recensio.theme:/browser/topical.pt:91
+#: recensio.theme:/browser/topical.pt:116
+#: recensio.theme:/browser/topical.pt:139
 msgid "Remove this selection"
 msgstr "Auswahl entfernen"
 
@@ -1772,7 +1772,7 @@ msgstr "Suchresultate"
 
 #. Default: "${number} items matching"
 #: recensio.theme:/skins/recensio_theme/search.pt:130
-#: recensio.theme:/browser/topical.pt:164
+#: recensio.theme:/browser/topical.pt:167
 msgid "batch_x_items_matching_your_criteria"
 msgstr "${number} Artikel gefunden."
 
@@ -1789,31 +1789,31 @@ msgstr "Es wurde nichts gefunden."
 
 #. Default: "(reviewed by ${review_author_firstname} ${review_author_lastname})"
 #: recensio.theme:/skins/recensio_theme/search.pt:182
-#: recensio.theme:/browser/topical.pt:199
+#: recensio.theme:/browser/topical.pt:209
 msgid "reviewed_by"
 msgstr "(rezensiert von ${review_author_firstname} ${review_author_lastname})"
 
 #. Default: "(presented by ${review_author_firstname} ${review_author_lastname})"
 #: recensio.theme:/skins/recensio_theme/search.pt:183
-#: recensio.theme:/browser/topical.pt:200
+#: recensio.theme:/browser/topical.pt:210
 msgid "presented_by"
 msgstr "(präsentiert von ${review_author_firstname} ${review_author_lastname})"
 
 #. Default: "last modified"
 #: recensio.theme:/skins/recensio_theme/search.pt:192
-#: recensio.theme:/browser/topical.pt:209
+#: recensio.theme:/browser/topical.pt:217
 msgid "box_last_modified"
 msgstr "zuletzt verändert:"
 
 #. Default: "Filed under:"
 #: recensio.theme:/skins/recensio_theme/search.pt:204
-#: recensio.theme:/browser/topical.pt:221
+#: recensio.theme:/browser/topical.pt:228
 msgid "label_filed_under"
 msgstr "Eingeordnet undter:"
 
 #. Default: "Relevance: ${percentage}%"
 #: recensio.theme:/skins/recensio_theme/search.pt:221
-#: recensio.theme:/browser/topical.pt:238
+#: recensio.theme:/browser/topical.pt:245
 msgid "label_relevance_percentage"
 msgstr "Relevanz: ${percentage}"
 
