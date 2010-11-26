@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Wed Nov 24 16:15:47 2010\n"
+"POT-Creation-Date: Fri Nov 26 14:38:28 2010\n"
 "PO-Revision-Date: 2010-08-25 16:47+0200\n"
 "Last-Translator: Cillian de Roiste <deroiste@syslab.com>\n"
 "Language-Team: French\n"
@@ -27,29 +27,29 @@ msgstr ""
 "Language-Code: fr\n"
 "Domain: recensio\n"
 
-#. Default: "Zitierhinweise"
-#: recensio.contenttypes:/browser/review.pt:109
-msgid "citation_note"
-msgstr ""
-
-#. Default: "URL"
-#: recensio.contenttypes:/browser/review.pt:111
-msgid "url"
-msgstr ""
-
-#. Default: "Lizenzhinweis:"
-#: recensio.contenttypes:/browser/review.pt:117
-msgid "license-note-heading"
-msgstr ""
-
 #. Default: "Download as <strong>PDF</strong><br /> <em class=\"discrete\">(${download_size} kb)</em>"
-#: recensio.contenttypes:/browser/review.pt:136
+#: recensio.contenttypes:/browser/review.pt:122
 msgid "download_as"
 msgstr ""
 
 #. Default: "Metadata"
-#: recensio.contenttypes:/browser/review.pt:152
+#: recensio.contenttypes:/browser/review.pt:138
 msgid "metadata"
+msgstr ""
+
+#. Default: "Zitierhinweise"
+#: recensio.contenttypes:/browser/review.pt:171
+msgid "citation_note"
+msgstr ""
+
+#. Default: "URL"
+#: recensio.contenttypes:/browser/review.pt:177
+msgid "url"
+msgstr ""
+
+#. Default: "Lizenzhinweis:"
+#: recensio.contenttypes:/browser/review.pt:185
+msgid "license-note-heading"
 msgstr ""
 
 #. Default: "Review page 1"
