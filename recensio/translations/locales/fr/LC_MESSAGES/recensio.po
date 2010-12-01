@@ -2009,3 +2009,28 @@ msgstr ""
 
 #~ msgid "reference_authors"
 #~ msgstr "Nom (auteur de référence)"
+
+
+#: /add_new_content
+msgid "text_create_presentation"
+msgstr "Créer une nouvelle présentation"
+
+#: /add_new_content
+msgid "text_create_presentation"
+msgstr "<p>En tant qu’auteur de publications scientifiques dans le domaine de l’histoire, recensio.net vous donne la possibilité de présenter, de manière claire et concise, les principales thèses développées dans vos travaux, votre méthodologie et/ou votre point de vue sur les approches de la recherche actuelle. Vous inscrivez ainsi vos publications dans le débat scientifique actuel. Par ailleurs, les ressources Internet dans le domaine des sciences historiques peuvent également être signalées et évaluées. </p><p>Les internautes peuvent commenter vos présentations. En tant qu’auteur, vous serez averti par nos soins de l’entrée de nouveaux commentaires ; vous pourrez alors participer à la discussion en réagissant aux commentaires, donnant ainsi lieu à des recensions « animées et interactives » de vos travaux.</p><p>Bien que vous puissiez rédiger votre texte dans toute langue européenne, nous vous conseillons cependant d’utiliser de préférence l’une des langues les plus employées dans le dialogue scientifique actuel.</p><p>Veuillez noter que le nombre de caractères accordés à votre présentation augmente si vous avez déjà vous-même commenté d’autres recensions ou présentations disponibles sur la plateforme recensio.net.</p><p>Les informations fournies pourront être ultérieurement modifiées ou complétées.</p><p>Veuillez sélectionner le type de publication que vous souhaitez présenter:</p>"
+
+#: /add_new_content
+msgid "description_add_presentation_monography"
+msgstr "Accédez au formulaire par lequel vous pourrez présenter votre monographie sur recensio.net."
+
+#: /add_new_content
+msgid "description_add_presentation_collection"
+msgstr "Accédez au formulaire par lequel vous pourrez présenter votre article de recueil sur recensio.net."
+
+#: /add_new_content
+msgid "description_add_presentation_article_review"
+msgstr "Accédez au formulaire par lequel vous pourrez présenter votre article de revue sur recensio.net."
+
+#: /add_new_content
+msgid "description_add_presentation_online_resource"
+msgstr "Accédez au formulaire par lequel vous pourrez signaler des ressources en ligne présentant un intérêt pour la recherche en histoire."

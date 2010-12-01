@@ -2225,3 +2225,27 @@ msgstr ""
 
 #~ msgid "metadata_publications"
 #~ msgstr "Publikationen"
+
+#: /add_new_content
+msgid "text_create_presentation"
+msgstr "Neue Präsentation erstellen"
+
+#: /add_new_content
+msgid "text_create_presentation"
+msgstr "<p>Als Autor geschichtswissenschaftlicher Texte können Sie auf recensio.net die Kernthesen Ihrer bereits publizierten Monographien und Aufsätze, Ihre Methodik und/oder Ihre Auseinandersetzung mit bestehenden Forschungsansätzen kurz und übersichtlich zusammenfassen und so der Fachdiskussion stellen. Daneben haben Sie die Möglichkeit, geschichtswissenschaftliche Internetressourcen vorzustellen und zu bewerten.</p><p>Nutzer können Ihre Präsentationen kommentieren. Sie als Autor werden von uns über eingehende Kommentare benachrichtigt; anschließend können Sie sich an der Diskussion durch eigene Kommentare beteiligen und so auf die Kommentare anderer reagieren. Auf diese Art entsteht mit der Zeit eine >lebendige Rezension< der von Ihnen präsentierten Schrift.</p><p>Eine Präsentation Ihrer Thesen ist zwar in nahezu allen europäischen Sprachen möglich, wir Ihnen jedoch empfehlen, eine der großen Wissenschaftssprachen zu wählen.</p><p>Bitte beachten Sie, dass sich die für die Präsentationen zur Verfügung stehende Zeichenanzahl jeweils erhöht, wenn Sie vorab bereits Kommentare zu anderen Rezensionen oder Präsentationen auf recensio.net verfasst haben.</p><p>Sie können alle Angaben zu einem späteren Zeitpunkt verändern oder ergänzen.</p><p>Wählen Sie hier aus, welche Textart Sie präsentieren möchten:</p>"
+
+#: /add_new_content
+msgid "description_add_presentation_monography"
+msgstr "Hier gelangen Sie zu einem Formular, mit dem Sie Ihre Monographie auf recensio.net präsentieren können."
+
+#: /add_new_content
+msgid "description_add_presentation_collection"
+msgstr "Hier gelangen Sie zu einem Formular, mit dem Sie Ihren Aufsatz in einem Sammelband auf recensio.net präsentieren können."
+
+#: /add_new_content
+msgid "description_add_presentation_article_review"
+msgstr "Hier gelangen Sie zu einem Formular, mit dem Sie Ihren Aufsatz in einer Zeitschrift auf recensio.net präsentieren können."
+
+#: /add_new_content
+msgid "description_add_presentation_online_resource"
+msgstr "Hier gelangen Sie zu einem Formular, mit dem Sie eine für Historiker relevante Onlineressource auf recensio.net präsentieren können."

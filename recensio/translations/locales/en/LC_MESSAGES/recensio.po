@@ -2183,3 +2183,27 @@ msgstr ""
 #, fuzzy
 #~ msgid "metadata_publications"
 #~ msgstr "A new review of your work %s has been published!"
+
+#: /add_new_content
+msgid "text_create_presentation"
+msgstr "Create a new presentation"
+
+#: /add_new_content
+msgid "text_create_presentation"
+msgstr "<p>On recensio.net, you as an author of historical literature can give a brief and clear outline of the thesis statements of your already published monographs and articles, your methodology and/or your discussion of existing research approaches, and thus place them in an expert discussion. You furthermore have the possibility of presenting and rating historical internet resources.</p><p>Users can comment on your publications. You as an author will be informed by us about incoming comments; subsequently, you can take part in the discussion by making your own comments and thus react to the comments of others. In this way, a »live review« of the publication presented by you will develop over time. </p><p>A presentation of your core statements is possible in nearly all European languages, but we would advise you to choose one of the main academic languages.</p><p>Please be aware that the number of characters available for your presentation is increased if you have in advance already commented on existing reviews/presentations on recensio.net. </p><p>You can make changes or additions to all data at a later date.</p><p>Choose here what type of text you want to present:</p>"
+
+#: /add_new_content
+msgid "description_add_presentation_monography"
+msgstr "This link will provide you with a form for presenting your monograph on recensio.net."
+
+#: /add_new_content
+msgid "description_add_presentation_collection"
+msgstr "This link will provide you with a form for presenting your article in an edited volume on recensio.net"
+
+#: /add_new_content
+msgid "description_add_presentation_article_review"
+msgstr "This link will provide you with a form for presenting your article in a journal on recensio.net"
+
+#: /add_new_content
+msgid "description_add_presentation_online_resource"
+msgstr "This link will provide you with a form for presenting an online resource relevant for historians on recensio.net"
