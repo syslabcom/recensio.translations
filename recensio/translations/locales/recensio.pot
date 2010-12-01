@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Wed Dec  1 16:08:38 2010\n"
+"POT-Creation-Date: Wed Dec  1 16:30:28 2010\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -841,17 +841,17 @@ msgstr ""
 msgid "participating_in_recensio_net"
 msgstr ""
 
-#: recensio.policy:/browser/templates/footer.pt:67
+#: recensio.policy:/browser/templates/footer.pt:68
 #. Default: "Manage your presentations"
 msgid "manage_presentations"
 msgstr ""
 
-#: recensio.policy:/browser/templates/footer.pt:73
+#: recensio.policy:/browser/templates/footer.pt:74
 #. Default: "Create new presentation"
 msgid "create_presentation"
 msgstr ""
 
-#: recensio.policy:/browser/templates/footer.pt:79
+#: recensio.policy:/browser/templates/footer.pt:80
 #. Default: "Register and create new presentations"
 msgid "register_and_create_presentations"
 msgstr ""

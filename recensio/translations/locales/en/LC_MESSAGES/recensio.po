@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Wed Dec  1 16:08:38 2010\n"
+"POT-Creation-Date: Wed Dec  1 16:30:28 2010\n"
 "PO-Revision-Date: 2010-08-25 16:49+0200\n"
 "Last-Translator: Manuel Reinhardt <reinhardtsyslab.com>\n"
 "Language-Team: English\n"
@@ -1034,17 +1034,17 @@ msgid "participating_in_recensio_net"
 msgstr "join recensio.net"
 
 #. Default: "Manage your presentations"
-#: recensio.policy:/browser/templates/footer.pt:67
+#: recensio.policy:/browser/templates/footer.pt:68
 msgid "manage_presentations"
 msgstr "Manage your presentations"
 
 #. Default: "Create new presentation"
-#: recensio.policy:/browser/templates/footer.pt:73
+#: recensio.policy:/browser/templates/footer.pt:74
 msgid "create_presentation"
 msgstr "Create new presentation"
 
 #. Default: "Register and create new presentations"
-#: recensio.policy:/browser/templates/footer.pt:79
+#: recensio.policy:/browser/templates/footer.pt:80
 msgid "register_and_create_presentations"
 msgstr "Register and create new presentations"
 

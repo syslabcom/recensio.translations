@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Wed Dec  1 16:08:38 2010\n"
+"POT-Creation-Date: Wed Dec  1 16:30:28 2010\n"
 "PO-Revision-Date: 2010-08-25 16:47+0200\n"
 "Last-Translator: Cillian de Roiste <deroiste@syslab.com>\n"
 "Language-Team: French\n"
@@ -917,17 +917,17 @@ msgid "participating_in_recensio_net"
 msgstr ""
 
 #. Default: "Manage your presentations"
-#: recensio.policy:/browser/templates/footer.pt:67
+#: recensio.policy:/browser/templates/footer.pt:68
 msgid "manage_presentations"
 msgstr ""
 
 #. Default: "Create new presentation"
-#: recensio.policy:/browser/templates/footer.pt:73
+#: recensio.policy:/browser/templates/footer.pt:74
 msgid "create_presentation"
 msgstr ""
 
 #. Default: "Register and create new presentations"
-#: recensio.policy:/browser/templates/footer.pt:79
+#: recensio.policy:/browser/templates/footer.pt:80
 msgid "register_and_create_presentations"
 msgstr ""
 
