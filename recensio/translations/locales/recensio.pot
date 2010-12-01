@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Tue Nov 30 21:04:37 2010\n"
+"POT-Creation-Date: Wed Dec  1 13:11:27 2010\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -103,7 +103,7 @@ msgid "Regional classification"
 msgstr ""
 
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:10
-#: recensio.theme:/skins/recensio_theme/search_form.pt:783
+#: recensio.theme:/skins/recensio_theme/search_form.pt:794
 msgid "Title"
 msgstr ""
 
@@ -149,22 +149,22 @@ msgstr ""
 
 #: recensio.contenttypes:/content/presentationarticlereview.py:295
 #: recensio.contenttypes:/content/presentationcollection.py:317
-#: recensio.contenttypes:/content/presentationmonograph.py:340
-#: recensio.contenttypes:/content/presentationonlineresource.py:330
+#: recensio.contenttypes:/content/presentationmonograph.py:338
+#: recensio.contenttypes:/content/presentationonlineresource.py:331
 msgid "license-note-presentation"
 msgstr ""
 
 #: recensio.contenttypes:/content/presentationarticlereview.py:299
 #: recensio.contenttypes:/content/presentationcollection.py:321
-#: recensio.contenttypes:/content/presentationmonograph.py:344
-#: recensio.contenttypes:/content/presentationonlineresource.py:334
+#: recensio.contenttypes:/content/presentationmonograph.py:342
+#: recensio.contenttypes:/content/presentationonlineresource.py:335
 msgid "license-note-presentation-url-text"
 msgstr ""
 
 #: recensio.contenttypes:/content/presentationarticlereview.py:300
 #: recensio.contenttypes:/content/presentationcollection.py:322
-#: recensio.contenttypes:/content/presentationmonograph.py:345
-#: recensio.contenttypes:/content/presentationonlineresource.py:335
+#: recensio.contenttypes:/content/presentationmonograph.py:343
+#: recensio.contenttypes:/content/presentationonlineresource.py:336
 msgid "license-note-presentation-url-url"
 msgstr ""
 
@@ -196,7 +196,7 @@ msgstr ""
 #: recensio.contenttypes:/content/presentationarticlereview.py:54
 #: recensio.contenttypes:/content/presentationcollection.py:64
 #: recensio.contenttypes:/content/presentationmonograph.py:96
-#. Default: "Which scholarly author's work have you mainly engaged with in your article? Please give us the most detailed information possible on the &raquo;contemporary&laquo; names amongst them as the recensio.net editorial team will usually try to inform these authors of the existence of your article, your presentation, and the chance to comment on it. Only the reference author's name will be visible to the public. Please name historical reference authors (e.g. Aristotle, Charles de Gaulle) further below as subject heading."
+#. Default: "Which scholarly author's work have you mainly engaged with in your monograph? Please give us the most detailed information possible on the &raquo;contemporary&laquo; names amongst them as the recensio.net editorial team will usually try to inform these authors of the existence of your monograph, your presentation, and the chance to comment on it. Only the reference author's name will be visible to the public. Please name historical reference authors (e.g. Aristotle, Charles de Gaulle) further below as subject heading."
 msgid "description_reference_authors"
 msgstr ""
 
@@ -361,8 +361,8 @@ msgstr ""
 msgid "description_documenttypes_referenceworks"
 msgstr ""
 
-#: recensio.contenttypes:/content/reviewjournal.py:279
-#: recensio.contenttypes:/content/reviewmonograph.py:282
+#: recensio.contenttypes:/content/reviewjournal.py:280
+#: recensio.contenttypes:/content/reviewmonograph.py:284
 msgid "license-note-review"
 msgstr ""
 
@@ -773,11 +773,11 @@ msgid "label_delete"
 msgstr ""
 
 #: recensio.policy:/browser/templates/comments.pt:87
+#: recensio.theme:/skins/recensio_theme/search_form.pt:157
+#: recensio.theme:/skins/recensio_theme/search_form.pt:366
+#: recensio.theme:/skins/recensio_theme/search_form.pt:473
 #: recensio.theme:/skins/recensio_theme/search.pt:169
 #: recensio.theme:/skins/recensio_theme/search.pt:169
-#: recensio.theme:/skins/recensio_theme/search_form.pt:146
-#: recensio.theme:/skins/recensio_theme/search_form.pt:355
-#: recensio.theme:/skins/recensio_theme/search_form.pt:462
 #: recensio.theme:/browser/topical.pt:86
 #: recensio.theme:/browser/topical.pt:131
 #: recensio.theme:/browser/topical.pt:135
@@ -791,74 +791,74 @@ msgstr ""
 msgid "notify_portal_owner"
 msgstr ""
 
-#: recensio.policy:/browser/templates/footer.pt:16
-#. Default: "Pr\303\244sentationen"
-msgid "presentations"
-msgstr ""
-
-#: recensio.policy:/browser/templates/footer.pt:18
-#. Default: "Monographien"
-msgid "monographs"
-msgstr ""
-
-#: recensio.policy:/browser/templates/footer.pt:19
-#. Default: "Aufs\303\244tze"
-msgid "articles"
-msgstr ""
-
-#: recensio.policy:/browser/templates/footer.pt:20
-#. Default: "Internetressourcen"
-msgid "online_resources"
-msgstr ""
-
-#: recensio.policy:/browser/templates/footer.pt:24
-#. Default: "Themenbrowsing"
-msgid "browse_topics"
-msgstr ""
-
-#: recensio.policy:/browser/templates/footer.pt:3
-#. Default: "Rezensionen"
-msgid "reviews"
-msgstr ""
-
-#: recensio.policy:/browser/templates/footer.pt:34
-#. Default: "mitmachen bei recensio.net"
-msgid "participating_in_recensio_net"
-msgstr ""
-
-#: recensio.policy:/browser/templates/footer.pt:38
-#. Default: "Manage your presentations"
-msgid "manage_presentations"
-msgstr ""
-
-#: recensio.policy:/browser/templates/footer.pt:42
-#. Default: "Create new presentation"
-msgid "create_presentation"
-msgstr ""
-
-#: recensio.policy:/browser/templates/footer.pt:46
-#. Default: "Register and create new presentations"
-msgid "register_and_create_presentations"
-msgstr ""
-
-#: recensio.policy:/browser/templates/footer.pt:54
-#. Default: "RSS feeds"
-msgid "rss_feeds"
-msgstr ""
-
-#: recensio.policy:/browser/templates/footer.pt:60
+#: recensio.policy:/browser/templates/footer.pt:101
 #. Default: "Neue Rezensionen"
 msgid "new_reviews"
 msgstr ""
 
-#: recensio.policy:/browser/templates/footer.pt:66
+#: recensio.policy:/browser/templates/footer.pt:111
 #. Default: "Neue Pr\303\244sentationen"
 msgid "new_presentations"
 msgstr ""
 
-#: recensio.policy:/browser/templates/footer.pt:72
+#: recensio.policy:/browser/templates/footer.pt:121
 #. Default: "Neue Diskussionen"
 msgid "new_discussions"
+msgstr ""
+
+#: recensio.policy:/browser/templates/footer.pt:22
+#. Default: "Pr\303\244sentationen"
+msgid "presentations"
+msgstr ""
+
+#: recensio.policy:/browser/templates/footer.pt:28
+#. Default: "Monographien"
+msgid "monographs"
+msgstr ""
+
+#: recensio.policy:/browser/templates/footer.pt:33
+#. Default: "Aufs\303\244tze"
+msgid "articles"
+msgstr ""
+
+#: recensio.policy:/browser/templates/footer.pt:38
+#. Default: "Internetressourcen"
+msgid "online_resources"
+msgstr ""
+
+#: recensio.policy:/browser/templates/footer.pt:4
+#. Default: "Rezensionen"
+msgid "reviews"
+msgstr ""
+
+#: recensio.policy:/browser/templates/footer.pt:46
+#. Default: "Themenbrowsing"
+msgid "browse_topics"
+msgstr ""
+
+#: recensio.policy:/browser/templates/footer.pt:59
+#. Default: "mitmachen bei recensio.net"
+msgid "participating_in_recensio_net"
+msgstr ""
+
+#: recensio.policy:/browser/templates/footer.pt:67
+#. Default: "Manage your presentations"
+msgid "manage_presentations"
+msgstr ""
+
+#: recensio.policy:/browser/templates/footer.pt:73
+#. Default: "Create new presentation"
+msgid "create_presentation"
+msgstr ""
+
+#: recensio.policy:/browser/templates/footer.pt:79
+#. Default: "Register and create new presentations"
+msgid "register_and_create_presentations"
+msgstr ""
+
+#: recensio.policy:/browser/templates/footer.pt:90
+#. Default: "RSS feeds"
+msgid "rss_feeds"
 msgstr ""
 
 #: recensio.policy:/browser/templates/pdf_cut.pt:13
@@ -1536,16 +1536,6 @@ msgstr ""
 msgid "title_search_title"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search.pt:66
-#: recensio.theme:/skins/recensio_theme/search_form.pt:475
-#: recensio.theme:/skins/recensio_theme/search_form.pt:603
-#: recensio.theme:/skins/recensio_theme/search_form.pt:705
-#: recensio.theme:/skins/recensio_theme/search_form.pt:817
-#: recensio.theme:/skins/recensio_theme/search_form.pt:852
-#. Default: "Search"
-msgid "label_search"
-msgstr ""
-
 #: recensio.theme:/skins/recensio_theme/search.pt:74
 #. Default: "Did you not find what you were looking for? Try the ${advanced_search} to refine your search."
 msgid "search_results_advanced"
@@ -1567,6 +1557,11 @@ msgid "edit_your_search_options"
 msgstr ""
 
 #: recensio.theme:/skins/recensio_theme/search_form.pt:109
+#. Default: "Match any"
+msgid "description_subject_or"
+msgstr ""
+
+#: recensio.theme:/skins/recensio_theme/search_form.pt:120
 #. Default: "Match all"
 msgid "description_subject_and"
 msgstr ""
@@ -1581,82 +1576,82 @@ msgstr ""
 msgid "description_advanced_search"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:219
+#: recensio.theme:/skins/recensio_theme/search_form.pt:230
 #. Default: "Modified items since"
 msgid "label_modified_items_since"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:224
+#: recensio.theme:/skins/recensio_theme/search_form.pt:235
 #. Default: "Return items modified since you were last logged on, the last week, etc."
 msgid "help_search_modified_items_since"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:270
+#: recensio.theme:/skins/recensio_theme/search_form.pt:281
 #. Default: "Language of the Review or Presentation"
 msgid "label_recension_language"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:275
+#: recensio.theme:/skins/recensio_theme/search_form.pt:286
 #. Default: "Return items in selected languages."
 msgid "help_search_recension_language"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:296
+#: recensio.theme:/skins/recensio_theme/search_form.pt:307
 #. Default: "Language of the Reviewed Works"
 msgid "label_works_language"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:301
+#: recensio.theme:/skins/recensio_theme/search_form.pt:312
 #. Default: "Return items that review works in selected the languages."
 msgid "help_search_works_language"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:325
+#: recensio.theme:/skins/recensio_theme/search_form.pt:336
 #. Default: "Review status"
 msgid "label_review_status"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:337
+#: recensio.theme:/skins/recensio_theme/search_form.pt:348
 #. Default: "You may search for items based on their review state. If you wish to constrain results to items in certain states, select them from this list."
 msgid "help_search_review_status"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:369
+#: recensio.theme:/skins/recensio_theme/search_form.pt:380
 #. Default: "Autor/Herausgeber"
 msgid "label_review_autor"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:373
+#: recensio.theme:/skins/recensio_theme/search_form.pt:384
 #. Default: "Autor von Monographie/Aufsatz/Kommentar oder Herausgeber des Sammelbandes"
 msgid "help_review_autor"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:388
+#: recensio.theme:/skins/recensio_theme/search_form.pt:399
 #. Default: "Creator"
 msgid "label_author"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:393
+#: recensio.theme:/skins/recensio_theme/search_form.pt:404
 #. Default: "Return items created by a particular person."
 msgid "help_search_author"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:402
+#: recensio.theme:/skins/recensio_theme/search_form.pt:413
 #. Default: "Any Creator"
 msgid "label_any_author"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:425
+#: recensio.theme:/skins/recensio_theme/search_form.pt:436
 #. Default: "Zeitschriften"
 msgid "label_magazines"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:429
+#: recensio.theme:/skins/recensio_theme/search_form.pt:440
 #. Default: "Findet Artikel, die in einer der ausgew\303\244hlten Zeitschrift erschienen sind."
 msgid "help_search_magazines"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:443
+#: recensio.theme:/skins/recensio_theme/search_form.pt:454
 #. Default: "Select All/None"
 msgid "label_toggle"
 msgstr ""
@@ -1666,195 +1661,201 @@ msgstr ""
 msgid "label_search_text"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:488
-#. Default: "Titel (Buch, Aufsatz, Zeitschrift)"
-msgid "label_titleOrShortname"
-msgstr ""
-
 #: recensio.theme:/skins/recensio_theme/search_form.pt:49
 #. Default: "For a full text search, enter your search term here. Multiple words may be found by combining them with <strong>AND</strong> and <strong>OR</strong>."
 msgid "help_search_text"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:494
+#: recensio.theme:/skins/recensio_theme/search_form.pt:499
+#. Default: "Titel (Buch, Aufsatz, Zeitschrift)"
+msgid "label_titleOrShortname"
+msgstr ""
+
+#: recensio.theme:/skins/recensio_theme/search_form.pt:505
 #. Default: "Titel des rezensierten Buches, des Aufsatzes oder der Zeitschrift, in der die Review erschienen ist"
 msgid "help_titleOrShortname"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:509
+#: recensio.theme:/skins/recensio_theme/search_form.pt:520
 #. Default: "Jahr"
 msgid "label_year"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:513
+#: recensio.theme:/skins/recensio_theme/search_form.pt:524
 #. Default: "Erscheinungsjahr oder gez\303\244hltes Jahr"
 msgid "help_year"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:528
+#: recensio.theme:/skins/recensio_theme/search_form.pt:539
 #. Default: "Ort"
 msgid "label_place"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:532
+#: recensio.theme:/skins/recensio_theme/search_form.pt:543
 #. Default: "Erscheinungsort"
 msgid "help_place"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:547
+#: recensio.theme:/skins/recensio_theme/search_form.pt:558
 #. Default: "Verlag"
 msgid "label_publisher"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:551
+#: recensio.theme:/skins/recensio_theme/search_form.pt:562
 #. Default: "Verlag, in dem das Buch/die Zeitschrift erschienen ist"
 msgid "help_publisher"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:566
+#: recensio.theme:/skins/recensio_theme/search_form.pt:577
 #. Default: "Reihe"
 msgid "label_series"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:570
+#: recensio.theme:/skins/recensio_theme/search_form.pt:581
 #. Default: ""
 msgid "help_series"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:585
+#: recensio.theme:/skins/recensio_theme/search_form.pt:596
 #. Default: "ISBN"
 msgid "label_isbn"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:589
+#: recensio.theme:/skins/recensio_theme/search_form.pt:600
 #. Default: "Internationale Standardbuchnummer"
 msgid "help_isbn"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:613
+#: recensio.theme:/skins/recensio_theme/search_form.pt:624
 #. Default: "Thematische Suche"
 msgid "thematic_search"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:622
+#: recensio.theme:/skins/recensio_theme/search_form.pt:633
 #. Default: "Region"
 msgid "label_region"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:626
+#: recensio.theme:/skins/recensio_theme/search_form.pt:637
 #. Default: ""
 msgid "help_region"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:651
+#: recensio.theme:/skins/recensio_theme/search_form.pt:65
+#: recensio.theme:/skins/recensio_theme/search_form.pt:486
+#: recensio.theme:/skins/recensio_theme/search_form.pt:614
+#: recensio.theme:/skins/recensio_theme/search_form.pt:716
+#: recensio.theme:/skins/recensio_theme/search_form.pt:828
+#: recensio.theme:/skins/recensio_theme/search_form.pt:863
+#: recensio.theme:/skins/recensio_theme/search.pt:66
+#. Default: "Search"
+msgid "label_search"
+msgstr ""
+
+#: recensio.theme:/skins/recensio_theme/search_form.pt:662
 #. Default: "Epoche"
 msgid "label_epoch"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:655
+#: recensio.theme:/skins/recensio_theme/search_form.pt:666
 #. Default: ""
 msgid "help_epoch"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:68
-#. Default: "Tags"
-msgid "label_tags"
-msgstr ""
-
-#: recensio.theme:/skins/recensio_theme/search_form.pt:680
+#: recensio.theme:/skins/recensio_theme/search_form.pt:691
 #. Default: "Thema"
 msgid "label_topic"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:684
+#: recensio.theme:/skins/recensio_theme/search_form.pt:695
 #. Default: ""
 msgid "help_topic"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:70
-#. Default: "Return items matching some or all of these tags. Multiple words may be found by pressing <strong>Ctrl</strong> (or <strong>Apple</strong> key on Mac) while clicking the keywords."
-msgid "help_search_tags"
-msgstr ""
-
-#: recensio.theme:/skins/recensio_theme/search_form.pt:717
+#: recensio.theme:/skins/recensio_theme/search_form.pt:728
 #. Default: "Title"
 msgid "label_title"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:722
+#: recensio.theme:/skins/recensio_theme/search_form.pt:733
 #. Default: "Return items matching this title."
 msgid "help_search_title"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:740
+#: recensio.theme:/skins/recensio_theme/search_form.pt:751
 #. Default: "Description"
 msgid "label_description"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:745
+#: recensio.theme:/skins/recensio_theme/search_form.pt:756
 #. Default: "Return items matching this description. Multiple words may be found by combining them with <strong>AND</strong> and <strong>OR</strong>."
 msgid "help_search_description"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:761
+#: recensio.theme:/skins/recensio_theme/search_form.pt:772
 msgid "Display options"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:765
+#: recensio.theme:/skins/recensio_theme/search_form.pt:776
 msgid "Sort results"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:767
+#: recensio.theme:/skins/recensio_theme/search_form.pt:778
 msgid "Sort the Search Results based on the selected criterion"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:774
+#: recensio.theme:/skins/recensio_theme/search_form.pt:785
 msgid "Creation Date"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:777
+#: recensio.theme:/skins/recensio_theme/search_form.pt:788
 msgid "Relevance"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:780
+#: recensio.theme:/skins/recensio_theme/search_form.pt:79
+#. Default: "Tags"
+msgid "label_tags"
+msgstr ""
+
+#: recensio.theme:/skins/recensio_theme/search_form.pt:791
 msgid "Modification Date"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:792
+#: recensio.theme:/skins/recensio_theme/search_form.pt:803
 #. Default: "Results per page"
 msgid "label_results_per_page"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:794
+#: recensio.theme:/skins/recensio_theme/search_form.pt:805
 #. Default: "The number of results that is displayed on one page."
 msgid "description_results_per_page"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:801
+#: recensio.theme:/skins/recensio_theme/search_form.pt:81
+#. Default: "Return items matching some or all of these tags. Multiple words may be found by pressing <strong>Ctrl</strong> (or <strong>Apple</strong> key on Mac) while clicking the keywords."
+msgid "help_search_tags"
+msgstr ""
+
+#: recensio.theme:/skins/recensio_theme/search_form.pt:812
 msgid "30"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:804
+#: recensio.theme:/skins/recensio_theme/search_form.pt:815
 msgid "60"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:807
+#: recensio.theme:/skins/recensio_theme/search_form.pt:818
 msgid "90"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:834
+#: recensio.theme:/skins/recensio_theme/search_form.pt:845
 #. Default: ""
 msgid "help_recensio_id"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:845
+#: recensio.theme:/skins/recensio_theme/search_form.pt:856
 #. Default: "recensio-ID"
 msgid "label_recensio_id"
-msgstr ""
-
-#: recensio.theme:/skins/recensio_theme/search_form.pt:98
-#. Default: "Match any"
-msgid "description_subject_or"
 msgstr ""
 
 #: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:102
