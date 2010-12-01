@@ -1251,7 +1251,7 @@ msgstr "Presentations"
 #: recensio.policy:/missing_18n_labels.py:58
 #: recensio.policy:/missing_18n_labels.py:77
 msgid "label_participate"
-msgstr "join recensio.net"
+msgstr "join"
 
 #: recensio.policy:/missing_18n_labels.py:19
 #: recensio.policy:/missing_18n_labels.py:59

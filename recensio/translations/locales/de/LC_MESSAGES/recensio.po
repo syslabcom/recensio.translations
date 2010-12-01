@@ -1254,7 +1254,7 @@ msgstr "Präsentationen"
 #: recensio.policy:/missing_18n_labels.py:58
 #: recensio.policy:/missing_18n_labels.py:77
 msgid "label_participate"
-msgstr "mitmachen bei recensio.net"
+msgstr "mitmachen"
 
 #: recensio.policy:/missing_18n_labels.py:19
 #: recensio.policy:/missing_18n_labels.py:59
