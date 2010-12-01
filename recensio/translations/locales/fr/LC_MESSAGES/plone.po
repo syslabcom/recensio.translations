@@ -100,3 +100,15 @@ msgstr ""
 "présentation et celle-ci sera plus susceptible d’être commentée. Vous avez "
 "également la possibilité d’ajouter ou de modifier des informations "
 "ultérieurement."
+
+#. Default: "Suche in"
+msgid "label_item_type"
+msgstr "Chercher dans"
+
+#. Default: "Einstellungsdatum"
+msgid "label_new_items_since"
+msgstr "Date de création"
+
+#. Default: "Schlagwörter"
+msgid "label_tags"
+msgstr "Mots-clés"

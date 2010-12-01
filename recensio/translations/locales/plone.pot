@@ -96,3 +96,15 @@ msgstr ""
 #           or additions to all data at a later date."
 msgid "description_presentation_article"
 msgstr ""
+
+#. Default: "Suche in"
+msgid "label_item_type"
+msgstr ""
+
+#. Default: "Einstellungsdatum"
+msgid "label_new_items_since"
+msgstr ""
+
+#. Default: "Schlagwörter"
+msgid "label_tags"
+msgstr ""

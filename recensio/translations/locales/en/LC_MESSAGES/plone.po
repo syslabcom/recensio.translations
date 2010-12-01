@@ -93,3 +93,15 @@ msgstr ""
 "academic languages. This way your presentation will attract much more "
 "attention and discussion of your statements is much more likely.\n"
 "You can make changes or additions to all data at a later date."
+
+#. Default: "Suche in"
+msgid "label_item_type"
+msgstr "Search in"
+
+#. Default: "Einstellungsdatum"
+msgid "label_new_items_since"
+msgstr "Date of document creation"
+
+#. Default: "Schlagwörter"
+msgid "label_tags"
+msgstr "Subject heading"
