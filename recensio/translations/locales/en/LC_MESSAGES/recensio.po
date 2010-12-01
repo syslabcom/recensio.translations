@@ -2185,7 +2185,7 @@ msgstr ""
 #~ msgstr "A new review of your work %s has been published!"
 
 #: /add_new_content
-msgid "text_create_presentation"
+msgid "heading_create_presentation"
 msgstr "Create a new presentation"
 
 #: /add_new_content

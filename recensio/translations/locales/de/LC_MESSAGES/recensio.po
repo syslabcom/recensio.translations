@@ -2227,7 +2227,7 @@ msgstr ""
 #~ msgstr "Publikationen"
 
 #: /add_new_content
-msgid "text_create_presentation"
+msgid "heading_create_presentation"
 msgstr "Neue Präsentation erstellen"
 
 #: /add_new_content
