@@ -252,7 +252,7 @@ msgid "First name"
 msgstr "Vorname"
 
 #: recensio.contenttypes:/content/presentationmonograph.py:39
-msgid "Table of contents of monograph you are presenting"
+msgid "Table of contents of the monograph you are presenting"
 msgstr "Inhaltsverzeichnis der von Ihnen präsentierten Monographie"
 
 #: recensio.contenttypes:/content/presentationmonograph.py:50
