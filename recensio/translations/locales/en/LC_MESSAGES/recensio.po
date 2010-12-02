@@ -14,14 +14,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Thu Dec  2 16:16:11 2010\n"
+"POT-Creation-Date: Thu Dec  2 15:57:29 2010\n"
 "PO-Revision-Date: 2010-08-25 16:49+0200\n"
 "Last-Translator: Manuel Reinhardt <reinhardtsyslab.com>\n"
 "Language-Team: English\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "Generated-By: zope/app/locales/extract.py\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Language-Code: en\n"
@@ -158,10 +158,6 @@ msgstr ""
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:83
 msgid "Thank you!"
 msgstr ""
-
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:86
-msgid "automatic import of metadata"
-msgstr "automatic import of metadata"
 
 #: recensio.contenttypes:/content/presentationarticlereview.py:295
 #: recensio.contenttypes:/content/presentationcollection.py:317
@@ -964,14 +960,14 @@ msgid "label_delete"
 msgstr "Löschen"
 
 #: recensio.policy:/browser/templates/comments.pt:87
-#: recensio.theme:/skins/recensio_theme/search.pt:169
-#: recensio.theme:/skins/recensio_theme/search_form.pt:154
-#: recensio.theme:/skins/recensio_theme/search_form.pt:363
-#: recensio.theme:/skins/recensio_theme/search_form.pt:470
 #: recensio.theme:/browser/topical.pt:86
 #: recensio.theme:/browser/topical.pt:131
 #: recensio.theme:/browser/topical.pt:135
 #: recensio.theme:/browser/topical.pt:192
+#: recensio.theme:/skins/recensio_theme/search.pt:169
+#: recensio.theme:/skins/recensio_theme/search_form.pt:154
+#: recensio.theme:/skins/recensio_theme/search_form.pt:363
+#: recensio.theme:/skins/recensio_theme/search_form.pt:470
 msgid "${DYNAMIC_CONTENT}"
 msgstr ""
 
@@ -1099,43 +1095,43 @@ msgid "presented resource"
 msgstr ""
 
 #: recensio.policy:/missing_18n_labels.py:100
-msgid "Polish"
-msgstr ""
-
-#: recensio.policy:/missing_18n_labels.py:101
 msgid "Portuguese"
 msgstr ""
 
-#: recensio.policy:/missing_18n_labels.py:102
+#: recensio.policy:/missing_18n_labels.py:101
 msgid "Romanian"
 msgstr ""
 
-#: recensio.policy:/missing_18n_labels.py:103
+#: recensio.policy:/missing_18n_labels.py:102
 msgid "Russian"
 msgstr ""
 
-#: recensio.policy:/missing_18n_labels.py:104
+#: recensio.policy:/missing_18n_labels.py:103
 msgid "Serbian"
 msgstr ""
 
-#: recensio.policy:/missing_18n_labels.py:105
+#: recensio.policy:/missing_18n_labels.py:104
 msgid "Slovak"
 msgstr ""
 
-#: recensio.policy:/missing_18n_labels.py:106
+#: recensio.policy:/missing_18n_labels.py:105
 msgid "Slovenian"
 msgstr ""
 
-#: recensio.policy:/missing_18n_labels.py:107
+#: recensio.policy:/missing_18n_labels.py:106
 msgid "Spanish"
 msgstr ""
 
-#: recensio.policy:/missing_18n_labels.py:108
+#: recensio.policy:/missing_18n_labels.py:107
 msgid "Swedish"
 msgstr ""
 
-#: recensio.policy:/missing_18n_labels.py:109
+#: recensio.policy:/missing_18n_labels.py:108
 msgid "Turkish"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:109
+msgid "Ukrainian"
 msgstr ""
 
 #: recensio.policy:/missing_18n_labels.py:11
@@ -1143,70 +1139,66 @@ msgid "label_by_author"
 msgstr ""
 
 #: recensio.policy:/missing_18n_labels.py:110
-msgid "Ukrainian"
-msgstr ""
-
-#: recensio.policy:/missing_18n_labels.py:111
 msgid "new_reviews"
 msgstr "New Reviews"
 
-#: recensio.policy:/missing_18n_labels.py:112
+#: recensio.policy:/missing_18n_labels.py:111
 msgid "new_presentations"
 msgstr "New Presentations"
 
-#: recensio.policy:/missing_18n_labels.py:113
+#: recensio.policy:/missing_18n_labels.py:112
 msgid "new_discussions"
 msgstr "New Discussions"
 
-#: recensio.policy:/missing_18n_labels.py:114
+#: recensio.policy:/missing_18n_labels.py:113
 msgid "presentations"
 msgstr "Presentations"
 
-#: recensio.policy:/missing_18n_labels.py:115
+#: recensio.policy:/missing_18n_labels.py:114
 msgid "monographs"
 msgstr "Monographs"
 
-#: recensio.policy:/missing_18n_labels.py:116
+#: recensio.policy:/missing_18n_labels.py:115
 msgid "articles"
 msgstr "Articles"
 
-#: recensio.policy:/missing_18n_labels.py:117
+#: recensio.policy:/missing_18n_labels.py:116
 msgid "online_resources"
 msgstr "Online Resources"
 
-#: recensio.policy:/missing_18n_labels.py:118
+#: recensio.policy:/missing_18n_labels.py:117
 msgid "reviews"
 msgstr "Reviews"
 
-#: recensio.policy:/missing_18n_labels.py:119
+#: recensio.policy:/missing_18n_labels.py:118
 msgid "browse_topics"
 msgstr "Content Browsing"
+
+#: recensio.policy:/missing_18n_labels.py:119
+msgid "participating_in_recensio_net"
+msgstr "join recensio.net"
 
 #: recensio.policy:/missing_18n_labels.py:12
 msgid "Issue"
 msgstr ""
 
 #: recensio.policy:/missing_18n_labels.py:120
-msgid "participating_in_recensio_net"
-msgstr "join recensio.net"
-
-#: recensio.policy:/missing_18n_labels.py:121
 msgid "manage_presentations"
 msgstr "Manage your presentations"
 
-#: recensio.policy:/missing_18n_labels.py:122
+#: recensio.policy:/missing_18n_labels.py:121
 msgid "create_presentation"
 msgstr "Create new presentation"
 
-#: recensio.policy:/missing_18n_labels.py:123
+#: recensio.policy:/missing_18n_labels.py:122
 msgid "register_and_create_presentations"
 msgstr "Register and create new presentations"
 
-#: recensio.policy:/missing_18n_labels.py:124
+#: recensio.policy:/missing_18n_labels.py:123
 msgid "rss_feeds"
 msgstr "RSS feeds"
 
-#: recensio.policy:/missing_18n_labels.py:125
+#: recensio.policy:/missing_18n_labels.py:124
 msgid "text_create_presentation"
 msgstr ""
 "<p>On recensio.net, you as an author of historical literature can give a "
@@ -1226,37 +1218,37 @@ msgstr ""
 "recensio.net. </p><p>You can make changes or additions to all data at a "
 "later date.</p><p>Choose here what type of text you want to present:</p>"
 
-#: recensio.policy:/missing_18n_labels.py:126
+#: recensio.policy:/missing_18n_labels.py:125
 msgid "heading_create_presentation"
 msgstr "Create a new presentation"
 
-#: recensio.policy:/missing_18n_labels.py:127
+#: recensio.policy:/missing_18n_labels.py:126
 msgid "description_add_presentation_monography"
 msgstr ""
 "This link will provide you with a form for presenting your monograph on "
 "recensio.net."
 
-#: recensio.policy:/missing_18n_labels.py:128
+#: recensio.policy:/missing_18n_labels.py:127
 msgid "description_add_presentation_collection"
 msgstr ""
 "This link will provide you with a form for presenting your article in an "
 "edited volume on recensio.net"
 
-#: recensio.policy:/missing_18n_labels.py:129
+#: recensio.policy:/missing_18n_labels.py:128
 msgid "description_add_presentation_article_review"
 msgstr ""
 "This link will provide you with a form for presenting your article in a "
 "journal on recensio.net"
 
-#: recensio.policy:/missing_18n_labels.py:13
-msgid "Publication"
-msgstr ""
-
-#: recensio.policy:/missing_18n_labels.py:130
+#: recensio.policy:/missing_18n_labels.py:129
 msgid "description_add_presentation_online_resource"
 msgstr ""
 "This link will provide you with a form for presenting an online resource "
 "relevant for historians on recensio.net"
+
+#: recensio.policy:/missing_18n_labels.py:13
+msgid "Publication"
+msgstr ""
 
 #: recensio.policy:/missing_18n_labels.py:14
 msgid "Results per page"
@@ -1268,25 +1260,25 @@ msgstr ""
 
 #: recensio.policy:/missing_18n_labels.py:16
 #: recensio.policy:/missing_18n_labels.py:56
-#: recensio.policy:/missing_18n_labels.py:75
+#: recensio.policy:/missing_18n_labels.py:74
 msgid "label_reviews"
 msgstr "Reviews"
 
 #: recensio.policy:/missing_18n_labels.py:17
 #: recensio.policy:/missing_18n_labels.py:57
-#: recensio.policy:/missing_18n_labels.py:76
+#: recensio.policy:/missing_18n_labels.py:75
 msgid "label_presentations"
 msgstr "Presentations"
 
 #: recensio.policy:/missing_18n_labels.py:18
 #: recensio.policy:/missing_18n_labels.py:58
-#: recensio.policy:/missing_18n_labels.py:77
+#: recensio.policy:/missing_18n_labels.py:76
 msgid "label_participate"
 msgstr "join"
 
 #: recensio.policy:/missing_18n_labels.py:19
 #: recensio.policy:/missing_18n_labels.py:59
-#: recensio.policy:/missing_18n_labels.py:78
+#: recensio.policy:/missing_18n_labels.py:77
 msgid "label_press"
 msgstr "Press"
 
@@ -1321,7 +1313,7 @@ msgstr ""
 #: recensio.policy:/missing_18n_labels.py:26
 #: recensio.policy:/missing_18n_labels.py:47
 #: recensio.policy:/missing_18n_labels.py:64
-#: recensio.policy:/missing_18n_labels.py:67
+#: recensio.policy:/missing_18n_labels.py:66
 msgid "description_presentation_monograph"
 msgstr ""
 "Please fill in the following form in order to present your monograph on "
@@ -1341,68 +1333,67 @@ msgid "Presentation Article Review"
 msgstr ""
 
 #: recensio.policy:/missing_18n_labels.py:29
-#: recensio.policy:/missing_18n_labels.py:65
-msgid "Presentation Collection"
-msgstr "Presentation Article in Edited Volume"
-
-#: recensio.policy:/missing_18n_labels.py:30
-msgid "Presentation Monograph"
-msgstr ""
-
-#: recensio.policy:/missing_18n_labels.py:31
-msgid "Review Journal"
-msgstr ""
-
-#: recensio.policy:/missing_18n_labels.py:32
-msgid "Review Monograph"
-msgstr ""
-
-#: recensio.policy:/missing_18n_labels.py:33
-msgid "Epoch"
-msgstr ""
-
-#: recensio.policy:/missing_18n_labels.py:34
-msgid "Region"
-msgstr ""
-
-#: recensio.policy:/missing_18n_labels.py:35
-msgid "Topic"
-msgstr ""
-
-#: recensio.policy:/missing_18n_labels.py:36
-msgid "Pending"
-msgstr ""
-
-#: recensio.policy:/missing_18n_labels.py:37
-msgid "Pending review"
-msgstr ""
-
-#: recensio.policy:/missing_18n_labels.py:38
-msgid "Private"
-msgstr ""
-
-#: recensio.policy:/missing_18n_labels.py:39
-msgid "Published"
-msgstr ""
-
-#: recensio.policy:/missing_18n_labels.py:40
-msgid "Folder"
-msgstr ""
-
-#: recensio.policy:/missing_18n_labels.py:41
-msgid "Listen to audio for this captcha"
-msgstr ""
-
-#: recensio.policy:/missing_18n_labels.py:42
 msgid "Presentation Article in Journal"
 msgstr ""
 
-#: recensio.policy:/missing_18n_labels.py:43
+#: recensio.policy:/missing_18n_labels.py:30
 msgid "Presentation Article edited Volume"
 msgstr ""
 
+#: recensio.policy:/missing_18n_labels.py:31
+msgid "Presentation Collection"
+msgstr "Presentation Article in Edited Volume"
+
+#: recensio.policy:/missing_18n_labels.py:32
+msgid "Presentation Monograph"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:33
+msgid "Review Journal"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:34
+msgid "Review Monograph"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:35
+msgid "Epoch"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:36
+msgid "Region"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:37
+msgid "Topic"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:38
+msgid "Pending"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:39
+msgid "Pending review"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:40
+msgid "Private"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:41
+msgid "Published"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:42
+msgid "Folder"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:43
+msgid "Listen to audio for this captcha"
+msgstr ""
+
 #: recensio.policy:/missing_18n_labels.py:44
-#: recensio.policy:/missing_18n_labels.py:66
+#: recensio.policy:/missing_18n_labels.py:65
 msgid "label_schema_review"
 msgstr ""
 
@@ -1415,7 +1406,7 @@ msgid "label_schema_presented_text"
 msgstr "Presented text"
 
 #: recensio.policy:/missing_18n_labels.py:48
-#: recensio.policy:/missing_18n_labels.py:68
+#: recensio.policy:/missing_18n_labels.py:67
 msgid "description_presentation_collection"
 msgstr ""
 "Please fill in the following form in order to present your contribution to "
@@ -1427,7 +1418,7 @@ msgstr ""
 "You can make changes or additions to all data at a later date."
 
 #: recensio.policy:/missing_18n_labels.py:49
-#: recensio.policy:/missing_18n_labels.py:69
+#: recensio.policy:/missing_18n_labels.py:68
 msgid "description_presentation_online_resource"
 msgstr ""
 "Please fill in the following form in order to present an online resource "
@@ -1449,7 +1440,7 @@ msgstr ""
 "download. Here you can read the licence’s text:"
 
 #: recensio.policy:/missing_18n_labels.py:50
-#: recensio.policy:/missing_18n_labels.py:70
+#: recensio.policy:/missing_18n_labels.py:69
 msgid "description_presentation_article"
 msgstr ""
 "Please fill in the following form in order to present your article on "
@@ -1462,110 +1453,114 @@ msgstr ""
 
 #: recensio.policy:/missing_18n_labels.py:6
 #: recensio.policy:/missing_18n_labels.py:52
-#: recensio.policy:/missing_18n_labels.py:71
+#: recensio.policy:/missing_18n_labels.py:70
 msgid "text_presentation_of"
 msgstr "presentation of:"
 
 #: recensio.policy:/missing_18n_labels.py:7
 #: recensio.policy:/missing_18n_labels.py:53
-#: recensio.policy:/missing_18n_labels.py:72
+#: recensio.policy:/missing_18n_labels.py:71
 msgid "text_in"
 msgstr "in:"
 
-#: recensio.policy:/missing_18n_labels.py:79
+#: recensio.policy:/missing_18n_labels.py:78
 msgid "Albanian"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:79
+msgid "Armenian"
 msgstr ""
 
 #: recensio.policy:/missing_18n_labels.py:8
 #: recensio.policy:/missing_18n_labels.py:54
-#: recensio.policy:/missing_18n_labels.py:73
+#: recensio.policy:/missing_18n_labels.py:72
 msgid "text_pages"
 msgstr "p."
 
 #: recensio.policy:/missing_18n_labels.py:80
-msgid "Armenian"
-msgstr ""
-
-#: recensio.policy:/missing_18n_labels.py:81
 msgid "Azerbaijani"
 msgstr ""
 
-#: recensio.policy:/missing_18n_labels.py:82
+#: recensio.policy:/missing_18n_labels.py:81
 msgid "Bulgarian"
 msgstr ""
 
-#: recensio.policy:/missing_18n_labels.py:83
+#: recensio.policy:/missing_18n_labels.py:82
 msgid "Catalan"
 msgstr ""
 
-#: recensio.policy:/missing_18n_labels.py:84
+#: recensio.policy:/missing_18n_labels.py:83
 msgid "Croatian"
 msgstr ""
 
-#: recensio.policy:/missing_18n_labels.py:85
+#: recensio.policy:/missing_18n_labels.py:84
 msgid "Czech"
 msgstr ""
 
-#: recensio.policy:/missing_18n_labels.py:86
+#: recensio.policy:/missing_18n_labels.py:85
 msgid "Danish"
 msgstr ""
 
-#: recensio.policy:/missing_18n_labels.py:87
+#: recensio.policy:/missing_18n_labels.py:86
 msgid "Dutch"
 msgstr ""
 
-#: recensio.policy:/missing_18n_labels.py:88
+#: recensio.policy:/missing_18n_labels.py:87
 msgid "English"
 msgstr ""
 
-#: recensio.policy:/missing_18n_labels.py:89
+#: recensio.policy:/missing_18n_labels.py:88
 msgid "Estonian"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:89
+msgid "Finnish"
 msgstr ""
 
 #: recensio.policy:/missing_18n_labels.py:9
 #: recensio.policy:/missing_18n_labels.py:55
-#: recensio.policy:/missing_18n_labels.py:74
+#: recensio.policy:/missing_18n_labels.py:73
 msgid "text_review_of"
 msgstr "review of:"
 
 #: recensio.policy:/missing_18n_labels.py:90
-msgid "Finnish"
-msgstr ""
-
-#: recensio.policy:/missing_18n_labels.py:91
 msgid "French"
 msgstr ""
 
-#: recensio.policy:/missing_18n_labels.py:92
+#: recensio.policy:/missing_18n_labels.py:91
 msgid "Georgian"
 msgstr ""
 
-#: recensio.policy:/missing_18n_labels.py:93
+#: recensio.policy:/missing_18n_labels.py:92
 msgid "German"
 msgstr ""
 
-#: recensio.policy:/missing_18n_labels.py:94
+#: recensio.policy:/missing_18n_labels.py:93
 msgid "Greek"
 msgstr ""
 
-#: recensio.policy:/missing_18n_labels.py:95
+#: recensio.policy:/missing_18n_labels.py:94
 msgid "Hungarian"
 msgstr ""
 
-#: recensio.policy:/missing_18n_labels.py:96
+#: recensio.policy:/missing_18n_labels.py:95
 msgid "Italian"
 msgstr ""
 
-#: recensio.policy:/missing_18n_labels.py:97
+#: recensio.policy:/missing_18n_labels.py:96
 msgid "Latvian"
 msgstr ""
 
-#: recensio.policy:/missing_18n_labels.py:98
+#: recensio.policy:/missing_18n_labels.py:97
 msgid "Lithuanian"
 msgstr ""
 
-#: recensio.policy:/missing_18n_labels.py:99
+#: recensio.policy:/missing_18n_labels.py:98
 msgid "Norwegian"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:99
+msgid "Polish"
 msgstr ""
 
 #. Default: "Academic title"
@@ -1744,6 +1739,42 @@ msgstr ""
 msgid "heading_browsing_results"
 msgstr ""
 
+#. Default: "${number} items matching"
+#: recensio.theme:/browser/topical.pt:167
+#: recensio.theme:/skins/recensio_theme/search.pt:130
+msgid "batch_x_items_matching_your_criteria"
+msgstr ""
+
+#. Default: "(reviewed by ${review_author_firstname} ${review_author_lastname})"
+#: recensio.theme:/browser/topical.pt:221
+#: recensio.theme:/skins/recensio_theme/search.pt:182
+msgid "reviewed_by"
+msgstr ""
+
+#. Default: "(presented by ${review_author_firstname} ${review_author_lastname})"
+#: recensio.theme:/browser/topical.pt:223
+#: recensio.theme:/skins/recensio_theme/search.pt:183
+msgid "presented_by"
+msgstr ""
+
+#. Default: "last modified"
+#: recensio.theme:/browser/topical.pt:230
+#: recensio.theme:/skins/recensio_theme/search.pt:192
+msgid "box_last_modified"
+msgstr ""
+
+#. Default: "Filed under:"
+#: recensio.theme:/browser/topical.pt:241
+#: recensio.theme:/skins/recensio_theme/search.pt:204
+msgid "label_filed_under"
+msgstr ""
+
+#. Default: "Relevance: ${percentage}%"
+#: recensio.theme:/browser/topical.pt:258
+#: recensio.theme:/skins/recensio_theme/search.pt:221
+msgid "label_relevance_percentage"
+msgstr ""
+
 #: recensio.theme:/browser/topical.pt:91
 #: recensio.theme:/browser/topical.pt:116
 #: recensio.theme:/browser/topical.pt:139
@@ -1755,12 +1786,6 @@ msgstr ""
 msgid "heading_search_results"
 msgstr ""
 
-#. Default: "${number} items matching"
-#: recensio.theme:/skins/recensio_theme/search.pt:130
-#: recensio.theme:/browser/topical.pt:167
-msgid "batch_x_items_matching_your_criteria"
-msgstr ""
-
 #. Default: "Subscribe to an always-updated feed of these search terms"
 #: recensio.theme:/skins/recensio_theme/search.pt:140
 msgid "title_rss_feed"
@@ -1769,36 +1794,6 @@ msgstr ""
 #. Default: "No results were found."
 #: recensio.theme:/skins/recensio_theme/search.pt:148
 msgid "description_no_results_found"
-msgstr ""
-
-#. Default: "(reviewed by ${review_author_firstname} ${review_author_lastname})"
-#: recensio.theme:/skins/recensio_theme/search.pt:182
-#: recensio.theme:/browser/topical.pt:221
-msgid "reviewed_by"
-msgstr ""
-
-#. Default: "(presented by ${review_author_firstname} ${review_author_lastname})"
-#: recensio.theme:/skins/recensio_theme/search.pt:183
-#: recensio.theme:/browser/topical.pt:223
-msgid "presented_by"
-msgstr ""
-
-#. Default: "last modified"
-#: recensio.theme:/skins/recensio_theme/search.pt:192
-#: recensio.theme:/browser/topical.pt:230
-msgid "box_last_modified"
-msgstr ""
-
-#. Default: "Filed under:"
-#: recensio.theme:/skins/recensio_theme/search.pt:204
-#: recensio.theme:/browser/topical.pt:241
-msgid "label_filed_under"
-msgstr ""
-
-#. Default: "Relevance: ${percentage}%"
-#: recensio.theme:/skins/recensio_theme/search.pt:221
-#: recensio.theme:/browser/topical.pt:258
-msgid "label_relevance_percentage"
 msgstr ""
 
 #. Default: "Search Site"
@@ -2193,6 +2188,9 @@ msgstr ""
 #: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:96
 msgid "label_secondary_nav_monographien"
 msgstr ""
+
+#~ msgid "automatic import of metadata"
+#~ msgstr "automatic import of metadata"
 
 #~ msgid "Address"
 #~ msgstr "Postal Address"
