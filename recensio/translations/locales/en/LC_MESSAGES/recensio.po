@@ -14,14 +14,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Wed Dec  1 16:30:28 2010\n"
+"POT-Creation-Date: Thu Dec  2 14:58:05 2010\n"
 "PO-Revision-Date: 2010-08-25 16:49+0200\n"
 "Last-Translator: Manuel Reinhardt <reinhardtsyslab.com>\n"
 "Language-Team: English\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
 "Generated-By: zope/app/locales/extract.py\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Language-Code: en\n"
@@ -48,19 +48,19 @@ msgid "license-note-heading"
 msgstr "Terms of licence:"
 
 #. Default: "Review page 1"
-#: recensio.contenttypes:/browser/review.pt:53
+#: recensio.contenttypes:/browser/review.pt:55
 #, fuzzy
 msgid "review_page_1"
 msgstr "review of:"
 
 #. Default: "Review page 2"
-#: recensio.contenttypes:/browser/review.pt:58
+#: recensio.contenttypes:/browser/review.pt:61
 #, fuzzy
 msgid "review_page_2"
 msgstr "review of:"
 
 #. Default: "Review page 3"
-#: recensio.contenttypes:/browser/review.pt:64
+#: recensio.contenttypes:/browser/review.pt:67
 #, fuzzy
 msgid "review_page_3"
 msgstr "review of:"
@@ -159,6 +159,10 @@ msgstr ""
 msgid "Thank you!"
 msgstr ""
 
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:86
+msgid "automatic import of metadata"
+msgstr "automatic import of metadata"
+
 #: recensio.contenttypes:/content/presentationarticlereview.py:295
 #: recensio.contenttypes:/content/presentationcollection.py:317
 #: recensio.contenttypes:/content/presentationmonograph.py:338
@@ -211,7 +215,7 @@ msgid "Volume"
 msgstr ""
 
 #: recensio.contenttypes:/content/presentationarticlereview.py:53
-#: recensio.contenttypes:/content/schemata.py:645
+#: recensio.contenttypes:/content/schemata.py:644
 msgid "Number"
 msgstr ""
 
@@ -224,7 +228,7 @@ msgstr ""
 #           the public. Please name historical reference authors
 #           (e.g. Aristotle, Charles de Gaulle) further below as
 #           subject heading."
-#. Default: "Which scholarly author's work have you mainly engaged with in your monograph? Please give us the most detailed information possible on the &raquo;contemporary&laquo; names amongst them as the recensio.net editorial team will usually try to inform these authors of the existence of your monograph, your presentation, and the chance to comment on it. Only the reference author's name will be visible to the public. Please name historical reference authors (e.g. Aristotle, Charles de Gaulle) further below as subject heading."
+#. Default: "Which scholarly author's work have you mainly engaged with in your article? Please give us the most detailed information possible on the &raquo;contemporary&laquo; names amongst them as the recensio.net editorial team will usually try to inform these authors of the existence of your article, your presentation, and the chance to comment on it. Only the reference author's name will be visible to the public. Please name historical reference authors (e.g. Aristotle, Charles de Gaulle) further below as subject heading."
 #: recensio.contenttypes:/content/presentationarticlereview.py:54
 #: recensio.contenttypes:/content/presentationcollection.py:64
 #: recensio.contenttypes:/content/presentationmonograph.py:96
@@ -470,11 +474,11 @@ msgid "Email address"
 msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:217
-msgid "Address"
+msgid "Postal Address"
 msgstr "Postal Address"
 
 #: recensio.contenttypes:/content/schemata.py:218
-msgid "Phone"
+msgid "Phone number"
 msgstr "Phone number"
 
 #: recensio.contenttypes:/content/schemata.py:228
@@ -512,7 +516,7 @@ msgid "Email address (not publicly visible)"
 msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:297
-msgid "Personal webpage"
+msgid "Personal webpage URL/URN"
 msgstr "Personal webpage URL/URN"
 
 #. Default: "Here you can link to your personal website (e.g. within a network of historians, a university or research institution). It should preferably be persistent or be corrected by you in case of changes (e.g. change of university)."
@@ -582,8 +586,8 @@ msgid "Generated Pdf"
 msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:467
-msgid "HTML"
-msgstr ""
+msgid "Core Statements"
+msgstr "Core Statements"
 
 #: recensio.contenttypes:/content/schemata.py:477
 msgid "Partner URL"
@@ -649,16 +653,16 @@ msgstr ""
 msgid "description_isbn"
 msgstr "With or without hyphens."
 
-#: recensio.contenttypes:/content/schemata.py:604
+#: recensio.contenttypes:/content/schemata.py:603
 msgid "Author (monograph)"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:614
+#: recensio.contenttypes:/content/schemata.py:613
 msgid "ISSN"
 msgstr ""
 
 #. Default: "With or without hyphens. In case of several numbers please choose the hard cover edition."
-#: recensio.contenttypes:/content/schemata.py:615
+#: recensio.contenttypes:/content/schemata.py:614
 #, fuzzy
 msgid "description_issn"
 msgstr ""
@@ -668,25 +672,24 @@ msgstr ""
 "assigned to an icon indicating in front of the respective author’s name "
 "which type of text he/she has written."
 
-#: recensio.contenttypes:/content/schemata.py:629
+#: recensio.contenttypes:/content/schemata.py:628
 msgid "Shortname"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:637
+#: recensio.contenttypes:/content/schemata.py:636
 msgid "Vol."
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:653
+#: recensio.contenttypes:/content/schemata.py:652
 msgid "Official year of publication (if different)"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:658
+#: recensio.contenttypes:/content/schemata.py:657
 msgid "Actual year of publication"
 msgstr ""
 
 #. Default: "Information on presented work"
 #: recensio.contenttypes:/content/schemata.py:68
-#, fuzzy
 msgid "description_presentation_title"
 msgstr ""
 
@@ -961,10 +964,10 @@ msgid "label_delete"
 msgstr "Löschen"
 
 #: recensio.policy:/browser/templates/comments.pt:87
+#: recensio.theme:/skins/recensio_theme/search.pt:169
 #: recensio.theme:/skins/recensio_theme/search_form.pt:157
 #: recensio.theme:/skins/recensio_theme/search_form.pt:366
 #: recensio.theme:/skins/recensio_theme/search_form.pt:473
-#: recensio.theme:/skins/recensio_theme/search.pt:169
 #: recensio.theme:/browser/topical.pt:86
 #: recensio.theme:/browser/topical.pt:131
 #: recensio.theme:/browser/topical.pt:135
@@ -976,76 +979,6 @@ msgstr ""
 #: recensio.policy:/browser/templates/comments.pt:94
 msgid "notify_portal_owner"
 msgstr ""
-
-#. Default: "Neue Rezensionen"
-#: recensio.policy:/browser/templates/footer.pt:101
-msgid "new_reviews"
-msgstr "New Reviews"
-
-#. Default: "Neue Pr\303\244sentationen"
-#: recensio.policy:/browser/templates/footer.pt:111
-msgid "new_presentations"
-msgstr "New Presentations"
-
-#. Default: "Neue Diskussionen"
-#: recensio.policy:/browser/templates/footer.pt:121
-msgid "new_discussions"
-msgstr "New Discussions"
-
-#. Default: "Pr\303\244sentationen"
-#: recensio.policy:/browser/templates/footer.pt:22
-msgid "presentations"
-msgstr "Presentations"
-
-#. Default: "Monographien"
-#: recensio.policy:/browser/templates/footer.pt:28
-msgid "monographs"
-msgstr "Monographs"
-
-#. Default: "Aufs\303\244tze"
-#: recensio.policy:/browser/templates/footer.pt:33
-msgid "articles"
-msgstr "Articles"
-
-#. Default: "Internetressourcen"
-#: recensio.policy:/browser/templates/footer.pt:38
-msgid "online_resources"
-msgstr "Online Resources"
-
-#. Default: "Rezensionen"
-#: recensio.policy:/browser/templates/footer.pt:4
-msgid "reviews"
-msgstr "Reviews"
-
-#. Default: "Themenbrowsing"
-#: recensio.policy:/browser/templates/footer.pt:46
-msgid "browse_topics"
-msgstr "Content Browsing"
-
-#. Default: "mitmachen bei recensio.net"
-#: recensio.policy:/browser/templates/footer.pt:59
-msgid "participating_in_recensio_net"
-msgstr "join recensio.net"
-
-#. Default: "Manage your presentations"
-#: recensio.policy:/browser/templates/footer.pt:68
-msgid "manage_presentations"
-msgstr "Manage your presentations"
-
-#. Default: "Create new presentation"
-#: recensio.policy:/browser/templates/footer.pt:74
-msgid "create_presentation"
-msgstr "Create new presentation"
-
-#. Default: "Register and create new presentations"
-#: recensio.policy:/browser/templates/footer.pt:80
-msgid "register_and_create_presentations"
-msgstr "Register and create new presentations"
-
-#. Default: "RSS feeds"
-#: recensio.policy:/browser/templates/footer.pt:90
-msgid "rss_feeds"
-msgstr "RSS feeds"
 
 #: recensio.policy:/browser/templates/pdf_cut.pt:13
 msgid "pages"
@@ -1213,13 +1146,117 @@ msgstr ""
 msgid "Ukrainian"
 msgstr ""
 
+#: recensio.policy:/missing_18n_labels.py:111
+msgid "new_reviews"
+msgstr "New Reviews"
+
+#: recensio.policy:/missing_18n_labels.py:112
+msgid "new_presentations"
+msgstr "New Presentations"
+
+#: recensio.policy:/missing_18n_labels.py:113
+msgid "new_discussions"
+msgstr "New Discussions"
+
+#: recensio.policy:/missing_18n_labels.py:114
+msgid "presentations"
+msgstr "Presentations"
+
+#: recensio.policy:/missing_18n_labels.py:115
+msgid "monographs"
+msgstr "Monographs"
+
+#: recensio.policy:/missing_18n_labels.py:116
+msgid "articles"
+msgstr "Articles"
+
+#: recensio.policy:/missing_18n_labels.py:117
+msgid "online_resources"
+msgstr "Online Resources"
+
+#: recensio.policy:/missing_18n_labels.py:118
+msgid "reviews"
+msgstr "Reviews"
+
+#: recensio.policy:/missing_18n_labels.py:119
+msgid "browse_topics"
+msgstr "Content Browsing"
+
 #: recensio.policy:/missing_18n_labels.py:12
 msgid "Issue"
 msgstr ""
 
+#: recensio.policy:/missing_18n_labels.py:120
+msgid "participating_in_recensio_net"
+msgstr "join recensio.net"
+
+#: recensio.policy:/missing_18n_labels.py:121
+msgid "manage_presentations"
+msgstr "Manage your presentations"
+
+#: recensio.policy:/missing_18n_labels.py:122
+msgid "create_presentation"
+msgstr "Create new presentation"
+
+#: recensio.policy:/missing_18n_labels.py:123
+msgid "register_and_create_presentations"
+msgstr "Register and create new presentations"
+
+#: recensio.policy:/missing_18n_labels.py:124
+msgid "rss_feeds"
+msgstr "RSS feeds"
+
+#: recensio.policy:/missing_18n_labels.py:125
+msgid "text_create_presentation"
+msgstr ""
+"<p>On recensio.net, you as an author of historical literature can give a "
+"brief and clear outline of the thesis statements of your already published "
+"monographs and articles, your methodology and/or your discussion of existing "
+"research approaches, and thus place them in an expert discussion. You "
+"furthermore have the possibility of presenting and rating historical "
+"internet resources.</p><p>Users can comment on your publications. You as an "
+"author will be informed by us about incoming comments; subsequently, you can "
+"take part in the discussion by making your own comments and thus react to "
+"the comments of others. In this way, a »live review« of the publication "
+"presented by you will develop over time. </p><p>A presentation of your core "
+"statements is possible in nearly all European languages, but we would advise "
+"you to choose one of the main academic languages.</p><p>Please be aware that "
+"the number of characters available for your presentation is increased if you "
+"have in advance already commented on existing reviews/presentations on "
+"recensio.net. </p><p>You can make changes or additions to all data at a "
+"later date.</p><p>Choose here what type of text you want to present:</p>"
+
+#: recensio.policy:/missing_18n_labels.py:126
+msgid "heading_create_presentation"
+msgstr "Create a new presentation"
+
+#: recensio.policy:/missing_18n_labels.py:127
+msgid "description_add_presentation_monography"
+msgstr ""
+"This link will provide you with a form for presenting your monograph on "
+"recensio.net."
+
+#: recensio.policy:/missing_18n_labels.py:128
+msgid "description_add_presentation_collection"
+msgstr ""
+"This link will provide you with a form for presenting your article in an "
+"edited volume on recensio.net"
+
+#: recensio.policy:/missing_18n_labels.py:129
+msgid "description_add_presentation_article_review"
+msgstr ""
+"This link will provide you with a form for presenting your article in a "
+"journal on recensio.net"
+
 #: recensio.policy:/missing_18n_labels.py:13
 msgid "Publication"
 msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:130
+msgid "description_add_presentation_online_resource"
+msgstr ""
+"This link will provide you with a form for presenting an online resource "
+"relevant for historians on recensio.net"
 
 #: recensio.policy:/missing_18n_labels.py:14
 msgid "Results per page"
@@ -1769,6 +1806,17 @@ msgstr ""
 msgid "title_search_title"
 msgstr ""
 
+#. Default: "Search"
+#: recensio.theme:/skins/recensio_theme/search.pt:66
+#: recensio.theme:/skins/recensio_theme/search_form.pt:65
+#: recensio.theme:/skins/recensio_theme/search_form.pt:486
+#: recensio.theme:/skins/recensio_theme/search_form.pt:614
+#: recensio.theme:/skins/recensio_theme/search_form.pt:716
+#: recensio.theme:/skins/recensio_theme/search_form.pt:828
+#: recensio.theme:/skins/recensio_theme/search_form.pt:863
+msgid "label_search"
+msgstr ""
+
 #. Default: "Did you not find what you were looking for? Try the ${advanced_search} to refine your search."
 #: recensio.theme:/skins/recensio_theme/search.pt:74
 msgid "search_results_advanced"
@@ -1990,17 +2038,6 @@ msgstr "Region"
 msgid "help_region"
 msgstr ""
 
-#. Default: "Search"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:65
-#: recensio.theme:/skins/recensio_theme/search_form.pt:486
-#: recensio.theme:/skins/recensio_theme/search_form.pt:614
-#: recensio.theme:/skins/recensio_theme/search_form.pt:716
-#: recensio.theme:/skins/recensio_theme/search_form.pt:828
-#: recensio.theme:/skins/recensio_theme/search_form.pt:863
-#: recensio.theme:/skins/recensio_theme/search.pt:66
-msgid "label_search"
-msgstr ""
-
 #. Default: "Epoche"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:662
 msgid "label_epoch"
@@ -2162,6 +2199,15 @@ msgstr ""
 msgid "label_secondary_nav_monographien"
 msgstr ""
 
+#~ msgid "Address"
+#~ msgstr "Postal Address"
+
+#~ msgid "Phone"
+#~ msgstr "Phone number"
+
+#~ msgid "Personal webpage"
+#~ msgstr "Personal webpage URL/URN"
+
 #~ msgid "book_essay_magazine"
 #~ msgstr "Monograph/article/magazine"
 
@@ -2177,31 +2223,3 @@ msgstr ""
 #, fuzzy
 #~ msgid "metadata_publications"
 #~ msgstr "A new review of your work %s has been published!"
-
-#: /add_new_content
-msgid "heading_create_presentation"
-msgstr "Create a new presentation"
-
-#: /add_new_content
-msgid "text_create_presentation"
-msgstr "<p>On recensio.net, you as an author of historical literature can give a brief and clear outline of the thesis statements of your already published monographs and articles, your methodology and/or your discussion of existing research approaches, and thus place them in an expert discussion. You furthermore have the possibility of presenting and rating historical internet resources.</p><p>Users can comment on your publications. You as an author will be informed by us about incoming comments; subsequently, you can take part in the discussion by making your own comments and thus react to the comments of others. In this way, a »live review« of the publication presented by you will develop over time. </p><p>A presentation of your core statements is possible in nearly all European languages, but we would advise you to choose one of the main academic languages.</p><p>Please be aware that the number of characters available for your presentation is increased if you have in advance already commented on existing reviews/presentations on recensio.net. </p><p>You can make changes or additions to all data at a later date.</p><p>Choose here what type of text you want to present:</p>"
-
-#: /add_new_content
-msgid "description_add_presentation_monography"
-msgstr "This link will provide you with a form for presenting your monograph on recensio.net."
-
-#: /add_new_content
-msgid "description_add_presentation_collection"
-msgstr "This link will provide you with a form for presenting your article in an edited volume on recensio.net"
-
-#: /add_new_content
-msgid "description_add_presentation_article_review"
-msgstr "This link will provide you with a form for presenting your article in a journal on recensio.net"
-
-#: /add_new_content
-msgid "description_add_presentation_online_resource"
-msgstr "This link will provide you with a form for presenting an online resource relevant for historians on recensio.net"
-
-#: recensio.contenttypes:/content/schemata.py
-msgid "Core Statements"
-msgstr ""
