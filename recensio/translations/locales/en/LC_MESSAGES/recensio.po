@@ -2201,3 +2201,7 @@ msgstr "This link will provide you with a form for presenting your article in a 
 #: /add_new_content
 msgid "description_add_presentation_online_resource"
 msgstr "This link will provide you with a form for presenting an online resource relevant for historians on recensio.net"
+
+#: recensio.contenttypes:/content/schemata.py
+msgid "Core Statements"
+msgstr ""

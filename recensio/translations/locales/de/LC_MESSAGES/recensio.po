@@ -2248,3 +2248,7 @@ msgstr "Hier gelangen Sie zu einem Formular, mit dem Sie Ihren Aufsatz in einer 
 #: /add_new_content
 msgid "description_add_presentation_online_resource"
 msgstr "Hier gelangen Sie zu einem Formular, mit dem Sie eine für Historiker relevante Onlineressource auf recensio.net präsentieren können."
+
+#: recensio.contenttypes:/content/schemata.py
+msgid "Core Statements"
+msgstr "Kernthesen"

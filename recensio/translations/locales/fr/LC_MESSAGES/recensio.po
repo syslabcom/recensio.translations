@@ -2033,3 +2033,7 @@ msgstr "Accédez au formulaire par lequel vous pourrez présenter votre article 
 #: /add_new_content
 msgid "description_add_presentation_online_resource"
 msgstr "Accédez au formulaire par lequel vous pourrez signaler des ressources en ligne présentant un intérêt pour la recherche en histoire."
+
+#: recensio.contenttypes:/content/schemata.py
+msgid "Core Statements"
+msgstr "Principales thèses développées"
