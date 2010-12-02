@@ -515,7 +515,7 @@ msgstr "E-Mail-Adresse (nicht öffentlich)"
 
 #: recensio.contenttypes:/content/schemata.py:297
 msgid "Personal webpage"
-msgstr "Persönliche Webseite"
+msgstr "Persönliche Webseite URL/URN"
 
 #. Default: "Here you can link to your personal website (e.g. within a network of historians, a university or research institution). It should preferably be persistent or be corrected by you in case of changes (e.g. change of university)."
 #: recensio.contenttypes:/content/schemata.py:298
@@ -552,7 +552,7 @@ msgstr "Seitenzahl Beginn"
 #: recensio.contenttypes:/content/schemata.py:346
 msgid "description_page_number"
 msgstr ""
-"Bitte nur ausfüllen, wenn die Rezension Teil einer größere PDF-Datei ist"
+"Bitte nur ausfüllen, wenn die Rezension Teil einer größeren PDF-Datei ist"
 
 #: recensio.contenttypes:/content/schemata.py:357
 msgid "Page number (end)"
@@ -652,8 +652,7 @@ msgstr "ISBN"
 #: recensio.contenttypes:/content/schemata.py:596
 msgid "description_isbn"
 msgstr ""
-"Schreibweise frei. Bei mehreren Nummern bitte jene der Hardcoverausgabe "
-"wählen."
+"Schreibweise frei."
 
 #: recensio.contenttypes:/content/schemata.py:604
 msgid "Author (monograph)"
@@ -689,7 +688,7 @@ msgstr "Erscheinungsjahr"
 #. Default: "Information on presented work"
 #: recensio.contenttypes:/content/schemata.py:68
 msgid "description_presentation_title"
-msgstr "Angaben zum präsentierten Werk"
+msgstr ""
 
 #           statements, your methodology and/or your discussion of
 #           existing research approaches. We would kindly ask you to

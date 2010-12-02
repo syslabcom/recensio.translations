@@ -516,7 +516,7 @@ msgstr "Adresse email (non publiée)"
 
 #: recensio.contenttypes:/content/schemata.py:297
 msgid "Personal webpage"
-msgstr "URL"
+msgstr "Personal webpage URL/URN"
 
 #. Default: "Here you can link to your personal website (e.g. within a network of historians, a university or research institution). It should preferably be persistent or be corrected by you in case of changes (e.g. change of university)."
 #: recensio.contenttypes:/content/schemata.py:298
@@ -550,7 +550,7 @@ msgstr "Numéro de page (début)"
 #. Default: "Please fill in only if the review is part of a larger pdf-file"
 #: recensio.contenttypes:/content/schemata.py:346
 msgid "description_page_number"
-msgstr "Uniquement si la recension est incluse dans un plus gros fichier pdf."
+msgstr "Uniquement si la recension fait partie d'un fichier PDF plus important."
 
 #: recensio.contenttypes:/content/schemata.py:357
 msgid "Page number (end)"
@@ -650,8 +650,7 @@ msgstr "ISBN"
 #: recensio.contenttypes:/content/schemata.py:596
 msgid "description_isbn"
 msgstr ""
-"Avec ou sans tiret. En cas de plusieurs ISBNs veuillez choisir celui de "
-"l’édition grand format."
+"Avec ou sans tiret."
 
 #: recensio.contenttypes:/content/schemata.py:604
 msgid "Author (monograph)"
@@ -666,7 +665,7 @@ msgstr "ISSN"
 #: recensio.contenttypes:/content/schemata.py:615
 msgid "description_issn"
 msgstr ""
-"Avec ou sans tiret. En cas de plusieurs ISBNs veuillez choisir celui de "
+"Avec ou sans tiret. En cas de plusieurs ISBN veuillez choisir celui de "
 "l’édition grand format."
 
 #: recensio.contenttypes:/content/schemata.py:629
@@ -688,7 +687,7 @@ msgstr "Date rélle de publication"
 #. Default: "Information on presented work"
 #: recensio.contenttypes:/content/schemata.py:68
 msgid "description_presentation_title"
-msgstr "Informations sur l’ouvrage présenté"
+msgstr ""
 
 #. Default: "Please give a brief and clear outline of your thesis statements, your methodology and/or your discussion of existing research approaches. We would kindly ask you to avoid a mere summary of your text. Don't be shy, however, of wording your statements in a provocative way. By separating out paragraphs you will make your statement more readable. You can increase the number of characters available for your own presentation from 4000 to 6000 by commenting on an already existing review/presentation on recensio.net. Please note that both comments and presentations will be checked by the editorial team before being published in order to prevent misuse. Because of this texts will be available online at the earliest after three working days."
 #: recensio.contenttypes:/content/schemata.py:74

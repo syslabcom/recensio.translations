@@ -471,7 +471,7 @@ msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:217
 msgid "Address"
-msgstr ""
+msgstr "Postal Address"
 
 #: recensio.contenttypes:/content/schemata.py:218
 msgid "Phone"
@@ -513,7 +513,7 @@ msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:297
 msgid "Personal webpage"
-msgstr ""
+msgstr "Personal webpage URL/URN"
 
 #. Default: "Here you can link to your personal website (e.g. within a network of historians, a university or research institution). It should preferably be persistent or be corrected by you in case of changes (e.g. change of university)."
 #: recensio.contenttypes:/content/schemata.py:298
@@ -644,16 +644,10 @@ msgstr ""
 msgid "ISBN"
 msgstr ""
 
-#. Default: "With or without hyphens. In case of several numbers please choose the hard cover edition."
+#. Default: "With or without hyphens."
 #: recensio.contenttypes:/content/schemata.py:596
-#, fuzzy
 msgid "description_isbn"
-msgstr ""
-"Here you can find the authors of reviews, presentations (articles, "
-"monographs, online resources) and comments published on <i>recensio.net</i> "
-"as well as the authors of works reviewed here. Each of the three genres is "
-"assigned to an icon indicating in front of the respective author’s name "
-"which type of text he/she has written."
+msgstr "With or without hyphens."
 
 #: recensio.contenttypes:/content/schemata.py:604
 msgid "Author (monograph)"
@@ -694,7 +688,7 @@ msgstr ""
 #: recensio.contenttypes:/content/schemata.py:68
 #, fuzzy
 msgid "description_presentation_title"
-msgstr "presentation of:"
+msgstr ""
 
 #. Default: "Please give a brief and clear outline of your thesis statements, your methodology and/or your discussion of existing research approaches. We would kindly ask you to avoid a mere summary of your text. Don't be shy, however, of wording your statements in a provocative way. By separating out paragraphs you will make your statement more readable. You can increase the number of characters available for your own presentation from 4000 to 6000 by commenting on an already existing review/presentation on recensio.net. Please note that both comments and presentations will be checked by the editorial team before being published in order to prevent misuse. Because of this texts will be available online at the earliest after three working days."
 #: recensio.contenttypes:/content/schemata.py:74
