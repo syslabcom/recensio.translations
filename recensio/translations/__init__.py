@@ -1,5 +1,4 @@
   # -*- extra stuff goes here -*- 
-import os, subprocess, sys, tempfile, urllib, polib
 
 def initialize(context):
     """Initializer called when used as a Zope 2 product."""
@@ -9,6 +8,7 @@ def podiff(svnurl):
         package and their counterparts in the svn repository. Only cares 
         about msgid and msgstr, not about position in the file, comments, etc.
     """
+    import os, subprocess, sys, tempfile, urllib, polib
 
     svnurl = svnurl.split(' ')[-1]
     pofiles = []
