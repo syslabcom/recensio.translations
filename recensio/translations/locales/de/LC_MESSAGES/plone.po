@@ -100,11 +100,11 @@ msgstr ""
 
 #. Default: "Suche in"
 msgid "label_item_type"
-msgstr ""
+msgstr "Suche in"
 
 #. Default: "Einstellungsdatum"
 msgid "label_new_items_since"
-msgstr ""
+msgstr "Einstellungsdatum"
 
 #. Default: "Schlagwörter"
 msgid "label_tags"
@@ -112,7 +112,7 @@ msgstr ""
 
 #: recensio.policy:/missing_18n_labels.py:27
 msgid "Presentation Online Resource"
-msgstr "Präsentation (Internetressource)"
+msgstr "Präsentation Internetressource"
 
 #: recensio.policy:/missing_18n_labels.py:28
 msgid "Presentation Article Review"
@@ -120,26 +120,28 @@ msgstr ""
 
 #: recensio.policy:/missing_18n_labels.py:29
 msgid "Presentation Article in Journal"
-msgstr "Präsentation (Aufsatz in einer Zeitschrift)"
+msgstr "Präsentation Aufsatz in einer Zeitschrift"
 
 #: recensio.policy:/missing_18n_labels.py:30
 msgid "Presentation Article edited Volume"
-msgstr "Präsentation (Aufsatz in einem Sammelband)"
+msgstr "Präsentation Aufsatz in einem Sammelband"
 
 #: recensio.policy:/missing_18n_labels.py:31
 msgid "Presentation Collection"
-msgstr "Präsentation (Aufsatz in einem Sammelband)"
+msgstr "Präsentation Aufsatz in einem Sammelband"
 
 #: recensio.policy:/missing_18n_labels.py:32
 msgid "Presentation Monograph"
-msgstr "Präsentation (Monographie)"
+msgstr "Präsentation Monographie"
 
 #: recensio.policy:/missing_18n_labels.py:33
 msgid "Review Journal"
-msgstr "Rezension (Zeitschrift)"
+msgstr "Rezension Zeitschrift"
 
 #: recensio.policy:/missing_18n_labels.py:34
 msgid "Review Monograph"
-msgstr "Rezension (Monographie)"
+msgstr "Rezension Monographie"
 
-
+#: recensio.policy:/missing_18n_labels.py:13
+msgid "Publication"
+msgstr "Publikation"

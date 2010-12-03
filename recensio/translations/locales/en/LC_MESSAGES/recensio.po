@@ -1934,7 +1934,7 @@ msgstr ""
 #. Default: "Volltextsuche"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:43
 msgid "label_search_text"
-msgstr ""
+msgstr "Full text search"
 
 #. Default: "Zeitschriften"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:433
@@ -2066,7 +2066,7 @@ msgstr ""
 #. Default: "Generelles"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:73
 msgid "label_general"
-msgstr ""
+msgstr "General"
 
 #. Default: "Description"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:743

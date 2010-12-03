@@ -113,5 +113,38 @@ msgstr "Date de création"
 msgid "label_tags"
 msgstr "Mots-clés"
 
+#: recensio.policy:/missing_18n_labels.py:27
+msgid "Presentation Online Resource"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:28
+msgid "Presentation Article Review"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:29
 msgid "Presentation Article in Journal"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:30
+msgid "Presentation Article edited Volume"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:31
+msgid "Presentation Collection"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:32
+msgid "Presentation Monograph"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:33
+msgid "Review Journal"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:34
+msgid "Review Monograph"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:13
+msgid "Publication"
 msgstr ""
