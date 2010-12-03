@@ -29,9 +29,11 @@ setup(name='recensio.translations',
       ],
       entry_points="""
       # -*- Entry points: -*-
-
+      
       [z3c.autoinclude.plugin]
       target = plone
+      [console_scripts]
+      podiff = recensio.translations:podiff
       """,
       setup_requires=["PasteScript"],
       paster_plugins=["ZopeSkel"],
