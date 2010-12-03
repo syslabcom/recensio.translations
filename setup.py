@@ -27,6 +27,9 @@ setup(name='recensio.translations',
           'setuptools',
           'infrae.i18nextract',
       ],
+      extras_require={
+          'podiff': ['polib'],
+      },
       entry_points="""
       # -*- Entry points: -*-
       
