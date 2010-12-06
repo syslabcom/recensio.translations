@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Fri Dec  3 16:55:16 2010\n"
+"POT-Creation-Date: Mon Dec  6 14:08:36 2010\n"
 "PO-Revision-Date: 2010-08-25 16:49+0200\n"
 "Last-Translator: Manuel Reinhardt <reinhardtsyslab.com>\n"
 "Language-Team: English\n"
@@ -109,57 +109,62 @@ msgstr ""
 msgid "Regional classification"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:10
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:14
 #: recensio.theme:/skins/recensio_theme/search_form.pt:786
 msgid "Title"
-msgstr ""
-
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:28
-msgid "Language"
 msgstr ""
 
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:3
 msgid "Loading..."
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:4
-msgid "No results found"
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:32
+msgid "Language"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:40
+#. Default: "Some required fields are empty. Please check both grey tabs"
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:4
+msgid "missing_required_fields"
+msgstr ""
+
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:44
 msgid "DDC"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:48
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:52
 msgid "Location"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:66
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:70
 msgid "Year"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:72
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:76
 msgid ""
 "Recensio does not know how to safe these categories. We attach them to the "
 "document below. Please try to find matching categories. The hints below will "
 "be removed when you reload or safe the page."
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:78
-msgid "Take it over"
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:8
+msgid "No results found"
 msgstr ""
 
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:82
+msgid "Take it over"
+msgstr ""
+
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:86
 msgid ""
 "We were unable to select some of the classifications, would you mind to find "
 "the most appropriate once and select them manually?"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:83
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:87
 msgid "Thank you!"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:86
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:90
 msgid "automatic import of metadata"
 msgstr "automatic import of metadata"
 
@@ -438,7 +443,7 @@ msgid "Language(s) of presented work"
 msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:117
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:22
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:26
 msgid "Authors"
 msgstr ""
 
@@ -553,7 +558,7 @@ msgid "Page number (end)"
 msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:380
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:60
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:64
 msgid "Pages"
 msgstr ""
 
@@ -626,7 +631,7 @@ msgid "ddc place"
 msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:554
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:16
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:20
 msgid "Subtitle"
 msgstr ""
 
@@ -639,12 +644,12 @@ msgid "Place of publication"
 msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:579
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:54
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:58
 msgid "Publisher"
 msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:603
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:34
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:38
 msgid "ISBN"
 msgstr ""
 
