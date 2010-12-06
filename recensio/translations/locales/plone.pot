@@ -44,6 +44,14 @@ msgstr ""
 msgid "label_schema_presented_text"
 msgstr ""
 
+#. Default "Associated Journal"
+msgid "label_schema_associated_journal"
+msgstr "Associated Journal"
+
+#. Default "Associated Edited Volume"
+msgid "label_schema_associated_edited_volume"
+msgstr "Associated Edited Volume"
+
 #. Default: "Please fill in the following form in order to present
 #           your monograph on recensio.net. All fields marked with *
 #           are required.\n Please keep in mind that you may present
