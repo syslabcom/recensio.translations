@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Mon Dec  6 17:56:21 2010\n"
+"POT-Creation-Date: Mon Dec  6 18:10:57 2010\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -1018,35 +1018,6 @@ msgstr ""
 msgid "rss_feeds"
 msgstr ""
 
-#: recensio.policy:/missing_18n_labels.py:124
-#: recensio.theme:/skins/recensio_theme/add_new_item.pt:26
-msgid "text_create_presentation"
-msgstr ""
-
-#: recensio.policy:/missing_18n_labels.py:125
-#: recensio.theme:/skins/recensio_theme/add_new_item.pt:23
-msgid "heading_create_presentation"
-msgstr ""
-
-#: recensio.policy:/missing_18n_labels.py:126
-msgid "description_add_presentation_monography"
-msgstr ""
-
-#: recensio.policy:/missing_18n_labels.py:127
-#: recensio.theme:/skins/recensio_theme/add_new_item.pt:69
-msgid "description_add_presentation_collection"
-msgstr ""
-
-#: recensio.policy:/missing_18n_labels.py:128
-#: recensio.theme:/skins/recensio_theme/add_new_item.pt:89
-msgid "description_add_presentation_article_review"
-msgstr ""
-
-#: recensio.policy:/missing_18n_labels.py:129
-#: recensio.theme:/skins/recensio_theme/add_new_item.pt:108
-msgid "description_add_presentation_online_resource"
-msgstr ""
-
 #: recensio.policy:/missing_18n_labels.py:13
 msgid "Publication"
 msgstr ""
@@ -1507,14 +1478,39 @@ msgstr ""
 msgid "Remove this selection"
 msgstr ""
 
+#: recensio.theme:/skins/recensio_theme/add_new_item.pt:108
+#. Default: "Hier gelangen Sie zu einem Formular, mit dem Sie Ihren Aufsatz in einem Sammelband auf recensio.net pr\303\244sentieren k\303\266nnen."
+msgid "description_add_presentation_online_resource"
+msgstr ""
+
 #: recensio.theme:/skins/recensio_theme/add_new_item.pt:116
 #. Default: "Add"
 msgid "label_add"
 msgstr ""
 
+#: recensio.theme:/skins/recensio_theme/add_new_item.pt:23
+#. Default: "Neue Pr\303\244sentation erstellen"
+msgid "heading_create_presentation"
+msgstr ""
+
+#: recensio.theme:/skins/recensio_theme/add_new_item.pt:26
+#. Default: "Text"
+msgid "text_create_presentation"
+msgstr ""
+
 #: recensio.theme:/skins/recensio_theme/add_new_item.pt:50
 #. Default: "Hier gelangen Sie zu einem Formular, mit dem Sie Ihren Aufsatz in einem Sammelband auf recensio.net pr\303\244sentieren k\303\266nnen."
 msgid "description_add_presentation_monograph"
+msgstr ""
+
+#: recensio.theme:/skins/recensio_theme/add_new_item.pt:69
+#. Default: "Hier gelangen Sie zu einem Formular, mit dem Sie Ihren Aufsatz in einem Sammelband auf recensio.net pr\303\244sentieren k\303\266nnen."
+msgid "description_add_presentation_collection"
+msgstr ""
+
+#: recensio.theme:/skins/recensio_theme/add_new_item.pt:89
+#. Default: "Hier gelangen Sie zu einem Formular, mit dem Sie Ihren Aufsatz in einem Sammelband auf recensio.net pr\303\244sentieren k\303\266nnen."
+msgid "description_add_presentation_article_review"
 msgstr ""
 
 #: recensio.theme:/skins/recensio_theme/search.pt:124

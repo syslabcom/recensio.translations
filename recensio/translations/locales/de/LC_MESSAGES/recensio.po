@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Mon Dec  6 17:56:21 2010\n"
+"POT-Creation-Date: Mon Dec  6 18:10:57 2010\n"
 "PO-Revision-Date: 2010-08-25 16:49+0200\n"
 "Last-Translator: Manuel Reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: German\n"
@@ -1215,61 +1215,6 @@ msgstr "Registrieren und neue Präsentationen erstellen"
 msgid "rss_feeds"
 msgstr "RSS-Feeds"
 
-#: recensio.policy:/missing_18n_labels.py:124
-#: recensio.theme:/skins/recensio_theme/add_new_item.pt:26
-msgid "text_create_presentation"
-msgstr ""
-"<p>Als Autor geschichtswissenschaftlicher Texte können Sie auf recensio.net "
-"die Kernthesen Ihrer bereits publizierten Monographien und Aufsätze, Ihre "
-"Methodik und/oder Ihre Auseinandersetzung mit bestehenden Forschungsansätzen "
-"kurz und übersichtlich zusammenfassen und so der Fachdiskussion stellen. "
-"Daneben haben Sie die Möglichkeit, geschichtswissenschaftliche "
-"Internetressourcen vorzustellen und zu bewerten.</p><p>Nutzer können Ihre "
-"Präsentationen kommentieren. Sie als Autor werden von uns über eingehende "
-"Kommentare benachrichtigt; anschließend können Sie sich an der Diskussion "
-"durch eigene Kommentare beteiligen und so auf die Kommentare anderer "
-"reagieren. Auf diese Art entsteht mit der Zeit eine >lebendige Rezension< "
-"der von Ihnen präsentierten Schrift.</p><p>Eine Präsentation Ihrer Thesen "
-"ist zwar in nahezu allen europäischen Sprachen möglich, wir Ihnen jedoch "
-"empfehlen, eine der großen Wissenschaftssprachen zu wählen.</p><p>Bitte "
-"beachten Sie, dass sich die für die Präsentationen zur Verfügung stehende "
-"Zeichenanzahl jeweils erhöht, wenn Sie vorab bereits Kommentare zu anderen "
-"Rezensionen oder Präsentationen auf recensio.net verfasst haben.</p><p>Sie "
-"können alle Angaben zu einem späteren Zeitpunkt verändern oder ergänzen.</"
-"p><p>Wählen Sie hier aus, welche Textart Sie präsentieren möchten:</p>"
-
-#: recensio.policy:/missing_18n_labels.py:125
-#: recensio.theme:/skins/recensio_theme/add_new_item.pt:23
-msgid "heading_create_presentation"
-msgstr "Neue Präsentation erstellen"
-
-#: recensio.policy:/missing_18n_labels.py:126
-msgid "description_add_presentation_monography"
-msgstr ""
-"Hier gelangen Sie zu einem Formular, mit dem Sie Ihre Monographie auf "
-"recensio.net präsentieren können."
-
-#: recensio.policy:/missing_18n_labels.py:127
-#: recensio.theme:/skins/recensio_theme/add_new_item.pt:69
-msgid "description_add_presentation_collection"
-msgstr ""
-"Hier gelangen Sie zu einem Formular, mit dem Sie Ihren Aufsatz in einem "
-"Sammelband auf recensio.net präsentieren können."
-
-#: recensio.policy:/missing_18n_labels.py:128
-#: recensio.theme:/skins/recensio_theme/add_new_item.pt:89
-msgid "description_add_presentation_article_review"
-msgstr ""
-"Hier gelangen Sie zu einem Formular, mit dem Sie Ihren Aufsatz in einer "
-"Zeitschrift auf recensio.net präsentieren können."
-
-#: recensio.policy:/missing_18n_labels.py:129
-#: recensio.theme:/skins/recensio_theme/add_new_item.pt:108
-msgid "description_add_presentation_online_resource"
-msgstr ""
-"Hier gelangen Sie zu einem Formular, mit dem Sie eine für Historiker "
-"relevante Onlineressource auf recensio.net präsentieren können."
-
 #: recensio.policy:/missing_18n_labels.py:13
 msgid "Publication"
 msgstr "Publikation"
@@ -1791,15 +1736,67 @@ msgstr "Themenbrowsing"
 msgid "Remove this selection"
 msgstr "Auswahl entfernen"
 
+#. Default: "Hier gelangen Sie zu einem Formular, mit dem Sie Ihren Aufsatz in einem Sammelband auf recensio.net pr\303\244sentieren k\303\266nnen."
+#: recensio.theme:/skins/recensio_theme/add_new_item.pt:108
+msgid "description_add_presentation_online_resource"
+msgstr ""
+"Hier gelangen Sie zu einem Formular, mit dem Sie eine für Historiker "
+"relevante Onlineressource auf recensio.net präsentieren können."
+
 #. Default: "Add"
 #: recensio.theme:/skins/recensio_theme/add_new_item.pt:116
 msgid "label_add"
 msgstr ""
 
+#. Default: "Neue Pr\303\244sentation erstellen"
+#: recensio.theme:/skins/recensio_theme/add_new_item.pt:23
+msgid "heading_create_presentation"
+msgstr "Neue Präsentation erstellen"
+
+#. Default: "Text"
+#: recensio.theme:/skins/recensio_theme/add_new_item.pt:26
+msgid "text_create_presentation"
+msgstr ""
+"<p>Als Autor geschichtswissenschaftlicher Texte können Sie auf recensio.net "
+"die Kernthesen Ihrer bereits publizierten Monographien und Aufsätze, Ihre "
+"Methodik und/oder Ihre Auseinandersetzung mit bestehenden Forschungsansätzen "
+"kurz und übersichtlich zusammenfassen und so der Fachdiskussion stellen. "
+"Daneben haben Sie die Möglichkeit, geschichtswissenschaftliche "
+"Internetressourcen vorzustellen und zu bewerten.</p><p>Nutzer können Ihre "
+"Präsentationen kommentieren. Sie als Autor werden von uns über eingehende "
+"Kommentare benachrichtigt; anschließend können Sie sich an der Diskussion "
+"durch eigene Kommentare beteiligen und so auf die Kommentare anderer "
+"reagieren. Auf diese Art entsteht mit der Zeit eine >lebendige Rezension< "
+"der von Ihnen präsentierten Schrift.</p><p>Eine Präsentation Ihrer Thesen "
+"ist zwar in nahezu allen europäischen Sprachen möglich, wir Ihnen jedoch "
+"empfehlen, eine der großen Wissenschaftssprachen zu wählen.</p><p>Bitte "
+"beachten Sie, dass sich die für die Präsentationen zur Verfügung stehende "
+"Zeichenanzahl jeweils erhöht, wenn Sie vorab bereits Kommentare zu anderen "
+"Rezensionen oder Präsentationen auf recensio.net verfasst haben.</p><p>Sie "
+"können alle Angaben zu einem späteren Zeitpunkt verändern oder ergänzen.</"
+"p><p>Wählen Sie hier aus, welche Textart Sie präsentieren möchten:</p>"
+
 #. Default: "Hier gelangen Sie zu einem Formular, mit dem Sie Ihren Aufsatz in einem Sammelband auf recensio.net pr\303\244sentieren k\303\266nnen."
 #: recensio.theme:/skins/recensio_theme/add_new_item.pt:50
 msgid "description_add_presentation_monograph"
 msgstr ""
+"Hier gelangen Sie zu einem Formular, mit dem Sie Ihre Monographie auf "
+"recensio.net präsentieren können."
+
+
+#. Default: "Hier gelangen Sie zu einem Formular, mit dem Sie Ihren Aufsatz in einem Sammelband auf recensio.net pr\303\244sentieren k\303\266nnen."
+#: recensio.theme:/skins/recensio_theme/add_new_item.pt:69
+msgid "description_add_presentation_collection"
+msgstr ""
+"Hier gelangen Sie zu einem Formular, mit dem Sie Ihren Aufsatz in einem "
+"Sammelband auf recensio.net präsentieren können."
+
+#. Default: "Hier gelangen Sie zu einem Formular, mit dem Sie Ihren Aufsatz in einem Sammelband auf recensio.net pr\303\244sentieren k\303\266nnen."
+#: recensio.theme:/skins/recensio_theme/add_new_item.pt:89
+msgid "description_add_presentation_article_review"
+msgstr ""
+"Hier gelangen Sie zu einem Formular, mit dem Sie Ihren Aufsatz in einer "
+"Zeitschrift auf recensio.net präsentieren können."
 
 #. Default: "Search results"
 #: recensio.theme:/skins/recensio_theme/search.pt:124
