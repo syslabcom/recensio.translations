@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Mon Dec  6 18:10:57 2010\n"
+"POT-Creation-Date: Tue Dec  7 18:16:02 2010\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -205,7 +205,7 @@ msgstr ""
 #: recensio.contenttypes:/content/presentationarticlereview.py:54
 #: recensio.contenttypes:/content/presentationcollection.py:64
 #: recensio.contenttypes:/content/presentationmonograph.py:96
-#. Default: "Which scholarly author's work have you mainly engaged with in your monograph? Please give us the most detailed information possible on the &raquo;contemporary&laquo; names amongst them as the recensio.net editorial team will usually try to inform these authors of the existence of your monograph, your presentation, and the chance to comment on it. Only the reference author's name will be visible to the public. Please name historical reference authors (e.g. Aristotle, Charles de Gaulle) further below as subject heading."
+#. Default: "Which scholarly author's work have you mainly engaged with in your article? Please give us the most detailed information possible on the &raquo;contemporary&laquo; names amongst them as the recensio.net editorial team will usually try to inform these authors of the existence of your article, your presentation, and the chance to comment on it. Only the reference author's name will be visible to the public. Please name historical reference authors (e.g. Aristotle, Charles de Gaulle) further below as subject heading."
 msgid "description_reference_authors"
 msgstr ""
 
@@ -782,16 +782,16 @@ msgid "label_delete"
 msgstr ""
 
 #: recensio.policy:/browser/templates/comments.pt:87
-#: recensio.theme:/skins/recensio_theme/search_form.pt:154
-#: recensio.theme:/skins/recensio_theme/search_form.pt:363
-#: recensio.theme:/skins/recensio_theme/search_form.pt:470
-#: recensio.theme:/skins/recensio_theme/search.pt:169
-#: recensio.theme:/skins/recensio_theme/search.pt:169
 #: recensio.theme:/browser/topical.pt:86
 #: recensio.theme:/browser/topical.pt:131
 #: recensio.theme:/browser/topical.pt:135
 #: recensio.theme:/browser/topical.pt:192
 #: recensio.theme:/browser/topical.pt:192
+#: recensio.theme:/skins/recensio_theme/search.pt:169
+#: recensio.theme:/skins/recensio_theme/search.pt:169
+#: recensio.theme:/skins/recensio_theme/search_form.pt:154
+#: recensio.theme:/skins/recensio_theme/search_form.pt:363
+#: recensio.theme:/skins/recensio_theme/search_form.pt:470
 msgid "${DYNAMIC_CONTENT}"
 msgstr ""
 
@@ -1358,6 +1358,10 @@ msgstr ""
 msgid "name"
 msgstr ""
 
+#: recensio.theme:/browser/newsletter.py:42
+msgid "You did not enter a valid email address."
+msgstr ""
+
 #: recensio.theme:/browser/pdfgen.py:106
 #. Default: "citation style"
 msgid "label_citation_style"
@@ -1457,6 +1461,24 @@ msgstr ""
 msgid "label_latest_internet_resources"
 msgstr ""
 
+#: recensio.theme:/browser/templates/newsletter.pt:24
+#. Default: "E-mail address"
+msgid "portlet_newsletter_email"
+msgstr ""
+
+#: recensio.theme:/browser/templates/newsletter.pt:25
+#. Default: "Name"
+msgid "label_name"
+msgstr ""
+
+#: recensio.theme:/browser/templates/newsletter.pt:28
+msgid "Subscribe"
+msgstr ""
+
+#: recensio.theme:/browser/templates/newsletter.pt:29
+msgid "Unsubscribe"
+msgstr ""
+
 #: recensio.theme:/browser/templates/publications.pt:17
 #. Default: "Publications"
 msgid "heading_publications"
@@ -1470,6 +1492,42 @@ msgstr ""
 #: recensio.theme:/browser/topical.pt:161
 #. Default: "Browsing"
 msgid "heading_browsing_results"
+msgstr ""
+
+#: recensio.theme:/browser/topical.pt:167
+#: recensio.theme:/skins/recensio_theme/search.pt:130
+#. Default: "${number} items matching"
+msgid "batch_x_items_matching_your_criteria"
+msgstr ""
+
+#: recensio.theme:/browser/topical.pt:221
+#: recensio.theme:/skins/recensio_theme/search.pt:182
+#. Default: "(reviewed by ${review_author_firstname} ${review_author_lastname})"
+msgid "reviewed_by"
+msgstr ""
+
+#: recensio.theme:/browser/topical.pt:223
+#: recensio.theme:/skins/recensio_theme/search.pt:183
+#. Default: "(presented by ${review_author_firstname} ${review_author_lastname})"
+msgid "presented_by"
+msgstr ""
+
+#: recensio.theme:/browser/topical.pt:230
+#: recensio.theme:/skins/recensio_theme/search.pt:192
+#. Default: "last modified"
+msgid "box_last_modified"
+msgstr ""
+
+#: recensio.theme:/browser/topical.pt:241
+#: recensio.theme:/skins/recensio_theme/search.pt:204
+#. Default: "Filed under:"
+msgid "label_filed_under"
+msgstr ""
+
+#: recensio.theme:/browser/topical.pt:258
+#: recensio.theme:/skins/recensio_theme/search.pt:221
+#. Default: "Relevance: ${percentage}%"
+msgid "label_relevance_percentage"
 msgstr ""
 
 #: recensio.theme:/browser/topical.pt:91
@@ -1518,12 +1576,6 @@ msgstr ""
 msgid "heading_search_results"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search.pt:130
-#: recensio.theme:/browser/topical.pt:167
-#. Default: "${number} items matching"
-msgid "batch_x_items_matching_your_criteria"
-msgstr ""
-
 #: recensio.theme:/skins/recensio_theme/search.pt:140
 #. Default: "Subscribe to an always-updated feed of these search terms"
 msgid "title_rss_feed"
@@ -1534,39 +1586,20 @@ msgstr ""
 msgid "description_no_results_found"
 msgstr ""
 
-#: recensio.theme:/skins/recensio_theme/search.pt:182
-#: recensio.theme:/browser/topical.pt:221
-#. Default: "(reviewed by ${review_author_firstname} ${review_author_lastname})"
-msgid "reviewed_by"
-msgstr ""
-
-#: recensio.theme:/skins/recensio_theme/search.pt:183
-#: recensio.theme:/browser/topical.pt:223
-#. Default: "(presented by ${review_author_firstname} ${review_author_lastname})"
-msgid "presented_by"
-msgstr ""
-
-#: recensio.theme:/skins/recensio_theme/search.pt:192
-#: recensio.theme:/browser/topical.pt:230
-#. Default: "last modified"
-msgid "box_last_modified"
-msgstr ""
-
-#: recensio.theme:/skins/recensio_theme/search.pt:204
-#: recensio.theme:/browser/topical.pt:241
-#. Default: "Filed under:"
-msgid "label_filed_under"
-msgstr ""
-
-#: recensio.theme:/skins/recensio_theme/search.pt:221
-#: recensio.theme:/browser/topical.pt:258
-#. Default: "Relevance: ${percentage}%"
-msgid "label_relevance_percentage"
-msgstr ""
-
 #: recensio.theme:/skins/recensio_theme/search.pt:58
 #. Default: "Search Site"
 msgid "title_search_title"
+msgstr ""
+
+#: recensio.theme:/skins/recensio_theme/search.pt:66
+#: recensio.theme:/skins/recensio_theme/search_form.pt:63
+#: recensio.theme:/skins/recensio_theme/search_form.pt:483
+#: recensio.theme:/skins/recensio_theme/search_form.pt:606
+#: recensio.theme:/skins/recensio_theme/search_form.pt:708
+#: recensio.theme:/skins/recensio_theme/search_form.pt:820
+#: recensio.theme:/skins/recensio_theme/search_form.pt:845
+#. Default: "Search"
+msgid "label_search"
 msgstr ""
 
 #: recensio.theme:/skins/recensio_theme/search.pt:74
@@ -1772,17 +1805,6 @@ msgstr ""
 #: recensio.theme:/skins/recensio_theme/search_form.pt:629
 #. Default: ""
 msgid "help_region"
-msgstr ""
-
-#: recensio.theme:/skins/recensio_theme/search_form.pt:63
-#: recensio.theme:/skins/recensio_theme/search_form.pt:483
-#: recensio.theme:/skins/recensio_theme/search_form.pt:606
-#: recensio.theme:/skins/recensio_theme/search_form.pt:708
-#: recensio.theme:/skins/recensio_theme/search_form.pt:820
-#: recensio.theme:/skins/recensio_theme/search_form.pt:845
-#: recensio.theme:/skins/recensio_theme/search.pt:66
-#. Default: "Search"
-msgid "label_search"
 msgstr ""
 
 #: recensio.theme:/skins/recensio_theme/search_form.pt:654
