@@ -1570,20 +1570,20 @@ msgstr ""
 #. Default: "E-mail address"
 #: recensio.theme:/browser/templates/newsletter.pt:24
 msgid "portlet_newsletter_email"
-msgstr ""
+msgstr "Adresse email"
 
 #. Default: "Name"
 #: recensio.theme:/browser/templates/newsletter.pt:25
 msgid "label_name"
-msgstr ""
+msgstr "Nom"
 
 #: recensio.theme:/browser/templates/newsletter.pt:28
 msgid "Subscribe"
-msgstr ""
+msgstr "S’abonner"
 
 #: recensio.theme:/browser/templates/newsletter.pt:29
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Se désabonner"
 
 #. Default: "Publications"
 #: recensio.theme:/browser/templates/publications.pt:17
