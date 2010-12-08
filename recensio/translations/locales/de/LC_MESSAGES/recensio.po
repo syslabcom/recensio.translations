@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Tue Dec  7 18:16:02 2010\n"
+"POT-Creation-Date: Wed Dec  8 12:10:57 2010\n"
 "PO-Revision-Date: 2010-08-25 16:49+0200\n"
 "Last-Translator: Manuel Reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: German\n"
@@ -1606,9 +1606,22 @@ msgstr ""
 msgid "name"
 msgstr ""
 
-#: recensio.theme:/browser/newsletter.py:42
+#: recensio.theme:/browser/newsletter.py:45
 msgid "You did not enter a valid email address."
-msgstr ""
+msgstr "Sie haben keine gültige Emailadresse eingegeben."
+
+#: recensio.theme:/browser/newsletter.py:58
+msgid "Your unsubscription request has been sent."
+msgstr "Der Auftrag zur Abmeldung vom Newsletter wurde abgeschickt."
+
+#: recensio.theme:/browser/newsletter.py:60
+#: recensio.theme:/browser/newsletter.py:69
+msgid "Your subscription could not be sent. Please try again."
+msgstr "Ihre Anmeldung konnte nicht abgesendet werden. Bitte versuchen Sie es erneut."
+
+#: recensio.theme:/browser/newsletter.py:67
+msgid "Your subscription request has been sent. Please check your e-mail."
+msgstr "Ihre Anmeldung wurde abgeschickt. Bitte sehen Sie in Ihrer Mailbox nach einer Bestätigungsemail."
 
 #. Default: "citation style"
 #: recensio.theme:/browser/pdfgen.py:106
