@@ -156,3 +156,7 @@ msgstr ""
 #: recensio.policy:/missing_18n_labels.py:13
 msgid "Publication"
 msgstr ""
+
+#: register form
+msgid "help_user_name_creation_casesensitive"
+msgstr "Choisissez un nom d'utilisateur. Dans la mesure du possible, veuillez utiliser le format suivant : prénom_nom. Ce nom d'utilisateur vous sera nécessaire par la suite pour vous identifier sur ce site. Les espaces et caractères spéciaux ne sont pas autorisés ; veillez également à respecter la casse."

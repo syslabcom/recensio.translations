@@ -153,3 +153,8 @@ msgstr "Rezension Monographie"
 #: recensio.policy:/missing_18n_labels.py:13
 msgid "Publication"
 msgstr "Publikation"
+
+#: register form
+msgid "help_user_name_creation_casesensitive"
+msgstr "Wählen Sie Ihren Benutzernamen. Bitte verwenden Sie nach Möglichkeit dieses Schema: Vorname_Nachname. Diesen Namen benötigen Sie später zur Anmeldung. Es sind keine Umlaute, Leer- oder Sonderzeichen erlaubt, zwischen Groß- und Kleinschreibung wird unterschieden."
+
