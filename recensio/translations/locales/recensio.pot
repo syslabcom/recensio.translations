@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Wed Dec  8 12:10:57 2010\n"
+"POT-Creation-Date: Thu Dec  9 12:23:50 2010\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -23,42 +23,42 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: zope/app/locales/extract.py\n"
 
-#: recensio.contenttypes:/browser/review.pt:113
+#: recensio.contenttypes:/browser/review.pt:104
 #. Default: "Metadata"
 msgid "metadata"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.pt:145
+#: recensio.contenttypes:/browser/review.pt:136
 #. Default: "Zitierhinweise"
 msgid "citation_note"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.pt:149
+#: recensio.contenttypes:/browser/review.pt:140
 #. Default: "URL"
 msgid "url"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.pt:156
+#: recensio.contenttypes:/browser/review.pt:147
 #. Default: "Lizenzhinweis:"
 msgid "license-note-heading"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.pt:56
-#. Default: "Review page 1"
-msgid "review_page_1"
+#: recensio.contenttypes:/browser/review.pt:57
+#: recensio.policy:/browser/templates/comments.pt:87
+#: recensio.theme:/browser/topical.pt:86
+#: recensio.theme:/browser/topical.pt:131
+#: recensio.theme:/browser/topical.pt:135
+#: recensio.theme:/browser/topical.pt:192
+#: recensio.theme:/browser/topical.pt:192
+#: recensio.theme:/skins/recensio_theme/search.pt:169
+#: recensio.theme:/skins/recensio_theme/search.pt:169
+#: recensio.theme:/skins/recensio_theme/search_form.pt:154
+#: recensio.theme:/skins/recensio_theme/search_form.pt:363
+#: recensio.theme:/skins/recensio_theme/search_form.pt:470
+msgid "${DYNAMIC_CONTENT}"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.pt:62
-#. Default: "Review page 2"
-msgid "review_page_2"
-msgstr ""
-
-#: recensio.contenttypes:/browser/review.pt:68
-#. Default: "Review page 3"
-msgid "review_page_3"
-msgstr ""
-
-#: recensio.contenttypes:/browser/review.pt:96
+#: recensio.contenttypes:/browser/review.pt:87
 #. Default: "Download as <strong>PDF</strong><br /> <em class=\"discrete\">(${download_size} kb)</em>"
 msgid "download_as"
 msgstr ""
@@ -779,20 +779,6 @@ msgstr ""
 #: recensio.policy:/browser/templates/comments.pt:70
 #. Default: "Delete"
 msgid "label_delete"
-msgstr ""
-
-#: recensio.policy:/browser/templates/comments.pt:87
-#: recensio.theme:/browser/topical.pt:86
-#: recensio.theme:/browser/topical.pt:131
-#: recensio.theme:/browser/topical.pt:135
-#: recensio.theme:/browser/topical.pt:192
-#: recensio.theme:/browser/topical.pt:192
-#: recensio.theme:/skins/recensio_theme/search.pt:169
-#: recensio.theme:/skins/recensio_theme/search.pt:169
-#: recensio.theme:/skins/recensio_theme/search_form.pt:154
-#: recensio.theme:/skins/recensio_theme/search_form.pt:363
-#: recensio.theme:/skins/recensio_theme/search_form.pt:470
-msgid "${DYNAMIC_CONTENT}"
 msgstr ""
 
 #: recensio.policy:/browser/templates/comments.pt:94

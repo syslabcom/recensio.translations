@@ -14,56 +14,54 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Wed Dec  8 12:10:57 2010\n"
+"POT-Creation-Date: Thu Dec  9 12:20:55 2010\n"
 "PO-Revision-Date: 2010-08-25 16:47+0200\n"
 "Last-Translator: Cillian de Roiste <deroiste@syslab.com>\n"
 "Language-Team: French\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "Generated-By: zope/app/locales/extract.py\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Language-Code: fr\n"
 "Domain: recensio\n"
 
 #. Default: "Metadata"
-#: recensio.contenttypes:/browser/review.pt:113
+#: recensio.contenttypes:/browser/review.pt:104
 msgid "metadata"
 msgstr ""
 
 #. Default: "Zitierhinweise"
-#: recensio.contenttypes:/browser/review.pt:145
+#: recensio.contenttypes:/browser/review.pt:136
 msgid "citation_note"
 msgstr ""
 
 #. Default: "URL"
-#: recensio.contenttypes:/browser/review.pt:149
+#: recensio.contenttypes:/browser/review.pt:140
 msgid "url"
 msgstr ""
 
 #. Default: "Lizenzhinweis:"
-#: recensio.contenttypes:/browser/review.pt:156
+#: recensio.contenttypes:/browser/review.pt:147
 msgid "license-note-heading"
 msgstr ""
 
-#. Default: "Review page 1"
-#: recensio.contenttypes:/browser/review.pt:56
-msgid "review_page_1"
-msgstr ""
-
-#. Default: "Review page 2"
-#: recensio.contenttypes:/browser/review.pt:62
-msgid "review_page_2"
-msgstr ""
-
-#. Default: "Review page 3"
-#: recensio.contenttypes:/browser/review.pt:68
-msgid "review_page_3"
+#: recensio.contenttypes:/browser/review.pt:57
+#: recensio.policy:/browser/templates/comments.pt:87
+#: recensio.theme:/browser/topical.pt:86
+#: recensio.theme:/browser/topical.pt:131
+#: recensio.theme:/browser/topical.pt:135
+#: recensio.theme:/browser/topical.pt:192
+#: recensio.theme:/skins/recensio_theme/search.pt:169
+#: recensio.theme:/skins/recensio_theme/search_form.pt:154
+#: recensio.theme:/skins/recensio_theme/search_form.pt:363
+#: recensio.theme:/skins/recensio_theme/search_form.pt:470
+msgid "${DYNAMIC_CONTENT}"
 msgstr ""
 
 #. Default: "Download as <strong>PDF</strong><br /> <em class=\"discrete\">(${download_size} kb)</em>"
-#: recensio.contenttypes:/browser/review.pt:96
+#: recensio.contenttypes:/browser/review.pt:87
 msgid "download_as"
 msgstr ""
 
@@ -855,18 +853,6 @@ msgstr ""
 #. Default: "Delete"
 #: recensio.policy:/browser/templates/comments.pt:70
 msgid "label_delete"
-msgstr ""
-
-#: recensio.policy:/browser/templates/comments.pt:87
-#: recensio.theme:/browser/topical.pt:86
-#: recensio.theme:/browser/topical.pt:131
-#: recensio.theme:/browser/topical.pt:135
-#: recensio.theme:/browser/topical.pt:192
-#: recensio.theme:/skins/recensio_theme/search.pt:169
-#: recensio.theme:/skins/recensio_theme/search_form.pt:154
-#: recensio.theme:/skins/recensio_theme/search_form.pt:363
-#: recensio.theme:/skins/recensio_theme/search_form.pt:470
-msgid "${DYNAMIC_CONTENT}"
 msgstr ""
 
 #. Default: "Notify portal owner about this comment"

@@ -14,56 +14,54 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Wed Dec  8 12:10:57 2010\n"
+"POT-Creation-Date: Thu Dec  9 12:23:50 2010\n"
 "PO-Revision-Date: 2010-08-25 16:49+0200\n"
 "Last-Translator: Manuel Reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: German\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "Generated-By: zope/app/locales/extract.py\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Language-Code: de\n"
 "Domain: recensio\n"
 
 #. Default: "Metadata"
-#: recensio.contenttypes:/browser/review.pt:113
+#: recensio.contenttypes:/browser/review.pt:104
 msgid "metadata"
 msgstr "Metadaten"
 
 #. Default: "Zitierhinweise"
-#: recensio.contenttypes:/browser/review.pt:145
+#: recensio.contenttypes:/browser/review.pt:136
 msgid "citation_note"
 msgstr "Zitierhinweise"
 
 #. Default: "URL"
-#: recensio.contenttypes:/browser/review.pt:149
+#: recensio.contenttypes:/browser/review.pt:140
 msgid "url"
 msgstr "URL"
 
 #. Default: "Lizenzhinweis:"
-#: recensio.contenttypes:/browser/review.pt:156
+#: recensio.contenttypes:/browser/review.pt:147
 msgid "license-note-heading"
 msgstr "Lizenzhinweis:"
 
-#. Default: "Review page 1"
-#: recensio.contenttypes:/browser/review.pt:56
-msgid "review_page_1"
-msgstr "Rezension Seite 1"
-
-#. Default: "Review page 2"
-#: recensio.contenttypes:/browser/review.pt:62
-msgid "review_page_2"
-msgstr "Rezension Seite 2"
-
-#. Default: "Review page 3"
-#: recensio.contenttypes:/browser/review.pt:68
-msgid "review_page_3"
-msgstr "Rezension Seite 3"
+#: recensio.contenttypes:/browser/review.pt:57
+#: recensio.policy:/browser/templates/comments.pt:87
+#: recensio.theme:/browser/topical.pt:86
+#: recensio.theme:/browser/topical.pt:131
+#: recensio.theme:/browser/topical.pt:135
+#: recensio.theme:/browser/topical.pt:192
+#: recensio.theme:/skins/recensio_theme/search.pt:169
+#: recensio.theme:/skins/recensio_theme/search_form.pt:154
+#: recensio.theme:/skins/recensio_theme/search_form.pt:363
+#: recensio.theme:/skins/recensio_theme/search_form.pt:470
+msgid "${DYNAMIC_CONTENT}"
+msgstr "${DYNAMIC_CONTENT}"
 
 #. Default: "Download as <strong>PDF</strong><br /> <em class=\"discrete\">(${download_size} kb)</em>"
-#: recensio.contenttypes:/browser/review.pt:96
+#: recensio.contenttypes:/browser/review.pt:87
 msgid "download_as"
 msgstr ""
 "Als <strong>PDF</strong> herunterladen<br /> <em class=\"discrete\">"
@@ -779,8 +777,8 @@ msgstr ""
 "\n"
 "%(url)s\n"
 "\n"
-"Für Rückfragen steht Ihnen die recensio.net-Redaktion gern zur Verfügung: "
-"%(mail_from)s.\n"
+"Für Rückfragen steht Ihnen die recensio.net-Redaktion gern zur Verfügung: %"
+"(mail_from)s.\n"
 "\n"
 "Mit freundlichen Grüßen,\n"
 "\n"
@@ -808,8 +806,8 @@ msgstr ""
 "\n"
 "%(context_url)s\n"
 "\n"
-"Für Rückfragen steht Ihnen die recensio.net-Redaktion gern zur Verfügung: "
-"%(mail_from)s.\n"
+"Für Rückfragen steht Ihnen die recensio.net-Redaktion gern zur Verfügung: %"
+"(mail_from)s.\n"
 "\n"
 "Mit freundlichen Grüßen,\n"
 "Ihr recensio.net-Team\n"
@@ -959,18 +957,6 @@ msgstr "Einloggen um zu kommentieren"
 msgid "label_delete"
 msgstr "Löschen"
 
-#: recensio.policy:/browser/templates/comments.pt:87
-#: recensio.theme:/browser/topical.pt:86
-#: recensio.theme:/browser/topical.pt:131
-#: recensio.theme:/browser/topical.pt:135
-#: recensio.theme:/browser/topical.pt:192
-#: recensio.theme:/skins/recensio_theme/search.pt:169
-#: recensio.theme:/skins/recensio_theme/search_form.pt:154
-#: recensio.theme:/skins/recensio_theme/search_form.pt:363
-#: recensio.theme:/skins/recensio_theme/search_form.pt:470
-msgid "${DYNAMIC_CONTENT}"
-msgstr "${DYNAMIC_CONTENT}"
-
 #. Default: "Notify portal owner about this comment"
 #: recensio.policy:/browser/templates/comments.pt:94
 msgid "notify_portal_owner"
@@ -990,8 +976,8 @@ msgid ""
 "The document says, that the relevant pages start at page ${start_page} and "
 "end at page ${end_page}."
 msgstr ""
-"Das an dieses Dokument angehängte PDF hat ${DYNAMIC_CONTENT} "
-"${page}${pages}. Laut dem Dokument beginnen die relevanten Seiten auf Seite "
+"Das an dieses Dokument angehängte PDF hat ${DYNAMIC_CONTENT} ${page}"
+"${pages}. Laut dem Dokument beginnen die relevanten Seiten auf Seite "
 "${start_page} und enden auf Seite ${end_page}."
 
 #: recensio.policy:/browser/templates/pdf_cut.pt:17
@@ -1617,11 +1603,14 @@ msgstr "Der Auftrag zur Abmeldung vom Newsletter wurde abgeschickt."
 #: recensio.theme:/browser/newsletter.py:60
 #: recensio.theme:/browser/newsletter.py:69
 msgid "Your subscription could not be sent. Please try again."
-msgstr "Ihre Anmeldung konnte nicht abgesendet werden. Bitte versuchen Sie es erneut."
+msgstr ""
+"Ihre Anmeldung konnte nicht abgesendet werden. Bitte versuchen Sie es erneut."
 
 #: recensio.theme:/browser/newsletter.py:67
 msgid "Your subscription request has been sent. Please check your e-mail."
-msgstr "Ihre Anmeldung wurde abgeschickt. Bitte sehen Sie in Ihrer Mailbox nach einer Bestätigungsemail."
+msgstr ""
+"Ihre Anmeldung wurde abgeschickt. Bitte sehen Sie in Ihrer Mailbox nach "
+"einer Bestätigungsemail."
 
 #. Default: "citation style"
 #: recensio.theme:/browser/pdfgen.py:106
