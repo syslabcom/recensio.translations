@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Thu Dec  9 22:25:19 2010\n"
+"POT-Creation-Date: Thu Dec  9 22:54:11 2010\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -64,28 +64,36 @@ msgid "download_as"
 msgstr ""
 
 #: recensio.contenttypes:/browser/review.py:102
-msgid "metadata_review_type_code"
+msgid "label_metadata_review_author"
 msgstr ""
 
 #: recensio.contenttypes:/browser/review.py:105
+msgid "label_metadata_presentation_author"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.py:111
+msgid "metadata_review_type_code"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.py:114
 msgid "label_metadata_reference_authors"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:109
+#: recensio.contenttypes:/browser/review.py:118
 msgid "metadata_recensio_id"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:117
+#: recensio.contenttypes:/browser/review.py:126
 #: recensio.contenttypes:/content/schemata.py:119
 msgid "Subject classification"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:119
+#: recensio.contenttypes:/browser/review.py:128
 #: recensio.contenttypes:/content/schemata.py:120
 msgid "Time classification"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:121
+#: recensio.contenttypes:/browser/review.py:130
 #: recensio.contenttypes:/content/schemata.py:121
 msgid "Regional classification"
 msgstr ""
@@ -122,12 +130,19 @@ msgstr ""
 msgid "label_metadata_language_article"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:93
-msgid "label_metadata_review_author"
+#: recensio.contenttypes:/browser/review.py:82
+#. Default: "Author (article)"
+msgid "label_metadata_author_article"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:96
-msgid "label_metadata_presentation_author"
+#: recensio.contenttypes:/browser/review.py:85
+#. Default: "Title (article)"
+msgid "label_metadata_title_article"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.py:88
+#. Default: "Title (edited volume)"
+msgid "label_metadata_title_edited_volume"
 msgstr ""
 
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:14

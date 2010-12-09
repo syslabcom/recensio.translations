@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Thu Dec  9 22:25:19 2010\n"
+"POT-Creation-Date: Thu Dec  9 22:54:11 2010\n"
 "PO-Revision-Date: 2010-08-25 16:47+0200\n"
 "Last-Translator: Cillian de Roiste <deroiste@syslab.com>\n"
 "Language-Team: French\n"
@@ -66,28 +66,36 @@ msgid "download_as"
 msgstr ""
 
 #: recensio.contenttypes:/browser/review.py:102
+msgid "label_metadata_review_author"
+msgstr "Auteur (recension)"
+
+#: recensio.contenttypes:/browser/review.py:105
+msgid "label_metadata_presentation_author"
+msgstr "Auteur"
+
+#: recensio.contenttypes:/browser/review.py:111
 msgid "metadata_review_type_code"
 msgstr "Type de document"
 
-#: recensio.contenttypes:/browser/review.py:105
+#: recensio.contenttypes:/browser/review.py:114
 msgid "label_metadata_reference_authors"
 msgstr "Auteurs de référence"
 
-#: recensio.contenttypes:/browser/review.py:109
+#: recensio.contenttypes:/browser/review.py:118
 msgid "metadata_recensio_id"
 msgstr "ID-recensio"
 
-#: recensio.contenttypes:/browser/review.py:117
+#: recensio.contenttypes:/browser/review.py:126
 #: recensio.contenttypes:/content/schemata.py:119
 msgid "Subject classification"
 msgstr "Thème"
 
-#: recensio.contenttypes:/browser/review.py:119
+#: recensio.contenttypes:/browser/review.py:128
 #: recensio.contenttypes:/content/schemata.py:120
 msgid "Time classification"
 msgstr "Période"
 
-#: recensio.contenttypes:/browser/review.py:121
+#: recensio.contenttypes:/browser/review.py:130
 #: recensio.contenttypes:/content/schemata.py:121
 msgid "Regional classification"
 msgstr "Espace"
@@ -122,15 +130,22 @@ msgstr "Langue de la présentation"
 #. Default: "Language (article)"
 #: recensio.contenttypes:/browser/review.py:79
 msgid "label_metadata_language_article"
-msgstr ""
+msgstr "Langue de la présentation"
 
-#: recensio.contenttypes:/browser/review.py:93
-msgid "label_metadata_review_author"
-msgstr "Auteur (recension)"
+#. Default: "Author (article)"
+#: recensio.contenttypes:/browser/review.py:82
+msgid "label_metadata_author_article"
+msgstr "Auteur (article)"
 
-#: recensio.contenttypes:/browser/review.py:96
-msgid "label_metadata_presentation_author"
-msgstr "Auteur"
+#. Default: "Title (article)"
+#: recensio.contenttypes:/browser/review.py:85
+msgid "label_metadata_title_article"
+msgstr "Titre (article)"
+
+#. Default: "Title (edited volume)"
+#: recensio.contenttypes:/browser/review.py:88
+msgid "label_metadata_title_edited_volume"
+msgstr "Titre (recueil)"
 
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:14
 #: recensio.theme:/skins/recensio_theme/search_form.pt:786
