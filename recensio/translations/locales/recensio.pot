@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Thu Dec  9 22:11:21 2010\n"
+"POT-Creation-Date: Thu Dec  9 22:25:19 2010\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -64,20 +64,28 @@ msgid "download_as"
 msgstr ""
 
 #: recensio.contenttypes:/browser/review.py:102
+msgid "metadata_review_type_code"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.py:105
+msgid "label_metadata_reference_authors"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.py:109
 msgid "metadata_recensio_id"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:110
+#: recensio.contenttypes:/browser/review.py:117
 #: recensio.contenttypes:/content/schemata.py:119
 msgid "Subject classification"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:112
+#: recensio.contenttypes:/browser/review.py:119
 #: recensio.contenttypes:/content/schemata.py:120
 msgid "Time classification"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:114
+#: recensio.contenttypes:/browser/review.py:121
 #: recensio.contenttypes:/content/schemata.py:121
 msgid "Regional classification"
 msgstr ""
@@ -104,20 +112,22 @@ msgstr ""
 msgid "label_metadata_language_monograph"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:86
+#: recensio.contenttypes:/browser/review.py:76
+#. Default: "Language (presentation)"
+msgid "label_metadata_language_presentation"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.py:79
+#. Default: "Language (article)"
+msgid "label_metadata_language_article"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.py:93
 msgid "label_metadata_review_author"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:89
+#: recensio.contenttypes:/browser/review.py:96
 msgid "label_metadata_presentation_author"
-msgstr ""
-
-#: recensio.contenttypes:/browser/review.py:95
-msgid "metadata_review_type_code"
-msgstr ""
-
-#: recensio.contenttypes:/browser/review.py:98
-msgid "label_metadata_reference_authors"
 msgstr ""
 
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:14
