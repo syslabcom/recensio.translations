@@ -119,7 +119,7 @@ msgstr "Sprache (Monographie)"
 #. Default: "Language (presentation)"
 #: recensio.contenttypes:/browser/review.py:76
 msgid "label_metadata_language_presentation"
-msgstr ""
+msgstr "Sprache (Präsentation)"
 
 #. Default: "Language (article)"
 #: recensio.contenttypes:/browser/review.py:79
