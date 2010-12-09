@@ -236,7 +236,7 @@ msgstr ""
 #: recensio.contenttypes:/content/presentationarticlereview.py:49
 #: recensio.contenttypes:/content/presentationcollection.py:61
 msgid "label_presentation_article_authors"
-msgstr ""
+msgstr "Author(s) of presented article"
 
 #: recensio.contenttypes:/content/presentationarticlereview.py:52
 msgid "Volume"
