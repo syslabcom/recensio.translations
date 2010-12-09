@@ -734,12 +734,10 @@ msgid "mail_sending_prepared"
 msgstr "Mail sending will be prepared. Mail will be sent to %s"
 
 #: recensio.policy:/browser/email.py:231
-#, fuzzy
 msgid "mail_new_comment_subject"
 msgstr "A new review of your work %s has been published!"
 
 #: recensio.policy:/browser/email.py:233
-#, fuzzy
 msgid "mail_new_comment_body"
 msgstr ""
 "Liebe Redaktion,\n"
