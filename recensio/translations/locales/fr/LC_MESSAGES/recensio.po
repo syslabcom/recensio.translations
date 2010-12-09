@@ -78,8 +78,8 @@ msgid "Issue Title"
 msgstr ""
 
 #: recensio.contenttypes:/browser/review.py:74
-msgid "author"
-msgstr ""
+msgid "label_metadata_review_author"
+msgstr "Auteur (de la revue)"
 
 #: recensio.contenttypes:/browser/review.py:80
 msgid "metadata_review_type_code"
@@ -87,7 +87,7 @@ msgstr "Type de document"
 
 #: recensio.contenttypes:/browser/review.py:83
 msgid "metadata_recensio_id"
-msgstr "ID-recension"
+msgstr "ID-recensio"
 
 #: recensio.contenttypes:/browser/review.py:90
 #: recensio.contenttypes:/content/schemata.py:119
@@ -107,7 +107,7 @@ msgstr "Espace"
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:14
 #: recensio.theme:/skins/recensio_theme/search_form.pt:786
 msgid "Title"
-msgstr ""
+msgstr "Titre"
 
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:3
 msgid "Loading..."
@@ -595,7 +595,7 @@ msgstr "Langue (de la recension)"
 
 #: recensio.contenttypes:/content/schemata.py:469
 msgid "Language(s) (text)"
-msgstr "langue (de la revue)"
+msgstr "Langue (de la revue)"
 
 #: recensio.contenttypes:/content/schemata.py:485
 msgid "Generated Pdf"

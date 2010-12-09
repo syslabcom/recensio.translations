@@ -76,7 +76,11 @@ msgid "Issue Title"
 msgstr ""
 
 #: recensio.contenttypes:/browser/review.py:74
-msgid "author"
+msgid "label_metadata_review_author"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.py:74
+msgid "label_metadata_language_monograph"
 msgstr ""
 
 #: recensio.contenttypes:/browser/review.py:80

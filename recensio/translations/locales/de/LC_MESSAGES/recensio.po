@@ -80,8 +80,12 @@ msgid "Issue Title"
 msgstr "Titel der Ausgabe"
 
 #: recensio.contenttypes:/browser/review.py:74
-msgid "author"
-msgstr "Autor"
+msgid "label_metadata_review_author"
+msgstr "Autor (Rezension)"
+
+#: recensio.contenttypes:/browser/review.py:74
+msgid "label_metadata_language_monograph"
+msgstr "Sprache (Monographie)"
 
 #: recensio.contenttypes:/browser/review.py:80
 msgid "metadata_review_type_code"
@@ -622,7 +626,7 @@ msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:533
 msgid "Subject heading"
-msgstr "Schlagwort"
+msgstr "Schlagwörter"
 
 #: recensio.contenttypes:/content/schemata.py:544
 msgid "ddc subject"
