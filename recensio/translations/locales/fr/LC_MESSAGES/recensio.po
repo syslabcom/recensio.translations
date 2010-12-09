@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Thu Dec  9 19:58:34 2010\n"
+"POT-Creation-Date: Thu Dec  9 21:15:44 2010\n"
 "PO-Revision-Date: 2010-08-25 16:47+0200\n"
 "Last-Translator: Cillian de Roiste <deroiste@syslab.com>\n"
 "Language-Team: French\n"
@@ -65,17 +65,17 @@ msgstr ""
 msgid "download_as"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:101
+#: recensio.contenttypes:/browser/review.py:105
 #: recensio.contenttypes:/content/schemata.py:119
 msgid "Subject classification"
 msgstr "Thème"
 
-#: recensio.contenttypes:/browser/review.py:103
+#: recensio.contenttypes:/browser/review.py:107
 #: recensio.contenttypes:/content/schemata.py:120
 msgid "Time classification"
 msgstr "Période"
 
-#: recensio.contenttypes:/browser/review.py:105
+#: recensio.contenttypes:/browser/review.py:109
 #: recensio.contenttypes:/content/schemata.py:121
 msgid "Regional classification"
 msgstr "Espace"
@@ -106,6 +106,10 @@ msgid "metadata_review_type_code"
 msgstr "Type de document"
 
 #: recensio.contenttypes:/browser/review.py:93
+msgid "label_metadata_reference_authors"
+msgstr "Auteurs de référence"
+
+#: recensio.contenttypes:/browser/review.py:97
 msgid "metadata_recensio_id"
 msgstr "ID-recensio"
 
@@ -285,8 +289,8 @@ msgstr "Table des matières de la monographie présentée"
 #: recensio.contenttypes:/content/presentationmonograph.py:49
 msgid "label_monograph_url"
 msgstr ""
-"La monographie que vous souhaitez présenter est-elle disponible en "
-"libre accès (texte intégral) ?"
+"La monographie que vous souhaitez présenter est-elle disponible en libre "
+"accès (texte intégral) ?"
 
 #: recensio.contenttypes:/content/presentationmonograph.py:62
 msgid "Existing online reviews"

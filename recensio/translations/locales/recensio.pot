@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Thu Dec  9 19:58:34 2010\n"
+"POT-Creation-Date: Thu Dec  9 21:15:44 2010\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -63,17 +63,17 @@ msgstr ""
 msgid "download_as"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:101
+#: recensio.contenttypes:/browser/review.py:105
 #: recensio.contenttypes:/content/schemata.py:119
 msgid "Subject classification"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:103
+#: recensio.contenttypes:/browser/review.py:107
 #: recensio.contenttypes:/content/schemata.py:120
 msgid "Time classification"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:105
+#: recensio.contenttypes:/browser/review.py:109
 #: recensio.contenttypes:/content/schemata.py:121
 msgid "Regional classification"
 msgstr ""
@@ -104,6 +104,10 @@ msgid "metadata_review_type_code"
 msgstr ""
 
 #: recensio.contenttypes:/browser/review.py:93
+msgid "label_metadata_reference_authors"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.py:97
 msgid "metadata_recensio_id"
 msgstr ""
 

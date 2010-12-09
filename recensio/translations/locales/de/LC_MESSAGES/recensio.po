@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Thu Dec  9 19:58:34 2010\n"
+"POT-Creation-Date: Thu Dec  9 21:15:44 2010\n"
 "PO-Revision-Date: 2010-08-25 16:49+0200\n"
 "Last-Translator: Manuel Reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: German\n"
@@ -67,17 +67,17 @@ msgstr ""
 "Als <strong>PDF</strong> herunterladen<br /> <em class=\"discrete\">"
 "(${download_size} kb)</em>"
 
-#: recensio.contenttypes:/browser/review.py:101
+#: recensio.contenttypes:/browser/review.py:105
 #: recensio.contenttypes:/content/schemata.py:119
 msgid "Subject classification"
 msgstr "Thematische Klassifikation"
 
-#: recensio.contenttypes:/browser/review.py:103
+#: recensio.contenttypes:/browser/review.py:107
 #: recensio.contenttypes:/content/schemata.py:120
 msgid "Time classification"
 msgstr "Zeitliche Klassifikation"
 
-#: recensio.contenttypes:/browser/review.py:105
+#: recensio.contenttypes:/browser/review.py:109
 #: recensio.contenttypes:/content/schemata.py:121
 msgid "Regional classification"
 msgstr "Regionale Klassifikation"
@@ -108,6 +108,10 @@ msgid "metadata_review_type_code"
 msgstr "Dokumenttyp"
 
 #: recensio.contenttypes:/browser/review.py:93
+msgid "label_metadata_reference_authors"
+msgstr "Bezugsautoren"
+
+#: recensio.contenttypes:/browser/review.py:97
 msgid "metadata_recensio_id"
 msgstr "recensio-ID"
 
@@ -285,8 +289,7 @@ msgstr "Inhaltsverzeichnis der von Ihnen präsentierten Monographie"
 #: recensio.contenttypes:/content/presentationmonograph.py:49
 msgid "label_monograph_url"
 msgstr ""
-"Ist die von Ihnen präsentierte Monographie im Volltext online "
-"verfügbar?"
+"Ist die von Ihnen präsentierte Monographie im Volltext online verfügbar?"
 
 #: recensio.contenttypes:/content/presentationmonograph.py:62
 msgid "Existing online reviews"
