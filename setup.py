@@ -26,6 +26,7 @@ setup(name='recensio.translations',
       install_requires=[
           'setuptools',
           'infrae.i18nextract',
+          'zope.i18nmessageid',
       ],
       extras_require={
           'podiff': ['polib'],
