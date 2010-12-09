@@ -297,7 +297,7 @@ msgstr ""
 #. Default: "Is the monograph you are presenting available online?"
 #: recensio.contenttypes:/content/presentationmonograph.py:49
 msgid "label_monograph_url"
-msgstr ""
+msgstr "Is the monograph you are presenting available online?"
 
 #: recensio.contenttypes:/content/presentationmonograph.py:62
 msgid "Existing online reviews"

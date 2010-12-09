@@ -285,6 +285,8 @@ msgstr "Table des matières de la monographie présentée"
 #: recensio.contenttypes:/content/presentationmonograph.py:49
 msgid "label_monograph_url"
 msgstr ""
+"La monographie que vous souhaitez présenter est-elle disponible en "
+"libre accès (texte intégral) ?"
 
 #: recensio.contenttypes:/content/presentationmonograph.py:62
 msgid "Existing online reviews"

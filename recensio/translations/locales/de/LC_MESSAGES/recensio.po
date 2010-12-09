@@ -285,6 +285,8 @@ msgstr "Inhaltsverzeichnis der von Ihnen präsentierten Monographie"
 #: recensio.contenttypes:/content/presentationmonograph.py:49
 msgid "label_monograph_url"
 msgstr ""
+"Ist die von Ihnen präsentierte Monographie im Volltext online "
+"verfügbar?"
 
 #: recensio.contenttypes:/content/presentationmonograph.py:62
 msgid "Existing online reviews"
