@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Thu Dec  9 21:49:38 2010\n"
+"POT-Creation-Date: Thu Dec  9 22:11:21 2010\n"
 "PO-Revision-Date: 2010-08-25 16:49+0200\n"
 "Last-Translator: Manuel Reinhardt <reinhardtsyslab.com>\n"
 "Language-Team: English\n"
@@ -65,17 +65,21 @@ msgstr ""
 msgid "download_as"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:107
+#: recensio.contenttypes:/browser/review.py:102
+msgid "metadata_recensio_id"
+msgstr "recensio-ID"
+
+#: recensio.contenttypes:/browser/review.py:110
 #: recensio.contenttypes:/content/schemata.py:119
 msgid "Subject classification"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:109
+#: recensio.contenttypes:/browser/review.py:112
 #: recensio.contenttypes:/content/schemata.py:120
 msgid "Time classification"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:111
+#: recensio.contenttypes:/browser/review.py:114
 #: recensio.contenttypes:/content/schemata.py:121
 msgid "Regional classification"
 msgstr ""
@@ -106,17 +110,17 @@ msgstr "Language (monograph)"
 msgid "label_metadata_review_author"
 msgstr "Author (review)"
 
-#: recensio.contenttypes:/browser/review.py:92
+#: recensio.contenttypes:/browser/review.py:89
+msgid "label_metadata_presentation_author"
+msgstr "Author (presentation)"
+
+#: recensio.contenttypes:/browser/review.py:95
 msgid "metadata_review_type_code"
 msgstr "Document type"
 
-#: recensio.contenttypes:/browser/review.py:95
+#: recensio.contenttypes:/browser/review.py:98
 msgid "label_metadata_reference_authors"
 msgstr "Reference Authors"
-
-#: recensio.contenttypes:/browser/review.py:99
-msgid "metadata_recensio_id"
-msgstr "recensio-ID"
 
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:14
 #: recensio.theme:/skins/recensio_theme/search_form.pt:786
