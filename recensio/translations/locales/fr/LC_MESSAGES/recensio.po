@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Thu Dec  9 21:15:44 2010\n"
+"POT-Creation-Date: Thu Dec  9 21:49:38 2010\n"
 "PO-Revision-Date: 2010-08-25 16:47+0200\n"
 "Last-Translator: Cillian de Roiste <deroiste@syslab.com>\n"
 "Language-Team: French\n"
@@ -65,17 +65,17 @@ msgstr ""
 msgid "download_as"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:105
+#: recensio.contenttypes:/browser/review.py:107
 #: recensio.contenttypes:/content/schemata.py:119
 msgid "Subject classification"
 msgstr "Thème"
 
-#: recensio.contenttypes:/browser/review.py:107
+#: recensio.contenttypes:/browser/review.py:109
 #: recensio.contenttypes:/content/schemata.py:120
 msgid "Time classification"
 msgstr "Période"
 
-#: recensio.contenttypes:/browser/review.py:109
+#: recensio.contenttypes:/browser/review.py:111
 #: recensio.contenttypes:/content/schemata.py:121
 msgid "Regional classification"
 msgstr "Espace"
@@ -92,24 +92,29 @@ msgstr ""
 msgid "Issue Title"
 msgstr ""
 
+#. Default: "Language (review)"
+#: recensio.contenttypes:/browser/review.py:69
+msgid "label_metadata_language_review"
+msgstr "Langue (recension)"
+
 #. Default: "Language (monograph)"
-#: recensio.contenttypes:/browser/review.py:70
+#: recensio.contenttypes:/browser/review.py:72
 msgid "label_metadata_language_monograph"
-msgstr ""
+msgstr "Langue (monographie)"
 
-#: recensio.contenttypes:/browser/review.py:84
+#: recensio.contenttypes:/browser/review.py:86
 msgid "label_metadata_review_author"
-msgstr "Auteur (de la revue)"
+msgstr "Auteur (recension)"
 
-#: recensio.contenttypes:/browser/review.py:90
+#: recensio.contenttypes:/browser/review.py:92
 msgid "metadata_review_type_code"
 msgstr "Type de document"
 
-#: recensio.contenttypes:/browser/review.py:93
+#: recensio.contenttypes:/browser/review.py:95
 msgid "label_metadata_reference_authors"
 msgstr "Auteurs de référence"
 
-#: recensio.contenttypes:/browser/review.py:97
+#: recensio.contenttypes:/browser/review.py:99
 msgid "metadata_recensio_id"
 msgstr "ID-recensio"
 

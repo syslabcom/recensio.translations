@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Thu Dec  9 21:15:44 2010\n"
+"POT-Creation-Date: Thu Dec  9 21:49:38 2010\n"
 "PO-Revision-Date: 2010-08-25 16:49+0200\n"
 "Last-Translator: Manuel Reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: German\n"
@@ -67,17 +67,17 @@ msgstr ""
 "Als <strong>PDF</strong> herunterladen<br /> <em class=\"discrete\">"
 "(${download_size} kb)</em>"
 
-#: recensio.contenttypes:/browser/review.py:105
+#: recensio.contenttypes:/browser/review.py:107
 #: recensio.contenttypes:/content/schemata.py:119
 msgid "Subject classification"
 msgstr "Thematische Klassifikation"
 
-#: recensio.contenttypes:/browser/review.py:107
+#: recensio.contenttypes:/browser/review.py:109
 #: recensio.contenttypes:/content/schemata.py:120
 msgid "Time classification"
 msgstr "Zeitliche Klassifikation"
 
-#: recensio.contenttypes:/browser/review.py:109
+#: recensio.contenttypes:/browser/review.py:111
 #: recensio.contenttypes:/content/schemata.py:121
 msgid "Regional classification"
 msgstr "Regionale Klassifikation"
@@ -94,24 +94,29 @@ msgstr "Reihentitel"
 msgid "Issue Title"
 msgstr "Titel der Ausgabe"
 
+#. Default: "Language (review)"
+#: recensio.contenttypes:/browser/review.py:69
+msgid "label_metadata_language_review"
+msgstr "Sprache (Rezension)"
+
 #. Default: "Language (monograph)"
-#: recensio.contenttypes:/browser/review.py:70
+#: recensio.contenttypes:/browser/review.py:72
 msgid "label_metadata_language_monograph"
 msgstr "Sprache (Monographie)"
 
-#: recensio.contenttypes:/browser/review.py:84
+#: recensio.contenttypes:/browser/review.py:86
 msgid "label_metadata_review_author"
 msgstr "Autor (Rezension)"
 
-#: recensio.contenttypes:/browser/review.py:90
+#: recensio.contenttypes:/browser/review.py:92
 msgid "metadata_review_type_code"
 msgstr "Dokumenttyp"
 
-#: recensio.contenttypes:/browser/review.py:93
+#: recensio.contenttypes:/browser/review.py:95
 msgid "label_metadata_reference_authors"
 msgstr "Bezugsautoren"
 
-#: recensio.contenttypes:/browser/review.py:97
+#: recensio.contenttypes:/browser/review.py:99
 msgid "metadata_recensio_id"
 msgstr "recensio-ID"
 
