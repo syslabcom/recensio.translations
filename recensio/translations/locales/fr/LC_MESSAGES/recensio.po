@@ -71,7 +71,7 @@ msgstr "Auteur (recension)"
 
 #: recensio.contenttypes:/browser/review.py:105
 msgid "label_metadata_presentation_author"
-msgstr "Auteur"
+msgstr "Auteur (présentation)"
 
 #: recensio.contenttypes:/browser/review.py:111
 msgid "metadata_review_type_code"
@@ -125,12 +125,12 @@ msgstr "Langue (monographie)"
 #. Default: "Language (presentation)"
 #: recensio.contenttypes:/browser/review.py:76
 msgid "label_metadata_language_presentation"
-msgstr "Langue de la présentation"
+msgstr "Langue (présentation)"
 
 #. Default: "Language (article)"
 #: recensio.contenttypes:/browser/review.py:79
 msgid "label_metadata_language_article"
-msgstr "Langue"
+msgstr "Langue (article)"
 
 #. Default: "Author (article)"
 #: recensio.contenttypes:/browser/review.py:82
