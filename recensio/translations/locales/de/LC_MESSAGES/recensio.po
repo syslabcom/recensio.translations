@@ -1946,7 +1946,7 @@ msgstr "zuletzt verändert:"
 #: recensio.theme:/skins/recensio_theme/search.pt:204
 #: recensio.theme:/browser/topical.pt:241
 msgid "label_filed_under"
-msgstr "Eingeordnet undter:"
+msgstr "Eingeordnet unter:"
 
 #. Default: "Relevance: ${percentage}%"
 #: recensio.theme:/skins/recensio_theme/search.pt:221
