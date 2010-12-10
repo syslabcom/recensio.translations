@@ -130,7 +130,7 @@ msgstr "Langue de la présentation"
 #. Default: "Language (article)"
 #: recensio.contenttypes:/browser/review.py:79
 msgid "label_metadata_language_article"
-msgstr "Langue de la présentation"
+msgstr "Langue"
 
 #. Default: "Author (article)"
 #: recensio.contenttypes:/browser/review.py:82
