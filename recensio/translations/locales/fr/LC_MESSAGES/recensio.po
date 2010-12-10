@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Fri Dec 10 14:35:25 2010\n"
+"POT-Creation-Date: Fri Dec 10 15:26:22 2010\n"
 "PO-Revision-Date: 2010-08-25 16:47+0200\n"
 "Last-Translator: Cillian de Roiste <deroiste@syslab.com>\n"
 "Language-Team: French\n"
@@ -70,41 +70,61 @@ msgstr ""
 msgid "label_metadata_title_edited_volume"
 msgstr "Titre (recueil)"
 
-#: recensio.contenttypes:/browser/review.py:115
+#. Default: "Name (Internet resource)"
+#: recensio.contenttypes:/browser/review.py:104
+msgid "label_metadata_name_resource"
+msgstr "Titre (ressource)"
+
+#. Default: "Language (Internet resource)"
+#: recensio.contenttypes:/browser/review.py:107
+msgid "label_metadata_language_internet_resource"
+msgstr "Langue(s) de la ressource"
+
+#. Default: "Language (Journal)"
+#: recensio.contenttypes:/browser/review.py:111
+msgid "label_metadata_language_review_journal"
+msgstr "Langue"
+
+#. Default: "Editor"
+#: recensio.contenttypes:/browser/review.py:114
+msgid "label_metadata_editor"
+msgstr "Directeur de publication"
+
+#: recensio.contenttypes:/browser/review.py:129
 msgid "label_metadata_review_author"
 msgstr "Auteur (recension)"
 
-#: recensio.contenttypes:/browser/review.py:118
+#: recensio.contenttypes:/browser/review.py:132
 msgid "label_metadata_presentation_author"
 msgstr "Auteur (présentation)"
 
-#: recensio.contenttypes:/browser/review.py:127
+#: recensio.contenttypes:/browser/review.py:141
 msgid "metadata_review_type_code"
 msgstr "Type de document"
 
-#: recensio.contenttypes:/browser/review.py:130
+#: recensio.contenttypes:/browser/review.py:144
 msgid "label_metadata_reference_authors"
 msgstr "Auteurs de référence"
 
-#: recensio.contenttypes:/browser/review.py:134
+#: recensio.contenttypes:/browser/review.py:148
 msgid "label_metadata_institution"
-msgstr ""
+msgstr "Institution"
 
-#: recensio.contenttypes:/browser/review.py:138
+#: recensio.contenttypes:/browser/review.py:152
 msgid "metadata_recensio_id"
 msgstr "ID-recensio"
 
-#: recensio.contenttypes:/browser/review.py:146
+#: recensio.contenttypes:/browser/review.py:160
 #: recensio.contenttypes:/content/schemata.py:120
 msgid "Subject classification"
 msgstr "Thème"
 
-#: recensio.contenttypes:/browser/review.py:148
+#: recensio.contenttypes:/browser/review.py:162
 #: recensio.contenttypes:/content/schemata.py:121
 msgid "Time classification"
 msgstr "Période"
 
-#: recensio.contenttypes:/browser/review.py:150
+#: recensio.contenttypes:/browser/review.py:164
 #: recensio.contenttypes:/content/schemata.py:122
 msgid "Regional classification"
 msgstr "Espace"
@@ -224,7 +244,7 @@ msgstr "import automatique des métadonnées"
 #: recensio.contenttypes:/content/presentationarticlereview.py:295
 #: recensio.contenttypes:/content/presentationcollection.py:317
 #: recensio.contenttypes:/content/presentationmonograph.py:355
-#: recensio.contenttypes:/content/presentationonlineresource.py:331
+#: recensio.contenttypes:/content/presentationonlineresource.py:333
 msgid "license-note-presentation"
 msgstr ""
 "Ce texte est placé sous licence Creative Commons paternité – pas "
@@ -235,14 +255,14 @@ msgstr ""
 #: recensio.contenttypes:/content/presentationarticlereview.py:299
 #: recensio.contenttypes:/content/presentationcollection.py:321
 #: recensio.contenttypes:/content/presentationmonograph.py:359
-#: recensio.contenttypes:/content/presentationonlineresource.py:335
+#: recensio.contenttypes:/content/presentationonlineresource.py:337
 msgid "license-note-presentation-url-text"
 msgstr "http://creativecommons.org/licenses/by-nc-nd/3.0/deed.fr"
 
 #: recensio.contenttypes:/content/presentationarticlereview.py:300
 #: recensio.contenttypes:/content/presentationcollection.py:322
 #: recensio.contenttypes:/content/presentationmonograph.py:360
-#: recensio.contenttypes:/content/presentationonlineresource.py:336
+#: recensio.contenttypes:/content/presentationonlineresource.py:338
 msgid "license-note-presentation-url-url"
 msgstr "http://creativecommons.org/licenses/by-nc-nd/3.0/deed.fr"
 

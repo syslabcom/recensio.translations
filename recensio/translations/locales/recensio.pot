@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Fri Dec 10 14:35:25 2010\n"
+"POT-Creation-Date: Fri Dec 10 15:26:22 2010\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -68,41 +68,61 @@ msgstr ""
 msgid "label_metadata_title_edited_volume"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:115
+#: recensio.contenttypes:/browser/review.py:104
+#. Default: "Name (Internet resource)"
+msgid "label_metadata_name_resource"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.py:107
+#. Default: "Language (Internet resource)"
+msgid "label_metadata_language_internet_resource"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.py:111
+#. Default: "Language (Journal)"
+msgid "label_metadata_language_review_journal"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.py:114
+#. Default: "Editor"
+msgid "label_metadata_editor"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.py:129
 msgid "label_metadata_review_author"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:118
+#: recensio.contenttypes:/browser/review.py:132
 msgid "label_metadata_presentation_author"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:127
+#: recensio.contenttypes:/browser/review.py:141
 msgid "metadata_review_type_code"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:130
+#: recensio.contenttypes:/browser/review.py:144
 msgid "label_metadata_reference_authors"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:134
+#: recensio.contenttypes:/browser/review.py:148
 msgid "label_metadata_institution"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:138
+#: recensio.contenttypes:/browser/review.py:152
 msgid "metadata_recensio_id"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:146
+#: recensio.contenttypes:/browser/review.py:160
 #: recensio.contenttypes:/content/schemata.py:120
 msgid "Subject classification"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:148
+#: recensio.contenttypes:/browser/review.py:162
 #: recensio.contenttypes:/content/schemata.py:121
 msgid "Time classification"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:150
+#: recensio.contenttypes:/browser/review.py:164
 #: recensio.contenttypes:/content/schemata.py:122
 msgid "Regional classification"
 msgstr ""
@@ -217,21 +237,21 @@ msgstr ""
 #: recensio.contenttypes:/content/presentationarticlereview.py:295
 #: recensio.contenttypes:/content/presentationcollection.py:317
 #: recensio.contenttypes:/content/presentationmonograph.py:355
-#: recensio.contenttypes:/content/presentationonlineresource.py:331
+#: recensio.contenttypes:/content/presentationonlineresource.py:333
 msgid "license-note-presentation"
 msgstr ""
 
 #: recensio.contenttypes:/content/presentationarticlereview.py:299
 #: recensio.contenttypes:/content/presentationcollection.py:321
 #: recensio.contenttypes:/content/presentationmonograph.py:359
-#: recensio.contenttypes:/content/presentationonlineresource.py:335
+#: recensio.contenttypes:/content/presentationonlineresource.py:337
 msgid "license-note-presentation-url-text"
 msgstr ""
 
 #: recensio.contenttypes:/content/presentationarticlereview.py:300
 #: recensio.contenttypes:/content/presentationcollection.py:322
 #: recensio.contenttypes:/content/presentationmonograph.py:360
-#: recensio.contenttypes:/content/presentationonlineresource.py:336
+#: recensio.contenttypes:/content/presentationonlineresource.py:338
 msgid "license-note-presentation-url-url"
 msgstr ""
 
