@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Fri Dec 10 14:05:48 2010\n"
+"POT-Creation-Date: Fri Dec 10 14:35:25 2010\n"
 "PO-Revision-Date: 2010-08-25 16:49+0200\n"
 "Last-Translator: Manuel Reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: German\n"
@@ -89,20 +89,24 @@ msgid "label_metadata_reference_authors"
 msgstr "Bezugsautoren"
 
 #: recensio.contenttypes:/browser/review.py:134
+msgid "label_metadata_institution"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.py:138
 msgid "metadata_recensio_id"
 msgstr "recensio-ID"
 
-#: recensio.contenttypes:/browser/review.py:142
+#: recensio.contenttypes:/browser/review.py:146
 #: recensio.contenttypes:/content/schemata.py:120
 msgid "Subject classification"
 msgstr "Thematische Klassifikation"
 
-#: recensio.contenttypes:/browser/review.py:144
+#: recensio.contenttypes:/browser/review.py:148
 #: recensio.contenttypes:/content/schemata.py:121
 msgid "Time classification"
 msgstr "Zeitliche Klassifikation"
 
-#: recensio.contenttypes:/browser/review.py:146
+#: recensio.contenttypes:/browser/review.py:150
 #: recensio.contenttypes:/content/schemata.py:122
 msgid "Regional classification"
 msgstr "Regionale Klassifikation"
