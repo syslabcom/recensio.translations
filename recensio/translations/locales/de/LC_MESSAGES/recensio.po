@@ -241,7 +241,7 @@ msgstr ""
 
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:90
 msgid "automatic import of metadata"
-msgstr "autmatischer Metadatenimport"
+msgstr "automatischer Metadatenimport"
 
 #: recensio.contenttypes:/content/presentationarticlereview.py:295
 #: recensio.contenttypes:/content/presentationcollection.py:317
