@@ -886,7 +886,7 @@ msgstr "Es wurde eine Rezension von %s veröffentlicht"
 
 #: recensio.policy:/browser/email.py:307
 msgid "mail_uncommented_subject"
-msgstr "Ihre Rezension auf Rezensio.net"
+msgstr "Ihre Rezension auf recensio.net"
 
 #: recensio.policy:/browser/email.py:317
 msgid "mail_uncommented_body"
