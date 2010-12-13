@@ -360,14 +360,15 @@ msgstr "URL"
 #. Default: "Name of journal/newspaper/yearbook with volume, year and number of pages"
 #: recensio.contenttypes:/content/presentationmonograph.py:70
 msgid "label_published_reviews"
-msgstr "Nom de la revue/journal/annuaire, volume, année et nombre de pages"
+msgstr ""
+"Veuillez insérer le lieu de publication d’éventuelles recensions de "
+"vos travaux, publiées en version papier."
 
 #. Default: "Insert here the place of publication of reviews on your text that have already been published in print."
 #: recensio.contenttypes:/content/presentationmonograph.py:75
 msgid "description_pubished_reviews"
 msgstr ""
-"Veuillez insérer le lieu de publication d’éventuelles recensions de vos "
-"travaux, publiées en version papier."
+"Nom de la revue/journal/annuaire, volume, année et nombre de pages"
 
 #: recensio.contenttypes:/content/presentationmonograph.py:88
 msgid "Author(s) of presented monograph"
@@ -382,8 +383,8 @@ msgstr ""
 #: recensio.contenttypes:/content/presentationmonograph.py:94
 msgid "description_presentation_uri"
 msgstr ""
-"La monographie que vous souhaitez présenter est-elle disponible en libre "
-"accès (texte intégral et gratuit)?"
+"La monographie que vous souhaitez présenter est-elle disponible en "
+"libre accès (texte intégral)?"
 
 #: recensio.contenttypes:/content/presentationmonograph.py:99
 msgid "Upload of cover picture"

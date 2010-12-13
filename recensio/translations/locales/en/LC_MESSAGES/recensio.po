@@ -374,11 +374,15 @@ msgstr ""
 #: recensio.contenttypes:/content/presentationmonograph.py:70
 msgid "label_published_reviews"
 msgstr ""
+"Insert here the place of publication of reviews on your text that "
+"have already been published in print"
 
 #. Default: "Insert here the place of publication of reviews on your text that have already been published in print."
 #: recensio.contenttypes:/content/presentationmonograph.py:75
 msgid "description_pubished_reviews"
 msgstr ""
+"Name of journal/newspaper/yearbook with volume, year and number of "
+"pages"
 
 #: recensio.contenttypes:/content/presentationmonograph.py:88
 msgid "Author(s) of presented monograph"
@@ -391,9 +395,9 @@ msgstr ""
 
 #. Default: "Is the monograph you are presenting available free of charge online?"
 #: recensio.contenttypes:/content/presentationmonograph.py:94
-#, fuzzy
 msgid "description_presentation_uri"
-msgstr "presentation of:"
+msgstr ""
+"Is the monograph you are presenting available free of charge online?"
 
 #: recensio.contenttypes:/content/presentationmonograph.py:99
 msgid "Upload of cover picture"

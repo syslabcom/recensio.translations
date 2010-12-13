@@ -362,14 +362,16 @@ msgstr "URL"
 #. Default: "Name of journal/newspaper/yearbook with volume, year and number of pages"
 #: recensio.contenttypes:/content/presentationmonograph.py:70
 msgid "label_published_reviews"
-msgstr "Name der Zeitschrift/Zeitung/Jahrbuch mit Band, Jahr und Seitenangaben"
+msgstr ""
+"Tragen Sie hier den Erscheinungsort evtl. bereits gedruckt "
+"vorhandener Rezensionen Ihres Werks ein"
 
 #. Default: "Insert here the place of publication of reviews on your text that have already been published in print."
 #: recensio.contenttypes:/content/presentationmonograph.py:75
 msgid "description_pubished_reviews"
 msgstr ""
-"Tragen Sie hier den Erscheinungsort evtl. bereits gedruckt vorhandener "
-"Rezensionen Ihres Werks ein."
+"Name der Zeitschrift/Zeitung/Jahrbuch mit Band, Jahr und "
+"Seitenangaben"
 
 #: recensio.contenttypes:/content/presentationmonograph.py:88
 msgid "Author(s) of presented monograph"
@@ -383,8 +385,8 @@ msgstr "Autor(en) der präsentierten Monographie"
 #. Default: "Is the monograph you are presenting available free of charge online?"
 #: recensio.contenttypes:/content/presentationmonograph.py:94
 msgid "description_presentation_uri"
-msgstr "Ist die präsentierte Monographie kostenlos online verfügbar?"
-
+msgstr ""
+"Ist die von Ihnen präsentierte Monographie im Volltext online verfügbar?"
 #: recensio.contenttypes:/content/presentationmonograph.py:99
 msgid "Upload of cover picture"
 msgstr "Hochladen des Coverbildes"
