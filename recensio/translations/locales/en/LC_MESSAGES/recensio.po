@@ -73,12 +73,12 @@ msgstr "Title (edited volume)"
 #. Default: "Name (Internet resource)"
 #: recensio.contenttypes:/browser/review.py:104
 msgid "label_metadata_name_resource"
-msgstr "Name (Internet resource)"
+msgstr "Name (online resource)"
 
 #. Default: "Language (Internet resource)"
 #: recensio.contenttypes:/browser/review.py:107
 msgid "label_metadata_language_internet_resource"
-msgstr "Language (Internet resource)"
+msgstr "Language (online resource)"
 
 #. Default: "Language (Journal)"
 #: recensio.contenttypes:/browser/review.py:111

@@ -269,7 +269,7 @@ msgstr "http://creativecommons.org/licenses/by-nc-nd/3.0/deed.fr"
 #. Default: "Title (Journal)"
 #: recensio.contenttypes:/content/presentationarticlereview.py:36
 msgid "title_journal"
-msgstr "Titre de la revu"
+msgstr "Titre de la revue"
 
 #. Default: "Information on the journal"
 #: recensio.contenttypes:/content/presentationarticlereview.py:40
@@ -782,7 +782,7 @@ msgstr "Année de publication officielle (si différente)"
 
 #: recensio.contenttypes:/content/schemata.py:693
 msgid "Actual year of publication"
-msgstr "Date rélle de publication"
+msgstr "Date réelle de publication"
 
 #. Default: "Information on presented work"
 #: recensio.contenttypes:/content/schemata.py:93
