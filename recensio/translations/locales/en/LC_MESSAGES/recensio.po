@@ -397,7 +397,7 @@ msgstr ""
 #: recensio.contenttypes:/content/presentationmonograph.py:94
 msgid "description_presentation_uri"
 msgstr ""
-"Is the monograph you are presenting available free of charge online?"
+"Is the monograph you are presenting available online?"
 
 #: recensio.contenttypes:/content/presentationmonograph.py:99
 msgid "Upload of cover picture"
