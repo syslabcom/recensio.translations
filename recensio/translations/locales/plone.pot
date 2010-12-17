@@ -117,6 +117,12 @@ msgstr ""
 msgid "label_tags"
 msgstr ""
 
+msgid "label_existing_tags"
+msgstr ""
+
+msgid "label_new_tags"
+msgstr ""
+
 #: recensio.policy:/missing_18n_labels.py:27
 msgid "Presentation Online Resource"
 msgstr ""
