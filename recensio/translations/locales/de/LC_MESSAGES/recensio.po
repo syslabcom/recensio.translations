@@ -768,7 +768,8 @@ msgstr "ISBN"
 #. Default: "With or without hyphens."
 #: recensio.contenttypes:/content/schemata.py:632
 msgid "description_isbn"
-msgstr "Schreibweise frei."
+"Schreibweise frei. Bei mehreren Nummern bitte jene der Hardcoverausgabe "
+"wählen."
 
 #: recensio.contenttypes:/content/schemata.py:649
 msgid "ISSN"
@@ -777,9 +778,8 @@ msgstr "ISSN"
 #. Default: "With or without hyphens. In case of several numbers please choose the hard cover edition."
 #: recensio.contenttypes:/content/schemata.py:650
 msgid "description_issn"
-msgstr ""
-"Schreibweise frei. Bei mehreren Nummern bitte jene der Hardcoverausgabe "
-"wählen."
+msgstr "Schreibweise frei."
+
 
 #: recensio.contenttypes:/content/schemata.py:664
 msgid "Shortname"

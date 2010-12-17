@@ -754,7 +754,9 @@ msgstr "ISBN"
 #. Default: "With or without hyphens."
 #: recensio.contenttypes:/content/schemata.py:632
 msgid "description_isbn"
-msgstr "Avec ou sans tiret."
+msgstr ""
+"Avec ou sans tiret. En cas de plusieurs ISBN veuillez choisir celui de "
+"l’édition grand format."
 
 #: recensio.contenttypes:/content/schemata.py:649
 msgid "ISSN"
@@ -764,9 +766,8 @@ msgstr "ISSN"
 #. Default: "With or without hyphens. In case of several numbers please choose the hard cover edition."
 #: recensio.contenttypes:/content/schemata.py:650
 msgid "description_issn"
-msgstr ""
-"Avec ou sans tiret. En cas de plusieurs ISBN veuillez choisir celui de "
-"l’édition grand format."
+msgstr "Avec ou sans tiret."
+
 
 #: recensio.contenttypes:/content/schemata.py:664
 msgid "Shortname"
