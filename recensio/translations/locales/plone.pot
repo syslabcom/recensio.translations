@@ -120,6 +120,7 @@ msgstr ""
 msgid "label_existing_tags"
 msgstr ""
 
+#. Default: "Neues Schlagwort hinzufuegen
 msgid "label_new_tags"
 msgstr ""
 
@@ -128,6 +129,7 @@ msgid "Presentation Online Resource"
 msgstr ""
 
 #: recensio.policy:/missing_18n_labels.py:28
+#. Default: "Presentation Article in Journal
 msgid "Presentation Article Review"
 msgstr ""
 
