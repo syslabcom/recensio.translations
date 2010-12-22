@@ -113,7 +113,7 @@ msgstr ""
 msgid "label_new_items_since"
 msgstr ""
 
-#. Default: "Schlagwörter"
+#. Default: "Schlagwoerter"
 msgid "label_tags"
 msgstr ""
 
