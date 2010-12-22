@@ -1,41 +1,35 @@
-# #############################################################################
-#
 # Copyright (c) 2003-2004 Zope Corporation and Contributors.
 # All Rights Reserved.
-#
+# 
 # This software is subject to the provisions of the Zope Public License,
 # Version 2.1 (ZPL).  A copy of the ZPL should accompany this distribution.
 # THIS SOFTWARE IS PROVIDED "AS IS" AND ANY AND ALL EXPRESS OR IMPLIED
 # WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
 # WARRANTIES OF TITLE, MERCHANTABILITY, AGAINST INFRINGEMENT, AND FITNESS
 # FOR A PARTICULAR PURPOSE.
-#
-# #############################################################################
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.0\n"
+"Project-Id-Version: Recensio\n"
 "POT-Creation-Date: Wed Nov 10 11:55:18 2010\n"
-"PO-Revision-Date: 2010-08-25 16:49+0200\n"
-"Last-Translator: Manuel Reinhardt <reinhardtsyslab.com>\n"
-"Language-Team: English\n"
+"PO-Revision-Date: 2010-12-22 12:28+0000\n"
+"Last-Translator: admin <gerken@syslab.com>\n"
+"Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "Generated-By: zope/app/locales/extract.py\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language-Code: en\n"
-"Domain: recensio\n"
 
 #. Default: Your location (city and country)
 msgid "help_location"
 msgstr "Your location (city and country)"
 
 #. Default: "What language would you prefer for receiving information
+#           from us (about comments on your contributions)?"
 msgid "help_preferred_language"
-msgstr ""
-"What language would you prefer for receiving information from us (about "
-"comments on your contributions)?"
+msgstr "What language would you prefer for receiving information from us (about comments on your contributions)?"
 
 #. Default: "Review"
 msgid "label_schema_review"
@@ -58,48 +52,64 @@ msgid "label_schema_associated_edited_volume"
 msgstr "Associated Edited Volume"
 
 #. Default: "Please fill in the following form in order to present
+#           your monograph on recensio.net. All fields marked with *
+#           are required.\n Please keep in mind that you may present
+#           your core statements in nearly all European languages but
+#           that we would advise you to choose one of the main
+#           academic languages. This way your presentation will
+#           attract much more attention and discussion of your
+#           statements is much more likely.\n You can make changes or
+#           additions to all data at a later date."
 msgid "description_presentation_monograph"
 msgstr ""
-"Please fill in the following form in order to present your monograph on "
-"recensio.net. All fields marked with * are required.\n"
-"Please keep in mind that you may present your core statements in nearly all "
-"European languages but that we would advise you to choose one of the main "
-"academic languages. This way your presentation will attract much more "
-"attention and discussion of your statements is much more likely.\n"
+"Please fill in the following form in order to present your monograph on recensio.net. All fields marked with * are required.\n"
+"Please keep in mind that you may present your core statements in nearly all European languages but that we would advise you to choose one of the main academic languages. This way your presentation will attract much more attention and discussion of your statements is much more likely.\n"
 "You can make changes or additions to all data at a later date."
 
 #. Default: "Please fill in the following form in order to present
+#           your contribution to an edited volume on recensio.net. All
+#           fields marked with * are required.\n Please keep in mind
+#           that you may present your core statements in nearly all
+#           European languages but that we would advise you to choose
+#           one of the main academic languages. This way your
+#           presentation will attract much more attention and
+#           discussion of your statements is much more likely.\n You
+#           can make changes or additions to all data at a later date."
 msgid "description_presentation_collection"
 msgstr ""
-"Please fill in the following form in order to present your contribution to "
-"an edited volume on recensio.net. All fields marked with * are required.\n"
-"Please keep in mind that you may present your core statements in nearly all "
-"European languages but that we would advise you to choose one of the main "
-"academic languages. This way your presentation will attract much more "
-"attention and discussion of your statements is much more likely.\n"
+"Please fill in the following form in order to present your contribution to an edited volume on recensio.net. All fields marked with * are required.\n"
+"Please keep in mind that you may present your core statements in nearly all European languages but that we would advise you to choose one of the main academic languages. This way your presentation will attract much more attention and discussion of your statements is much more likely.\n"
 "You can make changes or additions to all data at a later date."
 
 #. Default: "Please fill in the following form in order to present an
+#           online resource relevant to historians on
+#           recensio.net. All fields marked with * are required.\n
+#           Please keep in mind that you may present your core
+#           statements in nearly all European languages but that we
+#           would advise you to choose one of the main academic
+#           languages. This way your presentation will attract much
+#           more attention and discussion of your statements is much
+#           more likely.\n You can make changes or additions to all
+#           data at a later date."
 msgid "description_presentation_online_resource"
 msgstr ""
-"Please fill in the following form in order to present an online resource "
-"relevant to historians on recensio.net. All fields marked with * are "
-"required.\n"
-"Please keep in mind that you may present your core statements in nearly all "
-"European languages but that we would advise you to choose one of the main "
-"academic languages. This way your presentation will attract much more "
-"attention and discussion of your statements is much more likely.\n"
+"Please fill in the following form in order to present an online resource relevant to historians on recensio.net. All fields marked with * are required.\n"
+"Please keep in mind that you may present your core statements in nearly all European languages but that we would advise you to choose one of the main academic languages. This way your presentation will attract much more attention and discussion of your statements is much more likely.\n"
 "You can make changes or additions to all data at a later date."
 
 #. Default: "Please fill in the following form in order to present
+#           your article on recensio.net. All fields marked with *
+#           are required.\nPlease keep in mind that you may present
+#           your core statements in nearly all European languages
+#           but that we would advise you to choose one of the main
+#           academic languages. This way your presentation will
+#           attract much more attention and discussion of your
+#           statements is much more likely.\nYou can make changes
+#           or additions to all data at a later date."
 msgid "description_presentation_article"
 msgstr ""
-"Please fill in the following form in order to present your article on "
-"recensio.net. All fields marked with * are required.\n"
-"Please keep in mind that you may present your core statements in nearly all "
-"European languages but that we would advise you to choose one of the main "
-"academic languages. This way your presentation will attract much more "
-"attention and discussion of your statements is much more likely.\n"
+"Please fill in the following form in order to present your article on recensio.net. All fields marked with * are required.\n"
+"Please keep in mind that you may present your core statements in nearly all European languages but that we would advise you to choose one of the main academic languages. This way your presentation will attract much more attention and discussion of your statements is much more likely.\n"
 "You can make changes or additions to all data at a later date."
 
 #. Default: "Suche in"
@@ -110,9 +120,15 @@ msgstr "Search in"
 msgid "label_new_items_since"
 msgstr "Date of document creation"
 
-#. Default: "Schlagwörter"
+#. Default: "Schlagwoerter"
 msgid "label_tags"
 msgstr "Subject heading"
+
+msgid "label_existing_tags"
+msgstr "Existing subject headings"
+
+msgid "label_new_tags"
+msgstr "New subject headings"
 
 #: recensio.policy:/missing_18n_labels.py:27
 msgid "Presentation Online Resource"
@@ -149,10 +165,3 @@ msgstr ""
 #: recensio.policy:/missing_18n_labels.py:13
 msgid "Publication"
 msgstr ""
-
-#~ msgid "help_user_name_creation_casesensitive"
-#~ msgstr ""
-#~ "Choose a user name. If possible, please use the following format: First-"
-#~ "name_Surname. Later, you will need this name in order to log on. No "
-#~ "spaces or special characters are allowed, please be aware of case "
-#~ "sensitivity."
