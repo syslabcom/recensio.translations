@@ -27,6 +27,7 @@ setup(name='recensio.translations',
           'setuptools',
           'infrae.i18nextract',
           'zope.i18nmessageid',
+          'zc.testbrowser'
       ],
       extras_require={
           'podiff': ['polib'],
@@ -38,6 +39,7 @@ setup(name='recensio.translations',
       target = plone
       [console_scripts]
       podiff = recensio.translations:podiff
+      updateTranslations = recensio.translations:updateTranslations
       """,
       setup_requires=["PasteScript"],
       paster_plugins=["ZopeSkel"],

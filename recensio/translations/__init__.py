@@ -1,5 +1,8 @@
   # -*- extra stuff goes here -*- 
 from zope.i18nmessageid import MessageFactory
+from zc.testbrowser.browser import Browser
+import pkg_resources
+import sys
 
 RecensioMessageFactory = MessageFactory('recensio')
 
@@ -67,3 +70,17 @@ def podiff(svnurl):
 
         os.remove(tmppath)
 
+def updateTranslations(ignore):
+    br = Browser('http://transifex.syslab.com')
+    try:
+        br.getControl(name='username').value = sys.argv[1]
+        br.getControl(name='password').value = sys.argv[2]
+    except IndexError:
+        print "Usage: %s [Your Transifex username] [Your Transifex password"
+        return 1
+    br.getControl('Sign in').click()
+    for domain, url_tmpl in (('recensio', 'http://transifex.syslab.com/projects/p/recensio/resource/recensiopot/l/%s/download/'), ('plone', 'http://transifex.syslab.com/projects/p/recensio/resource/plonepot/l/%s/download/')):
+      for lang in ('de', 'en', 'fr'):
+        print "Getting %s for %s" % (domain, lang)
+        br.open(url_tmpl % lang)
+        file(pkg_resources.resource_filename(__name__, 'locales/%s/LC_MESSAGES/%s.po' % (lang, domain)), 'w').write(br.contents)
