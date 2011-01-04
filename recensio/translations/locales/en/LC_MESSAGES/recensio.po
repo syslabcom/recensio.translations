@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Recensio\n"
 "POT-Creation-Date: Wed Dec 22 15:57:34 2010\n"
-"PO-Revision-Date: 2011-01-04 08:44+0000\n"
+"PO-Revision-Date: 2011-01-04 11:20+0000\n"
 "Last-Translator: thomasw <thomas@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "MIME-Version: 1.0\n"
@@ -1133,7 +1133,7 @@ msgstr "Presentations"
 #: recensio.policy:/missing_18n_labels.py:58
 #: recensio.policy:/missing_18n_labels.py:76
 msgid "label_participate"
-msgstr "join"
+msgstr "Participate"
 
 #: recensio.policy:/missing_18n_labels.py:19
 #: recensio.policy:/missing_18n_labels.py:59
@@ -1194,7 +1194,7 @@ msgstr "Presentation (article in a journal)"
 
 #: recensio.policy:/missing_18n_labels.py:30
 msgid "Presentation Article edited Volume"
-msgstr "Presentation of article (edited volume)"
+msgstr "Presentation (article in an edited volume)"
 
 #: recensio.policy:/missing_18n_labels.py:31
 #: recensio.theme:/skins/recensio_theme/add_new_item.pt:65
@@ -1204,7 +1204,7 @@ msgstr "Presentation Article in Edited Volume"
 #: recensio.policy:/missing_18n_labels.py:32
 #: recensio.theme:/skins/recensio_theme/add_new_item.pt:46
 msgid "Presentation Monograph"
-msgstr "Presentation of monograph"
+msgstr "Presentation (monograph)"
 
 #: recensio.policy:/missing_18n_labels.py:33
 msgid "Review Journal"

@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Recensio\n"
 "POT-Creation-Date: Wed Dec 22 15:57:34 2010\n"
-"PO-Revision-Date: 2011-01-04 08:43+0000\n"
-"Last-Translator: thomasw <thomas@syslab.com>\n"
+"PO-Revision-Date: 2011-01-04 11:19+0000\n"
+"Last-Translator: lilianlandes <lilian.landes@bsb-muenchen.de>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1140,7 +1140,7 @@ msgstr "Präsentationen"
 #: recensio.policy:/missing_18n_labels.py:58
 #: recensio.policy:/missing_18n_labels.py:76
 msgid "label_participate"
-msgstr "mitmachen"
+msgstr "Mitmachen"
 
 #: recensio.policy:/missing_18n_labels.py:19
 #: recensio.policy:/missing_18n_labels.py:59

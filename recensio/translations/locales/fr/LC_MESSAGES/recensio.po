@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Recensio\n"
 "POT-Creation-Date: Wed Dec 22 15:57:34 2010\n"
-"PO-Revision-Date: 2011-01-04 08:45+0000\n"
+"PO-Revision-Date: 2011-01-04 11:21+0000\n"
 "Last-Translator: thomasw <thomas@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "MIME-Version: 1.0\n"
@@ -1115,19 +1115,19 @@ msgstr "Nombre de résultats affichés par page"
 #: recensio.policy:/missing_18n_labels.py:56
 #: recensio.policy:/missing_18n_labels.py:74
 msgid "label_reviews"
-msgstr "recensions"
+msgstr "Recensions"
 
 #: recensio.policy:/missing_18n_labels.py:17
 #: recensio.policy:/missing_18n_labels.py:57
 #: recensio.policy:/missing_18n_labels.py:75
 msgid "label_presentations"
-msgstr "présentations"
+msgstr "Présentations"
 
 #: recensio.policy:/missing_18n_labels.py:18
 #: recensio.policy:/missing_18n_labels.py:58
 #: recensio.policy:/missing_18n_labels.py:76
 msgid "label_participate"
-msgstr "participer"
+msgstr "Participer"
 
 #: recensio.policy:/missing_18n_labels.py:19
 #: recensio.policy:/missing_18n_labels.py:59
@@ -1182,11 +1182,11 @@ msgstr "Présentation (article de revue)"
 
 #: recensio.policy:/missing_18n_labels.py:29
 msgid "Presentation Article in Journal"
-msgstr "Présentation d'un article de revue"
+msgstr "Présentation (article de revue)"
 
 #: recensio.policy:/missing_18n_labels.py:30
 msgid "Presentation Article edited Volume"
-msgstr "Présentation d'un article de recueil"
+msgstr "Présentation (article de recueil)"
 
 #: recensio.policy:/missing_18n_labels.py:31
 #: recensio.theme:/skins/recensio_theme/add_new_item.pt:65
