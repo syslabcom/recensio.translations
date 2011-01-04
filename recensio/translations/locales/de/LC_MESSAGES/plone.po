@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Recensio\n"
 "POT-Creation-Date: Wed Nov 10 11:55:18 2010\n"
-"PO-Revision-Date: 2010-12-22 12:28+0000\n"
-"Last-Translator: admin <gerken@syslab.com>\n"
+"PO-Revision-Date: 2011-01-04 08:45+0000\n"
+"Last-Translator: lilianlandes <lilian.landes@bsb-muenchen.de>\n"
 "Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -118,21 +118,23 @@ msgstr "Einstellungsdatum"
 
 #. Default: "Schlagwoerter"
 msgid "label_tags"
-msgstr ""
+msgstr "Schlagwörter"
 
 msgid "label_existing_tags"
 msgstr "Existierende Schlagwörter"
 
+#. Default: "Neues Schlagwort hinzufuegen
 msgid "label_new_tags"
-msgstr ""
+msgstr "Neues Schlagwort hinzufügen"
 
 #: recensio.policy:/missing_18n_labels.py:27
 msgid "Presentation Online Resource"
 msgstr "Präsentation Internetressource"
 
+#. Default: "Presentation Article in Journal
 #: recensio.policy:/missing_18n_labels.py:28
 msgid "Presentation Article Review"
-msgstr ""
+msgstr "Präsentation eines Aufsatzes in einer Zeitschrift"
 
 #: recensio.policy:/missing_18n_labels.py:29
 msgid "Presentation Article in Journal"
