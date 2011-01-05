@@ -749,7 +749,7 @@ msgid "Mailsettings not configured"
 msgstr ""
 
 #: recensio.policy:/browser/email.py:202
-#. Default: "uMailversand wird vorbereitet. Mail wird versandt an %s"
+#. Default: "Mailversand wird vorbereitet. Mail wird versandt an %s"
 msgid "mail_sending_prepared"
 msgstr ""
 
@@ -945,10 +945,6 @@ msgstr ""
 #: recensio.policy:/interfaces.py:141
 #. Default: "The path of the folder where newsletter mails will be saved after they have been sent. Will be created when needed if it does not exist."
 msgid "description_mailsettings_archive_folder"
-msgstr ""
-
-#: recensio.policy:/interfaces.py:142
-msgid "/recensio/newsletter/archiv"
 msgstr ""
 
 #: recensio.policy:/interfaces.py:157
