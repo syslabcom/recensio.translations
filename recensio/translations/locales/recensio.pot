@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Wed Jan  5 15:52:08 2011\n"
+"POT-Creation-Date: Fri Jan  7 16:47:39 2011\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -180,24 +180,33 @@ msgstr ""
 msgid "label_metadata_title_article"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:100
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:105
+msgid "Recensio does not know how to safe these categories. We attach them to the document below. Please try to find matching categories. The hints below will be removed when you reload or safe the page."
+msgstr ""
+
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:111
+msgid "Take it over"
+msgstr ""
+
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:116
+msgid "We were unable to select some of the classifications, would you mind to find the most appropriate once and select them manually?"
+msgstr ""
+
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:117
+msgid "Thank you!"
+msgstr ""
+
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:120
+msgid "automatic import of metadata"
+msgstr ""
+
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:13
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:113
 #. Default: "Source of search results"
 msgid "label_opac_source"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:103
-msgid "We were unable to select some of the classifications, would you mind to find the most appropriate once and select them manually?"
-msgstr ""
-
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:104
-msgid "Thank you!"
-msgstr ""
-
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:107
-msgid "automatic import of metadata"
-msgstr ""
-
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:14
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:19
 #: recensio.theme:/skins/recensio_theme/search_form.pt:788
 msgid "Title"
 msgstr ""
@@ -206,7 +215,7 @@ msgstr ""
 msgid "Loading..."
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:32
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:37
 msgid "Language"
 msgstr ""
 
@@ -215,39 +224,36 @@ msgstr ""
 msgid "missing_required_fields"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:44
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:49
+#. Default: "Keywords"
+msgid "label_keywords"
+msgstr ""
+
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:57
 #. Default: "DDC Subject"
 msgid "label_ddc_subject"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:52
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:65
 #. Default: "DDC Time"
 msgid "label_ddc_time"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:60
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:73
 #. Default: "DDC Place"
 msgid "label_ddc_place"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:68
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:81
 msgid "Location"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:8
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:9
 msgid "No results found"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:86
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:99
 msgid "Year"
-msgstr ""
-
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:92
-msgid "Recensio does not know how to safe these categories. We attach them to the document below. Please try to find matching categories. The hints below will be removed when you reload or safe the page."
-msgstr ""
-
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:98
-msgid "Take it over"
 msgstr ""
 
 #: recensio.contenttypes:/content/presentationarticlereview.py:37
@@ -448,19 +454,19 @@ msgstr ""
 msgid "description_documenttypes_referenceworks"
 msgstr ""
 
-#: recensio.contenttypes:/content/review.py:56
+#: recensio.contenttypes:/content/review.py:58
 msgid "license-note-review"
 msgstr ""
 
-#: recensio.contenttypes:/content/review.py:73
+#: recensio.contenttypes:/content/review.py:75
 msgid "license-note-presentation"
 msgstr ""
 
-#: recensio.contenttypes:/content/review.py:77
+#: recensio.contenttypes:/content/review.py:79
 msgid "license-note-presentation-url-text"
 msgstr ""
 
-#: recensio.contenttypes:/content/review.py:78
+#: recensio.contenttypes:/content/review.py:80
 msgid "license-note-presentation-url-url"
 msgstr ""
 
@@ -485,7 +491,7 @@ msgid "Language(s) of presented work"
 msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:141
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:26
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:31
 msgid "Authors"
 msgstr ""
 
@@ -594,7 +600,7 @@ msgid "Page number (end)"
 msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:415
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:80
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:93
 msgid "Pages"
 msgstr ""
 
@@ -661,7 +667,7 @@ msgid "ddc place"
 msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:589
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:20
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:25
 msgid "Subtitle"
 msgstr ""
 
@@ -674,12 +680,12 @@ msgid "Place of publication"
 msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:614
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:74
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:87
 msgid "Publisher"
 msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:638
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:38
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:43
 msgid "ISBN"
 msgstr ""
 
