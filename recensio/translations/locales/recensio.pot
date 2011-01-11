@@ -1404,10 +1404,6 @@ msgstr ""
 msgid "label_latest_review_journals"
 msgstr ""
 
-#: recensio.theme:/browser/templates/homepage.pt:33
-msgid "in"
-msgstr ""
-
 #: recensio.theme:/browser/templates/homepage.pt:46
 #. Default: "Neueste Rezensionen online"
 msgid "label_latest_reviews"
