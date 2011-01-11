@@ -169,7 +169,7 @@ msgstr ""
 msgid "Publication"
 msgstr ""
 
-#. Default: "Waehlen Sie Ihren Benutzernamen. Bitte verwenden Sie nach Moeglichkeit dieses Schema: Vorname_Nachname. Diesen Namen benoetigen Sie spaeter zur Anmeldung. Es sind keine Umlaute, Leer- oder Sonderzeichen erlaubt, zwischen Groß- und Kleinschreibung wird unterschieden."
+#. Default: "Waehlen Sie Ihren Benutzernamen. Bitte verwenden Sie nach Moeglichkeit dieses Schema: Vorname_Nachname. Diesen Namen benoetigen Sie spaeter zur Anmeldung. Es sind keine Umlaute, Leer- oder Sonderzeichen erlaubt, zwischen Gross- und Kleinschreibung wird unterschieden."
 msgid "help_user_name_creation_casesensitive"
 msgstr ""
 
