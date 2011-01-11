@@ -172,3 +172,7 @@ msgstr ""
 #. Default: "Wählen Sie Ihren Benutzernamen. Bitte verwenden Sie nach Möglichkeit dieses Schema: Vorname_Nachname. Diesen Namen benötigen Sie später zur Anmeldung. Es sind keine Umlaute, Leer- oder Sonderzeichen erlaubt, zwischen Groß- und Kleinschreibung wird unterschieden."
 msgid "help_user_name_creation_casesensitive"
 msgstr ""
+
+#. Default: "Geben Sie den Code ein, den Sie im Bild unten sehen bzw. in der Audiodatei hören."
+msgid "Type the code from the picture shown below or from the audio."
+msgstr ""
