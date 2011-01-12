@@ -74,9 +74,13 @@ def updateTranslations(ignore):
     br = Browser('http://transifex.syslab.com')
     try:
         br.getControl(name='username').value = sys.argv[1]
-        br.getControl(name='password').value = sys.argv[2]
+        if len(sys.argv) < 3:
+            import getpass
+            br.getControl(name='password').value = getpass.getpass()
+        else:
+            br.getControl(name='password').value = sys.argv[2]
     except IndexError:
-        print "Usage: %s [Your Transifex username] [Your Transifex password"
+        print "Usage: %s [Your Transifex username] [Your Transifex password]"
         return 1
     br.getControl('Sign in').click()
     for domain, url_tmpl in (('recensio', 'http://transifex.syslab.com/projects/p/recensio/resource/recensiopot/l/%s/download/'), ('plone', 'http://transifex.syslab.com/projects/p/recensio/resource/plonepot/l/%s/download/')):
