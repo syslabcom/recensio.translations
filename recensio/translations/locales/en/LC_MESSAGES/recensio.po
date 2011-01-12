@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Recensio\n"
 "POT-Creation-Date: Fri Jan  7 16:47:39 2011\n"
-"PO-Revision-Date: 2011-01-11 14:29+0000\n"
-"Last-Translator: lilianlandes <lilian.landes@bsb-muenchen.de>\n"
+"PO-Revision-Date: 2011-01-12 13:20+0000\n"
+"Last-Translator: thomasw <thomas@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -974,7 +974,7 @@ msgstr "Add comment"
 #. formatting."
 #: recensio.policy:/browser/templates/comments.pt:140
 msgid "description_add_comment"
-msgstr "You can add a comment by filling out the form below (plain text)."
+msgstr "You can add a comment here (plain text)."
 
 #. Default: "Log in to add comments"
 #: recensio.policy:/browser/templates/comments.pt:17
@@ -1539,7 +1539,7 @@ msgstr "Participating journals"
 #. Default: "Neueste Rezensionsteile online"
 #: recensio.theme:/browser/templates/homepage.pt:21
 msgid "label_latest_review_journals"
-msgstr "latest review sectons online"
+msgstr "latest review sections online"
 
 #. Default: "Neueste Rezensionen online"
 #: recensio.theme:/browser/templates/homepage.pt:46
