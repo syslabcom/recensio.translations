@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Recensio\n"
 "POT-Creation-Date: Wed Jan 12 18:53:07 2011\n"
-"PO-Revision-Date: 2011-01-12 18:31+0000\n"
+"PO-Revision-Date: 2011-01-12 18:53+0000\n"
 "Last-Translator: reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "MIME-Version: 1.0\n"
@@ -866,7 +866,7 @@ msgstr ""
 #. Default: "Es wurde eine Rezension von ${title} ver\303\266ffentlicht"
 #: recensio.policy:/browser/email.py:294
 msgid "mail_new_publication_subject"
-msgstr "A new review of $(title) has been published"
+msgstr "A new review of ${title} has been published"
 
 #. Default: "Ihre Rezension auf recensio.net"
 #: recensio.policy:/browser/email.py:333
