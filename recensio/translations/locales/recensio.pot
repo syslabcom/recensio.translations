@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Wed Jan 12 18:47:45 2011\n"
+"POT-Creation-Date: Wed Jan 12 18:53:07 2011\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -911,7 +911,7 @@ msgid "label_item_published"
 msgstr ""
 
 #: recensio.policy:/browser/workflow.py:64
-#. Default: "Ihr Artikel \"%(title)s\" wurde freigeschaltet und ist nun unter %(url)s verf\303\274gbar."
+#. Default: "Ihr Artikel \"${title}\" wurde freigeschaltet und ist nun unter ${url} verf\303\274gbar."
 msgid "publish_notification_template"
 msgstr ""
 
