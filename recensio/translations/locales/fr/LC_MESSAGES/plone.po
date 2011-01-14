@@ -1,217 +1,246 @@
-# Copyright (c) 2003-2004 Zope Corporation and Contributors.
-# All Rights Reserved.
-#
-# This software is subject to the provisions of the Zope Public License,
-# Version 2.1 (ZPL).  A copy of the ZPL should accompany this distribution.
-# THIS SOFTWARE IS PROVIDED "AS IS" AND ANY AND ALL EXPRESS OR IMPLIED
-# WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-# WARRANTIES OF TITLE, MERCHANTABILITY, AGAINST INFRINGEMENT, AND FITNESS
-# FOR A PARTICULAR PURPOSE.
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: Recensio\n"
-"POT-Creation-Date: Wed Nov 10 11:55:18 2010\n"
-"PO-Revision-Date: 2011-01-12 19:21+0000\n"
-"Last-Translator: lilianlandes <lilian.landes@bsb-muenchen.de>\n"
-"Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
-"Generated-By: zope/app/locales/extract.py\n"
 
-#. Default: Your location (city and country)
-msgid "help_location"
-msgstr "Votre localisation (ville et pays)"
 
-#           from us (about comments on your contributions)?"
-#. Default: "What language would you prefer for receiving information
-msgid "help_preferred_language"
-msgstr ""
-"Dans quelle langue souhaitez-vous être informé de l'entrée de nouveaux "
-"commentaires ?"
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
 
-#. Default: "Review"
-msgid "label_schema_review"
-msgstr "Recension"
+<html lang="en">
+<head>
+  <title>User sign in</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  
+  <link media="screen" href="/site_media/static/css/base.css" type="text/css" rel="stylesheet" />
+  <link media="screen" href="/site_media/static/css/stats.css" type="text/css" rel="stylesheet" />
+  <link media="screen" href="/site_media/static/css/icons.css" type="text/css" rel="stylesheet" />
+  <link media="screen" href="/site_media/static/userprofile/css/django-profile.css" type="text/css" rel="stylesheet"  />
+  <link media="screen" href="/site_media/static/userprofile/css/tx.css" type="text/css" rel="stylesheet" />
+  <link media="screen" href="/site_media/static/css/jquery.tipsy.css" type="text/css" rel="stylesheet" />
+  <link media="screen" href="/site_media/static/css/jquery.fancybox-1.3.0.css" type="text/css" rel="stylesheet" />
+  
+  
+  <script type="text/javascript"> var STATIC_URL = "/site_media/static/"; </script>
+  <script type="text/javascript" src="/site_media/static/js/jquery-1.3.2.min.js"></script>
+  <script type="text/javascript" src="/site_media/static/js/json2.min.js"></script>
+  <script type="text/javascript" src="/site_media/static/js/jquery.tablesorter.min.js"></script>
+  <script type="text/javascript" src="/site_media/static/js/base.js"></script>
+  <script type="text/javascript" src="/site_media/static/js/jquery.qtip-1.0.0-rc2.min.js"></script>
+  <script type="text/javascript" src="/site_media/static/js/jquery.tipsy.js"></script> 
+  <script type="text/javascript" src="/site_media/static/js/ajaxupload.js"></script> 
+  <script type="text/javascript" src="/site_media/static/js/sprintf.js"></script>
+  <script type="text/javascript" src="/site_media/static/js/tx.core.js"></script>
+  <script type="text/javascript" src="/site_media/static/js/jquery.fancybox-1.3.0.pack.js"></script>
+  
+  
+  <link rel="shortcut icon" href="/site_media/static/images/favicon.ico" type="image/x-icon" />
+  
+  
+  
+<script type="text/javascript">
+	$(function() {
+		$("input[type='text'], input[type='password']").addClass("text");
+		$("#id_username").focus();
+	});
+</script>
 
-#. Default: "Reviewed text"
-msgid "label_schema_reviewed_text"
-msgstr "Texte présenté"
+  
+  
+    
+  
+  
+  <link media="screen" href="/site_media/static/locks/css/icons.css" type="text/css" rel="stylesheet" />
 
-#. Default: "Presented text"
-msgid "label_schema_presented_text"
-msgstr "Texte commenté"
+</head>
+<body id="" class="">
+<div id="wrapper">
+  <div id="notification-container" style="width:20em; left:50%; margin-left:-10em; border: 1px solid red; position: fixed; z-index: 10000; display:none;
+      border-width: 2px; border-style: none solid solid; border-color: #f00; border-radius: 0px 0px 1em 1em; -moz-border-radius: 0px 0px 1em 1em; background-color: #fff8f8; padding:0.5em;">
+    <div class="i16 waiting" onClick="$('#notifier').slideUp()">
+    Loading languages...
+    </div>
+  </div>
+  <div id="header">
+    <div id="logo">
+      <a class="simlink" href="/" title="Go to the start page">
+        <img border="0" src="/site_media/static/images/tx-logo.png"  alt="Go to start page" />
+      </a>
+    </div>
+    <div id="navmenu">
+      <a href="/projects/" title="The projects being served">Projects</a>
+      | <a href="/languages/" title="The languages our service serves">Languages</a>
+    </div>
+    <div id="header_secnav">
+      <!-- <span id="login">-->
+          
+              <a href="/accounts/login/?next=/projects/p/recensio/resource/plonepot/l/fr/download/">Sign in</a>
+              
+              
+              &nbsp; | &nbsp; <a href="/accounts/register/">Register</a>
+              
+          
+      <!--</span> -->
+     &nbsp;
+    
+    <form id="global-language-chooser" class="microform" action="/i18n/setlang/" method="post">
+        <input name="next" type="hidden" value="/accounts/login/" />
+            <select id="language_switch" name="language">
+            
+               <option value="ca" >ca</option>
+            
+               <option value="en" selected="selected">en</option>
+            
+               <option value="es" >es</option>
+            
+               <option value="fi" >fi</option>
+            
+               <option value="he" >he</option>
+            
+               <option value="hu" >hu</option>
+            
+               <option value="nl" >nl</option>
+            
+               <option value="pa" >pa</option>
+            
+               <option value="pt" >pt</option>
+            
+               <option value="ru" >ru</option>
+            
+               <option value="uk" >uk</option>
+            
+               <option value="zh_TW" >zh_TW</option>
+            
+            </select>
+    </form>
+    
+    </div>
+    <div id="header_trinav">
+    
+      
+<div class="searchform searchform_plain ">
+  <form action="/search/" method="GET" class="search_projects">
+    <input class="query withbgimage" type="text" name="q" size="12" value="">
+    <input class="i16 submit" type="submit" value="Search Projects">
+  </form>
+</div>
+    
+    </div>
+  </div>
+        
+  <div id="content">
+    <div id="content_header">
+    
+      <div id="breadcrumbs">
+        
+<a href="/" title="Go to the start page">Home</a>
+ &raquo; Profile
+      </div>
+      <div id="content_title">
+        
+      </div>
+      <div id="content_header_sec">
+        
+      </div>
+    
+    </div>
+    <div id="body">
+      
+        <div id="body_sec">
+          
+        </div>
+        <div id="body_main">
+          
+            
+          
+        
+	
+	<div id="content-main" class="span-13 prepend-1 colborder">
+		
+  <h2>Sign in</h2>
+  <p>Enter your username and password to sign in.</p>
+    
+  <div class="generic_form">
+    <form action="?next=/projects/p/recensio/resource/plonepot/l/fr/download/" method="post" accept-charset="utf-8"><div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='a387cf2c7735f433dad9abc4054acbdc' /></div>
+    <fieldset>
+    <table><tbody>
+      
 
-#. Default: "Presentation"
-msgid "label_schema_presentation"
-msgstr "Présentation"
 
-#. Default: "Presentated Resource"
-msgid "label_schema_presented_resource"
-msgstr "Ressource présentée"
 
-#. Default "Associated Journal"
-msgid "label_schema_associated_journal"
-msgstr "Revue correspondante"
 
-#. Default "Associated Edited Volume"
-msgid "label_schema_associated_edited_volume"
-msgstr "Recueil correspondant"
+    
+    
+        
+            <tr>
+            <th>Username: <span class="required">*</span></th>
+            <td>
+                <p class="fieldp"><input id="id_username" type="text" name="username" maxlength="30" /></p>
+                
+            </td>
+            <td>
+                <p class="helptext">
+                    
+                    
+                </p>
+            </td>
+            </tr>
+        
+    
+        
+            <tr>
+            <th>Password: <span class="required">*</span></th>
+            <td>
+                <p class="fieldp"><input type="password" name="password" id="id_password" /></p>
+                
+            </td>
+            <td>
+                <p class="helptext">
+                    
+                    
+                </p>
+            </td>
+            </tr>
+        
+    
 
-#           your monograph on recensio.net. All fields marked with *
-#           are required.\n Please keep in mind that you may present
-#           your core statements in nearly all European languages but
-#           that we would advise you to choose one of the main
-#           academic languages. This way your presentation will
-#           attract much more attention and discussion of your
-#           statements is much more likely.\n You can make changes or
-#           additions to all data at a later date."
-#. Default: "Please fill in the following form in order to present
-msgid "description_presentation_monograph"
-msgstr ""
-"Afin de présenter votre monographie sur recensio.net, veuillez remplir le "
-"formulaire suivant. Les champs marqué d’un astérisque (*) sont obligatoires. "
-"Bien que la présentation de vos thèses puisse être proposée dans toute "
-"langue européenne, nous vous conseillons cependant d’utiliser de préférence "
-"l’une des langues les plus usitées dans le dialogue scientifique actuel. "
-"Vous conférerez ainsi une plus grande visibilité à votre présentation et "
-"celle-ci sera plus susceptible d’être commentée. Vous avez également la "
-"possibilité d’ajouter ou de modifier des informations ultérieurement."
 
-#           your contribution to an edited volume on recensio.net. All
-#           fields marked with * are required.\n Please keep in mind
-#           that you may present your core statements in nearly all
-#           European languages but that we would advise you to choose
-#           one of the main academic languages. This way your
-#           presentation will attract much more attention and
-#           discussion of your statements is much more likely.\n You
-#           can make changes or additions to all data at a later date."
-#. Default: "Please fill in the following form in order to present
-msgid "description_presentation_collection"
-msgstr ""
-"Afin de présenter votre article de recueil sur recensio.net, veuillez "
-"remplir le formulaire suivant. Les champs marqué d’un astérisque (*) sont "
-"obligatoires. Bien que la présentation de vos thèses puisse être proposée "
-"dans toute langue européenne, nous vous conseillons cependant d’utiliser de "
-"préférence l’une des langues les plus usitées dans le dialogue scientifique "
-"actuel. Vous conférerez ainsi une plus grande visibilité à votre "
-"présentation et celle-ci sera plus susceptible d’être commentée. Vous avez "
-"également la possibilité d’ajouter ou de modifier des informations "
-"ultérieurement."
+    </tbody></table>
+    <p class="submit"><input type="submit" class="i16 submit" value="Sign in" /></p>
+    </fieldset>
+    </form>
+  </div>
 
-#           online resource relevant to historians on
-#           recensio.net. All fields marked with * are required.\n
-#           Please keep in mind that you may present your core
-#           statements in nearly all European languages but that we
-#           would advise you to choose one of the main academic
-#           languages. This way your presentation will attract much
-#           more attention and discussion of your statements is much
-#           more likely.\n You can make changes or additions to all
-#           data at a later date."
-#. Default: "Please fill in the following form in order to present an
-msgid "description_presentation_online_resource"
-msgstr ""
-"Afin de présenter une ressource Internet présentant un intérêt pour la "
-"recherche en histoire, veuillez remplir le formulaire suivant. Les champs "
-"marqués d’un astérisque (*) sont obligatoires. Bien que la présentation être "
-"proposée dans toute langue européenne, nous vous conseillons cependant "
-"d’utiliser de préférence l’une des langues les plus usitées dans le dialogue "
-"scientifique actuel. Vous conférerez ainsi une plus grande visibilité à "
-"votre présentation et celle-ci sera plus susceptible d’être commentée. Vous "
-"avez également la possibilité d’ajouter ou de modifier des informations "
-"ultérieurement."
 
-#           your article on recensio.net. All fields marked with *
-#           are required.\nPlease keep in mind that you may present
-#           your core statements in nearly all European languages
-#           but that we would advise you to choose one of the main
-#           academic languages. This way your presentation will
-#           attract much more attention and discussion of your
-#           statements is much more likely.\nYou can make changes
-#           or additions to all data at a later date."
-#. Default: "Please fill in the following form in order to present
-msgid "description_presentation_article"
-msgstr ""
-"Afin de présenter votre article de revue sur recensio.net, veuillez remplir "
-"le formulaire suivant. Les champs marqué d’un astérisque (*) sont "
-"obligatoires. Bien que la présentation de vos thèses puisse être proposée "
-"dans toute langue européenne, nous vous conseillons cependant d’utiliser de "
-"préférence l’une des langues les plus usitées dans le dialogue scientifique "
-"actuel. Vous conférerez ainsi une plus grande visibilité à votre "
-"présentation et celle-ci sera plus susceptible d’être commentée. Vous avez "
-"également la possibilité d’ajouter ou de modifier des informations "
-"ultérieurement."
+	</div><!-- END content-main -->
+	<div id="content_related" class="span-8 last">
+		
+	<div class="box">
+		<h3>Utilities:</h3>
+    
+		<a href="/accounts/password/reset/">Lost your password?</a>
+		<br />
+		<a href="/accounts/email/validation/reset/">Resend validation e-mail</a>
+    <br />
+		<a href="/accounts/register/">Sign up!</a>
+		<br />
+	</div>
 
-#. Default: "Suche in"
-msgid "label_item_type"
-msgstr "Chercher dans"
+	</div><!-- END content-related -->
 
-#. Default: "Einstellungsdatum"
-msgid "label_new_items_since"
-msgstr "Date de création"
+        </div>
+      
+    </div>
+    <div id="content_footer">
+      
+    </div>
+  </div>
+</div>
 
-#. Default: "Schlagwoerter"
-msgid "label_tags"
-msgstr "Mots-clés"
+  <div id="footer">
+    <p class="main-footer center">
+      <a href="http://trac.transifex.org/wiki/About" title="Learn more about Transifex">About</a> | <a href="/contact/" title="Drops us a line">Feedback</a>
+    </p>
+    <p class="powered">Powered by <a href="http://transifex.org/" title="Transifex community">Transifex</a>, the Open Translation Platform</p>
+    <p class="version">v1.0.0 </p>
+    
+  </div>
 
-msgid "label_existing_tags"
-msgstr "mots-clés existants"
-
-#. Default: "Neues Schlagwort hinzufuegen
-msgid "label_new_tags"
-msgstr "ajouter un nouveau mot-clé"
-
-#: recensio.policy:/missing_18n_labels.py:27
-msgid "Presentation Online Resource"
-msgstr "Présentation (ressource Internet)"
-
-#. Default: "Presentation Article in Journal
-#: recensio.policy:/missing_18n_labels.py:28
-msgid "Presentation Article Review"
-msgstr "Présentation (article de journal)"
-
-#: recensio.policy:/missing_18n_labels.py:29
-msgid "Presentation Article in Journal"
-msgstr "Présentation (article de journal)"
-
-#: recensio.policy:/missing_18n_labels.py:30
-msgid "Presentation Article edited Volume"
-msgstr "Présentation (article de recueil)"
-
-#: recensio.policy:/missing_18n_labels.py:31
-msgid "Presentation Collection"
-msgstr "Présentation (article de recueil)"
-
-#: recensio.policy:/missing_18n_labels.py:32
-msgid "Presentation Monograph"
-msgstr "Présentation (monographie)"
-
-#: recensio.policy:/missing_18n_labels.py:33
-msgid "Review Journal"
-msgstr "Recension (article de journal)"
-
-#: recensio.policy:/missing_18n_labels.py:34
-msgid "Review Monograph"
-msgstr "Recension (monographie)"
-
-#: recensio.policy:/missing_18n_labels.py:13
-msgid "Publication"
-msgstr "Publication"
-
-#. Default: "Waehlen Sie Ihren Benutzernamen. Bitte verwenden Sie nach Moeglichkeit dieses Schema: Vorname_Nachname. Diesen Namen benoetigen Sie spaeter zur Anmeldung. Es sind keine Umlaute, Leer- oder Sonderzeichen erlaubt, zwischen Gross- und Kleinschreibung wird unterschieden."
-msgid "help_user_name_creation_casesensitive"
-msgstr ""
-"Choisissez un nom d'utilisateur. Dans la mesure du possible, veuillez "
-"utiliser le format suivant : prénom_nom. Ce nom d'utilisateur vous sera "
-"nécessaire par la suite pour vous identifier sur ce site. Les espaces et "
-"caractères spéciaux ne sont pas autorisés ; veuillez également à respecter "
-"la casse."
-
-#. Default: "Geben Sie den Code ein, den Sie im Bild unten sehen bzw. in der Audiodatei hoeren."
-msgid "Type the code from the picture shown below or from the audio."
-msgstr ""
-"Veuillez taper le code contenu dans l'image ci-dessous ou dans le fichier "
-"audio."
+</body>
+</html>
