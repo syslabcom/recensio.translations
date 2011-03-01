@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.1'
+version = '1.0'
 
 setup(name='recensio.translations',
       version=version,
@@ -15,8 +15,8 @@ setup(name='recensio.translations',
         "Programming Language :: Python",
         ],
       keywords='',
-      author='',
-      author_email='',
+      author='SYSLAB.COM',
+      author_email='info@syslab.com',
       url='http://svn.plone.org/svn/collective/',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
