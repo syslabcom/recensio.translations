@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Thu Jul 21 15:42:40 2011\n"
+"POT-Creation-Date: Thu Jul 21 15:52:48 2011\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -264,7 +264,7 @@ msgstr ""
 
 #: recensio.contenttypes:/content/presentationarticlereview.py:54
 #. Default: "Please give a brief and clear outline of your thesis statements, your methodology and/or your discussion of existing research approaches. We would kindly ask you to avoid a mere summary of your text. Don't be shy, however, of wording your statements in a provocative way. By separating out paragraphs you will make your statement more readable. You can increase the number of characters available for your own presentation from 4000 to 6000 by commenting on an already existing review/presentation on recensio.net. Please note that both comments and presentations will be checked by the editorial team before being published in order to prevent misuse. Because of this texts will be available online at the earliest after three working days."
-msgid "description_presentation_article_html"
+msgid "description_presentation_article_review"
 msgstr ""
 
 #: recensio.contenttypes:/content/presentationarticlereview.py:72
@@ -314,7 +314,7 @@ msgstr ""
 
 #: recensio.contenttypes:/content/presentationcollection.py:67
 #. Default: "Please give a brief and clear outline of your thesis statements, your methodology and/or your discussion of existing research approaches. We would kindly ask you to avoid a mere summary of your text. Don't be shy, however, of wording your statements in a provocative way. By separating out paragraphs you will make your statement more readable. You can increase the number of characters available for your own presentation from 4000 to 6000 by commenting on an already existing review/presentation on recensio.net. Please note that both comments and presentations will be checked by the editorial team before being published in order to prevent misuse. Because of this texts will be available online at the earliest after three working days."
-msgid "description_presentation_collection_html"
+msgid "description_presentation_collection_review"
 msgstr ""
 
 #: recensio.contenttypes:/content/presentationmonograph.py:104
@@ -323,7 +323,7 @@ msgstr ""
 
 #: recensio.contenttypes:/content/presentationmonograph.py:106
 #. Default: "Please give a brief and clear outline of your thesis statements, your methodology and/or your discussion of existing research approaches. We would kindly ask you to avoid a mere summary of your text. Don't be shy, however, of wording your statements in a provocative way. By separating out paragraphs you will make your statement more readable. You can increase the number of characters available for your own presentation from 4000 to 6000 by commenting on an already existing review/presentation on recensio.net. Please note that both comments and presentations will be checked by the editorial team before being published in order to prevent misuse. Because of this texts will be available online at the earliest after three working days."
-msgid "description_presentation_monograph_html"
+msgid "description_presentation_monograph_review"
 msgstr ""
 
 #: recensio.contenttypes:/content/presentationmonograph.py:356
