@@ -1,13 +1,13 @@
 # Copyright (c) 2003-2004 Zope Corporation and Contributors.
 # All Rights Reserved.
-# 
+#
 # This software is subject to the provisions of the Zope Public License,
 # Version 2.1 (ZPL).  A copy of the ZPL should accompany this distribution.
 # THIS SOFTWARE IS PROVIDED "AS IS" AND ANY AND ALL EXPRESS OR IMPLIED
 # WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
 # WARRANTIES OF TITLE, MERCHANTABILITY, AGAINST INFRINGEMENT, AND FITNESS
 # FOR A PARTICULAR PURPOSE.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Recensio\n"
@@ -15,10 +15,10 @@ msgstr ""
 "PO-Revision-Date: 2011-08-01 09:11+0000\n"
 "Last-Translator: reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "Generated-By: zope/app/locales/extract.py\n"
 
@@ -26,10 +26,12 @@ msgstr ""
 msgid "help_location"
 msgstr "Ihr Standort (Stadt und Land)"
 
-#. Default: "What language would you prefer for receiving information
 #           from us (about comments on your contributions)?"
+#. Default: "What language would you prefer for receiving information
 msgid "help_preferred_language"
-msgstr "In welcher Sprache dürfen wir Sie über Kommentareingänge zu Ihren Beiträgen informieren?"
+msgstr ""
+"In welcher Sprache dürfen wir Sie über Kommentareingänge zu Ihren Beiträgen "
+"informieren?"
 
 #. Default: "Review"
 msgid "label_schema_review"
@@ -59,7 +61,6 @@ msgstr "Zeitschrift"
 msgid "label_schema_associated_edited_volume"
 msgstr "Zugehöriger Sammelband"
 
-#. Default: "Please fill in the following form in order to present
 #           your monograph on recensio.net. All fields marked with *
 #           are required.\n Please keep in mind that you may present
 #           your core statements in nearly all European languages but
@@ -68,12 +69,18 @@ msgstr "Zugehöriger Sammelband"
 #           attract much more attention and discussion of your
 #           statements is much more likely.\n You can make changes or
 #           additions to all data at a later date."
+#. Default: "Please fill in the following form in order to present
 msgid "description_presentation_monograph"
 msgstr ""
-"Um Ihre Monographie auf recensio.net zu präsentieren, füllen Sie bitte das nachfolgende Formular aus. Die mit * gekennzeichneten Felder sind Pflichtfelder. Bitte beachten Sie, dass eine Präsentation Ihrer Thesen zwar in nahezu allen europäischen Sprachen möglich ist, wir Ihnen jedoch empfehlen, eine der großen Wissenschaftssprachen zu wählen. Sie verleihen Ihrer Präsentation so größtmöglichste Aufmerksamkeit und erhöhen die Wahrscheinlichkeit einer Diskussion Ihrer Thesen.\n"
+"Um Ihre Monographie auf recensio.net zu präsentieren, füllen Sie bitte das "
+"nachfolgende Formular aus. Die mit * gekennzeichneten Felder sind "
+"Pflichtfelder. Bitte beachten Sie, dass eine Präsentation Ihrer Thesen zwar "
+"in nahezu allen europäischen Sprachen möglich ist, wir Ihnen jedoch "
+"empfehlen, eine der großen Wissenschaftssprachen zu wählen. Sie verleihen "
+"Ihrer Präsentation so größtmöglichste Aufmerksamkeit und erhöhen die "
+"Wahrscheinlichkeit einer Diskussion Ihrer Thesen.\n"
 "Sie können alle Angaben zu einem späteren Zeitpunkt verändern oder ergänzen."
 
-#. Default: "Please fill in the following form in order to present
 #           your contribution to an edited volume on recensio.net. All
 #           fields marked with * are required.\n Please keep in mind
 #           that you may present your core statements in nearly all
@@ -82,12 +89,18 @@ msgstr ""
 #           presentation will attract much more attention and
 #           discussion of your statements is much more likely.\n You
 #           can make changes or additions to all data at a later date."
+#. Default: "Please fill in the following form in order to present
 msgid "description_presentation_collection"
 msgstr ""
-"Um Ihren Sammelbandeintrag auf recensio.net zu präsentieren, füllen Sie bitte das nachfolgende Formular aus. Die mit * gekennzeichneten Felder sind Pflichtfelder. Bitte beachten Sie, dass eine Präsentation Ihrer Thesen zwar in nahezu allen europäischen Sprachen möglich ist, wir Ihnen jedoch empfehlen, eine der großen Wissenschaftssprachen zu wählen. Sie verleihen Ihrer Präsentation so größtmöglichste Aufmerksamkeit und erhöhen die Wahrscheinlichkeit einer Diskussion Ihrer Thesen.\n"
+"Um Ihren Sammelbandeintrag auf recensio.net zu präsentieren, füllen Sie "
+"bitte das nachfolgende Formular aus. Die mit * gekennzeichneten Felder sind "
+"Pflichtfelder. Bitte beachten Sie, dass eine Präsentation Ihrer Thesen zwar "
+"in nahezu allen europäischen Sprachen möglich ist, wir Ihnen jedoch "
+"empfehlen, eine der großen Wissenschaftssprachen zu wählen. Sie verleihen "
+"Ihrer Präsentation so größtmöglichste Aufmerksamkeit und erhöhen die "
+"Wahrscheinlichkeit einer Diskussion Ihrer Thesen.\n"
 "Sie können alle Angaben zu einem späteren Zeitpunkt verändern oder ergänzen."
 
-#. Default: "Please fill in the following form in order to present an
 #           online resource relevant to historians on
 #           recensio.net. All fields marked with * are required.\n
 #           Please keep in mind that you may present your core
@@ -97,12 +110,19 @@ msgstr ""
 #           more attention and discussion of your statements is much
 #           more likely.\n You can make changes or additions to all
 #           data at a later date."
+#. Default: "Please fill in the following form in order to present an
 msgid "description_presentation_online_resource"
 msgstr ""
-"Um eine für die Arbeit von Historikern relevante Internetressource auf recensio.net zu präsentieren, füllen Sie bitte das nachfolgende Formular aus. Die mit * gekennzeichneten Felder sind Pflichtfelder. Bitte beachten Sie, dass eine Präsentation Ihrer Thesen zwar in nahezu allen europäischen Sprachen möglich ist, wir Ihnen jedoch empfehlen, eine der großen Wissenschaftssprachen zu wählen. Sie verleihen Ihrer Präsentation so größtmöglichste Aufmerksamkeit und erhöhen die Wahrscheinlichkeit einer Diskussion Ihrer Thesen.\n"
+"Um eine für die Arbeit von Historikern relevante Internetressource auf "
+"recensio.net zu präsentieren, füllen Sie bitte das nachfolgende Formular "
+"aus. Die mit * gekennzeichneten Felder sind Pflichtfelder. Bitte beachten "
+"Sie, dass eine Präsentation Ihrer Thesen zwar in nahezu allen europäischen "
+"Sprachen möglich ist, wir Ihnen jedoch empfehlen, eine der großen "
+"Wissenschaftssprachen zu wählen. Sie verleihen Ihrer Präsentation so "
+"größtmöglichste Aufmerksamkeit und erhöhen die Wahrscheinlichkeit einer "
+"Diskussion Ihrer Thesen.\n"
 "Sie können alle Angaben zu einem späteren Zeitpunkt verändern oder ergänzen."
 
-#. Default: "Please fill in the following form in order to present
 #           your article on recensio.net. All fields marked with *
 #           are required.\nPlease keep in mind that you may present
 #           your core statements in nearly all European languages
@@ -111,9 +131,16 @@ msgstr ""
 #           attract much more attention and discussion of your
 #           statements is much more likely.\nYou can make changes
 #           or additions to all data at a later date."
+#. Default: "Please fill in the following form in order to present
 msgid "description_presentation_article"
 msgstr ""
-"Um Ihren Zeitschriftenbeitrag auf recensio.net zu präsentieren, füllen Sie bitte das nachfolgende Formular aus. Die mit * gekennzeichneten Felder sind Pflichtfelder. Bitte beachten Sie, dass eine Präsentation Ihrer Thesen zwar in nahezu allen europäischen Sprachen möglich ist, wir Ihnen jedoch empfehlen, eine der großen Wissenschaftssprachen zu wählen. Sie verleihen Ihrer Präsentation so größtmöglichste Aufmerksamkeit und erhöhen die Wahrscheinlichkeit einer Diskussion Ihrer Thesen.\n"
+"Um Ihren Zeitschriftenbeitrag auf recensio.net zu präsentieren, füllen Sie "
+"bitte das nachfolgende Formular aus. Die mit * gekennzeichneten Felder sind "
+"Pflichtfelder. Bitte beachten Sie, dass eine Präsentation Ihrer Thesen zwar "
+"in nahezu allen europäischen Sprachen möglich ist, wir Ihnen jedoch "
+"empfehlen, eine der großen Wissenschaftssprachen zu wählen. Sie verleihen "
+"Ihrer Präsentation so größtmöglichste Aufmerksamkeit und erhöhen die "
+"Wahrscheinlichkeit einer Diskussion Ihrer Thesen.\n"
 "Sie können alle Angaben zu einem späteren Zeitpunkt verändern oder ergänzen."
 
 #. Default: "Suche in"
@@ -172,14 +199,16 @@ msgstr "Rezension Monographie"
 msgid "Publication"
 msgstr "Publikation"
 
-#. Default: "Waehlen Sie Ihren Benutzernamen. Bitte verwenden Sie nach
-#. Moeglichkeit dieses Schema: Vorname_Nachname. Diesen Namen benoetigen Sie
-#. spaeter zur Anmeldung. Es sind keine Umlaute, Leer- oder Sonderzeichen
-#. erlaubt, zwischen Gross- und Kleinschreibung wird unterschieden."
+#. Default: "Waehlen Sie Ihren Benutzernamen. Bitte verwenden Sie nach Moeglichkeit dieses Schema: Vorname_Nachname. Diesen Namen benoetigen Sie spaeter zur Anmeldung. Es sind keine Umlaute, Leer- oder Sonderzeichen erlaubt, zwischen Gross- und Kleinschreibung wird unterschieden."
 msgid "help_user_name_creation_casesensitive"
-msgstr "Wählen Sie Ihren Benutzernamen. Bitte verwenden Sie nach Möglichkeit dieses Schema: Vorname_Nachname. Diesen Namen benötigen Sie später zur Anmeldung. Es sind keine Umlaute, Leer- oder Sonderzeichen erlaubt, zwischen Groß- und Kleinschreibung wird unterschieden."
+msgstr ""
+"Wählen Sie Ihren Benutzernamen. Bitte verwenden Sie nach Möglichkeit dieses "
+"Schema: Vorname_Nachname. Diesen Namen benötigen Sie später zur Anmeldung. "
+"Es sind keine Umlaute, Leer- oder Sonderzeichen erlaubt, zwischen Groß- und "
+"Kleinschreibung wird unterschieden."
 
-#. Default: "Geben Sie den Code ein, den Sie im Bild unten sehen bzw. in der
-#. Audiodatei hoeren."
+#. Default: "Geben Sie den Code ein, den Sie im Bild unten sehen bzw. in der Audiodatei hoeren."
 msgid "Type the code from the picture shown below or from the audio."
-msgstr "Geben Sie den Code ein, den Sie im Bild unten sehen bzw. in der Audiodatei hören."
+msgstr ""
+"Geben Sie den Code ein, den Sie im Bild unten sehen bzw. in der Audiodatei "
+"hören."

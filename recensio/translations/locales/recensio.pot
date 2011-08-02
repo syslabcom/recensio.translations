@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Fri Jul 29 16:21:46 2011\n"
+"POT-Creation-Date: Tue Aug  2 17:15:59 2011\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -96,7 +96,6 @@ msgstr ""
 
 #: recensio.contenttypes:/browser/review.py:69
 #: recensio.contenttypes:/content/schemata.py:671
-#. Default: "Author (monograph)"
 msgid "Author (monograph)"
 msgstr ""
 
@@ -461,19 +460,19 @@ msgstr ""
 msgid "description_documenttypes_referenceworks"
 msgstr ""
 
-#: recensio.contenttypes:/content/review.py:106
+#: recensio.contenttypes:/content/review.py:107
 msgid "license-note-presentation"
 msgstr ""
 
-#: recensio.contenttypes:/content/review.py:110
+#: recensio.contenttypes:/content/review.py:111
 msgid "license-note-presentation-url-text"
 msgstr ""
 
-#: recensio.contenttypes:/content/review.py:111
+#: recensio.contenttypes:/content/review.py:112
 msgid "license-note-presentation-url-url"
 msgstr ""
 
-#: recensio.contenttypes:/content/review.py:84
+#: recensio.contenttypes:/content/review.py:85
 msgid "license-note-review"
 msgstr ""
 
@@ -762,111 +761,121 @@ msgstr ""
 msgid "description_recensio_setings"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:138
+#: recensio.policy:/browser/email.py:140
 msgid "Plone site is not configured"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:153
+#: recensio.policy:/browser/email.py:155
 msgid "Mailsettings not configured"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:233
+#: recensio.policy:/browser/email.py:235
 #. Default: "Mailversand wird vorbereitet. Mail wird versandt an ${mail_to}"
 msgid "mail_sending_prepared"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:276
-#: recensio.policy:/missing_18n_labels.py:52
-msgid "mail_new_comment_subject_review"
-msgstr ""
-
-#: recensio.policy:/browser/email.py:278
-#: recensio.policy:/missing_18n_labels.py:50
-msgid "mail_new_comment_body_review"
-msgstr ""
-
-#: recensio.policy:/browser/email.py:285
+#: recensio.policy:/browser/email.py:289
 #. Default: ""
-msgid "mail_new_comment_subject"
+msgid "mail_new_comment_subject_review_author"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:287
+#: recensio.policy:/browser/email.py:291
 #. Default: ""
-msgid "mail_new_comment_body"
+msgid "mail_new_comment_body_review_author"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:307
-#: recensio.policy:/missing_18n_labels.py:51
-msgid "mail_new_comment_subject_commenter"
+#: recensio.policy:/browser/email.py:299
+#. Default: ""
+msgid "mail_new_comment_subject_presentation_author"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:310
-#: recensio.policy:/missing_18n_labels.py:49
-msgid "mail_new_comment_body_commenter"
+#: recensio.policy:/browser/email.py:301
+#. Default: ""
+msgid "mail_new_comment_body_presentation_author"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:324
+#: recensio.policy:/browser/email.py:325
+#. Default: ""
+msgid "mail_new_comment_subject_review_commenter"
+msgstr ""
+
+#: recensio.policy:/browser/email.py:328
+#. Default: ""
+msgid "mail_new_comment_body_review_commenter"
+msgstr ""
+
+#: recensio.policy:/browser/email.py:332
+#. Default: ""
+msgid "mail_new_comment_subject_presentation_commenter"
+msgstr ""
+
+#: recensio.policy:/browser/email.py:335
+#. Default: ""
+msgid "mail_new_comment_body_presentation_commenter"
+msgstr ""
+
+#: recensio.policy:/browser/email.py:349
 msgid "mail_no_recipients"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:380
-#: recensio.policy:/browser/email.py:391
+#: recensio.policy:/browser/email.py:405
+#: recensio.policy:/browser/email.py:416
 #. Default: ""
 msgid "mail_new_publication_body"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:387
+#: recensio.policy:/browser/email.py:412
 #. Default: ""
 msgid "mail_new_publication_intro"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:396
+#: recensio.policy:/browser/email.py:421
 #. Default: "Es wurde eine Rezension von ${title} ver\303\266ffentlicht"
 msgid "mail_new_publication_subject"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:440
+#: recensio.policy:/browser/email.py:465
 #. Default: "Ihre Rezension auf recensio.net"
 msgid "mail_uncommented_subject"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:459
+#: recensio.policy:/browser/email.py:484
 #. Default: ""
 msgid "mail_uncommented_body"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:482
+#: recensio.policy:/browser/email.py:507
 msgid "Newsletter settings"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:483
+#: recensio.policy:/browser/email.py:508
 msgid ""
 "This is a technical configuration panel for newsletter settings.\n"
 "The templates can access any object of a catalog result, but dates have been preformatted."
 msgstr ""
 
-#: recensio.policy:/browser/email.py:59
-#: recensio.policy:/browser/email.py:119
+#: recensio.policy:/browser/email.py:61
+#: recensio.policy:/browser/email.py:121
 msgid "more_results_here"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:71
+#: recensio.policy:/browser/email.py:73
 msgid "comment"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:72
+#: recensio.policy:/browser/email.py:74
 msgid "comments"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:82
+#: recensio.policy:/browser/email.py:84
 msgid "presentations_of_monographs"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:85
+#: recensio.policy:/browser/email.py:87
 msgid "presentations_of_articles"
 msgstr ""
 
-#: recensio.policy:/browser/email.py:88
+#: recensio.policy:/browser/email.py:90
 msgid "presentations_of_online_resources"
 msgstr ""
 
@@ -912,11 +921,11 @@ msgid "label_delete"
 msgstr ""
 
 #: recensio.policy:/browser/templates/comments.pt:87
+#: recensio.theme:/skins/recensio_theme/search.pt:181
+#: recensio.theme:/skins/recensio_theme/search.pt:181
 #: recensio.theme:/skins/recensio_theme/search_form.pt:154
 #: recensio.theme:/skins/recensio_theme/search_form.pt:363
 #: recensio.theme:/skins/recensio_theme/search_form.pt:470
-#: recensio.theme:/skins/recensio_theme/search.pt:181
-#: recensio.theme:/skins/recensio_theme/search.pt:181
 #: recensio.theme:/browser/topical.pt:86
 #: recensio.theme:/browser/topical.pt:131
 #: recensio.theme:/browser/topical.pt:135
@@ -1208,8 +1217,24 @@ msgstr ""
 msgid "license-note"
 msgstr ""
 
+#: recensio.policy:/missing_18n_labels.py:49
+msgid "mail_new_comment_body_commenter"
+msgstr ""
+
 #: recensio.policy:/missing_18n_labels.py:5
 msgid "About us"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:50
+msgid "mail_new_comment_body_review"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:51
+msgid "mail_new_comment_subject_commenter"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:52
+msgid "mail_new_comment_subject_review"
 msgstr ""
 
 #: recensio.policy:/missing_18n_labels.py:53
@@ -1595,6 +1620,17 @@ msgstr ""
 msgid "title_search_title"
 msgstr ""
 
+#: recensio.theme:/skins/recensio_theme/search.pt:65
+#: recensio.theme:/skins/recensio_theme/search_form.pt:63
+#: recensio.theme:/skins/recensio_theme/search_form.pt:483
+#: recensio.theme:/skins/recensio_theme/search_form.pt:607
+#: recensio.theme:/skins/recensio_theme/search_form.pt:710
+#: recensio.theme:/skins/recensio_theme/search_form.pt:822
+#: recensio.theme:/skins/recensio_theme/search_form.pt:847
+#. Default: "Search"
+msgid "label_search"
+msgstr ""
+
 #: recensio.theme:/skins/recensio_theme/search.pt:73
 #. Default: "Did you not find what you were looking for? Try the ${advanced_search} to refine your search."
 msgid "search_results_advanced"
@@ -1793,17 +1829,6 @@ msgstr ""
 #: recensio.theme:/skins/recensio_theme/search_form.pt:626
 #. Default: "Region"
 msgid "label_region"
-msgstr ""
-
-#: recensio.theme:/skins/recensio_theme/search_form.pt:63
-#: recensio.theme:/skins/recensio_theme/search_form.pt:483
-#: recensio.theme:/skins/recensio_theme/search_form.pt:607
-#: recensio.theme:/skins/recensio_theme/search_form.pt:710
-#: recensio.theme:/skins/recensio_theme/search_form.pt:822
-#: recensio.theme:/skins/recensio_theme/search_form.pt:847
-#: recensio.theme:/skins/recensio_theme/search.pt:65
-#. Default: "Search"
-msgid "label_search"
 msgstr ""
 
 #: recensio.theme:/skins/recensio_theme/search_form.pt:630
