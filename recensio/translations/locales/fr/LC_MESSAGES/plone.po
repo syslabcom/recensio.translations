@@ -1,16 +1,15 @@
 # Copyright (c) 2003-2004 Zope Corporation and Contributors.
 # All Rights Reserved.
-#
 # This software is subject to the provisions of the Zope Public License,
 # Version 2.1 (ZPL).  A copy of the ZPL should accompany this distribution.
 # THIS SOFTWARE IS PROVIDED "AS IS" AND ANY AND ALL EXPRESS OR IMPLIED
 # WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
 # WARRANTIES OF TITLE, MERCHANTABILITY, AGAINST INFRINGEMENT, AND FITNESS
 # FOR A PARTICULAR PURPOSE.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: Recensio\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Wed Nov 10 11:55:18 2010\n"
 "PO-Revision-Date: 2011-08-01 09:11+0000\n"
 "Last-Translator: lilianlandes <lilian.landes@bsb-muenchen.de>\n"
@@ -20,12 +19,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
 "Generated-By: zope/app/locales/extract.py\n"
 
 #. Default: Your location (city and country)
 msgid "help_location"
 msgstr "Votre localisation (ville et pays)"
 
+#           from us (about comments on your contributions)?"  
 #           from us (about comments on your contributions)?"
 #. Default: "What language would you prefer for receiving information
 msgid "help_preferred_language"
@@ -54,12 +55,14 @@ msgid "label_schema_presented_resource"
 msgstr "Ressource présentée"
 
 #. Default "Associated Journal"
+#, fuzzy
 msgid "label_schema_associated_journal"
-msgstr "Revue correspondante"
+msgstr "Associated Journal"
 
 #. Default "Associated Edited Volume"
+#, fuzzy
 msgid "label_schema_associated_edited_volume"
-msgstr "Recueil correspondant"
+msgstr "Associated Edited Volume"
 
 #           your monograph on recensio.net. All fields marked with *
 #           are required.\n Please keep in mind that you may present
