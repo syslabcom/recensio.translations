@@ -27,7 +27,7 @@ msgstr ""
 msgid "help_location"
 msgstr ""
 
-#           from us (about comments on your contributions)?"  
+#           from us (about comments on your contributions)?"
 #. Default: "What language would you prefer for receiving information
 msgid "help_preferred_language"
 msgstr ""
@@ -172,3 +172,12 @@ msgstr ""
 #. Default: "Geben Sie den Code ein, den Sie im Bild unten sehen bzw. in der Audiodatei hoeren."
 msgid "Type the code from the picture shown below or from the audio."
 msgstr ""
+
+#. Default: empty string
+msgid "description_review_journal"
+msgstr " "
+
+#. Default: empty string
+msgid "description_review_monograph"
+msgstr " "
+
