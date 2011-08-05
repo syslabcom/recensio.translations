@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: Fri Aug  5 10:39:05 2011\n"
+"POT-Creation-Date: Fri Aug  5 11:50:56 2011\n"
 "PO-Revision-Date: 2011-08-05 11:59+0200\n"
 "Last-Translator: Administrator <deroiste@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -878,12 +878,12 @@ msgid "mail_sending_prepared"
 msgstr "Mailversand wird vorbereitet. Mail wird versandt an ${mail_to}"
 
 #: recensio.policy:/browser/email.py:297
-#: recensio.policy:/missing_18n_labels.py:63
+#: recensio.policy:/missing_18n_labels.py:57
 msgid "mail_new_comment_subject_review_author"
 msgstr "Benachrichtigung über Kommentareingang"
 
 #: recensio.policy:/browser/email.py:299
-#: recensio.policy:/missing_18n_labels.py:56
+#: recensio.policy:/missing_18n_labels.py:50
 msgid "mail_new_comment_body_review_author"
 msgstr ""
 "Sehr geehrte/r ${recipient},\n"
@@ -907,12 +907,12 @@ msgstr ""
 "Ihr recensio.net-Team"
 
 #: recensio.policy:/browser/email.py:307
-#: recensio.policy:/missing_18n_labels.py:60
+#: recensio.policy:/missing_18n_labels.py:54
 msgid "mail_new_comment_subject_presentation_author"
 msgstr "Benachrichtigung über Kommentareingang"
 
 #: recensio.policy:/browser/email.py:309
-#: recensio.policy:/missing_18n_labels.py:53
+#: recensio.policy:/missing_18n_labels.py:47
 msgid "mail_new_comment_body_presentation_author"
 msgstr ""
 "Sehr geehrte/r ${recipient},\n"
@@ -934,12 +934,12 @@ msgstr ""
 "       Ihr recensio.net Team"
 
 #: recensio.policy:/browser/email.py:333
-#: recensio.policy:/missing_18n_labels.py:64
+#: recensio.policy:/missing_18n_labels.py:58
 msgid "mail_new_comment_subject_review_commenter"
 msgstr "Benachrichtigung über Kommentareingang"
 
 #: recensio.policy:/browser/email.py:336
-#: recensio.policy:/missing_18n_labels.py:57
+#: recensio.policy:/missing_18n_labels.py:51
 msgid "mail_new_comment_body_review_commenter"
 msgstr ""
 "Sehr geehrte/r ${recipient},\n"
@@ -966,12 +966,12 @@ msgstr ""
 "http://www.recensio.net/ueberuns/index_html"
 
 #: recensio.policy:/browser/email.py:340
-#: recensio.policy:/missing_18n_labels.py:61
+#: recensio.policy:/missing_18n_labels.py:55
 msgid "mail_new_comment_subject_presentation_commenter"
 msgstr "Benachrichtigung über Kommentareingang"
 
 #: recensio.policy:/browser/email.py:343
-#: recensio.policy:/missing_18n_labels.py:54
+#: recensio.policy:/missing_18n_labels.py:48
 msgid "mail_new_comment_body_presentation_commenter"
 msgstr ""
 "Sehr geehrte/r ${recipient},\n"
@@ -1478,111 +1478,50 @@ msgid "create_presentation"
 msgstr "Neue Präsentation erstellen"
 
 #: recensio.policy:/missing_18n_labels.py:34
-msgid "description_presentation_article"
-msgstr ""
-"Um Ihren Zeitschriftenbeitrag auf recensio.net zu präsentieren, füllen Sie "
-"bitte das nachfolgende Formular aus. Die mit * gekennzeichneten Felder sind "
-"Pflichtfelder. Bitte beachten Sie, dass eine Präsentation Ihrer Thesen zwar "
-"in nahezu allen europäischen Sprachen möglich ist, wir Ihnen jedoch "
-"empfehlen, eine der großen Wissenschaftssprachen zu wählen. Sie verleihen "
-"Ihrer Präsentation so größtmöglichste Aufmerksamkeit und erhöhen die "
-"Wahrscheinlichkeit einer Diskussion Ihrer Thesen.\n"
-"Sie können alle Angaben zu einem späteren Zeitpunkt verändern oder ergänzen."
-
-#: recensio.policy:/missing_18n_labels.py:35
-msgid "description_presentation_collection"
-msgstr ""
-"Um Ihren Sammelbandeintrag auf recensio.net zu präsentieren, füllen Sie "
-"bitte das nachfolgende Formular aus. Die mit * gekennzeichneten Felder sind "
-"Pflichtfelder. Bitte beachten Sie, dass eine Präsentation Ihrer Thesen zwar "
-"in nahezu allen europäischen Sprachen möglich ist, wir Ihnen jedoch "
-"empfehlen, eine der großen Wissenschaftssprachen zu wählen. Sie verleihen "
-"Ihrer Präsentation so größtmöglichste Aufmerksamkeit und erhöhen die "
-"Wahrscheinlichkeit einer Diskussion Ihrer Thesen.\n"
-"Sie können alle Angaben zu einem späteren Zeitpunkt verändern oder ergänzen."
-
-#: recensio.policy:/missing_18n_labels.py:36
-msgid "description_presentation_monograph"
-msgstr ""
-"Um Ihre Monographie auf recensio.net zu präsentieren, füllen Sie bitte das "
-"nachfolgende Formular aus. Die mit * gekennzeichneten Felder sind "
-"Pflichtfelder. Bitte beachten Sie, dass eine Präsentation Ihrer Thesen zwar "
-"in nahezu allen europäischen Sprachen möglich ist, wir Ihnen jedoch "
-"empfehlen, eine der großen Wissenschaftssprachen zu wählen. Sie verleihen "
-"Ihrer Präsentation so größtmöglichste Aufmerksamkeit und erhöhen die "
-"Wahrscheinlichkeit einer Diskussion Ihrer Thesen.\n"
-"Sie können alle Angaben zu einem späteren Zeitpunkt verändern oder ergänzen."
-
-#: recensio.policy:/missing_18n_labels.py:37
-msgid "description_presentation_online_resource"
-msgstr ""
-"Um eine für die Arbeit von Historikern relevante Internetressource auf "
-"recensio.net zu präsentieren, füllen Sie bitte das nachfolgende Formular "
-"aus. Die mit * gekennzeichneten Felder sind Pflichtfelder. Bitte beachten "
-"Sie, dass eine Präsentation Ihrer Thesen zwar in nahezu allen europäischen "
-"Sprachen möglich ist, wir Ihnen jedoch empfehlen, eine der großen "
-"Wissenschaftssprachen zu wählen. Sie verleihen Ihrer Präsentation so "
-"größtmöglichste Aufmerksamkeit und erhöhen die Wahrscheinlichkeit einer "
-"Diskussion Ihrer Thesen.\n"
-"Sie können alle Angaben zu einem späteren Zeitpunkt verändern oder ergänzen."
-
-#: recensio.policy:/missing_18n_labels.py:38
-msgid "description_review_journal"
-msgstr " "
-
-#: recensio.policy:/missing_18n_labels.py:39
-msgid "description_review_monograph"
-msgstr " "
-
-#: recensio.policy:/missing_18n_labels.py:40
 msgid "label_by_author"
 msgstr "von ${author}"
 
-#: recensio.policy:/missing_18n_labels.py:41
+#: recensio.policy:/missing_18n_labels.py:35
 msgid "label_participate"
 msgstr "Mitmachen"
 
-#: recensio.policy:/missing_18n_labels.py:42
+#: recensio.policy:/missing_18n_labels.py:36
 msgid "label_presentations"
 msgstr "Präsentationen"
 
-#: recensio.policy:/missing_18n_labels.py:43
+#: recensio.policy:/missing_18n_labels.py:37
 msgid "label_press"
 msgstr "Presse"
 
-#: recensio.policy:/missing_18n_labels.py:44
+#: recensio.policy:/missing_18n_labels.py:38
 msgid "label_reviews"
 msgstr "Rezensionen"
 
-#: recensio.policy:/missing_18n_labels.py:45
+#: recensio.policy:/missing_18n_labels.py:39
 msgid "label_schema_presented_text"
 msgstr "Präsentierter Text-"
 
-#: recensio.policy:/missing_18n_labels.py:46
+#: recensio.policy:/missing_18n_labels.py:40
 msgid "label_schema_review"
 msgstr "Rezension"
 
-#: recensio.policy:/missing_18n_labels.py:47
+#: recensio.policy:/missing_18n_labels.py:41
 msgid "label_schema_reviewed_text"
 msgstr "rezensierter Text"
 
-#: recensio.policy:/missing_18n_labels.py:48
+#: recensio.policy:/missing_18n_labels.py:42
 #: recensio.theme:/skins/recensio_theme/search.pt:123
 msgid "latest_comments"
 msgstr "Neueste Kommentare"
 
-#: recensio.policy:/missing_18n_labels.py:49
+#: recensio.policy:/missing_18n_labels.py:43
 #: recensio.theme:/skins/recensio_theme/search.pt:136
 msgid "latest_comments_description"
 msgstr ""
 "Zu folgenden Rezensionen und Präsentationen wurden jüngst Kommentare "
 "abgegeben. Beteiligen Sie sich an der Diskussion mit Fachkollegen"
 
-#: recensio.policy:/missing_18n_labels.py:5
-msgid "About us"
-msgstr "Über uns"
-
-#: recensio.policy:/missing_18n_labels.py:50
+#: recensio.policy:/missing_18n_labels.py:44
 msgid "license-note"
 msgstr ""
 "Dieser Beitrag unterliegt der Creative-Commons-Lizenz Namensnennung-Keine "
@@ -1590,7 +1529,7 @@ msgstr ""
 "Bedingungen elektronisch benutzt, übermittelt, ausgedruckt und zum Download "
 "bereitgestellt werden. Den Text der Lizenz erreichen Sie hier:"
 
-#: recensio.policy:/missing_18n_labels.py:51
+#: recensio.policy:/missing_18n_labels.py:45
 msgid "mail_new_comment_body"
 msgstr ""
 "Sehr geehrte/r ${recipient},\n"
@@ -1611,7 +1550,7 @@ msgstr ""
 "\n"
 "       Ihr recensio.net Team"
 
-#: recensio.policy:/missing_18n_labels.py:52
+#: recensio.policy:/missing_18n_labels.py:46
 msgid "mail_new_comment_body_commenter"
 msgstr ""
 "Sehr geehrte/r ${recipient},\n"
@@ -1637,7 +1576,7 @@ msgstr ""
 "Instituts für Europäische Geschichte Mainz. Weitere Informationen "
 "http://www.recensio.net/ueberuns/index_html"
 
-#: recensio.policy:/missing_18n_labels.py:55
+#: recensio.policy:/missing_18n_labels.py:49
 msgid "mail_new_comment_body_review"
 msgstr ""
 "Sehr geehrte/r ${recipient},\n"
@@ -1660,97 +1599,101 @@ msgstr ""
 "Mit freundlichen Grüßen,\n"
 "Ihr recensio.net-Team"
 
-#: recensio.policy:/missing_18n_labels.py:58
+#: recensio.policy:/missing_18n_labels.py:5
+msgid "About us"
+msgstr "Über uns"
+
+#: recensio.policy:/missing_18n_labels.py:52
 msgid "mail_new_comment_subject"
 msgstr "Benachrichtigung über Kommentareingang"
 
-#: recensio.policy:/missing_18n_labels.py:59
+#: recensio.policy:/missing_18n_labels.py:53
 msgid "mail_new_comment_subject_commenter"
 msgstr "Benachrichtigung über Kommentareingang"
+
+#: recensio.policy:/missing_18n_labels.py:56
+msgid "mail_new_comment_subject_review"
+msgstr "Benachrichtigung über Kommentareingang"
+
+#: recensio.policy:/missing_18n_labels.py:59
+msgid "manage_presentations"
+msgstr "Ihre Präsentationen verwalten"
 
 #: recensio.policy:/missing_18n_labels.py:6
 msgid "Cut PDF"
 msgstr "PDF ausschneiden"
 
-#: recensio.policy:/missing_18n_labels.py:62
-msgid "mail_new_comment_subject_review"
-msgstr "Benachrichtigung über Kommentareingang"
-
-#: recensio.policy:/missing_18n_labels.py:65
-msgid "manage_presentations"
-msgstr "Ihre Präsentationen verwalten"
-
-#: recensio.policy:/missing_18n_labels.py:66
+#: recensio.policy:/missing_18n_labels.py:60
 msgid "monographs"
 msgstr "Monographien"
 
-#: recensio.policy:/missing_18n_labels.py:67
+#: recensio.policy:/missing_18n_labels.py:61
 msgid "new_discussions"
 msgstr "Neue Diskussionen"
 
-#: recensio.policy:/missing_18n_labels.py:68
+#: recensio.policy:/missing_18n_labels.py:62
 msgid "new_presentations"
 msgstr "Neue Präsentationen"
 
-#: recensio.policy:/missing_18n_labels.py:69
+#: recensio.policy:/missing_18n_labels.py:63
 msgid "new_reviews"
 msgstr "Neue Rezensionen"
+
+#: recensio.policy:/missing_18n_labels.py:64
+msgid "online_resources"
+msgstr "Internetressourcen"
+
+#: recensio.policy:/missing_18n_labels.py:65
+msgid "participating_in_recensio_net"
+msgstr "mitmachen bei recensio.net"
+
+#: recensio.policy:/missing_18n_labels.py:66
+msgid "presentations"
+msgstr "Präsentationen"
+
+#: recensio.policy:/missing_18n_labels.py:67
+msgid "presented resource"
+msgstr "präsentierte Ressource"
+
+#: recensio.policy:/missing_18n_labels.py:68
+msgid "register_and_create_presentations"
+msgstr "Registrieren und neue Präsentationen erstellen"
+
+#: recensio.policy:/missing_18n_labels.py:69
+msgid "reviews"
+msgstr "Rezensionen"
 
 #: recensio.policy:/missing_18n_labels.py:7
 msgid "Epoch"
 msgstr "Epoche"
 
 #: recensio.policy:/missing_18n_labels.py:70
-msgid "online_resources"
-msgstr "Internetressourcen"
-
-#: recensio.policy:/missing_18n_labels.py:71
-msgid "participating_in_recensio_net"
-msgstr "mitmachen bei recensio.net"
-
-#: recensio.policy:/missing_18n_labels.py:72
-msgid "presentations"
-msgstr "Präsentationen"
-
-#: recensio.policy:/missing_18n_labels.py:73
-msgid "presented resource"
-msgstr "präsentierte Ressource"
-
-#: recensio.policy:/missing_18n_labels.py:74
-msgid "register_and_create_presentations"
-msgstr "Registrieren und neue Präsentationen erstellen"
-
-#: recensio.policy:/missing_18n_labels.py:75
-msgid "reviews"
-msgstr "Rezensionen"
-
-#: recensio.policy:/missing_18n_labels.py:76
 msgid "rss_feeds"
 msgstr "RSS-Feeds"
 
-#: recensio.policy:/missing_18n_labels.py:77
+#: recensio.policy:/missing_18n_labels.py:71
 msgid "text_in"
 msgstr "in:"
 
-#: recensio.policy:/missing_18n_labels.py:78
+#: recensio.policy:/missing_18n_labels.py:72
 msgid "text_pages"
 msgstr "S."
 
-#: recensio.policy:/missing_18n_labels.py:79
+#: recensio.policy:/missing_18n_labels.py:73
 msgid "text_presentation_of"
 msgstr "Präsentation von:"
+
+#: recensio.policy:/missing_18n_labels.py:74
+msgid "text_review_of"
+msgstr "Rezension von:"
+
+#: recensio.policy:/missing_18n_labels.py:75
+msgid "title_presentation_monograph"
+msgstr "Präsentation (Monographie)"
 
 #: recensio.policy:/missing_18n_labels.py:8
 msgid "Folder"
 msgstr "Ordner"
-
-#: recensio.policy:/missing_18n_labels.py:80
-msgid "text_review_of"
-msgstr "Rezension von:"
-
-#: recensio.policy:/missing_18n_labels.py:81
-msgid "title_presentation_monograph"
-msgstr "Präsentation (Monographie)"
 
 #: recensio.policy:/missing_18n_labels.py:9
 msgid "Import"
@@ -2493,3 +2436,54 @@ msgstr "Neueste Rezensionen"
 #: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:96
 msgid "label_secondary_nav_monographien"
 msgstr "Monographien"
+
+#~ msgid "description_presentation_article"
+#~ msgstr ""
+#~ "Um Ihren Zeitschriftenbeitrag auf recensio.net zu präsentieren, füllen Sie "
+#~ "bitte das nachfolgende Formular aus. Die mit * gekennzeichneten Felder sind "
+#~ "Pflichtfelder. Bitte beachten Sie, dass eine Präsentation Ihrer Thesen zwar "
+#~ "in nahezu allen europäischen Sprachen möglich ist, wir Ihnen jedoch "
+#~ "empfehlen, eine der großen Wissenschaftssprachen zu wählen. Sie verleihen "
+#~ "Ihrer Präsentation so größtmöglichste Aufmerksamkeit und erhöhen die "
+#~ "Wahrscheinlichkeit einer Diskussion Ihrer Thesen.\n"
+#~ "Sie können alle Angaben zu einem späteren Zeitpunkt verändern oder ergänzen."
+
+#~ msgid "description_presentation_collection"
+#~ msgstr ""
+#~ "Um Ihren Sammelbandeintrag auf recensio.net zu präsentieren, füllen Sie "
+#~ "bitte das nachfolgende Formular aus. Die mit * gekennzeichneten Felder sind "
+#~ "Pflichtfelder. Bitte beachten Sie, dass eine Präsentation Ihrer Thesen zwar "
+#~ "in nahezu allen europäischen Sprachen möglich ist, wir Ihnen jedoch "
+#~ "empfehlen, eine der großen Wissenschaftssprachen zu wählen. Sie verleihen "
+#~ "Ihrer Präsentation so größtmöglichste Aufmerksamkeit und erhöhen die "
+#~ "Wahrscheinlichkeit einer Diskussion Ihrer Thesen.\n"
+#~ "Sie können alle Angaben zu einem späteren Zeitpunkt verändern oder ergänzen."
+
+#~ msgid "description_presentation_monograph"
+#~ msgstr ""
+#~ "Um Ihre Monographie auf recensio.net zu präsentieren, füllen Sie bitte das "
+#~ "nachfolgende Formular aus. Die mit * gekennzeichneten Felder sind "
+#~ "Pflichtfelder. Bitte beachten Sie, dass eine Präsentation Ihrer Thesen zwar "
+#~ "in nahezu allen europäischen Sprachen möglich ist, wir Ihnen jedoch "
+#~ "empfehlen, eine der großen Wissenschaftssprachen zu wählen. Sie verleihen "
+#~ "Ihrer Präsentation so größtmöglichste Aufmerksamkeit und erhöhen die "
+#~ "Wahrscheinlichkeit einer Diskussion Ihrer Thesen.\n"
+#~ "Sie können alle Angaben zu einem späteren Zeitpunkt verändern oder ergänzen."
+
+#~ msgid "description_presentation_online_resource"
+#~ msgstr ""
+#~ "Um eine für die Arbeit von Historikern relevante Internetressource auf "
+#~ "recensio.net zu präsentieren, füllen Sie bitte das nachfolgende Formular "
+#~ "aus. Die mit * gekennzeichneten Felder sind Pflichtfelder. Bitte beachten "
+#~ "Sie, dass eine Präsentation Ihrer Thesen zwar in nahezu allen europäischen "
+#~ "Sprachen möglich ist, wir Ihnen jedoch empfehlen, eine der großen "
+#~ "Wissenschaftssprachen zu wählen. Sie verleihen Ihrer Präsentation so "
+#~ "größtmöglichste Aufmerksamkeit und erhöhen die Wahrscheinlichkeit einer "
+#~ "Diskussion Ihrer Thesen.\n"
+#~ "Sie können alle Angaben zu einem späteren Zeitpunkt verändern oder ergänzen."
+
+#~ msgid "description_review_journal"
+#~ msgstr " "
+
+#~ msgid "description_review_monograph"
+#~ msgstr " "
