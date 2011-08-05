@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Fri Aug  5 10:39:05 2011\n"
-"PO-Revision-Date: 2011-08-05 10:46+0200\n"
+"PO-Revision-Date: 2011-08-05 11:59+0200\n"
 "Last-Translator: Administrator <deroiste@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: de\n"
@@ -1528,11 +1528,11 @@ msgstr ""
 
 #: recensio.policy:/missing_18n_labels.py:38
 msgid "description_review_journal"
-msgstr ""
+msgstr " "
 
 #: recensio.policy:/missing_18n_labels.py:39
 msgid "description_review_monograph"
-msgstr ""
+msgstr " "
 
 #: recensio.policy:/missing_18n_labels.py:40
 msgid "label_by_author"
