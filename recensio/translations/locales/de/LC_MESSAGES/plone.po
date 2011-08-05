@@ -26,7 +26,6 @@ msgstr ""
 msgid "help_location"
 msgstr "Ihr Standort (Stadt und Land)"
 
-#           from us (about comments on your contributions)?"  
 #           from us (about comments on your contributions)?"
 #. Default: "What language would you prefer for receiving information
 msgid "help_preferred_language"
@@ -215,3 +214,11 @@ msgid "Type the code from the picture shown below or from the audio."
 msgstr ""
 "Geben Sie den Code ein, den Sie im Bild unten sehen bzw. in der Audiodatei "
 "hören."
+
+#. Default: empty string
+msgid "description_review_journal"
+msgstr " "
+
+#. Default: empty string
+msgid "description_review_monograph"
+msgstr " "
