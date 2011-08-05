@@ -1,4 +1,4 @@
-  # -*- extra stuff goes here -*- 
+  # -*- extra stuff goes here -*-
 from zope.i18nmessageid import MessageFactory
 from zc.testbrowser.browser import Browser
 import pkg_resources
@@ -12,7 +12,7 @@ def initialize(context):
 
 def podiff(svnurl):
     """ Shows differences between the po files in the working copy of this
-        package and their counterparts in the svn repository. Only cares 
+        package and their counterparts in the svn repository. Only cares
         about msgid and msgstr, not about position in the file, comments, etc.
     """
     import os, subprocess, sys, tempfile, urllib, polib
@@ -20,7 +20,10 @@ def podiff(svnurl):
     svnurl = svnurl.split(' ')[-1]
     pofiles = []
     def visit(pofiles, dirname, names):
-        pofiles.extend(map(lambda n: os.path.join(dirname, n), filter(lambda n: n.endswith('.po') or n.endswith('.pot'), names)))
+        pofiles.extend(
+            map(lambda n: os.path.join(dirname, n),
+                filter(
+                    lambda n: n.endswith('.po') or n.endswith('.pot'), names)))
     os.path.walk(__path__[0], visit, pofiles)
     basepath = __path__[0][:__path__[0].rfind(__name__)+len(__name__)]
 
