@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Fri Aug  5 12:33:02 2011\n"
-"PO-Revision-Date: 2011-08-05 12:38+0200\n"
-"Last-Translator: Administrator <deroiste@syslab.com>\n"
+"PO-Revision-Date: 2011-08-12 14:32+0200\n"
+"Last-Translator: reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
@@ -1870,7 +1870,7 @@ msgstr "No results were found."
 #: recensio.theme:/skins/recensio_theme/search.pt:209
 #: recensio.theme:/browser/topical.pt:166
 msgid "reviewed_by"
-msgstr "reviewed by ${review_author_firstname} ${review_author_lastname}"
+msgstr "reviewed by ${review_authors}"
 
 #. Default: "in ${get_publication_title}, ${get_volume_title}, ${get_issue_title}"
 #: recensio.theme:/skins/recensio_theme/search.pt:211
@@ -1881,7 +1881,7 @@ msgstr "in ${get_publication_title}, ${get_volume_title}, ${get_issue_title}"
 #: recensio.theme:/skins/recensio_theme/search.pt:218
 #: recensio.theme:/browser/topical.pt:178
 msgid "presented_by"
-msgstr "presented by ${review_author_firstname} ${review_author_lastname}"
+msgstr "presented by ${review_authors}"
 
 #. Default: "last modified"
 #: recensio.theme:/skins/recensio_theme/search.pt:229
