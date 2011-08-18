@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: Fri Aug  5 12:33:02 2011\n"
-"PO-Revision-Date: 2011-08-12 14:32+0200\n"
-"Last-Translator: reinhardt <reinhardt@syslab.com>\n"
+"POT-Creation-Date: Thu Aug 18 16:41:05 2011\n"
+"PO-Revision-Date: 2011-08-18 17:25+0200\n"
+"Last-Translator: Administrator <deroiste@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -22,41 +22,51 @@ msgstr ""
 "X-Generator: Pootle 2.0.4\n"
 "Generated-By: zope/app/locales/extract.py\n"
 
-#: recensio.contenttypes:/browser/review.py:113
+#. Default: "Language (Journal)"
+#: recensio.contenttypes:/browser/review.py:100
+msgid "label_metadata_language_review_journal"
+msgstr "Sprache (Zeitschrift)"
+
+#. Default: "Editor"
+#: recensio.contenttypes:/browser/review.py:103
+msgid "label_metadata_editor"
+msgstr "Herausgeber"
+
+#: recensio.contenttypes:/browser/review.py:119
 msgid "label_metadata_review_author"
 msgstr "Autor (Rezension)"
 
-#: recensio.contenttypes:/browser/review.py:116
+#: recensio.contenttypes:/browser/review.py:122
 msgid "label_metadata_presentation_author"
 msgstr "Autor (Präsentation)"
 
-#: recensio.contenttypes:/browser/review.py:125
+#: recensio.contenttypes:/browser/review.py:131
 msgid "metadata_review_type_code"
 msgstr "Dokumenttyp"
 
-#: recensio.contenttypes:/browser/review.py:128
+#: recensio.contenttypes:/browser/review.py:134
 msgid "label_metadata_reference_authors"
 msgstr "Bezugsautoren"
 
-#: recensio.contenttypes:/browser/review.py:132
+#: recensio.contenttypes:/browser/review.py:138
 msgid "label_metadata_institution"
 msgstr "Anbieter (Name/Institution)"
 
-#: recensio.contenttypes:/browser/review.py:135
+#: recensio.contenttypes:/browser/review.py:141
 msgid "metadata_recensio_id"
 msgstr "recensio-ID"
 
-#: recensio.contenttypes:/browser/review.py:151
+#: recensio.contenttypes:/browser/review.py:157
 #: recensio.contenttypes:/content/schemata.py:108
 msgid "Subject classification"
 msgstr "Thematische Klassifikation"
 
-#: recensio.contenttypes:/browser/review.py:153
+#: recensio.contenttypes:/browser/review.py:159
 #: recensio.contenttypes:/content/schemata.py:109
 msgid "Time classification"
 msgstr "Zeitliche Klassifikation"
 
-#: recensio.contenttypes:/browser/review.py:155
+#: recensio.contenttypes:/browser/review.py:161
 #: recensio.contenttypes:/content/schemata.py:110
 msgid "Regional classification"
 msgstr "Regionale Klassifikation"
@@ -74,72 +84,62 @@ msgid "Issue Title"
 msgstr "Titel der Ausgabe"
 
 #. Default: "Official year of publication"
-#: recensio.contenttypes:/browser/review.py:52
+#: recensio.contenttypes:/browser/review.py:58
 msgid "label_metadata_official_year_of_publication"
 msgstr "Gezähltes Jahr"
 
 #. Default: "Language (review)"
-#: recensio.contenttypes:/browser/review.py:57
+#: recensio.contenttypes:/browser/review.py:63
 msgid "label_metadata_language_review"
 msgstr "Sprache (Rezension)"
 
 #. Default: "Language (presentation)"
-#: recensio.contenttypes:/browser/review.py:61
+#: recensio.contenttypes:/browser/review.py:67
 msgid "label_metadata_language_presentation"
 msgstr ""
 "(präsentiert von ${review_author_firstname} ${review_author_lastname} in "
 "${get_publication_title}, ${get_volume_title}, ${get_issue_title})"
 
 #. Default: "Language (monograph)"
-#: recensio.contenttypes:/browser/review.py:66
+#: recensio.contenttypes:/browser/review.py:72
 msgid "label_metadata_language_monograph"
 msgstr "Sprache (Monographie)"
 
 #. Default: "Author (monograph)"
-#: recensio.contenttypes:/browser/review.py:69
+#: recensio.contenttypes:/browser/review.py:75
 #: recensio.contenttypes:/content/schemata.py:674
 msgid "Author (monograph)"
 msgstr "Autor (Monographie)"
 
 #. Default: "Language (article)"
-#: recensio.contenttypes:/browser/review.py:74
+#: recensio.contenttypes:/browser/review.py:80
 msgid "label_metadata_language_article"
 msgstr "Sprache (Aufsatz)"
 
 #. Default: "Author (article)"
-#: recensio.contenttypes:/browser/review.py:77
+#: recensio.contenttypes:/browser/review.py:83
 msgid "label_metadata_author_article"
 msgstr "Autor (Aufsatz)"
 
 #. Default: "Title (article)"
-#: recensio.contenttypes:/browser/review.py:80
+#: recensio.contenttypes:/browser/review.py:86
 msgid "label_metadata_title_article"
 msgstr "Titel (Aufsatz)"
 
 #. Default: "Title (edited volume)"
-#: recensio.contenttypes:/browser/review.py:83
+#: recensio.contenttypes:/browser/review.py:89
 msgid "label_metadata_title_edited_volume"
 msgstr "Titel (Sammelband)"
 
 #. Default: "Name (Internet resource)"
-#: recensio.contenttypes:/browser/review.py:87
+#: recensio.contenttypes:/browser/review.py:93
 msgid "label_metadata_name_resource"
 msgstr "Name (Ressource)"
 
 #. Default: "Language (Internet resource)"
-#: recensio.contenttypes:/browser/review.py:90
+#: recensio.contenttypes:/browser/review.py:96
 msgid "label_metadata_language_internet_resource"
 msgstr "Sprache (Internetressource)"
-
-#. Default: "Language (Journal)"
-#: recensio.contenttypes:/browser/review.py:94
-msgid "label_metadata_language_review_journal"
-msgstr "Sprache (Zeitschrift)"
-
-#. Default: "Editor"
-#: recensio.contenttypes:/browser/review.py:97
-msgid "label_metadata_editor"
-msgstr "Herausgeber"
 
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:105
 msgid "Recensio does not know how to safe these categories. We attach them to the document below. Please try to find matching categories. The hints below will be removed when you reload or safe the page."
@@ -223,37 +223,61 @@ msgstr "Keine Ergebnisse gefunden"
 msgid "Year"
 msgstr "Jahr"
 
-#. Default: "Metadata"
-#: recensio.contenttypes:/browser/templates/review.pt:116
-msgid "metadata"
-msgstr "Metadaten"
-
-#. Default: "Zitierhinweise"
-#: recensio.contenttypes:/browser/templates/review.pt:149
-msgid "citation_note"
-msgstr "Zitierhinweis"
-
-#. Default: "URL"
-#: recensio.contenttypes:/browser/templates/review.pt:153
-msgid "url"
-msgstr "URL"
-
-#. Default: "Lizenzhinweis:"
-#: recensio.contenttypes:/browser/templates/review.pt:160
-msgid "license-note-heading"
-msgstr "Lizenzhinweis"
-
-#. Default: "First published:"
-#: recensio.contenttypes:/browser/templates/review.pt:67
-msgid "heading_first_published"
-msgstr ""
-
 #. Default: "Download as <strong>PDF</strong><br /> <em class=\"discrete\">(${download_size} kb)</em>"
-#: recensio.contenttypes:/browser/templates/review.pt:96
+#: recensio.contenttypes:/browser/templates/review.pt:104
 msgid "download_as"
 msgstr ""
 "Als <strong>PDF</strong> herunterladen<br /> <em "
 "class=\"discrete\">(${download_size} kb)</em>"
+
+#. Default: "Metadata"
+#: recensio.contenttypes:/browser/templates/review.pt:124
+msgid "metadata"
+msgstr "Metadaten"
+
+#. Default: "Zitierhinweise"
+#: recensio.contenttypes:/browser/templates/review.pt:157
+msgid "citation_note"
+msgstr "Zitierhinweis"
+
+#. Default: "URL"
+#: recensio.contenttypes:/browser/templates/review.pt:161
+msgid "url"
+msgstr "URL"
+
+#. Default: "Lizenzhinweis:"
+#: recensio.contenttypes:/browser/templates/review.pt:168
+msgid "license-note-heading"
+msgstr "Lizenzhinweis"
+
+#. Default: "Links"
+#: recensio.contenttypes:/browser/templates/review.pt:187
+msgid "links-box-heading"
+msgstr ""
+
+#. Default: "Diese Schrift ist ${link_text}"
+#: recensio.contenttypes:/browser/templates/review.pt:190
+msgid "online_accessible"
+msgstr ""
+
+#. Default: "Diese Schrift ist nicht online abrufbar"
+#: recensio.contenttypes:/browser/templates/review.pt:191
+msgid "online_not_accessible"
+msgstr ""
+
+#: recensio.contenttypes:/browser/templates/review.pt:192
+msgid "Rezension/en zum praesentierten Werk"
+msgstr ""
+
+#. Default: "Inhaltsverzeichnis anzeigen"
+#: recensio.contenttypes:/browser/templates/review.pt:68
+msgid "show_reviewtoc_trigger"
+msgstr ""
+
+#. Default: "First published:"
+#: recensio.contenttypes:/browser/templates/review.pt:75
+msgid "heading_first_published"
+msgstr ""
 
 #. Default: "Title (Journal)"
 #: recensio.contenttypes:/content/presentationarticlereview.py:34
@@ -383,7 +407,7 @@ msgstr ""
 "verhindern. Dadurch sind die Texte frühestens nach 3 Werktagen öffentlich "
 "einsehbar."
 
-#: recensio.contenttypes:/content/presentationmonograph.py:336
+#: recensio.contenttypes:/content/presentationmonograph.py:337
 msgid "presentation of"
 msgstr "Präsentation von"
 
@@ -734,6 +758,10 @@ msgstr "Reihe"
 msgid "Series (vol.)"
 msgstr "Reihennummer"
 
+#: recensio.contenttypes:/content/schemata.py:473
+msgid "label_review_authors"
+msgstr "Autor (Rezenion)"
+
 #: recensio.contenttypes:/content/schemata.py:485
 msgid "Language(s) (review)"
 msgstr "Textsprache(n) (Rezension)"
@@ -779,6 +807,10 @@ msgstr "ddc sach"
 #: recensio.contenttypes:/content/schemata.py:593
 msgid "ddc time"
 msgstr "ddc zeit"
+
+#: recensio.contenttypes:/content/schemata.py:60
+msgid "label_presentation_authors"
+msgstr "Autor (Präsentation)"
 
 #: recensio.contenttypes:/content/schemata.py:603
 msgid "ddc place"
@@ -1185,11 +1217,11 @@ msgstr "Löschen"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:470
 #: recensio.theme:/skins/recensio_theme/search.pt:181
 #: recensio.theme:/skins/recensio_theme/search.pt:181
-#: recensio.theme:/browser/topical.pt:39
-#: recensio.theme:/browser/topical.pt:79
-#: recensio.theme:/browser/topical.pt:83
-#: recensio.theme:/browser/topical.pt:140
-#: recensio.theme:/browser/topical.pt:140
+#: recensio.theme:/browser/topical.pt:123
+#: recensio.theme:/browser/topical.pt:123
+#: recensio.theme:/browser/topical.pt:228
+#: recensio.theme:/browser/topical.pt:263
+#: recensio.theme:/browser/topical.pt:268
 msgid "${DYNAMIC_CONTENT}"
 msgstr "${DYNAMIC_CONTENT}"
 
@@ -1795,13 +1827,13 @@ msgstr ""
 "bitten Sie um Unterstützung"
 
 #. Default: "All comments of this author"
-#: recensio.theme:/browser/templates/authorsearch.pt:103
-#: recensio.theme:/browser/templates/authorsearch.pt:108
+#: recensio.theme:/browser/templates/authorsearch.pt:111
+#: recensio.theme:/browser/templates/authorsearch.pt:116
 msgid "label_all_comments_author"
 msgstr "Alle Kommentare des Autors"
 
 #. Default: "All items of this author"
-#: recensio.theme:/browser/templates/authorsearch.pt:115
+#: recensio.theme:/browser/templates/authorsearch.pt:123
 msgid "label_all_items_author"
 msgstr "Alle Artikel des Autors"
 
@@ -1847,19 +1879,19 @@ msgstr ""
 "die Treffer eines Genres an."
 
 #. Default: "Es wurden keine Autoren gefunden die ihren Kriterien entsprechen"
-#: recensio.theme:/browser/templates/authorsearch.pt:70
+#: recensio.theme:/browser/templates/authorsearch.pt:78
 msgid "label_no_authors_found"
 msgstr "Es wurden keine Autoren gefunden die ihren Kriterien entsprechen"
 
 #. Default: "All presentations of this author"
-#: recensio.theme:/browser/templates/authorsearch.pt:79
-#: recensio.theme:/browser/templates/authorsearch.pt:84
+#: recensio.theme:/browser/templates/authorsearch.pt:87
+#: recensio.theme:/browser/templates/authorsearch.pt:92
 msgid "label_all_presentations_author"
 msgstr "Alle Präsentationen des Autors"
 
 #. Default: "All reviews of this author"
-#: recensio.theme:/browser/templates/authorsearch.pt:91
-#: recensio.theme:/browser/templates/authorsearch.pt:96
+#: recensio.theme:/browser/templates/authorsearch.pt:99
+#: recensio.theme:/browser/templates/authorsearch.pt:104
 msgid "label_all_reviews_author"
 msgstr "Alle Rezensionen des Autors"
 
@@ -1916,16 +1948,20 @@ msgstr "Zeitschriften/Partner"
 msgid "description_publications"
 msgstr "Liste von Publikationen, zu denen Rezensionen vorliegen"
 
-#. Default: "Browsing"
-#: recensio.theme:/browser/topical.pt:107
-msgid "heading_browsing_results"
-msgstr "Themenbrowsing"
-
-#: recensio.theme:/browser/topical.pt:44
-#: recensio.theme:/browser/topical.pt:64
-#: recensio.theme:/browser/topical.pt:87
+#: recensio.theme:/browser/topical.pt:249
+#: recensio.theme:/browser/topical.pt:272
 msgid "Remove this selection"
 msgstr "Auswahl entfernen"
+
+#. Default: "Mehr anzeigen..."
+#: recensio.theme:/browser/topical.pt:287
+msgid "browsing_submenu_more"
+msgstr ""
+
+#. Default: "Browsing"
+#: recensio.theme:/browser/topical.pt:90
+msgid "heading_browsing_results"
+msgstr "Themenbrowsing"
 
 #. Default: "Hier gelangen Sie zu einem Formular, mit dem Sie Ihren Aufsatz in einem Sammelband auf recensio.net pr\303\244sentieren k\303\266nnen."
 #: recensio.theme:/skins/recensio_theme/add_new_item.pt:108
@@ -1996,7 +2032,7 @@ msgstr "Suchresultate"
 
 #. Default: "${number} items matching"
 #: recensio.theme:/skins/recensio_theme/search.pt:130
-#: recensio.theme:/browser/topical.pt:113
+#: recensio.theme:/browser/topical.pt:96
 msgid "batch_x_items_matching_your_criteria"
 msgstr "${number} Artikel gefunden."
 
@@ -2012,7 +2048,7 @@ msgstr "Es wurde nichts gefunden."
 
 #. Default: "reviewed by ${review_authors}"
 #: recensio.theme:/skins/recensio_theme/search.pt:209
-#: recensio.theme:/browser/topical.pt:166
+#: recensio.theme:/browser/topical.pt:149
 msgid "reviewed_by"
 msgstr "rezensiert von ${review_authors}"
 
@@ -2023,25 +2059,25 @@ msgstr "in ${get_publication_title}, ${get_volume_title}, ${get_issue_title}"
 
 #. Default: "presented by ${review_authors}"
 #: recensio.theme:/skins/recensio_theme/search.pt:218
-#: recensio.theme:/browser/topical.pt:178
+#: recensio.theme:/browser/topical.pt:161
 msgid "presented_by"
 msgstr "präsentiert von ${review_authors}"
 
 #. Default: "last modified"
 #: recensio.theme:/skins/recensio_theme/search.pt:229
-#: recensio.theme:/browser/topical.pt:192
+#: recensio.theme:/browser/topical.pt:175
 msgid "box_last_modified"
 msgstr "Zuletzt geändert am:"
 
 #. Default: "Filed under:"
 #: recensio.theme:/skins/recensio_theme/search.pt:241
-#: recensio.theme:/browser/topical.pt:203
+#: recensio.theme:/browser/topical.pt:186
 msgid "label_filed_under"
 msgstr "Eingeordnet unter:"
 
 #. Default: "Relevance: ${percentage}%"
 #: recensio.theme:/skins/recensio_theme/search.pt:258
-#: recensio.theme:/browser/topical.pt:220
+#: recensio.theme:/browser/topical.pt:203
 msgid "label_relevance_percentage"
 msgstr "Relevanz: ${percentage}"
 
