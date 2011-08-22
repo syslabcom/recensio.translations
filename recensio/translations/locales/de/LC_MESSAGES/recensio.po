@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: Fri Aug 19 18:44:37 2011\n"
-"PO-Revision-Date: 2011-08-22 12:04+0200\n"
+"POT-Creation-Date: Mon Aug 22 16:43:56 2011\n"
+"PO-Revision-Date: 2011-08-22 16:50+0200\n"
 "Last-Translator: Administrator <deroiste@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: de\n"
@@ -222,59 +222,64 @@ msgid "Year"
 msgstr "Jahr"
 
 #. Default: "Download as <strong>PDF</strong><br /> <em class=\"discrete\">(${download_size} kb)</em>"
-#: recensio.contenttypes:/browser/templates/review.pt:104
+#: recensio.contenttypes:/browser/templates/review.pt:106
 msgid "download_as"
 msgstr ""
 "Als <strong>PDF</strong> herunterladen<br /> <em "
 "class=\"discrete\">(${download_size} kb)</em>"
 
 #. Default: "Metadata"
-#: recensio.contenttypes:/browser/templates/review.pt:124
+#: recensio.contenttypes:/browser/templates/review.pt:126
 msgid "metadata"
 msgstr "Metadaten"
 
 #. Default: "Zitierhinweise"
-#: recensio.contenttypes:/browser/templates/review.pt:157
+#: recensio.contenttypes:/browser/templates/review.pt:159
 msgid "citation_note"
 msgstr "Zitierhinweis"
 
 #. Default: "URL"
-#: recensio.contenttypes:/browser/templates/review.pt:161
+#: recensio.contenttypes:/browser/templates/review.pt:163
 msgid "url"
 msgstr "URL"
 
 #. Default: "Lizenzhinweis:"
-#: recensio.contenttypes:/browser/templates/review.pt:168
+#: recensio.contenttypes:/browser/templates/review.pt:170
 msgid "license-note-heading"
 msgstr "Lizenzhinweis"
 
 #. Default: "Links"
-#: recensio.contenttypes:/browser/templates/review.pt:187
+#: recensio.contenttypes:/browser/templates/review.pt:189
 msgid "links-box-heading"
 msgstr ""
 
 #. Default: "Diese Schrift ist ${link_text}"
-#: recensio.contenttypes:/browser/templates/review.pt:190
+#: recensio.contenttypes:/browser/templates/review.pt:192
 msgid "online_accessible"
 msgstr ""
 
 #. Default: "Diese Schrift ist nicht online abrufbar"
-#: recensio.contenttypes:/browser/templates/review.pt:191
+#: recensio.contenttypes:/browser/templates/review.pt:193
 msgid "online_not_accessible"
 msgstr ""
 
 #. Default: "Rezension/en zum praesentierten Werk"
-#: recensio.contenttypes:/browser/templates/review.pt:193
+#: recensio.contenttypes:/browser/templates/review.pt:195
 msgid "heading_online_reviews_of_presented_text"
 msgstr "Rezension/en zum praesentierten Werk"
 
+#. Default: "Kommentieren"
+#: recensio.contenttypes:/browser/templates/review.pt:65
+msgid "label_jump_to_add_comment"
+msgstr "Kommentieren"
+
 #. Default: "Inhaltsverzeichnis anzeigen"
-#: recensio.contenttypes:/browser/templates/review.pt:68
+#: recensio.contenttypes:/browser/templates/review.pt:70
 msgid "show_reviewtoc_trigger"
 msgstr ""
 
 #. Default: "First published:"
-#: recensio.contenttypes:/browser/templates/review.pt:75
+#: recensio.contenttypes:/browser/templates/review.pt:77
 msgid "heading_first_published"
 msgstr ""
 
