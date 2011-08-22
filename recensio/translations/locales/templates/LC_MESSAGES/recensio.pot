@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Fri Aug 19 18:44:37 2011\n"
+"POT-Creation-Date: Mon Aug 22 16:23:06 2011\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -216,57 +216,63 @@ msgstr ""
 msgid "Year"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/review.pt:104
+#: recensio.contenttypes:/browser/templates/review.pt:106
 #. Default: "Download as <strong>PDF</strong><br /> <em class=\"discrete\">(${download_size} kb)</em>"
 msgid "download_as"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/review.pt:124
+#: recensio.contenttypes:/browser/templates/review.pt:126
 #. Default: "Metadata"
 msgid "metadata"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/review.pt:157
+#: recensio.contenttypes:/browser/templates/review.pt:159
 #. Default: "Zitierhinweise"
 msgid "citation_note"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/review.pt:161
+#: recensio.contenttypes:/browser/templates/review.pt:163
 #. Default: "URL"
 msgid "url"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/review.pt:168
+#: recensio.contenttypes:/browser/templates/review.pt:170
 #. Default: "Lizenzhinweis:"
 msgid "license-note-heading"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/review.pt:187
+#: recensio.contenttypes:/browser/templates/review.pt:189
 #. Default: "Links"
 msgid "links-box-heading"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/review.pt:190
+#: recensio.contenttypes:/browser/templates/review.pt:192
 #. Default: "Diese Schrift ist ${link_text}"
 msgid "online_accessible"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/review.pt:191
+#: recensio.contenttypes:/browser/templates/review.pt:193
 #. Default: "Diese Schrift ist nicht online abrufbar"
 msgid "online_not_accessible"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/review.pt:193
+#: recensio.contenttypes:/browser/templates/review.pt:195
 #. Default: "Rezension/en zum praesentierten Werk"
 msgid "heading_online_reviews_of_presented_text"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/review.pt:68
+#: recensio.contenttypes:/browser/templates/review.pt:65
+#: recensio.policy:/browser/templates/comments.pt:139
+#. Default: "Kommentieren"
+msgid "label_add_comment"
+msgstr ""
+
+#: recensio.contenttypes:/browser/templates/review.pt:70
 #. Default: "Inhaltsverzeichnis anzeigen"
 msgid "show_reviewtoc_trigger"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/review.pt:75
+#: recensio.contenttypes:/browser/templates/review.pt:77
 #. Default: "First published:"
 msgid "heading_first_published"
 msgstr ""
@@ -944,11 +950,6 @@ msgstr ""
 #: recensio.policy:/browser/templates/comments.pt:135
 #. Default: "Sie haben hier die Gelegenheit, die Rezension/Pr\303\244sentation zu kommentieren. Daf\303\274r ist eine kurze, kostenlose Registrierung mit Namen und E-Mail-Adresse notwendig, die lediglich dazu dient, Missbrauch der Kommentarfunktion zu verhindern und den wissenschaftlichen Anspruch der Plattform zu wahren. <br /> Bitte beachten Sie, dass eingehende Kommentare vor der Ver\303\266ffentlichung auf die Einhaltung der ${benutzerrichtlinien} gepr\303\274ft werden. Aus diesem Grund k\303\266nnen 1 bis 3 Werktage vergehen, bis Ihr Kommentar auf recensio.net sichtbar wird. Dar\303\274ber hinaus gibt es die M\303\266glichkeit, der Redaktion als problematisch empfundene \303\204u\303\237erungen \303\274ber einen neben Kommentaren befindlichen Button zu melden. <br /> F\303\274r R\303\274ckfragen steht Ihnen die recensio.net-Redaktion jederzeit zur Verf\303\274gung:<br /> ${contact_addr}."
 msgid "commenting_explanation"
-msgstr ""
-
-#: recensio.policy:/browser/templates/comments.pt:139
-#. Default: "Add comment"
-msgid "label_add_comment"
 msgstr ""
 
 #: recensio.policy:/browser/templates/comments.pt:140
