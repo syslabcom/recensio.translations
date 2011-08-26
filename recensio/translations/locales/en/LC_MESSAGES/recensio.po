@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Mon Aug 22 16:43:56 2011\n"
-"PO-Revision-Date: 2011-08-22 16:52+0200\n"
+"PO-Revision-Date: 2011-08-26 11:10+0200\n"
 "Last-Translator: Administrator <deroiste@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: en\n"
@@ -320,7 +320,7 @@ msgstr "Volume"
 #: recensio.contenttypes:/content/presentationarticlereview.py:69
 #: recensio.contenttypes:/content/schemata.py:726
 msgid "Number"
-msgstr "Number"
+msgstr "Issue"
 
 #. Default: "Which scholarly author's work have you mainly engaged with in your monograph? Please give us the most detailed information possible on the &raquo;contemporary&laquo; names amongst them as the recensio.net editorial team will usually try to inform these authors of the existence of your monograph, your presentation, and the chance to comment on it. Only the reference author's name will be visible to the public. Please name historical reference authors (e.g. Aristotle, Charles de Gaulle) further below as subject heading."
 #: recensio.contenttypes:/content/presentationarticlereview.py:70
