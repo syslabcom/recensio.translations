@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Mon Aug 22 16:43:56 2011\n"
-"PO-Revision-Date: 2011-08-22 16:51+0200\n"
+"PO-Revision-Date: 2011-08-26 11:11+0200\n"
 "Last-Translator: Administrator <deroiste@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: fr\n"
@@ -280,7 +280,7 @@ msgstr ""
 #. Default: "Title (Journal)"
 #: recensio.contenttypes:/content/presentationarticlereview.py:34
 msgid "title_journal"
-msgstr "Titre de la revu"
+msgstr "Titre de la revue"
 
 #. Default: "Information on the journal"
 #: recensio.contenttypes:/content/presentationarticlereview.py:38
@@ -884,7 +884,7 @@ msgstr "Année de publication officielle (si différente)"
 
 #: recensio.contenttypes:/content/schemata.py:739
 msgid "Actual year of publication"
-msgstr "Date rélle de publication"
+msgstr "Date réelle de publication"
 
 #. Default: "PDF watermark"
 #: recensio.contenttypes:/content/schemata.py:760
