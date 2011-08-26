@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Mon Aug 22 16:43:56 2011\n"
-"PO-Revision-Date: 2011-08-26 11:09+0200\n"
+"PO-Revision-Date: 2011-08-26 16:09+0200\n"
 "Last-Translator: Administrator <deroiste@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: de\n"
@@ -873,7 +873,7 @@ msgstr "Kürzel (Zeitschrift)"
 
 #: recensio.contenttypes:/content/schemata.py:718
 msgid "Vol."
-msgstr "Nummer"
+msgstr "Band"
 
 #: recensio.contenttypes:/content/schemata.py:734
 msgid "Official year of publication (if different)"
