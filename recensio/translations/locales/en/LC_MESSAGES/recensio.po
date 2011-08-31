@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Mon Aug 22 16:43:56 2011\n"
-"PO-Revision-Date: 2011-08-26 11:10+0200\n"
-"Last-Translator: Administrator <deroiste@syslab.com>\n"
+"PO-Revision-Date: 2011-08-30 16:53+0200\n"
+"Last-Translator: landes <landes@bsb-muenchen.de>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
@@ -916,40 +916,43 @@ msgstr "Mail sending will be prepared. Mail will be sent to %s"
 
 #: recensio.policy:/browser/email.py:297
 #: recensio.policy:/missing_18n_labels.py:57
-#, fuzzy
 msgid "mail_new_comment_subject_review_author"
-msgstr "A comment on your presentation has been published"
+msgstr "A comment on has been published"
 
 #: recensio.policy:/browser/email.py:299
 #: recensio.policy:/missing_18n_labels.py:50
-#, fuzzy
 msgid "mail_new_comment_body_review_author"
 msgstr ""
-"Dear ${author},\n"
+"Dear Mr./Ms. ${recipient},\n"
 "\n"
-"On ${date} you presented your text\n"
-"\t${title}\n"
-"on recensio.net. ${commenter} commented on your presentation on "
-"${commentdate}. Here you can read the comment and react to it:\n"
+"A review on    ${author}: ${title}, ${year}, ${isbn} (rezensiert von "
+"${reviewers})\n"
+"\n"
+"was published in the journal${journal}, ${volume}, ${issue}. This review was "
+"published on the review platform recensio.net.\n"
+"${commenter} commented on this review on ${commentdate}.You can read the "
+"comment and react to it here:\n"
 "\n"
 "${url}\n"
 "\n"
-"For any further information/questions please feel free to contact the "
-"recensio.net editorial team:\n"
-"${mail_from}.\n"
+"For any further information/questions, please feel free to contact the "
+"recensio.net editorial team: ${mail_from}.\n"
 "\n"
-"Yours sincerely\n"
-"The recensio.net editorial team"
+"Yours sincerely,\n"
+"The recensio.net editorial team\n"
+"\n"
+"recensio.net is a joint project of the Bavarian State Library (BSB) Munich, "
+"the German Historical Institute Paris (DHIP) and the Institute for European "
+"History (IEG) Mainz – funded by the German Research Foundation (DFG). "
+"http://www.recensio.net/ueberuns-en?set_language=en"
 
 #: recensio.policy:/browser/email.py:307
 #: recensio.policy:/missing_18n_labels.py:54
-#, fuzzy
 msgid "mail_new_comment_subject_presentation_author"
-msgstr "A comment on your presentation has been published"
+msgstr "A comment has been published"
 
 #: recensio.policy:/browser/email.py:309
 #: recensio.policy:/missing_18n_labels.py:47
-#, fuzzy
 msgid "mail_new_comment_body_presentation_author"
 msgstr ""
 "Dear ${author},\n"
@@ -966,31 +969,72 @@ msgstr ""
 "${mail_from}.\n"
 "\n"
 "Yours sincerely\n"
-"The recensio.net editorial team"
+"The recensio.net editorial team\n"
+"\n"
+"recensio.net is a joint project of the Bavarian State Library (BSB) Munich, "
+"the German Historical Institute Paris (DHIP) and the Institute for European "
+"History (IEG) Mainz – funded by the German Research Foundation (DFG). "
+"http://www.recensio.net/ueberuns-en?set_language=en"
 
 #: recensio.policy:/browser/email.py:333
 #: recensio.policy:/missing_18n_labels.py:58
-#, fuzzy
 msgid "mail_new_comment_subject_review_commenter"
-msgstr "A comment on your presentation has been published"
+msgstr "A comment has been published"
 
 #: recensio.policy:/browser/email.py:336
 #: recensio.policy:/missing_18n_labels.py:51
-#, fuzzy
 msgid "mail_new_comment_body_review_commenter"
-msgstr "A comment on your presentation has been published"
+msgstr ""
+"Dear Mr./Ms. ${recipient},\n"
+"\n"
+"You commented on    ${author}: ${title}, ${year}, ${isbn} (rezensiert von "
+"${reviewers}) in ${journal}, ${volume}, ${issue}\n"
+"\n"
+"on recensio.net. ${commenter} added a further comment on ${commentdate}. You "
+"can read the comment and react to it here:\n"
+"\n"
+"${url}\n"
+"\n"
+"For any further information/questions, please feel free to contact the "
+"recensio.net editorial team: ${mail_from}.\n"
+"\n"
+"Yours sincerely,\n"
+"The recensio.net editorial team\n"
+"\n"
+"recensio.net is a joint project of the Bavarian State Library (BSB) Munich, "
+"the German Historical Institute Paris (DHIP) and the Institute for European "
+"History (IEG) Mainz – funded by the German Research Foundation (DFG). "
+"http://www.recensio.net/ueberuns-en?set_language=en"
 
 #: recensio.policy:/browser/email.py:340
 #: recensio.policy:/missing_18n_labels.py:55
-#, fuzzy
 msgid "mail_new_comment_subject_presentation_commenter"
-msgstr "A comment on your presentation has been published"
+msgstr "A comment has been published"
 
 #: recensio.policy:/browser/email.py:343
 #: recensio.policy:/missing_18n_labels.py:48
-#, fuzzy
 msgid "mail_new_comment_body_presentation_commenter"
-msgstr "A comment on your presentation has been published"
+msgstr ""
+"Dear Mr./Ms. ${recipient},\n"
+"\n"
+"You commented on ${author}: ${title}, ${year}, ${isbn} (rezensiert von "
+"${reviewers}) in ${journal}, ${volume}, ${issue}\n"
+"\n"
+"on recensio.net. ${commenter} added a further comment on ${commentdate}. You "
+"can read the comment and react to it here:\n"
+"\n"
+"${url}\n"
+"\n"
+"For any further information/questions, please feel free to contact the "
+"recensio.net editorial team: ${mail_from}.\n"
+"\n"
+"Yours sincerely,\n"
+"The recensio.net editorial team\n"
+"\n"
+"recensio.net is a joint project of the Bavarian State Library (BSB) Munich, "
+"the German Historical Institute Paris (DHIP) and the Institute for European "
+"History (IEG) Mainz – funded by the German Research Foundation (DFG). "
+"http://www.recensio.net/ueberuns-en?set_language=en"
 
 #: recensio.policy:/browser/email.py:357
 msgid "mail_no_recipients"
