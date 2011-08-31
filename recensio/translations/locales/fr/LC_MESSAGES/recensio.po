@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Wed Aug 31 11:46:55 2011\n"
-"PO-Revision-Date: 2011-08-31 13:12+0200\n"
+"PO-Revision-Date: 2011-08-31 14:53+0200\n"
 "Last-Translator: Administrator <deroiste@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: fr\n"
@@ -25,7 +25,7 @@ msgstr ""
 #. Default: "Language (Journal)"
 #: recensio.contenttypes:/browser/review.py:100
 msgid "label_metadata_language_review_journal"
-msgstr "Langue"
+msgstr "Langue (revue)"
 
 #. Default: "Editor"
 #: recensio.contenttypes:/browser/review.py:103
@@ -187,7 +187,7 @@ msgstr "Des champs obligatoires sont vides. Veuillez vérifier tous les onglets.
 #. Default: "Keywords"
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:49
 msgid "label_keywords"
-msgstr ""
+msgstr "Mots-clés"
 
 #. Default: "DDC Subject"
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:57
@@ -241,25 +241,27 @@ msgstr "URL"
 msgid "license-note-heading"
 msgstr "Droits d'auteur"
 
+# Wo steht das?
 #. Default: "Links"
 #: recensio.contenttypes:/browser/templates/review.pt:189
+#, fuzzy
 msgid "links-box-heading"
-msgstr ""
+msgstr "Liens"
 
 #. Default: "Diese Schrift ist ${link_text}"
 #: recensio.contenttypes:/browser/templates/review.pt:192
 msgid "online_accessible"
-msgstr ""
+msgstr "Cet ouvrage est disponible en ligne ${link_text}"
 
 #. Default: "Diese Schrift ist nicht online abrufbar"
 #: recensio.contenttypes:/browser/templates/review.pt:193
 msgid "online_not_accessible"
-msgstr ""
+msgstr "Cet ouvrage n'est pas disponible en ligne"
 
 #. Default: "Rezension/en zum praesentierten Werk"
 #: recensio.contenttypes:/browser/templates/review.pt:195
 msgid "heading_online_reviews_of_presented_text"
-msgstr ""
+msgstr "Recension(s) sur l'ouvrage présenté"
 
 #. Default: "Kommentieren"
 #: recensio.contenttypes:/browser/templates/review.pt:65
@@ -269,12 +271,12 @@ msgstr "Commenter"
 #. Default: "Inhaltsverzeichnis anzeigen"
 #: recensio.contenttypes:/browser/templates/review.pt:70
 msgid "show_reviewtoc_trigger"
-msgstr ""
+msgstr "Afficher la table des matières"
 
 #. Default: "First published:"
 #: recensio.contenttypes:/browser/templates/review.pt:77
 msgid "heading_first_published"
-msgstr ""
+msgstr "Première publication :"
 
 #. Default: "Title (Journal)"
 #: recensio.contenttypes:/content/presentationarticlereview.py:34
@@ -593,7 +595,7 @@ msgstr ""
 #: recensio.contenttypes:/content/reviewjournal.py:245
 #: recensio.contenttypes:/content/reviewmonograph.py:276
 msgid "label_downloaded_via_recensio"
-msgstr ""
+msgstr "téléchargé depuis recensio.net"
 
 #: recensio.contenttypes:/content/reviewjournal.py:38
 msgid "Editor (name or institution)"
@@ -628,7 +630,9 @@ msgstr ""
 "Toutes les recensions soumises seront publiées sous licence Creative "
 "Commons."
 
+# Zusammenhang?
 #: recensio.contenttypes:/content/schemata.py:166
+#, fuzzy
 msgid "message_at_least_one_author_validation_error"
 msgstr ""
 
@@ -717,11 +721,15 @@ msgstr ""
 "recherche par exemple). Dans la mesure du possible, cette adresse doit être "
 "durable, ou modifiée par vos soins, en cas de changement d’université."
 
+# Zusammenhang?
 #: recensio.contenttypes:/content/schemata.py:353
+#, fuzzy
 msgid "heading_form_online_review_urls"
 msgstr ""
 
+# Zusammenhang?
 #: recensio.contenttypes:/content/schemata.py:354
+#, fuzzy
 msgid "label_form_online_review_url"
 msgstr ""
 
@@ -789,13 +797,12 @@ msgstr "Principales thèses développées"
 
 #: recensio.contenttypes:/content/schemata.py:560
 msgid "URN"
-msgstr ""
+msgstr "URN"
 
 #. Default: "Filled in by the editorial staff"
 #: recensio.contenttypes:/content/schemata.py:561
-#, fuzzy
 msgid "description_urn"
-msgstr "Uniquement après l’accord de la rédaction de recensio.net"
+msgstr "A remplir par l'équipe recensio.net"
 
 #: recensio.contenttypes:/content/schemata.py:573
 msgid "Original Source URL"
@@ -881,8 +888,10 @@ msgstr "Année de publication officielle (si différente)"
 msgid "Actual year of publication"
 msgstr "Date réelle de publication"
 
+# Zusammenhang?
 #. Default: "PDF watermark"
 #: recensio.contenttypes:/content/schemata.py:760
+#, fuzzy
 msgid "label_publication_pdf_watermark"
 msgstr ""
 
@@ -2136,7 +2145,7 @@ msgstr "Langue des publications commentées"
 #. Default: "Return items that review works in selected the languages."
 #: recensio.theme:/skins/recensio_theme/search_form.pt:309
 msgid "help_search_works_language"
-msgstr "Montrer les articles dans les langues sélectionnées"
+msgstr "Montrer les articles dans les langues sélectionnées"
 
 #. Default: "Review status"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:333
@@ -2158,7 +2167,7 @@ msgstr "Auteurs/Directeur de publication"
 msgid "help_review_autor"
 msgstr ""
 "Auteur (monographie/article/commentaire) ou directeur de publication "
-"(receuil)"
+"(recueil)"
 
 #. Default: "Creator"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:396
@@ -2188,7 +2197,7 @@ msgstr "Revues"
 #. Default: "Findet Artikel, die in einer der ausgew\303\244hlten Zeitschrift erschienen sind."
 #: recensio.theme:/skins/recensio_theme/search_form.pt:437
 msgid "help_search_magazines"
-msgstr "Chercher un article paru dans les revues sélectionnées"
+msgstr "Chercher un article paru dans les revues sélectionnées"
 
 #. Default: "Select All/None"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:451
