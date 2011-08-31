@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: Mon Aug 22 16:43:56 2011\n"
-"PO-Revision-Date: 2011-08-30 17:24+0200\n"
-"Last-Translator: landes <landes@bsb-muenchen.de>\n"
+"POT-Creation-Date: Tue Aug 30 14:23:40 2011\n"
+"PO-Revision-Date: 2011-08-31 11:42+0200\n"
+"Last-Translator: Administrator <deroiste@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -323,7 +323,7 @@ msgstr "Numéro"
 #. Default: "Which scholarly author's work have you mainly engaged with in your monograph? Please give us the most detailed information possible on the &raquo;contemporary&laquo; names amongst them as the recensio.net editorial team will usually try to inform these authors of the existence of your monograph, your presentation, and the chance to comment on it. Only the reference author's name will be visible to the public. Please name historical reference authors (e.g. Aristotle, Charles de Gaulle) further below as subject heading."
 #: recensio.contenttypes:/content/presentationarticlereview.py:70
 #: recensio.contenttypes:/content/presentationcollection.py:85
-#: recensio.contenttypes:/content/presentationmonograph.py:121
+#: recensio.contenttypes:/content/presentationmonograph.py:122
 msgid "description_reference_authors"
 msgstr ""
 "Sur quels auteurs scientifiques vous êtes-vous essentiellement appuyé dans "
@@ -388,12 +388,12 @@ msgstr ""
 "fait, les textes sont publiés dans un délai minimum de trois jours ouvrés, à "
 "partir leur date de soumission sur la plateforme."
 
-#: recensio.contenttypes:/content/presentationmonograph.py:101
+#: recensio.contenttypes:/content/presentationmonograph.py:102
 msgid "Upload of cover picture"
 msgstr "Ajouter la page de couverture"
 
 #. Default: "Please give a brief and clear outline of your thesis statements, your methodology and/or your discussion of existing research approaches. We would kindly ask you to avoid a mere summary of your text. Don't be shy, however, of wording your statements in a provocative way. By separating out paragraphs you will make your statement more readable. You can increase the number of characters available for your own presentation from 4000 to 6000 by commenting on an already existing review/presentation on recensio.net. Please note that both comments and presentations will be checked by the editorial team before being published in order to prevent misuse. Because of this texts will be available online at the earliest after three working days."
-#: recensio.contenttypes:/content/presentationmonograph.py:103
+#: recensio.contenttypes:/content/presentationmonograph.py:104
 msgid "description_presentation_monograph_review"
 msgstr ""
 "Veuillez ici formuler de manière succincte les principales thèses "
@@ -410,56 +410,56 @@ msgstr ""
 "fait, les textes sont publiés dans un délai minimum de trois jours ouvrés, à "
 "partir leur date de soumission sur la plateforme."
 
-#: recensio.contenttypes:/content/presentationmonograph.py:339
+#: recensio.contenttypes:/content/presentationmonograph.py:342
 msgid "presentation of"
 msgstr "présentation de"
 
-#: recensio.contenttypes:/content/presentationmonograph.py:40
+#: recensio.contenttypes:/content/presentationmonograph.py:41
 msgid "Table of contents of the monograph you are presenting"
 msgstr "Table des matières de la monographie présentée"
 
-#: recensio.contenttypes:/content/presentationmonograph.py:52
+#: recensio.contenttypes:/content/presentationmonograph.py:53
 msgid "Existing online reviews"
 msgstr "Recensions en ligne existantes"
 
 #. Default: "Are there reviews on your text which are already available online?"
-#: recensio.contenttypes:/content/presentationmonograph.py:53
+#: recensio.contenttypes:/content/presentationmonograph.py:54
 msgid "description_existing_online_reviews"
 msgstr "Des recensions de votre ouvrage sont-elles disponibles en ligne?"
 
-#: recensio.contenttypes:/content/presentationmonograph.py:58
+#: recensio.contenttypes:/content/presentationmonograph.py:59
 msgid "Name of journal/newspaper/yearbook"
 msgstr "Nom de la revue/journal/annuaire"
 
-#: recensio.contenttypes:/content/presentationmonograph.py:60
-#: recensio.contenttypes:/content/presentationmonograph.py:100
+#: recensio.contenttypes:/content/presentationmonograph.py:61
+#: recensio.contenttypes:/content/presentationmonograph.py:101
 #: recensio.contenttypes:/content/schemata.py:550
 msgid "URL"
 msgstr "URL"
 
 #. Default: "Name of journal/newspaper/yearbook with volume, year and number of pages"
-#: recensio.contenttypes:/content/presentationmonograph.py:71
+#: recensio.contenttypes:/content/presentationmonograph.py:72
 msgid "label_published_reviews"
 msgstr "Nom de la revue/journal/annuaire, volume, année et nombre de pages"
 
 #. Default: "Insert here the place of publication of reviews on your text that have already been published in print."
-#: recensio.contenttypes:/content/presentationmonograph.py:76
+#: recensio.contenttypes:/content/presentationmonograph.py:77
 msgid "description_pubished_reviews"
 msgstr ""
 "Veuillez insérer le lieu de publication d’éventuelles recensions de vos "
 "travaux, publiées en version papier."
 
-#: recensio.contenttypes:/content/presentationmonograph.py:89
+#: recensio.contenttypes:/content/presentationmonograph.py:90
 msgid "Author(s) of presented monograph"
 msgstr "Auteur(s) de la monographie présentée"
 
 #. Default: "Author(s) of presented monograph"
-#: recensio.contenttypes:/content/presentationmonograph.py:91
+#: recensio.contenttypes:/content/presentationmonograph.py:92
 msgid "description_presentation_monograph_authors"
 msgstr "Auteur(s) de la monographie présentée"
 
 #. Default: "Is the monograph you are presenting available free of charge online?"
-#: recensio.contenttypes:/content/presentationmonograph.py:95
+#: recensio.contenttypes:/content/presentationmonograph.py:96
 msgid "description_presentation_uri"
 msgstr ""
 "La monographie que vous souhaitez présenter est-elle disponible en libre "
@@ -603,10 +603,6 @@ msgstr "Directeur de publication (nom ou institution)"
 #: recensio.contenttypes:/content/reviewjournal.py:45
 msgid "Title (journal)"
 msgstr "Titre de la revue"
-
-#: recensio.contenttypes:/content/reviewjournal.py:46
-msgid "Subtitle (journal)"
-msgstr "Sous-titre de la revue"
 
 #. Default: "Information on presented work"
 #: recensio.contenttypes:/content/schemata.py:100
@@ -916,25 +912,25 @@ msgstr "Paramètres"
 msgid "description_recensio_setings"
 msgstr "Vos options de configuration sur recensio.net"
 
-#: recensio.policy:/browser/email.py:147
+#: recensio.policy:/browser/email.py:149
 msgid "Plone site is not configured"
 msgstr "Plone site is not configured."
 
-#: recensio.policy:/browser/email.py:162
+#: recensio.policy:/browser/email.py:164
 msgid "Mailsettings not configured"
 msgstr "Paramètres non configurés"
 
 #. Default: "Mailversand wird vorbereitet. Mail wird versandt an ${mail_to}"
-#: recensio.policy:/browser/email.py:243
+#: recensio.policy:/browser/email.py:249
 msgid "mail_sending_prepared"
 msgstr "Mail sending will be prepared. Mail will be sent to %s"
 
-#: recensio.policy:/browser/email.py:297
+#: recensio.policy:/browser/email.py:303
 #: recensio.policy:/missing_18n_labels.py:57
 msgid "mail_new_comment_subject_review_author"
 msgstr "Un commentaire a été publié"
 
-#: recensio.policy:/browser/email.py:299
+#: recensio.policy:/browser/email.py:305
 #: recensio.policy:/missing_18n_labels.py:50
 msgid "mail_new_comment_body_review_author"
 msgstr ""
@@ -962,12 +958,12 @@ msgstr ""
 "européenne de Mayence.\n"
 "En savoir plus : http://www.recensio.net/ueberuns-fr?set_language=fr"
 
-#: recensio.policy:/browser/email.py:307
+#: recensio.policy:/browser/email.py:313
 #: recensio.policy:/missing_18n_labels.py:54
 msgid "mail_new_comment_subject_presentation_author"
 msgstr "Un commentaire a été publié"
 
-#: recensio.policy:/browser/email.py:309
+#: recensio.policy:/browser/email.py:315
 #: recensio.policy:/missing_18n_labels.py:47
 msgid "mail_new_comment_body_presentation_author"
 msgstr ""
@@ -994,12 +990,12 @@ msgstr ""
 "européenne de Mayence.\n"
 "En savoir plus : http://www.recensio.net/ueberuns-fr?set_language=fr"
 
-#: recensio.policy:/browser/email.py:333
+#: recensio.policy:/browser/email.py:339
 #: recensio.policy:/missing_18n_labels.py:58
 msgid "mail_new_comment_subject_review_commenter"
 msgstr "Un commentaire a été publié"
 
-#: recensio.policy:/browser/email.py:336
+#: recensio.policy:/browser/email.py:342
 #: recensio.policy:/missing_18n_labels.py:51
 msgid "mail_new_comment_body_review_commenter"
 msgstr ""
@@ -1027,12 +1023,12 @@ msgstr ""
 "européenne de Mayence.\n"
 "En savoir plus : http://www.recensio.net/ueberuns-fr?set_language=fr"
 
-#: recensio.policy:/browser/email.py:340
+#: recensio.policy:/browser/email.py:346
 #: recensio.policy:/missing_18n_labels.py:55
 msgid "mail_new_comment_subject_presentation_commenter"
 msgstr "Un commentaire a été publié"
 
-#: recensio.policy:/browser/email.py:343
+#: recensio.policy:/browser/email.py:349
 #: recensio.policy:/missing_18n_labels.py:48
 msgid "mail_new_comment_body_presentation_commenter"
 msgstr ""
@@ -1060,13 +1056,13 @@ msgstr ""
 "européenne de Mayence.\n"
 "En savoir plus : http://www.recensio.net/ueberuns-fr?set_language=fr"
 
-#: recensio.policy:/browser/email.py:357
+#: recensio.policy:/browser/email.py:363
 msgid "mail_no_recipients"
 msgstr "Adresse email manquante. L'email n'a pas été envoyé."
 
 #. Default: ""
-#: recensio.policy:/browser/email.py:413
-#: recensio.policy:/browser/email.py:424
+#: recensio.policy:/browser/email.py:419
+#: recensio.policy:/browser/email.py:430
 msgid "mail_new_publication_body"
 msgstr ""
 "Chèr(e) ${reviewed_author},\n"
@@ -1098,7 +1094,7 @@ msgstr ""
 "${concept_url}"
 
 #. Default: ""
-#: recensio.policy:/browser/email.py:420
+#: recensio.policy:/browser/email.py:426
 msgid "mail_new_publication_intro"
 msgstr ""
 "Liebe Redaktion,\n"
@@ -1112,17 +1108,17 @@ msgstr ""
 " "
 
 #. Default: "Es wurde eine Rezension von ${title} ver\303\266ffentlicht"
-#: recensio.policy:/browser/email.py:429
+#: recensio.policy:/browser/email.py:435
 msgid "mail_new_publication_subject"
 msgstr "A new review of %s has been published"
 
 #. Default: "Ihre Rezension auf recensio.net"
-#: recensio.policy:/browser/email.py:473
+#: recensio.policy:/browser/email.py:479
 msgid "mail_uncommented_subject"
 msgstr "Votre présentation sur recensio.net"
 
 #. Default: ""
-#: recensio.policy:/browser/email.py:492
+#: recensio.policy:/browser/email.py:498
 msgid "mail_uncommented_body"
 msgstr ""
 "Chèr(e) ${name},\n"
@@ -1145,11 +1141,11 @@ msgstr ""
 "Cordialement,\n"
 "L’équipe recensio.net"
 
-#: recensio.policy:/browser/email.py:515
+#: recensio.policy:/browser/email.py:521
 msgid "Newsletter settings"
 msgstr "Configuration newsletter"
 
-#: recensio.policy:/browser/email.py:516
+#: recensio.policy:/browser/email.py:522
 msgid ""
 "This is a technical configuration panel for newsletter settings.\n"
 "The templates can access any object of a catalog result, but dates have been preformatted."
@@ -1158,27 +1154,27 @@ msgstr ""
 "à tous les objets du catalogue, mais les données ont été préformatées."
 
 #: recensio.policy:/browser/email.py:60
-#: recensio.policy:/browser/email.py:128
+#: recensio.policy:/browser/email.py:130
 msgid "more_results_here"
 msgstr "Autres résultats :"
 
-#: recensio.policy:/browser/email.py:80
+#: recensio.policy:/browser/email.py:82
 msgid "comment"
 msgstr "commentaire"
 
-#: recensio.policy:/browser/email.py:81
+#: recensio.policy:/browser/email.py:83
 msgid "comments"
 msgstr "commentaires"
 
-#: recensio.policy:/browser/email.py:91
+#: recensio.policy:/browser/email.py:93
 msgid "presentations_of_monographs"
 msgstr "présentations de monographies"
 
-#: recensio.policy:/browser/email.py:94
+#: recensio.policy:/browser/email.py:96
 msgid "presentations_of_articles"
 msgstr "présentations d'articles"
 
-#: recensio.policy:/browser/email.py:97
+#: recensio.policy:/browser/email.py:99
 msgid "presentations_of_online_resources"
 msgstr "présentations de ressources Internet"
 
@@ -1239,11 +1235,11 @@ msgstr "Supprimer"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:470
 #: recensio.theme:/skins/recensio_theme/search.pt:181
 #: recensio.theme:/skins/recensio_theme/search.pt:181
-#: recensio.theme:/browser/topical.pt:123
-#: recensio.theme:/browser/topical.pt:123
-#: recensio.theme:/browser/topical.pt:228
-#: recensio.theme:/browser/topical.pt:263
-#: recensio.theme:/browser/topical.pt:268
+#: recensio.theme:/browser/topical.pt:70
+#: recensio.theme:/browser/topical.pt:70
+#: recensio.theme:/browser/topical.pt:171
+#: recensio.theme:/browser/topical.pt:210
+#: recensio.theme:/browser/topical.pt:215
 msgid "${DYNAMIC_CONTENT}"
 msgstr "${DYNAMIC_CONTENT}"
 
@@ -1904,18 +1900,17 @@ msgstr "Publications"
 msgid "description_publications"
 msgstr "Liste des revues publiant des recensions sur recensio.net"
 
-#: recensio.theme:/browser/topical.pt:249
-#: recensio.theme:/browser/topical.pt:272
+#: recensio.theme:/browser/topical.pt:184
 msgid "Remove this selection"
 msgstr "Effacer la sélection"
 
 #. Default: "Mehr anzeigen..."
-#: recensio.theme:/browser/topical.pt:287
+#: recensio.theme:/browser/topical.pt:230
 msgid "browsing_submenu_more"
 msgstr ""
 
 #. Default: "Browsing"
-#: recensio.theme:/browser/topical.pt:90
+#: recensio.theme:/browser/topical.pt:37
 msgid "heading_browsing_results"
 msgstr "Parcourir"
 
@@ -1989,7 +1984,7 @@ msgstr "Rechercher"
 
 #. Default: "${number} items matching"
 #: recensio.theme:/skins/recensio_theme/search.pt:130
-#: recensio.theme:/browser/topical.pt:96
+#: recensio.theme:/browser/topical.pt:43
 msgid "batch_x_items_matching_your_criteria"
 msgstr "${number} résultats correspondants"
 
@@ -2005,7 +2000,7 @@ msgstr "Aucun résultat"
 
 #. Default: "reviewed by ${review_authors}"
 #: recensio.theme:/skins/recensio_theme/search.pt:209
-#: recensio.theme:/browser/topical.pt:149
+#: recensio.theme:/browser/topical.pt:96
 msgid "reviewed_by"
 msgstr "compte-rendu fait par ${review_authors}"
 
@@ -2016,25 +2011,25 @@ msgstr "dans ${get_publication_title}, ${get_volume_title}, ${get_issue_title}"
 
 #. Default: "presented by ${review_authors}"
 #: recensio.theme:/skins/recensio_theme/search.pt:218
-#: recensio.theme:/browser/topical.pt:161
+#: recensio.theme:/browser/topical.pt:108
 msgid "presented_by"
 msgstr "présenté par ${review_authors}"
 
 #. Default: "last modified"
 #: recensio.theme:/skins/recensio_theme/search.pt:229
-#: recensio.theme:/browser/topical.pt:175
+#: recensio.theme:/browser/topical.pt:122
 msgid "box_last_modified"
 msgstr "modifié le"
 
 #. Default: "Filed under:"
 #: recensio.theme:/skins/recensio_theme/search.pt:241
-#: recensio.theme:/browser/topical.pt:186
+#: recensio.theme:/browser/topical.pt:133
 msgid "label_filed_under"
 msgstr "Filed under"
 
 #. Default: "Relevance: ${percentage}%"
 #: recensio.theme:/skins/recensio_theme/search.pt:258
-#: recensio.theme:/browser/topical.pt:203
+#: recensio.theme:/browser/topical.pt:150
 msgid "label_relevance_percentage"
 msgstr "Pertinence : ${percentage} %"
 
@@ -2085,6 +2080,16 @@ msgstr "Recherche avancée"
 msgid "description_advanced_search"
 msgstr ""
 "Parcourez l'ensemble de la plateforme à l'aide des catégories suivantes."
+
+#. Default: "3 months ago"
+#: recensio.theme:/skins/recensio_theme/search_form.pt:207
+msgid "time_three_months"
+msgstr "Il y a trois mois"
+
+#. Default: "6 months ago"
+#: recensio.theme:/skins/recensio_theme/search_form.pt:210
+msgid "time_six_months"
+msgstr "Il y a six mois"
 
 #. Default: "Modified items since"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:227
@@ -2432,6 +2437,9 @@ msgstr "Dernières recensions publiées"
 #: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:96
 msgid "label_secondary_nav_monographien"
 msgstr "Monographies"
+
+#~ msgid "Subtitle (journal)"
+#~ msgstr "Sous-titre de la revue"
 
 #~ msgid "description_presentation_article"
 #~ msgstr ""
