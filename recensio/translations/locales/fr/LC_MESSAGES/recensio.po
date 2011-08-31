@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Mon Aug 22 16:43:56 2011\n"
-"PO-Revision-Date: 2011-08-26 11:11+0200\n"
-"Last-Translator: Administrator <deroiste@syslab.com>\n"
+"PO-Revision-Date: 2011-08-30 17:24+0200\n"
+"Last-Translator: landes <landes@bsb-muenchen.de>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -931,23 +931,22 @@ msgstr "Mail sending will be prepared. Mail will be sent to %s"
 
 #: recensio.policy:/browser/email.py:297
 #: recensio.policy:/missing_18n_labels.py:57
-#, fuzzy
 msgid "mail_new_comment_subject_review_author"
-msgstr "A new review of your work %s has been published!"
+msgstr "Un commentaire a été publié"
 
 #: recensio.policy:/browser/email.py:299
 #: recensio.policy:/missing_18n_labels.py:50
-#, fuzzy
 msgid "mail_new_comment_body_review_author"
 msgstr ""
-"Chèr(e) ${author}, \n"
+"Sehr geehrte/r ${recipient},\n"
 "\n"
-"Le ${date} vous avez publié la présentation suivante\n"
-"\t${title}\n"
+"Une recension de votre texte\n"
+"${author}: ${title}, ${year}, ${isbn} (rezensiert von ${reviewers})\n"
 "\n"
-"sur la plateforme recensio.net. L’utilisateur ${commenter} a commenté votre "
-"présentation le ${commentdate}. Vous avez ici la possibilité de lire ce "
-"commentaire et d’y réagir :\n"
+"est parue dans la revue${journal}, ${volume}, ${issue}. Celle-ci a été "
+"publiée sur la plateforme recensio.net.\n"
+"${commenter} a commenté la recension ou votre texte le ${commentdate}. Vous "
+"avez la possibilité de lire ce commentaire ici et d’y réagir :\n"
 "\n"
 "${url}\n"
 "\n"
@@ -955,17 +954,21 @@ msgstr ""
 "complémentaire : ${mail_from}.\n"
 "\n"
 "Cordialement,\n"
-"L’équipe recensio.net"
+"L’équipe recensio.net\n"
+"\n"
+"Financée par la Fondation allemande pour la recherche (DFG), recensio.net "
+"est une initiative conjointe de la Bibliothèque d’État de Bavière, de "
+"l’Institut historique allemand de Paris et de l’Institut d’histoire "
+"européenne de Mayence.\n"
+"En savoir plus : http://www.recensio.net/ueberuns-fr?set_language=fr"
 
 #: recensio.policy:/browser/email.py:307
 #: recensio.policy:/missing_18n_labels.py:54
-#, fuzzy
 msgid "mail_new_comment_subject_presentation_author"
-msgstr "A new review of your work %s has been published!"
+msgstr "Un commentaire a été publié"
 
 #: recensio.policy:/browser/email.py:309
 #: recensio.policy:/missing_18n_labels.py:47
-#, fuzzy
 msgid "mail_new_comment_body_presentation_author"
 msgstr ""
 "Chèr(e) ${author}, \n"
@@ -983,31 +986,79 @@ msgstr ""
 "complémentaire : ${mail_from}.\n"
 "\n"
 "Cordialement,\n"
-"L’équipe recensio.net"
+"L’équipe recensio.net\n"
+"\n"
+"Financée par la Fondation allemande pour la recherche (DFG), recensio.net "
+"est une initiative conjointe de la Bibliothèque d’État de Bavière, de "
+"l’Institut historique allemand de Paris et de l’Institut d’histoire "
+"européenne de Mayence.\n"
+"En savoir plus : http://www.recensio.net/ueberuns-fr?set_language=fr"
 
 #: recensio.policy:/browser/email.py:333
 #: recensio.policy:/missing_18n_labels.py:58
-#, fuzzy
 msgid "mail_new_comment_subject_review_commenter"
-msgstr "A new review of your work %s has been published!"
+msgstr "Un commentaire a été publié"
 
 #: recensio.policy:/browser/email.py:336
 #: recensio.policy:/missing_18n_labels.py:51
-#, fuzzy
 msgid "mail_new_comment_body_review_commenter"
-msgstr "A new review of your work %s has been published!"
+msgstr ""
+"Chèr(e) ${recipient},\n"
+"\n"
+"Vous avez commenté le texte suivant (la ressource numérique suivante)\n"
+"${author}: ${title}, ${year}, ${isbn} (rezensiert von ${reviewers}) in "
+"${journal}, ${volume}, ${issue}\n"
+"\n"
+"sur la plateforme recensio.net. L’utilisateur ${commenter} a ajouté un "
+"commentaire le ${commentdate}. Vous avez la possibilité de lire ce "
+"commentaire ici et d’y réagir:\n"
+"\n"
+"${url}\n"
+"\n"
+"L’équipe de recensio.net se tient à votre disposition pour toute information "
+"complémentaire : ${mail_from}.\n"
+"\n"
+"Cordialement,\n"
+"L’équipe recensio.net\n"
+"\n"
+"Financée par la Fondation allemande pour la recherche (DFG), recensio.net "
+"est une initiative conjointe de la Bibliothèque d’État de Bavière, de "
+"l’Institut historique allemand de Paris et de l’Institut d’histoire "
+"européenne de Mayence.\n"
+"En savoir plus : http://www.recensio.net/ueberuns-fr?set_language=fr"
 
 #: recensio.policy:/browser/email.py:340
 #: recensio.policy:/missing_18n_labels.py:55
-#, fuzzy
 msgid "mail_new_comment_subject_presentation_commenter"
-msgstr "A new review of your work %s has been published!"
+msgstr "Un commentaire a été publié"
 
 #: recensio.policy:/browser/email.py:343
 #: recensio.policy:/missing_18n_labels.py:48
-#, fuzzy
 msgid "mail_new_comment_body_presentation_commenter"
-msgstr "A new review of your work %s has been published!"
+msgstr ""
+"Chèr(e) ${recipient},\n"
+"\n"
+"Vous avez commenté le texte suivant (la ressource numérique suivante)\n"
+"${author}: ${title}, ${year}, ${isbn} (rezensiert von ${reviewers}) in "
+"${journal}, ${volume}, ${issue}\n"
+"\n"
+"sur la plateforme recensio.net. L’utilisateur ${commenter} a ajouté un "
+"commentaire le ${commentdate}. Vous avez la possibilité de lire ce "
+"commentaire ici et d’y réagir:\n"
+"\n"
+"${url}\n"
+"\n"
+"L’équipe de recensio.net se tient à votre disposition pour toute information "
+"complémentaire : ${mail_from}.\n"
+"\n"
+"Cordialement,\n"
+"L’équipe recensio.net\n"
+"\n"
+"Financée par la Fondation allemande pour la recherche (DFG), recensio.net "
+"est une initiative conjointe de la Bibliothèque d’État de Bavière, de "
+"l’Institut historique allemand de Paris et de l’Institut d’histoire "
+"européenne de Mayence.\n"
+"En savoir plus : http://www.recensio.net/ueberuns-fr?set_language=fr"
 
 #: recensio.policy:/browser/email.py:357
 msgid "mail_no_recipients"
