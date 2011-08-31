@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Mon Aug 22 16:43:56 2011\n"
-"PO-Revision-Date: 2011-08-26 16:09+0200\n"
-"Last-Translator: Administrator <deroiste@syslab.com>\n"
+"PO-Revision-Date: 2011-08-31 11:27+0200\n"
+"Last-Translator: landes <landes@bsb-muenchen.de>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -256,17 +256,17 @@ msgstr ""
 #. Default: "Diese Schrift ist ${link_text}"
 #: recensio.contenttypes:/browser/templates/review.pt:192
 msgid "online_accessible"
-msgstr ""
+msgstr "Diese Schrift ist online abrufbar ${link_text}"
 
 #. Default: "Diese Schrift ist nicht online abrufbar"
 #: recensio.contenttypes:/browser/templates/review.pt:193
 msgid "online_not_accessible"
-msgstr ""
+msgstr "Diese Schrift ist nicht online abrufbar"
 
 #. Default: "Rezension/en zum praesentierten Werk"
 #: recensio.contenttypes:/browser/templates/review.pt:195
 msgid "heading_online_reviews_of_presented_text"
-msgstr "Rezension/en zum praesentierten Werk"
+msgstr "Rezension/en zum präsentierten Werk"
 
 #. Default: "Kommentieren"
 #: recensio.contenttypes:/browser/templates/review.pt:65
@@ -881,7 +881,7 @@ msgstr "Gezähltes Jahr (evtl. differierend)"
 
 #: recensio.contenttypes:/content/schemata.py:739
 msgid "Actual year of publication"
-msgstr "Erscheinungsjahr"
+msgstr "tatsächliches Erscheinungsjahr"
 
 #. Default: "PDF watermark"
 #: recensio.contenttypes:/content/schemata.py:760
@@ -953,7 +953,12 @@ msgstr ""
 "${mail_from}.\n"
 "\n"
 "Mit freundlichen Grüßen,\n"
-"Ihr recensio.net-Team"
+"Ihr recensio.net-Team\n"
+"\n"
+"recensio.net ist ein DFG-gefördertes Angebot der Bayerischen "
+"Staatsbibliothek, des Deutschen Historischen Instituts Paris und des "
+"Instituts für Europäische Geschichte Mainz. Weitere Informationen "
+"http://www.recensio.net/ueberuns/index_html"
 
 #: recensio.policy:/browser/email.py:307
 #: recensio.policy:/missing_18n_labels.py:54
@@ -980,7 +985,12 @@ msgstr ""
 "\n"
 "Mit freundlichen Grüßen,\n"
 "\n"
-"       Ihr recensio.net Team"
+"       Ihr recensio.net Team\n"
+"\n"
+"recensio.net ist ein DFG-gefördertes Angebot der Bayerischen "
+"Staatsbibliothek, des Deutschen Historischen Instituts Paris und des "
+"Instituts für Europäische Geschichte Mainz. Weitere Informationen "
+"http://www.recensio.net/ueberuns/index_html"
 
 #: recensio.policy:/browser/email.py:333
 #: recensio.policy:/missing_18n_labels.py:58
