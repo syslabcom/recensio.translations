@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Tue Aug 30 14:23:40 2011\n"
+"POT-Creation-Date: Wed Aug 31 11:46:55 2011\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -106,7 +106,6 @@ msgstr ""
 
 #: recensio.contenttypes:/browser/review.py:75
 #: recensio.contenttypes:/content/schemata.py:688
-#. Default: "Author (monograph)"
 msgid "Author (monograph)"
 msgstr ""
 
@@ -969,11 +968,11 @@ msgid "label_delete"
 msgstr ""
 
 #: recensio.policy:/browser/templates/comments.pt:87
+#: recensio.theme:/skins/recensio_theme/search.pt:181
+#: recensio.theme:/skins/recensio_theme/search.pt:181
 #: recensio.theme:/skins/recensio_theme/search_form.pt:154
 #: recensio.theme:/skins/recensio_theme/search_form.pt:363
 #: recensio.theme:/skins/recensio_theme/search_form.pt:470
-#: recensio.theme:/skins/recensio_theme/search.pt:181
-#: recensio.theme:/skins/recensio_theme/search.pt:181
 #: recensio.theme:/browser/topical.pt:70
 #: recensio.theme:/browser/topical.pt:70
 #: recensio.theme:/browser/topical.pt:171
@@ -1663,6 +1662,17 @@ msgstr ""
 msgid "title_search_title"
 msgstr ""
 
+#: recensio.theme:/skins/recensio_theme/search.pt:65
+#: recensio.theme:/skins/recensio_theme/search_form.pt:63
+#: recensio.theme:/skins/recensio_theme/search_form.pt:483
+#: recensio.theme:/skins/recensio_theme/search_form.pt:607
+#: recensio.theme:/skins/recensio_theme/search_form.pt:710
+#: recensio.theme:/skins/recensio_theme/search_form.pt:822
+#: recensio.theme:/skins/recensio_theme/search_form.pt:847
+#. Default: "Search"
+msgid "label_search"
+msgstr ""
+
 #: recensio.theme:/skins/recensio_theme/search.pt:73
 #. Default: "Did you not find what you were looking for? Try the ${advanced_search} to refine your search."
 msgid "search_results_advanced"
@@ -1701,6 +1711,11 @@ msgstr ""
 #: recensio.theme:/skins/recensio_theme/search_form.pt:18
 #. Default: "Mithilfe folgender Kategorien durchsuchen und filtern Sie die gesamte Plattform (inklusive des Volltexts der als PDF bereitgestellten Rezensionen)."
 msgid "description_advanced_search"
+msgstr ""
+
+#: recensio.theme:/skins/recensio_theme/search_form.pt:190
+#. Default: "Last log-in"
+msgid "last_login"
 msgstr ""
 
 #: recensio.theme:/skins/recensio_theme/search_form.pt:207
@@ -1871,17 +1886,6 @@ msgstr ""
 #: recensio.theme:/skins/recensio_theme/search_form.pt:626
 #. Default: "Region"
 msgid "label_region"
-msgstr ""
-
-#: recensio.theme:/skins/recensio_theme/search_form.pt:63
-#: recensio.theme:/skins/recensio_theme/search_form.pt:483
-#: recensio.theme:/skins/recensio_theme/search_form.pt:607
-#: recensio.theme:/skins/recensio_theme/search_form.pt:710
-#: recensio.theme:/skins/recensio_theme/search_form.pt:822
-#: recensio.theme:/skins/recensio_theme/search_form.pt:847
-#: recensio.theme:/skins/recensio_theme/search.pt:65
-#. Default: "Search"
-msgid "label_search"
 msgstr ""
 
 #: recensio.theme:/skins/recensio_theme/search_form.pt:630

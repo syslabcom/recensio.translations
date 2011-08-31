@@ -180,4 +180,3 @@ msgstr " "
 #. Default: empty string
 msgid "description_review_monograph"
 msgstr " "
-
