@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Wed Aug 31 11:46:55 2011\n"
-"PO-Revision-Date: 2011-08-31 14:53+0200\n"
-"Last-Translator: Administrator <deroiste@syslab.com>\n"
+"PO-Revision-Date: 2011-08-31 17:34+0200\n"
+"Last-Translator: Kathrin_Liakov <liakov@bsb-muenchen.de>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -888,32 +888,32 @@ msgstr "Année de publication officielle (si différente)"
 msgid "Actual year of publication"
 msgstr "Date réelle de publication"
 
-# Zusammenhang?
 #. Default: "PDF watermark"
 #: recensio.contenttypes:/content/schemata.py:760
-#, fuzzy
 msgid "label_publication_pdf_watermark"
-msgstr ""
+msgstr "Logo"
 
 #. Default: "Upload a publication logo for the PDF coversheet. Transparent PNG format images are recommended."
 #: recensio.contenttypes:/content/schemata.py:763
+#, fuzzy
 msgid "description_publication_pdf_watermark"
 msgstr ""
 
 #. Default: "Publication Licence"
 #: recensio.contenttypes:/content/schemata.py:776
 msgid "label_publication_licence"
-msgstr ""
+msgstr "Droits d'auteur"
 
 #. Default: "Please specify the licence terms under which reviews may be used. This text will be displayed on the front page of the PDF version and to the side of the web version of each review for this publication."
 #: recensio.contenttypes:/content/schemata.py:779
+#, fuzzy
 msgid "description_publication_licence"
 msgstr ""
 
 #. Default: "Recensio settings"
 #: recensio.policy:/browser/controlpanel.py:15
 msgid "label_recensio_settings"
-msgstr "Paramètres"
+msgstr "Paramètres recensio.net"
 
 #. Default: "Below are some options for configuring the recensio portal."
 #: recensio.policy:/browser/controlpanel.py:16
@@ -922,16 +922,16 @@ msgstr "Vos options de configuration sur recensio.net"
 
 #: recensio.policy:/browser/email.py:149
 msgid "Plone site is not configured"
-msgstr "Plone site is not configured."
+msgstr "Page Plone n'est pas configuré"
 
 #: recensio.policy:/browser/email.py:164
 msgid "Mailsettings not configured"
-msgstr "Paramètres non configurés"
+msgstr "Paramètres mail non configurés"
 
 #. Default: "Mailversand wird vorbereitet. Mail wird versandt an ${mail_to}"
 #: recensio.policy:/browser/email.py:249
 msgid "mail_sending_prepared"
-msgstr "Mail sending will be prepared. Mail will be sent to %s"
+msgstr "Préparation de l'envoi de mails. Mail envoyé à ${mail_to}"
 
 #: recensio.policy:/browser/email.py:303
 #: recensio.policy:/missing_18n_labels.py:57
@@ -942,7 +942,7 @@ msgstr "Un commentaire a été publié"
 #: recensio.policy:/missing_18n_labels.py:50
 msgid "mail_new_comment_body_review_author"
 msgstr ""
-"Sehr geehrte/r ${recipient},\n"
+"Chèr(e) ${recipient},\n"
 "\n"
 "Une recension de votre texte\n"
 "${author}: ${title}, ${year}, ${isbn} (rezensiert von ${reviewers})\n"
@@ -1297,7 +1297,7 @@ msgstr "Votre article a été publié"
 #. Default: "Ihr Artikel \"${title}\" wurde freigeschaltet und ist nun unter ${url} verf\303\274gbar."
 #: recensio.policy:/browser/workflow.py:79
 msgid "publish_notification_template"
-msgstr ""
+msgstr "Votre article \"${title}\" a été publié et est disponible ${url}."
 
 #: recensio.policy:/interfaces.py:117
 msgid "Subject"
@@ -1320,6 +1320,8 @@ msgstr "Format de date"
 #: recensio.policy:/interfaces.py:121
 msgid "description_mailsettings_date_format"
 msgstr ""
+"strftime-spécification date compatible, voir "
+"http://docs.python.org/library/time.html#time.strftime"
 
 #: recensio.policy:/interfaces.py:123
 msgid "Review template"
@@ -1516,12 +1518,14 @@ msgstr "Texte présenté"
 #: recensio.policy:/missing_18n_labels.py:42
 #: recensio.theme:/skins/recensio_theme/search.pt:123
 msgid "latest_comments"
-msgstr ""
+msgstr "Derniers commentaires"
 
 #: recensio.policy:/missing_18n_labels.py:43
 #: recensio.theme:/skins/recensio_theme/search.pt:136
 msgid "latest_comments_description"
 msgstr ""
+"Des commentaires ont été publiés sur les recensions et présentations "
+"suivantes. Participez à la discussion."
 
 #: recensio.policy:/missing_18n_labels.py:44
 msgid "license-note"
@@ -1552,7 +1556,6 @@ msgstr ""
 "L’équipe recensio.net"
 
 #: recensio.policy:/missing_18n_labels.py:46
-#, fuzzy
 msgid "mail_new_comment_body_commenter"
 msgstr ""
 "Chèr(e) ${author}, \n"
@@ -1602,14 +1605,12 @@ msgid "mail_new_comment_subject"
 msgstr "A new review of your work %s has been published!"
 
 #: recensio.policy:/missing_18n_labels.py:53
-#, fuzzy
 msgid "mail_new_comment_subject_commenter"
-msgstr "A new review of your work %s has been published!"
+msgstr "Un commentaire a été publié"
 
 #: recensio.policy:/missing_18n_labels.py:56
-#, fuzzy
 msgid "mail_new_comment_subject_review"
-msgstr "A new review of your work %s has been published!"
+msgstr "Un commentaire a été publié"
 
 #: recensio.policy:/missing_18n_labels.py:59
 msgid "manage_presentations"
