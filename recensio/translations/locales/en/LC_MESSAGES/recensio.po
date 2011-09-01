@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: Tue Aug 30 14:23:40 2011\n"
-"PO-Revision-Date: 2011-08-31 11:40+0200\n"
-"Last-Translator: landes <landes@bsb-muenchen.de>\n"
+"POT-Creation-Date: Wed Aug 31 11:46:55 2011\n"
+"PO-Revision-Date: 2011-08-31 17:47+0200\n"
+"Last-Translator: Christian <christian.hoeschler@bsb-muenchen.de>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
@@ -103,7 +103,6 @@ msgstr "Language (presentation)"
 msgid "label_metadata_language_monograph"
 msgstr "Language (monograph)"
 
-#. Default: "Author (monograph)"
 #: recensio.contenttypes:/browser/review.py:75
 #: recensio.contenttypes:/content/schemata.py:688
 msgid "Author (monograph)"
@@ -245,25 +244,27 @@ msgstr "URL"
 msgid "license-note-heading"
 msgstr "Terms of licence"
 
+# Wo steht das?
 #. Default: "Links"
 #: recensio.contenttypes:/browser/templates/review.pt:189
+#, fuzzy
 msgid "links-box-heading"
-msgstr ""
+msgstr "Links"
 
 #. Default: "Diese Schrift ist ${link_text}"
 #: recensio.contenttypes:/browser/templates/review.pt:192
 msgid "online_accessible"
-msgstr ""
+msgstr "This publication is available online ${link_text}"
 
 #. Default: "Diese Schrift ist nicht online abrufbar"
 #: recensio.contenttypes:/browser/templates/review.pt:193
 msgid "online_not_accessible"
-msgstr ""
+msgstr "This publication is not available online"
 
 #. Default: "Rezension/en zum praesentierten Werk"
 #: recensio.contenttypes:/browser/templates/review.pt:195
 msgid "heading_online_reviews_of_presented_text"
-msgstr ""
+msgstr "Review(s) on the publication presented"
 
 #. Default: "Kommentieren"
 #: recensio.contenttypes:/browser/templates/review.pt:65
@@ -273,12 +274,12 @@ msgstr "Add a comment"
 #. Default: "Inhaltsverzeichnis anzeigen"
 #: recensio.contenttypes:/browser/templates/review.pt:70
 msgid "show_reviewtoc_trigger"
-msgstr ""
+msgstr "Show table of contents"
 
 #. Default: "First published:"
 #: recensio.contenttypes:/browser/templates/review.pt:77
 msgid "heading_first_published"
-msgstr ""
+msgstr "First published:"
 
 #. Default: "Title (Journal)"
 #: recensio.contenttypes:/content/presentationarticlereview.py:34
@@ -615,9 +616,11 @@ msgstr "Authors"
 #. Default: "All submitted reviews must be published under the CC-BY licence."
 #: recensio.contenttypes:/content/schemata.py:155
 msgid "message_ccby_license"
-msgstr "All submitted reviews must be published under the CC-BY licence."
+msgstr "All submitted reviews are published under the CC-BY licence."
 
+# Zusammenhang?
 #: recensio.contenttypes:/content/schemata.py:166
+#, fuzzy
 msgid "message_at_least_one_author_validation_error"
 msgstr ""
 
@@ -706,11 +709,15 @@ msgstr ""
 "persistent or be corrected by you in case of changes (e.g. change of "
 "university)."
 
+# Zusammenhang?
 #: recensio.contenttypes:/content/schemata.py:353
+#, fuzzy
 msgid "heading_form_online_review_urls"
 msgstr ""
 
+# Zusammenhang?
 #: recensio.contenttypes:/content/schemata.py:354
+#, fuzzy
 msgid "label_form_online_review_url"
 msgstr ""
 
@@ -776,7 +783,7 @@ msgstr "Core Statements"
 
 #: recensio.contenttypes:/content/schemata.py:560
 msgid "URN"
-msgstr ""
+msgstr "Personal website URL/URN"
 
 #. Default: "Filled in by the editorial staff"
 #: recensio.contenttypes:/content/schemata.py:561
@@ -870,22 +877,27 @@ msgstr "Actual year of publication"
 #. Default: "PDF watermark"
 #: recensio.contenttypes:/content/schemata.py:760
 msgid "label_publication_pdf_watermark"
-msgstr ""
+msgstr "Logo"
 
 #. Default: "Upload a publication logo for the PDF coversheet. Transparent PNG format images are recommended."
 #: recensio.contenttypes:/content/schemata.py:763
 msgid "description_publication_pdf_watermark"
 msgstr ""
+"Upload a publication logo for the PDF coversheet. Transparent PNG format "
+"images are recommended."
 
 #. Default: "Publication Licence"
 #: recensio.contenttypes:/content/schemata.py:776
 msgid "label_publication_licence"
-msgstr ""
+msgstr "Publication Licence"
 
 #. Default: "Please specify the licence terms under which reviews may be used. This text will be displayed on the front page of the PDF version and to the side of the web version of each review for this publication."
 #: recensio.contenttypes:/content/schemata.py:779
 msgid "description_publication_licence"
 msgstr ""
+"Please specify the licence terms under which reviews may be used. This text "
+"will be displayed on the front page of the PDF version and in the web "
+"version of each review for this publication."
 
 #. Default: "Recensio settings"
 #: recensio.policy:/browser/controlpanel.py:15
@@ -1199,11 +1211,11 @@ msgid "label_delete"
 msgstr "Delete"
 
 #: recensio.policy:/browser/templates/comments.pt:87
+#: recensio.theme:/skins/recensio_theme/search.pt:181
+#: recensio.theme:/skins/recensio_theme/search.pt:181
 #: recensio.theme:/skins/recensio_theme/search_form.pt:154
 #: recensio.theme:/skins/recensio_theme/search_form.pt:363
 #: recensio.theme:/skins/recensio_theme/search_form.pt:470
-#: recensio.theme:/skins/recensio_theme/search.pt:181
-#: recensio.theme:/skins/recensio_theme/search.pt:181
 #: recensio.theme:/browser/topical.pt:70
 #: recensio.theme:/browser/topical.pt:70
 #: recensio.theme:/browser/topical.pt:171
@@ -1278,11 +1290,10 @@ msgstr "Data format"
 
 #. Default: "strftime compatible date format specification, see http://docs.python.org/library/time.html#time.strftime"
 #: recensio.policy:/interfaces.py:121
-#, fuzzy
 msgid "description_mailsettings_date_format"
 msgstr ""
-"\"The container for the complete template, Variable expansion will be "
-"applied. Provide the following slots: a b c"
+"strftime compatible date format specification, see "
+"http://docs.python.org/library/time.html#time.strftime"
 
 #: recensio.policy:/interfaces.py:123
 msgid "Review template"
@@ -1483,12 +1494,14 @@ msgstr "Reviewed text"
 #: recensio.policy:/missing_18n_labels.py:42
 #: recensio.theme:/skins/recensio_theme/search.pt:123
 msgid "latest_comments"
-msgstr ""
+msgstr "Most recent comments"
 
 #: recensio.policy:/missing_18n_labels.py:43
 #: recensio.theme:/skins/recensio_theme/search.pt:136
 msgid "latest_comments_description"
 msgstr ""
+"The following reviews and presentations were recently commented upon. Get "
+"involved in the discussion with colleagues"
 
 #: recensio.policy:/missing_18n_labels.py:44
 msgid "license-note"
@@ -1518,43 +1531,48 @@ msgstr ""
 "The recensio.net editorial team"
 
 #: recensio.policy:/missing_18n_labels.py:46
-#, fuzzy
 msgid "mail_new_comment_body_commenter"
 msgstr ""
-"Dear ${author},\n"
+"Dear ${recipient},\n"
 "\n"
-"On ${date} you presented your text\n"
-"\t${title}\n"
-"on recensio.net. ${commenter} commented on your presentation on "
-"${commentdate}. Here you can read the comment and react to it:\n"
+"You have commented upon the publication/internet resource\n"
+"    ${author}: ${title}, ${year}, ${isbn} (reviewed by ${reviewers}) in "
+"${journal}, ${volume}, ${issue}\n"
+"\n"
+"on recensio.net. ${commenter} posted a further comment on ${commentdate}. "
+"Here you can read the comment and react to it:\n"
 "\n"
 "${url}\n"
 "\n"
-"For any further information/questions please feel free to contact the "
-"recensio.net editorial team:\n"
-"${mail_from}.\n"
+"For any further information/questions, please feel free to contact the "
+"recensio.net editorial team: ${mail_from}.\n"
 "\n"
-"Yours sincerely\n"
-"The recensio.net editorial team"
+"Yours sincerely,\n"
+"The recensio.net editorial team\n"
+"\n"
+"recensio.net is a joint project of the Bavarian State Library (BSB) Munich, "
+"the German Historical Institute Paris (DHIP) and the Institute for European "
+"History (IEG) Mainz – funded by the German Research Foundation (DFG). More "
+"information http://www.recensio.net/ueberuns-en?set_language=en"
 
 #: recensio.policy:/missing_18n_labels.py:49
-#, fuzzy
 msgid "mail_new_comment_body_review"
 msgstr ""
-"Dear ${author},\n"
+"Dear ${recipient},\n"
 "\n"
-"On ${date} you presented your text\n"
-"\t${title}\n"
-"on recensio.net. ${commenter} commented on your presentation on "
-"${commentdate}. Here you can read the comment and react to it:\n"
+"a review in the journal${journal}, ${volume}, ${issue}\n"
+"was published on your publication\n"
+"     ${author}: ${title}, ${year}, ${isbn} (rezensiert von ${reviewers})\n"
+". This review was published on the review platform recensio.net.\n"
+"${commenter} commented upon this review/your publication on ${commentdate}. "
+"Here you can read the comment and react to it:\n"
 "\n"
 "${url}\n"
 "\n"
-"For any further information/questions please feel free to contact the "
-"recensio.net editorial team:\n"
-"${mail_from}.\n"
+"For any further information/questions, please feel free to contact the "
+"recensio.net editorial team: ${mail_from}.\n"
 "\n"
-"Yours sincerely\n"
+"Yours sincerely,\n"
 "The recensio.net editorial team"
 
 #: recensio.policy:/missing_18n_labels.py:5
@@ -1563,17 +1581,15 @@ msgstr "About us"
 
 #: recensio.policy:/missing_18n_labels.py:52
 msgid "mail_new_comment_subject"
-msgstr "A comment on your presentation has been published"
+msgstr "A comment has been published"
 
 #: recensio.policy:/missing_18n_labels.py:53
-#, fuzzy
 msgid "mail_new_comment_subject_commenter"
-msgstr "A comment on your presentation has been published"
+msgstr "A comment has been published"
 
 #: recensio.policy:/missing_18n_labels.py:56
-#, fuzzy
 msgid "mail_new_comment_subject_review"
-msgstr "A comment on your presentation has been published"
+msgstr "A comment has been published"
 
 #: recensio.policy:/missing_18n_labels.py:59
 msgid "manage_presentations"
@@ -1868,7 +1884,7 @@ msgstr "remove selection"
 #. Default: "Mehr anzeigen..."
 #: recensio.theme:/browser/topical.pt:230
 msgid "browsing_submenu_more"
-msgstr ""
+msgstr "More..."
 
 #. Default: "Browsing"
 #: recensio.theme:/browser/topical.pt:37
@@ -1995,6 +2011,17 @@ msgstr "Relevance:"
 msgid "title_search_title"
 msgstr "Search site"
 
+#. Default: "Search"
+#: recensio.theme:/skins/recensio_theme/search.pt:65
+#: recensio.theme:/skins/recensio_theme/search_form.pt:63
+#: recensio.theme:/skins/recensio_theme/search_form.pt:483
+#: recensio.theme:/skins/recensio_theme/search_form.pt:607
+#: recensio.theme:/skins/recensio_theme/search_form.pt:710
+#: recensio.theme:/skins/recensio_theme/search_form.pt:822
+#: recensio.theme:/skins/recensio_theme/search_form.pt:847
+msgid "label_search"
+msgstr "Search"
+
 #. Default: "Did you not find what you were looking for? Try the ${advanced_search} to refine your search."
 #: recensio.theme:/skins/recensio_theme/search.pt:73
 msgid "search_results_advanced"
@@ -2037,15 +2064,20 @@ msgstr ""
 "Using the following categories you can search and filter the entire platform "
 "(including the full texts of all reviews provided as pdf)"
 
+#. Default: "Last log-in"
+#: recensio.theme:/skins/recensio_theme/search_form.pt:190
+msgid "last_login"
+msgstr "Last login"
+
 #. Default: "3 months ago"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:207
 msgid "time_three_months"
-msgstr ""
+msgstr "3 months"
 
 #. Default: "6 months ago"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:210
 msgid "time_six_months"
-msgstr ""
+msgstr "6 months"
 
 #. Default: "Modified items since"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:227
@@ -2210,17 +2242,6 @@ msgstr "Thematic search"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:626
 msgid "label_region"
 msgstr "Region"
-
-#. Default: "Search"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:63
-#: recensio.theme:/skins/recensio_theme/search_form.pt:483
-#: recensio.theme:/skins/recensio_theme/search_form.pt:607
-#: recensio.theme:/skins/recensio_theme/search_form.pt:710
-#: recensio.theme:/skins/recensio_theme/search_form.pt:822
-#: recensio.theme:/skins/recensio_theme/search_form.pt:847
-#: recensio.theme:/skins/recensio_theme/search.pt:65
-msgid "label_search"
-msgstr "Search"
 
 #. Default: "The region that you are looking for."
 #: recensio.theme:/skins/recensio_theme/search_form.pt:630
