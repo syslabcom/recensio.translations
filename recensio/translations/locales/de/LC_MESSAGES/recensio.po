@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: Tue Aug 30 14:23:40 2011\n"
-"PO-Revision-Date: 2011-08-31 11:46+0200\n"
-"Last-Translator: landes <landes@bsb-muenchen.de>\n"
+"POT-Creation-Date: Wed Aug 31 11:46:55 2011\n"
+"PO-Revision-Date: 2011-08-31 17:04+0200\n"
+"Last-Translator: Christian <christian.hoeschler@bsb-muenchen.de>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -103,7 +103,6 @@ msgstr "Sprache (Präsentation)"
 msgid "label_metadata_language_monograph"
 msgstr "Sprache (Monographie)"
 
-#. Default: "Author (monograph)"
 #: recensio.contenttypes:/browser/review.py:75
 #: recensio.contenttypes:/content/schemata.py:688
 msgid "Author (monograph)"
@@ -248,10 +247,12 @@ msgstr "URL"
 msgid "license-note-heading"
 msgstr "Lizenzhinweis"
 
+# Wo steht das?
 #. Default: "Links"
 #: recensio.contenttypes:/browser/templates/review.pt:189
+#, fuzzy
 msgid "links-box-heading"
-msgstr ""
+msgstr "Links"
 
 #. Default: "Diese Schrift ist ${link_text}"
 #: recensio.contenttypes:/browser/templates/review.pt:192
@@ -619,10 +620,12 @@ msgstr "Autoren"
 #: recensio.contenttypes:/content/schemata.py:155
 msgid "message_ccby_license"
 msgstr ""
-"Alle veröffentlichten Präsentationen müssen unter der CC-BY-NC-ND Lizenz "
-"publiziert werden."
+"Alle veröffentlichten Präsentationen werden unter der CC-BY-NC-ND Lizenz "
+"publiziert."
 
+# Zusammenhang?
 #: recensio.contenttypes:/content/schemata.py:166
+#, fuzzy
 msgid "message_at_least_one_author_validation_error"
 msgstr ""
 
@@ -714,11 +717,15 @@ msgstr ""
 "Falle einer Änderung etwa Wechsel der Universität von Ihnen korrigiert "
 "werden."
 
+# Zusammenhang?
 #: recensio.contenttypes:/content/schemata.py:353
+#, fuzzy
 msgid "heading_form_online_review_urls"
 msgstr ""
 
+# Zusammenhang?
 #: recensio.contenttypes:/content/schemata.py:354
+#, fuzzy
 msgid "label_form_online_review_url"
 msgstr ""
 
@@ -768,7 +775,7 @@ msgstr "Reihennummer"
 
 #: recensio.contenttypes:/content/schemata.py:485
 msgid "label_review_authors"
-msgstr "Autor (Rezenion)"
+msgstr "Autor (Rezension)"
 
 #: recensio.contenttypes:/content/schemata.py:497
 msgid "Language(s) (review)"
@@ -882,7 +889,7 @@ msgstr "tatsächliches Erscheinungsjahr"
 #. Default: "PDF watermark"
 #: recensio.contenttypes:/content/schemata.py:760
 msgid "label_publication_pdf_watermark"
-msgstr ""
+msgstr "Logo"
 
 #. Default: "Upload a publication logo for the PDF coversheet. Transparent PNG format images are recommended."
 #: recensio.contenttypes:/content/schemata.py:763
@@ -891,10 +898,8 @@ msgstr ""
 "Hochladen eines Logos für das PDF-Vorblatt. Empfohlen werden transparent "
 "angelegte Bilddateien im PNG Format."
 
-# Wofür ist dieser string bestimmt? Es gibt doch schon die Übersetzung "Lizenzhinweis" auf der aktiven Plattform...
 #. Default: "Publication Licence"
 #: recensio.contenttypes:/content/schemata.py:776
-#, fuzzy
 msgid "label_publication_licence"
 msgstr "Lizenzhinweis"
 
@@ -902,16 +907,19 @@ msgstr "Lizenzhinweis"
 #: recensio.contenttypes:/content/schemata.py:779
 msgid "description_publication_licence"
 msgstr ""
+"Bitte formulieren Sie die Lizenzbedingungen. Dieser Text wird auf dem "
+"Vorblatt der PDF-Datei sowie auf der HTML-Objektseite der Rezension "
+"angezeigt."
 
 #. Default: "Recensio settings"
 #: recensio.policy:/browser/controlpanel.py:15
 msgid "label_recensio_settings"
-msgstr "Recensio-Einstellungen"
+msgstr "recensio.net-Einstellungen"
 
 #. Default: "Below are some options for configuring the recensio portal."
 #: recensio.policy:/browser/controlpanel.py:16
 msgid "description_recensio_setings"
-msgstr "Es folgen einige Optionen zur Konfiguration des Recensio-Portals."
+msgstr "Es folgen einige Optionen zur Konfiguration des recensio.net-Portals."
 
 #: recensio.policy:/browser/email.py:149
 msgid "Plone site is not configured"
@@ -1234,11 +1242,11 @@ msgid "label_delete"
 msgstr "Löschen"
 
 #: recensio.policy:/browser/templates/comments.pt:87
+#: recensio.theme:/skins/recensio_theme/search.pt:181
+#: recensio.theme:/skins/recensio_theme/search.pt:181
 #: recensio.theme:/skins/recensio_theme/search_form.pt:154
 #: recensio.theme:/skins/recensio_theme/search_form.pt:363
 #: recensio.theme:/skins/recensio_theme/search_form.pt:470
-#: recensio.theme:/skins/recensio_theme/search.pt:181
-#: recensio.theme:/skins/recensio_theme/search.pt:181
 #: recensio.theme:/browser/topical.pt:70
 #: recensio.theme:/browser/topical.pt:70
 #: recensio.theme:/browser/topical.pt:171
@@ -1977,7 +1985,7 @@ msgstr "Auswahl entfernen"
 #. Default: "Mehr anzeigen..."
 #: recensio.theme:/browser/topical.pt:230
 msgid "browsing_submenu_more"
-msgstr ""
+msgstr "Mehr anzeigen..."
 
 #. Default: "Browsing"
 #: recensio.theme:/browser/topical.pt:37
@@ -2107,6 +2115,17 @@ msgstr "Relevanz: ${percentage}"
 msgid "title_search_title"
 msgstr "Website durchsuchen"
 
+#. Default: "Search"
+#: recensio.theme:/skins/recensio_theme/search.pt:65
+#: recensio.theme:/skins/recensio_theme/search_form.pt:63
+#: recensio.theme:/skins/recensio_theme/search_form.pt:483
+#: recensio.theme:/skins/recensio_theme/search_form.pt:607
+#: recensio.theme:/skins/recensio_theme/search_form.pt:710
+#: recensio.theme:/skins/recensio_theme/search_form.pt:822
+#: recensio.theme:/skins/recensio_theme/search_form.pt:847
+msgid "label_search"
+msgstr "suchen"
+
 #. Default: "Did you not find what you were looking for? Try the ${advanced_search} to refine your search."
 #: recensio.theme:/skins/recensio_theme/search.pt:73
 msgid "search_results_advanced"
@@ -2150,15 +2169,20 @@ msgstr ""
 "Plattform (inklusive des Volltexts der als PDF bereitgestellten "
 "Rezensionen)."
 
+#. Default: "Last log-in"
+#: recensio.theme:/skins/recensio_theme/search_form.pt:190
+msgid "last_login"
+msgstr "Letztes Login"
+
 #. Default: "3 months ago"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:207
 msgid "time_three_months"
-msgstr ""
+msgstr "3 Monate"
 
 #. Default: "6 months ago"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:210
 msgid "time_six_months"
-msgstr ""
+msgstr "6 Monate"
 
 #. Default: "Modified items since"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:227
@@ -2330,17 +2354,6 @@ msgstr "Thematische Suche"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:626
 msgid "label_region"
 msgstr "Region"
-
-#. Default: "Search"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:63
-#: recensio.theme:/skins/recensio_theme/search_form.pt:483
-#: recensio.theme:/skins/recensio_theme/search_form.pt:607
-#: recensio.theme:/skins/recensio_theme/search_form.pt:710
-#: recensio.theme:/skins/recensio_theme/search_form.pt:822
-#: recensio.theme:/skins/recensio_theme/search_form.pt:847
-#: recensio.theme:/skins/recensio_theme/search.pt:65
-msgid "label_search"
-msgstr "suchen"
 
 #. Default: "The region that you are looking for."
 #: recensio.theme:/skins/recensio_theme/search_form.pt:630
