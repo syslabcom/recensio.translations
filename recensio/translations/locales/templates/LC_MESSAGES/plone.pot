@@ -181,6 +181,18 @@ msgstr " "
 msgid "description_review_monograph"
 msgstr " "
 
-#. Default: "Add Presentation"
-msgid "label_add_presentation_title"
+#. Default: "Presentation (article in a journal)"
+msgid "heading_add_PresentationArticleReview_title"
+msgstr ""
+
+#. Default: "Presentation (article in an edited volume)"
+msgid "heading_add_PresentationCollection_title"
+msgstr ""
+
+#. Default: "Presentation (monograph)"
+msgid "heading_add_PresentationMonograph_title"
+msgstr ""
+
+#. Default: "Presentation (online resource)"
+msgid "heading_add_PresentationOnlineResource_title"
 msgstr ""
