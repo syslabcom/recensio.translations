@@ -920,10 +920,10 @@ msgstr "Plone site is not configured."
 msgid "Mailsettings not configured"
 msgstr "Mailsettings not configured"
 
-#. Default: "Mailversand wird vorbereitet. Mail wird versandt an ${mail_to}"
+#. Default: "Mailversand wird vorbereitet. Mail wird versandt an %(mail_to)s"
 #: recensio.policy:/browser/email.py:249
 msgid "mail_sending_prepared"
-msgstr "Mail sending will be prepared. Mail will be sent to %s"
+msgstr "Mail sending will be prepared. Mail will be sent to %(mail_to)s"
 
 #: recensio.policy:/browser/email.py:303
 #: recensio.policy:/missing_18n_labels.py:57

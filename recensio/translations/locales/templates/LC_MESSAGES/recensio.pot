@@ -825,7 +825,7 @@ msgid "Mailsettings not configured"
 msgstr ""
 
 #: recensio.policy:/browser/email.py:249
-#. Default: "Mailversand wird vorbereitet. Mail wird versandt an ${mail_to}"
+#. Default: "Mailversand wird vorbereitet. Mail wird versandt an %(mail_to)s"
 msgid "mail_sending_prepared"
 msgstr ""
 
