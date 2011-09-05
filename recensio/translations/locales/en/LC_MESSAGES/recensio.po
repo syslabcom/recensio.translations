@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Thu Sep  1 11:27:09 2011\n"
-"PO-Revision-Date: 2011-09-01 11:30+0200\n"
-"Last-Translator: Administrator <deroiste@syslab.com>\n"
+"PO-Revision-Date: 2011-09-05 12:07+0200\n"
+"Last-Translator: Kathrin_Liakov <liakov@bsb-muenchen.de>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
@@ -54,7 +54,7 @@ msgstr "Institution"
 
 #: recensio.contenttypes:/browser/review.py:142
 msgid "metadata_recensio_id"
-msgstr "recensio-ID"
+msgstr "recensio.net-ID"
 
 #: recensio.contenttypes:/browser/review.py:158
 #: recensio.contenttypes:/content/schemata.py:108
@@ -283,7 +283,7 @@ msgstr "Show table of contents"
 #. Default: "First published:"
 #: recensio.contenttypes:/browser/templates/review.pt:77
 msgid "heading_first_published"
-msgstr "First published:"
+msgstr "First published"
 
 #. Default: "Title (Journal)"
 #: recensio.contenttypes:/content/presentationarticlereview.py:34
@@ -514,10 +514,11 @@ msgstr ""
 "what kind of contents and services the online resource you are presenting "
 "has got to offer. You can increase the number of characters available for "
 "your own presentation from 4000 to 6000 by commenting on an already existing "
-"review/presentation on recensio.net. Please note that both comments and "
-"presentations will be checked by the editorial team before being published "
-"in order to prevent misuse. Because of this texts will be availabe online at "
-"the earliest after three working days."
+"review/presentation on recensio.net.\n"
+"Please note that both comments and presentations will be checked by the "
+"editorial team before being published in order to prevent misuse. Because of "
+"this texts will be availabe online at the earliest after three working "
+"days."
 
 #: recensio.contenttypes:/content/presentationonlineresource.py:33
 msgid "Institution"
@@ -1089,7 +1090,7 @@ msgstr " "
 #. Default: "Es wurde eine Rezension von ${title} ver\303\266ffentlicht"
 #: recensio.policy:/browser/email.py:435
 msgid "mail_new_publication_subject"
-msgstr "A new review of ${title} has been published"
+msgstr "${title} has been presented on recensio.net - your comments are welcome"
 
 #. Default: "Ihre Rezension auf recensio.net"
 #: recensio.policy:/browser/email.py:479
