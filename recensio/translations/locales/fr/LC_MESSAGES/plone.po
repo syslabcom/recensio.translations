@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Wed Nov 10 11:55:18 2010\n"
-"PO-Revision-Date: 2011-09-05 17:33+0200\n"
+"PO-Revision-Date: 2011-09-05 18:29+0200\n"
 "Last-Translator: Administrator <deroiste@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
 "Language: fr\n"
@@ -54,14 +54,12 @@ msgid "label_schema_presented_resource"
 msgstr "Ressource présentée"
 
 #. Default "Associated Journal"
-#, fuzzy
 msgid "label_schema_associated_journal"
-msgstr "Associated Journal"
+msgstr "Revue correspondante"
 
 #. Default "Associated Edited Volume"
-#, fuzzy
 msgid "label_schema_associated_edited_volume"
-msgstr "Associated Edited Volume"
+msgstr "Recueil"
 
 #           your monograph on recensio.net. All fields marked with *
 #           are required.\n Please keep in mind that you may present
