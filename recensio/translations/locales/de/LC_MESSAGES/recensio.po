@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Thu Sep  1 11:27:09 2011\n"
-"PO-Revision-Date: 2011-09-01 11:30+0200\n"
-"Last-Translator: Administrator <deroiste@syslab.com>\n"
+"PO-Revision-Date: 2011-09-02 15:22+0200\n"
+"Last-Translator: landes <landes@bsb-muenchen.de>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -54,7 +54,7 @@ msgstr "Anbieter (Name/Institution)"
 
 #: recensio.contenttypes:/browser/review.py:142
 msgid "metadata_recensio_id"
-msgstr "recensio-ID"
+msgstr "recensio.net-ID"
 
 #: recensio.contenttypes:/browser/review.py:158
 #: recensio.contenttypes:/content/schemata.py:108
@@ -286,7 +286,7 @@ msgstr "Inhaltsverzeichnis anzeigen"
 #. Default: "First published:"
 #: recensio.contenttypes:/browser/templates/review.pt:77
 msgid "heading_first_published"
-msgstr "Erstpublikation:"
+msgstr "Erstpublikation"
 
 #. Default: "Title (Journal)"
 #: recensio.contenttypes:/content/presentationarticlereview.py:34
@@ -342,7 +342,7 @@ msgstr ""
 "darunter befindlichen „zeitgenössischen“ Namen, da die recensio.net-"
 "Redaktion i.d.R. versuchen wird, diese Autoren über die Existenz Ihres "
 "Texts, Ihrer Präsentation und über die Kommentarmöglichkeit zu informieren. "
-"Lediglich der Name des Bezugsautors wird öffentlich sichtbar sein. Die "
+"Die Namen von Bezugsautoren werden nicht öffentlich sichtbar sein. Die "
 "Benachrichtigung an Bezugsautoren erfolgt in dezenter Weise über die "
 "Bayerische Staatsbibliothek und mit Verweis auf den wissenschaftlichen "
 "Charakter der Plattform."
@@ -513,11 +513,16 @@ msgstr ""
 #: recensio.contenttypes:/content/presentationonlineresource.py:149
 msgid "description_presentation_online_resource_review"
 msgstr ""
-"Bitte beschreiben Sie hier kurz und übersichtlich die Angebote und Inhalte "
-"der von Ihnen präsentierten Ressource.\n"
+"Was bietet die Onlineressource? Bitte beschreiben Sie hier kurz und "
+"übersichtlich die Angebote und Inhalte der von Ihnen präsentierten "
+"Ressource.\n"
 "Durch das Kommentieren einer bereits vorhandenen Rezension/Präsentation auf "
 "recensio.net erhöhen Sie die für Ihre eigene Präsentation zur Verfügung "
-"stehende Zeichenzahl von 2000 auf 3000."
+"stehende Zeichenzahl von 2000 auf 3000.\n"
+"Bitte beachten Sie, dass sowohl Kommentare als auch Präsentationen vor ihrer "
+"Publikation durch die Redaktion geprüft werden, um Missbrauch zu "
+"verhindern. Dadurch sind die Texte frühestens nach 3 Werktagen öffentlich "
+"einsehbar."
 
 #: recensio.contenttypes:/content/presentationonlineresource.py:33
 msgid "Institution"
@@ -886,7 +891,7 @@ msgstr "Gezähltes Jahr (evtl. differierend)"
 
 #: recensio.contenttypes:/content/schemata.py:747
 msgid "Actual year of publication"
-msgstr "tatsächliches Erscheinungsjahr"
+msgstr "Tatsächliches Erscheinungsjahr"
 
 #. Default: "PDF watermark"
 #: recensio.contenttypes:/content/schemata.py:768
@@ -1117,7 +1122,9 @@ msgstr ""
 #. Default: "Es wurde eine Rezension von ${title} ver\303\266ffentlicht"
 #: recensio.policy:/browser/email.py:435
 msgid "mail_new_publication_subject"
-msgstr "Es wurde eine Rezension von ${title} veröffentlicht"
+msgstr ""
+"Auf recensio.net wurde ${title} präsentiert: Ihre Kommentare sind "
+"willkommen!"
 
 #. Default: "Ihre Rezension auf recensio.net"
 #: recensio.policy:/browser/email.py:479
