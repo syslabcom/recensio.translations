@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Thu Sep  1 11:27:09 2011\n"
-"PO-Revision-Date: 2011-09-01 12:08+0200\n"
-"Last-Translator: Administrator <deroiste@syslab.com>\n"
+"PO-Revision-Date: 2011-09-05 12:25+0200\n"
+"Last-Translator: Kathrin_Liakov <liakov@bsb-muenchen.de>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -54,7 +54,7 @@ msgstr "Institution"
 
 #: recensio.contenttypes:/browser/review.py:142
 msgid "metadata_recensio_id"
-msgstr "ID-recension"
+msgstr "ID-recensio.net"
 
 #: recensio.contenttypes:/browser/review.py:158
 #: recensio.contenttypes:/content/schemata.py:108
@@ -280,7 +280,7 @@ msgstr "Afficher la table des matières"
 #. Default: "First published:"
 #: recensio.contenttypes:/browser/templates/review.pt:77
 msgid "heading_first_published"
-msgstr "Première publication :"
+msgstr "Première publication"
 
 #. Default: "Title (Journal)"
 #: recensio.contenttypes:/content/presentationarticlereview.py:34
@@ -452,7 +452,7 @@ msgstr "Nom de la revue/journal/annuaire, volume, année et nombre de pages"
 msgid "description_pubished_reviews"
 msgstr ""
 "Veuillez insérer le lieu de publication d’éventuelles recensions de vos "
-"travaux, publiées en version papier."
+"travaux, publiées au format papier."
 
 #: recensio.contenttypes:/content/presentationmonograph.py:90
 msgid "Author(s) of presented monograph"
@@ -516,14 +516,15 @@ msgstr ""
 #: recensio.contenttypes:/content/presentationonlineresource.py:149
 msgid "description_presentation_online_resource_review"
 msgstr ""
-"Description de la ressource.  Veuillez ici formuler de manière succincte "
+"Description de la ressource. Veuillez ici formuler de manière succincte "
 "l’intérêt présenté par la ressource pour la recherche en histoire.  En "
 "commentant une recension/présentation déjà en ligne sur recensio.net, le "
 "nombre de caractères attribué à votre présentation personnelle passera de "
-"2000 à 3000 caractères.  Les commentaires et présentations suggérés sur "
-"recensio.net sont préalablement filtrés par un modérateur, afin d’éviter "
-"tout abus. De ce fait, les textes sont publiés dans un délai minimum de "
-"trois jours ouvrés, à partir leur date de soumission sur la plateforme."
+"2000 à 3000 caractères.\n"
+"Les commentaires et présentations suggérés sur recensio.net sont "
+"préalablement filtrés par un modérateur, afin d’éviter tout abus. De ce "
+"fait, les textes sont publiés dans un délai minimum de trois jours ouvrés, à "
+"partir leur date de soumission sur la plateforme."
 
 #: recensio.contenttypes:/content/presentationonlineresource.py:33
 msgid "Institution"
@@ -538,8 +539,8 @@ msgstr "Éditeur du site (nom/institution)"
 #: recensio.contenttypes:/content/presentationonlineresource.py:46
 msgid "label_online_resource_categories"
 msgstr ""
-"Nous vous prions de décrire l’offre et le contenu de la ressource dans le "
-"menu suivant. Pour chaque menu, plusieurs choix sont possibles."
+"Veuillez décrire les services et contenus offerts par la ressource, à l'aide "
+"des menus suivants. Dans chaque menu, plusieurs choix sont possibles."
 
 #: recensio.contenttypes:/content/presentationonlineresource.py:59
 msgid "Institutions"
@@ -567,9 +568,7 @@ msgstr "Ouvrages de référence"
 #. Default: "Choose here (if applicable) the type of reference works supplied."
 #: recensio.contenttypes:/content/presentationonlineresource.py:89
 msgid "description_documenttypes_referenceworks"
-msgstr ""
-"Choisissez ici, le cas échéant, le type de bibliographie, catalogue ou "
-"répertoire."
+msgstr "Choisissez ici, le cas échéant, le type d'ouvrage de référence."
 
 #: recensio.contenttypes:/content/review.py:107
 msgid "license-note-presentation"
@@ -712,7 +711,7 @@ msgstr "Adresse email (non publiée)"
 
 #: recensio.contenttypes:/content/schemata.py:336
 msgid "Personal webpage URL/URN"
-msgstr "Personal webpage URL/URN"
+msgstr "Site personnel"
 
 #. Default: "Here you can link to your personal website (e.g. within a network of historians, a university or research institution). It should preferably be persistent or be corrected by you in case of changes (e.g. change of university)."
 #: recensio.contenttypes:/content/schemata.py:337
@@ -721,7 +720,8 @@ msgstr ""
 "Vous avez ici la possibilité d’insérer un lien vers votre site personnel "
 "(site d’un réseau d’historiens, d’une université ou d’une institution de "
 "recherche par exemple). Dans la mesure du possible, cette adresse doit être "
-"durable, ou modifiée par vos soins, en cas de changement d’université."
+"durable ou ultérieurement modifiée par vos soins, en cas de changement "
+"d’université."
 
 #: recensio.contenttypes:/content/schemata.py:354
 msgid "Licence Agreement"
@@ -813,7 +813,7 @@ msgstr "URL de référence"
 #. Default: "Please fill in only after consultation with the recensio.net team"
 #: recensio.contenttypes:/content/schemata.py:582
 msgid "description_uri"
-msgstr "Uniquement après l’accord de la rédaction de recensio.net"
+msgstr "Uniquement après accord avec la rédaction de recensio.net"
 
 #: recensio.contenttypes:/content/schemata.py:593
 msgid "Subject heading"
@@ -884,7 +884,7 @@ msgstr "Volume"
 
 #: recensio.contenttypes:/content/schemata.py:742
 msgid "Official year of publication (if different)"
-msgstr "Année de publication officielle (si différente)"
+msgstr "Date officielle de publication (si différente)"
 
 #: recensio.contenttypes:/content/schemata.py:747
 msgid "Actual year of publication"
@@ -897,8 +897,11 @@ msgstr "Logo"
 
 #. Default: "Upload a publication logo for the PDF coversheet. Transparent PNG format images are recommended."
 #: recensio.contenttypes:/content/schemata.py:771
+#, fuzzy
 msgid "description_publication_pdf_watermark"
 msgstr ""
+"Téléchargement d'un logo pour la première page du pdf. Il est conseillé "
+"d'utiliser des images numériques utilisant la transparence du format PNG."
 
 #. Default: "Publication Licence"
 #: recensio.contenttypes:/content/schemata.py:784
@@ -909,6 +912,8 @@ msgstr "Droits d'auteur"
 #: recensio.contenttypes:/content/schemata.py:787
 msgid "description_publication_licence"
 msgstr ""
+"Veuillez préciser les droits d'auteurs. Ce texte apparaitra sur la première "
+"page du fichier pdf ainsi que dans la version html de la recension."
 
 #. Default: "Recensio settings"
 #: recensio.policy:/browser/controlpanel.py:15
