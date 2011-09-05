@@ -897,7 +897,6 @@ msgstr "Logo"
 
 #. Default: "Upload a publication logo for the PDF coversheet. Transparent PNG format images are recommended."
 #: recensio.contenttypes:/content/schemata.py:771
-#, fuzzy
 msgid "description_publication_pdf_watermark"
 msgstr ""
 "Téléchargement d'un logo pour la première page du pdf. Il est conseillé "
@@ -1385,11 +1384,33 @@ msgstr "Modèle de message"
 
 #. Default: "The container for the complete template, Variable expansion will be applied. Provide the following slots: a b c"
 #: recensio.policy:/interfaces.py:41
-#, fuzzy
 msgid "description_mailsettings_mail_template"
 msgstr ""
-"strftime-spécification date compatible, voir "
-"http://docs.python.org/library/time.html#time.strftime"
+"Cher ${reviewed_author},\n"
+"\n"
+"Un texte sur le thème suivant ${title} ${subtitle} est paru récemment. "
+"L'auteur ${review_author} a présenté ce texte sur la plateforme de "
+"recensions en ligne, recensio.net. Etant donné que le sujet traité touche "
+"champ de recherche, nous voulions vous informer, que vous pouvez commenter "
+"les thèses présentées sur recensio.net. \n"
+"\n"
+"Pour cela il suffit d'une rapide inscription gratuite avec votre nom et "
+"votre adresse courriel. Cette inscription sert uniquement à d'éviter les "
+"abus des fonctions de commentaire et pour préserver le caractère "
+"scientifique de la plateforme.\n"
+"\n"
+"${context_url}\n"
+"\n"
+"L’équipe de recensio.net se tient à votre disposition pour toute information "
+"complémentaire : ${mail_from}.\n"
+"\n"
+"Cordialement,\n"
+"L’équipe recensio.net\n"
+"\n"
+"Financée par la Fondation allemande pour la recherche (DFG), recensio.net "
+"est une initiative conjointe de la Bibliothèque d’État de Bavière, de "
+"l’Institut historique allemand de Paris et de l’Institut d’histoire "
+"européenne de Mayence. En savoir plus ${concept_url}"
 
 #: recensio.policy:/missing_18n_labels.py:10
 msgid "Issue"
@@ -1584,7 +1605,6 @@ msgstr ""
 "L’équipe recensio.net"
 
 #: recensio.policy:/missing_18n_labels.py:49
-#, fuzzy
 msgid "mail_new_comment_body_review"
 msgstr ""
 "Chèr(e) ${author}, \n"
@@ -1593,8 +1613,8 @@ msgstr ""
 "\t${title}\n"
 "\n"
 "sur la plateforme recensio.net. L’utilisateur ${commenter} a commenté votre "
-"présentation le ${commentdate}. Vous avez ici la possibilité de lire ce "
-"commentaire et d’y réagir :\n"
+"présentation le ${commentdate}. Vous avez la possibilité de lire ce "
+"commentaire et d’y réagir ici  :\n"
 "\n"
 "${url}\n"
 "\n"
@@ -1924,7 +1944,7 @@ msgstr "Effacer la sélection"
 #. Default: "Mehr anzeigen..."
 #: recensio.theme:/browser/topical.pt:230
 msgid "browsing_submenu_more"
-msgstr ""
+msgstr "Plus d'informations..."
 
 #. Default: "Browsing"
 #: recensio.theme:/browser/topical.pt:37
