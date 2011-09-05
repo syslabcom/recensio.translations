@@ -225,3 +225,8 @@ msgstr " "
 #. Default: empty string
 msgid "description_review_monograph"
 msgstr " "
+
+#. Default: "Add ${itemtype}"
+#: Archetypes/skins/archetypes/edit_macros.pt:16
+msgid "heading_add_item"
+msgstr ""
