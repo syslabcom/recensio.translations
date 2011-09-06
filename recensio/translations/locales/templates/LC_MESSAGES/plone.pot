@@ -200,3 +200,14 @@ msgstr ""
 #. Default: "Presentation (online resource)"
 msgid "heading_add_PresentationOnlineResource_title"
 msgstr ""
+
+#. Default: "Author's home page in this site…"
+#: CMFPlone/skins/plone_content/author.cpt:139
+msgid "label_author_internal_home_page"
+msgstr ""
+
+#. Default: "We apologize for the inconvenience, but the page you were trying to access is not at this address. You can use the links below to help you find what you are looking for."
+#: CMFPlone/skins/plone_templates/default_error_message.pt:42
+msgid "description_site_error"
+msgstr ""
+
