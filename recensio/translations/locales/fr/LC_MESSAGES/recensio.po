@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Thu Sep  1 11:27:09 2011\n"
-"PO-Revision-Date: 2011-09-06 13:23+0200\n"
-"Last-Translator: landes <landes@bsb-muenchen.de>\n"
+"PO-Revision-Date: 2011-09-06 19:04+0200\n"
+"Last-Translator: reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -2039,12 +2039,12 @@ msgstr "Aucun résultat"
 #: recensio.theme:/skins/recensio_theme/search.pt:209
 #: recensio.theme:/browser/topical.pt:96
 msgid "reviewed_by"
-msgstr "compte-rendu fait par ${review_authors}"
+msgstr "Compte-rendu fait par ${review_authors}"
 
 #. Default: "in ${get_publication_title}, ${get_volume_title}, ${get_issue_title}"
 #: recensio.theme:/skins/recensio_theme/search.pt:211
 msgid "source_journal"
-msgstr "dans ${get_publication_title}, ${get_volume_title}, ${get_issue_title}"
+msgstr "dans: ${get_publication_title}, ${get_volume_title}, ${get_issue_title}"
 
 #. Default: "presented by ${review_authors}"
 #: recensio.theme:/skins/recensio_theme/search.pt:218
