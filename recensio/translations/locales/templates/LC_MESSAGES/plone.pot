@@ -32,6 +32,10 @@ msgstr ""
 msgid "help_preferred_language"
 msgstr ""
 
+#. Default: "Preferred language"
+msgid "label_preferred_language"
+msgstr ""
+
 #. Default: "Review"
 msgid "label_schema_review"
 msgstr ""
