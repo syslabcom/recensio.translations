@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Thu Sep  1 11:27:09 2011\n"
-"PO-Revision-Date: 2011-09-05 12:32+0200\n"
-"Last-Translator: Kathrin_Liakov <liakov@bsb-muenchen.de>\n"
+"PO-Revision-Date: 2011-09-06 13:23+0200\n"
+"Last-Translator: landes <landes@bsb-muenchen.de>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -499,7 +499,7 @@ msgstr "Périodiques (revues et cahiers)"
 #. Default: "Are there any periodicals supplied in full text?"
 #: recensio.contenttypes:/content/presentationonlineresource.py:131
 msgid "description_documenttypes_periodicals"
-msgstr "Les périodiques sont-ils disponibles en texte intégral?"
+msgstr "Les périodiques sont-ils disponibles en texte intégral ?"
 
 #: recensio.contenttypes:/content/presentationonlineresource.py:141
 msgid "Name of resource"
@@ -872,7 +872,7 @@ msgstr "ISSN"
 #. Default: "With or without hyphens."
 #: recensio.contenttypes:/content/schemata.py:707
 msgid "description_issn"
-msgstr "Avec ou sans tiret."
+msgstr "Avec ou sans tiret"
 
 #: recensio.contenttypes:/content/schemata.py:718
 msgid "Shortname"
