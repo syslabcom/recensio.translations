@@ -33,6 +33,14 @@ msgstr ""
 "What language would you prefer for receiving information from us (about "
 "comments on your contributions)?"
 
+# from us (about comments on your contributions)?"
+#. Default: "Preferred language"
+#, fuzzy
+msgid "label_preferred_language"
+msgstr ""
+"What language would you prefer for receiving information from us (about "
+"comments on your contributions)?"
+
 #. Default: "Review"
 msgid "label_schema_review"
 msgstr "Review"
@@ -214,7 +222,28 @@ msgstr " "
 msgid "description_review_monograph"
 msgstr " "
 
-#. Default: "Add ${itemtype}"
-#: Archetypes/skins/archetypes/edit_macros.pt:16
-msgid "heading_add_item"
+#. Default: "Presentation (article in a journal)"
+msgid "heading_add_PresentationArticleReview_title"
+msgstr ""
+
+#. Default: "Presentation (article in an edited volume)"
+msgid "heading_add_PresentationCollection_title"
+msgstr ""
+
+#. Default: "Presentation (monograph)"
+msgid "heading_add_PresentationMonograph_title"
+msgstr ""
+
+#. Default: "Presentation (online resource)"
+msgid "heading_add_PresentationOnlineResource_title"
+msgstr ""
+
+#. Default: "Author's home page in this site…"
+#: CMFPlone/skins/plone_content/author.cpt:139
+msgid "label_author_internal_home_page"
+msgstr ""
+
+#. Default: "We apologize for the inconvenience, but the page you were trying to access is not at this address. You can use the links below to help you find what you are looking for."
+#: CMFPlone/skins/plone_templates/default_error_message.pt:42
+msgid "description_site_error"
 msgstr ""
