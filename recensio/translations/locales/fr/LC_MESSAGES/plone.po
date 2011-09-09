@@ -259,3 +259,8 @@ msgstr ""
 "Nous nous excusons pour la gêne occasionnée, mais la page à laquelle vous "
 "tentez d'accéder n'est pas à cette adresse. Vous pouvez utiliser les liens "
 "ci-dessous pour vous aider à trouver ce que vous cherchez."
+
+#. Default: "Submit for Publication"
+#: recensio/theme/skins/recensio_theme/edit_macros.pt:236
+msgid "label_save_and_submit"
+msgstr ""
