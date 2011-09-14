@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Wed Nov 10 11:55:18 2010\n"
-"PO-Revision-Date: 2011-09-09 13:10+0200\n"
+"PO-Revision-Date: 2011-09-14 16:32+0200\n"
 "Last-Translator: reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
 "Language: de\n"
@@ -35,7 +35,7 @@ msgstr ""
 
 #. Default: "Preferred language"
 msgid "label_preferred_language"
-msgstr "Bevorzugte Sprache:"
+msgstr "Bevorzugte Sprache"
 
 #. Default: "Review"
 msgid "label_schema_review"
@@ -229,19 +229,19 @@ msgstr " "
 
 #. Default: "Presentation (article in a journal)"
 msgid "heading_add_PresentationArticleReview_title"
-msgstr ""
+msgstr "Präsentation (Aufsatz in einer Zeitschrift)"
 
 #. Default: "Presentation (article in an edited volume)"
 msgid "heading_add_PresentationCollection_title"
-msgstr ""
+msgstr "Präsentation (Aufsatz in einem Sammelband)"
 
 #. Default: "Presentation (monograph)"
 msgid "heading_add_PresentationMonograph_title"
-msgstr ""
+msgstr "Präsentation (Monographie)"
 
 #. Default: "Presentation (online resource)"
 msgid "heading_add_PresentationOnlineResource_title"
-msgstr ""
+msgstr "Präsentation (Internetressource)"
 
 #. Default: "Author's home page in this site…"
 #: CMFPlone/skins/plone_content/author.cpt:139
@@ -252,11 +252,16 @@ msgstr "Persönlicher Ordner auf dieser Website…"
 #: CMFPlone/skins/plone_templates/default_error_message.pt:42
 msgid "description_site_error"
 msgstr ""
-"Entschuldigung, aber die Webseite, die Sie versucht haben, zu erreichen, ist "
+"Entschuldigung, aber die Webseite, die Sie zu erreichen versucht haben, ist "
 "hier nicht verfügbar. Bitte benutzen Sie die aufgeführten Verweise, um zu "
 "finden, was Sie suchten."
+
+#. Default: "Save and edit later"
+#: recensio/theme/skins/recensio_theme/edit_macros.pt:236
+msgid "label_save"
+msgstr "Speichern und später weiterbearbeiten"
 
 #. Default: "Submit for Publication"
 #: recensio/theme/skins/recensio_theme/edit_macros.pt:236
 msgid "label_save_and_submit"
-msgstr "Einreichen"
+msgstr "Zur Publikation einreichen"
