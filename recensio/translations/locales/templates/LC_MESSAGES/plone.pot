@@ -211,6 +211,11 @@ msgstr ""
 msgid "description_site_error"
 msgstr ""
 
+#. Default: "Save and edit later"
+#: recensio/theme/skins/recensio_theme/edit_macros.pt:236
+msgid "label_save"
+msgstr ""
+
 #. Default: "Submit for Publication"
 #: recensio/theme/skins/recensio_theme/edit_macros.pt:236
 msgid "label_save_and_submit"
