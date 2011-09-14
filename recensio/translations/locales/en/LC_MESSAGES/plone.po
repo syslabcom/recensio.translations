@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Wed Nov 10 11:55:18 2010\n"
-"PO-Revision-Date: 2011-08-05 12:02+0200\n"
-"Last-Translator: Administrator <deroiste@syslab.com>\n"
+"PO-Revision-Date: 2011-09-14 16:32+0200\n"
+"Last-Translator: reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
@@ -33,7 +33,7 @@ msgstr ""
 "What language would you prefer for receiving information from us (about "
 "comments on your contributions)?"
 
-# from us (about comments on your contributions)?"
+# Syslab: Where is this displayed?
 #. Default: "Preferred language"
 #, fuzzy
 msgid "label_preferred_language"
@@ -224,31 +224,39 @@ msgstr " "
 
 #. Default: "Presentation (article in a journal)"
 msgid "heading_add_PresentationArticleReview_title"
-msgstr ""
+msgstr "Presentation (article in a journal)"
 
 #. Default: "Presentation (article in an edited volume)"
 msgid "heading_add_PresentationCollection_title"
-msgstr ""
+msgstr "Presentation (article in edited volume)"
 
 #. Default: "Presentation (monograph)"
 msgid "heading_add_PresentationMonograph_title"
-msgstr ""
+msgstr "Presentation (monograph)"
 
 #. Default: "Presentation (online resource)"
 msgid "heading_add_PresentationOnlineResource_title"
-msgstr ""
+msgstr "Presentation (online resource)"
 
 #. Default: "Author's home page in this site…"
 #: CMFPlone/skins/plone_content/author.cpt:139
 msgid "label_author_internal_home_page"
-msgstr ""
+msgstr "Personal folder on this site..."
 
 #. Default: "We apologize for the inconvenience, but the page you were trying to access is not at this address. You can use the links below to help you find what you are looking for."
 #: CMFPlone/skins/plone_templates/default_error_message.pt:42
 msgid "description_site_error"
 msgstr ""
+"We apologize for the inconvenience, but the page you were trying to access "
+"is not available here. You can use the links below to find what you are "
+"looking for."
+
+#. Default: "Save and edit later"
+#: recensio/theme/skins/recensio_theme/edit_macros.pt:236
+msgid "label_save"
+msgstr "Save and edit later"
 
 #. Default: "Submit for Publication"
 #: recensio/theme/skins/recensio_theme/edit_macros.pt:236
 msgid "label_save_and_submit"
-msgstr ""
+msgstr "Submit for publication"
