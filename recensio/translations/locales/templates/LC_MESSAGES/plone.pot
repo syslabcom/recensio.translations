@@ -213,7 +213,7 @@ msgstr ""
 
 #. Default: "Save and edit later"
 #: recensio/theme/skins/recensio_theme/edit_macros.pt:236
-msgid "label_save"
+msgid "label_save_and_edit_later"
 msgstr ""
 
 #. Default: "Submit for Publication"
