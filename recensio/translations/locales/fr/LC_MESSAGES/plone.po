@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Wed Nov 10 11:55:18 2010\n"
-"PO-Revision-Date: 2011-09-14 16:32+0200\n"
+"PO-Revision-Date: 2011-09-16 13:36+0200\n"
 "Last-Translator: reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
 "Language: fr\n"
@@ -198,7 +198,7 @@ msgstr "Présentation (monographie)"
 
 #: recensio.policy:/missing_18n_labels.py:33
 msgid "Review Journal"
-msgstr "Recension (article de journal)"
+msgstr "Recension (journal)"
 
 #: recensio.policy:/missing_18n_labels.py:34
 msgid "Review Monograph"
@@ -260,12 +260,17 @@ msgstr ""
 "tentez d'accéder n'est pas à cette adresse. Vous pouvez utiliser les liens "
 "ci-dessous pour vous aider à trouver ce que vous cherchez."
 
-#. Default: "Save and edit later"
-#: recensio/theme/skins/recensio_theme/edit_macros.pt:236
+#. Default: "Save"
+#: recensio/theme/skins/recensio_theme/edit_macros.pt:237
 msgid "label_save"
+msgstr "Sauvegarder"
+
+#. Default: "Save and edit later"
+#: recensio/theme/skins/recensio_theme/edit_macros.pt:229
+msgid "label_save_and_edit_later"
 msgstr "Sauvegarder pour continuer plus tard"
 
 #. Default: "Submit for Publication"
-#: recensio/theme/skins/recensio_theme/edit_macros.pt:236
+#: recensio/theme/skins/recensio_theme/edit_macros.pt:245
 msgid "label_save_and_submit"
 msgstr "Soumettre à la publication"
