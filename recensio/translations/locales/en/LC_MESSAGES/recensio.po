@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Fri Sep  9 13:03:47 2011\n"
-"PO-Revision-Date: 2011-09-08 17:06+0200\n"
-"Last-Translator: Administrator <deroiste@syslab.com>\n"
+"PO-Revision-Date: 2011-09-15 11:22+0200\n"
+"Last-Translator: Kraus <eva.kraus@bsb-muenchen.de>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
@@ -253,10 +253,8 @@ msgstr "First published"
 msgid "license-note-heading"
 msgstr "Terms of licence"
 
-# Wo steht das?
 #. Default: "Links"
 #: recensio.contenttypes:/browser/templates/review.pt:193
-#, fuzzy
 msgid "links-box-heading"
 msgstr "Links"
 
@@ -1217,6 +1215,10 @@ msgstr "You can add a comment here (plain text)."
 #: recensio.policy:/browser/templates/comments.pt:146
 msgid "help_comment_licence"
 msgstr ""
+"All comments are published under <a "
+"href='http://creativecommons.org/licenses/by-nc-nd/2.0/deed.de' "
+"target='_blank'>creative-commons-licence Attribution-NonCommercial-NoDerivs "
+"(CC-BY-NC-ND)</a>"
 
 #. Default: "Log in to add comments"
 #: recensio.policy:/browser/templates/comments.pt:17
@@ -1973,11 +1975,11 @@ msgstr ""
 
 #: recensio.theme:/skins/recensio_theme/content_edit_impl.py:115
 msgid "Submitted for publication."
-msgstr ""
+msgstr "Inhalt wurde eingereicht."
 
 #: recensio.theme:/skins/recensio_theme/content_edit_impl.py:30
 msgid "Changes saved."
-msgstr ""
+msgstr "Changes saved."
 
 #. Default: "Reference added."
 #: recensio.theme:/skins/recensio_theme/content_edit_impl.py:74
@@ -2029,7 +2031,7 @@ msgstr "in: ${get_publication_title}, ${get_volume_title}, ${get_issue_title}"
 #: recensio.theme:/browser/filtersearch.pt:108
 #: recensio.theme:/browser/topical.pt:108
 msgid "presented_by"
-msgstr "presented by ${review_authors}"
+msgstr "Presented by ${review_authors}"
 
 #. Default: "last modified"
 #: recensio.theme:/skins/recensio_theme/search.pt:229
