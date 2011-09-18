@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Wed Nov 10 11:55:18 2010\n"
-"PO-Revision-Date: 2011-09-16 13:35+0200\n"
+"PO-Revision-Date: 2011-09-18 14:33+0200\n"
 "Last-Translator: reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
 "Language: de\n"
@@ -63,9 +63,8 @@ msgid "label_schema_associated_journal"
 msgstr "Associated Journal"
 
 #. Default "Associated Edited Volume"
-#, fuzzy
 msgid "label_schema_associated_edited_volume"
-msgstr "Associated Edited Volume"
+msgstr "Zugehöriger Sammelband"
 
 #           your monograph on recensio.net. All fields marked with *
 #           are required.\n Please keep in mind that you may present
@@ -179,15 +178,15 @@ msgstr "Präsentation (Aufsatz in Zeitschrift)"
 
 #: recensio.policy:/missing_18n_labels.py:29
 msgid "Presentation Article in Journal"
-msgstr "Präsentation Aufsatz in einer Zeitschrift"
+msgstr "Präsentation (Aufsatz in Zeitschrift)"
 
 #: recensio.policy:/missing_18n_labels.py:30
 msgid "Presentation Article edited Volume"
-msgstr "Präsentation (Aufsatz in einem Sammelband)"
+msgstr "Präsentation (Aufsatz in Sammelband)"
 
 #: recensio.policy:/missing_18n_labels.py:31
 msgid "Presentation Collection"
-msgstr "Präsentation Aufsatz in einem Sammelband"
+msgstr "Präsentation (Aufsatz in Sammelband)"
 
 #: recensio.policy:/missing_18n_labels.py:32
 msgid "Presentation Monograph"
@@ -195,7 +194,7 @@ msgstr "Präsentation (Monographie)"
 
 #: recensio.policy:/missing_18n_labels.py:33
 msgid "Review Journal"
-msgstr "Rezension Zeitschrift"
+msgstr "Rezension (Zeitschrift)"
 
 #: recensio.policy:/missing_18n_labels.py:34
 msgid "Review Monograph"
