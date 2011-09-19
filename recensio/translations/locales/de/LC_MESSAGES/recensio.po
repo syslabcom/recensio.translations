@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: Mon Sep 19 18:39:10 2011\n"
-"PO-Revision-Date: 2011-09-16 15:07+0200\n"
-"Last-Translator: Kraus <eva.kraus@bsb-muenchen.de>\n"
+"POT-Creation-Date: Mon Sep 19 19:33:32 2011\n"
+"PO-Revision-Date: 2011-09-19 19:41+0200\n"
+"Last-Translator: Administrator <deroiste@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -53,40 +53,44 @@ msgid "label_metadata_editor"
 msgstr "Herausgeber"
 
 #: recensio.contenttypes:/browser/review.py:135
+msgid "metadata_pages"
+msgstr "Pages"
+
+#: recensio.contenttypes:/browser/review.py:138
 msgid "label_metadata_review_author"
 msgstr "Autor (Rezension)"
 
-#: recensio.contenttypes:/browser/review.py:139
+#: recensio.contenttypes:/browser/review.py:142
 msgid "label_metadata_presentation_author"
 msgstr "Autor (Präsentation)"
 
-#: recensio.contenttypes:/browser/review.py:149
+#: recensio.contenttypes:/browser/review.py:152
 msgid "metadata_review_type_code"
 msgstr "Dokumenttyp"
 
-#: recensio.contenttypes:/browser/review.py:152
+#: recensio.contenttypes:/browser/review.py:155
 msgid "label_metadata_reference_authors"
 msgstr "Bezugsautoren"
 
-#: recensio.contenttypes:/browser/review.py:156
+#: recensio.contenttypes:/browser/review.py:159
 msgid "label_metadata_institution"
 msgstr "Anbieter (Name/Institution)"
 
-#: recensio.contenttypes:/browser/review.py:159
+#: recensio.contenttypes:/browser/review.py:162
 msgid "metadata_recensio_id"
 msgstr "recensio.net-ID"
 
-#: recensio.contenttypes:/browser/review.py:175
+#: recensio.contenttypes:/browser/review.py:178
 #: recensio.contenttypes:/content/schemata.py:94
 msgid "Subject classification"
 msgstr "Thematische Klassifikation"
 
-#: recensio.contenttypes:/browser/review.py:177
+#: recensio.contenttypes:/browser/review.py:180
 #: recensio.contenttypes:/content/schemata.py:95
 msgid "Time classification"
 msgstr "Zeitliche Klassifikation"
 
-#: recensio.contenttypes:/browser/review.py:179
+#: recensio.contenttypes:/browser/review.py:182
 #: recensio.contenttypes:/content/schemata.py:96
 msgid "Regional classification"
 msgstr "Regionale Klassifikation"
@@ -755,23 +759,23 @@ msgstr "Seitenzahl Ende"
 
 #: recensio.contenttypes:/content/schemata.py:418
 msgid "label_page_start_of_presented_text_in_print"
-msgstr ""
+msgstr "Erste Seite"
 
 #: recensio.contenttypes:/content/schemata.py:419
 msgid "description_page_number_of_presented_text_in_print"
-msgstr ""
+msgstr "Seitenangaben des präsentierten Aufsatzes"
 
 #: recensio.contenttypes:/content/schemata.py:429
 msgid "label_page_end_of_presented_text_in_print"
-msgstr ""
+msgstr "Letzte Seite"
 
 #: recensio.contenttypes:/content/schemata.py:442
 msgid "label_page_start_of_presented_review_in_journal"
-msgstr ""
+msgstr "Erste Seite"
 
 #: recensio.contenttypes:/content/schemata.py:443
 msgid "description_page_number_of_presented_review_in_journal"
-msgstr ""
+msgstr "Seitenangaben des rezensierten Textes"
 
 #: recensio.contenttypes:/content/schemata.py:45
 msgid "label_presentation_authors"
@@ -779,7 +783,7 @@ msgstr "Name"
 
 #: recensio.contenttypes:/content/schemata.py:453
 msgid "label_page_end_of_presented_review_in_journal"
-msgstr ""
+msgstr "Letzte Seite"
 
 #: recensio.contenttypes:/content/schemata.py:465
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:93
