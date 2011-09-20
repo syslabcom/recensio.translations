@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: Mon Sep 19 19:33:32 2011\n"
+"POT-Creation-Date: Tue Sep 20 10:02:50 2011\n"
 "PO-Revision-Date: 2011-09-19 19:50+0200\n"
 "Last-Translator: Administrator <deroiste@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -969,12 +969,12 @@ msgid "mail_sending_prepared"
 msgstr "Mailversand wird vorbereitet. Mail wird versandt an %(mail_to)s"
 
 #: recensio.policy:/browser/email.py:302
-#: recensio.policy:/missing_18n_labels.py:57
+#: recensio.policy:/missing_18n_labels.py:58
 msgid "mail_new_comment_subject_review_author"
 msgstr "Benachrichtigung über Kommentareingang"
 
 #: recensio.policy:/browser/email.py:304
-#: recensio.policy:/missing_18n_labels.py:50
+#: recensio.policy:/missing_18n_labels.py:51
 msgid "mail_new_comment_body_review_author"
 msgstr ""
 "Sehr geehrte/r ${recipient},\n"
@@ -1003,12 +1003,12 @@ msgstr ""
 "http://www.recensio.net/ueberuns/index_html"
 
 #: recensio.policy:/browser/email.py:315
-#: recensio.policy:/missing_18n_labels.py:54
+#: recensio.policy:/missing_18n_labels.py:55
 msgid "mail_new_comment_subject_presentation_author"
 msgstr "Benachrichtigung über Kommentareingang"
 
 #: recensio.policy:/browser/email.py:317
-#: recensio.policy:/missing_18n_labels.py:47
+#: recensio.policy:/missing_18n_labels.py:48
 msgid "mail_new_comment_body_presentation_author"
 msgstr ""
 "Sehr geehrte/r ${recipient},\n"
@@ -1035,12 +1035,12 @@ msgstr ""
 "http://www.recensio.net/ueberuns/index_html"
 
 #: recensio.policy:/browser/email.py:341
-#: recensio.policy:/missing_18n_labels.py:58
+#: recensio.policy:/missing_18n_labels.py:59
 msgid "mail_new_comment_subject_review_commenter"
 msgstr "Benachrichtigung über Kommentareingang"
 
 #: recensio.policy:/browser/email.py:344
-#: recensio.policy:/missing_18n_labels.py:51
+#: recensio.policy:/missing_18n_labels.py:52
 msgid "mail_new_comment_body_review_commenter"
 msgstr ""
 "Sehr geehrte/r ${recipient},\n"
@@ -1067,12 +1067,12 @@ msgstr ""
 "http://www.recensio.net/ueberuns/index_html"
 
 #: recensio.policy:/browser/email.py:348
-#: recensio.policy:/missing_18n_labels.py:55
+#: recensio.policy:/missing_18n_labels.py:56
 msgid "mail_new_comment_subject_presentation_commenter"
 msgstr "Benachrichtigung über Kommentareingang"
 
 #: recensio.policy:/browser/email.py:351
-#: recensio.policy:/missing_18n_labels.py:48
+#: recensio.policy:/missing_18n_labels.py:49
 msgid "mail_new_comment_body_presentation_commenter"
 msgstr ""
 "Sehr geehrte/r ${recipient},\n"
@@ -1598,46 +1598,50 @@ msgid "label_by_author"
 msgstr "von ${author}"
 
 #: recensio.policy:/missing_18n_labels.py:35
+msgid "label_downloaded_via_recensio"
+msgstr "heruntergeladen über recensio.net"
+
+#: recensio.policy:/missing_18n_labels.py:36
 msgid "label_participate"
 msgstr "Mitmachen"
 
-#: recensio.policy:/missing_18n_labels.py:36
+#: recensio.policy:/missing_18n_labels.py:37
 msgid "label_presentations"
 msgstr "Präsentationen"
 
-#: recensio.policy:/missing_18n_labels.py:37
+#: recensio.policy:/missing_18n_labels.py:38
 msgid "label_press"
 msgstr "Presse"
 
-#: recensio.policy:/missing_18n_labels.py:38
+#: recensio.policy:/missing_18n_labels.py:39
 msgid "label_reviews"
 msgstr "Rezensionen"
 
-#: recensio.policy:/missing_18n_labels.py:39
+#: recensio.policy:/missing_18n_labels.py:40
 msgid "label_schema_presented_text"
 msgstr "Präsentierter Text-"
 
-#: recensio.policy:/missing_18n_labels.py:40
+#: recensio.policy:/missing_18n_labels.py:41
 msgid "label_schema_review"
 msgstr "Rezension"
 
-#: recensio.policy:/missing_18n_labels.py:41
+#: recensio.policy:/missing_18n_labels.py:42
 msgid "label_schema_reviewed_text"
 msgstr "rezensierter Text"
 
-#: recensio.policy:/missing_18n_labels.py:42
+#: recensio.policy:/missing_18n_labels.py:43
 #: recensio.theme:/skins/recensio_theme/search.pt:123
 msgid "latest_comments"
 msgstr "Neueste Kommentare"
 
-#: recensio.policy:/missing_18n_labels.py:43
+#: recensio.policy:/missing_18n_labels.py:44
 #: recensio.theme:/skins/recensio_theme/search.pt:136
 msgid "latest_comments_description"
 msgstr ""
 "Zu folgenden Rezensionen und Präsentationen wurden jüngst Kommentare "
 "abgegeben. Beteiligen Sie sich an der Diskussion mit Fachkollegen"
 
-#: recensio.policy:/missing_18n_labels.py:44
+#: recensio.policy:/missing_18n_labels.py:45
 msgid "license-note"
 msgstr ""
 "Dieser Beitrag unterliegt der Creative-Commons-Lizenz Namensnennung-Keine "
@@ -1645,7 +1649,7 @@ msgstr ""
 "Bedingungen elektronisch benutzt, übermittelt, ausgedruckt und zum Download "
 "bereitgestellt werden. Den Text der Lizenz erreichen Sie hier:"
 
-#: recensio.policy:/missing_18n_labels.py:45
+#: recensio.policy:/missing_18n_labels.py:46
 msgid "mail_new_comment_body"
 msgstr ""
 "Sehr geehrte/r ${recipient},\n"
@@ -1666,7 +1670,7 @@ msgstr ""
 "\n"
 "       Ihr recensio.net Team"
 
-#: recensio.policy:/missing_18n_labels.py:46
+#: recensio.policy:/missing_18n_labels.py:47
 msgid "mail_new_comment_body_commenter"
 msgstr ""
 "Sehr geehrte/r ${recipient},\n"
@@ -1692,7 +1696,11 @@ msgstr ""
 "Instituts für Europäische Geschichte Mainz. Weitere Informationen "
 "http://www.recensio.net/ueberuns/index_html"
 
-#: recensio.policy:/missing_18n_labels.py:49
+#: recensio.policy:/missing_18n_labels.py:5
+msgid "About us"
+msgstr "Über uns"
+
+#: recensio.policy:/missing_18n_labels.py:50
 msgid "mail_new_comment_body_review"
 msgstr ""
 "Sehr geehrte/r ${recipient},\n"
@@ -1715,95 +1723,91 @@ msgstr ""
 "Mit freundlichen Grüßen,\n"
 "Ihr recensio.net-Team"
 
-#: recensio.policy:/missing_18n_labels.py:5
-msgid "About us"
-msgstr "Über uns"
-
-#: recensio.policy:/missing_18n_labels.py:52
+#: recensio.policy:/missing_18n_labels.py:53
 msgid "mail_new_comment_subject"
 msgstr "Benachrichtigung über Kommentareingang"
 
-#: recensio.policy:/missing_18n_labels.py:53
+#: recensio.policy:/missing_18n_labels.py:54
 msgid "mail_new_comment_subject_commenter"
 msgstr "Benachrichtigung über Kommentareingang"
 
-#: recensio.policy:/missing_18n_labels.py:56
+#: recensio.policy:/missing_18n_labels.py:57
 msgid "mail_new_comment_subject_review"
 msgstr "Benachrichtigung über Kommentareingang"
-
-#: recensio.policy:/missing_18n_labels.py:59
-msgid "manage_presentations"
-msgstr "Ihre Präsentationen verwalten"
 
 #: recensio.policy:/missing_18n_labels.py:6
 msgid "Cut PDF"
 msgstr "PDF ausschneiden"
 
 #: recensio.policy:/missing_18n_labels.py:60
+msgid "manage_presentations"
+msgstr "Ihre Präsentationen verwalten"
+
+#: recensio.policy:/missing_18n_labels.py:61
 msgid "monographs"
 msgstr "Monographien"
 
-#: recensio.policy:/missing_18n_labels.py:61
+#: recensio.policy:/missing_18n_labels.py:62
 msgid "new_discussions"
 msgstr "Neue Diskussionen"
 
-#: recensio.policy:/missing_18n_labels.py:62
+#: recensio.policy:/missing_18n_labels.py:63
 msgid "new_presentations"
 msgstr "Neue Präsentationen"
 
-#: recensio.policy:/missing_18n_labels.py:63
+#: recensio.policy:/missing_18n_labels.py:64
 msgid "new_reviews"
 msgstr "Neue Rezensionen"
 
-#: recensio.policy:/missing_18n_labels.py:64
+#: recensio.policy:/missing_18n_labels.py:65
 msgid "online_resources"
 msgstr "Internetressourcen"
 
-#: recensio.policy:/missing_18n_labels.py:65
+#: recensio.policy:/missing_18n_labels.py:66
 msgid "participating_in_recensio_net"
 msgstr "mitmachen bei recensio.net"
 
-#: recensio.policy:/missing_18n_labels.py:66
+#: recensio.policy:/missing_18n_labels.py:67
 msgid "presentations"
 msgstr "Präsentationen"
 
-#: recensio.policy:/missing_18n_labels.py:67
+#: recensio.policy:/missing_18n_labels.py:68
 msgid "presented resource"
 msgstr "präsentierte Ressource"
 
-#: recensio.policy:/missing_18n_labels.py:68
+#: recensio.policy:/missing_18n_labels.py:69
 msgid "register_and_create_presentations"
 msgstr "Registrieren und neue Präsentationen erstellen"
-
-#: recensio.policy:/missing_18n_labels.py:69
-msgid "reviews"
-msgstr "Rezensionen"
 
 #: recensio.policy:/missing_18n_labels.py:7
 msgid "Epoch"
 msgstr "Epoche"
 
 #: recensio.policy:/missing_18n_labels.py:70
+msgid "reviews"
+msgstr "Rezensionen"
+
+#: recensio.policy:/missing_18n_labels.py:71
 msgid "rss_feeds"
 msgstr "RSS-Feeds"
 
-#: recensio.policy:/missing_18n_labels.py:71
+#: recensio.policy:/missing_18n_labels.py:72
 msgid "text_in"
 msgstr "in:"
 
-#: recensio.policy:/missing_18n_labels.py:72
+#: recensio.policy:/missing_18n_labels.py:73
 msgid "text_pages"
 msgstr "S."
 
-#: recensio.policy:/missing_18n_labels.py:73
+#: recensio.policy:/missing_18n_labels.py:74
 msgid "text_presentation_of"
 msgstr "Präsentation von:"
 
-#: recensio.policy:/missing_18n_labels.py:74
+#: recensio.policy:/missing_18n_labels.py:75
 msgid "text_review_of"
 msgstr "Rezension von:"
 
-#: recensio.policy:/missing_18n_labels.py:75
+#: recensio.policy:/missing_18n_labels.py:76
 msgid "title_presentation_monograph"
 msgstr "Präsentation (Monographie)"
 
@@ -2595,9 +2599,6 @@ msgstr "Neueste Rezensionen"
 #: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:96
 msgid "label_secondary_nav_monographien"
 msgstr "Monographien"
-
-#~ msgid "label_downloaded_via_recensio"
-#~ msgstr "heruntergeladen über recensio.net"
 
 #~ msgid "Subtitle (journal)"
 #~ msgstr "Untertitel (Zeitschrift)"
