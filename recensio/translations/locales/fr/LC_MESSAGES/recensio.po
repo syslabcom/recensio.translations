@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Tue Sep 20 10:02:50 2011\n"
-"PO-Revision-Date: 2011-09-20 10:27+0200\n"
-"Last-Translator: Administrator <deroiste@syslab.com>\n"
+"PO-Revision-Date: 2011-09-20 11:51+0200\n"
+"Last-Translator: Kraus <eva.kraus@bsb-muenchen.de>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -760,15 +760,15 @@ msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:419
 msgid "description_page_number_of_presented_text_in_print"
-msgstr ""
+msgstr "Numéros de page de l'article présenté"
 
 #: recensio.contenttypes:/content/schemata.py:429
 msgid "label_page_end_of_presented_text_in_print"
-msgstr ""
+msgstr "Dernière page"
 
 #: recensio.contenttypes:/content/schemata.py:442
 msgid "label_page_start_of_presented_review_in_journal"
-msgstr ""
+msgstr "Première page"
 
 #: recensio.contenttypes:/content/schemata.py:443
 msgid "description_page_number_of_presented_review_in_journal"
