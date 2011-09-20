@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Wed Nov 10 11:55:18 2010\n"
-"PO-Revision-Date: 2011-09-20 11:52+0200\n"
-"Last-Translator: Kraus <eva.kraus@bsb-muenchen.de>\n"
+"PO-Revision-Date: 2011-09-20 16:17+0200\n"
+"Last-Translator: reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -58,12 +58,14 @@ msgid "label_schema_presented_resource"
 msgstr "Präsentierte Ressource"
 
 #. Default "Associated Journal"
+#, fuzzy
 msgid "label_schema_associated_journal"
-msgstr "Zugehörige Zeitschrift"
+msgstr "Associated Journal"
 
 #. Default "Associated Edited Volume"
+#, fuzzy
 msgid "label_schema_associated_edited_volume"
-msgstr "Zugehöriger Sammelband"
+msgstr "Associated Edited Volume"
 
 #           your monograph on recensio.net. All fields marked with *
 #           are required.\n Please keep in mind that you may present
@@ -268,3 +270,8 @@ msgstr "Speichern und später weiterbearbeiten"
 #: recensio/theme/skins/recensio_theme/edit_macros.pt:245
 msgid "label_save_and_submit"
 msgstr "Zur Publikation einreichen"
+
+#. Default: "Log in to send feedback"
+#: recensio/theme/skins/recensio_theme/author.cpt:166
+msgid "label_login_to_send_feedback"
+msgstr "Zur Kontaktaufnahme bitte anmelden"
