@@ -755,8 +755,9 @@ msgid "Page number (end)"
 msgstr "Numéro de page (fin)"
 
 #: recensio.contenttypes:/content/schemata.py:418
+#, fuzzy
 msgid "label_page_start_of_presented_text_in_print"
-msgstr ""
+msgstr "Dernière page"
 
 #: recensio.contenttypes:/content/schemata.py:419
 msgid "description_page_number_of_presented_text_in_print"
@@ -771,16 +772,18 @@ msgid "label_page_start_of_presented_review_in_journal"
 msgstr "Première page"
 
 #: recensio.contenttypes:/content/schemata.py:443
+#, fuzzy
 msgid "description_page_number_of_presented_review_in_journal"
-msgstr ""
+msgstr "Numéros de page de l'article présenté"
 
 #: recensio.contenttypes:/content/schemata.py:45
 msgid "label_presentation_authors"
 msgstr "auteur (présentation)"
 
 #: recensio.contenttypes:/content/schemata.py:453
+#, fuzzy
 msgid "label_page_end_of_presented_review_in_journal"
-msgstr ""
+msgstr "Première page"
 
 #: recensio.contenttypes:/content/schemata.py:465
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:93
