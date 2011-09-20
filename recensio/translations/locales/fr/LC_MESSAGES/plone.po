@@ -59,12 +59,14 @@ msgid "label_schema_presented_resource"
 msgstr "Ressource présentée"
 
 #. Default "Associated Journal"
+#, fuzzy
 msgid "label_schema_associated_journal"
-msgstr "Revue correspondante"
+msgstr "Associated Journal"
 
 #. Default "Associated Edited Volume"
+#, fuzzy
 msgid "label_schema_associated_edited_volume"
-msgstr "Recueil correspondant"
+msgstr "Associated Edited Volume"
 
 #           your monograph on recensio.net. All fields marked with *
 #           are required.\n Please keep in mind that you may present
@@ -272,3 +274,8 @@ msgstr "Sauvegarder pour continuer plus tard"
 #: recensio/theme/skins/recensio_theme/edit_macros.pt:245
 msgid "label_save_and_submit"
 msgstr "Soumettre à la publication"
+
+#. Default: "Log in to send feedback"
+#: recensio/theme/skins/recensio_theme/author.cpt:166
+msgid "label_login_to_send_feedback"
+msgstr ""
