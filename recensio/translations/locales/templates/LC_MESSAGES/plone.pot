@@ -225,3 +225,8 @@ msgstr ""
 #: recensio/theme/skins/recensio_theme/edit_macros.pt:245
 msgid "label_save_and_submit"
 msgstr ""
+
+#. Default: "Log in to send feedback"
+#: recensio/theme/skins/recensio_theme/author.cpt:166
+msgid "label_login_to_send_feedback"
+msgstr ""
