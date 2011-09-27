@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Wed Sep 21 01:19:23 2011\n"
-"PO-Revision-Date: 2011-09-21 01:26+0200\n"
+"PO-Revision-Date: 2011-09-27 15:26+0200\n"
 "Last-Translator: Administrator <deroiste@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: de\n"
@@ -766,11 +766,11 @@ msgstr "Seitenzahl Ende"
 
 #: recensio.contenttypes:/content/schemata.py:418
 msgid "label_page_start_of_presented_text_in_print"
-msgstr "Erste Seite"
+msgstr "Seitenangaben des präsentierten Aufsatzes"
 
 #: recensio.contenttypes:/content/schemata.py:419
 msgid "description_page_number_of_presented_text_in_print"
-msgstr "Seitenangaben des präsentierten Aufsatzes"
+msgstr "Erste Seite"
 
 #: recensio.contenttypes:/content/schemata.py:429
 msgid "label_page_end_of_presented_text_in_print"
