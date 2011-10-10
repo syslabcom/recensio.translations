@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Wed Nov 10 11:55:18 2010\n"
-"PO-Revision-Date: 2011-09-20 12:52+0200\n"
-"Last-Translator: reinhardt <reinhardt@syslab.com>\n"
+"PO-Revision-Date: 2011-10-04 15:56+0200\n"
+"Last-Translator: Kathrin_Liakov <liakov@bsb-muenchen.de>\n"
 "Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -59,14 +59,12 @@ msgid "label_schema_presented_resource"
 msgstr "Ressource présentée"
 
 #. Default "Associated Journal"
-#, fuzzy
 msgid "label_schema_associated_journal"
-msgstr "Associated Journal"
+msgstr "Revue associée"
 
 #. Default "Associated Edited Volume"
-#, fuzzy
 msgid "label_schema_associated_edited_volume"
-msgstr "Associated Edited Volume"
+msgstr "Recueil associé"
 
 #           your monograph on recensio.net. All fields marked with *
 #           are required.\n Please keep in mind that you may present
@@ -165,11 +163,11 @@ msgid "label_tags"
 msgstr "Mots-clés"
 
 msgid "label_existing_tags"
-msgstr "mots-clés existants"
+msgstr "Mots-clés existants"
 
 #. Default: "Neues Schlagwort hinzufuegen
 msgid "label_new_tags"
-msgstr "ajouter un nouveau mot-clé"
+msgstr "Ajouter un nouveau mot-clé"
 
 #: recensio.policy:/missing_18n_labels.py:27
 msgid "Presentation Online Resource"
@@ -178,11 +176,11 @@ msgstr "Présentation (ressource Internet)"
 #. Default: "Presentation Article in Journal
 #: recensio.policy:/missing_18n_labels.py:28
 msgid "Presentation Article Review"
-msgstr "Présentation (article de journal)"
+msgstr "Présentation (article de revue)"
 
 #: recensio.policy:/missing_18n_labels.py:29
 msgid "Presentation Article in Journal"
-msgstr "Présentation (article de journal)"
+msgstr "Présentation (article de revue)"
 
 #: recensio.policy:/missing_18n_labels.py:30
 msgid "Presentation Article edited Volume"
@@ -198,7 +196,7 @@ msgstr "Présentation (monographie)"
 
 #: recensio.policy:/missing_18n_labels.py:33
 msgid "Review Journal"
-msgstr "Recension (journal)"
+msgstr "Recension (revue)"
 
 #: recensio.policy:/missing_18n_labels.py:34
 msgid "Review Monograph"
@@ -278,4 +276,4 @@ msgstr "Soumettre à la publication"
 #. Default: "Log in to send feedback"
 #: recensio/theme/skins/recensio_theme/author.cpt:166
 msgid "label_login_to_send_feedback"
-msgstr ""
+msgstr "Inscription préalable nécessaire"
