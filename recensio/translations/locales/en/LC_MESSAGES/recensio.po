@@ -943,6 +943,38 @@ msgstr ""
 msgid "description_presentation_title"
 msgstr "Information on presented work"
 
+#: recensio.contenttypes:/portlets/completepdfs.py:27
+msgid "Complete PDFs"
+msgstr ""
+
+#: recensio.contenttypes:/portlets/completepdfs.py:65
+msgid "Add Complete PDFs Portlet"
+msgstr ""
+
+#: recensio.contenttypes:/portlets/completepdfs.py:66
+#: recensio.contenttypes:/portlets/completepdfs.py:74
+msgid "This portlet displays complete issue PDFs."
+msgstr ""
+
+#: recensio.contenttypes:/portlets/completepdfs.py:73
+msgid "Edit Complete PDFs Portlet"
+msgstr ""
+
+#. Default: "Download complete file"
+#: recensio.theme:/browser/templates/publicationlisting.pt:17
+msgid "label_download_complete_pdf"
+msgstr ""
+
+#. Default: "Individual downloads of all issues and reviews"
+#: recensio.contenttypes:/portlets/templates/completepdfs.pt:13
+msgid "label_download_all_issues_and_reviews"
+msgstr ""
+
+#. Default: "Latest Issue"
+#: recensio.contenttypes:/portlets/templates/completepdfs.pt:7
+msgid "heading_portlet_complete_pdfs"
+msgstr ""
+
 #. Default: "Recensio settings"
 #: recensio.policy:/browser/controlpanel.py:15
 msgid "label_recensio_settings"

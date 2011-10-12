@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Wed Sep 21 01:19:23 2011\n"
-"PO-Revision-Date: 2011-09-29 10:52+0200\n"
-"Last-Translator: Kraus <eva.kraus@bsb-muenchen.de>\n"
+"PO-Revision-Date: 2011-10-11 13:06+0200\n"
+"Last-Translator: reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -958,6 +958,38 @@ msgstr ""
 #: recensio.contenttypes:/content/schemata.py:86
 msgid "description_presentation_title"
 msgstr "Informationen zum präsentierten Werk"
+
+#: recensio.contenttypes:/portlets/completepdfs.py:27
+msgid "Complete PDFs"
+msgstr ""
+
+#: recensio.contenttypes:/portlets/completepdfs.py:65
+msgid "Add Complete PDFs Portlet"
+msgstr ""
+
+#: recensio.contenttypes:/portlets/completepdfs.py:66
+#: recensio.contenttypes:/portlets/completepdfs.py:74
+msgid "This portlet displays complete issue PDFs."
+msgstr ""
+
+#: recensio.contenttypes:/portlets/completepdfs.py:73
+msgid "Edit Complete PDFs Portlet"
+msgstr ""
+
+#. Default: "Download complete file"
+#: recensio.theme:/browser/templates/publicationlisting.pt:17
+msgid "label_download_complete_pdf"
+msgstr "Gesamtdatei herunterladen"
+
+#. Default: "Individual downloads of all issues and reviews"
+#: recensio.contenttypes:/portlets/templates/completepdfs.pt:13
+msgid "label_download_all_issues_and_reviews"
+msgstr "Alle Ausgaben und Rezensionen im Einzeldownload"
+
+#. Default: "Latest Issue"
+#: recensio.contenttypes:/portlets/templates/completepdfs.pt:7
+msgid "heading_portlet_complete_pdfs"
+msgstr "Aktuelle Ausgabe"
 
 #. Default: "Recensio settings"
 #: recensio.policy:/browser/controlpanel.py:15
