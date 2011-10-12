@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Wed Sep 21 01:19:23 2011\n"
-"PO-Revision-Date: 2011-09-29 11:16+0200\n"
+"PO-Revision-Date: 2011-10-12 15:45+0200\n"
 "Last-Translator: Kraus <eva.kraus@bsb-muenchen.de>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: en\n"
@@ -266,7 +266,7 @@ msgstr "Links"
 #. Default: "Diese Schrift ist online abrufbar ${link_text}"
 #: recensio.contenttypes:/browser/templates/review.pt:202
 msgid "online_accessible"
-msgstr "This publication is available online ${link_text}"
+msgstr "This publication is available online free of charge"
 
 #. Default: "Diese Schrift ist nicht online abrufbar"
 #: recensio.contenttypes:/browser/templates/review.pt:207
@@ -973,7 +973,7 @@ msgstr ""
 #. Default: "Latest Issue"
 #: recensio.contenttypes:/portlets/templates/completepdfs.pt:7
 msgid "heading_portlet_complete_pdfs"
-msgstr ""
+msgstr "All issues and reviews as individual downloads"
 
 #. Default: "Recensio settings"
 #: recensio.policy:/browser/controlpanel.py:15

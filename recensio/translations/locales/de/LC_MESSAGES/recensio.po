@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Wed Sep 21 01:19:23 2011\n"
-"PO-Revision-Date: 2011-10-11 13:06+0200\n"
-"Last-Translator: reinhardt <reinhardt@syslab.com>\n"
+"PO-Revision-Date: 2011-10-12 15:40+0200\n"
+"Last-Translator: Kraus <eva.kraus@bsb-muenchen.de>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -269,12 +269,12 @@ msgstr "Links"
 #. Default: "Diese Schrift ist online abrufbar ${link_text}"
 #: recensio.contenttypes:/browser/templates/review.pt:202
 msgid "online_accessible"
-msgstr "Diese Schrift ist online abrufbar ${link_text}"
+msgstr "Diese Schrift ist kostenlos online abrufbar:"
 
 #. Default: "Diese Schrift ist nicht online abrufbar"
 #: recensio.contenttypes:/browser/templates/review.pt:207
 msgid "online_not_accessible"
-msgstr "Diese Schrift ist nicht online abrufbar"
+msgstr "Diese Schrift ist nicht online abrufbar."
 
 #. Default: "Rezension/en zum praesentierten Werk"
 #: recensio.contenttypes:/browser/templates/review.pt:209
