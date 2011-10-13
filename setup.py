@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0.1dev'
+version = '2.0b1'
 
 setup(name='recensio.translations',
       version=version,
