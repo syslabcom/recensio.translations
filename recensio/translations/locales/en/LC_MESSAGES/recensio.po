@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Wed Sep 21 01:19:23 2011\n"
-"PO-Revision-Date: 2011-10-12 15:45+0200\n"
+"PO-Revision-Date: 2011-10-12 17:26+0200\n"
 "Last-Translator: Kraus <eva.kraus@bsb-muenchen.de>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: en\n"
@@ -963,17 +963,17 @@ msgstr ""
 #. Default: "Download complete file"
 #: recensio.theme:/browser/templates/publicationlisting.pt:17
 msgid "label_download_complete_pdf"
-msgstr ""
+msgstr "Download complete file"
 
 #. Default: "Individual downloads of all issues and reviews"
 #: recensio.contenttypes:/portlets/templates/completepdfs.pt:13
 msgid "label_download_all_issues_and_reviews"
-msgstr ""
+msgstr "All issues and reviews as individual downloads"
 
 #. Default: "Latest Issue"
 #: recensio.contenttypes:/portlets/templates/completepdfs.pt:7
 msgid "heading_portlet_complete_pdfs"
-msgstr "All issues and reviews as individual downloads"
+msgstr "Latest issue"
 
 #. Default: "Recensio settings"
 #: recensio.policy:/browser/controlpanel.py:15
