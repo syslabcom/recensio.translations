@@ -58,12 +58,14 @@ msgid "label_schema_presented_resource"
 msgstr "Präsentierte Ressource"
 
 #. Default "Associated Journal"
+#, fuzzy
 msgid "label_schema_associated_journal"
-msgstr "Zugehörige Zeitschrift"
+msgstr "Associated Journal"
 
 #. Default "Associated Edited Volume"
+#, fuzzy
 msgid "label_schema_associated_edited_volume"
-msgstr "Zugehöriger Sammelband"
+msgstr "Associated Edited Volume"
 
 #           your monograph on recensio.net. All fields marked with *
 #           are required.\n Please keep in mind that you may present
