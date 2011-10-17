@@ -60,11 +60,11 @@ msgstr "Ressource présentée"
 
 #. Default "Associated Journal"
 msgid "label_schema_associated_journal"
-msgstr ""
+msgstr "Associated Journal"
 
 #. Default "Associated Edited Volume"
 msgid "label_schema_associated_edited_volume"
-msgstr ""
+msgstr "Associated Edited Volume"
 
 #           your monograph on recensio.net. All fields marked with *
 #           are required.\n Please keep in mind that you may present
