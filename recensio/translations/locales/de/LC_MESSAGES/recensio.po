@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: Mon Oct 17 18:22:55 2011\n"
-"PO-Revision-Date: 2011-10-18 14:54+0200\n"
-"Last-Translator: Kathrin_Liakov <liakov@bsb-muenchen.de>\n"
+"POT-Creation-Date: Wed Oct 19 12:15:57 2011\n"
+"PO-Revision-Date: 2011-10-19 12:31+0200\n"
+"Last-Translator: reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -642,9 +642,7 @@ msgstr ""
 "Alle veröffentlichten Präsentationen werden unter der CC-BY-NC-ND Lizenz "
 "publiziert."
 
-# Wo steht das? Was ist das?
 #: recensio.contenttypes:/content/schemata.py:162
-#, fuzzy
 msgid "message_at_least_one_author_validation_error"
 msgstr ""
 
@@ -905,9 +903,7 @@ msgstr ""
 "Schreibweise frei. Bei mehreren Nummern bitte jene der Hardcoverausgabe "
 "wählen."
 
-# Was ist das? Wo steht das?
 #: recensio.contenttypes:/content/schemata.py:737
-#, fuzzy
 msgid "label_editorial"
 msgstr ""
 
@@ -970,22 +966,16 @@ msgstr "Informationen zum präsentierten Werk"
 msgid "Complete PDFs"
 msgstr "Vollständige PDF-Datei"
 
-# Was ist das? Wo steht das?
-#: recensio.contenttypes:/portlets/completepdfs.py:66
-#, fuzzy
+#: recensio.contenttypes:/portlets/completepdfs.py:70
 msgid "Add Complete PDFs Portlet"
 msgstr ""
 
-# was ist das? Wo steht das?
-#: recensio.contenttypes:/portlets/completepdfs.py:67
-#: recensio.contenttypes:/portlets/completepdfs.py:75
-#, fuzzy
+#: recensio.contenttypes:/portlets/completepdfs.py:71
+#: recensio.contenttypes:/portlets/completepdfs.py:79
 msgid "This portlet displays complete issue PDFs."
 msgstr ""
 
-# was ist das? Wo steht das?
-#: recensio.contenttypes:/portlets/completepdfs.py:74
-#, fuzzy
+#: recensio.contenttypes:/portlets/completepdfs.py:78
 msgid "Edit Complete PDFs Portlet"
 msgstr ""
 
@@ -1893,6 +1883,11 @@ msgstr "Präsentation (Monographie)"
 msgid "Import"
 msgstr "Import"
 
+#. Default: "You must confirm the declaration of identity"
+#: recensio.policy:/userdataschema.py:29
+msgid "text_declaration_not_confirmed"
+msgstr ""
+
 #. Default: "Academic title"
 #: recensio.policy:/userdataschema.py:38
 msgid "label_academic_title"
@@ -2101,6 +2096,11 @@ msgstr "Abonnieren"
 msgid "Unsubscribe"
 msgstr "Abbestellen"
 
+#. Default: "download Gesamt-pdf"
+#: recensio.theme:/browser/templates/publicationlisting.pt:20
+msgid "label_download_complete_pdf"
+msgstr "Gesamtdatei herunterladen"
+
 #. Default: "Publications"
 #: recensio.theme:/browser/templates/publications.pt:17
 msgid "heading_publications"
@@ -2186,17 +2186,13 @@ msgstr "Zur Veröffentlichung eingereicht."
 msgid "Changes saved."
 msgstr ""
 
-# Was ist das? Wo steht das?
 #. Default: "Reference added."
 #: recensio.theme:/skins/recensio_theme/content_edit_impl.py:74
-#, fuzzy
 msgid "message_reference_added"
 msgstr ""
 
-# Was ist das? Wo steht das?
 #. Default: "Reference edited."
 #: recensio.theme:/skins/recensio_theme/content_edit_impl.py:77
-#, fuzzy
 msgid "message_reference_edited"
 msgstr ""
 
@@ -2679,9 +2675,6 @@ msgstr "Neueste Rezensionen"
 #: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:96
 msgid "label_secondary_nav_monographien"
 msgstr "Monographien"
-
-#~ msgid "label_download_complete_pdf"
-#~ msgstr "Gesamtdatei herunterladen"
 
 #~ msgid "Subtitle (journal)"
 #~ msgstr "Untertitel (Zeitschrift)"
