@@ -1615,8 +1615,9 @@ msgid "label_abbrev_herausgeber"
 msgstr "(dir.)"
 
 #: recensio.policy:/missing_18n_labels.py:38
+#, fuzzy
 msgid "label_abbrev_redaktion"
-msgstr ""
+msgstr "(dir.)"
 
 #: recensio.policy:/missing_18n_labels.py:39
 msgid "label_by_author"
