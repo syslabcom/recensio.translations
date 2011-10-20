@@ -58,11 +58,11 @@ msgstr ""
 
 #. Default: "Associated Journal"
 msgid "label_schema_associated_journal"
-msgstr "Associated Journal"
+msgstr ""
 
 #. Default "Associated Edited Volume"
 msgid "label_schema_associated_edited_volume"
-msgstr "Associated Edited Volume"
+msgstr ""
 
 #           your monograph on recensio.net. All fields marked with *
 #           are required.\n Please keep in mind that you may present
@@ -177,13 +177,13 @@ msgstr ""
 msgid "Type the code from the picture shown below or from the audio."
 msgstr ""
 
-#. Default: empty string
+#. Default: one space
 msgid "description_review_journal"
-msgstr " "
+msgstr ""
 
-#. Default: empty string
+#. Default: one space
 msgid "description_review_monograph"
-msgstr " "
+msgstr ""
 
 #. Default: "Presentation (article in a journal)"
 msgid "heading_add_PresentationArticleReview_title"
