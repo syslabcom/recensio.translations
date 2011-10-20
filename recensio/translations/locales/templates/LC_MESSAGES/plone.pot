@@ -56,7 +56,7 @@ msgstr ""
 msgid "label_schema_presented_resource"
 msgstr ""
 
-#. Default "Associated Journal"
+#. Default: "Associated Journal"
 msgid "label_schema_associated_journal"
 msgstr "Associated Journal"
 
