@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Wed Oct 19 12:15:57 2011\n"
-"PO-Revision-Date: 2011-10-19 18:26+0200\n"
+"PO-Revision-Date: 2011-10-21 15:47+0200\n"
 "Last-Translator: Kraus <eva.kraus@bsb-muenchen.de>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: de\n"
@@ -149,9 +149,8 @@ msgstr "Autor (Monographie)"
 
 #. Default: "Editor (monograph)"
 #: recensio.contenttypes:/browser/review.py:94
-#, fuzzy
 msgid "Editor (monograph)"
-msgstr "Autor (Monographie)"
+msgstr "Herausgeber (Monographie)"
 
 #. Default: "Language (article)"
 #: recensio.contenttypes:/browser/review.py:99
@@ -644,7 +643,7 @@ msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:162
 msgid "message_at_least_one_author_validation_error"
-msgstr ""
+msgstr "Bitte geben Sie mindestens einen Autor/Herausgeber an."
 
 #. Default: "You have exceeded the maximum number of characters you are permitted to use."
 #: recensio.contenttypes:/content/schemata.py:210
@@ -1653,9 +1652,10 @@ msgstr "(Hg.)"
 msgid "label_abbrev_herausgeber"
 msgstr "(Hg.)"
 
+# Dieses Feld ist überflüssig, bitte string streichen!
 #: recensio.policy:/missing_18n_labels.py:38
 msgid "label_abbrev_redaktion"
-msgstr "(Red.)"
+msgstr ""
 
 #: recensio.policy:/missing_18n_labels.py:39
 msgid "label_by_author"
@@ -2184,13 +2184,15 @@ msgstr "Zur Veröffentlichung eingereicht."
 
 #: recensio.theme:/skins/recensio_theme/content_edit_impl.py:30
 msgid "Changes saved."
-msgstr ""
+msgstr "Ihre Änderungen wurden gespeichert."
 
+# Wo steht das?
 #. Default: "Reference added."
 #: recensio.theme:/skins/recensio_theme/content_edit_impl.py:74
 msgid "message_reference_added"
 msgstr ""
 
+# Wo steht das?
 #. Default: "Reference edited."
 #: recensio.theme:/skins/recensio_theme/content_edit_impl.py:77
 msgid "message_reference_edited"
