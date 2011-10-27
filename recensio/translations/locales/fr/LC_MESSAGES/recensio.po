@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Wed Oct 19 12:15:57 2011\n"
-"PO-Revision-Date: 2011-10-20 12:30+0200\n"
-"Last-Translator: Administrator <deroiste@syslab.com>\n"
+"PO-Revision-Date: 2011-10-27 13:09+0200\n"
+"Last-Translator: Kraus <eva.kraus@bsb-muenchen.de>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -627,7 +627,7 @@ msgstr "Langue de la présentation"
 
 #: recensio.contenttypes:/content/schemata.py:102
 msgid "Language(s) of presented work"
-msgstr "Langue"
+msgstr "Langue de la monographie présentée"
 
 #: recensio.contenttypes:/content/schemata.py:128
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:31
@@ -643,7 +643,7 @@ msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:162
 msgid "message_at_least_one_author_validation_error"
-msgstr ""
+msgstr "Veuillez citer au moins un auteur/éditeur"
 
 #. Default: "You have exceeded the maximum number of characters you are permitted to use."
 #: recensio.contenttypes:/content/schemata.py:210
@@ -790,9 +790,8 @@ msgid "label_presentation_authors"
 msgstr "auteur (présentation)"
 
 #: recensio.contenttypes:/content/schemata.py:453
-#, fuzzy
 msgid "label_page_end_of_presented_review_in_journal"
-msgstr "Première page"
+msgstr "Dernière page"
 
 #: recensio.contenttypes:/content/schemata.py:465
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:93
@@ -901,7 +900,7 @@ msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:737
 msgid "label_editorial"
-msgstr ""
+msgstr "Editeur (monographie)"
 
 #: recensio.contenttypes:/content/schemata.py:753
 msgid "ISSN"
@@ -1598,6 +1597,7 @@ msgstr "Content Browsing"
 msgid "create_presentation"
 msgstr "Create new presentation"
 
+# String wird nicht gebraucht, Feld/Option wurde gestrichen
 #: recensio.policy:/missing_18n_labels.py:34
 msgid "label_abbrev_bearbeiter"
 msgstr ""
@@ -1614,9 +1614,10 @@ msgstr "(dir.)"
 msgid "label_abbrev_herausgeber"
 msgstr "(dir.)"
 
+# String wird nicht gebraucht, Feld/Option wurde gestrichen
 #: recensio.policy:/missing_18n_labels.py:38
 msgid "label_abbrev_redaktion"
-msgstr "(dir.)"
+msgstr ""
 
 #: recensio.policy:/missing_18n_labels.py:39
 msgid "label_by_author"
