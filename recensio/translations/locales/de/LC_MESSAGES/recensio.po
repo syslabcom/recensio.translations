@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Wed Oct 19 12:15:57 2011\n"
-"PO-Revision-Date: 2011-10-21 15:47+0200\n"
+"PO-Revision-Date: 2011-10-27 13:03+0200\n"
 "Last-Translator: Kraus <eva.kraus@bsb-muenchen.de>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: de\n"
@@ -904,7 +904,7 @@ msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:737
 msgid "label_editorial"
-msgstr "Herausgeber der präsentierten Monographie"
+msgstr "Herausgeber (Monographie)"
 
 #: recensio.contenttypes:/content/schemata.py:753
 msgid "ISSN"
@@ -1636,9 +1636,10 @@ msgstr "Themenbrowsing"
 msgid "create_presentation"
 msgstr "Neue Präsentation erstellen"
 
+# Feld/Option wurde gestrichen, bitte löschen!
 #: recensio.policy:/missing_18n_labels.py:34
 msgid "label_abbrev_bearbeiter"
-msgstr "(Bearb.)"
+msgstr ""
 
 #: recensio.policy:/missing_18n_labels.py:35
 msgid "label_abbrev_editor"
