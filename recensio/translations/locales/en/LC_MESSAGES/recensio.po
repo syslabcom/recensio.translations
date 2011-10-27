@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Wed Oct 19 12:15:57 2011\n"
-"PO-Revision-Date: 2011-10-26 12:17+0200\n"
-"Last-Translator: Administrator <deroiste@syslab.com>\n"
+"PO-Revision-Date: 2011-10-27 13:11+0200\n"
+"Last-Translator: Kraus <eva.kraus@bsb-muenchen.de>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
@@ -476,12 +476,12 @@ msgstr ""
 
 #: recensio.contenttypes:/content/presentationmonograph.py:92
 msgid "Author(s) of presented monograph"
-msgstr "Author(s) of presented monograph"
+msgstr "Author(s) of the presented monograph"
 
 #. Default: "Author(s) of presented monograph"
 #: recensio.contenttypes:/content/presentationmonograph.py:94
 msgid "description_presentation_monograph_authors"
-msgstr "Author(s) of presented monograph"
+msgstr "Author(s) of the presented monograph"
 
 #. Default: "Is the monograph you are presenting available free of charge online?"
 #: recensio.contenttypes:/content/presentationmonograph.py:98
@@ -1548,9 +1548,10 @@ msgstr "Content Browsing"
 msgid "create_presentation"
 msgstr "Create new presentation"
 
+# Feld/Option wurde gestrichen, bitte löschen.
 #: recensio.policy:/missing_18n_labels.py:34
 msgid "label_abbrev_bearbeiter"
-msgstr "(ed.)"
+msgstr ""
 
 #: recensio.policy:/missing_18n_labels.py:35
 msgid "label_abbrev_editor"
@@ -1564,6 +1565,7 @@ msgstr "(eds.)"
 msgid "label_abbrev_herausgeber"
 msgstr "(ed.)"
 
+# Feld/Option wurde gestrichen, bitte löschen.
 #: recensio.policy:/missing_18n_labels.py:38
 msgid "label_abbrev_redaktion"
 msgstr ""
