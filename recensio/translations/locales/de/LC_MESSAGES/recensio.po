@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: Thu Oct 27 15:44:04 2011\n"
-"PO-Revision-Date: 2011-11-03 14:25+0200\n"
-"Last-Translator: Kraus <eva.kraus@bsb-muenchen.de>\n"
+"POT-Creation-Date: Tue Nov  8 10:59:43 2011\n"
+"PO-Revision-Date: 2011-11-08 12:01+0200\n"
+"Last-Translator: reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -27,12 +27,11 @@ msgstr ""
 msgid "label_metadata_author_article"
 msgstr "Autor (Aufsatz)"
 
-# Wofür wird das gebraucht?
 #. Default: "Editor (article)"
 #: recensio.contenttypes:/browser/review.py:105
 #, fuzzy
 msgid "label_metadata_editor_article"
-msgstr ""
+msgstr "Titel (Aufsatz)"
 
 #. Default: "Title (article)"
 #: recensio.contenttypes:/browser/review.py:108
@@ -1884,6 +1883,10 @@ msgid "text_review_of"
 msgstr "Rezension über:"
 
 #: recensio.policy:/missing_18n_labels.py:81
+msgid "text_colon"
+msgstr ":"
+
+#: recensio.policy:/missing_18n_labels.py:82
 msgid "title_presentation_monograph"
 msgstr "Präsentation (Monographie)"
 
