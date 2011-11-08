@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Thu Oct 27 15:44:04 2011\n"
-"PO-Revision-Date: 2011-10-27 15:54+0200\n"
-"Last-Translator: Administrator <deroiste@syslab.com>\n"
+"PO-Revision-Date: 2011-11-03 14:25+0200\n"
+"Last-Translator: Kraus <eva.kraus@bsb-muenchen.de>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
@@ -150,9 +150,8 @@ msgstr "Author (monograph)"
 
 #. Default: "Editor (monograph)"
 #: recensio.contenttypes:/browser/review.py:94
-#, fuzzy
 msgid "Editor (monograph)"
-msgstr "Author (monograph)"
+msgstr "Editor (monograph)"
 
 #. Default: "Language (article)"
 #: recensio.contenttypes:/browser/review.py:99
@@ -319,7 +318,7 @@ msgstr "Information on the journal"
 #: recensio.contenttypes:/content/presentationarticlereview.py:51
 #: recensio.contenttypes:/content/presentationcollection.py:65
 msgid "label_presentation_article_authors"
-msgstr "Author(s) of presented article"
+msgstr "Author(s) of the presented article"
 
 #. Default: "Please give a brief and clear outline of your thesis statements, your methodology and/or your discussion of existing research approaches. We would kindly ask you to avoid a mere summary of your text. Don't be shy, however, of wording your statements in a provocative way. By separating out paragraphs you will make your statement more readable. You can increase the number of characters available for your own presentation from 4000 to 6000 by commenting on an already existing review/presentation on recensio.net. Please note that both comments and presentations will be checked by the editorial team before being published in order to prevent misuse. Because of this texts will be available online at the earliest after three working days."
 #: recensio.contenttypes:/content/presentationarticlereview.py:54
@@ -369,7 +368,7 @@ msgstr "presented text"
 
 #: recensio.contenttypes:/content/presentationcollection.py:41
 msgid "Title / Subtitle"
-msgstr "Title / Subtitle"
+msgstr "Title. Subtitle"
 
 #. Default: "Information on the associated edited volume"
 #: recensio.contenttypes:/content/presentationcollection.py:42
@@ -622,7 +621,7 @@ msgstr "Language(s) of presentation"
 
 #: recensio.contenttypes:/content/schemata.py:102
 msgid "Language(s) of presented work"
-msgstr "Language(s) of presented work"
+msgstr "Language(s) of the presented work"
 
 #: recensio.contenttypes:/content/schemata.py:128
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:31
@@ -757,11 +756,11 @@ msgstr "Page number (end)"
 
 #: recensio.contenttypes:/content/schemata.py:418
 msgid "label_page_start_of_presented_text_in_print"
-msgstr "Page numbers of presented text"
+msgstr "First page"
 
 #: recensio.contenttypes:/content/schemata.py:419
 msgid "description_page_number_of_presented_text_in_print"
-msgstr "First page"
+msgstr "Page numbers of the presented article"
 
 #: recensio.contenttypes:/content/schemata.py:429
 msgid "label_page_end_of_presented_text_in_print"
@@ -773,7 +772,7 @@ msgstr "First page"
 
 #: recensio.contenttypes:/content/schemata.py:443
 msgid "description_page_number_of_presented_review_in_journal"
-msgstr "Page numbers of presented article"
+msgstr "Page numbers of the review"
 
 #: recensio.contenttypes:/content/schemata.py:45
 msgid "label_presentation_authors"
@@ -892,7 +891,7 @@ msgstr ""
 #: recensio.contenttypes:/content/schemata.py:734
 msgid "help_authors_or_editors"
 msgstr ""
-"Please fill in either authors OR editors (exception: Complete Works etc.)"
+"Please fill in either authors OR editors (exception: Complete Works etc.):"
 
 #: recensio.contenttypes:/content/schemata.py:748
 msgid "label_editorial"

@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Thu Oct 27 15:44:04 2011\n"
-"PO-Revision-Date: 2011-10-27 15:55+0200\n"
-"Last-Translator: Administrator <deroiste@syslab.com>\n"
+"PO-Revision-Date: 2011-11-07 12:00+0200\n"
+"Last-Translator: Kathrin_Liakov <liakov@bsb-muenchen.de>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -149,7 +149,7 @@ msgstr "Auteur (monographie)"
 #. Default: "Editor (monograph)"
 #: recensio.contenttypes:/browser/review.py:94
 msgid "Editor (monograph)"
-msgstr "Auteur (monographie)"
+msgstr "Éditeur (monographie)"
 
 #. Default: "Language (article)"
 #: recensio.contenttypes:/browser/review.py:99
@@ -367,7 +367,7 @@ msgstr "Texte présenté"
 
 #: recensio.contenttypes:/content/presentationcollection.py:41
 msgid "Title / Subtitle"
-msgstr "Titre / Sous-titre"
+msgstr "Titre. Sous-titre"
 
 #. Default: "Information on the associated edited volume"
 #: recensio.contenttypes:/content/presentationcollection.py:42
@@ -376,7 +376,7 @@ msgstr "Informations sur le recueil"
 
 #: recensio.contenttypes:/content/presentationcollection.py:56
 msgid "Editor(s)"
-msgstr "Directeur de la publication"
+msgstr "Éditeur(s)"
 
 #: recensio.contenttypes:/content/presentationcollection.py:57
 #: recensio.contenttypes:/content/presentationonlineresource.py:39
@@ -420,14 +420,14 @@ msgstr "Ajouter la page de couverture"
 #: recensio.contenttypes:/content/presentationmonograph.py:106
 msgid "description_presentation_monograph_review"
 msgstr ""
-"Veuillez ici formuler de manière succincte les principales thèses "
+"Veuillez formuler ici, de manière succincte, les principales thèses "
 "développées dans votre ouvrage, votre méthodologie et/ou votre point de vue "
-"sur les approches de recherches actuelles. Veuillez éviter le simple "
-"copier/coller de la table des matières et n’ayez pas peur de faire débat.\n"
+"sur les approches de recherches actuelles. Veuillez éviter les simples "
+"tables des matières et n’ayez pas peur de faire débat.\n"
 "La présentation de votre texte sous forme de paragraphes vous permettra de "
 "rendre votre texte plus lisible.\n"
 "En commentant une recension/présentation déjà en ligne sur recensio.net, le "
-"nombre de caractères attribué à votre présentation personnelle passera de "
+"nombre de caractères attribués à votre présentation personnelle passera de "
 "4000 à 6000 caractères.\n"
 "Les commentaires et présentations suggérés sur recensio.net sont "
 "préalablement filtrés par un modérateur, afin d’éviter tout abus. De ce "
@@ -627,7 +627,7 @@ msgstr "Langue de la présentation"
 
 #: recensio.contenttypes:/content/schemata.py:102
 msgid "Language(s) of presented work"
-msgstr "Langue de la monographie présentée"
+msgstr "Langue de la publication présentée"
 
 #: recensio.contenttypes:/content/schemata.py:128
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:31
@@ -783,11 +783,11 @@ msgstr "Première page"
 
 #: recensio.contenttypes:/content/schemata.py:443
 msgid "description_page_number_of_presented_review_in_journal"
-msgstr "Numéros de page de l'article présenté"
+msgstr "Numéros de page de la recension"
 
 #: recensio.contenttypes:/content/schemata.py:45
 msgid "label_presentation_authors"
-msgstr "auteur (présentation)"
+msgstr "Nom"
 
 #: recensio.contenttypes:/content/schemata.py:453
 msgid "label_page_end_of_presented_review_in_journal"
@@ -903,7 +903,7 @@ msgstr ""
 msgid "help_authors_or_editors"
 msgstr ""
 "Veuillez citer seulement soit des auteurs soit des éditeurs (exception: "
-"oeuvres complètes)"
+"oeuvres complètes):"
 
 #: recensio.contenttypes:/content/schemata.py:748
 msgid "label_editorial"
@@ -1815,7 +1815,7 @@ msgstr "RSS feeds"
 
 #: recensio.policy:/missing_18n_labels.py:77
 msgid "text_in"
-msgstr "in :"
+msgstr "dans&nbsp;:"
 
 #: recensio.policy:/missing_18n_labels.py:78
 msgid "text_pages"
@@ -1823,7 +1823,7 @@ msgstr "p."
 
 #: recensio.policy:/missing_18n_labels.py:79
 msgid "text_presentation_of"
-msgstr "présentation de :"
+msgstr "présentation de&nbsp;:"
 
 #: recensio.policy:/missing_18n_labels.py:8
 msgid "Folder"
@@ -1831,7 +1831,7 @@ msgstr "Dossier"
 
 #: recensio.policy:/missing_18n_labels.py:80
 msgid "text_review_of"
-msgstr "recension de :"
+msgstr "recension de&nbsp;:"
 
 #: recensio.policy:/missing_18n_labels.py:81
 msgid "title_presentation_monograph"
@@ -2191,7 +2191,8 @@ msgstr "compte-rendu fait par ${review_authors}"
 #: recensio.theme:/browser/filtersearch.pt:179
 #: recensio.theme:/browser/topical.pt:106
 msgid "source_journal"
-msgstr "dans: ${get_publication_title}, ${get_volume_title}, ${get_issue_title}"
+msgstr ""
+"dans : ${get_publication_title}, ${get_volume_title}, ${get_issue_title}"
 
 #. Default: "Presented by ${review_authors}"
 #: recensio.theme:/skins/recensio_theme/search.pt:213

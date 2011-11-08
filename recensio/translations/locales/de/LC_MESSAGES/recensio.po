@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Thu Oct 27 15:44:04 2011\n"
-"PO-Revision-Date: 2011-10-27 15:54+0200\n"
-"Last-Translator: Administrator <deroiste@syslab.com>\n"
+"PO-Revision-Date: 2011-11-03 14:25+0200\n"
+"Last-Translator: Kraus <eva.kraus@bsb-muenchen.de>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -27,11 +27,12 @@ msgstr ""
 msgid "label_metadata_author_article"
 msgstr "Autor (Aufsatz)"
 
+# Wofür wird das gebraucht?
 #. Default: "Editor (article)"
 #: recensio.contenttypes:/browser/review.py:105
 #, fuzzy
 msgid "label_metadata_editor_article"
-msgstr "Titel (Aufsatz)"
+msgstr ""
 
 #. Default: "Title (article)"
 #: recensio.contenttypes:/browser/review.py:108
@@ -371,7 +372,7 @@ msgstr "präsentierter Text"
 
 #: recensio.contenttypes:/content/presentationcollection.py:41
 msgid "Title / Subtitle"
-msgstr "Haupttitel / Untertitel"
+msgstr "Haupttitel.  Untertitel"
 
 #. Default: "Information on the associated edited volume"
 #: recensio.contenttypes:/content/presentationcollection.py:42
@@ -787,7 +788,7 @@ msgstr "Erste Seite"
 
 #: recensio.contenttypes:/content/schemata.py:443
 msgid "description_page_number_of_presented_review_in_journal"
-msgstr "Seitenangaben des rezensierten Textes"
+msgstr "Seitenangaben der Rezension"
 
 #: recensio.contenttypes:/content/schemata.py:45
 msgid "label_presentation_authors"
@@ -907,7 +908,7 @@ msgstr ""
 msgid "help_authors_or_editors"
 msgstr ""
 "Bitte jeweils nur Autoren ODER Herausgeber angeben (Ausnahme: Gesammelte "
-"Werke u.ä.)"
+"Werke u.ä.):"
 
 #: recensio.contenttypes:/content/schemata.py:748
 msgid "label_editorial"
@@ -1880,7 +1881,7 @@ msgstr "Ordner"
 
 #: recensio.policy:/missing_18n_labels.py:80
 msgid "text_review_of"
-msgstr "Rezension von:"
+msgstr "Rezension über:"
 
 #: recensio.policy:/missing_18n_labels.py:81
 msgid "title_presentation_monograph"
