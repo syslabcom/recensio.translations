@@ -1,10 +1,10 @@
 Changelog
 =========
 
-2.1 (unreleased)
+2.1 (2012-06-14)
 ----------------
 
-- Nothing changed yet.
+- Number of chars updates
 
 
 2.0 (2011-11-08)
