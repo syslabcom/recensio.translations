@@ -211,7 +211,7 @@ msgstr "Sprache"
 #. Default: "Some required fields are empty. Please check both grey tabs"
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:4
 msgid "missing_required_fields"
-msgstr "Sie können Ihre Präsentation erst abspeichern/einreichen, wenn all Pflichtfelder [rotes Viereck] ausgefüllt sind. Bitte prüfen Sie auch die anderen Reiter (Formularanfang)."
+msgstr "Sie können Ihre Präsentation erst abspeichern/einreichen, wenn alle Pflichtfelder [rotes Viereck] ausgefüllt sind. Bitte prüfen Sie auch die anderen Reiter (Formularanfang)."
 
 #. Default: "Keywords"
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:49
@@ -1067,8 +1067,8 @@ msgstr ""
 "\n"
 "recensio.net ist ein DFG-gefördertes Angebot der Bayerischen "
 "Staatsbibliothek, des Deutschen Historischen Instituts Paris und des "
-"Instituts für Europäische Geschichte Mainz. Weitere Informationen http://www."
-"recensio.net/ueberuns/index_html"
+"Leibniz-Instituts für Europäische Geschichte Mainz. Weitere Informationen "
+"http://www.recensio.net/ueberuns/index_html"
 
 #: recensio.policy:/browser/email.py:332
 #: recensio.policy:/missing_18n_labels.py:60
@@ -1099,7 +1099,7 @@ msgstr ""
 "\n"
 "recensio.net ist ein DFG-gefördertes Angebot der Bayerischen "
 "Staatsbibliothek, des Deutschen Historischen Instituts Paris und des "
-"Instituts für Europäische Geschichte Mainz. Weitere Informationen http://www."
+"Leibniz-Instituts für Europäische Geschichte Mainz. Weitere Informationen http://www."
 "recensio.net/ueberuns/index_html"
 
 #: recensio.policy:/browser/email.py:358
@@ -1131,7 +1131,7 @@ msgstr ""
 "\n"
 "recensio.net ist ein DFG-gefördertes Angebot der Bayerischen "
 "Staatsbibliothek, des Deutschen Historischen Instituts Paris und des "
-"Instituts für Europäische Geschichte Mainz. Weitere Informationen http://www."
+"Leibniz-Instituts für Europäische Geschichte Mainz. Weitere Informationen http://www."
 "recensio.net/ueberuns/index_html"
 
 #: recensio.policy:/browser/email.py:365
@@ -1162,7 +1162,7 @@ msgstr ""
 "\n"
 "recensio.net ist ein DFG-gefördertes Angebot der Bayerischen "
 "Staatsbibliothek, des Deutschen Historischen Instituts Paris und des "
-"Instituts für Europäische Geschichte Mainz. Weitere Informationen http://www."
+"Leibniz-Instituts für Europäische Geschichte Mainz. Weitere Informationen http://www."
 "recensio.net/ueberuns/index_html"
 
 #: recensio.policy:/browser/email.py:388
@@ -1537,7 +1537,7 @@ msgstr ""
 "\n"
 "recensio.net ist ein DFG-gefördertes Angebot der Bayerischen "
 "Staatsbibliothek, des Deutschen Historischen Instituts Paris und des "
-"Instituts für Europäische Geschichte Mainz. Weitere Informationen finden Sie "
+"Leibniz-Instituts für Europäische Geschichte Mainz. Weitere Informationen finden Sie "
 "unter ${concept_url}"
 
 #: recensio.policy:/missing_18n_labels.py:10
@@ -1559,7 +1559,7 @@ msgstr "Wartend"
 #: recensio.policy:/missing_18n_labels.py:14
 #: recensio.theme:/skins/recensio_theme/add_new_item.pt:85
 msgid "Presentation Article Review"
-msgstr "Präsentation (Aufsatz in Zeitschift)"
+msgstr "Präsentation (Aufsatz in Zeitschrift)"
 
 #: recensio.policy:/missing_18n_labels.py:15
 msgid "Presentation Article edited Volume"
@@ -1773,7 +1773,7 @@ msgstr ""
 "\n"
 "recensio.net ist ein DFG-gefördertes Angebot der Bayerischen "
 "Staatsbibliothek, des Deutschen Historischen Instituts Paris und des "
-"Instituts für Europäische Geschichte Mainz. Weitere Informationen http://www."
+"Leibniz-Instituts für Europäische Geschichte Mainz. Weitere Informationen http://www."
 "recensio.net/ueberuns/index_html"
 
 #: recensio.policy:/missing_18n_labels.py:55
