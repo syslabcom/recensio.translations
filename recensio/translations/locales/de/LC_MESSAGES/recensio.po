@@ -1196,7 +1196,7 @@ msgstr ""
 "recensio.net ist ein DFG-gefördertes Angebot der Bayerischen "
 "Staatsbibliothek, der Universität zu Köln und des Leibniz-Instituts für europäische Geschichte Mainz. "
 "Weitere Informationen finden Sie "
-"unter ${concept_url}"
+"unter http://www.recensio.net/ueberuns/index_html"
 
 #. Default: ""
 #: recensio.policy:/browser/email.py:448

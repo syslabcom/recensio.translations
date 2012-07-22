@@ -842,7 +842,6 @@ msgstr "Subject headings"
 
 #. Default: "Mehrere Schlagw\303\266rter bitte untereinander (per Return-Taste) auflisten, keine Kommas verwenden."
 #: recensio.contenttypes:/content/schemata.py:629
-#, fuzzy
 msgid "description_subject"
 msgstr "Please list multiple headings by creating breaks (return key), not by placing commas."
 
@@ -955,7 +954,6 @@ msgstr "Information on presented work"
 
 #. Default: "Mit gedr\303\274ckter Strg-Taste k\303\266nnen mehrere Zeilen gleichzeitig ausgew\303\244hlt werden."
 #: recensio.contenttypes:/content/schemata.py:94
-#, fuzzy
 msgid "description_ctrl_for_multiple"
 msgstr "You can select several items by holding down CTRL while clicking."
 
@@ -1578,7 +1576,6 @@ msgid "label_abbrev_herausgeber"
 msgstr "(ed.)"
 
 #: recensio.policy:/missing_18n_labels.py:38
-#, fuzzy
 msgid "label_abbrev_redaktion"
 msgstr "(ed.)"
 

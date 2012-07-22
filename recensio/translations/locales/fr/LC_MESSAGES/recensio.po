@@ -858,7 +858,6 @@ msgstr "Mots-clés"
 
 #. Default: "Mehrere Schlagw\303\266rter bitte untereinander (per Return-Taste) auflisten, keine Kommas verwenden."
 #: recensio.contenttypes:/content/schemata.py:629
-#, fuzzy
 msgid "description_subject"
 msgstr "Faire la liste des mots-clefs les-uns en dessous des autres (touche renvoi à la ligne), ne pas ajouter de virgule."
 
@@ -972,7 +971,6 @@ msgstr "Informations sur la publication présentée"
 
 #. Default: "Mit gedr\303\274ckter Strg-Taste k\303\266nnen mehrere Zeilen gleichzeitig ausgew\303\244hlt werden."
 #: recensio.contenttypes:/content/schemata.py:94
-#, fuzzy
 msgid "description_ctrl_for_multiple"
 msgstr "En appuyant sur la touche Strg vous pouvez sélectionner plusieurs lignes à la fois."
 
@@ -1187,7 +1185,7 @@ msgstr ""
 "Nous vous prions d'agréer, Monsieur/Madame, l'expression de nos sincères salutations,\n"
 "Votre équipe recensio.net\n"
 "\n"
-"Soutenue par la DFG, recensio.net est une initiative conjointe de la Bibliothèque d’État de Bavière, l’université de Cologne et l' Institut Leibniz pour l’histoire européenne de Mayence. Vous trouverez de plus amples informations sur ${concept_url}.\n"
+"Soutenue par la DFG, recensio.net est une initiative conjointe de la Bibliothèque d’État de Bavière, l’université de Cologne et l' Institut Leibniz pour l’histoire européenne de Mayence. Vous trouverez de plus amples informations sur http://www.recensio.net/ueberuns-fr.\n"
 
 #. Default: ""
 #: recensio.policy:/browser/email.py:448
@@ -1619,7 +1617,6 @@ msgid "label_abbrev_herausgeber"
 msgstr "(dir.)"
 
 #: recensio.policy:/missing_18n_labels.py:38
-#, fuzzy
 msgid "label_abbrev_redaktion"
 msgstr "(dir.)"
 
