@@ -30,7 +30,7 @@ setup(name='recensio.translations',
           'zc.testbrowser'
       ],
       extras_require={
-          'podiff': ['polib'],
+          'podiff': ['polib', 'mr.developer'],
       },
       entry_points="""
       # -*- Entry points: -*-

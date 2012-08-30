@@ -10,14 +10,16 @@ RecensioMessageFactory = MessageFactory('recensio')
 def initialize(context):
     """Initializer called when used as a Zope 2 product."""
 
-def podiff(svnurl):
+def podiff(vcsurl):
     """ Shows differences between the po files in the working copy of this
-        package and their counterparts in the svn repository. Only cares
+        package and their counterparts in the repository. Only cares
         about msgid and msgstr, not about position in the file, comments, etc.
     """
-    import os, subprocess, sys, tempfile, urllib, polib
+    import os, subprocess, tempfile, urllib, polib, re
+    from mr.developer.common import which
 
-    svnurl = svnurl.split(' ')[-1]
+    vcstype = vcsurl.split(' ')[0]
+    vcsurl = vcsurl.split(' ')[1]
     pofiles = []
     def visit(pofiles, dirname, names):
         pofiles.extend(
@@ -31,32 +33,56 @@ def podiff(svnurl):
         #out = subprocess.Popen(("/usr/bin/svn info %s" % pofile).split(" "), stdout=subprocess.PIPE).stdout.read()
         #out = out[out.find('URL: ')+5:]
         #pofileurl = out[:out.find('\n')]
-        proto, string = urllib.splittype(svnurl)
+        proto, string = urllib.splittype(vcsurl)
         host, path = urllib.splithost(string)
         relpath = os.path.relpath(pofile, basepath)
-        pofileurl = os.path.join(svnurl, relpath)
+        pofileurl = os.path.join(vcsurl, relpath)
 
         tmp, tmppath = tempfile.mkstemp(text=True)
-        urllib.urlretrieve(pofileurl, tmppath)
+        if vcstype == 'svn':
+            urllib.urlretrieve(pofileurl, tmppath)
+        elif vcstype == 'git':
+            cmd = which('git')
+            branchmatch = re.search('branch=(\S*)', vcsurl)
+            if branchmatch:
+                branch = branchmatch.group(1)
+            else:
+                branch = 'master'
+            cmdline = '%s show %s:%s' % (cmd, branch, relpath)
+            err, errtmppath = tempfile.mkstemp(text=True)
+            out = subprocess.Popen(cmdline.split(' '), 
+                  stdout=subprocess.PIPE,
+                  stderr=err,
+                  cwd=basepath).stdout.read()
+            err = open(errtmppath).read()
+            if err:
+                print(err)
+                return
+            outfile = open(tmppath, 'w')
+            outfile.write(out)
+            outfile.close()
+        else:
+            print('Sorry, %s is not supported yet.')
+            return
 
         polocal = polib.pofile(pofile)
-        posvn = polib.pofile(tmppath)
+        povcs = polib.pofile(tmppath)
 
         diff = []
 
-        for entrysvn in posvn:
-            entrylocal = polocal.find(entrysvn.msgid)
+        for entryvcs in povcs:
+            entrylocal = polocal.find(entryvcs.msgid)
             if not entrylocal:
-                diff += ['-msgid "%s"' % entrysvn.msgid]
-                diff += ['-msgstr "%s"' % entrysvn.msgstr]
+                diff += ['-msgid "%s"' % entryvcs.msgid]
+                diff += ['-msgstr "%s"' % entryvcs.msgstr]
                 diff += ['']
             else:
-                if not entrysvn.msgstr == entrylocal.msgstr:
-                    diff += [' msgid "%s"' % entrysvn.msgid]
-                    diff += ['-msgstr "%s"' % entrysvn.msgstr]
+                if not entryvcs.msgstr == entrylocal.msgstr:
+                    diff += [' msgid "%s"' % entryvcs.msgid]
+                    diff += ['-msgstr "%s"' % entryvcs.msgstr]
                     diff += ['+msgstr "%s"' % entrylocal.msgstr]
                     diff += ['']
-        for entrylocal in filter(lambda e: not posvn.find(e.msgid), polocal):
+        for entrylocal in filter(lambda e: not povcs.find(e.msgid), polocal):
             diff += ['+msgid "%s"' % entrylocal.msgid]
             diff += ['+msgstr "%s"' % entrylocal.msgstr]
             diff += ['']
