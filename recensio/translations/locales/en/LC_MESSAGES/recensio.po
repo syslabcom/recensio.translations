@@ -465,7 +465,7 @@ msgstr "URL"
 
 #: recensio.contenttypes:/content/presentationmonograph.py:74
 msgid "Existing print reviews"
-msgstr ""
+msgstr "Existing print reviews"
 
 #. Default: "Insert here the place of publication of reviews on your text that have already been published in print."
 #: recensio.contenttypes:/content/presentationmonograph.py:75
@@ -914,7 +914,7 @@ msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:787
 msgid "label_editorial"
-msgstr "Editor(s) (monograph)"
+msgstr "Editor(s) of the presented monograph"
 
 #: recensio.contenttypes:/content/schemata.py:803
 msgid "ISSN"
