@@ -4,7 +4,7 @@ Changelog
 2.2.0.2 (unreleased)
 --------------------
 
-- Nothing changed yet.
+- Just translations.
 
 
 2.2.0.1 (2012-07-22)
