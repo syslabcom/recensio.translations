@@ -1664,7 +1664,7 @@ msgstr "téléchargé depuis recensio.net"
 
 #: recensio.policy:/missing_18n_labels.py:41
 msgid "label_participate"
-msgstr "Participer"
+msgstr "FAQ"
 
 #: recensio.policy:/missing_18n_labels.py:42
 msgid "label_presentations"
