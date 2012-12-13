@@ -634,7 +634,7 @@ msgstr "Titel (Zeitschrift)"
 
 #: recensio.contenttypes:/content/schemata.py:101
 msgid "Language(s) of presented resource"
-msgstr ""
+msgstr "Sprache(n) der präsentierten Ressource"
 
 #: recensio.contenttypes:/content/schemata.py:104
 msgid "Language(s) of presented work"
