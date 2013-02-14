@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Thu Feb 14 12:26:54 2013\n"
+"POT-Creation-Date: Thu Feb 14 12:31:15 2013\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -1686,9 +1686,19 @@ msgstr ""
 msgid "Unsubscribe"
 msgstr ""
 
+#: recensio.theme:/browser/templates/nextprevious.pt:18
+#. Default: "Go to previous item"
+msgid "title_previous_item"
+msgstr ""
+
 #: recensio.theme:/browser/templates/nextprevious.pt:23
 #. Default: "Previous:"
 msgid "label_previous_review_item"
+msgstr ""
+
+#: recensio.theme:/browser/templates/nextprevious.pt:32
+#. Default: "Go to next item"
+msgid "title_next_item"
 msgstr ""
 
 #: recensio.theme:/browser/templates/nextprevious.pt:37
