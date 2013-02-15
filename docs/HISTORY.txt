@@ -4,7 +4,8 @@ Changelog
 2.2.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Latest translation for Plone 4.2 release
+  [gerken]
 
 
 2.2.2 (2013-01-30)
