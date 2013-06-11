@@ -1872,7 +1872,7 @@ msgstr ""
 "Yours sincerely\n"
 "The recensio.net editorial team\n"
 "\n"
-"recensio.net is a joint project of the Bavarian State Library (BSB) Munich, the German Historical Institute Paris (DHIP) and the Leibniz Institute for European History (IEG) Mainz – funded by the German Research Foundation (DFG). http://www.recensio.net/ueberuns-en?set_language=en"
+"recensio.net is a joint project of the Bavarian State Library (BSB) Munich, the University of Cologne and the Leibniz Institute for European History (IEG) Mainz – funded by the German Research Foundation (DFG). http://www.recensio.net/ueberuns-en?set_language=en"
 
 #: recensio.policy:/browser/email.py:441
 msgid "mail_new_comment_body_presentation_commenter"
