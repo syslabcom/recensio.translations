@@ -841,7 +841,7 @@ msgstr ""
 "Cordialement,\n"
 "L’équipe recensio.net\n"
 "\n"
-"Financée par la Fondation allemande pour la recherche (DFG), recensio.net est une initiative conjointe de la Bibliothèque d’État de Bavière, de l’université de Cologne et l' Institut Leibniz pour l’histoire européenne de Mayence. En savoir plus ${concept_url}"
+"Financée par la Fondation allemande pour la recherche (DFG), recensio.net est une initiative conjointe de la Bibliothèque d’État de Bavière, de l’Institut historique allemand de Paris et l' Institut Leibniz pour l’histoire européenne de Mayence. En savoir plus ${concept_url}"
 
 #. Default: "The subject of the e-mail. Thats what the user sees first when receiving the mail"
 #: recensio.policy:/interfaces.py:118
