@@ -850,7 +850,7 @@ msgstr ""
 "Mit freundlichen Grüßen,\n"
 "Ihr recensio.net-Team\n"
 "\n"
-"recensio.net ist ein DFG-gefördertes Angebot der Bayerischen Staatsbibliothek, des Deutschen Historischen Instituts Paris und des Leibniz-Instituts für Europäische Geschichte Mainz. Weitere Informationen finden Sie unter ${concept_url}"
+"recensio.net ist ein DFG-gefördertes Angebot der Bayerischen Staatsbibliothek, der Universität zu Köln und des Leibniz-Instituts für Europäische Geschichte Mainz. Weitere Informationen finden Sie unter ${concept_url}"
 
 #. Default: "The subject of the e-mail. Thats what the user sees first when receiving the mail"
 #: recensio.policy:/interfaces.py:118
