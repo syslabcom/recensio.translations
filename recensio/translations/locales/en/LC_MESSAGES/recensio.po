@@ -1682,7 +1682,7 @@ msgstr "Full text search"
 #. Default: "Aufs\303\244tze"
 #: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:105
 msgid "label_secondary_nav_aufsaetze"
-msgstr "Articles"
+msgstr "articles"
 
 #. Default: "Konzept"
 #: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:16
