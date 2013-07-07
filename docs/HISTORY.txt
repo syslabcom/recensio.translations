@@ -4,7 +4,9 @@ Changelog
 3.0.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- added BV number related translations, refs #7470 [reinhardt]
+- changed 'articles' to lower case, refs #5750 [reinhardt]
+- New Sponsor [do3cc]
 
 
 3.0.0 (2013-02-15)
