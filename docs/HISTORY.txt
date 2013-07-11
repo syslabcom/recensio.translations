@@ -4,7 +4,7 @@ Changelog
 3.0.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- added fr translations, refs #5592 (pilz)
 
 
 3.0.1 (2013-07-07)
