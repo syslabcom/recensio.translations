@@ -2382,12 +2382,12 @@ msgstr ""
 #. Default: "Creator"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:341
 msgid "label_author"
-msgstr "Créateur"
+msgstr "Auteur"
 
 #. Default: "Return items created by a particular person."
 #: recensio.theme:/skins/recensio_theme/search_form.pt:346
 msgid "help_search_author"
-msgstr "Chercher un article par créateur"
+msgstr "Chercher un texte (commentaire…) par auteur"
 
 #. Default: "Any Creator"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:355
@@ -2507,7 +2507,7 @@ msgstr "Le sujet sur lequel porte votre recherche"
 #. Default: "Schlagw\303\266rter"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:612
 msgid "label_tags"
-msgstr ""
+msgstr "Mots-clés"
 
 #. Default: "Return items matching some or all of these tags. Multiple words may be found by pressing <strong>Ctrl</strong> (or <strong>Apple</strong> key on Mac) while clicking the keywords."
 #: recensio.theme:/skins/recensio_theme/search_form.pt:616
