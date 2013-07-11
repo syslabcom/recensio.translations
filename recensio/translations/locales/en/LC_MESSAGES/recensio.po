@@ -2269,8 +2269,8 @@ msgstr "Advanced search"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:18
 msgid "description_advanced_search"
 msgstr ""
-"Using the following categories you can search and filter the entire platform "
-"(including the full texts of all reviews provided as pdf)"
+"Using the following categories, you can search and filter the content of the entire platform "
+"(including the full texts of all reviews provided as PDF files)"
 
 #. Default: "Language of the Review or Presentation"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:189
@@ -2285,12 +2285,12 @@ msgstr "Show items in the selected languages."
 #. Default: "Language of the Reviewed Works"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:215
 msgid "label_works_language"
-msgstr "Language of the reviewed works"
+msgstr "Language of the publication reviewed"
 
 #. Default: "Return items that review works in selected the languages."
 #: recensio.theme:/skins/recensio_theme/search_form.pt:220
 msgid "help_search_works_language"
-msgstr "Show items that review works in the selected languages."
+msgstr "Show reviews of publications written in the languages selected."
 
 #. Default: "Review status"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:244
@@ -2336,8 +2336,7 @@ msgstr "Title (monograph, article, magazine)"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:389
 msgid "help_titleOrShortname"
 msgstr ""
-"Title of the reviewed monograph, the article or the magazine in which the "
-"review has been published"
+"Title of the book/article reviewed, or of the journal in which the review has been published"
 
 #. Default: "Jahr"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:404
@@ -2347,7 +2346,7 @@ msgstr "Year"
 #. Default: "Erscheinungsjahr oder gez\303\244hltes Jahr"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:408
 msgid "help_year"
-msgstr "Year of publication or official year of publication"
+msgstr "Volume or year of publication"
 
 #. Default: "Volltextsuche"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:42
@@ -2372,7 +2371,7 @@ msgstr "Publisher"
 #. Default: "Verlag, in dem das Buch/die Zeitschrift erschienen ist"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:446
 msgid "help_publisher"
-msgstr "Publisher of the monograph/magazine"
+msgstr "Publisher of the book/journal"
 
 #. Default: "Reihe"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:461
@@ -2382,7 +2381,7 @@ msgstr "Series"
 #. Default: "The serie you are looking for."
 #: recensio.theme:/skins/recensio_theme/search_form.pt:465
 msgid "help_series"
-msgstr "Series containing the publication"
+msgstr "Series to which the publication belongs"
 
 #. Default: "For a full text search, enter your search term here. Multiple words may be found by combining them with <strong>AND</strong> and <strong>OR</strong>."
 #: recensio.theme:/skins/recensio_theme/search_form.pt:48
@@ -2424,7 +2423,7 @@ msgstr "Period"
 #. Default: "The epoch that you are looking for"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:558
 msgid "help_epoch"
-msgstr "Relevant epoch(s)"
+msgstr "Relevant period(s)"
 
 #. Default: "Thema"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:584
@@ -2439,14 +2438,13 @@ msgstr "Relevant topic(s)"
 #. Default: "Schlagw\303\266rter"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:612
 msgid "label_tags"
-msgstr ""
+msgstr "Subject headings"
 
 #. Default: "Return items matching some or all of these tags. Multiple words may be found by pressing <strong>Ctrl</strong> (or <strong>Apple</strong> key on Mac) while clicking the keywords."
 #: recensio.theme:/skins/recensio_theme/search_form.pt:616
 msgid "help_search_tags"
 msgstr ""
-"Show items matching some or all of these tags. Several words may be selected "
-"by hitting \"Ctrl\" (or \"strong\" key on Mac) while selecting."
+"Show items matching some or all of these tags. Multiple selections can be made by pressing 'Ctrl' (or the 'strong' key on Mac) while selecting individual entries."
 
 #. Default: "Search"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:64
@@ -2472,12 +2470,12 @@ msgstr "match all"
 #. Default: "Zeitschriften"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:676
 msgid "label_magazines"
-msgstr "Magazines"
+msgstr "Journals"
 
 #. Default: "Findet Artikel, die in einer der ausgew\303\244hlten Zeitschrift erschienen sind."
 #: recensio.theme:/skins/recensio_theme/search_form.pt:677
 msgid "help_search_magazines"
-msgstr "Returns items published in one of the selected magazines."
+msgstr "Search for items published in one of the selected journals."
 
 #. Default: "Select All/None"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:701
@@ -2486,7 +2484,7 @@ msgstr "Select all/none"
 
 #: recensio.theme:/skins/recensio_theme/search_form.pt:737
 msgid "Display options"
-msgstr "Display options"
+msgstr "Filter options"
 
 #. Default: "Generelles"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:74
@@ -2521,7 +2519,7 @@ msgstr "Sort results"
 
 #: recensio.theme:/skins/recensio_theme/search_form.pt:833
 msgid "Sort the Search Results based on the selected criterion"
-msgstr "Sort the search results based on the selected criteria."
+msgstr "Sort search results by the following criteria"
 
 #: recensio.theme:/skins/recensio_theme/search_form.pt:840
 msgid "Creation Date"

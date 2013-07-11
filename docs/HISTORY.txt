@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 - added fr translations, refs #5592 (pilz)
+- corrected en translations, refs #5592 (pilz)
 
 
 3.0.1 (2013-07-07)

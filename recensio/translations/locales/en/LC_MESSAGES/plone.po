@@ -150,7 +150,7 @@ msgstr ""
 
 #. Default: "Suche in"
 msgid "label_item_type"
-msgstr "Search in"
+msgstr "Type of item"
 
 #. Default: "Einstellungsdatum"
 msgid "label_new_items_since"
@@ -271,3 +271,8 @@ msgstr "Submit for publication"
 #: recensio/theme/skins/recensio_theme/author.cpt:166
 msgid "label_login_to_send_feedback"
 msgstr "Log in to send message"
+
+#. Default: "Return items of a specific type."
+#: recensio.theme:/skins/recensio_theme/search_form.pt:752
+msgid "help_search_item_type"
+msgstr "Search specific types of items"
