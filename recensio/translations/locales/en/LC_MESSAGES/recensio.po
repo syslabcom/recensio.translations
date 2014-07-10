@@ -1077,7 +1077,7 @@ msgstr ""
 "recensio.net is a joint project of the Bavarian State Library, the "
 "University of Cologne, and the Leibniz Institute for European History (IEG) "
 "Mainz. It is funded by the German Research Foundation (DFG). You can find "
-"more information on http://www.recensio.net/ueberuns-en?set_language=en"
+"more information on http://www.recensio.net/ueberuns-en"
 
 #: recensio.policy:/browser/email.py:403
 #: recensio.policy:/missing_18n_labels.py:60
@@ -1108,7 +1108,7 @@ msgstr ""
 "recensio.net is a joint project of the Bavarian State Library, the "
 "University of Cologne, and the Leibniz Institute for European History (IEG) "
 "Mainz. It is funded by the German Research Foundation (DFG). You can find "
-"more information on http://www.recensio.net/ueberuns-en?set_language=en"
+"more information on http://www.recensio.net/ueberuns-en"
 
 #: recensio.policy:/browser/email.py:433
 #: recensio.policy:/missing_18n_labels.py:64
@@ -1139,7 +1139,7 @@ msgstr ""
 "recensio.net is a joint project of the Bavarian State Library, the "
 "University of Cologne, and the Leibniz Institute for European History (IEG) "
 "Mainz. It is funded by the German Research Foundation (DFG). You can find "
-"more information on http://www.recensio.net/ueberuns-en?set_language=en"
+"more information on http://www.recensio.net/ueberuns-en"
 
 #: recensio.policy:/browser/email.py:440
 #: recensio.policy:/missing_18n_labels.py:61
@@ -1169,7 +1169,7 @@ msgstr ""
 "recensio.net is a joint project of the Bavarian State Library, the "
 "University of Cologne, and the Leibniz Institute for European History (IEG) "
 "Mainz. It is funded by the German Research Foundation (DFG). You can find "
-"more information on http://www.recensio.net/ueberuns-en?set_language=en"
+"more information on http://www.recensio.net/ueberuns-en"
 
 #: recensio.policy:/browser/email.py:475
 msgid "mail_no_recipients"
@@ -1710,7 +1710,7 @@ msgstr ""
 "recensio.net is a joint project of the Bavarian State Library (BSB) Munich, "
 "the German Historical Institute Paris (DHIP) and the Leibniz Institute for "
 "European History (IEG) Mainz – funded by the German Research Foundation "
-"(DFG). More information http://www.recensio.net/ueberuns-en?set_language=en"
+"(DFG). More information http://www.recensio.net/ueberuns-en"
 
 #: recensio.policy:/missing_18n_labels.py:55
 msgid "mail_new_comment_body_review"
