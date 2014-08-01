@@ -2422,7 +2422,8 @@ msgstr "Autor/Herausgeber"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:292
 msgid "help_review_autor"
 msgstr ""
-"Autor von Monographie/Aufsatz/Kommentar oder Herausgeber des Sammelbandes"
+"Autor von Monographie/Aufsatz/Kommentar/Rezension/Präsentation oder "
+"Herausgeber eines Sammelwerks"
 
 #. Default: "Creator"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:341
@@ -2604,8 +2605,8 @@ msgstr "Anzeigeoptionen"
 
 #. Default: "Generelles"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:74
-msgid "label_general"
-msgstr "Generelles"
+msgid "label_persons"
+msgstr "Personen"
 
 #. Default: "Title"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:785

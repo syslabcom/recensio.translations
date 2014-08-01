@@ -2373,8 +2373,8 @@ msgstr "Auteurs/Directeur de publication"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:292
 msgid "help_review_autor"
 msgstr ""
-"Auteur (monographie/article/commentaire) ou directeur de publication "
-"(recueil)"
+"Auteur (monographie/article/commentaire/recensions/présentation) ou directeur"
+" de publication (recueil)"
 
 #. Default: "Creator"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:341
@@ -2556,8 +2556,8 @@ msgstr "Afficher les options"
 
 #. Default: "Generelles"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:74
-msgid "label_general"
-msgstr "Général"
+msgid "label_persons"
+msgstr "Persons"
 
 #. Default: "Title"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:785

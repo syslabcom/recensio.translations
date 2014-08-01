@@ -2120,8 +2120,8 @@ msgid "Display options"
 msgstr ""
 
 #: recensio.theme:/skins/recensio_theme/search_form.pt:74
-#. Default: "Generelles"
-msgid "label_general"
+#. Default: "Personen"
+msgid "label_persons"
 msgstr ""
 
 #: recensio.theme:/skins/recensio_theme/search_form.pt:785
