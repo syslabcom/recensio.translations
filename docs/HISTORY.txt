@@ -4,7 +4,9 @@ Changelog
 3.0.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- mail text corrections, refs #8154 [reinhardt]
+- Refs #8154 remove redundant parts of the URL for ueberuns [deroiste]
+- search related translations, refs #8196 [reinhardt]
 
 
 3.0.2 (2013-12-09)
