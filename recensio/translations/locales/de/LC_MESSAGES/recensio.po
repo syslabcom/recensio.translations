@@ -2522,7 +2522,7 @@ msgstr "Thematische Suche"
 #. Default: "Region"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:525
 msgid "label_region"
-msgstr "Region"
+msgstr "Raum"
 
 #. Default: "The region that you are looking for."
 #: recensio.theme:/skins/recensio_theme/search_form.pt:529
