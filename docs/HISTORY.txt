@@ -4,7 +4,7 @@ Changelog
 3.0.4 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- text changes, refs #10565 [reinhardt]
 
 
 3.0.3 (2014-08-05)
