@@ -2386,7 +2386,7 @@ msgstr "Series"
 #. Default: "The serie you are looking for."
 #: recensio.theme:/skins/recensio_theme/search_form.pt:465
 msgid "help_series"
-msgstr "Series to which the publication belongs"
+msgstr "Series of which the publication is part of"
 
 #. Default: "For a full text search, enter your search term here. Multiple words may be found by combining them with <strong>AND</strong> and <strong>OR</strong>."
 #: recensio.theme:/skins/recensio_theme/search_form.pt:48
