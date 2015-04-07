@@ -1,7 +1,13 @@
 Changelog
 =========
 
-3.0.4 (unreleased)
+3.0.5 (unreleased)
+------------------
+
+- Nothing changed yet.
+
+
+3.0.4 (2015-04-07)
 ------------------
 
 - text changes, refs #10565 [reinhardt]
