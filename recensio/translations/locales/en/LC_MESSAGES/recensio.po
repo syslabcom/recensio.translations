@@ -723,7 +723,7 @@ msgstr ""
 #. Default: "DOI"
 #: recensio.contenttypes:/content/schemata.py:314
 msgid "label_doi"
-msgstr ""
+msgstr "DOI"
 
 #. Default: "Digital Object Identifier"
 #: recensio.contenttypes:/content/schemata.py:318
