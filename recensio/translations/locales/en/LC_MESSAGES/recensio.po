@@ -733,7 +733,7 @@ msgstr ""
 #. Default: "Automatisch generierter Wert"
 #: recensio.contenttypes:/content/schemata.py:322
 msgid "label_doi_fallback"
-msgstr ""
+msgstr "Automatically generated value"
 
 #. Default: ""
 #: recensio.contenttypes:/content/schemata.py:335
