@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: Thu Jul  4 18:54:17 2013\n"
+"POT-Creation-Date: Thu Jan 21 16:01:03 2016\n"
 "PO-Revision-Date: 2011-11-08 12:02+0200\n"
 "Last-Translator: reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -26,152 +26,164 @@ msgstr ""
 "X-Generator: Pootle 2.0.4\n"
 "Generated-By: zope/app/locales/extract.py\n"
 
-#. Default: "Author (article)"
+#. Default: "Language (article)"
 #: recensio.contenttypes:/browser/review.py:102
+msgid "label_metadata_language_article"
+msgstr "Langue (article)"
+
+#. Default: "Author (article)"
+#: recensio.contenttypes:/browser/review.py:105
 msgid "label_metadata_author_article"
 msgstr "Auteur (article)"
 
 #. Default: "Editor (article)"
-#: recensio.contenttypes:/browser/review.py:105
+#: recensio.contenttypes:/browser/review.py:108
 msgid "label_metadata_editor_article"
 msgstr "Titre (article)"
 
 #. Default: "Title (article)"
-#: recensio.contenttypes:/browser/review.py:108
+#: recensio.contenttypes:/browser/review.py:111
 msgid "label_metadata_title_article"
 msgstr "Titre (article)"
 
 #. Default: "Title (edited volume)"
-#: recensio.contenttypes:/browser/review.py:111
+#: recensio.contenttypes:/browser/review.py:114
 msgid "label_metadata_title_edited_volume"
 msgstr "Titre (recueil)"
 
 #. Default: "Name (Internet resource)"
-#: recensio.contenttypes:/browser/review.py:115
+#: recensio.contenttypes:/browser/review.py:118
 msgid "label_metadata_name_resource"
 msgstr "Titre (ressource)"
 
 #. Default: "Language (Internet resource)"
-#: recensio.contenttypes:/browser/review.py:118
+#: recensio.contenttypes:/browser/review.py:121
 msgid "label_metadata_language_internet_resource"
 msgstr "Langue(s) de la ressource"
 
 #. Default: "Language (Journal)"
-#: recensio.contenttypes:/browser/review.py:122
+#: recensio.contenttypes:/browser/review.py:125
 msgid "label_metadata_language_review_journal"
 msgstr "Langue (revue)"
 
 #. Default: "Editor"
-#: recensio.contenttypes:/browser/review.py:125
+#: recensio.contenttypes:/browser/review.py:128
 msgid "label_metadata_editor"
 msgstr "Directeur de publication"
 
-#: recensio.contenttypes:/browser/review.py:141
+#: recensio.contenttypes:/browser/review.py:144
 msgid "metadata_pages"
 msgstr "Pages"
 
-#: recensio.contenttypes:/browser/review.py:144
+#: recensio.contenttypes:/browser/review.py:147
 msgid "label_metadata_review_author"
 msgstr "Auteur (recension)"
 
-#: recensio.contenttypes:/browser/review.py:148
+#: recensio.contenttypes:/browser/review.py:151
 msgid "label_metadata_presentation_author"
 msgstr "Auteur (présentation)"
 
-#: recensio.contenttypes:/browser/review.py:161
+#: recensio.contenttypes:/browser/review.py:164
 msgid "metadata_review_type_code"
 msgstr "Type de document"
 
-#: recensio.contenttypes:/browser/review.py:164
+#: recensio.contenttypes:/browser/review.py:167
 msgid "label_metadata_reference_authors"
 msgstr "Auteurs de référence"
 
-#: recensio.contenttypes:/browser/review.py:168
+#: recensio.contenttypes:/browser/review.py:171
 msgid "label_metadata_institution"
 msgstr "Institution"
 
-#: recensio.contenttypes:/browser/review.py:171
+#: recensio.contenttypes:/browser/review.py:174
 msgid "metadata_recensio_id"
 msgstr "ID-recensio.net"
 
-#: recensio.contenttypes:/browser/review.py:187
-#: recensio.contenttypes:/content/schemata.py:89
+#: recensio.contenttypes:/browser/review.py:190
+#: recensio.contenttypes:/content/schemata.py:90
 msgid "Subject classification"
 msgstr "Thème"
 
-#: recensio.contenttypes:/browser/review.py:189
-#: recensio.contenttypes:/content/schemata.py:91
+#: recensio.contenttypes:/browser/review.py:192
+#: recensio.contenttypes:/content/schemata.py:92
 msgid "Time classification"
 msgstr "Période"
 
-#: recensio.contenttypes:/browser/review.py:191
-#: recensio.contenttypes:/content/schemata.py:93
+#: recensio.contenttypes:/browser/review.py:194
+#: recensio.contenttypes:/content/schemata.py:94
 msgid "Regional classification"
 msgstr "Espace"
 
-#: recensio.contenttypes:/browser/review.py:26
+#: recensio.contenttypes:/browser/review.py:29
 msgid "Publication Title"
 msgstr "Titre de la publication"
 
-#: recensio.contenttypes:/browser/review.py:27
+#: recensio.contenttypes:/browser/review.py:30
 msgid "heading_metadata_journal"
 msgstr "Revue"
 
-#: recensio.contenttypes:/browser/review.py:28
+#: recensio.contenttypes:/browser/review.py:31
 msgid "Volume Title"
 msgstr "Tome"
 
-#: recensio.contenttypes:/browser/review.py:29
+#: recensio.contenttypes:/browser/review.py:32
 msgid "Issue Title"
 msgstr "Titre du numéro"
 
 #. Default: "Official year of publication"
-#: recensio.contenttypes:/browser/review.py:75
+#: recensio.contenttypes:/browser/review.py:78
+#: recensio.contenttypes:/content/volume.py:22
 msgid "label_metadata_official_year_of_publication"
 msgstr "Date officielle de publication"
 
 #. Default: "Language (review)"
-#: recensio.contenttypes:/browser/review.py:80
+#: recensio.contenttypes:/browser/review.py:83
 msgid "label_metadata_language_review"
 msgstr "Langue (recension)"
 
 #. Default: "Language (presentation)"
-#: recensio.contenttypes:/browser/review.py:84
+#: recensio.contenttypes:/browser/review.py:87
 msgid "label_metadata_language_presentation"
 msgstr "Langue (présentation)"
 
 #. Default: "Language (monograph)"
-#: recensio.contenttypes:/browser/review.py:88
+#: recensio.contenttypes:/browser/review.py:91
 msgid "label_metadata_language_monograph"
 msgstr "Langue (monographie)"
 
-#: recensio.contenttypes:/browser/review.py:91
-#: recensio.contenttypes:/content/schemata.py:788
+#. Default: "Author (monograph)"
+#: recensio.contenttypes:/browser/review.py:94
+#: recensio.contenttypes:/content/schemata.py:801
 msgid "Author (monograph)"
 msgstr "Auteur (monographie)"
 
 #. Default: "Editor (monograph)"
-#: recensio.contenttypes:/browser/review.py:94
+#: recensio.contenttypes:/browser/review.py:97
 msgid "Editor (monograph)"
 msgstr "Éditeur (monographie)"
 
-#. Default: "Language (article)"
-#: recensio.contenttypes:/browser/review.py:99
-msgid "label_metadata_language_article"
-msgstr "Langue (article)"
-
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:111
+msgid "Year"
+msgstr "Année"
+
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:123
 msgid ""
 "Recensio does not know how to safe these categories. We attach them to the "
 "document below. Please try to find matching categories. The hints below will "
 "be removed when you reload or safe the page."
 msgstr "recensio.net"
 
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:117
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:129
 msgid "Take it over"
 msgstr "Veuillez réessayer"
 
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:122
+#. Default: "Source of search results"
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:13
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:131
+msgid "label_opac_source"
+msgstr "Source"
+
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:134
 msgid ""
 "We were unable to select some of the classifications, would you mind to find "
 "the most appropriate once and select them manually?"
@@ -179,22 +191,16 @@ msgstr ""
 "Impossible de sélectionner certaines des classifications. Veuillez "
 "sélectionner les plus pertinentes manuellement."
 
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:123
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:135
 msgid "Thank you!"
 msgstr "Merci !"
 
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:126
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:138
 msgid "automatic import of metadata"
 msgstr "import automatique des métadonnées"
 
-#. Default: "Source of search results"
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:13
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:119
-msgid "label_opac_source"
-msgstr "Source"
-
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:19
-#: recensio.theme:/skins/recensio_theme/search_form.pt:849
+#: recensio.theme:/skins/recensio_theme/search_form.pt:784
 msgid "Title"
 msgstr "Titre"
 
@@ -242,62 +248,58 @@ msgstr "Lieu"
 msgid "No results found"
 msgstr "Aucun résultat"
 
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:99
-msgid "Year"
-msgstr "Année"
-
 #. Default: "Download as <strong>PDF</strong><br /> <em class=\"discrete\">(${download_size} kb)</em>"
-#: recensio.contenttypes:/browser/templates/review.pt:114
+#: recensio.contenttypes:/browser/templates/review.pt:119
 msgid "download_as"
 msgstr "Télécharger au format PDF"
 
 #. Default: "Metadata"
-#: recensio.contenttypes:/browser/templates/review.pt:137
+#: recensio.contenttypes:/browser/templates/review.pt:142
 msgid "metadata"
 msgstr "Métadonnées"
 
 #. Default: "Zitierhinweise"
-#: recensio.contenttypes:/browser/templates/review.pt:170
+#: recensio.contenttypes:/browser/templates/review.pt:175
 msgid "citation_note"
 msgstr "Citation"
 
 #. Default: "URL:"
-#: recensio.contenttypes:/browser/templates/review.pt:175
+#: recensio.contenttypes:/browser/templates/review.pt:180
 msgid "url"
 msgstr "URL"
 
 #. Default: "First published:"
-#: recensio.contenttypes:/browser/templates/review.pt:180
+#: recensio.contenttypes:/browser/templates/review.pt:185
 msgid "heading_first_published"
 msgstr "Première publication"
 
 #. Default: "Lizenzhinweis:"
-#: recensio.contenttypes:/browser/templates/review.pt:191
+#: recensio.contenttypes:/browser/templates/review.pt:196
 msgid "license-note-heading"
 msgstr "Droits d'auteur"
 
 #. Default: "Links"
-#: recensio.contenttypes:/browser/templates/review.pt:211
+#: recensio.contenttypes:/browser/templates/review.pt:216
 msgid "links-box-heading"
 msgstr "Liens"
 
 #. Default: "Diese Schrift ist online abrufbar"
-#: recensio.contenttypes:/browser/templates/review.pt:218
+#: recensio.contenttypes:/browser/templates/review.pt:223
 msgid "online_accessible"
 msgstr "Cet ouvrage est disponible en libre accès"
 
 #. Default: "Diese Schrift ist nicht online abrufbar"
-#: recensio.contenttypes:/browser/templates/review.pt:226
+#: recensio.contenttypes:/browser/templates/review.pt:231
 msgid "online_not_accessible"
 msgstr "Cet ouvrage n'est pas disponible en ligne"
 
 #. Default: "Rezension/en zum praesentierten Werk"
-#: recensio.contenttypes:/browser/templates/review.pt:229
+#: recensio.contenttypes:/browser/templates/review.pt:234
 msgid "heading_online_reviews_of_presented_text"
 msgstr "Recension(s) en ligne sur l'ouvrage présenté"
 
 #. Default: "Published reviews of the presented text"
-#: recensio.contenttypes:/browser/templates/review.pt:242
+#: recensio.contenttypes:/browser/templates/review.pt:247
 msgid "heading_published_reviews_of_presented_text"
 msgstr "Recension(s) papier sur l'ouvrage présenté"
 
@@ -307,7 +309,7 @@ msgid "label_jump_to_add_comment"
 msgstr "Commenter"
 
 #. Default: "Inhaltsverzeichnis anzeigen"
-#: recensio.contenttypes:/browser/templates/review.pt:78
+#: recensio.contenttypes:/browser/templates/review.pt:83
 msgid "show_reviewtoc_trigger"
 msgstr "Afficher la table des matières"
 
@@ -350,7 +352,7 @@ msgid "Volume"
 msgstr "Volume"
 
 #: recensio.contenttypes:/content/presentationarticlereview.py:79
-#: recensio.contenttypes:/content/schemata.py:854
+#: recensio.contenttypes:/content/schemata.py:867
 msgid "Number"
 msgstr "Numéro"
 
@@ -391,16 +393,16 @@ msgid "Editor(s)"
 msgstr "Éditeur(s)"
 
 #: recensio.contenttypes:/content/presentationcollection.py:57
-#: recensio.contenttypes:/content/schemata.py:131
-#: recensio.contenttypes:/content/schemata.py:561
-#: recensio.contenttypes:/content/schemata.py:811
+#: recensio.contenttypes:/content/schemata.py:132
+#: recensio.contenttypes:/content/schemata.py:574
+#: recensio.contenttypes:/content/schemata.py:824
 msgid "Last name"
 msgstr "Nom"
 
 #: recensio.contenttypes:/content/presentationcollection.py:58
-#: recensio.contenttypes:/content/schemata.py:132
-#: recensio.contenttypes:/content/schemata.py:562
-#: recensio.contenttypes:/content/schemata.py:812
+#: recensio.contenttypes:/content/schemata.py:133
+#: recensio.contenttypes:/content/schemata.py:575
+#: recensio.contenttypes:/content/schemata.py:825
 msgid "First name"
 msgstr "Prénom"
 
@@ -467,7 +469,7 @@ msgstr "Nom de la revue/journal/annuaire"
 
 #: recensio.contenttypes:/content/presentationmonograph.py:63
 #: recensio.contenttypes:/content/presentationmonograph.py:103
-#: recensio.contenttypes:/content/schemata.py:626
+#: recensio.contenttypes:/content/schemata.py:639
 msgid "URL"
 msgstr "URL"
 
@@ -579,7 +581,7 @@ msgid "description_institution"
 msgstr "Éditeur du site (nom/institution)"
 
 #: recensio.contenttypes:/content/presentationonlineresource.py:55
-#: recensio.contenttypes:/content/schemata.py:270
+#: recensio.contenttypes:/content/schemata.py:263
 msgid "Institution"
 msgstr "Institution"
 
@@ -609,7 +611,16 @@ msgstr "Services web et communication"
 msgid "description_documenttypes_cooperation"
 msgstr "Type de la ressource présentée"
 
-#: recensio.contenttypes:/content/review.py:101
+#: recensio.contenttypes:/content/publication.py:27
+msgid "Activate DOI registration"
+msgstr ""
+
+#. Default: "Activates the registration of DOIs at da|ra"
+#: recensio.contenttypes:/content/publication.py:28
+msgid "description_activate_doi_registration"
+msgstr ""
+
+#: recensio.contenttypes:/content/review.py:106
 msgid "license-note-presentation"
 msgstr ""
 "Ce texte est placé sous licence Creative Commons paternité – pas "
@@ -617,15 +628,15 @@ msgstr ""
 "être utilisé, diffusé, imprimé et téléchargé. Pour plus d’informations sur "
 "ce type de licence, veuillez cliquer sur le lien suivant:"
 
-#: recensio.contenttypes:/content/review.py:105
+#: recensio.contenttypes:/content/review.py:110
 msgid "license-note-presentation-url-text"
 msgstr "http://creativecommons.org/licenses/by-nc-nd/3.0/deed.fr"
 
-#: recensio.contenttypes:/content/review.py:106
+#: recensio.contenttypes:/content/review.py:111
 msgid "license-note-presentation-url-url"
 msgstr "http://creativecommons.org/licenses/by-nc-nd/3.0/deed.fr"
 
-#: recensio.contenttypes:/content/review.py:79
+#: recensio.contenttypes:/content/review.py:84
 msgid "license-note-review"
 msgstr ""
 "Cet article peut être téléchargé et/ou imprimé à des fins privées.\n"
@@ -641,105 +652,120 @@ msgstr "Directeur de publication (nom ou institution)"
 msgid "Title (journal)"
 msgstr "Titre de la revue"
 
-#: recensio.contenttypes:/content/schemata.py:101
+#: recensio.contenttypes:/content/schemata.py:102
 msgid "Language(s) of presented resource"
 msgstr "Langue de la ressource présentée"
 
-#: recensio.contenttypes:/content/schemata.py:104
+#: recensio.contenttypes:/content/schemata.py:105
 msgid "Language(s) of presented work"
 msgstr "Langue de la publication présentée"
 
-#: recensio.contenttypes:/content/schemata.py:130
+#: recensio.contenttypes:/content/schemata.py:131
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:31
 msgid "Authors"
 msgstr "Auteurs"
 
 #. Default: "All submitted reviews must be published under the CC-BY licence."
-#: recensio.contenttypes:/content/schemata.py:153
+#: recensio.contenttypes:/content/schemata.py:154
 msgid "message_ccby_license"
 msgstr ""
 "Toutes les recensions soumises seront publiées sous licence Creative Commons."
 
-#: recensio.contenttypes:/content/schemata.py:164
+#: recensio.contenttypes:/content/schemata.py:165
 msgid "message_at_least_one_author_validation_error"
 msgstr "Veuillez citer au moins un auteur/éditeur"
 
 #. Default: "You have exceeded the maximum number of characters you are permitted to use."
-#: recensio.contenttypes:/content/schemata.py:229
+#: recensio.contenttypes:/content/schemata.py:222
 msgid "message_characters_exceeded"
 msgstr "Vous avez dépassé le nombre de caractères autorisés."
 
-#: recensio.contenttypes:/content/schemata.py:245
+#: recensio.contenttypes:/content/schemata.py:238
 msgid "Cover picture"
 msgstr "Couverture"
 
 #. Default: "Reference Authors (email address, postal address and phone number are not publicly visible)"
-#: recensio.contenttypes:/content/schemata.py:260
+#: recensio.contenttypes:/content/schemata.py:253
 msgid "label_reference_authors"
 msgstr ""
 "Auteurs de référence (adresse e-mail, adresse postale et numéro de téléphone "
 "non publiés)"
 
-#: recensio.contenttypes:/content/schemata.py:267
+#: recensio.contenttypes:/content/schemata.py:260
 msgid "Lastname"
 msgstr "Nom"
 
-#: recensio.contenttypes:/content/schemata.py:268
+#: recensio.contenttypes:/content/schemata.py:261
 msgid "Firstname"
 msgstr "Prénom"
 
-#: recensio.contenttypes:/content/schemata.py:269
+#: recensio.contenttypes:/content/schemata.py:262
 msgid "Email address"
 msgstr "Adresse email"
 
-#: recensio.contenttypes:/content/schemata.py:273
+#: recensio.contenttypes:/content/schemata.py:266
 #: recensio.policy:/userdataschema.py:56
 msgid "label_preferred_language"
 msgstr "Choix de la langue"
 
-#: recensio.contenttypes:/content/schemata.py:284
+#: recensio.contenttypes:/content/schemata.py:277
 msgid "review"
 msgstr "Recension"
 
-#: recensio.contenttypes:/content/schemata.py:287
+#: recensio.contenttypes:/content/schemata.py:280
 msgid "PDF"
 msgstr "PDF"
 
-#: recensio.contenttypes:/content/schemata.py:298
+#: recensio.contenttypes:/content/schemata.py:291
 msgid "Word Document"
 msgstr "Fichier Word"
 
-#: recensio.contenttypes:/content/schemata.py:306
+#: recensio.contenttypes:/content/schemata.py:299
 msgid "Optional citation format"
 msgstr "Format de citation (optionel)"
 
 #. Default: "Please fill in only if you wish to use a citation format different from the platform's"
-#: recensio.contenttypes:/content/schemata.py:307
+#: recensio.contenttypes:/content/schemata.py:300
 msgid "description_custom_citation"
 msgstr ""
 "Format de citation (si vous souhaitez utiliser un autre format que celui "
 "généré automatiquement par la plateforme)"
 
-#. Default: ""
+#. Default: "DOI"
+#: recensio.contenttypes:/content/schemata.py:314
+msgid "label_doi"
+msgstr ""
+
+#. Default: "Digital Object Identifier"
+#: recensio.contenttypes:/content/schemata.py:318
+msgid "description_doi"
+msgstr ""
+
+#. Default: "Automatisch generierter Wert"
 #: recensio.contenttypes:/content/schemata.py:322
+msgid "label_doi_fallback"
+msgstr ""
+
+#. Default: ""
+#: recensio.contenttypes:/content/schemata.py:335
 msgid "label_presentation_author"
 msgstr "Auteur de la présentation"
 
-#: recensio.contenttypes:/content/schemata.py:336
+#: recensio.contenttypes:/content/schemata.py:349
 msgid "Honorific Title"
 msgstr "Titre"
 
-#: recensio.contenttypes:/content/schemata.py:346
+#: recensio.contenttypes:/content/schemata.py:359
 msgid "Email address (not publicly visible)"
 msgstr "Adresse email (non publiée)"
 
-#: recensio.contenttypes:/content/schemata.py:357
-#: recensio.contenttypes:/browser/templates/review.pt:252
+#: recensio.contenttypes:/content/schemata.py:370
+#: recensio.contenttypes:/browser/templates/review.pt:257
 msgid "Personal webpage URL/URN"
 msgstr "Site personnel"
 
 #. Default: "Here you can link to your personal website (e.g. within a network of historians, a university or research institution). It should preferably be persistent or be corrected by you in case of changes (e.g. change of university)."
-#: recensio.contenttypes:/content/schemata.py:358
+#: recensio.contenttypes:/content/schemata.py:371
 msgid "description_personal_webpage"
 msgstr ""
 "Vous avez ici la possibilité d’insérer un lien vers votre site personnel "
@@ -748,12 +774,12 @@ msgstr ""
 "durable ou ultérieurement modifiée par vos soins, en cas de changement "
 "d’université."
 
-#: recensio.contenttypes:/content/schemata.py:376
+#: recensio.contenttypes:/content/schemata.py:389
 msgid "Licence Agreement"
 msgstr "Accord d'utilisation"
 
 #. Default: "I agree that my presentation will be published by recensio.net under the <a href='http://creativecommons.org/licenses/by-nc-nd/2.0/deed.en' target='_blank'>creative-commons-licence Attribution-NonCommercial-NoDerivs (CC-BY-NC-ND)</a>. Under these conditions, platform users may use it electronically, distribute it, print it and provide it for download. The editorial team reserves its right to change incoming posts (see our user guidelines to this)."
-#: recensio.contenttypes:/content/schemata.py:377
+#: recensio.contenttypes:/content/schemata.py:390
 msgid "description_ccby_licence_approval"
 msgstr ""
 "Je suis d’accord pour que ma présentation soit publiée par recensio.net sous "
@@ -764,245 +790,247 @@ msgstr ""
 "plateforme.  La rédaction se réserve le droit de modifier le texte selon les "
 "conditions d’utilisation."
 
-#: recensio.contenttypes:/content/schemata.py:402
+#: recensio.contenttypes:/content/schemata.py:415
 msgid "Page number (start)"
 msgstr "Numéro de page (début)"
 
 #. Default: "Please fill in only if the review is part of a larger pdf-file"
-#: recensio.contenttypes:/content/schemata.py:403
+#: recensio.contenttypes:/content/schemata.py:416
 msgid "description_page_number"
 msgstr ""
 "Uniquement si la recension fait partie d'un fichier PDF plus important."
 
-#: recensio.contenttypes:/content/schemata.py:414
+#: recensio.contenttypes:/content/schemata.py:427
 msgid "Page number (end)"
 msgstr "Numéro de page (fin)"
 
 #. Default: "Page numbers of the presented article"
-#: recensio.contenttypes:/content/schemata.py:437
+#: recensio.contenttypes:/content/schemata.py:450
 msgid "description_page_number_of_presented_text_in_print"
 msgstr "Numéros de page de l'article présenté"
 
-#: recensio.contenttypes:/content/schemata.py:449
+#: recensio.contenttypes:/content/schemata.py:462
 msgid "label_page_start_of_presented_text_in_print"
 msgstr "Première page"
 
-#: recensio.contenttypes:/content/schemata.py:458
-msgid "label_page_end_of_presented_text_in_print"
-msgstr "Dernière page"
-
-#: recensio.contenttypes:/content/schemata.py:46
+#: recensio.contenttypes:/content/schemata.py:47
 msgid "label_presentation_authors"
 msgstr "Nom"
 
+#: recensio.contenttypes:/content/schemata.py:471
+msgid "label_page_end_of_presented_text_in_print"
+msgstr "Dernière page"
+
 #. Default: "Page numbers of the presented article"
-#: recensio.contenttypes:/content/schemata.py:469
+#: recensio.contenttypes:/content/schemata.py:482
 msgid "description_page_number_of_presented_review_in_journal"
 msgstr "Numéros de page de la recension"
 
-#: recensio.contenttypes:/content/schemata.py:481
+#: recensio.contenttypes:/content/schemata.py:494
 msgid "label_page_start_of_presented_review_in_journal"
 msgstr "Première page"
 
-#: recensio.contenttypes:/content/schemata.py:490
+#: recensio.contenttypes:/content/schemata.py:503
 msgid "label_page_end_of_presented_review_in_journal"
 msgstr "Dernière page"
 
-#: recensio.contenttypes:/content/schemata.py:502
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:93
+#: recensio.contenttypes:/content/schemata.py:515
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:105
 msgid "Pages"
 msgstr "Nombre de pages"
 
-#: recensio.contenttypes:/content/schemata.py:513
+#: recensio.contenttypes:/content/schemata.py:526
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:93
 msgid "Series"
 msgstr "Collection"
 
-#: recensio.contenttypes:/content/schemata.py:522
+#: recensio.contenttypes:/content/schemata.py:535
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:99
 msgid "Series (vol.)"
 msgstr "Volume"
 
-#: recensio.contenttypes:/content/schemata.py:537
+#: recensio.contenttypes:/content/schemata.py:550
 msgid "Last name author"
 msgstr "Nom (auteur)"
 
-#: recensio.contenttypes:/content/schemata.py:547
+#: recensio.contenttypes:/content/schemata.py:560
 msgid "First name author"
 msgstr "Prénom (auteur)"
 
-#: recensio.contenttypes:/content/schemata.py:560
+#: recensio.contenttypes:/content/schemata.py:573
 msgid "label_review_authors"
 msgstr "Nom"
 
-#: recensio.contenttypes:/content/schemata.py:572
+#: recensio.contenttypes:/content/schemata.py:585
 msgid "Language(s) (review)"
 msgstr "Langue (de la recension)"
 
-#: recensio.contenttypes:/content/schemata.py:582
+#: recensio.contenttypes:/content/schemata.py:595
 msgid "Language(s) (text)"
 msgstr "langue (de la revue)"
 
-#: recensio.contenttypes:/content/schemata.py:598
+#: recensio.contenttypes:/content/schemata.py:611
 msgid "Generated Pdf"
 msgstr "PDF généré"
 
-#: recensio.contenttypes:/content/schemata.py:611
+#: recensio.contenttypes:/content/schemata.py:624
 msgid "Core Statements"
 msgstr "Principales thèses développées"
 
-#: recensio.contenttypes:/content/schemata.py:636
+#: recensio.contenttypes:/content/schemata.py:649
 msgid "URN"
 msgstr "URN"
 
 #. Default: "Filled in by the editorial staff"
-#: recensio.contenttypes:/content/schemata.py:637
+#: recensio.contenttypes:/content/schemata.py:650
 msgid "description_urn"
 msgstr "A remplir par l'équipe recensio.net"
 
-#: recensio.contenttypes:/content/schemata.py:648
-#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:105
+#: recensio.contenttypes:/content/schemata.py:661
+#: recensio.contenttypes:/browser/templates/oaisuggestions.pt:117
 msgid "BV Number"
 msgstr "Numéro BV"
 
 #. Default: "Filled in by the editorial staff"
-#: recensio.contenttypes:/content/schemata.py:649
+#: recensio.contenttypes:/content/schemata.py:662
 msgid "description_bv_number"
 msgstr "A remplir par l'équipe recensio.net"
 
-#: recensio.contenttypes:/content/schemata.py:662
+#: recensio.contenttypes:/content/schemata.py:675
 msgid "Original Source URL"
 msgstr "URL de référence"
 
 #. Default: "Please fill in only after consultation with the recensio.net team"
-#: recensio.contenttypes:/content/schemata.py:663
+#: recensio.contenttypes:/content/schemata.py:676
 msgid "description_uri"
 msgstr "Uniquement après accord avec la rédaction de recensio.net"
 
-#: recensio.contenttypes:/content/schemata.py:675
+#: recensio.contenttypes:/content/schemata.py:688
 msgid "Subject heading"
 msgstr "Mots-clés"
 
 #. Default: "Mehrere Schlagw\303\266rter bitte untereinander (per Return-Taste) auflisten, keine Kommas verwenden."
-#: recensio.contenttypes:/content/schemata.py:676
+#: recensio.contenttypes:/content/schemata.py:689
 msgid "description_subject"
 msgstr ""
 "Faire la liste des mots-clefs les-uns en dessous des autres (touche renvoi à "
 "la ligne), ne pas ajouter de virgule."
 
-#: recensio.contenttypes:/content/schemata.py:686
+#: recensio.contenttypes:/content/schemata.py:699
 msgid "ddc subject"
 msgstr "Sujet (dewey)"
 
-#: recensio.contenttypes:/content/schemata.py:697
+#: recensio.contenttypes:/content/schemata.py:710
 msgid "ddc time"
 msgstr "Époque (dewey)"
 
-#: recensio.contenttypes:/content/schemata.py:707
+#: recensio.contenttypes:/content/schemata.py:720
 msgid "ddc place"
 msgstr "Espace (dewey)"
 
 #. Default: "Information on presented work"
-#: recensio.contenttypes:/content/schemata.py:719
+#: recensio.contenttypes:/content/schemata.py:732
 msgid "heading_presented_work"
 msgstr "Informations sur la publication présentée"
 
-#: recensio.contenttypes:/content/schemata.py:730
+#: recensio.contenttypes:/content/schemata.py:743
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:25
 msgid "Subtitle"
 msgstr "Sous-titre"
 
-#: recensio.contenttypes:/content/schemata.py:739
+#: recensio.contenttypes:/content/schemata.py:752
 msgid "Year of publication"
 msgstr "Année de publication"
 
-#: recensio.contenttypes:/content/schemata.py:747
+#: recensio.contenttypes:/content/schemata.py:760
 msgid "Place of publication"
 msgstr "Lieu de publication"
 
-#: recensio.contenttypes:/content/schemata.py:755
+#: recensio.contenttypes:/content/schemata.py:768
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:87
 msgid "Publisher"
 msgstr "Maison d'édition"
 
-#: recensio.contenttypes:/content/schemata.py:779
+#: recensio.contenttypes:/content/schemata.py:792
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:43
 msgid "ISBN"
 msgstr "ISBN"
 
 #. Default: "With or without hyphens. In case of several numbers please choose the hard cover edition."
-#: recensio.contenttypes:/content/schemata.py:780
+#: recensio.contenttypes:/content/schemata.py:793
 msgid "description_isbn"
 msgstr ""
 "Avec ou sans tiret. En cas de plusieurs ISBN veuillez choisir celui de "
 "l’édition grand format."
 
 #. Default: "Please fill in either authors OR editors (exception: Complete Works etc.)"
-#: recensio.contenttypes:/content/schemata.py:796
+#: recensio.contenttypes:/content/schemata.py:809
 msgid "help_authors_or_editors"
 msgstr ""
 "Veuillez citer seulement soit des auteurs soit des éditeurs (exception: "
 "oeuvres complètes):"
 
-#: recensio.contenttypes:/content/schemata.py:810
+#: recensio.contenttypes:/content/schemata.py:823
 msgid "label_editorial"
 msgstr "Editeur(s) de la monographie présentée"
 
-#: recensio.contenttypes:/content/schemata.py:826
+#: recensio.contenttypes:/content/schemata.py:839
 msgid "ISSN"
 msgstr "ISSN"
 
 #. Default: "With or without hyphens."
-#: recensio.contenttypes:/content/schemata.py:827
+#: recensio.contenttypes:/content/schemata.py:840
 msgid "description_issn"
 msgstr "Avec ou sans tiret"
 
-#: recensio.contenttypes:/content/schemata.py:838
+#: recensio.contenttypes:/content/schemata.py:851
 msgid "Shortname"
 msgstr "Titre courant"
 
-#: recensio.contenttypes:/content/schemata.py:846
+#: recensio.contenttypes:/content/schemata.py:859
 msgid "Vol."
 msgstr "Volume"
 
-#: recensio.contenttypes:/content/schemata.py:862
+#: recensio.contenttypes:/content/schemata.py:875
 msgid "Official year of publication (if different)"
 msgstr "Date officielle de publication (si différente)"
 
-#: recensio.contenttypes:/content/schemata.py:867
+#: recensio.contenttypes:/content/schemata.py:880
 msgid "Actual year of publication"
 msgstr "Date réelle de publication"
 
 #. Default: "Mit gedr\303\274ckter Strg-Taste k\303\266nnen mehrere Zeilen gleichzeitig ausgew\303\244hlt werden."
-#: recensio.contenttypes:/content/schemata.py:88
+#: recensio.contenttypes:/content/schemata.py:89
 msgid "description_ctrl_for_multiple"
 msgstr ""
 "En appuyant sur la touche Strg vous pouvez sélectionner plusieurs lignes à "
 "la fois."
 
 #. Default: "PDF watermark"
-#: recensio.contenttypes:/content/schemata.py:888
+#: recensio.contenttypes:/content/schemata.py:901
 msgid "label_publication_pdf_watermark"
 msgstr "Logo"
 
 #. Default: "Upload a publication logo for the PDF coversheet. Transparent PNG format images are recommended."
-#: recensio.contenttypes:/content/schemata.py:891
+#: recensio.contenttypes:/content/schemata.py:904
 msgid "description_publication_pdf_watermark"
 msgstr ""
 "Téléchargement d'un logo pour la première page du pdf. Il est conseillé "
 "d'utiliser des images numériques utilisant la transparence du format PNG."
 
 #. Default: "Publication Licence"
-#: recensio.contenttypes:/content/schemata.py:904
+#: recensio.contenttypes:/content/schemata.py:917
 msgid "label_publication_licence"
 msgstr "Droits d'auteur"
 
 #. Default: "Please specify the licence terms under which reviews may be used. This text will be displayed on the front page of the PDF version and to the side of the web version of each review for this publication."
-#: recensio.contenttypes:/content/schemata.py:907
+#: recensio.contenttypes:/content/schemata.py:920
 msgid "description_publication_licence"
 msgstr ""
 "Veuillez préciser les droits d'auteurs. Ce texte apparaitra sur la première "
 "page du fichier pdf ainsi que dans la version html de la recension."
 
-#: recensio.contenttypes:/content/schemata.py:98
+#: recensio.contenttypes:/content/schemata.py:99
 msgid "Language(s) of presentation"
 msgstr "Langue de la présentation"
 
@@ -1093,8 +1121,8 @@ msgstr ""
 "\n"
 "Soutenue par la DFG, recensio.net est une initiative conjointe de la "
 "Bibliothèque d’État de Bavière, l’université de Cologne et l' Institut "
-"Leibniz pour l’histoire européenne de Mayence. Vous trouverez de plus "
-"amples informations sur http://www.recensio.net/ueberuns-fr."
+"Leibniz pour l’histoire européenne de Mayence. Vous trouverez de plus amples "
+"informations sur http://www.recensio.net/ueberuns-fr."
 
 #: recensio.policy:/browser/email.py:403
 #: recensio.policy:/missing_18n_labels.py:60
@@ -1124,8 +1152,8 @@ msgstr ""
 "\n"
 "Soutenue par la DFG, recensio.net est une initiative conjointe de la "
 "Bibliothèque d’État de Bavière, l’université de Cologne et l' Institut "
-"Leibniz pour l’histoire européenne de Mayence. Vous trouverez de plus "
-"amples informations sur http://www.recensio.net/ueberuns-fr."
+"Leibniz pour l’histoire européenne de Mayence. Vous trouverez de plus amples "
+"informations sur http://www.recensio.net/ueberuns-fr."
 
 #: recensio.policy:/browser/email.py:433
 #: recensio.policy:/missing_18n_labels.py:64
@@ -1156,8 +1184,8 @@ msgstr ""
 "\n"
 "Soutenue par la DFG, recensio.net est une initiative conjointe de la "
 "Bibliothèque d’État de Bavière, l’université de Cologne et l' Institut "
-"Leibniz pour l’histoire européenne de Mayence. Vous trouverez de plus "
-"amples informations sur http://www.recensio.net/ueberuns-fr."
+"Leibniz pour l’histoire européenne de Mayence. Vous trouverez de plus amples "
+"informations sur http://www.recensio.net/ueberuns-fr."
 
 #: recensio.policy:/browser/email.py:440
 #: recensio.policy:/missing_18n_labels.py:61
@@ -1188,8 +1216,8 @@ msgstr ""
 "\n"
 "Soutenue par la DFG, recensio.net est une initiative conjointe de la "
 "Bibliothèque d’État de Bavière, l’université de Cologne et l' Institut "
-"Leibniz pour l’histoire européenne de Mayence. Vous trouverez de plus "
-"amples informations sur http://www.recensio.net/ueberuns-fr."
+"Leibniz pour l’histoire européenne de Mayence. Vous trouverez de plus amples "
+"informations sur http://www.recensio.net/ueberuns-fr."
 
 #: recensio.policy:/browser/email.py:475
 msgid "mail_no_recipients"
@@ -1229,8 +1257,8 @@ msgstr ""
 msgid "mail_new_publication_intro"
 msgstr ""
 "Liebe Redaktion,\n"
-"Die folgende Mail wurde generiert zur Benachrichtigung von %(reviewed_author)"
-"s. Bitte prüfen Sie sie und leiten sie ggf. weiter an\n"
+"Die folgende Mail wurde generiert zur Benachrichtigung von "
+"%(reviewed_author)s. Bitte prüfen Sie sie und leiten sie ggf. weiter an\n"
 "\n"
 "%(reviewed_author)s\n"
 "\n"
@@ -1338,8 +1366,8 @@ msgid "help_comment_licence"
 msgstr ""
 "Les commentaires sont placés sous licence <a href='http://creativecommons."
 "org/licenses/by-nc-nd/2.0/deed.fr' target='_blank'>Creative Commons "
-"paternité – pas d’utilisation commerciale – pas de modification (CC-BY-NC-ND)"
-"</a>."
+"paternité – pas d’utilisation commerciale – pas de modification (CC-BY-NC-"
+"ND)</a>."
 
 #. Default: "Log in to add comments"
 #: recensio.policy:/browser/templates/comments.pt:17
@@ -1353,19 +1381,20 @@ msgid "label_delete"
 msgstr "Supprimer"
 
 #: recensio.policy:/browser/templates/comments.pt:87
-#: recensio.theme:/skins/recensio_theme/search_form.pt:274
-#: recensio.theme:/skins/recensio_theme/search_form.pt:720
-#: recensio.theme:/skins/recensio_theme/search_form.pt:769
-#: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:176
-#: recensio.theme:/skins/recensio_theme/search.pt:186
-#: recensio.theme:/browser/templates/topical.pt:71
-#: recensio.theme:/browser/templates/topical.pt:175
-#: recensio.theme:/browser/templates/topical.pt:215
-#: recensio.theme:/browser/templates/topical.pt:221
 #: recensio.theme:/browser/templates/filtersearch.pt:43
 #: recensio.theme:/browser/templates/filtersearch.pt:83
 #: recensio.theme:/browser/templates/filtersearch.pt:89
 #: recensio.theme:/browser/templates/filtersearch.pt:151
+#: recensio.theme:/browser/templates/topical.pt:71
+#: recensio.theme:/browser/templates/topical.pt:175
+#: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:176
+#: recensio.theme:/skins/recensio_theme/search.pt:186
+#: recensio.theme:/skins/recensio_theme/search_form.pt:223
+#: recensio.theme:/skins/recensio_theme/search_form.pt:454
+#: recensio.theme:/skins/recensio_theme/search_form.pt:654
+#: recensio.theme:/skins/recensio_theme/search_form.pt:699
+#: recensio.theme:/skins/recensio_theme/search_form.pt:816
+#: recensio.theme:/skins/recensio_theme/search_form.pt:854
 msgid "${DYNAMIC_CONTENT}"
 msgstr "${DYNAMIC_CONTENT}"
 
@@ -1496,6 +1525,76 @@ msgstr ""
 "Enter one language (2 letter code) per line. These languages will be used "
 "for the fields \"Language of presentation\" and \"Language of reviewed text"
 "\"."
+
+#. Default: "Server name for Chronicon export"
+#: recensio.policy:/interfaces.py:184
+msgid "label_xml_export_server"
+msgstr ""
+
+#. Default: "Enter the server name that should be used for exporting XML metadata to Chronicon over SFTP."
+#: recensio.policy:/interfaces.py:186
+msgid "description_xml_export_server"
+msgstr ""
+
+#. Default: "User name for Chronicon export"
+#: recensio.policy:/interfaces.py:194
+msgid "label_xml_export_username"
+msgstr ""
+
+#. Default: "Enter the user name that should be used for exporting XML metadata to Chronicon over SFTP."
+#: recensio.policy:/interfaces.py:196
+msgid "description_xml_export_username"
+msgstr ""
+
+#. Default: "Password for Chronicon export"
+#: recensio.policy:/interfaces.py:204
+msgid "label_xml_export_password"
+msgstr ""
+
+#. Default: "Enter the password that belongs to the above SFTP user name."
+#: recensio.policy:/interfaces.py:206
+msgid "description_xml_export_password"
+msgstr ""
+
+#. Default: "DOI Prefix"
+#: recensio.policy:/interfaces.py:214
+msgid "label_doi_prefix"
+msgstr ""
+
+#. Default: "Prefix for autogenerated DOIs"
+#: recensio.policy:/interfaces.py:216
+msgid "description_doi_prefix"
+msgstr ""
+
+#. Default: "URL for DOI registration"
+#: recensio.policy:/interfaces.py:223
+msgid "label_doi_registration_url"
+msgstr ""
+
+#. Default: "Endpoint URL for registration of DOIs"
+#: recensio.policy:/interfaces.py:225
+msgid "description_doi_registration_url"
+msgstr ""
+
+#. Default: "User name for DOI registration"
+#: recensio.policy:/interfaces.py:232
+msgid "label_doi_registration_username"
+msgstr ""
+
+#. Default: "User name to use as login for registration of DOIs"
+#: recensio.policy:/interfaces.py:234
+msgid "description_doi_registration_username"
+msgstr ""
+
+#. Default: "Password for DOI registration"
+#: recensio.policy:/interfaces.py:242
+msgid "label_doi_registration_password"
+msgstr ""
+
+#. Default: "Password that belongs to the above user name for registration of DOIs"
+#: recensio.policy:/interfaces.py:244
+msgid "description_doi_registration_password"
+msgstr ""
 
 #: recensio.policy:/interfaces.py:40
 msgid "Mail Template"
@@ -1954,11 +2053,11 @@ msgstr ""
 "confirmation vous a été envoyé."
 
 #. Default: "citation style"
-#: recensio.theme:/browser/pdfgen.py:136
+#: recensio.theme:/browser/pdfgen.py:139
 msgid "label_citation_style"
 msgstr "Format de citation"
 
-#: recensio.theme:/browser/pdfgen.py:66
+#: recensio.theme:/browser/pdfgen.py:68
 msgid "Creating the pdf has failed! Please try again or ask for support"
 msgstr ""
 "La génération du PDF a échoué. Veuillez réessayer ou contacter le service "
@@ -2035,18 +2134,91 @@ msgstr "Toutes les présentations de cet auteur"
 msgid "label_all_reviews_author"
 msgstr "Toutes les recensions de cet auteur"
 
+#. Default: "Mehr anzeigen..."
+#: recensio.theme:/browser/templates/filtersearch.pt:103
+#: recensio.theme:/browser/templates/topical.pt:230
+msgid "browsing_submenu_more"
+msgstr "Plus d'informations..."
+
+#. Default: "Search results"
+#: recensio.theme:/browser/templates/filtersearch.pt:113
+#: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:125
+#: recensio.theme:/skins/recensio_theme/search.pt:129
+msgid "heading_search_results"
+msgstr "Rechercher"
+
+#. Default: "${number} items matching"
+#: recensio.theme:/browser/templates/filtersearch.pt:119
+#: recensio.theme:/browser/templates/topical.pt:44
+#: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:131
+#: recensio.theme:/skins/recensio_theme/search.pt:135
+msgid "batch_x_items_matching_your_criteria"
+msgstr "${number} résultats correspondants"
+
+#. Default: "Reviewed by ${review_authors}"
+#: recensio.theme:/browser/templates/filtersearch.pt:190
+#: recensio.theme:/browser/templates/topical.pt:105
+#: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:211
+#: recensio.theme:/skins/recensio_theme/search.pt:215
+msgid "reviewed_by"
+msgstr "compte-rendu fait par ${review_authors}"
+
+#. Default: "in: ${get_publication_title}, ${get_volume_title}, ${get_issue_title}"
+#: recensio.theme:/browser/templates/filtersearch.pt:192
+#: recensio.theme:/browser/templates/topical.pt:107
+#: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:213
+#: recensio.theme:/skins/recensio_theme/search.pt:217
+msgid "source_journal"
+msgstr ""
+"dans : ${get_publication_title}, ${get_volume_title}, ${get_issue_title}"
+
+#. Default: "Presented by ${review_authors}"
+#: recensio.theme:/browser/templates/filtersearch.pt:199
+#: recensio.theme:/browser/templates/topical.pt:114
+#: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:220
+#: recensio.theme:/skins/recensio_theme/search.pt:224
+msgid "presented_by"
+msgstr "présenté par ${review_authors}"
+
+#. Default: "published"
+#: recensio.theme:/browser/templates/filtersearch.pt:211
+#: recensio.theme:/skins/recensio_theme/search.pt:235
+msgid "box_effective"
+msgstr ""
+
+#. Default: "Filed under:"
+#: recensio.theme:/browser/templates/filtersearch.pt:224
+#: recensio.theme:/browser/templates/topical.pt:137
+#: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:243
+#: recensio.theme:/skins/recensio_theme/search.pt:248
+msgid "label_filed_under"
+msgstr "Filed under"
+
+#. Default: "Relevance: ${percentage}%"
+#: recensio.theme:/browser/templates/filtersearch.pt:241
+#: recensio.theme:/browser/templates/topical.pt:154
+#: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:260
+#: recensio.theme:/skins/recensio_theme/search.pt:265
+msgid "label_relevance_percentage"
+msgstr "Pertinence : ${percentage} %"
+
+#: recensio.theme:/browser/templates/filtersearch.pt:56
+#: recensio.theme:/browser/templates/topical.pt:190
+msgid "Remove this selection"
+msgstr "Effacer la sélection"
+
 #. Default: "Neueste Pr\303\244sentationen von Monographien und Aufs\303\244tzen"
-#: recensio.theme:/browser/templates/homepage.pt:108
+#: recensio.theme:/browser/templates/homepage.pt:100
 msgid "label_latest_monographies"
 msgstr "Dernières présentations d'articles ou monographies "
 
 #. Default: "Neueste Pr\303\244sentationen von Internetressourcen"
-#: recensio.theme:/browser/templates/homepage.pt:131
+#: recensio.theme:/browser/templates/homepage.pt:121
 msgid "label_latest_internet_resources"
 msgstr "Dernières présentations de ressources Internet"
 
 #. Default: "Teilnehmende Zeitschriften"
-#: recensio.theme:/browser/templates/homepage.pt:154
+#: recensio.theme:/browser/templates/homepage.pt:143
 msgid "heading_participating_publications"
 msgstr "Revues partenaires"
 
@@ -2056,7 +2228,7 @@ msgid "label_latest_review_journals"
 msgstr "Dernières rubriques en ligne"
 
 #. Default: "Neueste Rezensionen online"
-#: recensio.theme:/browser/templates/homepage.pt:63
+#: recensio.theme:/browser/templates/homepage.pt:55
 msgid "label_latest_reviews"
 msgstr "Dernières recensions en ligne"
 
@@ -2100,7 +2272,7 @@ msgstr "Recension suivante"
 
 #. Default: "download Gesamt-pdf"
 #: recensio.theme:/browser/templates/publicationlisting.pt:28
-#: recensio.theme:/browser/templates/publicationlisting.pt:63
+#: recensio.theme:/browser/templates/publicationlisting.pt:64
 msgid "label_download_complete_pdf"
 msgstr "Téléchargement du fichier complet"
 
@@ -2114,16 +2286,11 @@ msgstr "Publications"
 msgid "description_publications"
 msgstr "Liste des revues publiant des recensions sur recensio.net"
 
-#: recensio.theme:/browser/templates/topical.pt:188
-#: recensio.theme:/browser/templates/filtersearch.pt:56
-msgid "Remove this selection"
-msgstr "Effacer la sélection"
-
-#. Default: "Mehr anzeigen..."
-#: recensio.theme:/browser/templates/topical.pt:235
-#: recensio.theme:/browser/templates/filtersearch.pt:103
-msgid "browsing_submenu_more"
-msgstr "Plus d'informations..."
+#. Default: "last modified"
+#: recensio.theme:/browser/templates/topical.pt:125
+#: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:231
+msgid "box_last_modified"
+msgstr "modifié le"
 
 #. Default: "Browsing"
 #: recensio.theme:/browser/templates/topical.pt:38
@@ -2211,27 +2378,6 @@ msgstr ""
 msgid "message_reference_edited"
 msgstr ""
 
-#. Default: "published"
-#: recensio.theme:/skins/recensio_theme/search.pt:237
-#: recensio.theme:/browser/templates/filtersearch.pt:211
-msgid "box_effective"
-msgstr ""
-
-#. Default: "Search results"
-#: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:125
-#: recensio.theme:/skins/recensio_theme/search.pt:129
-#: recensio.theme:/browser/templates/filtersearch.pt:113
-msgid "heading_search_results"
-msgstr "Rechercher"
-
-#. Default: "${number} items matching"
-#: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:131
-#: recensio.theme:/skins/recensio_theme/search.pt:135
-#: recensio.theme:/browser/templates/topical.pt:44
-#: recensio.theme:/browser/templates/filtersearch.pt:119
-msgid "batch_x_items_matching_your_criteria"
-msgstr "${number} résultats correspondants"
-
 #. Default: "Subscribe to an always-updated feed of these search terms"
 #: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:145
 #: recensio.theme:/skins/recensio_theme/search.pt:149
@@ -2244,58 +2390,22 @@ msgstr "Subscribe to an RSS feed of these search terms"
 msgid "description_no_results_found"
 msgstr "Aucun résultat"
 
-#. Default: "Reviewed by ${review_authors}"
-#: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:206
-#: recensio.theme:/skins/recensio_theme/search.pt:217
-#: recensio.theme:/browser/templates/topical.pt:105
-#: recensio.theme:/browser/templates/filtersearch.pt:190
-msgid "reviewed_by"
-msgstr "compte-rendu fait par ${review_authors}"
-
-#. Default: "in: ${get_publication_title}, ${get_volume_title}, ${get_issue_title}"
-#: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:208
-#: recensio.theme:/skins/recensio_theme/search.pt:219
-#: recensio.theme:/browser/templates/topical.pt:107
-#: recensio.theme:/browser/templates/filtersearch.pt:192
-msgid "source_journal"
-msgstr ""
-"dans : ${get_publication_title}, ${get_volume_title}, ${get_issue_title}"
-
-#. Default: "Presented by ${review_authors}"
-#: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:215
-#: recensio.theme:/skins/recensio_theme/search.pt:226
-#: recensio.theme:/browser/templates/topical.pt:114
-#: recensio.theme:/browser/templates/filtersearch.pt:199
-msgid "presented_by"
-msgstr "présenté par ${review_authors}"
-
-#. Default: "last modified"
-#: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:226
-#: recensio.theme:/browser/templates/topical.pt:125
-msgid "box_last_modified"
-msgstr "modifié le"
-
-#. Default: "Filed under:"
-#: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:238
-#: recensio.theme:/skins/recensio_theme/search.pt:250
-#: recensio.theme:/browser/templates/topical.pt:137
-#: recensio.theme:/browser/templates/filtersearch.pt:224
-msgid "label_filed_under"
-msgstr "Filed under"
-
-#. Default: "Relevance: ${percentage}%"
-#: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:255
-#: recensio.theme:/skins/recensio_theme/search.pt:267
-#: recensio.theme:/browser/templates/topical.pt:154
-#: recensio.theme:/browser/templates/filtersearch.pt:241
-msgid "label_relevance_percentage"
-msgstr "Pertinence : ${percentage} %"
-
 #. Default: "Search Site"
 #: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:58
 #: recensio.theme:/skins/recensio_theme/search.pt:62
 msgid "title_search_title"
 msgstr "Rechercher dans le site"
+
+#. Default: "Search"
+#: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:66
+#: recensio.theme:/skins/recensio_theme/search.pt:70
+#: recensio.theme:/skins/recensio_theme/search_form.pt:65
+#: recensio.theme:/skins/recensio_theme/search_form.pt:256
+#: recensio.theme:/skins/recensio_theme/search_form.pt:380
+#: recensio.theme:/skins/recensio_theme/search_form.pt:595
+#: recensio.theme:/skins/recensio_theme/search_form.pt:895
+msgid "label_search"
+msgstr "Recherche"
 
 #. Default: "Did you not find what you were looking for? Try the ${advanced_search} to refine your search."
 #: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:74
@@ -2334,293 +2444,251 @@ msgid "description_advanced_search"
 msgstr ""
 "Parcourez l'ensemble de la plateforme à l'aide des catégories suivantes."
 
-#. Default: "Language of the Review or Presentation"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:189
-msgid "label_recension_language"
-msgstr "Langue de la recension ou de la présentation"
-
-#. Default: "Return items in selected languages."
-#: recensio.theme:/skins/recensio_theme/search_form.pt:194
-msgid "help_search_recension_language"
-msgstr "Montrer les articles dans les langues sélectionnées"
-
-#. Default: "Language of the Reviewed Works"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:215
-msgid "label_works_language"
-msgstr "Langue des publications commentées"
-
-#. Default: "Return items that review works in selected the languages."
-#: recensio.theme:/skins/recensio_theme/search_form.pt:220
-msgid "help_search_works_language"
-msgstr "Montrer les articles dans les langues sélectionnées"
-
 #. Default: "Review status"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:244
+#: recensio.theme:/skins/recensio_theme/search_form.pt:193
 msgid "label_review_status"
 msgstr "Statut de la recension"
 
 #. Default: "You may search for items based on their review state. If you wish to constrain results to items in certain states, select them from this list."
-#: recensio.theme:/skins/recensio_theme/search_form.pt:256
+#: recensio.theme:/skins/recensio_theme/search_form.pt:205
 msgid "help_search_review_status"
 msgstr "Chercher un article en fonction de son statut de publication"
 
 #. Default: "Autor/Herausgeber"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:288
+#: recensio.theme:/skins/recensio_theme/search_form.pt:237
 msgid "label_review_autor"
 msgstr "Auteurs/Directeur de publication"
 
 #. Default: "Autor von Monographie/Aufsatz/Kommentar oder Herausgeber des Sammelbandes"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:292
+#: recensio.theme:/skins/recensio_theme/search_form.pt:241
 msgid "help_review_autor"
 msgstr ""
-"Auteur (monographie/article/commentaire/recension/présentation) ou directeur"
-" de publication (recueil)"
-
-#. Default: "Creator"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:341
-msgid "label_author"
-msgstr "Auteur"
-
-#. Default: "Return items created by a particular person."
-#: recensio.theme:/skins/recensio_theme/search_form.pt:346
-msgid "help_search_author"
-msgstr "Chercher un texte (commentaire…) par auteur"
-
-#. Default: "Any Creator"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:355
-msgid "label_any_author"
-msgstr "Tous les créateurs"
+"Auteur (monographie/article/commentaire/recension/présentation) ou directeur "
+"de publication (recueil)"
 
 #. Default: "Buch, Aufsatz, Zeitschrift"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:385
+#: recensio.theme:/skins/recensio_theme/search_form.pt:266
 msgid "label_titleOrShortname"
 msgstr "Livre, article, revue"
 
 #. Default: "Titel des rezensierten Buches, des Aufsatzes oder der Zeitschrift, in der die Review erschienen ist"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:389
+#: recensio.theme:/skins/recensio_theme/search_form.pt:270
 msgid "help_titleOrShortname"
 msgstr ""
 "Titre de l'ouvrage commenté, de l'article commenté ou de la revue dans "
 "laquelle la recension a été publiée"
 
 #. Default: "Jahr"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:404
+#: recensio.theme:/skins/recensio_theme/search_form.pt:285
 msgid "label_year"
 msgstr "Année"
 
 #. Default: "Erscheinungsjahr oder gez\303\244hltes Jahr"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:408
+#: recensio.theme:/skins/recensio_theme/search_form.pt:289
 msgid "help_year"
 msgstr "Année de publication"
 
-#. Default: "Volltextsuche"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:42
-msgid "label_search_text"
-msgstr "Recherche plein texte"
-
 #. Default: "Ort"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:423
+#: recensio.theme:/skins/recensio_theme/search_form.pt:304
 msgid "label_place"
 msgstr "Lieu"
 
 #. Default: "Erscheinungsort"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:427
+#: recensio.theme:/skins/recensio_theme/search_form.pt:308
 msgid "help_place"
 msgstr "Lieu de publication"
 
 #. Default: "Verlag"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:442
+#: recensio.theme:/skins/recensio_theme/search_form.pt:323
 msgid "label_publisher"
 msgstr "Maison d'édition"
 
 #. Default: "Verlag, in dem das Buch/die Zeitschrift erschienen ist"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:446
+#: recensio.theme:/skins/recensio_theme/search_form.pt:327
 msgid "help_publisher"
 msgstr "Maison d'édition où l'ouvrage/la revue a été publié/e"
 
 #. Default: "Reihe"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:461
+#: recensio.theme:/skins/recensio_theme/search_form.pt:342
 msgid "label_series"
 msgstr "Collection"
 
 #. Default: "The serie you are looking for."
-#: recensio.theme:/skins/recensio_theme/search_form.pt:465
+#: recensio.theme:/skins/recensio_theme/search_form.pt:346
 msgid "help_series"
 msgstr "La collection que vous recherchez"
 
+#. Default: "ISBN"
+#: recensio.theme:/skins/recensio_theme/search_form.pt:362
+msgid "label_isbn"
+msgstr "ISBN/ISSN"
+
+#. Default: "Internationale Standardbuchnummer"
+#: recensio.theme:/skins/recensio_theme/search_form.pt:366
+msgid "help_isbn"
+msgstr "Numéro international normalisé du livre"
+
+#. Default: "Thematische Suche"
+#: recensio.theme:/skins/recensio_theme/search_form.pt:393
+msgid "thematic_search"
+msgstr "Recherche thématique"
+
+#. Default: "Region"
+#: recensio.theme:/skins/recensio_theme/search_form.pt:413
+msgid "label_region"
+msgstr "Région"
+
+#. Default: "Select All/None"
+#: recensio.theme:/skins/recensio_theme/search_form.pt:428
+#: recensio.theme:/skins/recensio_theme/search_form.pt:503
+#: recensio.theme:/skins/recensio_theme/search_form.pt:540
+#: recensio.theme:/skins/recensio_theme/search_form.pt:635
+msgid "label_toggle"
+msgstr "Tout sélectionner/Désélectionner"
+
+#. Default: "Volltextsuche"
+#: recensio.theme:/skins/recensio_theme/search_form.pt:43
+msgid "label_search_text"
+msgstr "Recherche plein texte"
+
+#. Default: "Epoche"
+#: recensio.theme:/skins/recensio_theme/search_form.pt:488
+msgid "label_epoch"
+msgstr "Epoque"
+
 #. Default: "For a full text search, enter your search term here. Multiple words may be found by combining them with <strong>AND</strong> and <strong>OR</strong>."
-#: recensio.theme:/skins/recensio_theme/search_form.pt:48
+#: recensio.theme:/skins/recensio_theme/search_form.pt:49
 msgid "help_search_text"
 msgstr ""
 "Entrez vos mots-clés dans la barre de recherche pour effectuer une recherche "
 "plein texte. Vous pouvez associer plusieurs termes, en utilisant les "
 "opérateurs <strong>AND</strong> et <strong>OR</strong>."
 
-#. Default: "ISBN"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:481
-msgid "label_isbn"
-msgstr "ISBN/ISSN"
-
-#. Default: "Internationale Standardbuchnummer"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:485
-msgid "help_isbn"
-msgstr "Numéro international normalisé du livre"
-
-#. Default: "Thematische Suche"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:512
-msgid "thematic_search"
-msgstr "Recherche thématique"
-
-#. Default: "Region"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:525
-msgid "label_region"
-msgstr "Région"
-
-#. Default: "The region that you are looking for."
-#: recensio.theme:/skins/recensio_theme/search_form.pt:529
-msgid "help_region"
-msgstr "La région sur laquelle porte votre recherche"
-
-#. Default: "Epoche"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:554
-msgid "label_epoch"
-msgstr "Epoque"
-
-#. Default: "The epoch that you are looking for"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:558
-msgid "help_epoch"
-msgstr "L'époque sur laquelle porte votre recherche"
-
 #. Default: "Thema"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:584
+#: recensio.theme:/skins/recensio_theme/search_form.pt:525
 msgid "label_topic"
 msgstr "Thème"
 
-#. Default: "The Topic that you are looking for"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:588
-msgid "help_topic"
-msgstr "Le sujet sur lequel porte votre recherche"
-
 #. Default: "Schlagw\303\266rter"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:612
+#: recensio.theme:/skins/recensio_theme/search_form.pt:554
 msgid "label_tags"
 msgstr "Mots-clés"
 
 #. Default: "Return items matching some or all of these tags. Multiple words may be found by pressing <strong>Ctrl</strong> (or <strong>Apple</strong> key on Mac) while clicking the keywords."
-#: recensio.theme:/skins/recensio_theme/search_form.pt:616
+#: recensio.theme:/skins/recensio_theme/search_form.pt:558
 msgid "help_search_tags"
 msgstr ""
 "Résultats correspondants à un ou plusieurs mots-clés. Vous pouvez utiliser "
 "la sélection multiple en appuyant sur la touche <strong>Ctrl</strong> (ou "
 "<strong>Pomme</strong> pour les Mac) et en sélectionnant vos mots-clés."
 
-#. Default: "Search"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:64
-#: recensio.theme:/skins/recensio_theme/search_form.pt:375
-#: recensio.theme:/skins/recensio_theme/search_form.pt:499
-#: recensio.theme:/skins/recensio_theme/search_form.pt:661
-#: recensio.theme:/skins/recensio_theme/search_form.pt:883
-#: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:66
-#: recensio.theme:/skins/recensio_theme/search.pt:70
-msgid "label_search"
-msgstr "Recherche"
-
 #. Default: "Match any"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:644
+#: recensio.theme:/skins/recensio_theme/search_form.pt:578
 msgid "description_subject_or"
 msgstr "Afficher les résultats contenant un ou plusieurs des termes"
 
 #. Default: "Match all"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:655
+#: recensio.theme:/skins/recensio_theme/search_form.pt:589
 msgid "description_subject_and"
 msgstr "Afficher les résultats contenant tous les termes"
 
 #. Default: "Zeitschriften"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:676
+#: recensio.theme:/skins/recensio_theme/search_form.pt:610
 msgid "label_magazines"
 msgstr "Revues"
 
 #. Default: "Findet Artikel, die in einer der ausgew\303\244hlten Zeitschrift erschienen sind."
-#: recensio.theme:/skins/recensio_theme/search_form.pt:677
+#: recensio.theme:/skins/recensio_theme/search_form.pt:611
 msgid "help_search_magazines"
 msgstr "Chercher un article paru dans les revues sélectionnées"
 
-#. Default: "Select All/None"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:701
-msgid "label_toggle"
-msgstr "Tout sélectionner/Désélectionner"
-
-#: recensio.theme:/skins/recensio_theme/search_form.pt:737
-msgid "Display options"
-msgstr "Afficher les options"
-
-#. Default: "Generelles"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:74
-msgid "label_persons"
-msgstr "Persons"
-
 #. Default: "Title"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:785
+#: recensio.theme:/skins/recensio_theme/search_form.pt:715
 msgid "label_title"
 msgstr "Titre"
 
 #. Default: "Return items matching this title."
-#: recensio.theme:/skins/recensio_theme/search_form.pt:790
+#: recensio.theme:/skins/recensio_theme/search_form.pt:720
 msgid "help_search_title"
 msgstr "Chercher dans le champ titre"
 
 #. Default: "Description"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:808
+#: recensio.theme:/skins/recensio_theme/search_form.pt:738
 msgid "label_description"
 msgstr "Description"
 
 #. Default: "Return items matching this description. Multiple words may be found by combining them with <strong>AND</strong> and <strong>OR</strong>."
-#: recensio.theme:/skins/recensio_theme/search_form.pt:813
+#: recensio.theme:/skins/recensio_theme/search_form.pt:743
 msgid "help_search_description"
 msgstr ""
 "Résultats correspondants au champ description. Vous pouvez associer "
 "plusieurs termes en utilisant les opérateurs <strong>AND</strong> et "
 "<strong>OR</strong>."
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:831
+#. Default: "Personen"
+#: recensio.theme:/skins/recensio_theme/search_form.pt:75
+msgid "label_persons"
+msgstr "Persons"
+
+#: recensio.theme:/skins/recensio_theme/search_form.pt:763
 msgid "Sort results"
 msgstr "Trier les résultats"
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:833
+#: recensio.theme:/skins/recensio_theme/search_form.pt:767
 msgid "Sort the Search Results based on the selected criterion"
 msgstr "Trier les résultats de la recherche d'après les critères sélectionnés"
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:840
+#: recensio.theme:/skins/recensio_theme/search_form.pt:775
 msgid "Creation Date"
 msgstr "Date de création"
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:843
+#: recensio.theme:/skins/recensio_theme/search_form.pt:778
 msgid "Relevance"
 msgstr "Pertinence"
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:846
+#: recensio.theme:/skins/recensio_theme/search_form.pt:781
 msgid "Modification Date"
 msgstr "Date de modification"
 
+#. Default: "Language of the Review or Presentation"
+#: recensio.theme:/skins/recensio_theme/search_form.pt:793
+msgid "label_recension_language"
+msgstr "Langue de la recension ou de la présentation"
+
+#. Default: "Return items in selected languages."
+#: recensio.theme:/skins/recensio_theme/search_form.pt:798
+msgid "help_search_recension_language"
+msgstr "Montrer les articles dans les langues sélectionnées"
+
+#. Default: "Language of the Reviewed Works"
+#: recensio.theme:/skins/recensio_theme/search_form.pt:831
+msgid "label_works_language"
+msgstr "Langue des publications commentées"
+
+#. Default: "Return items that review works in selected the languages."
+#: recensio.theme:/skins/recensio_theme/search_form.pt:836
+msgid "help_search_works_language"
+msgstr "Montrer les articles dans les langues sélectionnées"
+
 #. Default: "Results per page"
-#: recensio.theme:/skins/recensio_theme/search_form.pt:858
+#: recensio.theme:/skins/recensio_theme/search_form.pt:870
 msgid "label_results_per_page"
 msgstr "Résultats par page"
 
 #. Default: "The number of results that is displayed on one page."
-#: recensio.theme:/skins/recensio_theme/search_form.pt:860
+#: recensio.theme:/skins/recensio_theme/search_form.pt:872
 msgid "description_results_per_page"
 msgstr "Nombre de résultats par page"
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:867
+#: recensio.theme:/skins/recensio_theme/search_form.pt:879
 msgid "30"
 msgstr "30"
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:870
+#: recensio.theme:/skins/recensio_theme/search_form.pt:882
 msgid "60"
 msgstr "60"
 
-#: recensio.theme:/skins/recensio_theme/search_form.pt:873
+#: recensio.theme:/skins/recensio_theme/search_form.pt:885
 msgid "90"
 msgstr "90"
 
@@ -2683,3 +2751,24 @@ msgstr "Dernières recensions publiées"
 #: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:98
 msgid "label_secondary_nav_monographien"
 msgstr "Monographies"
+
+#~ msgid "label_author"
+#~ msgstr "Auteur"
+
+#~ msgid "help_search_author"
+#~ msgstr "Chercher un texte (commentaire…) par auteur"
+
+#~ msgid "label_any_author"
+#~ msgstr "Tous les créateurs"
+
+#~ msgid "help_region"
+#~ msgstr "La région sur laquelle porte votre recherche"
+
+#~ msgid "help_epoch"
+#~ msgstr "L'époque sur laquelle porte votre recherche"
+
+#~ msgid "help_topic"
+#~ msgstr "Le sujet sur lequel porte votre recherche"
+
+#~ msgid "Display options"
+#~ msgstr "Afficher les options"
