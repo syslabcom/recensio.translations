@@ -1127,7 +1127,7 @@ msgid "notify_portal_owner"
 msgstr ""
 
 #: recensio.policy:/browser/templates/footer.pt:26
-#. Default: "recensio.net ist ein von der Deutschen Forschungsgemeinschaft gefoerdertes Gemeinschaftsprojekt folgender Institutionen"
+#. Default: "recensio.net ist ein Gemeinschaftsprojekt folgender Institutionen"
 msgid "message_supported_by"
 msgstr ""
 
