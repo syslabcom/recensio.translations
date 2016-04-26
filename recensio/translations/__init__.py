@@ -19,6 +19,9 @@ def podiff(vcsurl):
     from mr.developer.common import which
 
     vcstype = vcsurl.split(' ')[0]
+    vcsextra = ''
+    if len(vcsurl.split(' ')) > 2:
+        vcsextra = ' '.join(vcsurl.split(' ')[2:])
     vcsurl = vcsurl.split(' ')[1]
     pofiles = []
     def visit(pofiles, dirname, names):
@@ -43,7 +46,7 @@ def podiff(vcsurl):
             urllib.urlretrieve(pofileurl, tmppath)
         elif vcstype == 'git':
             cmd = which('git')
-            branchmatch = re.search('branch=(\S*)', vcsurl)
+            branchmatch = re.search('branch=(\S*)', vcsextra)
             if branchmatch:
                 branch = branchmatch.group(1)
             else:
@@ -71,21 +74,52 @@ def podiff(vcsurl):
         diff = []
 
         for entryvcs in povcs:
+            if entryvcs.obsolete:
+                if entryvcs not in polocal.obsolete_entries():
+                    diff += ['-#msgid "%s"' % entryvcs.msgid]
+                    diff += ['-#msgstr "%s"' % entryvcs.msgstr]
+                    diff += ['']
+                else:
+                    continue
             entrylocal = polocal.find(entryvcs.msgid)
             if not entrylocal:
-                diff += ['-msgid "%s"' % entryvcs.msgid]
-                diff += ['-msgstr "%s"' % entryvcs.msgstr]
-                diff += ['']
+                if entryvcs in polocal.obsolete_entries():
+                    diff += ['+#msgid "%s"' % entryvcs.msgid]
+                    diff += ['+#msgstr "%s"' % entryvcs.msgstr]
+                    diff += ['']
+                else:
+                    diff += ['-msgid "%s"' % entryvcs.msgid]
+                    diff += ['-msgstr "%s"' % entryvcs.msgstr]
+                    diff += ['']
             else:
                 if not entryvcs.msgstr == entrylocal.msgstr:
                     diff += [' msgid "%s"' % entryvcs.msgid]
                     diff += ['-msgstr "%s"' % entryvcs.msgstr]
                     diff += ['+msgstr "%s"' % entrylocal.msgstr]
                     diff += ['']
-        for entrylocal in filter(lambda e: not povcs.find(e.msgid), polocal):
-            diff += ['+msgid "%s"' % entrylocal.msgid]
-            diff += ['+msgstr "%s"' % entrylocal.msgstr]
-            diff += ['']
+        for entrylocal in filter(lambda e: e not in povcs, polocal):
+            if entrylocal in povcs.obsolete_entries():
+                # XXX WTF? Iterating over a POFile yields obsolete entries, but
+                # checking for an obsolete entry with 'in' returns False. This
+                # means we have already iterated over the obsolete entries but
+                # the above filter returns them again. We need to explicity skip
+                # them.
+                #
+                # (Pdb) entry.obsolete
+                # 1
+                # (Pdb) [e for e in povcs if e == entry]
+                # [<polib.POEntry object at 0x2f7d850>]
+                # (Pdb) entry in povcs
+                # False
+                continue
+            if entrylocal.obsolete:
+                diff += ['+#msgid "%s"' % entrylocal.msgid]
+                diff += ['+#msgstr "%s"' % entrylocal.msgstr]
+                diff += ['']
+            else:
+                diff += ['+msgid "%s"' % entrylocal.msgid]
+                diff += ['+msgstr "%s"' % entrylocal.msgstr]
+                diff += ['']
 
         if diff:
             out = ['']

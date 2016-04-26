@@ -1,10 +1,20 @@
 Changelog
 =========
 
-3.0.5 (unreleased)
+3.1.1 (unreleased)
 ------------------
 
 - Nothing changed yet.
+
+
+3.1.0 (2016-04-25)
+------------------
+
+- DOI registration support, refs #10976 #12126 [reinhardt]
+- updated message_supported_by, refs #11972 [reinhardt]
+- updated translations, refs #12127 [reinhardt]
+- podiff: fix for branch match; handle obsolete entries; refs #12126 #12127
+  [reinhardt]
 
 
 3.0.4 (2015-04-07)
