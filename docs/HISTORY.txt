@@ -1,7 +1,13 @@
 Changelog
 =========
 
-3.0.5 (unreleased)
+3.1.1 (unreleased)
+------------------
+
+- Nothing changed yet.
+
+
+3.1.0 (2016-04-25)
 ------------------
 
 - DOI registration support, refs #10976 #12126 [reinhardt]
