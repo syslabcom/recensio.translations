@@ -1136,6 +1136,11 @@ msgstr ""
 msgid "message_supported_by"
 msgstr ""
 
+#: recensio.altertum:/browser/templates/footer.pt:21
+#. Default: "recensio.antiquitatis ist ein von der Deutschen Forschungsgemeinschaft gefördertes Gemeinschaftsprojekt der Universitätsbibliothek Heidelberg und der Bayerischen Staatsbibliothek."
+msgid "message_antiquatis_supported_by"
+msgstr ""
+
 #: recensio.policy:/browser/templates/pdf_cut.pt:13
 msgid "pages"
 msgstr ""

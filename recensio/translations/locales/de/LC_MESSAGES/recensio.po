@@ -1424,6 +1424,11 @@ msgstr "Seitenbetreiber zu diesem Kommentar benachrichtigen"
 msgid "message_supported_by"
 msgstr "recensio.net ist ein Gemeinschaftsprojekt folgender Institutionen"
 
+#. Default: "recensio.antiquitatis ist ein von der Deutschen Forschungsgemeinschaft gefördertes Gemeinschaftsprojekt der Universitätsbibliothek Heidelberg und der Bayerischen Staatsbibliothek."
+#: recensio.altertum:/browser/templates/footer.pt:21
+msgid "message_antiquatis_supported_by"
+msgstr "recensio.antiquitatis ist ein von der Deutschen Forschungsgemeinschaft gefördertes Gemeinschaftsprojekt der Universitätsbibliothek Heidelberg und der Bayerischen Staatsbibliothek."
+
 #: recensio.policy:/browser/templates/pdf_cut.pt:13
 msgid "pages"
 msgstr "Seiten"
