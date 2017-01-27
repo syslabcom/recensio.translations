@@ -4,7 +4,10 @@ Changelog
 3.1.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Translations for label_fallback_unavailable, refs #13627
+  [reinhardt]
+- Translation for recensio.antiquitatis footer, refs #13718
+  [reinhardt]
 
 
 3.1.0 (2016-04-25)
