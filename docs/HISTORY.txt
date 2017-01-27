@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.1.1 (unreleased)
+3.1.1 (2017-01-27)
 ------------------
 
 - Translations for label_fallback_unavailable, refs #13627
