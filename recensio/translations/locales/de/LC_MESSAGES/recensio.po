@@ -1429,6 +1429,11 @@ msgstr "recensio.net ist ein Gemeinschaftsprojekt folgender Institutionen"
 msgid "message_antiquatis_supported_by"
 msgstr "recensio.antiquitatis ist ein von der Deutschen Forschungsgemeinschaft gefördertes Gemeinschaftsprojekt der Universitätsbibliothek Heidelberg und der Bayerischen Staatsbibliothek."
 
+#: recensio.artium:/browser/templates/footer.pt:22
+#. Default: "recensio.artium ist ein von der Deutschen Forschungsgemeinschaft gefördertes Projekt der Universitätsbibliothek Heidelberg."
+msgid "message_artium_supported_by"
+msgstr "recensio.artium ist ein von der Deutschen Forschungsgemeinschaft gefördertes Projekt der Universitätsbibliothek Heidelberg."
+
 #: recensio.policy:/browser/templates/pdf_cut.pt:13
 msgid "pages"
 msgstr "Seiten"

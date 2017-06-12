@@ -1141,6 +1141,11 @@ msgstr ""
 msgid "message_antiquatis_supported_by"
 msgstr ""
 
+#: recensio.artium:/browser/templates/footer.pt:22
+#. Default: "recensio.artium ist ein von der Deutschen Forschungsgemeinschaft gefördertes Projekt der Universitätsbibliothek Heidelberg."
+msgid "message_artium_supported_by"
+msgstr ""
+
 #: recensio.policy:/browser/templates/pdf_cut.pt:13
 msgid "pages"
 msgstr ""
