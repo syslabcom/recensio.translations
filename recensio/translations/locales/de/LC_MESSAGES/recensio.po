@@ -1821,7 +1821,7 @@ msgstr "von ${author}"
 
 #: recensio.policy:/missing_18n_labels.py:40
 msgid "label_downloaded_via_recensio"
-msgstr "heruntergeladen über recensio.net"
+msgstr "heruntergeladen über ${portal}"
 
 #: recensio.policy:/missing_18n_labels.py:41
 msgid "label_participate"
