@@ -1344,16 +1344,16 @@ msgstr "Conditions d'utilisation"
 #: recensio.policy:/browser/templates/comments.pt:135
 msgid "commenting_explanation"
 msgstr ""
-"Vous avez la possibilité de commenter cette recension/présentation. Afin "
+"Vous avez la possibilité de commenter cette recension. Afin "
 "d'éviter tout abus et de garantir la qualité du débat scientifique, "
 "l'utilisation de cette fonctionnalité nécessite une inscription préalable "
 "sur la plateforme (nom et adresse e-mail requis).<br /> Dans le respect des "
 "conditions d'utilisation, veuillez noter que les commentaires entrants sont "
-"modérés. C'est pourquoi ils ne seront visibles sur recensio.net qu'après un "
+"modérés. C'est pourquoi ils ne seront visibles sur ${portal_title} qu'après un "
 "délai d'un à trois jours ouvrés. Vous pouvez par ailleurs signaler un "
 "commentaire problématique à tout moment, en cliquant sur le bouton placé à "
 "côté du commentaire.<br /> N'hésitez pas à vous adresser à la rédaction de "
-"recensio.net pour toute demande de précisions : <br /> ${contact_addr}."
+"${portal_title} pour toute demande de précisions : <br /> ${contact_addr}."
 
 #. Default: "Add comment"
 #: recensio.policy:/browser/templates/comments.pt:139
@@ -2106,21 +2106,16 @@ msgstr "Recherche d'auteurs"
 #: recensio.theme:/browser/templates/authorsearch.pt:48
 msgid "description_authorsearch_1"
 msgstr ""
-"Nous vous proposons ici un index des auteurs des recensions, des "
-"présentations (d’articles, de monographies et ressources Internet) et des "
+"Nous vous proposons ici un index des auteurs des recensions et des "
 "commentaires publiés sur <i>recensio.net</i>, ainsi que les auteurs des "
-"travaux commentés sur la plateforme.Chaque type de document est représenté "
-"par un icône, placé devant le nom de l’auteur, afin de préciser le type "
-"d’ouvrage qu'il a écrit."
+"travaux commentés sur la plateforme."
 
 #. Default: "Mit einem Klick auf den Autornamen erhalten Sie alle von einem Autor publizierten Texte. Der Klick auf ein spezielles Icon zeigt Ihnen gezielt die Treffer eines Genres an."
 #: recensio.theme:/browser/templates/authorsearch.pt:57
 msgid "description_authorsearch_2"
 msgstr ""
 "En cliquant sur le nom d’un auteur, vous pourrez également voir tous les "
-"textes et commentaires qu’il a publiés sur recensio.net. Un clic sur l’une "
-"des icônes vous permettra d’obtenir tous les documents du même type par "
-"auteur."
+"textes et commentaires qu’il a publiés sur recensio.net."
 
 #. Default: "Es wurden keine Autoren gefunden die ihren Kriterien entsprechen"
 #: recensio.theme:/browser/templates/authorsearch.pt:78
@@ -2468,7 +2463,7 @@ msgstr "Auteurs/Directeur de publication"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:241
 msgid "help_review_autor"
 msgstr ""
-"Auteur (monographie/article/commentaire/recension/présentation) ou directeur "
+"Auteur (monographie/article/commentaire/recension) ou directeur "
 "de publication (recueil)"
 
 #. Default: "Buch, Aufsatz, Zeitschrift"
@@ -2658,7 +2653,7 @@ msgstr "Date de modification"
 #. Default: "Language of the Review or Presentation"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:793
 msgid "label_recension_language"
-msgstr "Langue de la recension ou de la présentation"
+msgstr "Langue de la recension"
 
 #. Default: "Return items in selected languages."
 #: recensio.theme:/skins/recensio_theme/search_form.pt:798

@@ -1316,7 +1316,7 @@ msgstr "user guidelines"
 #: recensio.policy:/browser/templates/comments.pt:135
 msgid "commenting_explanation"
 msgstr ""
-"Here you can comment on the review/presentation. You will only need to "
+"Here you can comment on the review. You will only need to "
 "register first (fast and free of charge) with your name and e-mail-address. "
 "This is necessary to prevent any misuse of the comment function and to "
 "maintain the platform’s scholarly claim.\n"
@@ -1328,7 +1328,7 @@ msgstr ""
 "the editorial team on statements considered to be problematical.\n"
 "<br />\n"
 "For any further information/questions please feel free to contact the "
-"recensio.net editorial team:<br />\n"
+"${portal_title} editorial team:<br />\n"
 "${contact_addr}."
 
 #. Default: "Add comment"
@@ -2059,19 +2059,15 @@ msgstr "Authors"
 #: recensio.theme:/browser/templates/authorsearch.pt:48
 msgid "description_authorsearch_1"
 msgstr ""
-"Here you can find the authors of reviews, presentations (articles, "
-"monographs, online resources) and comments published on <i>recensio.net</i> "
-"as well as the authors of works reviewed here. Each of the three genres is "
-"assigned to an icon indicating in front of the respective author’s name "
-"which type of text he/she has written."
+"Here you can find the authors of reviews and comments published on "
+"<i>recensio.net</i> as well as the authors of works reviewed here."
 
 #. Default: "Mit einem Klick auf den Autornamen erhalten Sie alle von einem Autor publizierten Texte. Der Klick auf ein spezielles Icon zeigt Ihnen gezielt die Treffer eines Genres an."
 #: recensio.theme:/browser/templates/authorsearch.pt:57
 msgid "description_authorsearch_2"
 msgstr ""
 "With a click on the author’s name you will get all texts published by this "
-"author. Clicking on one of the icons will show you specifically the hits of "
-"a certain text type."
+"author."
 
 #. Default: "Es wurden keine Autoren gefunden die ihren Kriterien entsprechen"
 #: recensio.theme:/browser/templates/authorsearch.pt:78
@@ -2415,7 +2411,7 @@ msgstr "Author/Editor"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:241
 msgid "help_review_autor"
 msgstr ""
-"Author of monograph/article/comment/review/presentation or editor of an "
+"Author of monograph/article/comment/review or editor of an "
 "edited volume"
 
 #. Default: "Buch, Aufsatz, Zeitschrift"
@@ -2603,7 +2599,7 @@ msgstr "Date of modification"
 #. Default: "Language of the Review or Presentation"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:793
 msgid "label_recension_language"
-msgstr "Language of the review or presentation"
+msgstr "Language of the review"
 
 #. Default: "Return items in selected languages."
 #: recensio.theme:/skins/recensio_theme/search_form.pt:798
