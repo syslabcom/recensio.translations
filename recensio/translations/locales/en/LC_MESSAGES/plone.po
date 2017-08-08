@@ -272,7 +272,5 @@ msgstr "Submit for publication"
 msgid "label_login_to_send_feedback"
 msgstr "Log in to send message"
 
-#. Default: "Return items of a specific type."
-#: recensio.theme:/skins/recensio_theme/search_form.pt:752
-msgid "help_search_item_type"
-msgstr "Search specific types of items"
+#~ msgid "help_search_item_type"
+#~ msgstr "Search specific types of items"
