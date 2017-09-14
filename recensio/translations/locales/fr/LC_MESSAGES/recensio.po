@@ -38,8 +38,8 @@ msgstr ""
 "ils ne seront visibles sur ${portal_title} qu'après un délai d'un à trois "
 "jours ouvrés. Vous pouvez par ailleurs signaler un commentaire problématique "
 "à tout moment, en cliquant sur le bouton placé à côté du commentaire.<br /> "
-"N'hésitez pas à vous adresser à la ${portal_editorial} pour toute "
-"demande de précisions."
+"N'hésitez pas à vous adresser à la ${portal_editorial} pour toute demande de "
+"précisions."
 
 #. Default: "${DYNAMIC_CONTENT}-Redaktion"
 #: recensio.altertum:/browser/templates/comments.pt:134
@@ -2815,6 +2815,11 @@ msgstr "Monographies"
 #: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:96
 msgid "label_secondary_nav_aufsaetze"
 msgstr "Articles"
+
+#. Default: "recensio.regio ist ein im Rahmen des <a href=\"https://www.bsb-muenchen.de/ueber-uns/projekte/fachinformationsdienst-geschichtswissenschaft/\">Fachinformationsdienst Geschichtswissenschaft</a> von der Deutschen Forschungsgemeinschaft gef\303\266rdertes Projekt der Bayerischen Staatsbibliothek."
+#: recensio.regio:/browser/templates/footer.pt:21
+msgid "message_regio_supported_by"
+msgstr ""
 
 #~ msgid "label_all_presentations"
 #~ msgstr "Toutes les présentations du même auteur"

@@ -2373,3 +2373,7 @@ msgstr ""
 msgid "label_secondary_nav_aufsaetze"
 msgstr ""
 
+#: recensio.regio:/browser/templates/footer.pt:21
+#. Default: "recensio.regio ist ein im Rahmen des <a href=\"https://www.bsb-muenchen.de/ueber-uns/projekte/fachinformationsdienst-geschichtswissenschaft/\">Fachinformationsdienst Geschichtswissenschaft</a> von der Deutschen Forschungsgemeinschaft gef\303\266rdertes Projekt der Bayerischen Staatsbibliothek."
+msgid "message_regio_supported_by"
+msgstr ""

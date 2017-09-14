@@ -42,8 +42,7 @@ msgstr ""
 "problematisch empfundene Äußerungen über einen neben Kommentaren "
 "befindlichen Button zu melden.\n"
 "<br />\n"
-"Für Rückfragen steht Ihnen die ${portal_editorial} jederzeit zur "
-"Verfügung."
+"Für Rückfragen steht Ihnen die ${portal_editorial} jederzeit zur Verfügung."
 
 #. Default: "${DYNAMIC_CONTENT}-Redaktion"
 #: recensio.altertum:/browser/templates/comments.pt:134
@@ -2881,6 +2880,15 @@ msgstr "Monographien"
 #: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:96
 msgid "label_secondary_nav_aufsaetze"
 msgstr "Aufsätze"
+
+#. Default: "recensio.regio ist ein im Rahmen des <a href=\"https://www.bsb-muenchen.de/ueber-uns/projekte/fachinformationsdienst-geschichtswissenschaft/\">Fachinformationsdienst Geschichtswissenschaft</a> von der Deutschen Forschungsgemeinschaft gef\303\266rdertes Projekt der Bayerischen Staatsbibliothek."
+#: recensio.regio:/browser/templates/footer.pt:21
+msgid "message_regio_supported_by"
+msgstr "recensio.regio ist ein im Rahmen des <a href=\"https://"
+"www.bsb-muenchen.de/ueber-uns/projekte/fachinformationsdienst-"
+"geschichtswissenschaft/\">Fachinformationsdienst "
+"Geschichtswissenschaft</a> von der Deutschen Forschungsgemeinschaft "
+"gef\303\266rdertes Projekt der Bayerischen Staatsbibliothek."
 
 #~ msgid "label_all_presentations"
 #~ msgstr "Alle Präsentationen eines Autors"
