@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: Tue Aug  8 11:43:23 2017\n"
+"POT-Creation-Date: Thu Sep 14 10:02:16 2017\n"
 "PO-Revision-Date: 2011-11-08 12:01+0200\n"
 "Last-Translator: reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -44,7 +44,7 @@ msgstr ""
 "<br />\n"
 "Für Rückfragen steht Ihnen die ${portal_editorial} jederzeit zur Verfügung."
 
-#. Default: "${DYNAMIC_CONTENT}-Redaktion"
+#. Default: "${portal_title}-Redaktion"
 #: recensio.altertum:/browser/templates/comments.pt:134
 msgid "portal_editorial"
 msgstr "${portal_title}-Redaktion"
@@ -192,7 +192,7 @@ msgstr "Sprache (Monographie)"
 
 #. Default: "Author (monograph)"
 #: recensio.contenttypes:/browser/review.py:94
-#: recensio.contenttypes:/content/schemata.py:816
+#: recensio.contenttypes:/content/schemata.py:893
 msgid "Author (monograph)"
 msgstr "Autor (Monographie)"
 
@@ -395,7 +395,7 @@ msgid "Volume"
 msgstr "Band"
 
 #: recensio.contenttypes:/content/presentationarticlereview.py:79
-#: recensio.contenttypes:/content/schemata.py:882
+#: recensio.contenttypes:/content/schemata.py:999
 msgid "Number"
 msgstr "Heftnummer"
 
@@ -436,14 +436,14 @@ msgstr "Herausgeber"
 #: recensio.contenttypes:/content/presentationcollection.py:57
 #: recensio.contenttypes:/content/schemata.py:133
 #: recensio.contenttypes:/content/schemata.py:589
-#: recensio.contenttypes:/content/schemata.py:839
+#: recensio.contenttypes:/content/schemata.py:916
 msgid "Last name"
 msgstr "Nachname"
 
 #: recensio.contenttypes:/content/presentationcollection.py:58
 #: recensio.contenttypes:/content/schemata.py:134
 #: recensio.contenttypes:/content/schemata.py:590
-#: recensio.contenttypes:/content/schemata.py:840
+#: recensio.contenttypes:/content/schemata.py:917
 msgid "First name"
 msgstr "Vorname"
 
@@ -689,9 +689,42 @@ msgstr "Titel (Zeitschrift)"
 msgid "Language(s) of presentation"
 msgstr "Sprache(n) der Präsentation"
 
+#: recensio.contenttypes:/content/schemata.py:1007
+msgid "Official year of publication (if different)"
+msgstr "Gezähltes Jahr (evtl. differierend)"
+
+#: recensio.contenttypes:/content/schemata.py:1012
+msgid "Actual year of publication"
+msgstr "Tatsächliches Erscheinungsjahr"
+
 #: recensio.contenttypes:/content/schemata.py:103
 msgid "Language(s) of presented resource"
 msgstr "Sprache(n) der präsentierten Ressource"
+
+#. Default: "PDF watermark"
+#: recensio.contenttypes:/content/schemata.py:1033
+msgid "label_publication_pdf_watermark"
+msgstr "Logo"
+
+#. Default: "Upload a publication logo for the PDF coversheet. Transparent PNG format images are recommended."
+#: recensio.contenttypes:/content/schemata.py:1036
+msgid "description_publication_pdf_watermark"
+msgstr ""
+"Hochladen eines Logos für das PDF-Vorblatt. Empfohlen werden transparent "
+"angelegte Bilddateien im PNG Format."
+
+#. Default: "Publication Licence"
+#: recensio.contenttypes:/content/schemata.py:1049
+msgid "label_publication_licence"
+msgstr "Lizenzhinweis"
+
+#. Default: "Please specify the licence terms under which reviews may be used. This text will be displayed on the front page of the PDF version and to the side of the web version of each review for this publication."
+#: recensio.contenttypes:/content/schemata.py:1052
+msgid "description_publication_licence"
+msgstr ""
+"Bitte formulieren Sie die Lizenzbedingungen. Dieser Text wird auf dem "
+"Vorblatt der PDF-Datei sowie auf der HTML-Objektseite der Rezension "
+"angezeigt."
 
 #: recensio.contenttypes:/content/schemata.py:106
 msgid "Language(s) of presented work"
@@ -941,112 +974,114 @@ msgstr "BV Nummer"
 
 #. Default: "Filled in by the editorial staff"
 #: recensio.contenttypes:/content/schemata.py:677
+#: recensio.contenttypes:/content/schemata.py:689
 msgid "description_bv_number"
 msgstr "Wird von der Redaktion ausgefüllt"
 
-#: recensio.contenttypes:/content/schemata.py:690
+#: recensio.contenttypes:/content/schemata.py:688
+msgid "PPN"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:702
 msgid "Original Source URL"
 msgstr "Original URL"
 
 #. Default: "Please fill in only after consultation with the recensio.net team"
-#: recensio.contenttypes:/content/schemata.py:691
+#: recensio.contenttypes:/content/schemata.py:703
 msgid "description_uri"
 msgstr "Bitte nur nach Absprache ausfüllen (im Normalfall freilassen)"
 
-#: recensio.contenttypes:/content/schemata.py:703
+#: recensio.contenttypes:/content/schemata.py:715
 msgid "Subject heading"
 msgstr "Schlagwörter"
 
 #. Default: "Mehrere Schlagw\303\266rter bitte untereinander (per Return-Taste) auflisten, keine Kommas verwenden."
-#: recensio.contenttypes:/content/schemata.py:704
+#: recensio.contenttypes:/content/schemata.py:716
 #, fuzzy
 msgid "description_subject"
 msgstr ""
 "Mehrere Schlagwörter bitte untereinander (per Return-Taste) auflisten, keine "
 "Kommas verwenden."
 
-#: recensio.contenttypes:/content/schemata.py:714
+#: recensio.contenttypes:/content/schemata.py:726
 msgid "ddc subject"
 msgstr "ddc sach"
 
-#: recensio.contenttypes:/content/schemata.py:725
+#: recensio.contenttypes:/content/schemata.py:737
 msgid "ddc time"
 msgstr "ddc zeit"
 
-#: recensio.contenttypes:/content/schemata.py:735
+#: recensio.contenttypes:/content/schemata.py:747
 msgid "ddc place"
 msgstr "ddc raum"
 
 #. Default: "Information on presented work"
-#: recensio.contenttypes:/content/schemata.py:747
+#: recensio.contenttypes:/content/schemata.py:759
 msgid "heading_presented_work"
 msgstr "Informationen zum präsentierten Werk"
 
-#: recensio.contenttypes:/content/schemata.py:758
+#: recensio.contenttypes:/content/schemata.py:770
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:25
 msgid "Subtitle"
 msgstr "Untertitel"
 
-#: recensio.contenttypes:/content/schemata.py:767
+#: recensio.contenttypes:/content/schemata.py:779
 msgid "Year of publication"
 msgstr "Erscheinungsjahr"
 
-#: recensio.contenttypes:/content/schemata.py:775
+#: recensio.contenttypes:/content/schemata.py:787
 msgid "Place of publication"
 msgstr "Erscheinungsort"
 
-#: recensio.contenttypes:/content/schemata.py:783
+#: recensio.contenttypes:/content/schemata.py:795
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:87
 msgid "Publisher"
 msgstr "Verlag"
 
-#: recensio.contenttypes:/content/schemata.py:807
+#: recensio.contenttypes:/content/schemata.py:804
+msgid "Year of publication (Online)"
+msgstr "Erscheinungsjahr (Online)"
+
+#: recensio.contenttypes:/content/schemata.py:812
+msgid "Place of publication (Online)"
+msgstr "Erscheinungsort (Online)"
+
+#: recensio.contenttypes:/content/schemata.py:820
+msgid "Publisher (Online)"
+msgstr "Verlag (Online)"
+
+#: recensio.contenttypes:/content/schemata.py:844
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:43
 msgid "ISBN"
 msgstr "ISBN"
 
 #. Default: "With or without hyphens. In case of several numbers please choose the hard cover edition."
-#: recensio.contenttypes:/content/schemata.py:808
+#: recensio.contenttypes:/content/schemata.py:845
 msgid "description_isbn"
 msgstr ""
 "Schreibweise frei. Bei mehreren Nummern bitte jene der Hardcoverausgabe "
 "wählen."
 
-#. Default: "Please fill in either authors OR editors (exception: Complete Works etc.)"
-#: recensio.contenttypes:/content/schemata.py:824
-msgid "help_authors_or_editors"
+#: recensio.contenttypes:/content/schemata.py:857
+msgid "ISBN (Online)"
 msgstr ""
-"Bitte jeweils nur Autoren ODER Herausgeber angeben (Ausnahme: Gesammelte "
-"Werke u.ä.):"
-
-#: recensio.contenttypes:/content/schemata.py:838
-msgid "label_editorial"
-msgstr "Herausgeber der präsentierten Monographie"
-
-#: recensio.contenttypes:/content/schemata.py:854
-msgid "ISSN"
-msgstr "ISSN"
 
 #. Default: "With or without hyphens."
-#: recensio.contenttypes:/content/schemata.py:855
-msgid "description_issn"
+#: recensio.contenttypes:/content/schemata.py:858
+msgid "description_isbn_online"
 msgstr "Schreibweise frei."
 
-#: recensio.contenttypes:/content/schemata.py:866
-msgid "Shortname"
-msgstr "Kürzel (Zeitschrift)"
+#: recensio.contenttypes:/content/schemata.py:871
+msgid "URL (Monographie)"
+msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:874
-msgid "Vol."
-msgstr "Band"
+#: recensio.contenttypes:/content/schemata.py:881
+msgid "URN (Monographie)"
+msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:890
-msgid "Official year of publication (if different)"
-msgstr "Gezähltes Jahr (evtl. differierend)"
-
-#: recensio.contenttypes:/content/schemata.py:895
-msgid "Actual year of publication"
-msgstr "Tatsächliches Erscheinungsjahr"
+#: recensio.contenttypes:/content/schemata.py:889
+msgid "DOI (Monographie)"
+msgstr ""
 
 #. Default: "Mit gedr\303\274ckter Strg-Taste k\303\266nnen mehrere Zeilen gleichzeitig ausgew\303\244hlt werden."
 #: recensio.contenttypes:/content/schemata.py:90
@@ -1056,30 +1091,54 @@ msgstr ""
 "Mit gedrückter Strg-Taste können mehrere Zeilen gleichzeitig ausgewählt "
 "werden."
 
-#. Default: "PDF watermark"
-#: recensio.contenttypes:/content/schemata.py:916
-msgid "label_publication_pdf_watermark"
-msgstr "Logo"
-
-#. Default: "Upload a publication logo for the PDF coversheet. Transparent PNG format images are recommended."
-#: recensio.contenttypes:/content/schemata.py:919
-msgid "description_publication_pdf_watermark"
+#. Default: "Please fill in either authors OR editors (exception: Complete Works etc.)"
+#: recensio.contenttypes:/content/schemata.py:901
+msgid "help_authors_or_editors"
 msgstr ""
-"Hochladen eines Logos für das PDF-Vorblatt. Empfohlen werden transparent "
-"angelegte Bilddateien im PNG Format."
+"Bitte jeweils nur Autoren ODER Herausgeber angeben (Ausnahme: Gesammelte "
+"Werke u.ä.):"
 
-#. Default: "Publication Licence"
+#: recensio.contenttypes:/content/schemata.py:915
+msgid "label_editorial"
+msgstr "Herausgeber der präsentierten Monographie"
+
+#: recensio.contenttypes:/content/schemata.py:931
+msgid "ISSN"
+msgstr "ISSN"
+
+#. Default: "With or without hyphens."
 #: recensio.contenttypes:/content/schemata.py:932
-msgid "label_publication_licence"
-msgstr "Lizenzhinweis"
+msgid "description_issn"
+msgstr "Schreibweise frei."
 
-#. Default: "Please specify the licence terms under which reviews may be used. This text will be displayed on the front page of the PDF version and to the side of the web version of each review for this publication."
-#: recensio.contenttypes:/content/schemata.py:935
-msgid "description_publication_licence"
+#: recensio.contenttypes:/content/schemata.py:943
+msgid "ISSN Online"
+msgstr "ISSN (Online)"
+
+#. Default: "With or without hyphens."
+#: recensio.contenttypes:/content/schemata.py:944
+msgid "description_issn_online"
+msgstr "Schreibweise frei."
+
+#: recensio.contenttypes:/content/schemata.py:957
+msgid "URL (Zeitschrift)"
 msgstr ""
-"Bitte formulieren Sie die Lizenzbedingungen. Dieser Text wird auf dem "
-"Vorblatt der PDF-Datei sowie auf der HTML-Objektseite der Rezension "
-"angezeigt."
+
+#: recensio.contenttypes:/content/schemata.py:967
+msgid "URN (Zeitschrift)"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:975
+msgid "DOI (Zeitschrift)"
+msgstr ""
+
+#: recensio.contenttypes:/content/schemata.py:983
+msgid "Shortname"
+msgstr "Kürzel (Zeitschrift)"
+
+#: recensio.contenttypes:/content/schemata.py:991
+msgid "Vol."
+msgstr "Band"
 
 #: recensio.contenttypes:/content/volume.py:24
 msgid "Activate DOI registration"
@@ -1493,7 +1552,6 @@ msgstr "Seitenbetreiber zu diesem Kommentar benachrichtigen"
 
 #. Default: "recensio.net ist ein Gemeinschaftsprojekt folgender Institutionen"
 #: recensio.policy:/browser/templates/footer.pt:21
-#: recensio.regio:/browser/templates/footer.pt:21
 msgid "message_supported_by"
 msgstr "recensio.net ist ein Gemeinschaftsprojekt folgender Institutionen"
 
@@ -2177,6 +2235,15 @@ msgstr ""
 #: recensio.policy:/vocabularies.py:56
 msgid "name"
 msgstr "Name"
+
+#. Default: "recensio.regio ist ein im Rahmen des <a href=\"https://www.bsb-muenchen.de/ueber-uns/projekte/fachinformationsdienst-geschichtswissenschaft/\">Fachinformationsdienst Geschichtswissenschaft</a> von der Deutschen Forschungsgemeinschaft gef\303\266rdertes Projekt der Bayerischen Staatsbibliothek."
+#: recensio.regio:/browser/templates/footer.pt:21
+msgid "message_regio_supported_by"
+msgstr ""
+"recensio.regio ist ein im Rahmen des <a href=\"https://www.bsb-muenchen.de/"
+"ueber-uns/projekte/fachinformationsdienst-geschichtswissenschaft/"
+"\">Fachinformationsdienst Geschichtswissenschaft</a> von der Deutschen "
+"Forschungsgemeinschaft gefördertes Projekt der Bayerischen Staatsbibliothek."
 
 #: recensio.theme:/browser/newsletter.py:45
 msgid "You did not enter a valid email address."
@@ -2880,15 +2947,6 @@ msgstr "Monographien"
 #: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:96
 msgid "label_secondary_nav_aufsaetze"
 msgstr "Aufsätze"
-
-#. Default: "recensio.regio ist ein im Rahmen des <a href=\"https://www.bsb-muenchen.de/ueber-uns/projekte/fachinformationsdienst-geschichtswissenschaft/\">Fachinformationsdienst Geschichtswissenschaft</a> von der Deutschen Forschungsgemeinschaft gef\303\266rdertes Projekt der Bayerischen Staatsbibliothek."
-#: recensio.regio:/browser/templates/footer.pt:21
-msgid "message_regio_supported_by"
-msgstr "recensio.regio ist ein im Rahmen des <a href=\"https://"
-"www.bsb-muenchen.de/ueber-uns/projekte/fachinformationsdienst-"
-"geschichtswissenschaft/\">Fachinformationsdienst "
-"Geschichtswissenschaft</a> von der Deutschen Forschungsgemeinschaft "
-"gef\303\266rdertes Projekt der Bayerischen Staatsbibliothek."
 
 #~ msgid "label_all_presentations"
 #~ msgstr "Alle Präsentationen eines Autors"
