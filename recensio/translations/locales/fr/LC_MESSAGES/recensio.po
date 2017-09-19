@@ -2264,12 +2264,12 @@ msgstr "Tous les commentaires d'un auteur"
 msgid "Autorensuche"
 msgstr "Recherche d'auteurs"
 
-#. Default: "Sie finden hier die Autorinnen und Autoren von auf recensio.net publizierten Rezensionen und Kommentaren sowie die Autoren von hier rezensierten Werken."
+#. Default: "Sie finden hier die Autorinnen und Autoren von auf ${portal_title} publizierten Rezensionen und Kommentaren sowie die Autoren von hier rezensierten Werken."
 #: recensio.theme:/browser/templates/authorsearch.pt:46
 msgid "description_authorsearch_1"
 msgstr ""
 "Nous vous proposons ici un index des auteurs des recensions et des "
-"commentaires publiés sur <i>recensio.net</i>, ainsi que les auteurs des "
+"commentaires publiés sur <i>${portal_title}</i>, ainsi que les auteurs des "
 "travaux commentés sur la plateforme."
 
 #. Default: "Mit einem Klick auf den Autornamen erhalten Sie alle von einem Autor publizierten Texte."

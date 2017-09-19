@@ -843,9 +843,8 @@ msgstr "Alternatives Coverbild"
 #: recensio.contenttypes:/content/schemata.py:350
 msgid "description_custom_cover_image"
 msgstr ""
-"Dieses Bild wird als Link zum externen Volltext gezeigt. Wird nur "
-"benutzt, wenn \"Externen Volltext benutzen\" auf dem Volume oder "
-"Issue aktiviert ist."
+"Dieses Bild wird als Link zum externen Volltext gezeigt. Wird nur benutzt, "
+"wenn \"Externen Volltext benutzen\" auf dem Volume oder Issue aktiviert ist."
 
 #. Default: ""
 #: recensio.contenttypes:/content/schemata.py:364
@@ -1174,8 +1173,8 @@ msgstr "Externen Volltext benutzen"
 #: recensio.contenttypes:/content/volume.py:43
 msgid "description_use_external_full_text"
 msgstr ""
-"Den Volltext enthaltener Rezensionen nicht anzeigen und stattdessen "
-"zur externen Quelle linken."
+"Den Volltext enthaltener Rezensionen nicht anzeigen und stattdessen zur "
+"externen Quelle linken."
 
 #: recensio.contenttypes:/portlets/completepdfs.py:26
 msgid "Complete PDFs"
@@ -2339,11 +2338,11 @@ msgstr "Alle Kommentare einers Autors"
 msgid "Autorensuche"
 msgstr "Autoren"
 
-#. Default: "Sie finden hier die Autorinnen und Autoren von auf recensio.net publizierten Rezensionen und Kommentaren sowie die Autoren von hier rezensierten Werken."
+#. Default: "Sie finden hier die Autorinnen und Autoren von auf ${portal_title} publizierten Rezensionen und Kommentaren sowie die Autoren von hier rezensierten Werken."
 #: recensio.theme:/browser/templates/authorsearch.pt:46
 msgid "description_authorsearch_1"
 msgstr ""
-"Sie finden hier die Autorinnen und Autoren von auf recensio.net publizierten "
+"Sie finden hier die Autorinnen und Autoren von auf ${portal_title} publizierten "
 "Rezensionen und Kommentaren sowie die Autoren von hier rezensierten Werken."
 
 #. Default: "Mit einem Klick auf den Autornamen erhalten Sie alle von einem Autor publizierten Texte."

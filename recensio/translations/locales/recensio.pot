@@ -1872,7 +1872,7 @@ msgid "Autorensuche"
 msgstr ""
 
 #: recensio.theme:/browser/templates/authorsearch.pt:46
-#. Default: "Sie finden hier die Autorinnen und Autoren von auf recensio.net publizierten Rezensionen und Kommentaren sowie die Autoren von hier rezensierten Werken."
+#. Default: "Sie finden hier die Autorinnen und Autoren von auf ${portal_title} publizierten Rezensionen und Kommentaren sowie die Autoren von hier rezensierten Werken."
 msgid "description_authorsearch_1"
 msgstr ""
 
