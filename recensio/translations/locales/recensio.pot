@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Mon Sep 18 12:45:42 2017\n"
+"POT-Creation-Date: Tue Sep 19 12:23:41 2017\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -169,7 +169,7 @@ msgid "label_metadata_language_monograph"
 msgstr ""
 
 #: recensio.contenttypes:/browser/review.py:94
-#: recensio.contenttypes:/content/schemata.py:907
+#: recensio.contenttypes:/content/schemata.py:908
 #. Default: "Author (monograph)"
 msgid "Author (monograph)"
 msgstr ""
@@ -351,7 +351,7 @@ msgid "Volume"
 msgstr ""
 
 #: recensio.contenttypes:/content/presentationarticlereview.py:79
-#: recensio.contenttypes:/content/schemata.py:1013
+#: recensio.contenttypes:/content/schemata.py:1014
 msgid "Number"
 msgstr ""
 
@@ -382,14 +382,14 @@ msgstr ""
 #: recensio.contenttypes:/content/presentationcollection.py:57
 #: recensio.contenttypes:/content/schemata.py:133
 #: recensio.contenttypes:/content/schemata.py:603
-#: recensio.contenttypes:/content/schemata.py:930
+#: recensio.contenttypes:/content/schemata.py:931
 msgid "Last name"
 msgstr ""
 
 #: recensio.contenttypes:/content/presentationcollection.py:58
 #: recensio.contenttypes:/content/schemata.py:134
 #: recensio.contenttypes:/content/schemata.py:604
-#: recensio.contenttypes:/content/schemata.py:931
+#: recensio.contenttypes:/content/schemata.py:932
 msgid "First name"
 msgstr ""
 
@@ -583,19 +583,24 @@ msgstr ""
 msgid "Title (journal)"
 msgstr ""
 
+#: recensio.contenttypes:/content/reviewmonograph.py:34
+#. Default: "Please supply at least one of the fields \"Year of publication\" and \"Year of publication (online)\"."
+msgid "message_year_of_publication_validation_error"
+msgstr ""
+
 #: recensio.contenttypes:/content/schemata.py:100
 msgid "Language(s) of presentation"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:1005
+#: recensio.contenttypes:/content/schemata.py:1006
 msgid "Vol."
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:1021
+#: recensio.contenttypes:/content/schemata.py:1022
 msgid "Official year of publication (if different)"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:1026
+#: recensio.contenttypes:/content/schemata.py:1027
 msgid "Actual year of publication"
 msgstr ""
 
@@ -603,12 +608,12 @@ msgstr ""
 msgid "Language(s) of presented resource"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:1047
+#: recensio.contenttypes:/content/schemata.py:1048
 #. Default: "PDF watermark"
 msgid "label_publication_pdf_watermark"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:1050
+#: recensio.contenttypes:/content/schemata.py:1051
 #. Default: "Upload a publication logo for the PDF coversheet. Transparent PNG format images are recommended."
 msgid "description_publication_pdf_watermark"
 msgstr ""
@@ -617,12 +622,12 @@ msgstr ""
 msgid "Language(s) of presented work"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:1063
+#: recensio.contenttypes:/content/schemata.py:1064
 #. Default: "Publication Licence"
 msgid "label_publication_licence"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:1066
+#: recensio.contenttypes:/content/schemata.py:1067
 #. Default: "Please specify the licence terms under which reviews may be used. This text will be displayed on the front page of the PDF version and to the side of the web version of each review for this publication."
 msgid "description_publication_licence"
 msgstr ""
@@ -944,15 +949,15 @@ msgid "ISBN (Online)"
 msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:872
-#. Default: "With or without hyphens."
+#. Default: "With or without hyphens. In case of several numbers please choose the hard cover edition."
 msgid "description_isbn_online"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:885
+#: recensio.contenttypes:/content/schemata.py:886
 msgid "URL (Monographie)"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:895
+#: recensio.contenttypes:/content/schemata.py:896
 msgid "URN (Monographie)"
 msgstr ""
 
@@ -961,50 +966,50 @@ msgstr ""
 msgid "description_ctrl_for_multiple"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:903
+#: recensio.contenttypes:/content/schemata.py:904
 msgid "DOI (Monographie)"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:915
+#: recensio.contenttypes:/content/schemata.py:916
 #. Default: "Please fill in either authors OR editors (exception: Complete Works etc.)"
 msgid "help_authors_or_editors"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:929
+#: recensio.contenttypes:/content/schemata.py:930
 msgid "label_editorial"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:945
+#: recensio.contenttypes:/content/schemata.py:946
 msgid "ISSN"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:946
+#: recensio.contenttypes:/content/schemata.py:947
 #. Default: "With or without hyphens."
 msgid "description_issn"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:957
+#: recensio.contenttypes:/content/schemata.py:958
 msgid "ISSN Online"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:958
+#: recensio.contenttypes:/content/schemata.py:959
 #. Default: "With or without hyphens."
 msgid "description_issn_online"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:971
+#: recensio.contenttypes:/content/schemata.py:972
 msgid "URL (Zeitschrift)"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:981
+#: recensio.contenttypes:/content/schemata.py:982
 msgid "URN (Zeitschrift)"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:989
+#: recensio.contenttypes:/content/schemata.py:990
 msgid "DOI (Zeitschrift)"
 msgstr ""
 
-#: recensio.contenttypes:/content/schemata.py:997
+#: recensio.contenttypes:/content/schemata.py:998
 msgid "Shortname"
 msgstr ""
 
@@ -1836,19 +1841,19 @@ msgstr ""
 msgid "Creating the pdf has failed! Please try again or ask for support"
 msgstr ""
 
-#: recensio.theme:/browser/templates/authorsearch.pt:103
-#: recensio.theme:/browser/templates/authorsearch.pt:108
+#: recensio.theme:/browser/templates/authorsearch.pt:104
+#: recensio.theme:/browser/templates/authorsearch.pt:109
 #. Default: "All reviews of this author"
 msgid "label_all_reviews_author"
 msgstr ""
 
-#: recensio.theme:/browser/templates/authorsearch.pt:115
-#: recensio.theme:/browser/templates/authorsearch.pt:120
+#: recensio.theme:/browser/templates/authorsearch.pt:116
+#: recensio.theme:/browser/templates/authorsearch.pt:121
 #. Default: "All comments of this author"
 msgid "label_all_comments_author"
 msgstr ""
 
-#: recensio.theme:/browser/templates/authorsearch.pt:127
+#: recensio.theme:/browser/templates/authorsearch.pt:128
 #. Default: "All items of this author"
 msgid "label_all_items_author"
 msgstr ""
@@ -1871,27 +1876,27 @@ msgstr ""
 msgid "Autorensuche"
 msgstr ""
 
-#: recensio.theme:/browser/templates/authorsearch.pt:46
+#: recensio.theme:/browser/templates/authorsearch.pt:48
 #. Default: "Sie finden hier die Autorinnen und Autoren von auf ${portal_title} publizierten Rezensionen und Kommentaren sowie die Autoren von hier rezensierten Werken."
 msgid "description_authorsearch_1"
 msgstr ""
 
-#: recensio.theme:/browser/templates/authorsearch.pt:51
+#: recensio.theme:/browser/templates/authorsearch.pt:52
 #. Default: "Mit einem Klick auf den Autornamen erhalten Sie alle von einem Autor publizierten Texte."
 msgid "description_authorsearch_2"
 msgstr ""
 
-#: recensio.theme:/browser/templates/authorsearch.pt:70
+#: recensio.theme:/browser/templates/authorsearch.pt:71
 msgid "Plattform&uuml;bergreifende Suche"
 msgstr ""
 
-#: recensio.theme:/browser/templates/authorsearch.pt:82
+#: recensio.theme:/browser/templates/authorsearch.pt:83
 #. Default: "Es wurden keine Autoren gefunden die ihren Kriterien entsprechen"
 msgid "label_no_authors_found"
 msgstr ""
 
-#: recensio.theme:/browser/templates/authorsearch.pt:91
-#: recensio.theme:/browser/templates/authorsearch.pt:96
+#: recensio.theme:/browser/templates/authorsearch.pt:92
+#: recensio.theme:/browser/templates/authorsearch.pt:97
 #. Default: "All presentations of this author"
 msgid "label_all_presentations_author"
 msgstr ""
