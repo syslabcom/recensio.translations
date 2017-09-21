@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '3.1.3.dev0'
+version = '3.2.0'
 
 setup(name='recensio.translations',
       version=version,
@@ -11,10 +11,10 @@ setup(name='recensio.translations',
       # Get more strings from
       # http://pypi.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
-        "Framework :: Plone",
-        "Programming Language :: Python",
-        ],
-      keywords='',
+          "Framework :: Plone",
+          "Programming Language :: Python :: 2.7",
+      ],
+      keywords='web zope plone translations',
       author='SYSLAB.COM',
       author_email='info@syslab.com',
       url='http://svn.plone.org/svn/collective/',
