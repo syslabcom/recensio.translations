@@ -1,10 +1,16 @@
 Changelog
 =========
 
+3.2.1 (unreleased)
+------------------
+
+- Nothing changed yet.
+
+
 3.2.0 (2017-09-21)
 ------------------
 
-- Translations for second Töchter update
+- Translations for second TÃ¶chter update
 
 
 3.1.2 (2017-06-12)
