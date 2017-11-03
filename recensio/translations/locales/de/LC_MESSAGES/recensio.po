@@ -2367,7 +2367,7 @@ msgstr ""
 #. Default: "Es wurden keine Autoren gefunden die ihren Kriterien entsprechen"
 #: recensio.theme:/browser/templates/authorsearch.pt:83
 msgid "label_no_authors_found"
-msgstr "Es wurden keine Autoren gefunden die ihren Kriterien entsprechen"
+msgstr "Es wurden keine Autoren gefunden, die Ihren Kriterien entsprechen."
 
 #. Default: "All presentations of this author"
 #: recensio.theme:/browser/templates/authorsearch.pt:92
