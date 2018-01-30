@@ -2330,7 +2330,7 @@ msgstr "Journals/Partners"
 #: recensio.theme:/browser/templates/publications.pt:18
 msgid "description_publications"
 msgstr ""
-"Here you see a list of journals providing their reviews on recensio.net"
+"List of journals providing their reviews"
 
 #: recensio.theme:/browser/templates/topical.pt:215
 #: recensio.theme:/browser/templates/filtersearch.pt:55
@@ -2841,7 +2841,7 @@ msgstr "Copyright"
 #. Default: "Datenschutz"
 #: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:47
 msgid "label_secondary_nav_datenschutz"
-msgstr "Data Protection"
+msgstr "Privacy policy"
 
 #. Default: "Zeitschriften"
 #: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:63
