@@ -2287,7 +2287,7 @@ msgstr ""
 
 #: recensio.theme:/browser/templates/authorsearch.pt:60
 msgid "Plattform&uuml;bergreifende Suche"
-msgstr ""
+msgstr "Recherche multiplatforme"
 
 #. Default: "Es wurden keine Autoren gefunden, die Ihren Kriterien entsprechen."
 #: recensio.theme:/browser/templates/authorsearch.pt:72
@@ -2700,7 +2700,7 @@ msgstr "Tout sélectionner/Désélectionner"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:46
 #: recensio.theme:/skins/recensio_theme/search.pt:78
 msgid "Plattform&uuml;bergreifende Suche:"
-msgstr ""
+msgstr "Recherche multiplatforme : "
 
 #. Default: "Epoche"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:498

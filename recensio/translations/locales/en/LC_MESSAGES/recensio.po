@@ -297,7 +297,7 @@ msgstr "Download as PDF"
 #. Default: "Metadata"
 #: recensio.contenttypes:/browser/templates/review.pt:149
 msgid "metadata"
-msgstr "metadata"
+msgstr "Metadata"
 
 #. Default: "Zitierhinweise"
 #: recensio.contenttypes:/browser/templates/review.pt:182
@@ -2243,7 +2243,7 @@ msgstr ""
 
 #: recensio.theme:/browser/templates/authorsearch.pt:60
 msgid "Plattform&uuml;bergreifende Suche"
-msgstr ""
+msgstr "Cross-Platform Search"
 
 #. Default: "Es wurden keine Autoren gefunden, die Ihren Kriterien entsprechen."
 #: recensio.theme:/browser/templates/authorsearch.pt:72
@@ -2651,7 +2651,7 @@ msgstr "Select all/none"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:46
 #: recensio.theme:/skins/recensio_theme/search.pt:78
 msgid "Plattform&uuml;bergreifende Suche:"
-msgstr ""
+msgstr "Cross-Platform Search: "
 
 #. Default: "Epoche"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:498
@@ -2846,7 +2846,7 @@ msgstr "Privacy policy"
 #. Default: "Zeitschriften"
 #: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:63
 msgid "label_secondary_nav_journals"
-msgstr "journals"
+msgstr "Journals"
 
 #. Default: "Neueste Rezensionen"
 #: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:71
