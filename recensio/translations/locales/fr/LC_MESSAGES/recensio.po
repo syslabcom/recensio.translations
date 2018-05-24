@@ -2193,7 +2193,7 @@ msgstr ""
 msgid "name"
 msgstr "Nom"
 
-#. Default: "recensio.regio ist ein im Rahmen des <a href=\"https://www.bsb-muenchen.de/ueber-uns/projekte/fachinformationsdienst-geschichtswissenschaft/\">Fachinformationsdienst Geschichtswissenschaft</a> von der Deutschen Forschungsgemeinschaft gef\303\266rdertes Projekt der Bayerischen Staatsbibliothek."
+#. Default: "recensio.regio ist ein im Rahmen des <a href=\"https://beta.historicum.net/home/\">Fachinformationsdienst Geschichtswissenschaft</a> von der Deutschen Forschungsgemeinschaft gef\303\266rdertes Projekt der Bayerischen Staatsbibliothek."
 #: recensio.regio:/browser/templates/footer.pt:21
 msgid "message_regio_supported_by"
 msgstr ""
