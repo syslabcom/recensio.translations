@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: Mon Mar  5 07:14:12 2018\n"
+"POT-Creation-Date: Fri May 25 06:41:24 2018\n"
 "PO-Revision-Date: 2011-11-08 12:01+0200\n"
 "Last-Translator: reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -42,139 +42,138 @@ msgstr ""
 "Projekt der Universitätsbibliothek Heidelberg."
 
 #. Default: "Language (article)"
-#: recensio.contenttypes:/browser/review.py:102
+#: recensio.contenttypes:/browser/review.py:103
 msgid "label_metadata_language_article"
 msgstr "Sprache (Aufsatz)"
 
 #. Default: "Author (article)"
-#: recensio.contenttypes:/browser/review.py:105
+#: recensio.contenttypes:/browser/review.py:106
 msgid "label_metadata_author_article"
 msgstr "Autor (Aufsatz)"
 
 #. Default: "Editor (article)"
-#: recensio.contenttypes:/browser/review.py:108
+#: recensio.contenttypes:/browser/review.py:109
 #, fuzzy
 msgid "label_metadata_editor_article"
 msgstr "Titel (Aufsatz)"
 
 #. Default: "Title (article)"
-#: recensio.contenttypes:/browser/review.py:111
+#: recensio.contenttypes:/browser/review.py:112
 msgid "label_metadata_title_article"
 msgstr "Titel (Aufsatz)"
 
 #. Default: "Title (edited volume)"
-#: recensio.contenttypes:/browser/review.py:114
+#: recensio.contenttypes:/browser/review.py:115
 msgid "label_metadata_title_edited_volume"
 msgstr "Titel (Sammelband)"
 
 #. Default: "Name (Internet resource)"
-#: recensio.contenttypes:/browser/review.py:118
+#: recensio.contenttypes:/browser/review.py:119
 msgid "label_metadata_name_resource"
 msgstr "Name (Ressource)"
 
 #. Default: "Language (Internet resource)"
-#: recensio.contenttypes:/browser/review.py:121
+#: recensio.contenttypes:/browser/review.py:122
 msgid "label_metadata_language_internet_resource"
 msgstr "Sprache (Internetressource)"
 
 #. Default: "Language (Journal)"
-#: recensio.contenttypes:/browser/review.py:125
+#: recensio.contenttypes:/browser/review.py:126
 msgid "label_metadata_language_review_journal"
 msgstr "Sprache (Zeitschrift)"
 
 #. Default: "Editor"
-#: recensio.contenttypes:/browser/review.py:128
+#: recensio.contenttypes:/browser/review.py:129
 msgid "label_metadata_editor"
 msgstr "Herausgeber"
 
-#: recensio.contenttypes:/browser/review.py:159
+#: recensio.contenttypes:/browser/review.py:160
 msgid "metadata_pages"
 msgstr "Seiten"
 
-#: recensio.contenttypes:/browser/review.py:162
+#: recensio.contenttypes:/browser/review.py:163
 msgid "label_metadata_review_author"
 msgstr "Autor (Rezension)"
 
-#: recensio.contenttypes:/browser/review.py:166
+#: recensio.contenttypes:/browser/review.py:167
 msgid "label_metadata_presentation_author"
 msgstr "Autor (Präsentation)"
 
-#: recensio.contenttypes:/browser/review.py:179
+#: recensio.contenttypes:/browser/review.py:180
 msgid "metadata_review_type_code"
 msgstr "Dokumenttyp"
 
-#: recensio.contenttypes:/browser/review.py:182
+#: recensio.contenttypes:/browser/review.py:183
 msgid "label_metadata_reference_authors"
 msgstr "Bezugsautoren"
 
-#: recensio.contenttypes:/browser/review.py:186
+#: recensio.contenttypes:/browser/review.py:187
 msgid "label_metadata_institution"
 msgstr "Anbieter (Name/Institution)"
 
-#: recensio.contenttypes:/browser/review.py:189
+#: recensio.contenttypes:/browser/review.py:190
 msgid "metadata_recensio_id"
 msgstr "recensio.net-ID"
 
-#: recensio.contenttypes:/browser/review.py:213
+#: recensio.contenttypes:/browser/review.py:214
 #: recensio.contenttypes:/content/schemata.py:91
 msgid "Subject classification"
 msgstr "Thematische Klassifikation"
 
-#: recensio.contenttypes:/browser/review.py:215
+#: recensio.contenttypes:/browser/review.py:216
 #: recensio.contenttypes:/content/schemata.py:93
 msgid "Time classification"
 msgstr "Zeitliche Klassifikation"
 
-#: recensio.contenttypes:/browser/review.py:217
+#: recensio.contenttypes:/browser/review.py:218
 #: recensio.contenttypes:/content/schemata.py:95
 msgid "Regional classification"
 msgstr "Regionale Klassifikation"
 
-#: recensio.contenttypes:/browser/review.py:29
+#: recensio.contenttypes:/browser/review.py:30
 msgid "Publication Title"
 msgstr "Titel der Veröffentlichung"
 
-#: recensio.contenttypes:/browser/review.py:30
+#: recensio.contenttypes:/browser/review.py:31
 msgid "heading_metadata_journal"
 msgstr "Zeitschrift"
 
-#: recensio.contenttypes:/browser/review.py:31
+#: recensio.contenttypes:/browser/review.py:32
 msgid "Volume Title"
 msgstr "Reihentitel"
 
-#: recensio.contenttypes:/browser/review.py:32
+#: recensio.contenttypes:/browser/review.py:33
 msgid "Issue Title"
 msgstr "Titel der Ausgabe"
 
 #. Default: "Official year of publication"
-#: recensio.contenttypes:/browser/review.py:78
+#: recensio.contenttypes:/browser/review.py:79
 #: recensio.contenttypes:/content/volume.py:61
 msgid "label_metadata_official_year_of_publication"
 msgstr "Gezähltes Jahr"
 
 #. Default: "Language (review)"
-#: recensio.contenttypes:/browser/review.py:83
+#: recensio.contenttypes:/browser/review.py:84
 msgid "label_metadata_language_review"
 msgstr "Sprache (Rezension)"
 
 #. Default: "Language (presentation)"
-#: recensio.contenttypes:/browser/review.py:87
+#: recensio.contenttypes:/browser/review.py:88
 msgid "label_metadata_language_presentation"
 msgstr "Sprache (Präsentation)"
 
 #. Default: "Language (monograph)"
-#: recensio.contenttypes:/browser/review.py:91
+#: recensio.contenttypes:/browser/review.py:92
 msgid "label_metadata_language_monograph"
 msgstr "Sprache (Monographie)"
 
-#. Default: "Author (monograph)"
-#: recensio.contenttypes:/browser/review.py:94
+#: recensio.contenttypes:/browser/review.py:95
 #: recensio.contenttypes:/content/schemata.py:932
 msgid "Author (monograph)"
 msgstr "Autor (Monographie)"
 
 #. Default: "Editor (monograph)"
-#: recensio.contenttypes:/browser/review.py:97
+#: recensio.contenttypes:/browser/review.py:98
 msgid "Editor (monograph)"
 msgstr "Herausgeber (Monographie)"
 
@@ -782,7 +781,7 @@ msgid "Email address"
 msgstr "E-Mail-Adresse"
 
 #: recensio.contenttypes:/content/schemata.py:279
-#: recensio.policy:/userdataschema.py:56
+#: recensio.policy:/userdataschema.py:63
 msgid "label_preferred_language"
 msgstr "Bevorzugte Sprache"
 
@@ -1570,6 +1569,14 @@ msgstr "Seitenbetreiber zu diesem Kommentar benachrichtigen"
 msgid "message_supported_by"
 msgstr "recensio.net ist ein Gemeinschaftsprojekt folgender Institutionen"
 
+#. Default: "Datenschutzerkl\303\244rung"
+#: recensio.policy:/browser/templates/footer.pt:40
+#: recensio.altertum:/browser/templates/footer.pt:45
+#: recensio.artium:/browser/templates/footer.pt:42
+#: recensio.regio:/browser/templates/footer.pt:37
+msgid "label_footer_datenschutz"
+msgstr "Datenschutzerklärung"
+
 #: recensio.policy:/browser/templates/pdf_cut.pt:13
 msgid "pages"
 msgstr "Seiten"
@@ -2216,50 +2223,65 @@ msgstr "Import"
 msgid "text_declaration_not_confirmed"
 msgstr ""
 
+#. Default: "You must accept the data protection policy"
+#: recensio.policy:/userdataschema.py:35
+msgid "text_data_protection_policy_not_accepted"
+msgstr ""
+
 #. Default: "Academic title"
-#: recensio.policy:/userdataschema.py:38
+#: recensio.policy:/userdataschema.py:45
 msgid "label_academic_title"
 msgstr "Akademischer Titel"
 
 #. Default: "Please add your academic titles here"
-#: recensio.policy:/userdataschema.py:39
+#: recensio.policy:/userdataschema.py:46
 msgid "help_academic_title"
 msgstr "Bitte wählen Sie Ihre/n akademischen Titel aus."
 
 #. Default: "First name"
-#: recensio.policy:/userdataschema.py:45
+#: recensio.policy:/userdataschema.py:52
 msgid "label_firstname"
 msgstr "Vorname"
 
 #. Default: "Last name"
-#: recensio.policy:/userdataschema.py:50
+#: recensio.policy:/userdataschema.py:57
 msgid "label_lastname"
 msgstr "Nachname"
 
 #. Default: "What language do you prefer for receiving e-mails from us?"
-#: recensio.policy:/userdataschema.py:57
+#: recensio.policy:/userdataschema.py:64
 msgid "description_preferred_language"
 msgstr ""
 "In welcher Sprache dürfen wir Sie über Kommentareingänge zu Ihren Beiträgen "
 "informieren?"
 
 #. Default: "Declaration of identity"
-#: recensio.policy:/userdataschema.py:65
+#: recensio.policy:/userdataschema.py:72
 msgid "label_declaration_of_identity"
 msgstr "Identitätserklärung"
 
 #. Default: "I declare that I am indeed the person identified by the entries above."
-#: recensio.policy:/userdataschema.py:66
+#: recensio.policy:/userdataschema.py:73
 msgid "help_declaration_of_identity"
 msgstr ""
 "Hiermit erkläre ich, dass ich tatsächlich die durch die obigen Angaben "
 "identifizierte Person bin."
 
-#: recensio.policy:/userdataschema.py:74
+#. Default: "Data protection policy"
+#: recensio.policy:/userdataschema.py:81
+msgid "label_data_protection_policy_accepted"
+msgstr ""
+
+#. Default: "I declare that I have read and understood the <a href=\"${context/portal_url}/datenschutz\">data protection policy</a> and that I accept it."
+#: recensio.policy:/userdataschema.py:83
+msgid "help_data_protection_policy_accepted"
+msgstr ""
+
+#: recensio.policy:/userdataschema.py:92
 msgid "Type the code"
 msgstr "Code eingeben"
 
-#: recensio.policy:/userdataschema.py:75
+#: recensio.policy:/userdataschema.py:93
 msgid "Type the code from the picture shown below or from the audio."
 msgstr ""
 "Geben Sie den Code ein, den sie im Bild unten sehen bzw. in der Audiodatei "
@@ -2916,13 +2938,8 @@ msgstr "60"
 msgid "90"
 msgstr "90"
 
-#. Default: "Internetressourcen"
-#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:105
-msgid "label_secondary_nav_internetressourcen"
-msgstr "Internetressourcen"
-
 #. Default: "Pr&auml;sentation erstellen"
-#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:113
+#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:104
 msgid "label_secondary_nav_praesentation_erstellen"
 msgstr "Präsentation erstellen"
 
@@ -2946,30 +2963,33 @@ msgstr "Benutzerrichtlinien"
 msgid "label_secondary_nav_copyright"
 msgstr "Copyright"
 
-#. Default: "Datenschutz"
-#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:47
-msgid "label_secondary_nav_datenschutz"
-msgstr "Datenschutz"
-
 #. Default: "Zeitschriften"
-#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:63
+#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:54
 msgid "label_secondary_nav_journals"
 msgstr "Zeitschriften"
 
 #. Default: "Neueste Rezensionen"
-#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:71
+#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:62
 msgid "label_secondary_nav_latest_reviews"
 msgstr "Neueste Rezensionen"
 
 #. Default: "Monographien"
-#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:89
+#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:80
 msgid "label_secondary_nav_monographien"
 msgstr "Monographien"
 
 #. Default: "Aufs\303\244tze"
-#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:96
+#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:87
 msgid "label_secondary_nav_aufsaetze"
 msgstr "Aufsätze"
+
+#. Default: "Internetressourcen"
+#: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:96
+msgid "label_secondary_nav_internetressourcen"
+msgstr "Internetressourcen"
+
+#~ msgid "label_secondary_nav_datenschutz"
+#~ msgstr "Datenschutz"
 
 #~ msgid "commenting_explanation_no_email"
 #~ msgstr ""
