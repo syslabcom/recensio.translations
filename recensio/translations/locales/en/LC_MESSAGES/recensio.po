@@ -38,6 +38,8 @@ msgstr ""
 #: recensio.artium:/browser/templates/footer.pt:21
 msgid "message_artium_supported_by"
 msgstr ""
+"recensio.artium is a project of Heidelberg University Library, funded by the "
+"German Research Foundation (DFG)."
 
 #. Default: "Language (article)"
 #: recensio.contenttypes:/browser/review.py:103
