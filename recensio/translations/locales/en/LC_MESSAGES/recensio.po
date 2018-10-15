@@ -2230,7 +2230,7 @@ msgstr "Authors"
 #: recensio.theme:/browser/templates/authorsearch.pt:37
 msgid "description_authorsearch_1"
 msgstr ""
-"Here you can find the authors of reviews and comments published on <i>"
+"Here you can find the authors of reviews published on <i>"
 "${portal_title}</i> as well as the authors of works reviewed here."
 
 #. Default: "Mit einem Klick auf den Autornamen erhalten Sie alle von einem Autor publizierten Texte."
@@ -2241,8 +2241,8 @@ msgstr ""
 "author."
 
 #: recensio.theme:/browser/templates/authorsearch.pt:60
-msgid "Plattform&uuml;bergreifende Suche"
-msgstr "Cross-Platform Search"
+msgid "Plattform&uuml;bergreifender Autorenindex:"
+msgstr "Cross-Platform Author Index: "
 
 #. Default: "Es wurden keine Autoren gefunden, die Ihren Kriterien entsprechen."
 #: recensio.theme:/browser/templates/authorsearch.pt:72

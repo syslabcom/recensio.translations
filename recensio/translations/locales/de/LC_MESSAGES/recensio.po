@@ -2354,7 +2354,7 @@ msgstr "Autoren"
 msgid "description_authorsearch_1"
 msgstr ""
 "Sie finden hier die Autorinnen und Autoren von auf ${portal_title} "
-"publizierten Rezensionen und Kommentaren sowie die Autoren von hier "
+"publizierten Rezensionen sowie die Autoren von hier "
 "rezensierten Werken."
 
 #. Default: "Mit einem Klick auf den Autornamen erhalten Sie alle von einem Autor publizierten Texte."
@@ -2365,7 +2365,7 @@ msgstr ""
 "publizierten Texte."
 
 #: recensio.theme:/browser/templates/authorsearch.pt:60
-msgid "Plattform&uuml;bergreifende Suche"
+msgid "Plattform&uuml;bergreifender Autorenindex: "
 msgstr ""
 
 #. Default: "Es wurden keine Autoren gefunden, die Ihren Kriterien entsprechen."
