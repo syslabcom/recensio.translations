@@ -2148,7 +2148,10 @@ msgstr "Declaration of identity"
 #. Default: "I declare that I am indeed the person identified by the entries above."
 #: recensio.policy:/userdataschema.py:73
 msgid "help_declaration_of_identity"
-msgstr "I declare that I am indeed the person identified by the entries above."
+msgstr ""
+"I declare that I am indeed the person identified by the entries above.<br />"
+"Please find more information in our <a href=\"datenschutz-en\">data "
+"protection statement </a>."
 
 #. Default: "Data protection policy"
 #: recensio.policy:/userdataschema.py:81

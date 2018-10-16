@@ -2265,7 +2265,8 @@ msgstr "Identitätserklärung"
 msgid "help_declaration_of_identity"
 msgstr ""
 "Hiermit erkläre ich, dass ich tatsächlich die durch die obigen Angaben "
-"identifizierte Person bin."
+"identifizierte Person bin.<br />Weitere Informationen finden Sie in "
+"unserer <a href=\"datenschutz\">Datenschutzerklärung</a>."
 
 #. Default: "Data protection policy"
 #: recensio.policy:/userdataschema.py:81
