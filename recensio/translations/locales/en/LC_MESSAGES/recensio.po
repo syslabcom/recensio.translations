@@ -2280,7 +2280,7 @@ msgstr "Search results"
 #: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:131
 #: recensio.theme:/skins/recensio_theme/search.pt:143
 msgid "batch_x_items_matching_your_criteria"
-msgstr "${number} matching reviews"
+msgstr "${number} items matching"
 
 #. Default: "Reviewed by ${review_authors}"
 #: recensio.theme:/browser/templates/filtersearch.pt:189
