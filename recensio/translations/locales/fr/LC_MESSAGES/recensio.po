@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: Fri May 25 06:41:24 2018\n"
+"POT-Creation-Date: Wed Oct 17 13:31:08 2018\n"
 "PO-Revision-Date: 2011-11-08 12:02+0200\n"
 "Last-Translator: reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -777,7 +777,7 @@ msgid "Email address"
 msgstr "Adresse email"
 
 #: recensio.contenttypes:/content/schemata.py:279
-#: recensio.policy:/userdataschema.py:63
+#: recensio.policy:/userdataschema.py:56
 msgid "label_preferred_language"
 msgstr "Choix de la langue"
 
@@ -1522,7 +1522,7 @@ msgstr "Supprimer"
 #: recensio.theme:/browser/templates/filtersearch.pt:88
 #: recensio.theme:/browser/templates/filtersearch.pt:150
 #: recensio.theme:/browser/templates/topical.pt:90
-#: recensio.theme:/browser/templates/topical.pt:196
+#: recensio.theme:/browser/templates/topical.pt:199
 #: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:176
 #: recensio.theme:/skins/recensio_theme/search.pt:200
 #: recensio.theme:/skins/recensio_theme/search_form.pt:233
@@ -2148,64 +2148,49 @@ msgstr "Importer"
 msgid "text_declaration_not_confirmed"
 msgstr ""
 
-#. Default: "You must accept the data protection policy"
-#: recensio.policy:/userdataschema.py:35
-msgid "text_data_protection_policy_not_accepted"
-msgstr ""
-
 #. Default: "Academic title"
-#: recensio.policy:/userdataschema.py:45
+#: recensio.policy:/userdataschema.py:38
 msgid "label_academic_title"
 msgstr "Titre"
 
 #. Default: "Please add your academic titles here"
-#: recensio.policy:/userdataschema.py:46
+#: recensio.policy:/userdataschema.py:39
 msgid "help_academic_title"
 msgstr "Veuillez ajouter votre titre académique"
 
 #. Default: "First name"
-#: recensio.policy:/userdataschema.py:52
+#: recensio.policy:/userdataschema.py:45
 msgid "label_firstname"
 msgstr "Prénom"
 
 #. Default: "Last name"
-#: recensio.policy:/userdataschema.py:57
+#: recensio.policy:/userdataschema.py:50
 msgid "label_lastname"
 msgstr "Nom"
 
 #. Default: "What language do you prefer for receiving e-mails from us?"
-#: recensio.policy:/userdataschema.py:64
+#: recensio.policy:/userdataschema.py:57
 msgid "description_preferred_language"
 msgstr ""
 "Dans quelle langue préferez-vous être informé de l'entrée de nouveaux "
 "commentaires?"
 
 #. Default: "Declaration of identity"
-#: recensio.policy:/userdataschema.py:72
+#: recensio.policy:/userdataschema.py:65
 msgid "label_declaration_of_identity"
 msgstr "Confirmation d'identité"
 
-#. Default: "I declare that I am indeed the person identified by the entries above."
-#: recensio.policy:/userdataschema.py:73
+#. Default: "I declare that I am indeed the person identified by the entries above.<br />Please findmore information in our <a href=\"#\">data protectionstatement</a>."
+#: recensio.policy:/userdataschema.py:66
 msgid "help_declaration_of_identity"
 msgstr ""
 "Je certifie être la personne dont j'ai fourni les informations ci-dessus."
 
-#. Default: "Data protection policy"
-#: recensio.policy:/userdataschema.py:81
-msgid "label_data_protection_policy_accepted"
-msgstr ""
-
-#. Default: "I declare that I have read and understood the <a href=\"${context/portal_url}/datenschutz\">data protection policy</a> and that I accept it."
-#: recensio.policy:/userdataschema.py:83
-msgid "help_data_protection_policy_accepted"
-msgstr ""
-
-#: recensio.policy:/userdataschema.py:92
+#: recensio.policy:/userdataschema.py:76
 msgid "Type the code"
 msgstr "Code de sécurité"
 
-#: recensio.policy:/userdataschema.py:93
+#: recensio.policy:/userdataschema.py:77
 msgid "Type the code from the picture shown below or from the audio."
 msgstr ""
 "Veuillez taper le code contenu dans l'image ci-dessous ou dans le fichier "
@@ -2253,13 +2238,13 @@ msgstr ""
 "d'assistance"
 
 #. Default: "All comments of this author"
-#: recensio.theme:/browser/templates/authorsearch.pt:105
-#: recensio.theme:/browser/templates/authorsearch.pt:110
+#: recensio.theme:/browser/templates/authorsearch.pt:104
+#: recensio.theme:/browser/templates/authorsearch.pt:109
 msgid "label_all_comments_author"
 msgstr "Tous les commentaires de cet auteur"
 
 #. Default: "All items of this author"
-#: recensio.theme:/browser/templates/authorsearch.pt:117
+#: recensio.theme:/browser/templates/authorsearch.pt:116
 msgid "label_all_items_author"
 msgstr "Tous les textes du même auteur"
 
@@ -2287,29 +2272,29 @@ msgstr ""
 "textes et commentaires qu’il a publiés sur recensio.net."
 
 #: recensio.theme:/browser/templates/authorsearch.pt:60
-msgid "Plattform&uuml;bergreifende Suche"
-msgstr "Recherche multiplatforme"
+msgid "Plattform&uuml;bergreifender Autorenindex:"
+msgstr "Recherche multiplatforme : "
 
 #. Default: "Es wurden keine Autoren gefunden, die Ihren Kriterien entsprechen."
-#: recensio.theme:/browser/templates/authorsearch.pt:72
+#: recensio.theme:/browser/templates/authorsearch.pt:71
 msgid "label_no_authors_found"
 msgstr "Aucun auteur correspondant à vos critères n'a pu être trouvé"
 
 #. Default: "All presentations of this author"
-#: recensio.theme:/browser/templates/authorsearch.pt:81
-#: recensio.theme:/browser/templates/authorsearch.pt:86
+#: recensio.theme:/browser/templates/authorsearch.pt:80
+#: recensio.theme:/browser/templates/authorsearch.pt:85
 msgid "label_all_presentations_author"
 msgstr "Toutes les présentations de cet auteur"
 
 #. Default: "All reviews of this author"
-#: recensio.theme:/browser/templates/authorsearch.pt:93
-#: recensio.theme:/browser/templates/authorsearch.pt:98
+#: recensio.theme:/browser/templates/authorsearch.pt:92
+#: recensio.theme:/browser/templates/authorsearch.pt:97
 msgid "label_all_reviews_author"
 msgstr "Toutes les recensions de cet auteur"
 
 #. Default: "Mehr anzeigen..."
 #: recensio.theme:/browser/templates/filtersearch.pt:102
-#: recensio.theme:/browser/templates/topical.pt:261
+#: recensio.theme:/browser/templates/topical.pt:264
 msgid "browsing_submenu_more"
 msgstr "Plus d'informations..."
 
@@ -2322,7 +2307,6 @@ msgstr "Rechercher"
 
 #. Default: "${number} items matching"
 #: recensio.theme:/browser/templates/filtersearch.pt:118
-#: recensio.theme:/browser/templates/topical.pt:44
 #: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:131
 #: recensio.theme:/skins/recensio_theme/search.pt:143
 msgid "batch_x_items_matching_your_criteria"
@@ -2330,7 +2314,7 @@ msgstr "${number} résultats correspondants"
 
 #. Default: "Reviewed by ${review_authors}"
 #: recensio.theme:/browser/templates/filtersearch.pt:189
-#: recensio.theme:/browser/templates/topical.pt:124
+#: recensio.theme:/browser/templates/topical.pt:126
 #: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:211
 #: recensio.theme:/skins/recensio_theme/search.pt:229
 msgid "reviewed_by"
@@ -2338,7 +2322,7 @@ msgstr "compte-rendu de ${review_authors}"
 
 #. Default: "in: ${get_publication_title}, ${get_volume_title}, ${get_issue_title}"
 #: recensio.theme:/browser/templates/filtersearch.pt:191
-#: recensio.theme:/browser/templates/topical.pt:126
+#: recensio.theme:/browser/templates/topical.pt:128
 #: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:213
 #: recensio.theme:/skins/recensio_theme/search.pt:231
 msgid "source_journal"
@@ -2347,36 +2331,36 @@ msgstr ""
 
 #. Default: "Presented by ${review_authors}"
 #: recensio.theme:/browser/templates/filtersearch.pt:198
-#: recensio.theme:/browser/templates/topical.pt:133
+#: recensio.theme:/browser/templates/topical.pt:135
 #: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:220
-#: recensio.theme:/skins/recensio_theme/search.pt:238
+#: recensio.theme:/skins/recensio_theme/search.pt:239
 msgid "presented_by"
 msgstr "présenté par ${review_authors}"
 
 #. Default: "published"
 #: recensio.theme:/browser/templates/filtersearch.pt:210
-#: recensio.theme:/skins/recensio_theme/search.pt:249
+#: recensio.theme:/skins/recensio_theme/search.pt:251
 msgid "box_effective"
 msgstr ""
 
 #. Default: "Filed under:"
 #: recensio.theme:/browser/templates/filtersearch.pt:223
-#: recensio.theme:/browser/templates/topical.pt:156
+#: recensio.theme:/browser/templates/topical.pt:159
 #: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:243
-#: recensio.theme:/skins/recensio_theme/search.pt:262
+#: recensio.theme:/skins/recensio_theme/search.pt:264
 msgid "label_filed_under"
 msgstr "Filed under"
 
 #. Default: "Relevance: ${percentage}%"
 #: recensio.theme:/browser/templates/filtersearch.pt:240
-#: recensio.theme:/browser/templates/topical.pt:173
+#: recensio.theme:/browser/templates/topical.pt:176
 #: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:260
-#: recensio.theme:/skins/recensio_theme/search.pt:279
+#: recensio.theme:/skins/recensio_theme/search.pt:281
 msgid "label_relevance_percentage"
 msgstr "Pertinence : ${percentage} %"
 
 #: recensio.theme:/browser/templates/filtersearch.pt:55
-#: recensio.theme:/browser/templates/topical.pt:221
+#: recensio.theme:/browser/templates/topical.pt:224
 msgid "Remove this selection"
 msgstr "Effacer la sélection"
 
@@ -2450,7 +2434,7 @@ msgid "description_publications"
 msgstr "Liste des revues publiant des recensions sur recensio.net"
 
 #. Default: "last modified"
-#: recensio.theme:/browser/templates/topical.pt:144
+#: recensio.theme:/browser/templates/topical.pt:147
 #: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:231
 msgid "box_last_modified"
 msgstr "modifié le"
@@ -2459,6 +2443,11 @@ msgstr "modifié le"
 #: recensio.theme:/browser/templates/topical.pt:38
 msgid "heading_browsing_results"
 msgstr "Parcourir"
+
+#. Default: "${number} matching reviews"
+#: recensio.theme:/browser/templates/topical.pt:44
+msgid "batch_x_reviews_matching_your_criteria"
+msgstr "${number} recensions correspondants"
 
 #. Default: "Hier gelangen Sie zu einem Formular, mit dem Sie Ihren Aufsatz in einem Sammelband auf recensio.net pr\303\244sentieren k\303\266nnen."
 #: recensio.theme:/skins/recensio_theme/add_new_item.pt:108
@@ -2909,6 +2898,9 @@ msgstr "Articles"
 #: recensio.theme:/skins/recensio_theme/secondarynavportlets.pt:96
 msgid "label_secondary_nav_internetressourcen"
 msgstr "Ressources Internet"
+
+#~ msgid "Plattform&uuml;bergreifende Suche"
+#~ msgstr "Recherche multiplatforme"
 
 #~ msgid "label_secondary_nav_datenschutz"
 #~ msgstr "Protection des données"

@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Fri May 25 06:41:24 2018\n"
+"POT-Creation-Date: Wed Oct 17 13:31:08 2018\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -674,7 +674,7 @@ msgid "Email address"
 msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:279
-#: recensio.policy:/userdataschema.py:63
+#: recensio.policy:/userdataschema.py:56
 msgid "label_preferred_language"
 msgstr ""
 
@@ -1241,7 +1241,7 @@ msgstr ""
 #: recensio.theme:/browser/templates/filtersearch.pt:150
 #: recensio.theme:/browser/templates/topical.pt:90
 #: recensio.theme:/browser/templates/topical.pt:90
-#: recensio.theme:/browser/templates/topical.pt:196
+#: recensio.theme:/browser/templates/topical.pt:199
 #: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:176
 #: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:176
 #: recensio.theme:/skins/recensio_theme/search.pt:200
@@ -1774,61 +1774,46 @@ msgstr ""
 msgid "text_declaration_not_confirmed"
 msgstr ""
 
-#: recensio.policy:/userdataschema.py:35
-#. Default: "You must accept the data protection policy"
-msgid "text_data_protection_policy_not_accepted"
-msgstr ""
-
-#: recensio.policy:/userdataschema.py:45
+#: recensio.policy:/userdataschema.py:38
 #. Default: "Academic title"
 msgid "label_academic_title"
 msgstr ""
 
-#: recensio.policy:/userdataschema.py:46
+#: recensio.policy:/userdataschema.py:39
 #. Default: "Please add your academic titles here"
 msgid "help_academic_title"
 msgstr ""
 
-#: recensio.policy:/userdataschema.py:52
+#: recensio.policy:/userdataschema.py:45
 #. Default: "First name"
 msgid "label_firstname"
 msgstr ""
 
-#: recensio.policy:/userdataschema.py:57
+#: recensio.policy:/userdataschema.py:50
 #. Default: "Last name"
 msgid "label_lastname"
 msgstr ""
 
-#: recensio.policy:/userdataschema.py:64
+#: recensio.policy:/userdataschema.py:57
 #. Default: "What language do you prefer for receiving e-mails from us?"
 msgid "description_preferred_language"
 msgstr ""
 
-#: recensio.policy:/userdataschema.py:72
+#: recensio.policy:/userdataschema.py:65
 #. Default: "Declaration of identity"
 msgid "label_declaration_of_identity"
 msgstr ""
 
-#: recensio.policy:/userdataschema.py:73
-#. Default: "I declare that I am indeed the person identified by the entries above."
+#: recensio.policy:/userdataschema.py:66
+#. Default: "I declare that I am indeed the person identified by the entries above.<br />Please findmore information in our <a href=\"#\">data protectionstatement</a>."
 msgid "help_declaration_of_identity"
 msgstr ""
 
-#: recensio.policy:/userdataschema.py:81
-#. Default: "Data protection policy"
-msgid "label_data_protection_policy_accepted"
-msgstr ""
-
-#: recensio.policy:/userdataschema.py:83
-#. Default: "I declare that I have read and understood the <a href=\"${context/portal_url}/datenschutz\">data protection policy</a> and that I accept it."
-msgid "help_data_protection_policy_accepted"
-msgstr ""
-
-#: recensio.policy:/userdataschema.py:92
+#: recensio.policy:/userdataschema.py:76
 msgid "Type the code"
 msgstr ""
 
-#: recensio.policy:/userdataschema.py:93
+#: recensio.policy:/userdataschema.py:77
 msgid "Type the code from the picture shown below or from the audio."
 msgstr ""
 
@@ -1867,13 +1852,13 @@ msgstr ""
 msgid "Creating the pdf has failed! Please try again or ask for support"
 msgstr ""
 
-#: recensio.theme:/browser/templates/authorsearch.pt:105
-#: recensio.theme:/browser/templates/authorsearch.pt:110
+#: recensio.theme:/browser/templates/authorsearch.pt:104
+#: recensio.theme:/browser/templates/authorsearch.pt:109
 #. Default: "All comments of this author"
 msgid "label_all_comments_author"
 msgstr ""
 
-#: recensio.theme:/browser/templates/authorsearch.pt:117
+#: recensio.theme:/browser/templates/authorsearch.pt:116
 #. Default: "All items of this author"
 msgid "label_all_items_author"
 msgstr ""
@@ -1897,28 +1882,28 @@ msgid "description_authorsearch_2"
 msgstr ""
 
 #: recensio.theme:/browser/templates/authorsearch.pt:60
-msgid "Plattform&uuml;bergreifende Suche"
+msgid "Plattform&uuml;bergreifender Autorenindex:"
 msgstr ""
 
-#: recensio.theme:/browser/templates/authorsearch.pt:72
+#: recensio.theme:/browser/templates/authorsearch.pt:71
 #. Default: "Es wurden keine Autoren gefunden, die Ihren Kriterien entsprechen."
 msgid "label_no_authors_found"
 msgstr ""
 
-#: recensio.theme:/browser/templates/authorsearch.pt:81
-#: recensio.theme:/browser/templates/authorsearch.pt:86
+#: recensio.theme:/browser/templates/authorsearch.pt:80
+#: recensio.theme:/browser/templates/authorsearch.pt:85
 #. Default: "All presentations of this author"
 msgid "label_all_presentations_author"
 msgstr ""
 
-#: recensio.theme:/browser/templates/authorsearch.pt:93
-#: recensio.theme:/browser/templates/authorsearch.pt:98
+#: recensio.theme:/browser/templates/authorsearch.pt:92
+#: recensio.theme:/browser/templates/authorsearch.pt:97
 #. Default: "All reviews of this author"
 msgid "label_all_reviews_author"
 msgstr ""
 
 #: recensio.theme:/browser/templates/filtersearch.pt:102
-#: recensio.theme:/browser/templates/topical.pt:261
+#: recensio.theme:/browser/templates/topical.pt:264
 #. Default: "Mehr anzeigen..."
 msgid "browsing_submenu_more"
 msgstr ""
@@ -1931,7 +1916,6 @@ msgid "heading_search_results"
 msgstr ""
 
 #: recensio.theme:/browser/templates/filtersearch.pt:118
-#: recensio.theme:/browser/templates/topical.pt:44
 #: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:131
 #: recensio.theme:/skins/recensio_theme/search.pt:143
 #. Default: "${number} items matching"
@@ -1939,7 +1923,7 @@ msgid "batch_x_items_matching_your_criteria"
 msgstr ""
 
 #: recensio.theme:/browser/templates/filtersearch.pt:189
-#: recensio.theme:/browser/templates/topical.pt:124
+#: recensio.theme:/browser/templates/topical.pt:126
 #: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:211
 #: recensio.theme:/skins/recensio_theme/search.pt:229
 #. Default: "Reviewed by ${review_authors}"
@@ -1947,7 +1931,7 @@ msgid "reviewed_by"
 msgstr ""
 
 #: recensio.theme:/browser/templates/filtersearch.pt:191
-#: recensio.theme:/browser/templates/topical.pt:126
+#: recensio.theme:/browser/templates/topical.pt:128
 #: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:213
 #: recensio.theme:/skins/recensio_theme/search.pt:231
 #. Default: "in: ${get_publication_title}, ${get_volume_title}, ${get_issue_title}"
@@ -1955,37 +1939,37 @@ msgid "source_journal"
 msgstr ""
 
 #: recensio.theme:/browser/templates/filtersearch.pt:198
-#: recensio.theme:/browser/templates/topical.pt:133
+#: recensio.theme:/browser/templates/topical.pt:135
 #: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:220
-#: recensio.theme:/skins/recensio_theme/search.pt:238
+#: recensio.theme:/skins/recensio_theme/search.pt:239
 #. Default: "Presented by ${review_authors}"
 msgid "presented_by"
 msgstr ""
 
 #: recensio.theme:/browser/templates/filtersearch.pt:210
-#: recensio.theme:/skins/recensio_theme/search.pt:249
+#: recensio.theme:/skins/recensio_theme/search.pt:251
 #. Default: "published"
 msgid "box_effective"
 msgstr ""
 
 #: recensio.theme:/browser/templates/filtersearch.pt:223
-#: recensio.theme:/browser/templates/topical.pt:156
+#: recensio.theme:/browser/templates/topical.pt:159
 #: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:243
-#: recensio.theme:/skins/recensio_theme/search.pt:262
+#: recensio.theme:/skins/recensio_theme/search.pt:264
 #. Default: "Filed under:"
 msgid "label_filed_under"
 msgstr ""
 
 #: recensio.theme:/browser/templates/filtersearch.pt:240
-#: recensio.theme:/browser/templates/topical.pt:173
+#: recensio.theme:/browser/templates/topical.pt:176
 #: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:260
-#: recensio.theme:/skins/recensio_theme/search.pt:279
+#: recensio.theme:/skins/recensio_theme/search.pt:281
 #. Default: "Relevance: ${percentage}%"
 msgid "label_relevance_percentage"
 msgstr ""
 
 #: recensio.theme:/browser/templates/filtersearch.pt:55
-#: recensio.theme:/browser/templates/topical.pt:221
+#: recensio.theme:/browser/templates/topical.pt:224
 msgid "Remove this selection"
 msgstr ""
 
@@ -2058,7 +2042,7 @@ msgstr ""
 msgid "description_publications"
 msgstr ""
 
-#: recensio.theme:/browser/templates/topical.pt:144
+#: recensio.theme:/browser/templates/topical.pt:147
 #: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:231
 #. Default: "last modified"
 msgid "box_last_modified"
@@ -2067,6 +2051,11 @@ msgstr ""
 #: recensio.theme:/browser/templates/topical.pt:38
 #. Default: "Browsing"
 msgid "heading_browsing_results"
+msgstr ""
+
+#: recensio.theme:/browser/templates/topical.pt:44
+#. Default: "${number} matching reviews"
+msgid "batch_x_reviews_matching_your_criteria"
 msgstr ""
 
 #: recensio.theme:/skins/recensio_theme/add_new_item.pt:108
