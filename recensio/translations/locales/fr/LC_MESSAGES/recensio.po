@@ -2185,6 +2185,8 @@ msgstr "Confirmation d'identité"
 msgid "help_declaration_of_identity"
 msgstr ""
 "Je certifie être la personne dont j'ai fourni les informations ci-dessus."
+"<br />Pour plus d'informations, consultez notre <a href=\"datenschutz-fr\">"
+"déclaration de protection des données</a>."
 
 #: recensio.policy:/userdataschema.py:76
 msgid "Type the code"
