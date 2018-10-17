@@ -274,3 +274,15 @@ msgstr "Log in to send message"
 
 #~ msgid "help_search_item_type"
 #~ msgstr "Search specific types of items"
+
+#. Default: "Next ${number} items"
+#: plone.batching/plone/batching/batchnavigation.pt:28
+#: plone.batching/plone/batching/batchnavigation_bootstrap.pt:67
+msgid "batch_next_x_items"
+msgstr "Next ${number} results"
+
+#. Default: "Previous ${number} items"
+#: plone.batching/plone/batching/batchnavigation.pt:16
+#: plone.batching/plone/batching/batchnavigation_bootstrap.pt:30
+msgid "batch_previous_x_items"
+msgstr "Previous ${number} results"
