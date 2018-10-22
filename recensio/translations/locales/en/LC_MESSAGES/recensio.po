@@ -2398,7 +2398,7 @@ msgstr "last modified"
 #. Default: "Browsing"
 #: recensio.theme:/browser/templates/topical.pt:38
 msgid "heading_browsing_results"
-msgstr "Browsing"
+msgstr "Content Browsing"
 
 #. Default: "${number} matching reviews"
 #: recensio.theme:/browser/templates/topical.pt:44
