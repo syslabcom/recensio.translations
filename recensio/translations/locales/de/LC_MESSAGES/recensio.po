@@ -2656,7 +2656,7 @@ msgstr "Präzisere Suchmöglichkeiten bietet Ihnen die ${advanced_search}"
 #: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:75
 #: recensio.theme:/skins/recensio_theme/search.pt:87
 msgid "search_results_advanced_link"
-msgstr "erweiterte Suche"
+msgstr "Erweiterte Suche"
 
 #. Default: "Hide the search form"
 #: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:88
