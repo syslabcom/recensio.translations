@@ -1237,9 +1237,8 @@ msgstr ""
 "Yours sincerely,\n"
 "The recensio.net editorial team\n"
 "\n"
-"recensio.net is a project of the Bavarian State Library. It is funded by the "
-"German Research Foundation (DFG). You can find more information on http://"
-"www.recensio.net/ueberuns-en"
+"recensio.net is a project of the Bavarian State Library. You can find more "
+"information on http://www.recensio.net/ueberuns-en"
 
 #: recensio.policy:/browser/email.py:403
 #: recensio.policy:/missing_18n_labels.py:60
@@ -1267,9 +1266,8 @@ msgstr ""
 "Yours sincerely\n"
 "The recensio.net editorial team\n"
 "\n"
-"recensio.net is a project of the Bavarian State Library. It is funded by the "
-"German Research Foundation (DFG). You can find more information on http://"
-"www.recensio.net/ueberuns-en"
+"recensio.net is a project of the Bavarian State Library. You can find more "
+"information on http://www.recensio.net/ueberuns-en"
 
 #: recensio.policy:/browser/email.py:433
 #: recensio.policy:/missing_18n_labels.py:64
@@ -1297,9 +1295,8 @@ msgstr ""
 "Yours sincerely,\n"
 "The recensio.net editorial team\n"
 "\n"
-"recensio.net is a project of the Bavarian State Library. It is funded by the "
-"German Research Foundation (DFG). You can find more information on http://"
-"www.recensio.net/ueberuns-en"
+"recensio.net is a project of the Bavarian State Library. You can find more "
+"information on http://www.recensio.net/ueberuns-en"
 
 #: recensio.policy:/browser/email.py:440
 #: recensio.policy:/missing_18n_labels.py:61
@@ -1326,9 +1323,8 @@ msgstr ""
 "Yours sincerely,\n"
 "The recensio.net editorial team\n"
 "\n"
-"recensio.net is a project of the Bavarian State Library. It is funded by the "
-"German Research Foundation (DFG). You can find more information on http://"
-"www.recensio.net/ueberuns-en"
+"recensio.net is a project of the Bavarian State Library. You can find more "
+"information on http://www.recensio.net/ueberuns-en"
 
 #: recensio.policy:/browser/email.py:475
 msgid "mail_no_recipients"
@@ -1360,9 +1356,8 @@ msgstr ""
 "\n"
 "The recensio.net editorial team\n"
 "\n"
-"recensio.net is a project of the Bavarian State Library. It is funded by the "
-"German Research Foundation (DFG). You can find more information on http://"
-"www.recensio.net/ueberuns-en"
+"recensio.net is a project of the Bavarian State Library. You can find more "
+"information on http://www.recensio.net/ueberuns-en"
 
 #. Default: ""
 #: recensio.policy:/browser/email.py:542
@@ -1978,9 +1973,8 @@ msgstr ""
 "Yours sincerely,\n"
 "The recensio.net editorial team\n"
 "\n"
-"recensio.net is a project of the Bavarian State Library. It is funded by the "
-"German Research Foundation (DFG). You can find more information on http://"
-"www.recensio.net/ueberuns-en"
+"recensio.net is a project of the Bavarian State Library. You can find more "
+"information on http://www.recensio.net/ueberuns-en"
 
 #: recensio.policy:/missing_18n_labels.py:55
 msgid "mail_new_comment_body_review"
