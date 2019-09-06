@@ -1939,6 +1939,18 @@ msgstr ""
 "Dadurch sind die Texte frühestens nach 3 Werktagen öffentlich einsehbar."
 
 #: recensio.policy:/missing_18n_labels.py:28
+msgid "Review Article Journal"
+msgstr "Rezension (Aufsatz aus Zeitschrift)"
+
+#: recensio.policy:/missing_18n_labels.py:29
+msgid "Review Article Collection"
+msgstr "Rezension (Aufsatz aus Sammelband)"
+
+#: recensio.policy:/missing_18n_labels.py:30
+msgid "Review Exhibition"
+msgstr "Rezension (Ausstellung)"
+
+#: recensio.policy:/missing_18n_labels.py:28
 msgid "The number of results that is displayed on one page."
 msgstr "Die Zahl der Ergebnisse, die auf einer Seite angezeigt werden."
 

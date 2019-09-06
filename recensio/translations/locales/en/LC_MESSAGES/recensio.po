@@ -1826,6 +1826,10 @@ msgstr "Review of monograph"
 msgid "Review"
 msgstr "Review"
 
+#: recensio.policy:/missing_18n_labels.py:29
+msgid "Review Article Collection"
+msgstr "Review Article Edited Volume"
+
 #: recensio.policy:/missing_18n_labels.py:28
 msgid "The number of results that is displayed on one page."
 msgstr "Number of results displayed on one page"
