@@ -200,6 +200,22 @@ msgstr "Review (journal)"
 msgid "Review Monograph"
 msgstr "Review (monograph)"
 
+#: recensio.policy:/missing_18n_labels.py:28
+msgid "Review Article Journal"
+msgstr "Review (Article Journal)"
+
+#: recensio.policy:/missing_18n_labels.py:29
+msgid "Review Article Collection"
+msgstr "Review (Article Edited Volume)"
+
+#: recensio.policy:/missing_18n_labels.py:30
+msgid "Review Article Edited Volume"
+msgstr "Review (Article Edited Volume)"
+
+#: recensio.policy:/missing_18n_labels.py:31
+msgid "Review Exhibition"
+msgstr "Review (Exhibition)"
+
 #: recensio.policy:/missing_18n_labels.py:13
 msgid "Publication"
 msgstr "Publication"

@@ -120,10 +120,10 @@ msgstr ""
 "Um eine für die Arbeit von Historikern relevante Internetressource auf "
 "recensio.net zu präsentieren, füllen Sie bitte das nachfolgende Formular "
 "aus. Die mit einem roten Viereck gekennzeichneten Felder sind Pflichtfelder. "
-"Bitte beachten Sie, dass eine Präsentation Ihrer Thesen zwar in nahezu "
-"allen europäischen Sprachen möglich ist, wir empfehlen Ihnen jedoch, eine "
-"der großen Wissenschaftssprachen zu wählen. Sie verleihen Ihrer Präsentation "
-"so größtmöglichste Aufmerksamkeit und erhöhen die Wahrscheinlichkeit einer "
+"Bitte beachten Sie, dass eine Präsentation Ihrer Thesen zwar in nahezu allen "
+"europäischen Sprachen möglich ist, wir empfehlen Ihnen jedoch, eine der "
+"großen Wissenschaftssprachen zu wählen. Sie verleihen Ihrer Präsentation so "
+"größtmöglichste Aufmerksamkeit und erhöhen die Wahrscheinlichkeit einer "
 "Diskussion Ihrer Thesen.\n"
 "Sie können alle Angaben zu einem späteren Zeitpunkt verändern oder ergänzen."
 
@@ -198,6 +198,22 @@ msgstr "Rezension (Zeitschrift)"
 #: recensio.policy:/missing_18n_labels.py:34
 msgid "Review Monograph"
 msgstr "Rezension (Monographie)"
+
+#: recensio.policy:/missing_18n_labels.py:28
+msgid "Review Article Journal"
+msgstr "Rezension (Aufsatz Zeitschrift)"
+
+#: recensio.policy:/missing_18n_labels.py:29
+msgid "Review Article Collection"
+msgstr "Rezension (Aufsatz Sammelband)"
+
+#: recensio.policy:/missing_18n_labels.py:30
+msgid "Review Article Edited Volume"
+msgstr "Rezension (Aufsatz Sammelband)"
+
+#: recensio.policy:/missing_18n_labels.py:31
+msgid "Review Exhibition"
+msgstr "Rezension (Ausstellung)"
 
 #: recensio.policy:/missing_18n_labels.py:13
 msgid "Publication"
