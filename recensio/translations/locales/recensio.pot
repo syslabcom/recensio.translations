@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Fri Sep 13 10:58:29 2019\n"
+"POT-Creation-Date: Tue Sep 17 15:26:46 2019\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -50,13 +50,13 @@ msgid "label_metadata_editor_article"
 msgstr ""
 
 #: recensio.contenttypes:/browser/review.py:112
-#: recensio.contenttypes:/browser/review.py:142
+#: recensio.contenttypes:/browser/review.py:146
 #. Default: "Title (article)"
 msgid "label_metadata_title_article"
 msgstr ""
 
 #: recensio.contenttypes:/browser/review.py:115
-#: recensio.contenttypes:/browser/review.py:145
+#: recensio.contenttypes:/browser/review.py:149
 #. Default: "Title (edited volume)"
 msgid "label_metadata_title_edited_volume"
 msgstr ""
@@ -77,64 +77,79 @@ msgid "label_metadata_language_review_journal"
 msgstr ""
 
 #: recensio.contenttypes:/browser/review.py:129
-#: recensio.contenttypes:/browser/review.py:139
 #. Default: "Editor"
 msgid "label_metadata_editor"
 msgstr ""
 
 #: recensio.contenttypes:/browser/review.py:136
-#. Default: "Autor(en) (Aufsatz)"
+#. Default: "Autor (Aufsatz)"
 msgid "label_metadata_authors_article"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:148
+#: recensio.contenttypes:/browser/review.py:140
+#. Default: "Editor (edited volume)"
+msgid "label_metadata_editor_edited_volume"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.py:143
+#. Default: "Editor (journal)"
+msgid "label_metadata_editor_journal"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.py:152
 #. Default: "Subtitle (edited volume)"
 msgid "label_metadata_subtitle_edited_volume"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:179
-msgid "metadata_pages"
-msgstr ""
-
-#: recensio.contenttypes:/browser/review.py:182
-msgid "metadata_pages_article"
-msgstr ""
-
-#: recensio.contenttypes:/browser/review.py:185
-msgid "label_metadata_review_author"
+#: recensio.contenttypes:/browser/review.py:155
+#: recensio.contenttypes:/browser/review.py:187
+#. Default: "Pages (review)"
+msgid "metadata_pages_review"
 msgstr ""
 
 #: recensio.contenttypes:/browser/review.py:189
+msgid "metadata_pages"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.py:192
+msgid "metadata_pages_article"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.py:195
+msgid "label_metadata_review_author"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.py:199
 msgid "label_metadata_presentation_author"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:202
+#: recensio.contenttypes:/browser/review.py:212
 msgid "metadata_review_type_code"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:205
+#: recensio.contenttypes:/browser/review.py:215
 msgid "label_metadata_reference_authors"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:209
+#: recensio.contenttypes:/browser/review.py:219
 msgid "label_metadata_institution"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:212
+#: recensio.contenttypes:/browser/review.py:222
 msgid "metadata_recensio_id"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:258
+#: recensio.contenttypes:/browser/review.py:268
 #: recensio.contenttypes:/content/schemata.py:91
 msgid "Subject classification"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:260
+#: recensio.contenttypes:/browser/review.py:270
 #: recensio.contenttypes:/content/schemata.py:93
 msgid "Time classification"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:262
+#: recensio.contenttypes:/browser/review.py:272
 #: recensio.contenttypes:/content/schemata.py:95
 msgid "Regional classification"
 msgstr ""
@@ -1887,14 +1902,18 @@ msgid "text_presentation_of"
 msgstr ""
 
 #: recensio.policy:/missing_18n_labels.py:84
-msgid "text_review_of"
+msgid "text_review_in"
 msgstr ""
 
 #: recensio.policy:/missing_18n_labels.py:85
-msgid "text_colon"
+msgid "text_review_of"
 msgstr ""
 
 #: recensio.policy:/missing_18n_labels.py:86
+msgid "text_colon"
+msgstr ""
+
+#: recensio.policy:/missing_18n_labels.py:87
 msgid "title_presentation_monograph"
 msgstr ""
 

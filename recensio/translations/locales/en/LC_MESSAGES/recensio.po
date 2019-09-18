@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: Fri Sep 13 10:58:29 2019\n"
+"POT-Creation-Date: Tue Sep 17 15:26:46 2019\n"
 "PO-Revision-Date: 2011-11-08 12:02+0200\n"
 "Last-Translator: reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -45,31 +45,31 @@ msgstr ""
 #: recensio.contenttypes:/browser/review.py:103
 #: recensio.contenttypes:/browser/review.py:133
 msgid "label_metadata_language_article"
-msgstr "Language (article)"
+msgstr "Language (Article)"
 
 #. Default: "Author (article)"
 #: recensio.contenttypes:/browser/review.py:106
 msgid "label_metadata_author_article"
-msgstr "Author (article)"
+msgstr "Author (Article)"
 
 #. Default: "Editor (article)"
 #: recensio.contenttypes:/browser/review.py:109
 #, fuzzy
 msgid "label_metadata_editor_article"
-msgstr "Title (article)"
+msgstr "Title (Article)"
 
 #. Default: "Title (article)"
 #: recensio.contenttypes:/browser/review.py:112
-#: recensio.contenttypes:/browser/review.py:142
+#: recensio.contenttypes:/browser/review.py:146
 #, fuzzy
 msgid "label_metadata_title_article"
-msgstr "Title (article)"
+msgstr "Title (Article)"
 
 #. Default: "Title (edited volume)"
 #: recensio.contenttypes:/browser/review.py:115
-#: recensio.contenttypes:/browser/review.py:145
+#: recensio.contenttypes:/browser/review.py:149
 msgid "label_metadata_title_edited_volume"
-msgstr "Title (edited volume)"
+msgstr "Title (Edited Volume)"
 
 #. Default: "Name (Internet resource)"
 #: recensio.contenttypes:/browser/review.py:119
@@ -88,70 +88,85 @@ msgstr "Language (Journal)"
 
 #. Default: "Editor"
 #: recensio.contenttypes:/browser/review.py:129
-#: recensio.contenttypes:/browser/review.py:139
 msgid "label_metadata_editor"
 msgstr "Editor"
 
-#. Default: "Autor(en) (Aufsatz)"
+#. Default: "Autor (Aufsatz)"
 #: recensio.contenttypes:/browser/review.py:136
 msgid "label_metadata_authors_article"
-msgstr ""
+msgstr "Author (Article)"
+
+#. Default: "Editor (edited volume)"
+#: recensio.contenttypes:/browser/review.py:140
+msgid "label_metadata_editor_edited_volume"
+msgstr "Editor (Edited Volume)"
+
+#. Default: "Editor (journal)"
+#: recensio.contenttypes:/browser/review.py:143
+msgid "label_metadata_editor_journal"
+msgstr "Editor (Journal)"
 
 #. Default: "Subtitle (edited volume)"
-#: recensio.contenttypes:/browser/review.py:148
+#: recensio.contenttypes:/browser/review.py:152
 msgid "label_metadata_subtitle_edited_volume"
-msgstr "Subtitle (edited volume)"
+msgstr "Subtitle (Edited Volume)"
 
-#: recensio.contenttypes:/browser/review.py:179
+#. Default: "Pages (review)"
+#: recensio.contenttypes:/browser/review.py:155
+#: recensio.contenttypes:/browser/review.py:187
+msgid "metadata_pages_review"
+msgstr "Pages (Review)"
+
+#: recensio.contenttypes:/browser/review.py:189
 msgid "metadata_pages"
 msgstr "Pages"
 
-#: recensio.contenttypes:/browser/review.py:182
+#: recensio.contenttypes:/browser/review.py:192
 msgid "metadata_pages_article"
-msgstr "Pages (article)"
+msgstr "Pages (Article)"
 
-#: recensio.contenttypes:/browser/review.py:185
+#: recensio.contenttypes:/browser/review.py:195
 msgid "label_metadata_review_author"
-msgstr "Author (review)"
+msgstr "Author (Review)"
 
-#: recensio.contenttypes:/browser/review.py:189
+#: recensio.contenttypes:/browser/review.py:199
 msgid "label_metadata_presentation_author"
-msgstr "Author (presentation)"
+msgstr "Author (Presentation)"
 
-#: recensio.contenttypes:/browser/review.py:202
+#: recensio.contenttypes:/browser/review.py:212
 msgid "metadata_review_type_code"
 msgstr "Document type"
 
-#: recensio.contenttypes:/browser/review.py:205
+#: recensio.contenttypes:/browser/review.py:215
 msgid "label_metadata_reference_authors"
 msgstr "Reference Authors"
 
-#: recensio.contenttypes:/browser/review.py:209
+#: recensio.contenttypes:/browser/review.py:219
 msgid "label_metadata_institution"
 msgstr "Institution"
 
-#: recensio.contenttypes:/browser/review.py:212
+#: recensio.contenttypes:/browser/review.py:222
 msgid "metadata_recensio_id"
 msgstr "recensio.net-ID"
 
-#: recensio.contenttypes:/browser/review.py:258
+#: recensio.contenttypes:/browser/review.py:268
 #: recensio.contenttypes:/content/schemata.py:91
 msgid "Subject classification"
 msgstr "Subject classification"
 
-#: recensio.contenttypes:/browser/review.py:260
+#: recensio.contenttypes:/browser/review.py:270
 #: recensio.contenttypes:/content/schemata.py:93
 msgid "Time classification"
 msgstr "Time classification"
 
-#: recensio.contenttypes:/browser/review.py:262
+#: recensio.contenttypes:/browser/review.py:272
 #: recensio.contenttypes:/content/schemata.py:95
 msgid "Regional classification"
 msgstr "Regional classification"
 
 #: recensio.contenttypes:/browser/review.py:30
 msgid "Publication Title"
-msgstr "Title (publication)"
+msgstr "Title (Publication)"
 
 #: recensio.contenttypes:/browser/review.py:31
 msgid "heading_metadata_journal"
@@ -159,11 +174,11 @@ msgstr "Journal"
 
 #: recensio.contenttypes:/browser/review.py:32
 msgid "Volume Title"
-msgstr "Title (volume)"
+msgstr "Title (Volume)"
 
 #: recensio.contenttypes:/browser/review.py:33
 msgid "Issue Title"
-msgstr "Title (issue)"
+msgstr "Title (Issue)"
 
 #. Default: "Official year of publication"
 #: recensio.contenttypes:/browser/review.py:79
@@ -174,27 +189,27 @@ msgstr "Official year of publication"
 #. Default: "Language (review)"
 #: recensio.contenttypes:/browser/review.py:84
 msgid "label_metadata_language_review"
-msgstr "Language (review)"
+msgstr "Language (Review)"
 
 #. Default: "Language (presentation)"
 #: recensio.contenttypes:/browser/review.py:88
 msgid "label_metadata_language_presentation"
-msgstr "Language (presentation)"
+msgstr "Language (Presentation)"
 
 #. Default: "Language (monograph)"
 #: recensio.contenttypes:/browser/review.py:92
 msgid "label_metadata_language_monograph"
-msgstr "Language (monograph)"
+msgstr "Language (Monograph)"
 
 #: recensio.contenttypes:/browser/review.py:95
 #: recensio.contenttypes:/content/schemata.py:950
 msgid "Author (monograph)"
-msgstr "Author (monograph)"
+msgstr "Author (Monograph)"
 
 #. Default: "Editor (monograph)"
 #: recensio.contenttypes:/browser/review.py:98
 msgid "Editor (monograph)"
-msgstr "Editor (monograph)"
+msgstr "Editor (Monograph)"
 
 #: recensio.contenttypes:/browser/templates/oaisuggestions.pt:117
 msgid "Year"
@@ -2209,14 +2224,18 @@ msgid "text_presentation_of"
 msgstr "presentation of:"
 
 #: recensio.policy:/missing_18n_labels.py:84
+msgid "text_review_in"
+msgstr "review published in:"
+
+#: recensio.policy:/missing_18n_labels.py:85
 msgid "text_review_of"
 msgstr "review of:"
 
-#: recensio.policy:/missing_18n_labels.py:85
+#: recensio.policy:/missing_18n_labels.py:86
 msgid "text_colon"
 msgstr ":"
 
-#: recensio.policy:/missing_18n_labels.py:86
+#: recensio.policy:/missing_18n_labels.py:87
 msgid "title_presentation_monograph"
 msgstr "Title (presentation monograph)"
 
