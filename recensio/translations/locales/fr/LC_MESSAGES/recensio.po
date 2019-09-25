@@ -821,19 +821,19 @@ msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:1162
 msgid "Ausstellende Institution"
-msgstr ""
+msgstr "Institution exposante"
 
 #: recensio.contenttypes:/content/schemata.py:1173
 msgid "Kurator / Mitwirkende"
-msgstr ""
+msgstr "Administrateur / Coopérateurs"
 
 #: recensio.contenttypes:/content/schemata.py:1187
 msgid "Ort / Laufzeit"
-msgstr ""
+msgstr "Lieu / Durée"
 
 #: recensio.contenttypes:/content/schemata.py:1189
 msgid "Ort"
-msgstr ""
+msgstr "Lieu"
 
 #: recensio.contenttypes:/content/schemata.py:1190
 msgid "Laufzeit Anfang"
@@ -2040,7 +2040,7 @@ msgstr "Create new presentation"
 
 #: recensio.policy:/missing_18n_labels.py:38
 msgid "exhibition_reviewed_by"
-msgstr ""
+msgstr "compte rendu de ${review_authors}"
 
 #: recensio.policy:/missing_18n_labels.py:39
 msgid "label_abbrev_bearbeiter"

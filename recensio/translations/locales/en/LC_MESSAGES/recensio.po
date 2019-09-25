@@ -815,27 +815,27 @@ msgstr "Last page"
 
 #: recensio.contenttypes:/content/schemata.py:1162
 msgid "Ausstellende Institution"
-msgstr ""
+msgstr "Exhibiting Institution"
 
 #: recensio.contenttypes:/content/schemata.py:1173
 msgid "Kurator / Mitwirkende"
-msgstr ""
+msgstr "Curator / Contributors"
 
 #: recensio.contenttypes:/content/schemata.py:1187
 msgid "Ort / Laufzeit"
-msgstr ""
+msgstr "Place / Duration"
 
 #: recensio.contenttypes:/content/schemata.py:1189
 msgid "Ort"
-msgstr ""
+msgstr "Place"
 
 #: recensio.contenttypes:/content/schemata.py:1190
 msgid "Laufzeit Anfang"
-msgstr ""
+msgstr "Duration start"
 
 #: recensio.contenttypes:/content/schemata.py:1191
 msgid "Laufzeit Ende"
-msgstr ""
+msgstr "Duration end"
 
 #: recensio.contenttypes:/content/schemata.py:1192
 msgid "Jahr (gezählt / bzw. normiert)"
@@ -1991,7 +1991,7 @@ msgstr "Create new presentation"
 
 #: recensio.policy:/missing_18n_labels.py:38
 msgid "exhibition_reviewed_by"
-msgstr "exhibition reviewed by ${review_authors}"
+msgstr "Exhibition reviewed by ${review_authors}"
 
 #: recensio.policy:/missing_18n_labels.py:39
 msgid "label_abbrev_bearbeiter"
