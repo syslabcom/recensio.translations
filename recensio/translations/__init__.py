@@ -1,8 +1,10 @@
 # -*- extra stuff goes here -*-
-from zope.i18nmessageid import MessageFactory
-from zc.testbrowser.browser import Browser
-import pkg_resources
 import sys
+
+import pkg_resources
+
+from zc.testbrowser.browser import Browser
+from zope.i18nmessageid import MessageFactory
 
 RecensioMessageFactory = MessageFactory("recensio")
 
