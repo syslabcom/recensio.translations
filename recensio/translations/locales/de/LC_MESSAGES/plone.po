@@ -159,7 +159,6 @@ msgstr "Einstellungsdatum"
 msgid "label_tags"
 msgstr "Schlagwörter"
 
-#. default: "filed under:"
 msgid "label_filed_under"
 msgstr "Schlagwörter:"
 

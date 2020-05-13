@@ -162,7 +162,6 @@ msgstr "Date de création"
 msgid "label_tags"
 msgstr "Mots-clés"
 
-#. default: "filed under:"
 msgid "label_filed_under"
 msgstr "Mots-clés :"
 

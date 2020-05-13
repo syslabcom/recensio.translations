@@ -160,7 +160,6 @@ msgstr "Date of document creation"
 msgid "label_tags"
 msgstr "Subject heading"
 
-#. default: "filed under:"
 msgid "label_filed_under"
 msgstr "Subject headings:"
 
