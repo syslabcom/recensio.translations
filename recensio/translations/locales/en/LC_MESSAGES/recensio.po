@@ -1012,12 +1012,16 @@ msgstr ""
 #. Default: "Show URL in citation rules box"
 #: recensio.contenttypes:/content/schemata.py:430
 msgid "label_is_url_shown_in_citation_note"
-msgstr ""
+msgstr "Show URL in citation rules box"
 
 #. Default: "Show the URL of the review in the \"Citation rules\" box. This has no effect if an external full text is used for the review, in which case the URL is always hidden. Note that this setting does not affect the actual citation string nor the display of the Original URL."
 #: recensio.contenttypes:/content/schemata.py:434
 msgid "description_is_url_shown_in_citation_note"
 msgstr ""
+"Show the URL of the review in the \"Citation rules\" box. This is not "
+"available if an external full text is used for the review, in which case the "
+"URL is always hidden. Note that this setting does not affect the actual "
+"citation string nor the display of the Original URL."
 
 #. Default: ""
 #: recensio.contenttypes:/content/schemata.py:456
