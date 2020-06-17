@@ -2112,6 +2112,10 @@ msgid "label_downloaded_via_recensio"
 msgstr "téléchargé depuis ${portal}"
 
 #: recensio.policy:/missing_18n_labels.py:46
+msgid "label_effective_date"
+msgstr "Date de publication"
+
+#: recensio.policy:/missing_18n_labels.py:46
 #: recensio.theme:/browser/templates/filtersearch.pt:229
 #: recensio.theme:/browser/templates/topical.pt:160
 #: recensio.theme:/skins/recensio_theme/searchNoVolDoubles.pt:243
