@@ -2614,7 +2614,7 @@ msgstr "präsentiert von ${review_authors}"
 #: recensio.theme:/browser/templates/topical.pt:149
 #: recensio.theme:/skins/recensio_theme/search.pt:248
 msgid "box_effective"
-msgstr "Veröffentlicht"
+msgstr "veröffentlicht"
 
 #. Default: "Relevance: ${percentage}%"
 #: recensio.theme:/browser/templates/filtersearch.pt:246
