@@ -1040,13 +1040,6 @@ msgstr "Zeige URL in Zitierhinweis-Box"
 #: recensio.contenttypes:/content/schemata.py:461
 msgid "description_is_url_shown_in_citation_note"
 msgstr ""
-"Zeige die URL der Rezension in der \"Zitierhinweis\"-Box. Dieses Feld ist "
-"nicht verfügbar, wenn die Einstellung bereits auf einer übergeordneten Ebene "
-"(Zeitschrift, Band, Ausgabe) deaktiviert ist. Die Einstellung hat außerdem "
-"keine Wirkung, falls ein externer Volltext für die Rezension benutzt wird; "
-"in diesem Fall bleibt die URL immer versteckt. Beachten Sie, dass diese "
-"Einstellung weder den eigentlichen Zitierhinweis noch die Anzeige der "
-"Original-URL beeinflusst."
 
 #. Default: ""
 #: recensio.contenttypes:/content/schemata.py:474
