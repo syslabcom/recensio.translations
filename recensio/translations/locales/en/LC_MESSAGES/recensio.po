@@ -779,7 +779,7 @@ msgstr "Short name"
 
 #: recensio.contenttypes:/content/schemata.py:1097
 msgid "Vol."
-msgstr "Vol."
+msgstr "Volume"
 
 #: recensio.contenttypes:/content/schemata.py:111
 msgid "Language(s) of presentation"
