@@ -46,6 +46,10 @@ msgstr ""
 msgid "label_metadata_language_monograph"
 msgstr "Sprache (Monographie)"
 
+#: recensio.contenttypes:/browser/review.py:310
+msgid "label_metadata_recensio_date"
+msgstr "recensio-Datum"
+
 #: recensio.contenttypes:/browser/review.py:105
 #: recensio.contenttypes:/content/schemata.py:1002
 msgid "Author (monograph)"
@@ -161,7 +165,7 @@ msgstr "Anbieter (Name/Institution)"
 
 #: recensio.contenttypes:/browser/review.py:245
 msgid "metadata_recensio_id"
-msgstr "recensio.net-ID"
+msgstr "recensio-ID"
 
 #: recensio.contenttypes:/browser/review.py:299
 #: recensio.contenttypes:/content/schemata.py:1297

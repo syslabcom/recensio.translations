@@ -38,6 +38,10 @@ msgstr ""
 msgid "label_metadata_language_monograph"
 msgstr ""
 
+#: recensio.contenttypes:/browser/review.py:310
+msgid "label_metadata_recensio_date"
+msgstr ""
+
 #: recensio.contenttypes:/browser/review.py:105
 #: recensio.contenttypes:/content/schemata.py:1002
 msgid "Author (monograph)"
