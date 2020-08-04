@@ -159,7 +159,7 @@ msgstr "Institution"
 
 #: recensio.contenttypes:/browser/review.py:245
 msgid "metadata_recensio_id"
-msgstr "ID-recensio"
+msgstr "recensio-ID"
 
 #: recensio.contenttypes:/browser/review.py:299
 #: recensio.contenttypes:/content/schemata.py:1297
