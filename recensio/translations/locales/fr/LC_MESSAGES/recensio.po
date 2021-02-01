@@ -741,7 +741,7 @@ msgstr "Titre de la revue"
 
 #: recensio.contenttypes:/content/reviewmonograph.py:58
 msgid "Translated title"
-msgstr ""
+msgstr "Titre traduit"
 
 #. Default: "Please fill in either authors OR editors (exception: Complete Works etc.)"
 #: recensio.contenttypes:/content/schemata.py:1011
