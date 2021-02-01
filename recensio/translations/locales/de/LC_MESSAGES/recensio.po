@@ -684,7 +684,7 @@ msgstr ""
 msgid "license-note-review"
 msgstr ""
 "Dieser Beitrag kann vom Nutzer zu eigenen nicht-kommerziellen Zwecken "
-"heruntergeladen und/oder ausgedruckt werden. Darüber hinaus gehende "
+"heruntergeladen und/oder ausgedruckt werden. Darüber hinausgehende "
 "Nutzungen sind ohne weitere Genehmigung der Rechteinhaber nur im Rahmen der "
 "gesetzlichen Schrankenbestimmungen (§§ 44a-63a UrhG) zulässig."
 
