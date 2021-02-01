@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Tue Oct  6 08:28:38 2020\n"
+"POT-Creation-Date: Mon Feb  1 15:34:33 2021\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -287,72 +287,67 @@ msgstr ""
 msgid "No results found"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/review.pt:122
+#: recensio.contenttypes:/browser/templates/review.pt:117
 #. Default: "Download as <strong>PDF</strong><br /> <em class=\"discrete\">(${download_size} kb)</em>"
 msgid "download_as"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/review.pt:155
-#: recensio.contenttypes:/browser/templates/review.pt:166
+#: recensio.contenttypes:/browser/templates/review.pt:148
+#: recensio.contenttypes:/browser/templates/review.pt:159
 msgid "metadata"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/review.pt:200
-#: recensio.contenttypes:/browser/templates/review.pt:211
+#: recensio.contenttypes:/browser/templates/review.pt:193
+#: recensio.contenttypes:/browser/templates/review.pt:204
 msgid "citation_note"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/review.pt:219
+#: recensio.contenttypes:/browser/templates/review.pt:212
 #. Default: "URL:"
 msgid "url"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/review.pt:227
+#: recensio.contenttypes:/browser/templates/review.pt:220
 #. Default: "First published:"
 msgid "heading_first_published"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/review.pt:239
-#: recensio.contenttypes:/browser/templates/review.pt:250
+#: recensio.contenttypes:/browser/templates/review.pt:232
+#: recensio.contenttypes:/browser/templates/review.pt:243
 msgid "license-note-heading"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/review.pt:270
-#: recensio.contenttypes:/browser/templates/review.pt:272
+#: recensio.contenttypes:/browser/templates/review.pt:263
+#: recensio.contenttypes:/browser/templates/review.pt:265
 msgid "links-box-heading"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/review.pt:279
+#: recensio.contenttypes:/browser/templates/review.pt:272
 #. Default: "Diese Schrift ist online abrufbar"
 msgid "online_accessible"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/review.pt:287
+#: recensio.contenttypes:/browser/templates/review.pt:280
 #. Default: "Diese Schrift ist nicht online abrufbar"
 msgid "online_not_accessible"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/review.pt:290
+#: recensio.contenttypes:/browser/templates/review.pt:283
 #. Default: "Rezension/en zum praesentierten Werk"
 msgid "heading_online_reviews_of_presented_text"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/review.pt:303
+#: recensio.contenttypes:/browser/templates/review.pt:296
 #. Default: "Published reviews of the presented text"
 msgid "heading_published_reviews_of_presented_text"
 msgstr ""
 
 #: recensio.contenttypes:/browser/templates/review.pt:80
-#: recensio.contenttypes:/browser/templates/review.pt:125
+#: recensio.contenttypes:/browser/templates/review.pt:120
 msgid "Zum Volltext"
 msgstr ""
 
-#: recensio.contenttypes:/browser/templates/review.pt:85
-#. Default: "Kommentieren"
-msgid "label_jump_to_add_comment"
-msgstr ""
-
-#: recensio.contenttypes:/browser/templates/review.pt:96
+#: recensio.contenttypes:/browser/templates/review.pt:91
 #. Default: "Inhaltsverzeichnis anzeigen"
 msgid "show_reviewtoc_trigger"
 msgstr ""
@@ -646,6 +641,10 @@ msgstr ""
 
 #: recensio.contenttypes:/content/reviewjournal.py:49
 msgid "Title (journal)"
+msgstr ""
+
+#: recensio.contenttypes:/content/reviewmonograph.py:58
+msgid "Translated title"
 msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:1011
@@ -943,7 +942,7 @@ msgid "Email address (not publicly visible)"
 msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:505
-#: recensio.contenttypes:/browser/templates/review.pt:313
+#: recensio.contenttypes:/browser/templates/review.pt:306
 msgid "Personal webpage URL/URN"
 msgstr ""
 
@@ -1140,7 +1139,7 @@ msgid "Publisher (Online)"
 msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:939
-msgid "Additional titles (other languages)"
+msgid "Paralleltitel (andere Sprachen)"
 msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:941
@@ -1361,53 +1360,12 @@ msgstr ""
 msgid "Absenden"
 msgstr ""
 
-#: recensio.policy:/browser/templates/comments.pt:105
-#. Default: "Reply"
-msgid "label_reply"
-msgstr ""
-
-#: recensio.policy:/browser/templates/comments.pt:129
-#. Default: "Kommentieren"
-msgid "heading_commenting_explanation"
-msgstr ""
-
-#: recensio.policy:/browser/templates/comments.pt:132
-#. Default: "Benutzerrichtlinien"
-msgid "benutzerrichtlinien"
-msgstr ""
-
-#: recensio.policy:/browser/templates/comments.pt:135
-#. Default: "Sie haben hier die Gelegenheit, die Rezension/Pr\303\244sentation zu kommentieren. Daf\303\274r ist eine kurze, kostenlose Registrierung mit Namen und E-Mail-Adresse notwendig, die lediglich dazu dient, Missbrauch der Kommentarfunktion zu verhindern und den wissenschaftlichen Anspruch der Plattform zu wahren. <br /> Bitte beachten Sie, dass eingehende Kommentare vor der Ver\303\266ffentlichung auf die Einhaltung der ${benutzerrichtlinien} gepr\303\274ft werden. Aus diesem Grund k\303\266nnen 1 bis 3 Werktage vergehen, bis Ihr Kommentar auf ${portal_title} sichtbar wird. Dar\303\274ber hinaus gibt es die M\303\266glichkeit, der Redaktion als problematisch empfundene \303\204u\303\237erungen \303\274ber einen neben Kommentaren befindlichen Button zu melden. <br /> F\303\274r R\303\274ckfragen steht Ihnen die ${portal_title}-Redaktion jederzeit zur Verf\303\274gung:<br /> ${contact_addr}."
-msgid "commenting_explanation"
-msgstr ""
-
-#: recensio.policy:/browser/templates/comments.pt:139
-#. Default: "Add comment"
-msgid "label_add_comment"
-msgstr ""
-
-#: recensio.policy:/browser/templates/comments.pt:140
-#. Default: "You can add a comment by filling out the form below. Plain text formatting."
-msgid "description_add_comment"
-msgstr ""
-
-#: recensio.policy:/browser/templates/comments.pt:146
-#. Default: "All comments are published under the creative-commons-licence Attribution-NonCommercial-NoDerivs (CC-BY-NC-ND)"
-msgid "help_comment_licence"
-msgstr ""
-
-#: recensio.policy:/browser/templates/comments.pt:17
-#: recensio.policy:/browser/templates/comments.pt:118
-#. Default: "Log in to add comments"
-msgid "label_login_to_add_comments"
-msgstr ""
-
-#: recensio.policy:/browser/templates/comments.pt:70
+#: recensio.policy:/browser/templates/comments.pt:59
 #. Default: "Delete"
 msgid "label_delete"
 msgstr ""
 
-#: recensio.policy:/browser/templates/comments.pt:87
+#: recensio.policy:/browser/templates/comments.pt:76
 #: recensio.theme:/browser/templates/filtersearch.pt:43
 #: recensio.theme:/browser/templates/filtersearch.pt:82
 #: recensio.theme:/browser/templates/filtersearch.pt:88
@@ -1427,11 +1385,6 @@ msgstr ""
 #: recensio.theme:/skins/recensio_theme/search_form.pt:826
 #: recensio.theme:/skins/recensio_theme/search_form.pt:864
 msgid "${DYNAMIC_CONTENT}"
-msgstr ""
-
-#: recensio.policy:/browser/templates/comments.pt:94
-#. Default: "Notify portal owner about this comment"
-msgid "notify_portal_owner"
 msgstr ""
 
 #: recensio.policy:/browser/templates/footer.pt:29
@@ -2058,12 +2011,12 @@ msgstr ""
 msgid "Your subscription request has been sent. Please check your e-mail."
 msgstr ""
 
-#: recensio.theme:/browser/pdfgen.py:136
+#: recensio.theme:/browser/pdfgen.py:137
 #. Default: "citation style"
 msgid "label_citation_style"
 msgstr ""
 
-#: recensio.theme:/browser/pdfgen.py:68
+#: recensio.theme:/browser/pdfgen.py:69
 msgid "Creating the pdf has failed! Please try again or ask for support"
 msgstr ""
 
