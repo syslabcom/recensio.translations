@@ -69,14 +69,12 @@ msgstr "Author (Article)"
 
 #. Default: "Editor (article)"
 #: recensio.contenttypes:/browser/review.py:117
-#, fuzzy
 msgid "label_metadata_editor_article"
 msgstr "Title (Article)"
 
 #. Default: "Title (article)"
 #: recensio.contenttypes:/browser/review.py:119
 #: recensio.contenttypes:/browser/review.py:161
-#, fuzzy
 msgid "label_metadata_title_article"
 msgstr "Title (Article)"
 

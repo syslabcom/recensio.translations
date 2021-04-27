@@ -35,7 +35,6 @@ msgstr ""
 
 # Syslab: Where is this displayed?
 #. Default: "Preferred language"
-#, fuzzy
 msgid "label_preferred_language"
 msgstr ""
 "What language would you prefer for receiving information from us (about "

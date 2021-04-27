@@ -69,7 +69,6 @@ msgstr "Autor (Aufsatz)"
 
 #. Default: "Editor (article)"
 #: recensio.contenttypes:/browser/review.py:117
-#, fuzzy
 msgid "label_metadata_editor_article"
 msgstr "Titel (Aufsatz)"
 
@@ -1215,7 +1214,6 @@ msgstr "Schlagwörter"
 
 #. Default: "Mehrere Schlagw\303\266rter bitte untereinander (per Return-Taste) auflisten, keine Kommas verwenden."
 #: recensio.contenttypes:/content/schemata.py:827
-#, fuzzy
 msgid "description_subject"
 msgstr ""
 "Mehrere Schlagwörter bitte untereinander (per Return-Taste) auflisten, keine "
@@ -1304,7 +1302,6 @@ msgstr "Schreibweise frei."
 
 #. Default: "Mit gedr\303\274ckter Strg-Taste k\303\266nnen mehrere Zeilen gleichzeitig ausgew\303\244hlt werden."
 #: recensio.contenttypes:/content/schemata.py:98
-#, fuzzy
 msgid "description_ctrl_for_multiple"
 msgstr ""
 "Mit gedrückter Strg-Taste können mehrere Zeilen gleichzeitig ausgewählt "
@@ -2099,7 +2096,6 @@ msgid "label_abbrev_herausgeber"
 msgstr "(Hg.)"
 
 #: recensio.policy:/missing_18n_labels.py:43
-#, fuzzy
 msgid "label_abbrev_redaktion"
 msgstr "(Hg.)"
 
