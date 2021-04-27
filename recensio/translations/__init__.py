@@ -1,10 +1,10 @@
 # -*- extra stuff goes here -*-
-import sys
-
-import pkg_resources
-
 from zc.testbrowser.browser import Browser
 from zope.i18nmessageid import MessageFactory
+
+import pkg_resources
+import sys
+
 
 RecensioMessageFactory = MessageFactory("recensio")
 
@@ -14,9 +14,9 @@ def initialize(context):
 
 
 def podiff(vcsurl):
-    """ Shows differences between the po files in the working copy of this
-        package and their counterparts in the repository. Only cares
-        about msgid and msgstr, not about position in the file, comments, etc.
+    """Shows differences between the po files in the working copy of this
+    package and their counterparts in the repository. Only cares
+    about msgid and msgstr, not about position in the file, comments, etc.
     """
     import os, subprocess, tempfile, urllib, polib, re
     from mr.developer.common import which
