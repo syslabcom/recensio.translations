@@ -2123,25 +2123,41 @@ msgstr "Schlagw&ouml;rter:"
 msgid "label_modification_date"
 msgstr "Bearbeitungsdatum"
 
-#: recensio.policy:/missing_18n_labels.py:49
-msgid "label_participate"
-msgstr "FAQ"
-
 #: recensio.policy:/missing_18n_labels.py:5
 msgid "About us"
 msgstr "Über uns"
 
+#: recensio.policy:/missing_18n_labels.py:49
+msgid "label_nav_participate"
+msgstr "FAQ"
+
 #: recensio.policy:/missing_18n_labels.py:50
-msgid "label_presentations"
+msgid "label_nav_presentations"
 msgstr "Präsentationen"
 
 #: recensio.policy:/missing_18n_labels.py:51
-msgid "label_press"
+msgid "label_nav_press"
 msgstr "Presse"
 
 #: recensio.policy:/missing_18n_labels.py:52
-msgid "label_reviews"
+msgid "label_nav_reviews"
 msgstr "Rezensionen"
+
+msgid "label_nav_journals"
+msgstr "Zeitschriften"
+
+msgid "label_nav_authors"
+msgstr "Autoren"
+
+msgid "label_nav_search"
+msgstr "Suche"
+
+msgid "label_nav_themes"
+msgstr "Themen"
+
+msgid "label_nav_about_us"
+msgstr "Über uns"
+
 
 #: recensio.policy:/missing_18n_labels.py:53
 msgid "label_schema_presented_text"
