@@ -69,7 +69,6 @@ msgstr "Autor (Aufsatz)"
 
 #. Default: "Editor (article)"
 #: recensio.contenttypes:/browser/review.py:117
-#, fuzzy
 msgid "label_metadata_editor_article"
 msgstr "Titel (Aufsatz)"
 
@@ -1215,7 +1214,6 @@ msgstr "Schlagwörter"
 
 #. Default: "Mehrere Schlagw\303\266rter bitte untereinander (per Return-Taste) auflisten, keine Kommas verwenden."
 #: recensio.contenttypes:/content/schemata.py:827
-#, fuzzy
 msgid "description_subject"
 msgstr ""
 "Mehrere Schlagwörter bitte untereinander (per Return-Taste) auflisten, keine "
@@ -1304,7 +1302,6 @@ msgstr "Schreibweise frei."
 
 #. Default: "Mit gedr\303\274ckter Strg-Taste k\303\266nnen mehrere Zeilen gleichzeitig ausgew\303\244hlt werden."
 #: recensio.contenttypes:/content/schemata.py:98
-#, fuzzy
 msgid "description_ctrl_for_multiple"
 msgstr ""
 "Mit gedrückter Strg-Taste können mehrere Zeilen gleichzeitig ausgewählt "
@@ -2099,7 +2096,6 @@ msgid "label_abbrev_herausgeber"
 msgstr "(Hg.)"
 
 #: recensio.policy:/missing_18n_labels.py:43
-#, fuzzy
 msgid "label_abbrev_redaktion"
 msgstr "(Hg.)"
 
@@ -2127,25 +2123,41 @@ msgstr "Schlagw&ouml;rter:"
 msgid "label_modification_date"
 msgstr "Bearbeitungsdatum"
 
-#: recensio.policy:/missing_18n_labels.py:49
-msgid "label_participate"
-msgstr "FAQ"
-
 #: recensio.policy:/missing_18n_labels.py:5
 msgid "About us"
 msgstr "Über uns"
 
+#: recensio.policy:/missing_18n_labels.py:49
+msgid "label_nav_participate"
+msgstr "FAQ"
+
 #: recensio.policy:/missing_18n_labels.py:50
-msgid "label_presentations"
+msgid "label_nav_presentations"
 msgstr "Präsentationen"
 
 #: recensio.policy:/missing_18n_labels.py:51
-msgid "label_press"
+msgid "label_nav_press"
 msgstr "Presse"
 
 #: recensio.policy:/missing_18n_labels.py:52
-msgid "label_reviews"
+msgid "label_nav_reviews"
 msgstr "Rezensionen"
+
+msgid "label_nav_journals"
+msgstr "Zeitschriften"
+
+msgid "label_nav_authors"
+msgstr "Autoren"
+
+msgid "label_nav_search"
+msgstr "Suche"
+
+msgid "label_nav_themes"
+msgstr "Themen"
+
+msgid "label_nav_about_us"
+msgstr "Über uns"
+
 
 #: recensio.policy:/missing_18n_labels.py:53
 msgid "label_schema_presented_text"
