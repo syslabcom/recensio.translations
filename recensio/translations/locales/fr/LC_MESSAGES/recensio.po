@@ -2466,11 +2466,11 @@ msgstr ""
 
 #: recensio.theme:/browser/templates/authorsearch.pt:50
 msgid "Portal&uuml;bergreifender Autorenindex:"
-msgstr ""
+msgstr "Index d’auteurs multiPORTAILE:"
 
 #: recensio.theme:/browser/templates/authorsearch.pt:56
 msgid "authorsearch_placeholder"
-msgstr ""
+msgstr "Recherche l’index d’auteurs"
 
 #: recensio.theme:/browser/templates/authorsearch.pt:63
 msgid "Search"
@@ -2612,7 +2612,7 @@ msgstr "Parcourir"
 #. Default: "${number} matching reviews"
 #: recensio.theme:/browser/templates/topical.pt:43
 msgid "batch_x_reviews_matching_your_criteria"
-msgstr "${number} recensions correspondants"
+msgstr "${number} comptes rendus correspondants"
 
 #. Default: "Hier gelangen Sie zu einem Formular, mit dem Sie Ihren Aufsatz in einem Sammelband auf recensio.net pr\303\244sentieren k\303\266nnen."
 #: recensio.theme:/skins/recensio_theme/add_new_item.pt:108
@@ -2698,7 +2698,7 @@ msgstr ""
 #. Default: "Edit your search options"
 #: recensio.theme:/skins/recensio_theme/search.pt:100
 msgid "edit_your_search_options"
-msgstr "Définissez vos critères de recherche"
+msgstr "Redéfinissez vos critères de recherche"
 
 #. Default: "Search results"
 #: recensio.theme:/skins/recensio_theme/search.pt:128
@@ -2723,7 +2723,7 @@ msgstr "Recherche multiplatforme : "
 #. Default: "Search Site"
 #: recensio.theme:/skins/recensio_theme/search.pt:66
 msgid "title_search_title"
-msgstr "Rechercher dans le site"
+msgstr "Cherchez dans les recensions"
 
 #. Default: "Search"
 #: recensio.theme:/skins/recensio_theme/search.pt:74
