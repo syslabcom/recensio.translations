@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: Thu Jul  1 08:52:11 2021\n"
+"POT-Creation-Date: Thu Jul  1 09:39:24 2021\n"
 "PO-Revision-Date: 2011-11-08 12:01+0200\n"
 "Last-Translator: reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -41,192 +41,207 @@ msgstr ""
 "recensio.artium ist ein von der Deutschen Forschungsgemeinschaft gefördertes "
 "Projekt der Universitätsbibliothek Heidelberg."
 
-#: recensio.contenttypes:/browser/review.py:103
+#: recensio.contenttypes:/browser/review.py:104
 #: recensio.contenttypes:/content/schemata.py:1064
 msgid "Author (monograph)"
 msgstr "Autor (Monographie)"
 
 #. Default: "Editor (monograph)"
-#: recensio.contenttypes:/browser/review.py:105
+#: recensio.contenttypes:/browser/review.py:106
 msgid "Editor (monograph)"
 msgstr "Herausgeber (Monographie)"
 
 #. Default: "Language (article)"
-#: recensio.contenttypes:/browser/review.py:108
-#: recensio.contenttypes:/browser/review.py:142
+#: recensio.contenttypes:/browser/review.py:109
+#: recensio.contenttypes:/browser/review.py:143
 msgid "label_metadata_language_article"
 msgstr "Sprache (Aufsatz)"
 
 #. Default: "Author (article)"
-#: recensio.contenttypes:/browser/review.py:112
+#: recensio.contenttypes:/browser/review.py:113
 msgid "label_metadata_author_article"
 msgstr "Autor (Aufsatz)"
 
 #. Default: "Editor (article)"
-#: recensio.contenttypes:/browser/review.py:114
+#: recensio.contenttypes:/browser/review.py:115
 msgid "label_metadata_editor_article"
 msgstr "Titel (Aufsatz)"
 
 #. Default: "Title (article)"
-#: recensio.contenttypes:/browser/review.py:116
-#: recensio.contenttypes:/browser/review.py:158
+#: recensio.contenttypes:/browser/review.py:117
+#: recensio.contenttypes:/browser/review.py:159
 msgid "label_metadata_title_article"
 msgstr "Titel (Aufsatz)"
 
 #. Default: "Title (edited volume)"
-#: recensio.contenttypes:/browser/review.py:118
-#: recensio.contenttypes:/browser/review.py:165
+#: recensio.contenttypes:/browser/review.py:119
+#: recensio.contenttypes:/browser/review.py:166
 msgid "label_metadata_title_edited_volume"
 msgstr "Titel (Sammelband)"
 
 #. Default: "Name (Internet resource)"
-#: recensio.contenttypes:/browser/review.py:124
+#: recensio.contenttypes:/browser/review.py:125
 msgid "label_metadata_name_resource"
 msgstr "Name (Ressource)"
 
 #. Default: "Language (Internet resource)"
-#: recensio.contenttypes:/browser/review.py:128
+#: recensio.contenttypes:/browser/review.py:129
 msgid "label_metadata_language_internet_resource"
 msgstr "Sprache (Internetressource)"
 
 #. Default: "Language (Journal)"
-#: recensio.contenttypes:/browser/review.py:134
+#: recensio.contenttypes:/browser/review.py:135
 msgid "label_metadata_language_review_journal"
 msgstr "Sprache (Zeitschrift)"
 
 #. Default: "Editor"
-#: recensio.contenttypes:/browser/review.py:139
+#: recensio.contenttypes:/browser/review.py:140
 msgid "label_metadata_editor"
 msgstr "Herausgeber"
 
 #. Default: "Autor (Aufsatz)"
-#: recensio.contenttypes:/browser/review.py:146
+#: recensio.contenttypes:/browser/review.py:147
 msgid "label_metadata_authors_article"
 msgstr "Autor (Aufsatz)"
 
 #. Default: "Editor (edited volume)"
-#: recensio.contenttypes:/browser/review.py:149
+#: recensio.contenttypes:/browser/review.py:150
 msgid "label_metadata_editor_edited_volume"
 msgstr "Herausgeber (Sammelband)"
 
 #. Default: "Editor (journal)"
-#: recensio.contenttypes:/browser/review.py:154
+#: recensio.contenttypes:/browser/review.py:155
 msgid "label_metadata_editor_journal"
 msgstr "Herausgeber (Zeitschrift)"
 
 #. Default: "Subtitle (Article)"
-#: recensio.contenttypes:/browser/review.py:160
+#: recensio.contenttypes:/browser/review.py:161
 msgid "label_metadata_subtitle_article"
 msgstr "Untertitel (Aufsatz)"
 
 #. Default: "Subtitle (edited volume)"
-#: recensio.contenttypes:/browser/review.py:170
+#: recensio.contenttypes:/browser/review.py:171
 msgid "label_metadata_subtitle_edited_volume"
 msgstr "Untertitel (Sammelband)"
 
 #. Default: "Pages (review)"
-#: recensio.contenttypes:/browser/review.py:175
-#: recensio.contenttypes:/browser/review.py:211
+#: recensio.contenttypes:/browser/review.py:176
+#: recensio.contenttypes:/browser/review.py:227
 msgid "metadata_pages_review"
 msgstr "Seiten (Rezension)"
 
 #. Default: "\303\234bersetzter Titel (Aufsatz)"
-#: recensio.contenttypes:/browser/review.py:177
+#: recensio.contenttypes:/browser/review.py:178
 msgid "label_metadata_translated_title_article"
 msgstr "Übersetzter Titel (Aufsatz)"
 
-#: recensio.contenttypes:/browser/review.py:213
+#. Default: "URL (Sammelband)"
+#: recensio.contenttypes:/browser/review.py:183
+msgid "label_metadata_url_edited_volume"
+msgstr ""
+
+#. Default: "URN (Sammelband)"
+#: recensio.contenttypes:/browser/review.py:188
+msgid "label_metadata_urn_edited_volume"
+msgstr ""
+
+#. Default: "DOI (Sammelband)"
+#: recensio.contenttypes:/browser/review.py:193
+msgid "label_metadata_doi_edited_volume"
+msgstr ""
+
+#: recensio.contenttypes:/browser/review.py:229
 msgid "metadata_pages"
 msgstr "Seiten"
 
-#: recensio.contenttypes:/browser/review.py:216
+#: recensio.contenttypes:/browser/review.py:232
 msgid "metadata_pages_article"
 msgstr "Seiten (Aufsatz)"
 
-#: recensio.contenttypes:/browser/review.py:219
+#: recensio.contenttypes:/browser/review.py:235
 msgid "label_metadata_review_author"
 msgstr "Autor (Rezension)"
 
-#: recensio.contenttypes:/browser/review.py:222
+#: recensio.contenttypes:/browser/review.py:238
 msgid "label_metadata_presentation_author"
 msgstr "Autor (Präsentation)"
 
-#: recensio.contenttypes:/browser/review.py:240
+#: recensio.contenttypes:/browser/review.py:256
 msgid "metadata_review_type_code"
 msgstr "Dokumenttyp"
 
-#: recensio.contenttypes:/browser/review.py:243
+#: recensio.contenttypes:/browser/review.py:259
 msgid "label_metadata_reference_authors"
 msgstr "Bezugsautoren"
 
-#: recensio.contenttypes:/browser/review.py:246
+#: recensio.contenttypes:/browser/review.py:262
 msgid "label_metadata_institution"
 msgstr "Anbieter (Name/Institution)"
 
-#: recensio.contenttypes:/browser/review.py:249
+#: recensio.contenttypes:/browser/review.py:265
 msgid "metadata_recensio_id"
 msgstr "recensio-ID"
 
-#: recensio.contenttypes:/browser/review.py:30
+#: recensio.contenttypes:/browser/review.py:31
 msgid "Publication Title"
 msgstr "Titel der Veröffentlichung"
 
-#: recensio.contenttypes:/browser/review.py:31
+#: recensio.contenttypes:/browser/review.py:32
 msgid "heading_metadata_journal"
 msgstr "Zeitschrift"
 
-#: recensio.contenttypes:/browser/review.py:315
+#: recensio.contenttypes:/browser/review.py:33
+msgid "Volume Title"
+msgstr "Reihentitel"
+
+#: recensio.contenttypes:/browser/review.py:331
 #: recensio.contenttypes:/content/schemata.py:1393
 #: recensio.theme:/browser/templates/results-listing.pt:88
 #: recensio.theme:/browser/templates/topical.pt:122
 msgid "Dauerausstellung"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:32
-msgid "Volume Title"
-msgstr "Reihentitel"
-
-#: recensio.contenttypes:/browser/review.py:325
-msgid "label_metadata_recensio_date"
-msgstr "recensio-Datum"
-
-#: recensio.contenttypes:/browser/review.py:33
+#: recensio.contenttypes:/browser/review.py:34
 msgid "Issue Title"
 msgstr "Titel der Ausgabe"
 
-#: recensio.contenttypes:/browser/review.py:332
+#: recensio.contenttypes:/browser/review.py:341
+msgid "label_metadata_recensio_date"
+msgstr "recensio-Datum"
+
+#: recensio.contenttypes:/browser/review.py:348
 #: recensio.contenttypes:/content/schemata.py:102
 msgid "Subject classification"
 msgstr "Thematische Klassifikation"
 
-#: recensio.contenttypes:/browser/review.py:334
+#: recensio.contenttypes:/browser/review.py:350
 #: recensio.contenttypes:/content/schemata.py:104
 msgid "Time classification"
 msgstr "Zeitliche Klassifikation"
 
-#: recensio.contenttypes:/browser/review.py:336
+#: recensio.contenttypes:/browser/review.py:352
 #: recensio.contenttypes:/content/schemata.py:106
 msgid "Regional classification"
 msgstr "Regionale Klassifikation"
 
 #. Default: "Official year of publication"
-#: recensio.contenttypes:/browser/review.py:82
+#: recensio.contenttypes:/browser/review.py:83
 #: recensio.contenttypes:/content/volume.py:67
 msgid "label_metadata_official_year_of_publication"
 msgstr "Gezähltes Jahr"
 
 #. Default: "Language (review)"
-#: recensio.contenttypes:/browser/review.py:89
+#: recensio.contenttypes:/browser/review.py:90
 msgid "label_metadata_language_review"
 msgstr "Sprache (Rezension)"
 
 #. Default: "Language (presentation)"
-#: recensio.contenttypes:/browser/review.py:92
+#: recensio.contenttypes:/browser/review.py:93
 msgid "label_metadata_language_presentation"
 msgstr "Sprache (Präsentation)"
 
 #. Default: "Language (monograph)"
-#: recensio.contenttypes:/browser/review.py:98
+#: recensio.contenttypes:/browser/review.py:99
 msgid "label_metadata_language_monograph"
 msgstr "Sprache (Monographie)"
 
@@ -712,11 +727,11 @@ msgstr "http://creativecommons.org/licenses/by-nc-nd/3.0/de"
 msgid "license-note-presentation-url-url"
 msgstr "http://creativecommons.org/licenses/by-nc-nd/3.0/de"
 
-#: recensio.contenttypes:/content/reviewarticlecollection.py:111
+#: recensio.contenttypes:/content/reviewarticlecollection.py:112
 msgid "Herausgeber"
 msgstr ""
 
-#: recensio.contenttypes:/content/reviewarticlecollection.py:113
+#: recensio.contenttypes:/content/reviewarticlecollection.py:114
 #: recensio.contenttypes:/content/reviewarticlejournal.py:69
 msgid "Sprache (Aufsatz)"
 msgstr ""
@@ -743,7 +758,7 @@ msgstr "Untertitel (Sammelband)"
 msgid "Translated title (Edited Volume)"
 msgstr "Übersetzter Titel (Sammelband)"
 
-#: recensio.contenttypes:/content/reviewarticlecollection.py:96
+#: recensio.contenttypes:/content/reviewarticlecollection.py:97
 msgid "Autor(en) des rezensierten Aufsatzes"
 msgstr ""
 
