@@ -797,15 +797,15 @@ msgstr "With or without hyphens."
 
 #: recensio.contenttypes:/content/schemata.py:1040
 msgid "URL (Monographie)"
-msgstr "URL (monograph)"
+msgstr "URL (Monograph)"
 
 #: recensio.contenttypes:/content/schemata.py:1050
 msgid "URN (Monographie)"
-msgstr "URN (monograph)"
+msgstr "URN (Monograph)"
 
 #: recensio.contenttypes:/content/schemata.py:1058
 msgid "DOI (Monographie)"
-msgstr "DOI (monograph)"
+msgstr "DOI (Monograph)"
 
 #. Default: "Please fill in either authors OR editors (exception: Complete Works etc.)"
 #: recensio.contenttypes:/content/schemata.py:1073
@@ -1934,7 +1934,7 @@ msgstr "Presentation (article in edited volume)"
 #: recensio.policy:/missing_18n_labels.py:19
 #: recensio.theme:/skins/recensio_theme/add_new_item.pt:46
 msgid "Presentation Monograph"
-msgstr "Presentation (monograph)"
+msgstr "Presentation (Monograph)"
 
 #: recensio.policy:/missing_18n_labels.py:20
 #: recensio.theme:/skins/recensio_theme/add_new_item.pt:104
