@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: Thu Jul  1 09:39:24 2021\n"
+"POT-Creation-Date: Wed Jul  7 12:58:35 2021\n"
 "PO-Revision-Date: 2011-11-08 12:02+0200\n"
 "Last-Translator: reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -194,7 +194,7 @@ msgstr "Journal"
 msgid "Volume Title"
 msgstr "Title (Volume)"
 
-#: recensio.contenttypes:/browser/review.py:331
+#: recensio.contenttypes:/browser/review.py:335
 #: recensio.contenttypes:/content/schemata.py:1393
 #: recensio.theme:/browser/templates/results-listing.pt:88
 #: recensio.theme:/browser/templates/topical.pt:122
@@ -205,21 +205,21 @@ msgstr "Permanent Exhibition"
 msgid "Issue Title"
 msgstr "Title (Issue)"
 
-#: recensio.contenttypes:/browser/review.py:341
+#: recensio.contenttypes:/browser/review.py:345
 msgid "label_metadata_recensio_date"
 msgstr "recensio-Date"
 
-#: recensio.contenttypes:/browser/review.py:348
+#: recensio.contenttypes:/browser/review.py:352
 #: recensio.contenttypes:/content/schemata.py:102
 msgid "Subject classification"
 msgstr "Subject classification"
 
-#: recensio.contenttypes:/browser/review.py:350
+#: recensio.contenttypes:/browser/review.py:354
 #: recensio.contenttypes:/content/schemata.py:104
 msgid "Time classification"
 msgstr "Time classification"
 
-#: recensio.contenttypes:/browser/review.py:352
+#: recensio.contenttypes:/browser/review.py:356
 #: recensio.contenttypes:/content/schemata.py:106
 msgid "Regional classification"
 msgstr "Regional classification"
@@ -726,7 +726,7 @@ msgid "Herausgeber"
 msgstr ""
 
 #: recensio.contenttypes:/content/reviewarticlecollection.py:114
-#: recensio.contenttypes:/content/reviewarticlejournal.py:69
+#: recensio.contenttypes:/content/reviewarticlejournal.py:80
 msgid "Sprache (Aufsatz)"
 msgstr ""
 
@@ -759,7 +759,13 @@ msgstr ""
 msgid "Editor (name or institution)"
 msgstr "Editor (name or institution)"
 
-#: recensio.contenttypes:/content/reviewjournal.py:51
+#. Default: "Translated title (Journal)"
+#: recensio.contenttypes:/content/reviewarticlejournal.py:63
+#: recensio.contenttypes:/content/reviewjournal.py:50
+msgid "label_translated_title_journal"
+msgstr ""
+
+#: recensio.contenttypes:/content/reviewjournal.py:62
 msgid "Title (journal)"
 msgstr "Title (Journal)"
 

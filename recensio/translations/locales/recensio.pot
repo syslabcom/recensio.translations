@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: Thu Jul  1 09:39:24 2021\n"
+"POT-Creation-Date: Wed Jul  7 12:58:35 2021\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -186,7 +186,7 @@ msgstr ""
 msgid "Volume Title"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:331
+#: recensio.contenttypes:/browser/review.py:335
 #: recensio.contenttypes:/content/schemata.py:1393
 #: recensio.theme:/browser/templates/results-listing.pt:88
 #: recensio.theme:/browser/templates/topical.pt:122
@@ -197,21 +197,21 @@ msgstr ""
 msgid "Issue Title"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:341
+#: recensio.contenttypes:/browser/review.py:345
 msgid "label_metadata_recensio_date"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:348
+#: recensio.contenttypes:/browser/review.py:352
 #: recensio.contenttypes:/content/schemata.py:102
 msgid "Subject classification"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:350
+#: recensio.contenttypes:/browser/review.py:354
 #: recensio.contenttypes:/content/schemata.py:104
 msgid "Time classification"
 msgstr ""
 
-#: recensio.contenttypes:/browser/review.py:352
+#: recensio.contenttypes:/browser/review.py:356
 #: recensio.contenttypes:/content/schemata.py:106
 msgid "Regional classification"
 msgstr ""
@@ -639,7 +639,7 @@ msgid "Herausgeber"
 msgstr ""
 
 #: recensio.contenttypes:/content/reviewarticlecollection.py:114
-#: recensio.contenttypes:/content/reviewarticlejournal.py:69
+#: recensio.contenttypes:/content/reviewarticlejournal.py:80
 msgid "Sprache (Aufsatz)"
 msgstr ""
 
@@ -672,7 +672,13 @@ msgstr ""
 msgid "Editor (name or institution)"
 msgstr ""
 
-#: recensio.contenttypes:/content/reviewjournal.py:51
+#: recensio.contenttypes:/content/reviewarticlejournal.py:63
+#: recensio.contenttypes:/content/reviewjournal.py:50
+#. Default: "Translated title (Journal)"
+msgid "label_translated_title_journal"
+msgstr ""
+
+#: recensio.contenttypes:/content/reviewjournal.py:62
 msgid "Title (journal)"
 msgstr ""
 
