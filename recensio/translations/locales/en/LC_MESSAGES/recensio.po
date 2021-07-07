@@ -761,7 +761,7 @@ msgstr "Editor (name or institution)"
 
 #: recensio.contenttypes:/content/reviewjournal.py:51
 msgid "Title (journal)"
-msgstr "Title (journal)"
+msgstr "Title (Journal)"
 
 #: recensio.contenttypes:/content/reviewmonograph.py:58
 #: recensio.contenttypes:/content/schemata.py:1245
@@ -839,15 +839,15 @@ msgstr "Language(s) of the presented resource"
 
 #: recensio.contenttypes:/content/schemata.py:1135
 msgid "URL (Zeitschrift)"
-msgstr "URL (journal)"
+msgstr "URL (Journal)"
 
 #: recensio.contenttypes:/content/schemata.py:1145
 msgid "URN (Zeitschrift)"
-msgstr "URN (journal)"
+msgstr "URN (Journal)"
 
 #: recensio.contenttypes:/content/schemata.py:1153
 msgid "DOI (Zeitschrift)"
-msgstr "DOI (journal)"
+msgstr "DOI (Journal)"
 
 #: recensio.contenttypes:/content/schemata.py:1161
 msgid "Shortname"

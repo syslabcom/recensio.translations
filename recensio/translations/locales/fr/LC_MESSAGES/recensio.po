@@ -800,15 +800,15 @@ msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:1040
 msgid "URL (Monographie)"
-msgstr ""
+msgstr "URL (monographie)"
 
 #: recensio.contenttypes:/content/schemata.py:1050
 msgid "URN (Monographie)"
-msgstr ""
+msgstr "URN (monographie)"
 
 #: recensio.contenttypes:/content/schemata.py:1058
 msgid "DOI (Monographie)"
-msgstr ""
+msgstr "DOI (monographie)"
 
 #. Default: "Please fill in either authors OR editors (exception: Complete Works etc.)"
 #: recensio.contenttypes:/content/schemata.py:1073
