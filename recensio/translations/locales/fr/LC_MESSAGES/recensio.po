@@ -97,7 +97,7 @@ msgstr "Directeur de publication"
 #. Default: "Autor (Aufsatz)"
 #: recensio.contenttypes:/browser/review.py:147
 msgid "label_metadata_authors_article"
-msgstr ""
+msgstr "Auteur (article)"
 
 #. Default: "Editor (edited volume)"
 #: recensio.contenttypes:/browser/review.py:150
@@ -117,13 +117,13 @@ msgstr "Sous-titre (article)"
 #. Default: "Subtitle (edited volume)"
 #: recensio.contenttypes:/browser/review.py:171
 msgid "label_metadata_subtitle_edited_volume"
-msgstr ""
+msgstr "Sous-titre (recueil)"
 
 #. Default: "Pages (review)"
 #: recensio.contenttypes:/browser/review.py:176
 #: recensio.contenttypes:/browser/review.py:227
 msgid "metadata_pages_review"
-msgstr ""
+msgstr "Pages (recension)"
 
 #. Default: "\303\234bersetzter Titel (Aufsatz)"
 #: recensio.contenttypes:/browser/review.py:178
@@ -151,7 +151,7 @@ msgstr "Pages"
 
 #: recensio.contenttypes:/browser/review.py:232
 msgid "metadata_pages_article"
-msgstr ""
+msgstr "Pages (article)"
 
 #: recensio.contenttypes:/browser/review.py:235
 msgid "label_metadata_review_author"
@@ -753,7 +753,7 @@ msgstr ""
 #. Default: "Subtitle (Edited Volume)"
 #: recensio.contenttypes:/content/reviewarticlecollection.py:77
 msgid "subtitle_edited_volume"
-msgstr ""
+msgstr "Sous-titre (recueil)"
 
 #: recensio.contenttypes:/content/reviewarticlecollection.py:87
 msgid "Translated title (Edited Volume)"

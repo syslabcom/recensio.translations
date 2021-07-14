@@ -77,7 +77,7 @@ msgstr "Title (Article)"
 #: recensio.contenttypes:/browser/review.py:119
 #: recensio.contenttypes:/browser/review.py:166
 msgid "label_metadata_title_edited_volume"
-msgstr "Title (Edited Volume)"
+msgstr "Title (Edited volume)"
 
 #. Default: "Name (Internet resource)"
 #: recensio.contenttypes:/browser/review.py:125
@@ -107,7 +107,7 @@ msgstr "Author (Article)"
 #. Default: "Editor (edited volume)"
 #: recensio.contenttypes:/browser/review.py:150
 msgid "label_metadata_editor_edited_volume"
-msgstr "Editor (Edited Volume)"
+msgstr "Editor (Edited volume)"
 
 #. Default: "Editor (journal)"
 #: recensio.contenttypes:/browser/review.py:155
@@ -122,7 +122,7 @@ msgstr "Subtitle (Article)"
 #. Default: "Subtitle (edited volume)"
 #: recensio.contenttypes:/browser/review.py:171
 msgid "label_metadata_subtitle_edited_volume"
-msgstr "Subtitle (Edited Volume)"
+msgstr "Subtitle (Edited volume)"
 
 #. Default: "Pages (review)"
 #: recensio.contenttypes:/browser/review.py:176
@@ -138,17 +138,17 @@ msgstr "Translated title (Article)"
 #. Default: "URL (Sammelband)"
 #: recensio.contenttypes:/browser/review.py:183
 msgid "label_metadata_url_edited_volume"
-msgstr "URL (Edited Volume)"
+msgstr "URL (Edited volume)"
 
 #. Default: "URN (Sammelband)"
 #: recensio.contenttypes:/browser/review.py:188
 msgid "label_metadata_urn_edited_volume"
-msgstr "URN (Edited Volume)"
+msgstr "URN (Edited volume)"
 
 #. Default: "DOI (Sammelband)"
 #: recensio.contenttypes:/browser/review.py:193
 msgid "label_metadata_doi_edited_volume"
-msgstr "DOI (Edited Volume)"
+msgstr "DOI (Edited volume)"
 
 #: recensio.contenttypes:/browser/review.py:229
 msgid "metadata_pages"
@@ -739,16 +739,16 @@ msgstr ""
 #. Default: "Title (Edited Volume)"
 #: recensio.contenttypes:/content/reviewarticlecollection.py:69
 msgid "title_edited_volume"
-msgstr ""
+msgstr "Title (Edited volume)"
 
 #. Default: "Subtitle (Edited Volume)"
 #: recensio.contenttypes:/content/reviewarticlecollection.py:77
 msgid "subtitle_edited_volume"
-msgstr ""
+msgstr "Subtitle (Edited volume)"
 
 #: recensio.contenttypes:/content/reviewarticlecollection.py:87
 msgid "Translated title (Edited Volume)"
-msgstr "Translated title (Edited Volume)"
+msgstr "Translated title (Edited volume)"
 
 #: recensio.contenttypes:/content/reviewarticlecollection.py:97
 msgid "Autor(en) des rezensierten Aufsatzes"
@@ -763,7 +763,7 @@ msgstr "Editor (name or institution)"
 #: recensio.contenttypes:/content/reviewarticlejournal.py:63
 #: recensio.contenttypes:/content/reviewjournal.py:50
 msgid "label_translated_title_journal"
-msgstr ""
+msgstr "Translated title (Journal)"
 
 #: recensio.contenttypes:/content/reviewjournal.py:62
 msgid "Title (journal)"
@@ -1979,11 +1979,11 @@ msgstr "Review (Article Journal)"
 
 #: recensio.policy:/missing_18n_labels.py:30
 msgid "Review Article Collection"
-msgstr "Review (Article Edited Volume)"
+msgstr "Review (Article Edited volume)"
 
 #: recensio.policy:/missing_18n_labels.py:31
 msgid "Review Article Edited Volume"
-msgstr "Review (Article Edited Volume)"
+msgstr "Review (Article Edited volume)"
 
 #: recensio.policy:/missing_18n_labels.py:32
 msgid "Review Exhibition"
