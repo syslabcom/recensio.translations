@@ -926,11 +926,11 @@ msgstr ""
 
 #: recensio.contenttypes:/content/schemata.py:1292
 msgid "label_page_start_of_article_in_journal_or_edited_volume"
-msgstr ""
+msgstr "Première page"
 
 #: recensio.contenttypes:/content/schemata.py:1301
 msgid "label_page_end_of_article_in_journal_or_edited_volume"
-msgstr ""
+msgstr "Dernière page"
 
 #: recensio.contenttypes:/content/schemata.py:1316
 msgid "Ausstellende Institution"
