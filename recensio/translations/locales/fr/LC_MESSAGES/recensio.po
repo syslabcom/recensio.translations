@@ -102,7 +102,7 @@ msgstr "Auteur (article)"
 #. Default: "Editor (edited volume)"
 #: recensio.contenttypes:/browser/review.py:150
 msgid "label_metadata_editor_edited_volume"
-msgstr ""
+msgstr "Directeur (recueil)"
 
 #. Default: "Editor (journal)"
 #: recensio.contenttypes:/browser/review.py:155
