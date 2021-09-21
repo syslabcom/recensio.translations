@@ -2472,7 +2472,7 @@ msgstr ""
 #: recensio.theme:/browser/listing.py:52
 #: recensio.theme:/browser/templates/homepage.pt:77
 msgid "label_latest_review_journals"
-msgstr "Neueste Rezensionsteile online"
+msgstr "Neueste Ausgaben online"
 
 #: recensio.theme:/browser/listing.py:72
 #: recensio.theme:/browser/templates/homepage.pt:31
@@ -2683,7 +2683,7 @@ msgstr "Relevanz: ${percentage}"
 #. Default: "Sort by"
 #: recensio.theme:/browser/templates/sorting-menu.pt:7
 msgid "sort_by"
-msgstr ""
+msgstr "Ergebnisse sortieren nach"
 
 #: recensio.theme:/browser/templates/topical.pt:227
 #: recensio.theme:/browser/templates/languagefilter.pt:29

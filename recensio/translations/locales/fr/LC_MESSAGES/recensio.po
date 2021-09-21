@@ -2421,7 +2421,7 @@ msgstr ""
 #: recensio.theme:/browser/listing.py:52
 #: recensio.theme:/browser/templates/homepage.pt:77
 msgid "label_latest_review_journals"
-msgstr "Dernières rubriques en ligne"
+msgstr "Dernièrs numéros en ligne"
 
 #: recensio.theme:/browser/listing.py:72
 #: recensio.theme:/browser/templates/homepage.pt:31
@@ -2633,7 +2633,7 @@ msgstr "Pertinence : ${percentage} %"
 #. Default: "Sort by"
 #: recensio.theme:/browser/templates/sorting-menu.pt:7
 msgid "sort_by"
-msgstr ""
+msgstr "Trier les résultats par"
 
 #: recensio.theme:/browser/templates/topical.pt:227
 #: recensio.theme:/browser/templates/languagefilter.pt:29
@@ -2655,7 +2655,7 @@ msgstr "Parcourir"
 #: recensio.theme:/browser/templates/topical.pt:43
 #: recensio.theme:/skins/recensio_theme/search.pt:134
 msgid "batch_x_reviews_matching_your_criteria"
-msgstr "${number} comptes rendus correspondants"
+msgstr "${number} recensions correspondants"
 
 #. Default: "Hier gelangen Sie zu einem Formular, mit dem Sie Ihren Aufsatz in einem Sammelband auf recensio.net pr\303\244sentieren k\303\266nnen."
 #: recensio.theme:/skins/recensio_theme/add_new_item.pt:108

@@ -2364,12 +2364,12 @@ msgstr ""
 #: recensio.theme:/browser/listing.py:52
 #: recensio.theme:/browser/templates/homepage.pt:77
 msgid "label_latest_review_journals"
-msgstr "latest review sections online"
+msgstr "Latest issues online"
 
 #: recensio.theme:/browser/listing.py:72
 #: recensio.theme:/browser/templates/homepage.pt:31
 msgid "label_latest_reviews"
-msgstr "latest reviews online"
+msgstr "Latest reviews online"
 
 #: recensio.theme:/browser/listing.py:96
 #: recensio.theme:/skins/recensio_theme/search_form.pt:785
@@ -2568,7 +2568,7 @@ msgstr "Relevance:"
 #. Default: "Sort by"
 #: recensio.theme:/browser/templates/sorting-menu.pt:7
 msgid "sort_by"
-msgstr ""
+msgstr "Sort results by"
 
 #: recensio.theme:/browser/templates/topical.pt:227
 #: recensio.theme:/browser/templates/languagefilter.pt:29
