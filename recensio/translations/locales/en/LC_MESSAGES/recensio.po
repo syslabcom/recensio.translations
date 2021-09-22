@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Recensio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: Wed Jul  7 12:58:35 2021\n"
+"POT-Creation-Date: Wed Sep 22 10:47:44 2021\n"
 "PO-Revision-Date: 2011-11-08 12:02+0200\n"
 "Last-Translator: reinhardt <reinhardt@syslab.com>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -194,9 +194,9 @@ msgstr "Journal"
 msgid "Volume Title"
 msgstr "Title (Volume)"
 
-#: recensio.contenttypes:/browser/review.py:335
+#: recensio.contenttypes:/browser/review.py:336
 #: recensio.contenttypes:/content/schemata.py:1393
-#: recensio.theme:/browser/templates/results-listing.pt:88
+#: recensio.theme:/browser/templates/results-listing.pt:86
 #: recensio.theme:/browser/templates/topical.pt:122
 msgid "Dauerausstellung"
 msgstr "Permanent Exhibition"
@@ -205,21 +205,21 @@ msgstr "Permanent Exhibition"
 msgid "Issue Title"
 msgstr "Title (Issue)"
 
-#: recensio.contenttypes:/browser/review.py:345
+#: recensio.contenttypes:/browser/review.py:346
 msgid "label_metadata_recensio_date"
 msgstr "recensio-Date"
 
-#: recensio.contenttypes:/browser/review.py:352
+#: recensio.contenttypes:/browser/review.py:353
 #: recensio.contenttypes:/content/schemata.py:102
 msgid "Subject classification"
 msgstr "Subject classification"
 
-#: recensio.contenttypes:/browser/review.py:354
+#: recensio.contenttypes:/browser/review.py:355
 #: recensio.contenttypes:/content/schemata.py:104
 msgid "Time classification"
 msgstr "Time classification"
 
-#: recensio.contenttypes:/browser/review.py:356
+#: recensio.contenttypes:/browser/review.py:357
 #: recensio.contenttypes:/content/schemata.py:106
 msgid "Regional classification"
 msgstr "Regional classification"
@@ -1637,7 +1637,7 @@ msgid "label_delete"
 msgstr "Delete"
 
 #: recensio.policy:/browser/templates/comments.pt:76
-#: recensio.theme:/browser/templates/results-listing.pt:63
+#: recensio.theme:/browser/templates/results-listing.pt:61
 #: recensio.theme:/browser/templates/topical.pt:90
 #: recensio.theme:/browser/templates/topical.pt:201
 #: recensio.theme:/browser/templates/languagefilter.pt:17
@@ -2051,7 +2051,7 @@ msgid "label_effective_date"
 msgstr "Publication date"
 
 #: recensio.policy:/missing_18n_labels.py:48
-#: recensio.theme:/browser/templates/results-listing.pt:140
+#: recensio.theme:/browser/templates/results-listing.pt:138
 #: recensio.theme:/browser/templates/topical.pt:161
 msgid "label_filed_under"
 msgstr "Subject headings:"
@@ -2073,6 +2073,7 @@ msgid "label_nav_press"
 msgstr "Press"
 
 #: recensio.policy:/missing_18n_labels.py:53
+#: recensio.theme:/browser/listing.py:90
 msgid "label_nav_reviews"
 msgstr "Reviews"
 
@@ -2267,12 +2268,12 @@ msgid "rss_feeds"
 msgstr "RSS feeds"
 
 #: recensio.policy:/missing_18n_labels.py:91
-#: recensio.theme:/browser/templates/results-listing.pt:91
+#: recensio.theme:/browser/templates/results-listing.pt:89
 msgid "text_in"
 msgstr "in:"
 
 #: recensio.policy:/missing_18n_labels.py:92
-#: recensio.theme:/browser/templates/results-listing.pt:100
+#: recensio.theme:/browser/templates/results-listing.pt:98
 msgid "text_pages"
 msgstr "p."
 
@@ -2353,28 +2354,28 @@ msgstr "Type the code from the picture shown below or from the audio."
 msgid "name"
 msgstr "name"
 
-#: recensio.theme:/browser/listing.py:101
+#: recensio.theme:/browser/listing.py:100
+#: recensio.theme:/skins/recensio_theme/search_form.pt:785
+msgid "Relevance"
+msgstr "Relevance"
+
+#: recensio.theme:/browser/listing.py:105
 msgid "Year Of Publication Title (younger first)"
 msgstr "Year of publication Title (newest first)"
 
-#: recensio.theme:/browser/listing.py:106
+#: recensio.theme:/browser/listing.py:110
 msgid "Year Of Publication Title (older first)"
 msgstr "Year of publication Title (oldest first)"
 
-#: recensio.theme:/browser/listing.py:52
+#: recensio.theme:/browser/listing.py:50
 #: recensio.theme:/browser/templates/homepage.pt:77
 msgid "label_latest_review_journals"
 msgstr "Latest issues online"
 
-#: recensio.theme:/browser/listing.py:72
+#: recensio.theme:/browser/listing.py:69
 #: recensio.theme:/browser/templates/homepage.pt:31
 msgid "label_latest_reviews"
 msgstr "Latest reviews online"
-
-#: recensio.theme:/browser/listing.py:96
-#: recensio.theme:/skins/recensio_theme/search_form.pt:785
-msgid "Relevance"
-msgstr "Relevance"
 
 #: recensio.theme:/browser/newsletter.py:44
 msgid "You did not enter a valid email address."
@@ -2476,6 +2477,19 @@ msgstr "All reviews by this author."
 msgid "heading_participating_publications"
 msgstr "Participating journals"
 
+#. Default: "Search results"
+#: recensio.theme:/browser/templates/latest-items.pt:23
+#: recensio.theme:/skins/recensio_theme/search.pt:128
+msgid "heading_search_results"
+msgstr "Search results"
+
+#. Default: "${number} reviews matching"
+#: recensio.theme:/browser/templates/latest-items.pt:29
+#: recensio.theme:/browser/templates/topical.pt:43
+#: recensio.theme:/skins/recensio_theme/search.pt:134
+msgid "batch_x_reviews_matching_your_criteria"
+msgstr "${number} reviews matching"
+
 #. Default: "E-mail address"
 #: recensio.theme:/browser/templates/newsletter.pt:24
 msgid "portlet_newsletter_email"
@@ -2531,25 +2545,25 @@ msgid "description_publications"
 msgstr "List of journals providing their reviews"
 
 #. Default: "Reviewed by ${review_authors}"
-#: recensio.theme:/browser/templates/results-listing.pt:105
+#: recensio.theme:/browser/templates/results-listing.pt:103
 #: recensio.theme:/browser/templates/topical.pt:127
 msgid "reviewed_by"
 msgstr "reviewed by ${review_authors}"
 
-#. Default: "in: ${get_publication_title}, ${get_volume_title}, ${get_issue_title}"
-#: recensio.theme:/browser/templates/results-listing.pt:107
+#. Default: "in: ${publication_volume_issue}"
+#: recensio.theme:/browser/templates/results-listing.pt:105
 #: recensio.theme:/browser/templates/topical.pt:129
 msgid "source_journal"
-msgstr "in: ${get_publication_title}, ${get_volume_title}, ${get_issue_title}"
+msgstr "in: ${publication_volume_issue}"
 
 #. Default: "Presented by ${review_authors}"
-#: recensio.theme:/browser/templates/results-listing.pt:115
+#: recensio.theme:/browser/templates/results-listing.pt:113
 #: recensio.theme:/browser/templates/topical.pt:136
 msgid "presented_by"
 msgstr "presented by ${review_authors}"
 
 #. Default: "Published"
-#: recensio.theme:/browser/templates/results-listing.pt:128
+#: recensio.theme:/browser/templates/results-listing.pt:126
 #: recensio.theme:/browser/templates/topical.pt:149
 msgid "box_effective"
 msgstr "published"
@@ -2560,7 +2574,7 @@ msgid "title_rss_feed"
 msgstr "Subscribe to an RSS feed of these search terms"
 
 #. Default: "Relevance: ${percentage}%"
-#: recensio.theme:/browser/templates/results-listing.pt:157
+#: recensio.theme:/browser/templates/results-listing.pt:155
 #: recensio.theme:/browser/templates/topical.pt:178
 msgid "label_relevance_percentage"
 msgstr "Relevance:"
@@ -2585,12 +2599,6 @@ msgstr "More..."
 #: recensio.theme:/browser/templates/topical.pt:37
 msgid "heading_browsing_results"
 msgstr "Content Browsing"
-
-#. Default: "${number} matching reviews"
-#: recensio.theme:/browser/templates/topical.pt:43
-#: recensio.theme:/skins/recensio_theme/search.pt:134
-msgid "batch_x_reviews_matching_your_criteria"
-msgstr "${number} reviews matching"
 
 #. Default: "Hier gelangen Sie zu einem Formular, mit dem Sie Ihren Aufsatz in einem Sammelband auf recensio.net pr\303\244sentieren k\303\266nnen."
 #: recensio.theme:/skins/recensio_theme/add_new_item.pt:108
@@ -2673,11 +2681,6 @@ msgstr ""
 #: recensio.theme:/skins/recensio_theme/search.pt:100
 msgid "edit_your_search_options"
 msgstr "Refine Advanced Search"
-
-#. Default: "Search results"
-#: recensio.theme:/skins/recensio_theme/search.pt:128
-msgid "heading_search_results"
-msgstr "Search results"
 
 #. Default: "No results were found."
 #: recensio.theme:/skins/recensio_theme/search.pt:150
