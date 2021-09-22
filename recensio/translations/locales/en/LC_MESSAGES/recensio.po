@@ -2355,11 +2355,11 @@ msgstr "name"
 
 #: recensio.theme:/browser/listing.py:101
 msgid "Year Of Publication Title (younger first)"
-msgstr ""
+msgstr "Year of publication Title (newest first)"
 
 #: recensio.theme:/browser/listing.py:106
 msgid "Year Of Publication Title (older first)"
-msgstr ""
+msgstr "Year of publication Title (oldest first)"
 
 #: recensio.theme:/browser/listing.py:52
 #: recensio.theme:/browser/templates/homepage.pt:77

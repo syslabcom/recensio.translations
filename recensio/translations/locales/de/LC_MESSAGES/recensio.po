@@ -2463,11 +2463,11 @@ msgstr "Name"
 
 #: recensio.theme:/browser/listing.py:101
 msgid "Year Of Publication Title (younger first)"
-msgstr ""
+msgstr "Erscheinungsjahr Titel (jüngere zuerst)"
 
 #: recensio.theme:/browser/listing.py:106
 msgid "Year Of Publication Title (older first)"
-msgstr ""
+msgstr "Erscheinungsjahr Titel (ältestes zuerst)"
 
 #: recensio.theme:/browser/listing.py:52
 #: recensio.theme:/browser/templates/homepage.pt:77
@@ -3032,7 +3032,7 @@ msgstr "Suchergebnisse anhand des ausgewählten Kriteriums sortieren"
 
 #: recensio.theme:/skins/recensio_theme/search_form.pt:788
 msgid "Year Of Publication Title"
-msgstr ""
+msgstr "Erscheinungsjahr Titel"
 
 #. Default: "Language of the Review"
 #: recensio.theme:/skins/recensio_theme/search_form.pt:802
