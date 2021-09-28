@@ -2545,7 +2545,7 @@ msgstr "Revues partenaires"
 #: recensio.theme:/browser/templates/latest-items.pt:23
 #: recensio.theme:/skins/recensio_theme/search.pt:128
 msgid "heading_search_results"
-msgstr "Rechercher"
+msgstr "Résultats de recherche"
 
 #. Default: "${number} reviews matching"
 #: recensio.theme:/browser/templates/latest-items.pt:29
