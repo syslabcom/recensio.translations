@@ -2142,7 +2142,7 @@ msgstr "Auteurs"
 
 #: recensio.policy:/missing_18n_labels.py:56
 msgid "label_nav_search"
-msgstr "Rechercher"
+msgstr "Recherche"
 
 #: recensio.policy:/missing_18n_labels.py:57
 msgid "label_nav_themes"
