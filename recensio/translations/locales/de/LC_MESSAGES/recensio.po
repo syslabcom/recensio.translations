@@ -2820,7 +2820,7 @@ msgstr ""
 #: recensio.theme:/skins/recensio_theme/search_form.pt:604
 #: recensio.theme:/skins/recensio_theme/search_form.pt:904
 msgid "label_search"
-msgstr "suchen"
+msgstr "Suchen"
 
 #. Default: "Advanced Search"
 #: recensio.theme:/skins/recensio_theme/search.pt:80
