@@ -3116,11 +3116,11 @@ msgstr "Präsentation erstellen"
 #~ msgid "search_results_advanced"
 #~ msgstr "Präzisere Suchmöglichkeiten bietet Ihnen die ${advanced_search}"
 
-#~ msgid "Creation Date"
-#~ msgstr "Erstellungsdatum"
+msgid "Creation Date"
+msgstr "Erstellungsdatum"
 
-#~ msgid "Modification Date"
-#~ msgstr "Änderungszeitpunkt"
+msgid "Modification Date"
+msgstr "Änderungszeitpunkt"
 
 #~ msgid "label_secondary_nav_concept"
 #~ msgstr "Konzept"

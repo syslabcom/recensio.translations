@@ -2998,11 +2998,11 @@ msgstr "create a presentation"
 #~ msgid "search_results_advanced"
 #~ msgstr "For more precise search options use the ${advanced_search}"
 
-#~ msgid "Creation Date"
-#~ msgstr "Date of creation"
+msgid "Creation Date"
+msgstr "Date of creation"
 
-#~ msgid "Modification Date"
-#~ msgstr "Date of modification"
+msgid "Modification Date"
+msgstr "Date of modification"
 
 #~ msgid "label_secondary_nav_concept"
 #~ msgstr "Concept"
